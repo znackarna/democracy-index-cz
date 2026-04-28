@@ -21,7 +21,15 @@ Keep an article if it plausibly relates to **institutional functioning of Czech 
 
 ## What to drop
 
-Drop without remorse: pure sports, lifestyle, weather, celebrity, foreign politics with no CZ angle, market/stock news with no political-institutional angle, generic crime, traffic, opinion essays without a concrete event, clickbait.
+Drop without remorse:
+- Pure sports, lifestyle, weather, celebrity, market/stock news with no political-institutional angle, generic crime, traffic, clickbait
+- Foreign politics with no CZ angle
+- Opinion essays / op-eds without a concrete new event
+- **Routine internal party events** — leadership elections at party congresses (sjezd, kongres), internal coalition reshuffles without institutional impact, candidate nominations to non-state bodies. These are not events the index tracks.
+- **Ceremonial / standard diplomatic acts** — signing of routine international agreements without political controversy, diplomatic visits, formal acceptances. Drop unless there is a specific institutional friction or precedent.
+- **Background context articles** — analyses of trends, retrospectives, "co bude dál" speculation, polling without an event trigger.
+
+If the article is about a **process** (legal, institutional, judicial) that is concrete and dated, keep it. If it's about **how things feel**, drop it.
 
 ## Calibration rules
 

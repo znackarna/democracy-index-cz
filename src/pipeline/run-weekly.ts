@@ -65,7 +65,9 @@ export async function runWeekly(options: RunWeeklyOptions): Promise<RunWeeklyRes
   // 2. Pre-filter via Haiku (or skip in plumbing-test mode).
   const preFiltered = options.skipLlm ? [] : await preFilter(articles);
 
-  // 3. Classify via Sonnet (or skip).
+  // 3. Classify via Sonnet (or skip). Dedupe is run inside extractEvents
+  // by default — events from different RSS outlets describing the same
+  // incident are merged before validation.
   const candidateEvents = options.skipLlm
     ? []
     : await extractEvents(preFiltered, { week: options.week, now });

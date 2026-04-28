@@ -3,6 +3,7 @@ import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { callClaudeJson, SONNET_MODEL } from '../lib/claude';
+import { dedupeEvents } from './dedupe';
 import {
   PILLARS,
   type Direction,
@@ -97,6 +98,8 @@ export interface ExtractOptions {
   now?: Date;
   /** Starting sequence number for event IDs (default 1). */
   startSeq?: number;
+  /** Disable post-classification dedupe — used in tests for clarity. */
+  skipDedupe?: boolean;
 }
 
 export async function extractEvents(
@@ -129,6 +132,8 @@ export async function extractEvents(
       classificationPrompt,
       pillarsContext,
       rubricContext,
+      options.week,
+      now,
       options.client,
     );
     for (const e of extractions) {
@@ -142,7 +147,8 @@ export async function extractEvents(
       }
     }
   }
-  return events;
+  if (options.skipDedupe) return events;
+  return dedupeEvents(events).events;
 }
 
 async function classifyBatch(
@@ -150,9 +156,11 @@ async function classifyBatch(
   classificationPrompt: string,
   pillarsContext: string,
   rubricContext: string,
+  week: IsoWeek,
+  now: Date,
   client?: Anthropic,
 ): Promise<ExtractionResult[]> {
-  const userBody = renderUserMessage(batch);
+  const userBody = renderUserMessage(batch, week, now);
   // Stable, large methodology context first (cached), then per-batch instructions.
   // This keeps the prompt-cache prefix invariant across the whole weekly run.
   const result = await callClaudeJson<{ extractions: ExtractionResult[] }>({
@@ -171,10 +179,22 @@ async function classifyBatch(
   return result.extractions;
 }
 
-function renderUserMessage(batch: readonly PreFilteredArticle[]): string {
-  const lines = ['Articles to classify (return one extraction per index):', ''];
+function renderUserMessage(
+  batch: readonly PreFilteredArticle[],
+  week: IsoWeek,
+  now: Date,
+): string {
+  const today = now.toISOString().slice(0, 10);
+  const lines = [
+    `Today: ${today}`,
+    `Reference week: ${week} (the week being processed; events are usually within ±14 days of today).`,
+    '',
+    'Articles to classify (return one extraction per index):',
+    '',
+  ];
   batch.forEach((a, idx) => {
     lines.push(`[${idx}] ${a.outlet} — ${a.title}`);
+    if (a.published_at) lines.push(`    Published: ${a.published_at.slice(0, 10)}`);
     if (a.summary) lines.push(`    Summary: ${truncate(a.summary, 600)}`);
     lines.push(`    URL: ${a.url}`);
     if (a.candidate_pillar) lines.push(`    Pre-filter pillar guess: ${a.candidate_pillar}`);

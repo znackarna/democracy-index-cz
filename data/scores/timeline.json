@@ -1,17 +1,17 @@
 [
   {
     "week": "2026-W17",
-    "computed_at": "2026-04-28T19:59:00.680Z",
-    "overall_score": 69.4,
+    "computed_at": "2026-04-28T20:12:04.045Z",
+    "overall_score": 68.4,
     "pillars": {
       "electoral": 78,
-      "governance": 64.2,
-      "judicial": 72,
-      "media": 65,
-      "civil": 79.5,
+      "governance": 57,
+      "judicial": 72.7,
+      "media": 66.5,
+      "civil": 80.2,
       "corruption": 58.5
     },
-    "active_events_count": 7,
+    "active_events_count": 13,
     "structural_baseline": "2026-Q2"
   }
 ]

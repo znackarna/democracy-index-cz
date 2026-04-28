@@ -26,7 +26,7 @@ If the article is interesting but does not describe a concrete dated event (anal
 
 ## Field-by-field instructions
 
-- **date** (ISO 8601, `YYYY-MM-DD`): the date the event **occurred**, not the article publication date. If the article reports a vote that happened yesterday, use yesterday's date. If the article doesn't make the date clear, set `is_event: false` with `drop_reason: "Event date unclear from source"`.
+- **date** (ISO 8601, `YYYY-MM-DD`): the date the event **occurred**. The user message provides `Today` and `Reference week` — use these as the temporal frame. The article also includes `Published` when available; the event date is usually within ±7 days of `Published`. **Do not invent dates from training data; do not default to a year other than the one shown in `Today`.** If the article doesn't make the event date clear, set `is_event: false` with `drop_reason: "Event date unclear from source"`.
 - **headline**: short factual headline (5–200 chars). Your own paraphrase, not a copy of the article headline.
 - **summary**: 1–3 sentences (20–600 chars), what happened and why it touches an institution. Paraphrase only.
 - **pillar**: exactly one of `electoral | governance | judicial | media | civil | corruption`. Use the primary pillar — the one closest to the root cause. If the event spans multiple pillars, mention the secondary in the rationale.

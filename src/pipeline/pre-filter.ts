@@ -104,6 +104,7 @@ function renderUserMessage(batch: readonly RawArticle[]): string {
   const lines = ['Articles to evaluate (return one decision per index):', ''];
   batch.forEach((a, idx) => {
     lines.push(`[${idx}] ${a.outlet} — ${a.title}`);
+    if (a.published_at) lines.push(`    Published: ${a.published_at.slice(0, 10)}`);
     if (a.summary) lines.push(`    ${truncate(a.summary, 400)}`);
     lines.push(`    URL: ${a.url}`);
     lines.push('');
