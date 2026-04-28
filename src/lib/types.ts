@@ -107,3 +107,19 @@ export type ScoreSnapshot = z.infer<typeof ScoreSnapshotSchema>;
 
 export const IsoWeekSchema = z.string().regex(ISO_WEEK_PATTERN);
 export type IsoWeek = z.infer<typeof IsoWeekSchema>;
+
+export const RawArticleSchema = z.object({
+  url: z.string().url(),
+  title: z.string().min(1),
+  outlet: z.string().min(1),
+  published_at: z.string().datetime().optional(),
+  summary: z.string().optional(),
+  fetched_at: z.string().datetime(),
+});
+export type RawArticle = z.infer<typeof RawArticleSchema>;
+
+export const PreFilteredArticleSchema = RawArticleSchema.extend({
+  candidate_pillar: PillarSchema.nullable(),
+  reason_kept: z.string().min(1),
+});
+export type PreFilteredArticle = z.infer<typeof PreFilteredArticleSchema>;

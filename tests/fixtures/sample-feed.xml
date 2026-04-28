@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Test Outlet</title>
+    <link>https://example.test/</link>
+    <description>Sample test feed</description>
+    <item>
+      <title>Vláda schválila novelu zákona o ÚS</title>
+      <link>https://example.test/article/1</link>
+      <pubDate>Wed, 22 Apr 2026 09:00:00 GMT</pubDate>
+      <description>Vláda dnes schválila novelu zákona o ústavním soudu. Opozice protestuje.</description>
+    </item>
+    <item>
+      <title>Sparta porazila Slavii 2:0</title>
+      <link>https://example.test/article/2</link>
+      <pubDate>Wed, 22 Apr 2026 22:00:00 GMT</pubDate>
+      <description>V derby zvítězila Sparta po brankách Vencela a Pešky.</description>
+    </item>
+    <item>
+      <title>Premiér napadl konkrétního soudce v probíhající kauze</title>
+      <link>https://example.test/article/3</link>
+      <pubDate>Thu, 23 Apr 2026 11:30:00 GMT</pubDate>
+      <description>Premiér se na tiskové konferenci pustil do soudce, který rozhoduje o jeho kauze.</description>
+    </item>
+    <item>
+      <title>Duplicate article</title>
+      <link>https://example.test/article/1</link>
+      <pubDate>Thu, 23 Apr 2026 12:00:00 GMT</pubDate>
+      <description>Should be deduped against article 1 by URL.</description>
+    </item>
+  </channel>
+</rss>

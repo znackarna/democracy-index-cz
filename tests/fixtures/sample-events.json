@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2026-W17-001",
+    "date": "2026-04-22",
+    "headline": "Vláda schválila novelu zákona o ÚS ve zkráceném čtení",
+    "summary": "Vláda dnes schválila kontroverzní novelu zákona o ústavním soudu ve zkráceném čtení bez připomínkového řízení. Opozice protestuje proti procesnímu postupu.",
+    "pillar": "judicial",
+    "severity": 4,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vláda schválila novelu zákona o ÚS",
+        "url": "https://example.test/article/1",
+        "outlet": "Test Outlet",
+        "fetched_at": "2026-04-23T08:00:00.000Z"
+      }
+    ],
+    "score_impact": -3.0,
+    "rationale": "Severity 4 per rubric §4 — vážné porušení procesu (zkrácené čtení bez připomínek) na zákonu měnícím nezávislost klíčové instituce. Oba kvalifikátory přítomné: jasné porušení normy + dopad na ÚS.",
+    "reviewer": "manual",
+    "status": "active",
+    "created_at": "2026-04-23T08:00:00.000Z",
+    "expires_at": "2026-07-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W17-002",
+    "date": "2026-04-23",
+    "headline": "Premiér veřejně útočí na konkrétního soudce",
+    "summary": "Premiér se na tiskové konferenci pustil do soudce, který rozhoduje o jeho probíhající kauze. Označil ho za zaujatého bez konkrétních důkazů.",
+    "pillar": "judicial",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Premiér napadl konkrétního soudce",
+        "url": "https://example.test/article/3",
+        "outlet": "Test Outlet",
+        "fetched_at": "2026-04-23T08:00:00.000Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — veřejný útok ústavního činitele na konkrétního soudce v probíhající kauze, lze interpretovat jako tlak na rozhodnutí.",
+    "reviewer": "manual",
+    "status": "active",
+    "created_at": "2026-04-24T08:00:00.000Z",
+    "expires_at": "2026-07-16T00:00:00.000Z"
+  }
+]

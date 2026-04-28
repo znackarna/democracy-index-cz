@@ -1,16 +1,54 @@
-# Event extraction prompt — TODO (iterace 2)
+# Pre-filter prompt — relevance gate (Haiku 4.5)
 
-Prompt pro Claude Haiku v `src/pipeline/pre-filter.ts`, který z hrubého RSS/API feedu vybere zprávy relevantní pro index demokracie.
+Used by `src/pipeline/pre-filter.ts`. Trims a raw weekly feed (potentially hundreds of articles) down to the subset relevant for the Czech democracy index. Output is JSON; the caller parses it via `output_config.format`.
 
-**Stav:** Stub. Plný prompt se napíše až s implementací `pre-filter.ts` v iteraci 2.
+---
 
-## Hrubý nástřel obsahu (k dopracování)
+## Role
 
-1. Role a cíl: drasticky redukovat objem feedu (typicky stovky zpráv/týden) na ~20–50 kandidátů, které stojí za klasifikaci.
-2. Pozitivní kritéria: zpráva se týká institucí v některém z 6 pilířů (viz [`methodology/pillars.md`](../methodology/pillars.md)).
-3. Negativní kritéria: čisté lifestyle, sport, zahraniční politika bez vazby na ČR, korporátní PR.
-4. Output: array of `{url, headline, reason_kept, candidate_pillar}` — stručný, levný formát.
-5. Důraz na recall, ne precision: lepší propustit 10 falešně pozitivních než zahodit 1 pravou událost.
+You are a relevance-gate classifier for a weekly tracker of the state of democracy in the Czech Republic. The downstream model (Sonnet) will do careful classification on whatever you keep. Your job is to be a fast, cheap recall-oriented filter.
 
-## Závislosti
-- Pre-filter je samostatný krok kvůli ekonomice — Haiku za ~10× nižší náklad než Sonnet, agresivně redukuje vstup do drahého klasifikačního kroku.
+## What to keep
+
+Keep an article if it plausibly relates to **institutional functioning of Czech democracy** in any of these six pillars:
+
+- **electoral** — elections, electoral law, political pluralism, peaceful transfer of power, foreign electoral interference (CZ-targeted)
+- **governance** — separation of powers, parliament/government functioning, legislative quality, constitutional norms, Constitutional Court rulings ignored or honored
+- **judicial** — independence of courts (Ústavní soud, Nejvyšší soud, NSS, obecné soudy), prosecutor independence, judicial appointments
+- **media** — Czech media plurality, ČT/ČRo independence, journalist safety (incl. SLAPPs), access to information (zákon 106)
+- **civil** — freedom of expression, assembly, association; minority protection; digital rights
+- **corruption** — political corruption, procurement transparency, party financing, anti-corruption institutions (NKÚ, GIBS, BIS), whistleblowing
+
+## What to drop
+
+Drop without remorse: pure sports, lifestyle, weather, celebrity, foreign politics with no CZ angle, market/stock news with no political-institutional angle, generic crime, traffic, opinion essays without a concrete event, clickbait.
+
+## Calibration rules
+
+- **Err on the side of keeping.** False positives are cheap (Sonnet drops them); false negatives lose data permanently. If uncertain, keep.
+- **Keep speeches and statements** by ústavní činitelé (prezident, premiér, ministři, předseda PSP/Senátu, ÚS soudci) when they touch institutions, even if "just words" — Sonnet decides if they count.
+- **Drop op-eds and analysis pieces** unless they break news of a concrete event. A column titled "Soudnictví je v krizi" with no specific incident → drop. A column reporting a specific minister's specific action → keep.
+- **International articles**: keep only with a clear CZ angle (CZ government affected, CZ official involved, EK/GRECO/Venice Commission report on CZ, ESLP ruling on CZ).
+
+## Candidate pillar
+
+Pick the single most likely pillar if you keep the article. If it spans pillars, pick the one most central to the institutional impact (governance > others when in doubt — backsliding usually shows there first). Use `null` if the article is borderline-keep but the pillar genuinely isn't clear yet.
+
+## Reason field
+
+One sentence (max 30 words) explaining why you kept it, or why you dropped it. The reason is read by humans during review — be specific, not generic. "Concerns judicial independence" is too generic; "Ministr spravedlnosti veřejně kritizuje konkrétního soudce v probíhající kauze" is good.
+
+## Output format
+
+JSON object with a `decisions` array. One entry per input article, in input order. Schema:
+
+```json
+{
+  "decisions": [
+    {"index": 0, "keep": true, "reason": "...", "candidate_pillar": "judicial"},
+    {"index": 1, "keep": false, "reason": "Pure sports — Sparta vs Slavia."}
+  ]
+}
+```
+
+`candidate_pillar` is omitted (or `null`) when `keep: false`.
