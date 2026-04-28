@@ -1,0 +1,22 @@
+{
+  "quarter": "2026-Q2",
+  "computed_at": "2026-04-28T00:00:00.000Z",
+  "pillars": {
+    "electoral": 78.0,
+    "governance": 65.0,
+    "judicial": 72.0,
+    "media": 68.0,
+    "civil": 80.0,
+    "corruption": 60.0
+  },
+  "sources": [
+    {
+      "index": "V-Dem",
+      "year": 2024,
+      "value": 0.78,
+      "url": "https://v-dem.net/data/the-v-dem-dataset/",
+      "notes": "PLACEHOLDER — pillar values are not derived from a published mapping. Replace with proper extraction in iteration 4 or earlier review."
+    }
+  ],
+  "notes": "PLACEHOLDER baseline for iteration 3 first run. Pillar scores are plausible-looking values for CZ context but are NOT extracted from V-Dem/EIU/FH/RSF/TI/WJP. The mapping (which V-Dem component → which pillar, with what weighting) is methodologically sensitive and requires explicit per-pillar derivation that is deferred to a future iteration. See methodology/issues.md for the open question. Do not publish public scores from this baseline; use it only for end-to-end pipeline validation."
+}

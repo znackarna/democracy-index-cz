@@ -33,6 +33,10 @@ const SEVERITY_MAGNITUDE: Record<Severity, number> = {
 const ONE_OFF_DECAY_WEEKS = 12;
 const MS_PER_DAY = 86_400_000;
 
+// Anthropic structured-outputs does not support numeric/string constraints
+// (minimum, maximum, minLength, maxLength). Length and range bounds must
+// live in the prompt and be re-checked in assembleEvent. Severity is
+// constrained via `enum` instead of minimum/maximum.
 const EXTRACTION_SCHEMA = {
   type: 'object',
   required: ['extractions'],
@@ -45,18 +49,18 @@ const EXTRACTION_SCHEMA = {
         required: ['index', 'is_event'],
         additionalProperties: false,
         properties: {
-          index: { type: 'integer', minimum: 0 },
+          index: { type: 'integer' },
           is_event: { type: 'boolean' },
           date: { type: 'string', pattern: '^\\d{4}-\\d{2}-\\d{2}$' },
-          headline: { type: 'string', minLength: 5, maxLength: 200 },
-          summary: { type: 'string', minLength: 20, maxLength: 600 },
+          headline: { type: 'string' },
+          summary: { type: 'string' },
           pillar: { type: 'string', enum: [...PILLARS] },
           severity: {
-            anyOf: [{ type: 'integer', minimum: 1, maximum: 5 }, { type: 'null' }],
+            anyOf: [{ type: 'integer', enum: [1, 2, 3, 4, 5] }, { type: 'null' }],
           },
           direction: { type: 'integer', enum: [-1, 0, 1] },
           duration: { type: 'string', enum: ['one_off', 'persistent'] },
-          rationale: { type: 'string', minLength: 20 },
+          rationale: { type: 'string' },
           drop_reason: { type: 'string' },
         },
       },

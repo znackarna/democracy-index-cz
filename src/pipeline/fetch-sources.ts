@@ -36,6 +36,8 @@ export interface FetchOptions extends FeedFetchOptions {
    * those adapters are not yet implemented; flip when they ship.
    */
   skipNonRss?: boolean;
+  /** Restrict to source ids matching this set (default: all sources in config). */
+  sourceIds?: readonly string[];
 }
 
 export interface FetchResult {
@@ -60,7 +62,12 @@ export async function loadSources(configPath = DEFAULT_CONFIG_PATH): Promise<Sou
  */
 export async function fetchAllSources(options: FetchOptions = {}): Promise<FetchResult> {
   const skipNonRss = options.skipNonRss ?? true;
-  const sources = await loadSources(options.configPath);
+  const allSources = await loadSources(options.configPath);
+  const allowed = options.sourceIds ? new Set(options.sourceIds) : null;
+  const sources = allowed ? allSources.filter((s) => allowed.has(s.id)) : allSources;
+  if (allowed && sources.length === 0) {
+    throw new Error(`No sources matched filter: ${[...allowed].join(',')}`);
+  }
 
   const perSource: FetchResult['perSource'] = [];
   const all: RawArticle[] = [];

@@ -14,7 +14,8 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write \"**/*.{ts,tsx,js,json,md,yaml,yml}\"",
-    "format:check": "prettier --check \"**/*.{ts,tsx,js,json,md,yaml,yml}\""
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,json,md,yaml,yml}\"",
+    "pipeline:weekly": "tsx src/pipeline/run-weekly.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.91.1",
@@ -32,6 +33,7 @@
     "@vitest/coverage-v8": "^2.0.5",
     "eslint": "^8.57.1",
     "prettier": "^3.3.3",
+    "tsx": "^4.19.2",
     "typescript": "^5.5.4",
     "vitest": "^2.0.5"
   }

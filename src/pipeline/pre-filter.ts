@@ -10,6 +10,9 @@ const PROMPT_PATH = path.resolve(__dirname, '..', '..', 'prompts', 'event_extrac
 
 const DEFAULT_BATCH_SIZE = 25;
 
+// Anthropic structured-outputs does not support numeric/string constraints
+// (minimum, maximum, minLength, maxLength). Length/range constraints must be
+// expressed in the prompt instead, then re-checked in TypeScript.
 const PRE_FILTER_SCHEMA = {
   type: 'object',
   required: ['decisions'],
@@ -22,9 +25,9 @@ const PRE_FILTER_SCHEMA = {
         required: ['index', 'keep', 'reason'],
         additionalProperties: false,
         properties: {
-          index: { type: 'integer', minimum: 0 },
+          index: { type: 'integer' },
           keep: { type: 'boolean' },
-          reason: { type: 'string', minLength: 1, maxLength: 300 },
+          reason: { type: 'string' },
           candidate_pillar: {
             anyOf: [{ type: 'string', enum: [...PILLARS] }, { type: 'null' }],
           },
