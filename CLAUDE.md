@@ -12,9 +12,10 @@
 | 3 | ✅ done | `run-weekly.ts` orchestrátor + CLI (`npm run pipeline:weekly`), placeholder strukturální baseline pro 2026-Q2, první živý běh proti 4 RSS feedům: 90 článků → 28 pre-filtered → 14 events. |
 | 4 | ✅ done | Prompt fixes (datumy, noise filtering) + `dedupe.ts` modul (Czech-aware Jaccard, conflict detection → `disputed`). Re-run prokázal vyřešení tří issues. |
 | 5 | ▶ next | Real strukturální baseline z V-Dem 2024 / EIU 2024 / FH 2025 / RSF 2025 / TI CPI 2024 / WJP 2024 + dokumentované per-pillar mapování. |
-| 6 | pending | Next.js + Tailwind dashboard, static export, deploy na Vercel. |
-| 7 | pending | GitHub Actions: weekly-pipeline, validate-pr, recompute-scores. |
-| 8+ | pending | Backtesting 2018–2020, kvartální validace proti EIU/V-Dem. |
+| 6 | pending | Next.js + Tailwind dashboard, static export, deploy na Vercel. Public dispute link z každé události. |
+| 7 | pending | Self-audit infrastruktura: oddělený auditor Claude pass, daily reports v `data/reports/YYYY-MM-DD.md`, anomaly detection (auto GitHub issue), source-count → severity cap rule, GitHub issue templates. |
+| 8 | pending | GitHub Actions: weekly-pipeline (auto-merge po self-audit), recompute-scores, monthly spot-check issue, dispute-handler. |
+| 9+ | pending | Backtesting 2018–2020, kvartální validace proti EIU/V-Dem. |
 
 Detail aktivních úkolů a technického dluhu v [`methodology/issues.md`](methodology/issues.md).
 
@@ -56,9 +57,9 @@ Důvod hybridu: pipeline má dlouhé doby běhu, mnoho externích volání a mus
 1. **Deterministická aritmetika.** Claude kategorizuje události, ale **NEPOČÍTÁ skóre**. Veškerá matematika je v `src/pipeline/score.ts` a má unit testy.
 2. **Pevné rubrics.** Váhy pilířů a kritéria závažnosti jsou zafixované. Změny pouze přes Git commit s odůvodněním v `methodology/CHANGELOG.md`.
 3. **Transparentnost.** Kód, data, prompty a všechna rozhodnutí jsou veřejné.
-4. **Auditovatelnost.** Každá úprava skóre má JSON záznam s odkazy na ≥ 2 nezávislé zdroje, kde je to možné.
-5. **Anti-bias.** Vědomě hledat i události, které skóre **zvyšují**. Aplikovat rubric stejně přísně bez ohledu na to, kdo je u moci.
-6. **Lidský review je povinný.** Žádný týdenní commit se neslučuje do `main` bez schválení (Jakub).
+4. **Auditovatelnost.** Každá úprava skóre má JSON záznam s odkazy na ≥ 2 nezávislé zdroje (≥ 3 pro severity ≥ 4) — viz `methodology/governance.md`.
+5. **Anti-bias.** Vědomě hledat i události, které skóre **zvyšují**. Aplikovat rubric stejně přísně bez ohledu na to, kdo je u moci. Anti-bias se hlídá **automatickým self-audit Claude callem** s odděleným promptem od klasifikátoru.
+6. **Oversight model, ne pre-merge gate.** Týdenní pipeline se commituje automaticky. Kvalitu drží: (a) self-audit pass, (b) daily report s detailním zdůvodněním, (c) anomaly detection (auto-issue při >5 events/den nebo severity 5), (d) měsíční spot-check (10 náhodných events k ručnímu ověření), (e) veřejný dispute mechanismus. Detail: `methodology/governance.md`.
 
 ## Pilíře a váhy
 
@@ -113,6 +114,9 @@ democracy-index-cz/
 │   ├── pillars.md                 # vymezení pilířů
 │   ├── severity_rubric.md         # rubric s příklady
 │   ├── weights.md                 # zdůvodnění vah
+│   ├── governance.md              # oversight model: self-audit, anomaly detection, dispute
+│   ├── structural_mapping.md      # (iter 5) mapování V-Dem/EIU/FH/RSF/TI/WJP → pilíře
+│   ├── issues.md                  # otevřené metodologické otázky
 │   └── CHANGELOG.md               # log změn metodiky
 │
 ├── config/
@@ -121,15 +125,17 @@ democracy-index-cz/
 ├── data/                          # source of truth
 │   ├── structural/                # YYYY-Qx.json
 │   ├── events/                    # YYYY-Wxx.json
-│   └── scores/timeline.json       # historie skóre
+│   ├── scores/timeline.json       # historie skóre
+│   └── reports/                   # YYYY-MM-DD.md daily reports (iter 7)
 │
 ├── schemas/
 │   ├── event.schema.json
 │   └── score.schema.json
 │
 ├── prompts/
-│   ├── event_extraction.md
-│   └── classification.md
+│   ├── event_extraction.md       # Haiku pre-filter
+│   ├── classification.md         # Sonnet klasifikace
+│   └── audit.md                  # (iter 7) oddělený auditor pass
 │
 ├── src/
 │   ├── pipeline/                  # běží v GitHub Actions
@@ -165,17 +171,26 @@ democracy-index-cz/
 └── public/                        # statická aktiva pro Next.js
 ```
 
-## Týdenní workflow
+## Týdenní workflow (cílový stav po iter 7+8)
 
 GitHub Actions workflow `weekly-pipeline.yml`, trigger: cron `0 6 * * 1` (Po 06:00 UTC), pokrývá uplynulý týden (Po–Ne).
 
 1. **Sběr** — `src/pipeline/fetch-sources.ts` stáhne všechny zdroje pomocí `rss-parser` + native `fetch`, dedupuje podle URL/titulku, ukládá do `tmp/raw/` (mimo Git).
-2. **Pre-filter** — `pre-filter.ts` použije Claude Haiku, aby z hrubého feedu vyfiltroval relevantní zprávy (drasticky snižuje token usage v dalším kroku).
-3. **Klasifikace** — `extract-events.ts` použije Claude Sonnet s `prompts/classification.md` + `methodology/severity_rubric.md` jako kontextem. Vyplní `pillar`, `severity`, `direction`, `duration`, `rationale`. Validuje proti `schemas/event.schema.json` přes AJV.
-4. **PR návrh** — workflow otevře PR do `data/events/YYYY-Wxx.json` přes `peter-evans/create-pull-request` action. **Není auto-merge.**
-5. **Lidský review** (Jakub) — schválit / upravit / zamítnout. Anti-bias checklist (viz níže).
-6. **Výpočet skóre** — po merge do `main` se spustí `recompute-scores.yml`, který zavolá `src/pipeline/score.ts`, přečte strukturální baseline + všechny živé events, aplikuje stárnutí, spočítá vážený průměr, zapíše do `data/scores/timeline.json` a commitne.
-7. **Deploy** — Vercel detekuje push do `main`, rebuilduje Next.js a deployuje. Žádná manuální akce.
+2. **Pre-filter** — `pre-filter.ts` použije Claude Haiku 4.5, aby z hrubého feedu vyfiltroval relevantní zprávy.
+3. **Klasifikace** — `extract-events.ts` použije Claude Sonnet 4.6 s `prompts/classification.md` + `methodology/{pillars,severity_rubric}.md` jako cached system. Vyplní `pillar`, `severity`, `direction`, `duration`, `rationale`. Validuje proti `schemas/event.schema.json` přes AJV.
+4. **Dedupe** — `dedupe.ts` sloučí events napříč zdroji popisující stejnou událost; konflikty direction/severity → `status: disputed`.
+5. **Self-audit** — separátní Sonnet call s `prompts/audit.md` projde anti-bias checklist proti vygenerovaným events. Audit výstup se zapíše do daily reportu. Audit může event downgradeovat na `needs_review` při nálezu, ale nepřepisuje klasifikaci.
+6. **Source-count → severity cap** — deterministická TS funkce: events se severity ≥ 3 musí mít ≥ 2 nezávislé zdroje, severity ≥ 4 musí mít ≥ 3. Jinak se severity automaticky downgradeuje na nejvyšší podporovanou úroveň.
+7. **Výpočet skóre** — `src/pipeline/score.ts` přečte baseline + všechny živé events, aplikuje stárnutí, spočítá vážený průměr, zapíše do `data/scores/timeline.json`.
+8. **Daily report** — wrap-up skript napíše `data/reports/YYYY-MM-DD.md` se seznamem zkontrolovaných zdrojů, počtem pre-filtered, per-event detailním zdůvodněním a self-audit výstupem.
+9. **Anomaly detection** — pokud nový týden má > 5 events nebo jakýkoli severity 5, otevře se GitHub issue „Anomaly: please verify". **Index se publikuje normálně, issue je oversight ping, ne blocker.**
+10. **Auto-commit** — pipeline commituje events + scores + report do `main` (žádné PR). Vercel deploy.
+
+**Měsíční oversight (1. v měsíci):** automaticky otevřený issue s 10 náhodnými events z minulého měsíce a otázkou „Souhlasíš s klasifikací?". Non-blocking, kalibrace.
+
+**Veřejný dispute mechanismus:** každá událost na webu má link „Napadnout klasifikaci" → GitHub issue s pre-filled template (event ID, current severity, „proč není správná"). Issues se procházejí ručně.
+
+Detailní governance model: [`methodology/governance.md`](methodology/governance.md).
 
 ## JSON schémata
 
@@ -237,12 +252,14 @@ GitHub Actions workflow `weekly-pipeline.yml`, trigger: cron `0 6 * * 1` (Po 06:
 - `severity: null, status: "needs_review"` + komentář pro reviewera
 - Lepší falešně neutrální než falešný poplach
 
-## Anti-bias checklist (každý týden, před merge)
+## Anti-bias checklist (běží automaticky v audit pass — viz `methodology/governance.md`)
+
+Tento checklist projíždí **oddělený Sonnet call** s `prompts/audit.md` proti vygenerovaným events. Auditor nepřepisuje klasifikaci, ale může event downgradeovat na `needs_review` při nálezu a výsledek zapíše do daily reportu.
 
 1. Je v seznamu alespoň jedna událost s `direction: +1`? Pokud ne, je to opravdu realita uplynulého týdne, nebo selektivní pozornost?
 2. Jsou zdroje rozmanité? (Žádné jedno médium > 50 % event sourců.)
-3. Aplikoval bych stejné kritérium na opačnou politickou stranu?
-4. Je každá událost se `severity ≥ 3` doložená alespoň 2 nezávislými zdroji?
+3. Aplikoval bych stejné kritérium na opačnou politickou stranu? Toto se kontroluje per event, ne jen agregátně.
+4. Je každá událost se `severity ≥ 3` doložená alespoň 2 nezávislými zdroji? `severity ≥ 4` musí mít ≥ 3. Tuto podmínku vynucuje **deterministická TS funkce** po klasifikaci, ne audit — porušení = automatický downgrade severity.
 5. Mám pro každou událost konkrétní odkaz na bod rubric, ne jen obecné odůvodnění?
 
 ## Validace (kvartálně)
