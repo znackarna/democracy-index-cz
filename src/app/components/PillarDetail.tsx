@@ -63,8 +63,9 @@ function PillarDetailCard({
             </div>
             <span
               className={`rounded-md px-1.5 py-0.5 text-xs font-medium ${color.tag} ${color.tagText}`}
+              title="Váha pilíře v celkovém skóre"
             >
-              {weight} %
+              Váha {weight} %
             </span>
           </div>
           <div className="mt-3 flex items-baseline gap-2">
