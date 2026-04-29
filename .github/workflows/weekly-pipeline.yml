@@ -16,9 +16,9 @@ on:
         required: false
         default: '2026-Q2'
       sources:
-        description: 'Comma-separated source ids (default: 9 CZ + 5 foreign + Hlídač)'
+        description: 'Comma-separated source ids (default: 8 CZ media + ÚS + PSP + 5 foreign + 3 Hlídač surfaces)'
         required: false
-        default: 'denik-n,irozhlas,ct24,hn,aktualne,investigace-cz,a2larm,seznam-zpravy,ti-cz,politico-eu,bbc-europe,euronews,visegrad-insight,brno-daily,hlidac-statu'
+        default: 'denik-n,irozhlas,ct24,hn,aktualne,investigace-cz,a2larm,seznam-zpravy,ti-cz,ustavni-soud,psp-cz,politico-eu,bbc-europe,euronews,visegrad-insight,brno-daily,hlidac-statu,hlidac-smlouvy,hlidac-dotace'
 
 permissions:
   contents: write
@@ -88,7 +88,7 @@ jobs:
         env:
           WEEK: ${{ steps.week.outputs.value }}
           BASELINE: ${{ inputs.baseline || '2026-Q2' }}
-          SOURCES: ${{ inputs.sources || 'denik-n,irozhlas,ct24,hn,aktualne,investigace-cz,a2larm,seznam-zpravy,ti-cz,politico-eu,bbc-europe,euronews,visegrad-insight,brno-daily,hlidac-statu' }}
+          SOURCES: ${{ inputs.sources || 'denik-n,irozhlas,ct24,hn,aktualne,investigace-cz,a2larm,seznam-zpravy,ti-cz,ustavni-soud,psp-cz,politico-eu,bbc-europe,euronews,visegrad-insight,brno-daily,hlidac-statu,hlidac-smlouvy,hlidac-dotace' }}
         run: |
           mkdir -p tmp
           npm run pipeline:weekly -- \

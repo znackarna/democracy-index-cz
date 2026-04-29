@@ -4,7 +4,12 @@ import { fileURLToPath } from 'node:url';
 import yaml from 'js-yaml';
 import { z } from 'zod';
 import { dedupeArticles, fetchRssFeed, type FeedFetchOptions } from '../lib/feeds';
-import { fetchPartyDonationsAsArticles } from '../lib/hlidac';
+import {
+  fetchPartyDonationsAsArticles,
+  fetchWatchlistDotaceAsArticles,
+  fetchWatchlistSmlouvyAsArticles,
+} from '../lib/hlidac';
+import { fetchPspSchuzeAsArticles } from '../lib/psp';
 import { type RawArticle } from '../lib/types';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -98,13 +103,73 @@ export async function fetchAllSources(options: FetchOptions = {}): Promise<Fetch
     }
 
     // Implemented non-RSS adapters dispatch by source id.
+    const today = new Date();
+    const from = new Date(today.getTime() - windowDays * 86_400_000);
+    const fromIso = from.toISOString().slice(0, 10);
+    const toIso = today.toISOString().slice(0, 10);
+
     if (source.id === 'hlidac-statu') {
       try {
-        const today = new Date();
-        const from = new Date(today.getTime() - windowDays * 86_400_000);
         const items = await fetchPartyDonationsAsArticles({
-          fromDate: from.toISOString().slice(0, 10),
-          toDate: today.toISOString().slice(0, 10),
+          fromDate: fromIso,
+          toDate: toIso,
+        });
+        all.push(...items);
+        perSource.push({ id: source.id, type: source.type, count: items.length });
+      } catch (err) {
+        perSource.push({
+          id: source.id,
+          type: source.type,
+          count: 0,
+          error: (err as Error).message,
+        });
+      }
+      continue;
+    }
+
+    if (source.id === 'hlidac-smlouvy') {
+      try {
+        const items = await fetchWatchlistSmlouvyAsArticles({
+          fromDate: fromIso,
+          toDate: toIso,
+        });
+        all.push(...items);
+        perSource.push({ id: source.id, type: source.type, count: items.length });
+      } catch (err) {
+        perSource.push({
+          id: source.id,
+          type: source.type,
+          count: 0,
+          error: (err as Error).message,
+        });
+      }
+      continue;
+    }
+
+    if (source.id === 'hlidac-dotace') {
+      try {
+        const items = await fetchWatchlistDotaceAsArticles({
+          fromDate: fromIso,
+          toDate: toIso,
+        });
+        all.push(...items);
+        perSource.push({ id: source.id, type: source.type, count: items.length });
+      } catch (err) {
+        perSource.push({
+          id: source.id,
+          type: source.type,
+          count: 0,
+          error: (err as Error).message,
+        });
+      }
+      continue;
+    }
+
+    if (source.id === 'psp-cz') {
+      try {
+        const items = await fetchPspSchuzeAsArticles({
+          fromDate: fromIso,
+          toDate: toIso,
         });
         all.push(...items);
         perSource.push({ id: source.id, type: source.type, count: items.length });

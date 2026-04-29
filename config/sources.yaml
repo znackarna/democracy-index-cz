@@ -85,26 +85,55 @@ sources:
   # Otevřená data státu
   # ============================================================
   - id: hlidac-statu
-    name: Hlídač státu
+    name: Hlídač státu — sponzoring
     category: open_data
     type: api
-    url: https://api.hlidacstatu.cz/api/v2/
+    url: https://api.hlidacstatu.cz/api/v2/sponzoring
     homepage: https://www.hlidacstatu.cz/
     notes: |
-      Adapter implementován v src/lib/hlidac.ts. Vyžaduje HLIDAC_API_KEY env var
-      (zdarma po registraci na hlidacstatu.cz/api). Iter 1 surface: sponzoring
-      (dary politickým stranám) — fan-out přes 9 hlavních CZ stran, threshold
-      100 000 Kč, posledních 30 dní (configurable přes windowDays).
+      Adapter v src/lib/hlidac.ts (fetchPartyDonationsAsArticles). Vyžaduje
+      HLIDAC_API_KEY env var (zdarma po registraci). Fan-out přes 9 hlavních
+      CZ stran (POLITICAL_PARTIES), threshold 100 000 Kč, posledních 30 dní
+      (configurable přes windowDays).
       TODO: ověřit IČO pro SPD (22875327) a Motoristé (22878660) — vrací prázdno.
-      TODO iter 2: smlouvy s issues, dotace pro watchlist entit.
+
+  - id: hlidac-smlouvy
+    name: Hlídač státu — smlouvy s issues
+    category: open_data
+    type: api
+    url: https://api.hlidacstatu.cz/api/v2/smlouvy/hledat
+    homepage: https://www.hlidacstatu.cz/
+    notes: |
+      Adapter v src/lib/hlidac.ts (fetchWatchlistSmlouvyAsArticles). Vrací
+      smlouvy z Registru smluv, kde watchlist entita (AGROFERT, MAFRA — viz
+      WATCHLIST_ENTITIES) figuruje jako strana A KDE Hlídač označil anomálii
+      (issues.length > 0). Issue typy: nečitelnost, nulová hodnota, pozdní
+      zveřejnění, stejné strany apod.
+
+  - id: hlidac-dotace
+    name: Hlídač státu — dotace pro watchlist
+    category: open_data
+    type: api
+    url: https://api.hlidacstatu.cz/api/v2/dotace/hledat
+    homepage: https://www.hlidacstatu.cz/
+    notes: |
+      Adapter v src/lib/hlidac.ts (fetchWatchlistDotaceAsArticles). Vrací
+      dotace přijaté watchlist entitami, filtrované podle Hlídač modifiedDate
+      v okně. Threshold ≥ 100 000 Kč. Pozn.: Hlídač refresheuje dotace
+      v dávkách (typicky měsíčně), takže výstup je nepravidelný — některé
+      týdny 0, jiné spousta najednou. Klasifikátor s tím počítá.
 
   - id: psp-cz
     name: Poslanecká sněmovna PČR
     category: open_data
     type: html
-    url: https://www.psp.cz/sqw/hp.sqw
+    url: https://www.psp.cz/sqw/ischuze.sqw?o=10
     homepage: https://www.psp.cz/
-    notes: Otevřená data v různých formátech, nejednotný API. Sledovat hlasování a zkrácená čtení.
+    notes: |
+      PSP nemá RSS feed (probed 2026-04-28). Adapter v src/lib/psp.ts parsuje
+      přehled schůzí (table na ischuze.sqw?o=10) — vrací jednu RawArticle za
+      schůzi končící v okně. Status "Přerušeno" (přerušená schůze) je hlavní
+      governance signál. Drill-down do per-schůze tisků je iter 2.
 
   - id: senat-cz
     name: Senát PČR
@@ -116,9 +145,14 @@ sources:
   - id: ustavni-soud
     name: Ústavní soud ČR
     category: open_data
-    type: html
-    url: https://www.usoud.cz/aktualne
+    type: rss
+    url: https://www.usoud.cz/rss
     homepage: https://www.usoud.cz/
+    notes: |
+      Oficiální RSS feed (nedokumentovaný, ale stabilní — vrací 30 nejnovějších
+      položek: nálezy, přehledy jednání pléna i senátů, tiskové zprávy.
+      Klíčové pro pillar judicial — ÚS rozhodnutí často mají strukturální
+      dopad na ústavní pořádek.
 
   - id: nejvyssi-soud
     name: Nejvyšší soud
