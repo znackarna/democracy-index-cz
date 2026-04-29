@@ -151,12 +151,8 @@ sources:
     url: https://www.rekonstrukcestatu.cz/aktuality
     homepage: https://www.rekonstrukcestatu.cz/
 
-  - id: iure
-    name: Iuridicum Remedium
-    category: watchdog
-    type: rss
-    url: https://www.iure.org/feed
-    homepage: https://www.iure.org/
+  # Iuridicum Remedium dropped 2026-04-29 — RSS feed permanentně vrací HTTP 500.
+  # Přidat zpět, až opraví (jejich obsah je relevantní pro pillar civil/digital rights).
 
   - id: frank-bold
     name: Frank Bold
@@ -166,7 +162,70 @@ sources:
     homepage: https://frankbold.org/
 
   # ============================================================
-  # Mezinárodní instituce
+  # Zahraniční média (cross-check perspektiva)
+  # ============================================================
+  # Záměrně jen 5 zdrojů — accent na quality nad quantity. Klasifikátor
+  # je vícejazyčný (Sonnet 4.6), výstup zůstává v češtině per prompt rule.
+  # Filtr na CZ relevanci dělá pre-filter — většina zahraničních zpráv
+  # se netýká české demokracie a propadne tam.
+
+  - id: politico-eu
+    name: POLITICO Europe
+    category: international
+    type: rss
+    url: https://www.politico.eu/feed/
+    homepage: https://www.politico.eu/
+    notes: |
+      Joint venture US Politico + Axel Springer (DE). Pan-European focus s
+      strong CEE coverage. Profesionální political desk, často exkluzivní
+      reporting o EU institucionálních hrách týkajících se ČR.
+
+  - id: bbc-europe
+    name: BBC News Europe
+    category: international
+    type: rss
+    url: https://feeds.bbci.co.uk/news/world/europe/rss.xml
+    homepage: https://www.bbc.com/news/world/europe
+    notes: |
+      Public broadcaster (UK). Široce uznávaný neutral standard, BBC editorial
+      guidelines vyžadují due impartiality. CZ pokrývá hlavně při významných
+      událostech (volby, ústavní krize, big scandals).
+
+  - id: euronews
+    name: Euronews
+    category: international
+    type: rss
+    url: https://www.euronews.com/rss?level=theme&name=news
+    homepage: https://www.euronews.com/
+    notes: |
+      Pan-European TV/web outlet (vlastnictví NBC + Naguib Sawiris a Mediaset).
+      Multijazyčný, široké pokrytí EU událostí. Užitečný pro events, kde CZ
+      hraje roli v evropském kontextu (NATO, EU policy, sankce).
+
+  - id: visegrad-insight
+    name: Visegrad Insight
+    category: international
+    type: rss
+    url: https://visegradinsight.eu/feed/
+    homepage: https://visegradinsight.eu/
+    notes: |
+      Niche policy outlet zaměřený výhradně na V4 (CZ + SK + PL + HU).
+      Vydává Res Publica Foundation (PL). Nejvyšší CZ-relevance per item ze
+      všech zahraničních zdrojů — analytic depth o CEE politice.
+
+  - id: brno-daily
+    name: Brno Daily
+    category: international
+    type: rss
+    url: https://brnodaily.com/feed/
+    homepage: https://brnodaily.com/
+    notes: |
+      English-language news o ČR (založen v Brně, postupně rozšiřuje na
+      celou ČR). Vzácná „outside-in" perspektiva v angličtině pro čtenáře,
+      co nečtou česky. Menší kapacita, ale on-topic.
+
+  # ============================================================
+  # Mezinárodní instituce (oficiální stránky, prozatím skip)
   # ============================================================
   - id: greco
     name: GRECO (Council of Europe)
