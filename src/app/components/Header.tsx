@@ -17,14 +17,9 @@ export function Header() {
           <Link href="/events/" className="text-slate-700 hover:text-slate-900">
             Události
           </Link>
-          <a
-            href="https://github.com/znackarna/personal-democracy/tree/main/methodology"
-            className="text-slate-700 hover:text-slate-900"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Metodika ↗
-          </a>
+          <Link href="/methodology/" className="text-slate-700 hover:text-slate-900">
+            Metodika
+          </Link>
         </nav>
       </div>
     </header>

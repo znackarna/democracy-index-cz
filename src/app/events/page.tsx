@@ -1,4 +1,5 @@
 import { EventCard } from '../components/EventCard';
+import { InfoBox } from '../components/InfoBox';
 import { readAllEvents } from '../lib/data';
 import { PILLARS, type Pillar } from '@/lib/types';
 
@@ -45,6 +46,38 @@ export default async function EventsPage() {
           tlačítko „Napadnout klasifikaci" — disputy se řeší jako GitHub issues.
         </p>
       </section>
+
+      <InfoBox title="Co znamená severity 1–5" readMore={{ slug: 'severity' }}>
+        <ul className="space-y-1">
+          <li>
+            <strong>1</strong> — zanedbatelný incident, výroky bez institucionálního dopadu
+            (±0.2 b. do pilíře).
+          </li>
+          <li>
+            <strong>2</strong> — drobný jednorázový incident s lokálním dopadem (±0.5 b.).
+          </li>
+          <li>
+            <strong>3</strong> — významný incident, široký dopad nebo precedent (±1.5 b.).
+          </li>
+          <li>
+            <strong>4</strong> — závažné porušení normy nebo procesu (±3.0 b.).
+          </li>
+          <li>
+            <strong>5</strong> — strukturální posun, ústavní krize, systémová změna (±6.0 b.).
+          </li>
+        </ul>
+        <p className="text-xs text-slate-500">
+          <strong>Direction</strong> ±1: zda událost demokratické instituce posiluje (+) nebo
+          oslabuje (−). Anti-corruption raid od NCOZ má direction +1, i když se podezírá
+          z korupce — institucemi se vymáhá právo.
+        </p>
+        <p className="text-xs text-slate-500">
+          <strong>Status</strong>: <code>active</code> (započítává se), <code>persistent</code>{' '}
+          (trvalá vrstva, dokud reviewer neuzavře jako <code>resolved</code>),{' '}
+          <code>disputed</code> (rozpor v pokrytí napříč zdroji), <code>needs_review</code>{' '}
+          (auditor flagnul nebo klasifikátor nebyl jistý).
+        </p>
+      </InfoBox>
 
       <section className="rounded-xl border border-slate-200 bg-white p-4">
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">

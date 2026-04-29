@@ -26,14 +26,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               Repo na GitHubu
             </a>
             . Klasifikuje Claude Sonnet 4.6, skóre počítá deterministická TS funkce.
-            Detail metodologie:{' '}
-            <a
-              href="https://github.com/znackarna/personal-democracy/tree/main/methodology"
-              className="underline hover:text-slate-900"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              methodology/
+            Detail metodologie na{' '}
+            <a href="/methodology/" className="underline hover:text-slate-900">
+              /methodology/
             </a>
             .
           </p>
