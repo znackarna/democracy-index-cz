@@ -1,0 +1,416 @@
+[
+  {
+    "id": "2025-W26-001",
+    "date": "2025-06-26",
+    "headline": "Investigace odhalila podezřelé aktivity rodiny Putinova poradce v Karlových Varech s možným napojením na praní peněz",
+    "summary": "Deník N zveřejnil investigaci mapující projekt manželky a bratra Putinova speciálního poradce Igora Levitina v Karlových Varech. Experti oslovení redakcí hovoří o možném praní špinavých peněz. Případ naznačuje průnik ruských politicky exponovaných osob do české ekonomiky.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Exkluzivně: Jak rodina Putinova poradce pronikla do Česka",
+        "url": "https://denikn.cz/1733720/exkluzivne-jak-rodina-putinova-poradce-pronikla-do-ceska/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:32.853Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — investigace dokumentuje konkrétní podezřelé transakce spojené s politicky exponovanou osobou (subkomponenta K1, případně K2). Jde o nový, datovaný investigativní výstup z jediného zdroje, nikoli pouhý komentář. Protože se jedná o jeden zdroj bez potvrzení dalšími nezávislými médii či orgány, source-count rule brání eskalaci na 4. Sekundárně se dotýká bezpečnostního rozměru (zahraniční vliv), což je relevantní pro subkomponentu E3 v pilíři electoral, ale primární kořen je korupční/protiprávní finanční jednání.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-002",
+    "date": "2025-06-25",
+    "headline": "Rada ČT zvolila nového generálního ředitele České televize po turbulentním procesu",
+    "summary": "Rada České televize po zdlouhavém a chaotickém rozhodovacím procesu zvolila nového generálního ředitele ČT. Výběr byl doprovázen prvky označenými komentátory jako farsické, avšak skončil výsledkem. Jde o klíčové personální rozhodnutí pro nezávislost veřejnoprávního média.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pointa N: Volba šéfa ČT ve znamení frašky s happyendem",
+        "url": "https://denikn.cz/1770522/pointa-n-volba-sefa-ct-ve-znameni-frasky-s-happyendem/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:32.853Z"
+      },
+      {
+        "title": "Drama na Kavčích horách. Radní se vyhnuli patu a šéfem ČT překvapivě zvolili Hynka Chudárka",
+        "url": "https://denikn.cz/1770015/drama-na-kavcich-horach-radni-se-vyhnuli-patu-a-prekvapive-sefem-ct-zvolili-hynka-chudarka/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:32.853Z"
+      },
+      {
+        "title": "Generálním ředitelem České televize bude Hynek Chudárek. Chce zredukovat nejvyšší management, návrat ČT 3 zatím neplánuje",
+        "url": "https://domaci.hn.cz/c1-67754730-generalnim-reditelem-ceske-televize-bude-hynek-chudarek-jeho-souper-milan-fridrich-odstoupil",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — volba generálního ředitele ČT je konkrétní datovaná institucionální událost (subkomponenta M2). Článek naznačuje procesní problémy ('fraška'), ale výsledkem je zvolení ředitele, takže nedošlo k trvalé kompromitaci instituce ani prokazatelnému politickému tlaku na konkrétní kandidáty — to by odpovídalo severity 3–4. Absence konkrétních faktů o politickém ovlivnění procesu ve shrnutí neumožňuje vyšší severity bez rizika přehodnocení. Direction 0 reflektuje ambivalenci: problematický proces, ale funkční výsledek. Pokud by podrobnosti z plného textu prokázaly politický nátlak na Radu ČT, doporučuji eskalaci na severity 3 a direction -1 (subkomponenta M2, rubric §3 — 'zákon o ČT/ČRo s návrhy měnícími politickou kontrolu').\n\n[merged with 2025-W26-003 — same incident, sources combined]\n\n[merged with 2025-W26-019 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-004",
+    "date": "2025-06-25",
+    "headline": "Americká ambasáda v ČR zveřejnila status útočící na fact-checking jako cenzuru názorů",
+    "summary": "Velvyslanectví USA v Praze sdílelo na sociálních médiích příspěvek označující systémy ověřování faktů za cenzuru názorů nepopulárních u globálních elit. Pokyn k podobným prohlášením dostaly americké ambasády v Evropě plošně, česká zvolila obzvláště ostré znění. Jde o součást širšího tlaku zahraniční vládní instituce na mediální ekosystém.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Musíme rozbít systém ověřování faktů, cenzuruje názory, tvrdí status ambasády USA. Ověřili jsme ho",
+        "url": "https://denikn.cz/1769908/musime-rozbit-system-overovani-faktu-cenzuruje-nazory-tvrdi-status-ambasady-usa-overili-jsme-ho/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:32.853Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázový výrok zahraniční vládní instituce bez přímého institucionálního dopadu na česká média, ale s potenciálem normalizovat nepřátelský postoj k fact-checkingu (subkomponenta M3 — nepřímé posilování prostředí hostilního vůči odpovědné žurnalistice). Nejde o domácí politický útok ani o přímý zásah do médií, proto nepřekračuje úroveň 2. Anti-bias check: stejné hodnocení by platilo pro jakoukoli zahraniční ambasádu vydávající podobné prohlášení. Sekundárně se dotýká pilíře civil (C1 — svoboda projevu a informačního prostoru).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-005",
+    "date": "2025-06-25",
+    "headline": "Rada ČT řeší hrozící pat při volbě generálního ředitele, zvažuje tři scénáře",
+    "summary": "Rada České televize přistoupila k závěrečné fázi výběru nového generálního ředitele, přičemž žádný ze dvou finalistů nemusí získat potřebných deset hlasů ze sedmnácti. Rozdělení rady do dvou bloků naznačuje patovou situaci a vedení rady zvažuje různá procesní řešení. Výsledek volby má přímý dopad na řízení veřejnoprávní televize.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Volba šéfa ČT: Hrozí pat, radní zvažují tři scénáře",
+        "url": "https://denikn.cz/1769796/volba-sefa-ct-hrozi-pat-radni-zvazuji-tri-scenare/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:32.853Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — procesní pat v Radě ČT je konkrétní institucionální incident s dopadem na správu veřejnoprávního média (subkomponenta M2 — nezávislost ČT a procedura volby vedení). Samotný pat není ještě závažným porušením normy, ale reflektuje politizaci rady a potenciální nestabilitu vedení ČT. Duration persistent, protože situace trvá a není uzavřena. Pokud by opakované neúspěšné volby vedly k dlouhodobé destabilizaci vedení, eskalace na severity 3 by byla odůvodněná per rubric §3 — precedent.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-006",
+    "date": "2025-06-25",
+    "headline": "Policie zajistila bitcoiny dárci, který věnoval státu miliardu korun, pro podezření z praní špinavých peněz",
+    "summary": "Policie zabavila padesát bitcoinů (přibližně 117 milionů Kč) Tomáši Jiřikovskému, který dříve daroval kryptoměnu v hodnotě miliardy korun českému státu. Podle zajišťovacího usnesení, které získal Deník N, vyšetřovatelé podezírají kryptoměnu z nelegálního původu. Případ kombinuje nevyjasněný původ majetku s předchozím vysokoprofilovým darováním státu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Nejsem to schopen objasnit.“ Proč si policie myslí, že dárcovy bitcoiny pochází z trestné činnosti",
+        "url": "https://denikn.cz/1769458/nejsem-to-schopen-objasnit-proc-si-policie-mysli-ze-darcovy-bitcoiny-pochazi-z-trestne-cinnosti/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:32.853Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní policejní procesní úkon (zajištění majetku) v kauze podezřelého původu kryptoměny (subkomponenta K1/K2 — vyšetřování možné nelegální činnosti). Direction 0, protože událost je ambivalentní: aktivní policejní vyšetřování může být vnímáno jako funkční protikorupční mechanismus (+1), ale nevyjasněný původ miliardového daru státu je institucionálně znepokojivý (-1). Případ je v ranné fázi vyšetřování, bez prokázaného napojení na politické aktéry — eskalace závisí na dalším vývoji. Severity null byla zvažována, ale fakta jsou dostatečně jasná pro úroveň 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-007",
+    "date": "2025-06-25",
+    "headline": "Policie obvinila dva teenagery z plánování teroristického útoku na synagogu, pět zadrženo celkem",
+    "summary": "Česká policie a zpravodajská služba zasáhly proti skupině pěti nezletilých podezřelých z podpory a propagace terorismu a přípravy útoku. Dva z nich byli formálně obviněni. Případ odhalil kontakty s islamistickými skupinami a vzbudil otázky o bezpečnosti náboženských menšin v ČR.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Čeští teenageři podle policie propagovali terorismus a plánovali útok na synagogu. Byli v kontaktu s islamisty",
+        "url": "https://denikn.cz/1769468/pet-ceskych-teenageru-podle-policie-propagovalo-terorismu-a-planovalo-utok-byli-v-kontaktu-s-islamisty/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:32.853Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — konkrétní bezpečnostní zásah s dopadem na ochranu náboženské menšiny (subkomponenta C4 — ochrana menšin před fyzickými hrozbami). Direction 0: aktivní policejní zásah je funkční ochrana menšin (+1), ale samotná existence plánovaného útoku signalizuje ohrožení bezpečnosti (-1). Událost sama o sobě není porušením demokratických institucí, ale je relevantní pro sledování bezpečnosti menšin. Nejde o státní selhání ani o politicky motivované jednání — proto nepřekračuje severity 2. Anti-bias check: stejné hodnocení by platilo bez ohledu na identitu cílové skupiny.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-008",
+    "date": "2025-06-24",
+    "headline": "Policie prověřuje ministerstvo financí kvůli neoznámení rizika praní peněz v kauze Bitcoin",
+    "summary": "Ministerstvo financí mělo po dobu přibližně měsíce a půl k dispozici dokument varující před přijetím kryptoměn od odsouzeného Tomáše Jiřikovského, přičemž klíčové varování údajně nebylo předáno ministru ani jiným orgánům. Policie nyní prověřuje, zda tímto opomenutím mohl být spáchán trestný čin neoznámení hrozby praní špinavých peněz.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Policie v kauze Bitcoin řeší ministerstvo financí. Neoznámilo, že hrozí praní špinavých peněz",
+        "url": "https://denikn.cz/1768645/policie-resi-zda-na-ministerstvu-financi-spachali-trestny-cin-neoznamili-ze-v-kauze-bitcoiny-hrozi-prani-spinavych-penez/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:32.853Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — věc se týká subkomponenty K1 (politická korupce, zneužití nebo selhání úřadu) a K4 (protikorupční instituce, jejich aktivace). Policie zahájila prověřování možného trestného činu na ministerské úrovni, což vytváří precedent pro odpovědnost úředníků při neoznámení praní peněz. Zatím jde o fázi prověřování, nikoli obvinění, proto severity 4 není opodstatněná. Sekundárně se dotýká pilíře governance (G4 — transparentnost a výkaznost ministerstev). Single source → zvažován downgrade, ale zpráva cituje policejní postup jako ověřitelný fakt, proto severity 3 zůstává.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-009",
+    "date": "2025-06-27",
+    "headline": "Česká diplomacie obdržela od Ukrajiny seznam firem podezřelých z obcházení sankcí",
+    "summary": "Česká diplomacie po opakovaných urgencích od Kyjeva obdržela seznam českých firem podezřelých z dodávání zakázaného zboží Rusku v rozporu s protirusskými sankcemi. Státní orgány zahájily prověřování, diplomaté zároveň přiznali, že je postup Ukrajiny zaskočil. Jde o první veřejně potvrzený případ předání takového seznamu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ukrajina řekla, které české firmy podle ní obcházejí sankce. Prověřujeme je, reaguje diplomacie",
+        "url": "https://denikn.cz/1772540/ukrajina-rekla-ktere-ceske-firmy-podle-ni-obchazeji-sankce-proverujeme-je-reaguje-diplomacie/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:34.940Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — událost se týká subkomponenty G4 (transparentnost vládnutí, výkaznost státních orgánů) a reakce exekutivy na mezinárodní signály. Skutečnost, že diplomacie byla zaskočena postupem partnerské země a informace nepřišla proaktivně, naznačuje procedurální selhání, nikoli systémovou krizi. Dopady jsou zatím omezené — orgány reagují a prověřování probíhá. Nejedná se o průlomový strukturální incident, proto severity 3 není opodstatněná. Direction -1, protože selhání proaktivního monitoringu sankcí oslabuje důvěryhodnost governance.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-19T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-010",
+    "date": "2025-06-27",
+    "headline": "ČSSD se rozhodla jít do voleb v koalici s hnutím Stačilo! ovládaným komunisty",
+    "summary": "Sociální demokracie pod vedením Jany Maláčové schválila vstup do předvolební koalice s hnutím Stačilo!, v němž dominují bývalí komunisté. Komentátoři hodnotí krok jako faktické pohltení ČSSD a zánik samostatné levicové demokratické strany na české politické scéně.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Pointa N: Historie se opakuje, sociální demokraty zřejmě znovu pohltí komunisté",
+        "url": "https://denikn.cz/1772659/pointa-n-historie-se-opakuje-socialni-demokraty-zrejme-znovu-pohlti-komuniste/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:34.940Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — událost se dotýká subkomponenty E2 (politický pluralismus, dostupnost demokratické soutěže napříč spektrem). Zánik samostatné sociálně-demokratické strany skrze koaliční fúzi s subjektem s komunistickou základnou snižuje pluralitu demokratické levice, ale jde o výsledek vnitrostranického rozhodnutí, nikoli o vnější institucionální zásah. Dopad je reálný, avšak omezený — ostatní strany a soutěž jako taková nejsou dotčeny. Severity 3 by vyžadovala vznik precedentu ohrožujícího chod instituce; zde jde o stranické rozhodnutí s politickými důsledky. Direction -1 pro oslabení pluralismu; duration persistent, protože koaliční smlouva je strukturálním stavem do voleb.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-011",
+    "date": "2025-06-26",
+    "headline": "Babiš označil ministry Stanjuru a Blažka za zločince na stranické akci v Brně",
+    "summary": "Předseda ANO Andrej Babiš na veřejné diskuzi s příznivci v Brně označil ministra financí Stanjuru a ministra spravedlnosti Blažka za zločince v kontextu bitcoinové kauzy. Výrok padl na předvolebním setkání, nikoli v institucionálním kontextu.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Blažek a Stanjura jsou zločinci.“ Babiš v Brně řešil bitcoiny, Grolicha i „největšího soupeře“ ANO",
+        "url": "https://denikn.cz/1772019/blazek-a-stanjura-jsou-zlocinci-babis-v-brne-resil-bitcoiny-grolicha-i-nejvetsiho-soupere-ano/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:34.940Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — verbální útok politika na konkrétní osoby bez institucionálního dopadu a bez výzvy k odvolání či jiného kaskádového efektu (subkomponenta J4, rovnost před zákonem v rétorickém rámci). Jde o jednorázový výrok na stranické akci bez eskalace. Anti-bias check: stejnou severity by dostal i libovolný jiný předseda strany za srovnatelný výrok.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-012",
+    "date": "2025-06-27",
+    "headline": "Soud potvrdil oprávněnost zrušení tendru na digitalizaci stavebního řízení",
+    "summary": "Soud definitivně potvrdil, že ÚOHS v roce 2023 oprávněně zrušil výběrové řízení na dodavatele systému digitalizace stavebního řízení po námitkách opavské firmy. Rozhodnutí zpětně legitimizuje postup, který fakticky zastavil klíčový digitalizační projekt tehdejšího ministra Bartoše.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Měli na to nárok. Soud definitivně potvrdil, že &bdquo;dodavatel tiskáren&ldquo; shodil Bartošovu digitalizaci oprávněně",
+        "url": "https://archiv.hn.cz/c1-67755680-meli-na-to-narok-soud-definitivne-potvrdil-ze-bdquo-dodavatel-tiskaren-ldquo-shodil-bartosovu-digitalizaci-opravnene",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o pravomocné soudní potvrzení dřívějšího správního rozhodnutí ÚOHS bez nového institucionálního dopadu; kauza má sice politický kontext (fiasco digitalizace stavebního řízení, subkomponenta G2), ale samotný rozsudek nevytváří precedent ani neoslabuje/neposiluje instituce. Direction 0: soud potvrdil zákonný postup regulátora, dopad na demokratické instituce je ambivalentní — jde spíše o uzavření správního sporu než o signál pro fungování systému veřejných zakázek (K2).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-19T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-013",
+    "date": "2025-06-27",
+    "headline": "Policie navrhla obžalovat svědka z křivé výpovědi v kauze Čapí hnízdo",
+    "summary": "Policie navrhla obžalovat člena představenstva firmy Imoba Františka Šlingra z křivé výpovědi před Městským soudem v Praze v rámci kauzy Čapí hnízdo. Šlingr měl tvrdit, že Andrej Babiš nezasahoval do vedení společnosti, což policie považuje za nepravdivé.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Policie chce obžalovat Šlingra z Imoby z křivé výpovědi. Tvrdil, že Babiš nezasahoval do vedení Čapího hnízda",
+        "url": "https://domaci.hn.cz/c1-67755870-kauza-capi-hnizdo-pokracuje-policie-navrhuje-obzalovat-svedka-z-krive-vypovedi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — návrh na obžalobu za křivou výpověď je konkrétní procesní krok orgánů činných v trestním řízení, ale jeho institucionální dopad je zatím omezený (jde o návrh, nikoli obžalobu ani rozsudek). Subkomponenta J4 (rovnost před zákonem) a sekundárně K1 (politická korupce) — pokračování vymáhání odpovědnosti v politicky exponované kauze. Direction +1: pokračující soudní řízení posiluje princip rovnosti před zákonem bez ohledu na politické vazby svědka. Anti-bias check: stejný postup by byl hodnocen stejně u svědka jakékoli politické orientace.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-19T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-014",
+    "date": "2025-06-27",
+    "headline": "Sněmovna schválila zpřísnění azylových a migračních pravidel",
+    "summary": "Poslanecká sněmovna schválila koaliční novelu azylového a migračního zákona, která má zpřísnit podmínky pro cizince páchající závažné přestupky, zrychlit azylová řízení a zlepšit přehled o pohybu žadatelů. Zákon nyní míří do Senátu.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Větší přísnost na cizince páchající závažné přestupky. Poslanci schválili změny azylových pravidel",
+        "url": "https://domaci.hn.cz/c1-67755700-vetsi-prisnost-na-cizince-pachajici-zavazne-prestupky-poslanci-schvalili-zmeny-azylovych-pravidel",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní legislativní akt (schválení Sněmovnou) s dopadem na práva cizinců a žadatelů o azyl, subkomponenta C4 (ochrana menšin a migrantů). Zákon není ještě účinný (Senát, prezident), proto nelze hodnotit jako persistent nebo severity 3+. Direction -1: zpřísnění podmínek pro migranty a rychlejší řízení potenciálně omezují procesní záruky pro zranitelné skupiny, ale rozsah dopadu bude záviset na finálním znění a implementaci. Sekundárně governance (G2 — legislativní proces). Anti-bias check: obdobné zpřísnění by bylo hodnoceno stejně bez ohledu na to, která koalice zákon navrhuje.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-19T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-015",
+    "date": "2025-06-27",
+    "headline": "Kraje pod ANO spustily slevy na jízdné před volbami — kritika zneužití rozpočtů",
+    "summary": "Osm krajů ovládaných hnutím ANO spustilo slevy na jízdné pro děti, studenty a seniory z krajských rozpočtů v době před volbami. Komentář HN hodnotí tuto akci jako pokus o koupi hlasů voličů prostřednictvím veřejných prostředků, přičemž celostátní sleva na tyto skupiny již neexistuje.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Kraje mají zajistit dobrou veřejnou dopravu. Sleva se ale v kampani prodá líp",
+        "url": "https://archiv.hn.cz/c1-67755110-kraje-maji-zajistit-dobrou-verejnou-dopravu-sleva-se-ale-v-kampani-proda-lip",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o politicky motivované využití krajských rozpočtů k volebnímu účelu (subkomponenta E1: financování kampaně a rovný přístup). Akce má omezeně lokální dopad (krajská úroveň, nikoli celostátní), ale vytváří precedent koordinovaného zneužití veřejných prostředků skrze stranické vedení. Zatím se jedná o komentář HN, nikoli doložené rozhodnutí soudu či kontrolního orgánu — chybí potvrzení nezávislým orgánem, proto se neeskaluje na 3. Sekundárně se dotýká pilíře corruption (K1 — střet zájmů a zneužití veřejných prostředků pro stranické cíle).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-016",
+    "date": "2025-06-26",
+    "headline": "Prezident podepsal novelu rozpočtových pravidel umožňující výdaje na obranu nad 2 % HDP",
+    "summary": "Prezident republiky podepsal zákonnou úpravu rozpočtových pravidel, která vládě umožní v letech 2026–2033 zvyšovat výdaje na obranu nad dosavadní dvouprocentní limit HDP, a to i nad schválený výdajový rámec. Rozdíl oproti dvěma procentům HDP nebude započítáván do schodku pro účely fiskálních pravidel.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Cesta ke třem procentům HDP na obranu je volná, prezident podepsal úpravu rozpočtových pravidel",
+        "url": "https://domaci.hn.cz/c1-67755090-cesta-ke-trem-procentum-hdp-na-obranu-je-volna-prezident-podepsal-upravu-rozpoctovych-pravidel",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní institucionální změnu (subkomponenta G3: stabilita ústavních a fiskálních norem), nicméně se jedná o záměrnou a transparentní úpravu provedenou řádným legislativním procesem s podpisem prezidenta, nikoliv o obcházení norem. Směr +1, protože změna posiluje schopnost státu plnit závazky (NATO) a prošla standardním procesem. Závažnost 2 spíše než 1 proto, že fiskální pravidla mají ústavní dimenzi a změna má dlouhodobý strukturální dopad na hospodaření státu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-017",
+    "date": "2025-06-26",
+    "headline": "ČSSD uzavírá předvolební koalici se Stačilo! – koalice zahrnuje subjekt s extremistickým jádrem",
+    "summary": "Jana Maláčová rozhodla o spojení sociální demokracie s koalicí Stačilo! pro nadcházející volby. Komentátor HN označuje toto rozhodnutí za problematické z hlediska demokratické integrity strany, neboť Stačilo! je považováno za krajně levicové uskupení s vazbami na extremistické proudy.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Po 77 letech zase s bolševiky. Jana Maláčová nahnala sociální demokraty podruhé do stejně hnusné řeky",
+        "url": "https://archiv.hn.cz/c1-67754890-jana-malacova-se-rozhodla-udelat-ze-socialni-demokracie-zombie-armadu-neutece-pred-ni-bohuzel-ani-petr-fiala",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 – rozhodnutí o předvolební alianci je konkrétní datovaná událost s dopadem na politický pluralismus (subkomponenta E2). Spojení etablované strany s uskupením charakterizovaným jako extremistické může ovlivnit demokratické soutěžení, ale jedná se o stranické rozhodnutí v rámci standardních volebních mechanismů, nikoli o institucionální útok. Článek je komentář/opinion, takže fakta jsou částečně zabarvená; severity se omezuje na 2. Anti-bias check: stejné hodnocení by bylo aplikováno na analogické spojenectví na pravé straně spektra.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z",
+    "expires_at": "2025-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W26-018",
+    "date": "2025-06-25",
+    "headline": "ANO používá volební heslo jako součást úředních formulářů pro státní dotace",
+    "summary": "Vládní hnutí ANO zařadilo své aktuální volební heslo do úředních formulářů nutných pro získání státních prostředků. Praxe propojuje přístup k veřejným financím s politickým brandingem strany, což vyvolává otázky ohledně zneužívání státních zdrojů k volebním účelům.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Volební heslo ve formuláři, bez něhož nedostanete peníze. ANO dovedlo kupování voličů na novou úroveň",
+        "url": "https://archiv.hn.cz/c1-67754830-volebni-heslo-v-urednim-formulari-bez-nehoz-penize-nedostanete-ano-dovedlo-kupovani-volicu-na-novou-uroven",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — Propojení podmínek přístupu ke státním prostředkům s volebním sloganem vládní strany vytváří precedent pro zneužití státního aparátu k ovlivňování voličů (subkomponenta E1 — férovost voleb, transparentnost, rovný přístup). Jde o institucionálně relevantní praxi, nikoliv pouhý verbální výrok, a zakládá vzorec podmíněného přístupu k veřejným zdrojům. Sekundárně se dotýká pilíře corruption (K1 — zneužívání pravomoci pro stranický prospěch). Anti-bias check: stejné hodnocení by platilo pro jakoukoliv jinou stranu u moci.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-23T00:00:00.000Z"
+  }
+]

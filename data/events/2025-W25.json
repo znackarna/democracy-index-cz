@@ -1,0 +1,246 @@
+[
+  {
+    "id": "2025-W25-001",
+    "date": "2025-06-20",
+    "headline": "Ministerstvo spravedlnosti si najalo tři právní kanceláře k prošetření bitcoinové kauzy Blažka",
+    "summary": "Nová ministryně spravedlnosti Decroix angažovala trojici právních kanceláří, aby pomohly objasnit kauzu bitcoinového daru přijatého jejím předchůdcem Pavlem Blažkem od odsouzeného Tomáše Jiřikovského. První výsledky prověrky očekávala v úterý. Případ se dotýká integrity ministerstva spravedlnosti a pravidel přijímání darů ústavními činiteli.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Jak vybruslit z kauzy bitcoiny? Decroix si najala trojici právních kanceláří, první výsledky chce v úterý",
+        "url": "https://domaci.hn.cz/c1-67752390-jak-vybruslit-z-kauzy-bitcoiny-decroix-si-najala-trojici-pravnich-kancelari-prvni-vysledky-chce-v-utery",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ přijetí bitcoinového daru (v hodnotě blízké milionům Kč) ústavním činitelem od odsouzené osoby naplňuje subkomponentu K1 (politická korupce, střet zájmů ústavních činitelů). Najímání externích advokátních kanceláří na prošetření vlastního ministra svědčí o závažnosti institucionálního pochybení. Kauza je persistent, protože prošetřování stále probíhá a dopad na instituci ministerstva trvá. Sekundárně se dotýká pilíře judicial (ministr spravedlnosti).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-16T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W25-002",
+    "date": "2025-06-20",
+    "headline": "Prezident Pavel varoval FT před čínskou kybernetickou hrozbou srovnatelnou s ruskou",
+    "summary": "Prezident Petr Pavel poskytl rozhovor listu Financial Times, v němž varoval, že státem podporovaní hackeři z Číny představují pro Evropu srovnatelnou hrozbu jako ti z Ruska. Výrok přišel v kontextu nedávného kybernetického útoku na českou vládní infrastrukturu.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Hackeři z Číny jsou pro Evropu stejně nebezpeční jako ti z Ruska, varuje v rozhovoru pro Financial Times prezident Pavel",
+        "url": "https://domaci.hn.cz/c1-67752180-hackeri-z-ciny-jsou-pro-evropu-stejne-nebezpecni-jako-ti-z-ruska-varoval-v-rozhovoru-pro-financial-times-prezident-pavel",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o verbální prohlášení bez přímého institucionálního dopadu. Prezidentovo varování je legitimní výkon pravomoci hlavy státu v oblasti zahraniční a bezpečnostní politiky (subkomponenta G1, reprezentace státu navenek), ale samo o sobě nemění žádnou normu ani institucionální praxi. Direction 0, protože výrok upozorňuje na hrozbu, ale sám o sobě ji ani nezlepšuje ani nezhoršuje z hlediska demokratických institucí.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-16T00:00:00.000Z",
+    "expires_at": "2025-09-12T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W25-003",
+    "date": "2025-06-19",
+    "headline": "Exústavní soudce Uhlíř jmenován koordinátorem prošetření bitcoinové kauzy Blažka",
+    "summary": "Advokát a bývalý ústavní soudce David Uhlíř byl jmenován externím poradcem pověřeným koordinací objasňování bitcoinové kauzy. Ta stála ministerské křeslo Pavla Blažka a vyvolala hlasování o nedůvěře vládě. Jmenování přišlo den po Blažkově rezignaci.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kauzu s&nbsp;bitcoiny bude &bdquo;rozplétat&ldquo; někdejší ústavní soudce Uhlíř",
+        "url": "https://archiv.hn.cz/c1-67752020-kauzu-s-bitcoiny-bude-bdquo-rozpletat-ldquo-nekdejsi-ustavni-soudce-uhlir",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — kauza bitcoinového daru ústavnímu činiteli od odsouzené osoby (subkomponenta K1) dosáhla takové závažnosti, že vyvolala hlasování o nedůvěře vládě a rezignaci ministra. Jmenování nezávislé osobnosti (exústavní soudce) jako koordinátora prošetřování je pozitivní institucionální krok — direction +1, protože jde o aktivaci mechanismu accountability. Severity 3 proto, že prošetřování samo o sobě je reakcí na incident, nikoli jeho uzavřením; výsledek může eskalovat na 4 závisí na zjištěních. Sekundárně se dotýká pilíře governance (hlasování o nedůvěře vládě).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-16T00:00:00.000Z",
+    "expires_at": "2025-09-11T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W25-004",
+    "date": "2025-06-19",
+    "headline": "Ústavní soud bude řešit snížení důchodů pro vysoké funkcionáře KSČ",
+    "summary": "Krajský soud vyhověl námitce bývalého okresního tajemníka KSČ a věc postoupil Ústavnímu soudu. Ten má posoudit zákonnost snížení nadstandardních penzí přibližně dvěma stům vysokých komunistických funkcionářů. Případ se dotýká otázky retroaktivního zásahu zákonodárce do nabytých práv.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Okresní tajemník KSČ uspěl s námitkou. Snížení důchodů pro komunistické pohlaváry bude řešit Ústavní soud",
+        "url": "https://archiv.hn.cz/c1-67751710-snizeni-velkorysych-penzi-komunistickych-pohlavaru-posoudi-ustavni-soud-uspel-okresni-tajemnik",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 – postoupení věci ÚS je konkrétní procesní krok s dopadem omezeným na specifickou skupinu osob, nikoli systémová změna. Subkomponenta J1 (přezkum ústavnosti zákona Ústavním soudem) a J4 (rovnost před zákonem). Direction 0, protože výsledek přezkumu může jít oběma směry – ÚS zatím nerozhodl, šlo o konstatování příslušnosti. Anti-bias check: stejný postup by byl klasifikován stejně nezávisle na politickém pozadí kauzy.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-16T00:00:00.000Z",
+    "expires_at": "2025-09-11T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W25-005",
+    "date": "2025-06-19",
+    "headline": "Sněmovna hlasovala o nedůvěře vládě – koalice přehlasování opozice odolala",
+    "summary": "Opoziční strany iniciovaly hlasování o vyslovení nedůvěry vládě, koalice však disponuje dostatečnou většinou a hlasování o důvěře přestála. Komentář zdůrazňuje tři politické signály pro nadcházející volební klání, ale jako institucionální akt dopadl výsledek očekávaně.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Hlasování o nedůvěře vládě jako hokejový zápas v základní skupině. Máme z něj ale tři důležité zprávy pro play-off",
+        "url": "https://archiv.hn.cz/c1-67751520-hlasovani-o-neduvere-vlade-jako-hokejovy-zapas-v-zakladni-skupine-mame-z-nej-ale-tri-dulezite-zpravy-pro-play-off",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      },
+      {
+        "title": "Fialova koaliční vláda odolala ve Sněmovně dalšímu pokusu opozice o svržení",
+        "url": "https://domaci.hn.cz/c1-67751380-fialova-koalicni-vlada-odolala-ve-snemovne-dalsimu-pokusu-opozice-o-svrzeni",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 – hlasování o nedůvěře je standardní ústavní instrument parlamentní kontroly exekutivy (subkomponenta G1), nikoli porušení normy. Výsledek byl předvídatelný, nedošlo k žádnému precedentu ani institucionálnímu narušení. Direction 0, protože samotné využití nástroje nedůvěry je neutrální demokratický akt – koalice přehlasování zvládla, opozice využila svého práva. Anti-bias check: totéž hodnocení by platilo pro jakoukoliv parlamentní většinu.\n\n[merged with 2025-W25-006 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2025-06-16T00:00:00.000Z",
+    "expires_at": "2025-09-11T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W25-007",
+    "date": "2025-06-18",
+    "headline": "Rada ČT nevybrala nového generálního ředitele ani po deseti hodinách, zazněla obvinění z ovlivňování volby",
+    "summary": "Rada České televize nedokázala po třech kolech a deseti hodinách jednání zvolit nového generálního ředitele. Do finále postoupili dva kandidáti, přičemž v průběhu procesu zazněla obvinění z pokusů o ovlivňování volby. Rozhodnutí bylo odloženo o týden.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Drama, které nekončí: šéfa České televize radní nevybrali ani po deseti hodinách. Mluvilo se také o ovlivňování volby",
+        "url": "https://archiv.hn.cz/c1-67751350-drama-ktere-nekonci-sefa-ct-radni-nevybrali-ani-po-deseti-hodinach-dojit-melo-i-k-ovlivnovani-volby",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — prolongovaná neschopnost rady zvolit ředitele veřejnoprávního média spolu s tvrzeními o ovlivňování procesu volby vytváří precedent a zasahuje do funkčnosti ČT jako instituce (subkomponenta M2 — nezávislost ČT, procedura volby vedení). Obvinění z ovlivňování volby je vážné, avšak zatím bez potvrzení; proto nikoliv severity 4. Single source principle: pouze HN, proto při horní hranici §3 zůstáváme na 3. Sekundárně relevantní pilíř governance (G1 — fungování rad jako dozorčích orgánů).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-16T00:00:00.000Z",
+    "expires_at": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W25-008",
+    "date": "2025-06-18",
+    "headline": "Ministerstvo spravedlnosti zveřejnilo 27stránkovou časovou osu bitcoinové kauzy s přiznanými mezerami",
+    "summary": "Ministerstvo spravedlnosti předložilo vládě a zveřejnilo chronologický přehled bitcoinové kauzy zpracovaný útvarem interního auditu. Dokument o 27 stránkách neobsahuje jména konkrétních osob a autoři sami přiznávají, že v něm chybějí podstatné informace. Kauza je v kontextu probíhající předvolební kampaně politicky citlivá.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "27 stránek. Ministerstvo zveřejnilo &bdquo;časovou osu&ldquo; bitcoinové kauzy. Autoři materiálu přiznávají, že v něm mnohé chybí",
+        "url": "https://domaci.hn.cz/c1-67751330-27-stranek-ministerstvo-zverejnilo-bdquo-casovou-osu-ldquo-bitcoinove-kauzy-autori-zpravy-priznavaji-ze-v-ni-mnohe-chybi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — zveřejnění dokumentu je krokem k transparentnosti (subkomponenta K1 — politická korupce, odpovědnost ústavních činitelů, a K2 — transparentnost), avšak jeho rozsah je omezený a autoři sami uznávají neúplnost. Direction +1, protože jde o proaktivní zveřejnění, i když nedostatečné. Bez jmen a klíčových faktů jde spíše o procedurální akt než skutečně osvětlující dokument — proto severity 2, nikoli 3. Sekundárně relevantní pilíř governance (G4 — transparentnost vládnutí).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-16T00:00:00.000Z",
+    "expires_at": "2025-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W25-009",
+    "date": "2025-06-16",
+    "headline": "Ústavní soud zamítl návrh poslanců ANO na zrušení důchodové reformy",
+    "summary": "Ústavní soud se po dvou letech vyjádřil k návrhu poslanců ANO, kteří usilovali o zrušení přísnějších pravidel výpočtu důchodů, valorizace a podmínek pro přiznání předčasného důchodu. Soud návrh zamítl a tím potvrdil platnost normy, kterou vláda protlačila legislativním procesem v roce 2023. Rozhodnutí vysílá signál o ústavní konformitě daného legislativního postupu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Jaký vzkaz vyslal Ústavní soud rozhodnutím o předčasných důchodech?",
+        "url": "https://archiv.hn.cz/c1-67751240-jaky-vzkaz-vyslal-ustavni-soud-rozhodnutim-o-predcasnych-duchodech",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — rozhodnutí ÚS je konkrétní institucionální akt s omezeným dopadem (potvrzení stávajícího stavu). Subkomponenta J1: ÚS vydal nezávislé rozhodnutí bez zjevného politického tlaku, což je pozitivní signál. Direction +1, protože soud fungoval autonomně a potvrdil ústavní konformitu legislativy. Přesné datum vydání nálezu není z článku zcela jasné, odhadnuto na základě data publikace článku (2025-06-18). Sekundárně se dotýká G3 (stabilita ústavních norem).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-16T00:00:00.000Z",
+    "expires_at": "2025-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W25-010",
+    "date": "2025-06-18",
+    "headline": "Francouzská prokuratura potvrdila pokračování vyšetřování Babiše v kauze praní peněz",
+    "summary": "Francouzská Národní finanční prokuratura (PNF) potvrdila, že vyšetřování předsedy ANO Andreje Babiše v kauze možného praní špinavých peněz a zastírání původu majetku nadále pokračuje. Informace protiřečí dřívějším tvrzením Aleny Schillerové, která prohlašovala opak. Kauza se týká mezinárodní dimenze možné politické korupce.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Právo: Francouzi dál vyšetřují Babiše kvůli možnému praní špinavých peněz, Schillerová tvrdila opak",
+        "url": "https://domaci.hn.cz/c1-67750930-pravo-francouzi-dal-vysetruji-babise-kvuli-moznemu-prani-spinavych-penez-schillerova-tvrdila-opak",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — potvrzení pokračujícího zahraničního vyšetřování lídra hlavní opoziční strany v kauze praní peněz je konkrétní institucionální akt s precedentním dopadem pro českou politickou scénu (subkomponenta K1: politická korupce). Závažnost zvyšuje fakt, že vyjádření PNF přímo vyvrací tvrzení české političky Schillerové, čímž vzniká otázka vědomého uvádění veřejnosti v omyl. Direction -1, protože pokračování vyšetřování odhaluje potenciální korupční jednání ústavního/politického činitele. Duration persistent — vyšetřování stále probíhá. Single-source rule: informace pochází primárně od deníku Právo, ale odkazuje na přímé vyjádření PNF, což zvyšuje věrohodnost. Sekundárně se dotýká J4 (rovnost před zákonem, zda česká justice postupuje srovnatelně).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-16T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W25-011",
+    "date": "2025-06-17",
+    "headline": "Opozice svolala schůzi o vyslovení nedůvěry vládě kvůli bitcoinové kauze",
+    "summary": "Opoziční strany svolaly mimořádnou schůzi sněmovny s cílem vyslovit nedůvěru vládě Petra Fialy v souvislosti s bitcoinovou kauzou. V zákulisní debatě se řešila zejména role ministra financí Stanjury; nespokojeni jsou i koaliční Starostové.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Opozice chce kvůli bitcoinům sesadit vládu. V zákulisí se řeší role ministra Stanjury, naštvaní jsou i Starostové",
+        "url": "https://domaci.hn.cz/c1-67750730-opozice-chce-kvuli-bitcoinum-sesadit-vladu-v-zakulisi-se-resi-role-ministra-stanjury-jsou-na-nej-nastvani-i-starostove",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:37.149Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — hlasování o nedůvěře vládě je klíčový mechanismus parlamentní kontroly exekutivy (subkomponenta G1). Svolání schůze vytváří institucionální napětí v koalici a signalizuje potenciální ztrátu důvěry parlamentu vůči kabinetu. Nejde zatím o schválený výsledek, pouze o zahájení procesu, proto nikoli severity 4. Sekundárně se dotýká pilíře corruption (bitcoinová kauza), ale primární kořen je parlamentní odpovědnost exekutivy.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-16T00:00:00.000Z",
+    "expires_at": "2025-09-09T00:00:00.000Z"
+  }
+]

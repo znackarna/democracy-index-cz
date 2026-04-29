@@ -1,0 +1,126 @@
+[
+  {
+    "id": "2025-W38-001",
+    "date": "2025-09-19",
+    "headline": "Úřady nemají harmonogram vymáhání dotací od Agrofertu navzdory Výborného slibům",
+    "summary": "Ministr zemědělství Marek Výborný veřejně přislíbil, že v září budou zahájena první správní řízení k vymáhání dotací po Agrofertu. Příslušné úřady ale potvrdily, že nemají ani harmonogram, ani jasný postup, a žádná instituce nezahájení řízení do konce září nepotvrdila. Jde o rozpor mezi politickým slibem a institucionální realitou s dopadem na efektivitu vymáhání prostředků EU.",
+    "pillar": "corruption",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Časový plán není.“ Úřady se zatím nemají k vymáhání miliard od Agrofertu, jak slibuje Výborný",
+        "url": "https://denikn.cz/1841418/probihaji-analyzy-urady-navzdory-vyborneho-slibum-nepotvrdily-ze-zacinaji-vymahat-miliardy-od-agrofertu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:38.368Z"
+      },
+      {
+        "title": "‚Nemáme časový plán.‘ Úřady nepotvrdily, že budou vymáhat dotace od Agrofertu",
+        "url": "https://www.irozhlas.cz/zpravy-domov/nemame-casovy-plan-urady-nepotvrdily-ze-budou-vymahat-dotace-od-agrofertu_2509191841_kvr",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:13.879Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o drobný, ale zaznamenatelný incident: veřejný slib ministra o zahájení vymáhání miliardových dotací se ukazuje jako nepodložený a příslušné úřady ho nedokáží potvrdit. Subkomponenta K4 (protikorupční instituce — jejich účinnost a nezávislost) a K1 (politická korupce — zneužití pravomoci nebo alespoň selhání při prosazení veřejného zájmu). Dopad je zatím omezený na informační úrovni; pokud vymáhání skutečně nezačne, eskaluje na severity 3. Duration persistent, protože jde o trvající stav — řízení nebyla zahájena. Sekundárně se dotýká G4 (transparentnost vládnutí). Anti-bias check: stejně bych klasifikoval ministra z jakékoli strany.\n\n[merged with 2025-W38-005 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2025-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W38-002",
+    "date": "2025-09-18",
+    "headline": "Záhadný dar tří milionů korun straně Motoristé s nejasným původem",
+    "summary": "Na účtu strany Motoristé sobě přistál během září mimořádný dar ve výši tří milionů korun, přičemž nikdo se k jeho původu nepřihlásil. Okolnosti transakce vyvolávají otázky ohledně transparentnosti financování politické strany před volbami.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Záhadné tři miliony pro Motoristy: nikdo se k nim nehlásí",
+        "url": "https://denikn.cz/1840212/zahadne-tri-miliony-pro-motoristy-nikdo-se-k-nim-nehlasi/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:38.368Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — neprůhledné financování politické strany bezprostředně před volbami (subkomponenta K3: transparentnost financování politiky). Záhadný původ daru v řádu milionů Kč naznačuje možné obcházení pravidel pro financování stran; případ zasahuje sekundárně i do pilíře electoral (E1: transparentnost kampaní). Jeden zdroj, event se týká ověřitelné bankovní transakce, avšak motivace a totožnost dárce nejasná — pokud by se potvrdilo skryté financování, severity by eskalovala na 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-09-15T00:00:00.000Z",
+    "expires_at": "2025-12-11T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W38-003",
+    "date": "2025-09-18",
+    "headline": "Policie zastavila protestní punkový koncert na předvolební akci SPD v Praze",
+    "summary": "Skupina protestujících narušila předvolební mítink SPD punkovým koncertem v Praze. Policie včetně těžkooděnců zásah ukončila, čímž de facto zabránila projevu protispolečenské demonstrace v bezprostřední blízkosti politické akce.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Na pražském mítinku SPD zasahovala policie. Proti Okamurovi se demonstrovalo punkovým koncertem",
+        "url": "https://denikn.cz/1840859/na-prazskem-mitinku-spd-zasahovala-policie-proti-okamurovi-se-demonstrovalo-punkovym-koncertem/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:38.368Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázový policejní zásah proti pokojné (byť hlučné) demonstraci s omezeným dopadem; subkomponenta C2 (svoboda shromažďování). Protest byl zastaven bez zjevné právní opory přesahující ochranu veřejného pořádku a bez hlášeného fyzického násilí vůči demonstrantům. Situace nedosahuje severity 3, protože nejde o systematický vzorec potlačování protestů ani o zákonné omezení práva shromažďovat se — jde o jednorázový incident. Sekundárně se dotýká pilíře electoral (E2: politická soutěž a prostor pro protest v kampani).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-09-15T00:00:00.000Z",
+    "expires_at": "2025-12-11T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W38-004",
+    "date": "2025-09-19",
+    "headline": "Právníci: Babiš jako premiér by byl ve střetu zájmů, prezident Pavel jedná o možném nejmenování",
+    "summary": "Právní experti včetně bývalého ústavního soudce Stanislava Balíka se shodují, že Andrej Babiš nemůže být jmenován předsedou vlády, pokud si ponechá vlastnictví holdingu Agrofert, a to vzhledem k zákonu o střetu zájmů. Prezident Pavel se chystá tuto otázku s Babišem probrat ještě před případným jmenováním. Diskutuje se i možnost, že prezident není povinen jmenovat předsedu vítězné strany.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Právníci se shodují, že Babiš jako premiér by byl ve střetu zájmu, říká bývalý ústavní soudce Balík",
+        "url": "https://www.irozhlas.cz/zpravy-domov/pravnici-se-shoduji-ze-babis-jako-premier-byl-ve-stretu-zajmu-rika-byvaly_2509192036_vsn",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:13.879Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — situace vytváří precedent pro ústavní spor o jmenování premiéra (subkomponenta G1: dělba moci, role prezidenta při jmenování vlády). Byť jde zatím o anticipatorní právní diskusi před volbami, veřejné stanovisko prezidenta a shoda právníků na zákonné překážce pro lídra vítězné strany má přímý institucionální dopad na povolební formování vlády. Sekundárně se dotýká K1 (střet zájmů ústavního činitele). Směr -1: stav naznačuje strukturální problém, kdy potenciální premiér není s to dostát zákonným požadavkům bez vzdání se majetku.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W38-006",
+    "date": "2025-09-19",
+    "headline": "Policie navrhla obžalovat bývalého poslance Šnajdra a dalších dvou mužů z uplácení v kauze VZP",
+    "summary": "Kriminalisté navrhli státnímu zástupci obžalovat bývalého poslance ODS Marka Šnajdra, podnikatele Pavla Dovhomilju a bývalého náměstka VZP Tomáše Knížka pro uplácení v souvislosti s hospodařením pojišťovny. Případ je napojen na širší kauzu Dozimetr. Státní zástupce Adam Borgula příjem návrhů na obžalobu potvrdil.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Policie navrhla obžalovat bývalého poslance Marka Šnajdra. Dopustil se podle ní uplácení",
+        "url": "https://www.irozhlas.cz/zpravy-domov/policie-navrhla-obzalovat-byvaleho-poslance-marka-snajdra-dopustil-se-podle-ni_2509191655_kvr",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:13.879Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh obžaloby politicky exponované osoby (bývalý poslanec) v kauze spjaté se zavedeným korupčním schématem (Dozimetr) naplňuje subkomponentu K1 (politická korupce, zneužití postavení pro osobní prospěch) a K2 (netransparentní hospodaření veřejné instituce — VZP). Jedná se zatím o návrh obžaloby, nikoli o pravomocné odsouzení, což udržuje závažnost na 3 namísto vyšší. Single source (iROZHLAS odkazující na Seznam Zprávy); formální potvrzení státního zástupce zvyšuje věrohodnost. Sekundárně se dotýká pilíře electoral (poslanec), ale kořenová příčina je korupční.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-09-15T00:00:00.000Z",
+    "expires_at": "2025-12-12T00:00:00.000Z"
+  }
+]

@@ -1,49 +1,26 @@
 [
   {
     "id": "2025-W43-001",
-    "date": "2025-10-20",
-    "headline": "NCOZ stíhá 16 osob včetně šéfa Motola Ludvíka kvůli zakázkám se stavební firmou",
-    "summary": "Národní centrála proti organizovanému zločinu zahájila stíhání 16 osob v souvislosti se zakázkami motolské nemocnice u stavební firmy. Mezi obviněnými je ředitel nemocnice Miloslav Ludvík a advokát Roman Jansta.",
-    "pillar": "corruption",
+    "date": "2025-10-23",
+    "headline": "Ředitel DIA Martin Mesršmíd rezignuje po výpadku systémů elektronických dokladů během voleb",
+    "summary": "Ředitel Digitální a informační agentury Martin Mesršmíd odstupuje z funkce poté, co během volebního víkendu selhaly systémy elektronických dokladů. Ministr Jurečka zatím nemá nástupce a zvažuje, zda jmenování nepřenechá nové vládě. Incident poukázal na selhání klíčové digitální infrastruktury ve výrazně citlivém okamžiku.",
+    "pillar": "governance",
     "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
       {
-        "title": "Korupce v Motole: NCOZ stíhá 16 lidí, mezi nimi šéfa nemocnice Ludvíka a advokáta Janstu",
-        "url": "https://cnn.iprima.cz/policiste-z-ncoz-zasahuji-v-motolske-nemocnici-maji-se-zajimat-o-zakazky-se-stavebni-firmou-466992",
-        "outlet": "CNN Prima NEWS",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
+        "title": "Šéf digitální agentury ve čtvrtek rezignuje. ‚Přemýšlím nad tím,‘ říká k výběru jeho nástupce Jurečka",
+        "url": "https://www.irozhlas.cz/zpravy-domov/sef-digitalni-agentury-ve-ctvrtek-rezignuje-premyslim-nad-tim-rika-k-vyberu-jeho_2510210700_pik",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:24.290Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — zahájení trestního stíhání 16 osob včetně ředitele velké státní nemocnice za manipulaci se zakázkami spadá pod subkomponentu K2 (veřejné zakázky) a K1 (politická korupce). Jde o konkrétní institucionální zásah NCOZ s precedentním charakterem. Pouze jeden dostupný zdroj, proto nevyhodnocuji severity 4. Sekundárně relevantní pro pilíř governance (G4 transparentnost vládnutí), ale primárním pilířem je corruption (root cause).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 2 per rubric §2 — personální změna na střední úrovni státní správy (ředitel agentury) bez kaskádového institucionálního efektu; výpadek systémů byl sice symbolicky citlivý (volební víkend), ale nešlo o narušení samotného volebního procesu ani o trvalé poškození instituce. Subkomponenta G4 (transparentnost a výkaznost ministerstev) a okrajově E3 (volební infrastruktura). Absence nástupce a možné přenesení jmenování na novou vládu jsou procesně legitimní variantou v rámci přechodného období vlády.",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2025-10-20T00:00:00.000Z",
-    "expires_at": "2026-01-12T00:00:00.000Z"
-  },
-  {
-    "id": "2025-W43-002",
-    "date": "2025-10-25",
-    "headline": "Vládní návrh přechodu financování ČT a ČRo na státní rozpočet vyvolal stávkovou pohotovost",
-    "summary": "Ministr kultury Klempíř navrhl zákon, který by od roku 2027 nahradil koncesionářské poplatky státním rozpočtem a snížil financování veřejnoprávních médií o 1,4 miliardy Kč. ČT a ČRo návrh kritizují jako ohrožení své nezávislosti, odbory obou médií vyhlásily stávkovou pohotovost.",
-    "pillar": "media",
-    "severity": 2,
-    "direction": -1,
-    "duration": "persistent",
-    "sources": [
-      {
-        "title": "ČT a ČRo kritizují vládní návrh zákona o veřejnoprávních médiích",
-        "url": "https://m.echo24.cz/a/HV6Jd/ct-a-cro-vydaly-prohlaseni-kde-kritizuji-vladni-navrh-zakona-o-verejnopravnich-mediich",
-        "outlet": "Echo24",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
-      }
-    ],
-    "score_impact": -0.5,
-    "rationale": "Severity 4 per rubric §4 — návrh nahrazuje koncesionářské financování (zákonná záruka nezávislosti) státním rozpočtem, čímž přímo ohrožuje subkomponentu M2 (nezávislost ČT a ČRo). Přechod na státní rozpočet vytváří strukturální závislost vedení médií na vládní přízni při každoročním projednávání rozpočtu. Škrt 1,4 mld. Kč navíc odpovídá rubric §4 — 'oslabení pravomocí' analogicky k instituci s demokratickým dohledovým mandátem. Událost je zatím ve fázi návrhu (nikoli schváleného zákona), proto volím severity 4, nikoli 5 (per eskalační pravidlo: schválení + účinnost = 5). Stávková pohotovost odborů a veřejné prohlášení obou médií potvrzují reálný institucionální dopad. Sekundárně relevantní pro pilíř governance (G2, G4). Duration persistent, protože návrh je aktivně projednáván a přetrvává jako hrozba.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
-    "reviewer": "auto",
-    "status": "active",
-    "created_at": "2025-10-20T00:00:00.000Z"
+    "expires_at": "2026-01-15T00:00:00.000Z"
   }
 ]

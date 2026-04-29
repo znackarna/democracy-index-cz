@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2025-W35-001",
+    "date": "2025-08-26",
+    "headline": "Prezident Pavel navrhl Senátu dva nové soudce Ústavního soudu",
+    "summary": "Prezident Petr Pavel předložil Senátu návrhy na jmenování Michala Bartoně a Martina Smolka soudci Ústavního soudu. Za zhruba dva a půl roku ve funkci tak personálně obnovil ÚS z více než dvou třetin.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pavel navrhl Senátu na soudce Ústavního soudu Michala Bartoně a Martina Smolka",
+        "url": "https://zpravy.aktualne.cz/domaci/prezident-pavel-navrhl-senatu-na-soudce-us-michala-bartone-a/r~7a8d9a28827f11f0b553ac1f6b220ee8/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T14:37:34.816Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o standardní výkon prezidentských pravomocí v oblasti jmenování ústavních soudců (subkomponenta J1), bez náznaku politicky problematického výběru nebo obstrukcí ze strany Senátu. Rozsáhlá obnova složení ÚS je hodna záznamu, ale v tomto případě probíhá v souladu s ústavními procedurami a nebudí zprávy o politickém tlaku. Direction +1, protože řádné naplňování ÚS posiluje jeho funkčnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-08-25T00:00:00.000Z",
+    "expires_at": "2025-11-18T00:00:00.000Z"
+  }
+]

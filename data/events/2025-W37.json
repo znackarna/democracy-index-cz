@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2025-W37-001",
+    "date": "2025-09-08",
+    "headline": "ČR vyhostila běloruského diplomata po odhalení špionážní sítě KGB",
+    "summary": "Evropské zpravodajské služby společně rozbily síť běloruských agentů pracujících pro KGB, kteří získávali tajné informace a předávali je Lukašenkovu režimu. České ministerstvo zahraničí v reakci vyhostilo jednoho běloruského diplomatu. Žalobce Zeman pochválil rychlost mezinárodní spolupráce.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Tajné služby odhalily síť běloruských agentů. „Zvládli jsme to během týdnů,“ chválí spolupráci žalobce Zeman",
+        "url": "https://denikn.cz/1830338/tajne-sluzby-odhalily-sit-beloruskych-agentu-zvladli-jsme-to-behem-tydnu-chvali-spolupraci-zalobce-zeman/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:36.331Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — odhalení zahraniční špionážní sítě na českém území a vyhoštění diplomata jsou konkrétní, datované události s omezeným institucionálním dopadem na demokratické pilíře samotné. Primárně jde o bezpečnostní a suverénní záležitost státu; subkomponenta C5 (práva v digitálním prostoru, sledování státem) je dotčena z pohledu bezpečnosti, avšak aktérem je cizí stát, nikoli česká vláda. Pilíř corruption (K4 — protikorupční/zpravodajské instituce) je relevantní sekundárně — BIS a státní zastupitelství fungovaly správně, event direction se z pohledu demokratických institucí nejeví jednoznačně negativně vůči ČR, ale zahraniční špionáž jako taková podrývá otevřenost společnosti. Direction -1 protože událost dokumentuje reálnou hrozbu pro demokratický prostor. Single source, no structural precedent — severity 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-09-08T00:00:00.000Z",
+    "expires_at": "2025-12-01T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W37-002",
+    "date": "2025-09-08",
+    "headline": "Bratr ředitele brněnského muzea vydělával na městských akcích bez smlouvy",
+    "summary": "Bratr ředitele Muzea města Brna si od stánkařů na muzejních akcích účtoval tisíce korun za přidělení prodejních míst, přestože s ním instituce neměla žádný smluvní vztah. Vedení muzea případ bagatelizovalo s odkazem na úspory. Jde o typický případ nepotismu a konfliktu zájmů v municipální sféře.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Rodinný byznys v Brně: na akcích městského muzea vydělává ředitelův bratr. Smlouvu na to nemá",
+        "url": "https://denikn.cz/1815046/rodinny-byznys-v-brne-na-akcich-mestskeho-muzea-vydelava-rediteluv-bratr-smlouvu-na-to-nema/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:36.331Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní případ nepotismu a potenciálního konfliktu zájmů na úrovni municipální instituce (subkomponenta K1 — politická korupce/střet zájmů), bez důkazů o systémovém vzorci nebo přímém dopadu na fungování celé instituce. Chybí smluvní základ, což naznačuje porušení pravidel veřejných zakázek (K2), ale rozsah je omezený. Závažnost zůstává na 2, protože jde o lokální incident bez prokázaného širšího strukturálního dopadu a bez reakce nadřízených orgánů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-09-08T00:00:00.000Z",
+    "expires_at": "2025-12-01T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W37-003",
+    "date": "2025-09-08",
+    "headline": "Ústavní soud pokáral senát Nejvyššího soudu za bagatelizaci domácího násilí",
+    "summary": "Ústavní soud zasáhl proti opakované praxi jednoho senátu Nejvyššího soudu, který ve věcech domácího násilí zpochybňoval oběti a přenášel na ně část viny. ÚS konstatoval, že soudci argumentovali necitlivě a mohli prohlubovat utrpení obětí, čímž nastavil závazné standardy pro budoucí případy.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ústavní soud „zatáhl za ruční brzdu“. Nejvyšší soud podle něj bagatelizoval domácí násilí a dál zraňoval oběť",
+        "url": "https://denikn.cz/1828343/ustavni-soud-zatahl-za-rucni-brzdu-nejvyssi-soud-podle-nej-bagatelizoval-domaci-nasili-a-dal-zranoval-obet/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:36.331Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — ÚS svým zásahem plní svoji standardní korekční roli vůči nižší instanci (subkomponenta J1 — nezávislost a správné fungování ÚS; J2 — standardy obecných soudů). Jde o pozitivní událost, kdy institucionální mechanismus funguje správně: ÚS pokáral konkrétní soudce za opakované pochybení. Direction +1, protože posílení ochrany obětí a nastavení precedentních hranic pro soudní argumentaci posiluje rovnost před zákonem (J4). Severity 2 nikoli 3, protože se nejedná o útok na nezávislost justice ani o strukturální selhání — ÚS korigoval konkrétní senát standardním způsobem bez precedentu ohrožujícího instituce.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-09-08T00:00:00.000Z",
+    "expires_at": "2025-12-01T00:00:00.000Z"
+  }
+]

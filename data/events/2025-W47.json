@@ -1,1 +1,273 @@
-[]
+[
+  {
+    "id": "2025-W47-001",
+    "date": "2025-11-20",
+    "headline": "Macinka po schůzce s Pavlem potvrdil diskusi o jmenování Turka ministrem zahraničí",
+    "summary": "Předseda Motoristů Petr Macinka po setkání s prezidentem Pavlem potvrdil, že se bavili o možném jmenování Filipa Turka ministrem zahraničí. Prezident dosud neobdržel seznam navrhovaných ministrů, který mu má předat Babiš příští týden. Situace naznačuje potenciální napětí mezi prezidentem a formující se vládou ohledně personálního obsazení.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Dotkli jsme se toho.“ Macinka se po setkání s Pavlem vyhýbal otázkám na Turkovo jmenování ministrem",
+        "url": "https://denikn.cz/1898328/dotkli-jsme-se-toho-macinka-se-po-setkani-s-pavlem-vyhybal-otazkam-na-turkovo-jmenovani-ministrem/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:45.240Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o signál napětí mezi prezidentem a nastupujícím premiérem ohledně jmenování ministra (subkomponenta G1, dělba moci), ale prozatím bez formálního odmítnutí nebo ústavní krize. Prezident dosud ani neobdržel seznam kandidátů, takže nelze hovořit o přímém odmítnutí jmenování. Sekundárně relevantní pro pilíř electoral (přechod moci po volbách, E4). Single source, žádné formální institucionální rozhodnutí dosud.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z",
+    "expires_at": "2026-02-12T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-002",
+    "date": "2025-11-20",
+    "headline": "Střet zájmů Babiše při sestavování vlády: Hrad a ANO si přes média vyměňují vzkazy o možném řešení",
+    "summary": "Prezident Pavel a kandidát na premiéra Babiš si prostřednictvím médií vyměňují stanoviska ohledně Babišova střetu zájmů jako podmínky jmenování vlády. Babiš dosud nepředstavil konkrétní řešení, přičemž ani varianta slepého trustu nemusí být prezidentem považována za dostatečnou. Situace vytváří nejistotu ohledně ústavní posloupnosti při přechodu moci.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babišův střet zájmů neřeší ani slepý trust. Existuje vůbec varianta, která by prezidenta uspokojila?",
+        "url": "https://denikn.cz/1897091/babisuv-stret-zajmu-neresi-ani-slepy-trust-existuje-vubec-varianta-ktera-by-prezidenta-uspokojila/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:45.240Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — probíhající střet ohledně střetu zájmů ústavního činitele (subkomponenta K1) bez dosavadního formálního institucionálního rozhodnutí. Jde o analytické shrnutí bez nové konkrétní události, ale popisuje persistentní stav napětí mezi prezidentem a kandidátem na premiéra ohledně korupčních rizik. Sekundárně relevantní pro pilíř governance (G1 — dělba moci, ústavní posloupnost jmenování vlády). Downgrade o jednu úroveň oproti potenciálnímu §3 kvůli absenci formálního odmítnutí jmenování nebo ústavní krize.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-003",
+    "date": "2025-11-17",
+    "headline": "Pavel varuje: Babiš musí vysvětlit střet zájmů, jinak by ANO mělo hledat jiného kandidáta",
+    "summary": "Prezident Pavel při příležitosti oslav 17. listopadu veřejně prohlásil, že pokud Andrej Babiš nedokáže obhájit svůj střet zájmů, mělo by ANO zvážit jiného kandidáta na premiéra. Zároveň se znovu otevírá otázka možného nejmenování Filipa Turka ministrem zahraničí. Článek analyzuje, jakou vyjednávací pozici má Hrad v nastupující ústavní situaci.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vrtěti psem: Pavel zvyšuje tlak na Babiše, kromě střetu zájmů se do hry vrací i nejmenování Turka",
+        "url": "https://denikn.cz/1897304/vrteti-psem-pavel-zvysuje-tlak-na-babise-krome-stretu-zajmu-se-do-hry-vraci-i-nejmenovani-turka/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:45.240Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — prezident veřejně zpochybňuje způsobilost koaliční strany nominovat předsedu vlády a naznačuje záměr odmítnout jmenovat konkrétního ministra. Subkomponenta G1 (dělba moci, ústavní role prezidenta při jmenování vlády) je přímo dotčena. Rubric příklad: 'Prezident odmítne jmenovat členy vlády navrženého premiéra bez ústavně přijatelného důvodu (severity 4)' — zde jde zatím jen o veřejnou hrozbu, nikoli skutečné odmítnutí, proto severity 3. Sekundárně se dotýká pilíře corruption (střet zájmů Babiše jako podmínka pro jmenování). Persistent, protože situace trvá a není uzavřena.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-004",
+    "date": "2025-11-17",
+    "headline": "Poslanec Turek na Národní třídě pronesl výrok s narážkou na hajlování, ANO reaguje opatrně",
+    "summary": "Poslanec Motoristů Filip Turek na demonstraci u příležitosti 17. listopadu pronesl výhrůžku s narážkou na nacistický pozdrav. Vedení ANO se od výroku distancuje jen velmi opatrně — Schillerová a Havlíček ho označili za nevhodný, ostatní tvrdí, že video neviděli nebo odmítají komentovat.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ten výrok není v pořádku, reaguje Schillerová na Turkova slova o „hajlování do ksichtu“. Výhrady má i Havlíček",
+        "url": "https://denikn.cz/1897447/ten-vyrok-neni-v-poradku-reaguje-schillerova-na-turkova-slova-o-hajlovani-do-ksichtu-vyhrady-ma-i-havlicek/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:45.240Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní verbální incident poslance s antisemitskou konotací, který sám o sobě nemá přímý institucionální dopad, ale zaslouží zaznamenání (subkomponenta C1, svoboda projevu a limity nenávistných výroků veřejných činitelů; C4, ochrana menšin). Opatrná reakce ANO zvyšuje závažnost oproti čistě izolovanému výroku, ale bez systémového vzorce ani institucionálních důsledků severity 3 není opodstatněna. Anti-bias check: stejný výrok z jakékoli politické strany by byl ohodnocen stejně.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z",
+    "expires_at": "2026-02-09T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-005",
+    "date": "2025-11-19",
+    "headline": "Sněmovní rozpočtový výbor začal projednávat návrh státního rozpočtu, nastupující koalice identifikuje deficit 96 miliard",
+    "summary": "Poslanci poprvé projednávali v rozpočtovém výboru návrh státního rozpočtu podaný Fialovou vládou. Zástupci nastupující koalice ANO tvrdí, že v rozpočtu chybí téměř 96 miliard korun a zpochybňují jeho reálnost. Šéf Národní rozpočtové rady také podrobil matematiku ANO kritice.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Politici kvůli rozpočtu „grilovali“ ministerské úředníky. Šéf rozpočtové rady zpochybnil matematiku hnutí ANO",
+        "url": "https://denikn.cz/1897321/politici-kvuli-rozpoctu-grilovali-ministerske-uredniky-sef-rozpoctove-rady-zpochybnil-matematiku-hnuti-ano/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:45.240Z"
+      },
+      {
+        "title": "V návrhu chybí víc miliard, než poslanci předpokládali. Sněmovní výbor proto odložil debatu o rozpočtu na pondělí",
+        "url": "https://domaci.hn.cz/c1-67815160-v-navrhu-chybi-vic-miliard-nez-poslanci-predpokladali-snemovni-vybor-proto-odlozil-debatu-o-rozpoctu-na-pondeli",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:03.622Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — standardní parlamentní projednávání rozpočtu je rutinní ústavní proces (subkomponenta G2, kvalita legislativy). Spor o čísla mezi odcházející a nastupující vládou je přirozenou součástí přechodového období bez náznaku porušení normy či institucionálního poškození. Direction 0, protože samotné projednávání je neutrální — jde o fungování parlamentního mechanismu v souladu s ústavou.\n\n[merged with 2025-W47-009 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z",
+    "expires_at": "2026-02-11T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-006",
+    "date": "2025-11-19",
+    "headline": "Prezident Pavel rozhodnut nejmenovat Turka ministrem zahraničí, konflikt s Babišem eskaluje",
+    "summary": "Podle informací redakce je prezident Pavel rozhodnut odmítnout jmenování Filipa Turka ministrem zahraničí, přičemž zároveň pokračuje spor o Babišův střet zájmů. Článek popisuje strategické pozice obou stran a ústavní oporu, o níž se Pavel může opřít při odmítnutí jmenování.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Drama kolem Babišovy vlády vrcholí: Pavel je teď rozhodnutý, že Turka nejmenuje",
+        "url": "https://denikn.cz/1897210/drama-kolem-babisovy-vlady-vrcholi-pavel-je-ted-rozhodnuty-ze-turka-nejmenuje/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:45.240Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — prezidentův záměr odmítnout jmenovat navrhovaného ministra se pohybuje na hranici ústavní praxe (subkomponenta G1, dělba moci, G3, stabilita ústavních norem). Rubric příklad uvádí 'Prezident odmítne jmenovat členy vlády navrženého premiéra bez ústavně přijatelného důvodu' jako severity 4 — zde však jde o záměr reportovaný ze zdrojů, nikoli o hotový skutek, proto de-eskalace na severity 3 dle kalibračního pravidla 'návrh vs. provedení'. Pokud by k odmítnutí jmenování skutečně došlo, severity by eskalovala na 4. Persistent, protože situace trvá. Sekundárně se dotýká pilíře corruption (střet zájmů Babiše). Pozn.: index 0 a index 4 popisují různé aspekty téže krize (Pavel/Turk/Babiš), ale jsou to samostatně datované reporty s různými novými informacemi.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-007",
+    "date": "2025-11-19",
+    "headline": "Pavel podmínil jmenování Babiše premiérem vysvětlením střetu zájmů; Babiš požaduje záruku jmenování předem",
+    "summary": "Prezident Pavel odmítá automaticky jmenovat Babiše předsedou vlády a požaduje veřejné vysvětlení jeho vztahu k Agrofertu. Babiš naopak chce předem ujistit, že bude jmenován, pokud vztah upraví. Spor přerostl v klíčový politický střet o podmínky předání moci.",
+    "pillar": "governance",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Hra nervů mezi Pavlem a Babišem. O co jde v klíčovém politickém souboji dneška?",
+        "url": "https://denikn.cz/1896245/hra-nervu-mezi-pavlem-a-babisem-o-co-jde-v-klicovem-politickem-souboji-dneska/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:45.240Z"
+      },
+      {
+        "title": "V případě Babišových problémů by ANO mělo nabídnout někoho jiného, řekl prezident. Náš kandidát je jediný, zní z hnutí",
+        "url": "https://archiv.hn.cz/c1-67814310-v-pripade-babisovych-problemu-by-ano-melo-nabidnout-nekoho-jineho-rekl-prezident-nas-kandidat-je-jediny-zni-z-hnuti",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:03.622Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — prezidentovo podmiňování jmenování vítěze voleb premiérem (subkomponenta G1 a E4) vytváří precedent pro sporný výklad ústavních rolí. Jde o napětí v ústavní posloupnosti předání moci (G3), které ještě není krizí, ale potenciálně eskaluje. Reportáž je analyticko-vysvětlující bez nového faktu, ale popisuje probíhající konkrétní institucionální spor zachycený v tomtéž týdnu. Sekundárně relevantní pro pilíř electoral (E4 — pokojné/řádné předání moci).\n\n[merged with 2025-W47-012 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2025-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-008",
+    "date": "2025-11-20",
+    "headline": "Lukačovič žaluje Babiše za výrok o daňovém dluhu Seznamu",
+    "summary": "Majitel Seznam.cz Ivo Lukačovič se rozhodl žalovat Andreje Babiše za jeho tvrzení, že firma dluží 900 milionů korun na srážkové dani z dividend. Lukačovič požaduje omluvu a náhradu škody. Jde o spor mezi vedoucím politikem a vlastníkem významného mediálního a technologického subjektu.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Lukačovič zažaluje Babiše kvůli výroku, že Seznam dluží na daních. &bdquo;Proč sídlíte na Kypru,&ldquo; reaguje šéf ANO",
+        "url": "https://domaci.hn.cz/c1-67815980-lukacovic-zazaluje-babise-kvuli-vyroku-ze-seznam-dluzi-na-danich-bdquo-proc-sidlite-na-kypru-ldquo-reagoval-expremier",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:03.622Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázové výroky politika proti majiteli významného mediálního/technologického subjektu s následnou soudní žalobou. Subkomponenta M3 (právní šikana/SLAPP) je relevantní, ale zde jde o iniciativu soukromé strany vůči politikovi, nikoli opačně, takže přímý SLAPP efekt chybí. Nicméně kontroverzní veřejné výroky šéfa ANO o konkrétní firmě mají potenciální chilling effect na mediální prostředí. Severity nepřesahuje 2, neboť jde o jednorázový spor bez systémového precedentu a bez prokazatelného vzorce.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z",
+    "expires_at": "2026-02-12T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-010",
+    "date": "2025-11-18",
+    "headline": "Babiš podmínil řešení střetu zájmů s Agrofertem jmenováním premiérem",
+    "summary": "Předseda ANO Andrej Babiš veřejně prohlásil, že nevratné kroky k řešení svého střetu zájmů podnikne až poté, co bude jistota jeho jmenování premiérem. Podmínění splnění ústavní povinnosti jmenováním ze strany prezidenta nastoluje napětí v procesu sestavování vlády.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Babiš chce jistotu, že ho prezident jmenuje do čela vlády. &bdquo;Pak vyřeším střet zájmů,&ldquo; tvrdí šéf ANO",
+        "url": "https://domaci.hn.cz/c1-67814850-babis-chce-jistotu-ze-ho-prezident-jmenuje-sefem-vlady-bdquo-pak-vyresim-stret-zajmu-ldquo-tvrdi-sef-ano",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:03.622Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — veřejné podmínění řešení prokazatelného střetu zájmů (subkomponenta K1: střet zájmů ústavního činitele, Agrofert) politickou zárukou jmenování vytváří precedent pro odkládání zákonných povinností. Sekundárně se dotýká pilíře governance (G1: dělba moci, role prezidenta při jmenování vlády) — prezident Pavel trvá na předchozím vyřešení střetu zájmů odkazem na nález ÚS. Anti-bias check: stejnou závažnost bych přiřadil kterémukoli jinému lídrovi koalice za srovnatelné veřejné prohlášení. Jeden zdroj (HN), proto neeskaluji výše.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z",
+    "expires_at": "2026-02-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-011",
+    "date": "2025-11-17",
+    "headline": "Tisíce lidí demonstrovaly na Staroměstském náměstí proti vládě ANO, SPD a Motoristů",
+    "summary": "Spolek Milion chvilek zorganizoval v pondělí na pražském Staroměstském náměstí demonstraci proti plánované vládní koalici ANO, SPD a Motoristů, které se zúčastnily tisíce lidí. Demonstranti mimo jiné nesli vlajky ČR, EU a Ukrajiny. Pořadatelé politikům předložili čtyři podmínky.",
+    "pillar": "civil",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Česko není na prodej! Na demonstraci proti vzniku vlády dorazily tisíce lidí, Milion chvilek dal politikům čtyři podmínky",
+        "url": "https://domaci.hn.cz/c1-67814320-cesko-neni-na-prodej-na-demonstraci-milionu-chvilek-proti-vzniku-vlady-dorazily-tisice-lidi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:03.622Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — pokojná demonstrace jako projev funkční svobody shromažďování (subkomponenta C2) bez zásahu státní moci nebo eskalace. Samotný fakt, že demonstrace proběhla bez komplikací, je pozitivní signál fungování občanských svobod; direction +1. Nejde o strukturální změnu ani precedent, proto one_off.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z",
+    "expires_at": "2026-02-09T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W47-013",
+    "date": "2025-11-23",
+    "headline": "Prezident Pavel odmítá jmenovat Filipa Turka ministrem zahraničí, vládní krize se prohlubuje",
+    "summary": "Prezident Petr Pavel signalizuje, že nejmenuje Filipa Turka (Motoristé sobě) na post ministra zahraničí z důvodu jeho kontroverzní minulosti. Motoristé trvají na Turkově nominaci jako podmínce vstupu do vlády, což ohrožuje sestavení kabinetu Andreje Babiše. Situace vytváří institucionální napětí ohledně prezidentských pravomocí při jmenování vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Turek, nebo smrt. Kultický boj Motoristů za Filipa Turka coby ministra zahraničí může převrátit povolební situaci",
+        "url": "https://archiv.hn.cz/c1-67816590-turek-nebo-smrt-kulticky-boj-motoristu-za-filipa-turka-coby-ministra-zahranici-muze-prevratit-povolebni-situaci",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:06.184Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — spor o jmenování ministra prezidentem vytváří precedent a narušuje standardní průběh povolební tvorby vlády (subkomponenta G1: dělba moci, respekt k roli prezidenta). Relevantní je i subkomponenta E4 (pokojné předání moci). Situace je 'persistent', neboť jde o přetrvávající institucionální blokádu, nikoli o jednorázovou akci. Jediný zdroj, proto severity 3 (nikoli 4), přestože precedentní potenciál by jinak mohl odůvodnit vyšší hodnocení. Anti-bias check: stejnou závažnost bych přiřadil i opačně orientovanému prezidentovi odmítajícímu ministra levicové vlády.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-17T00:00:00.000Z"
+  }
+]

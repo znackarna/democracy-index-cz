@@ -1,26 +1,199 @@
 [
   {
     "id": "2025-W33-001",
-    "date": "2025-08-15",
-    "headline": "Poslanec Klempíř navrhuje zrušit koncesionářský poplatek a přejít na financování ČT a ČRo ze státního rozpočtu",
-    "summary": "Poslanec Klempíř (Motoristé) představil návrh na nahrazení koncesionářských poplatků přímým financováním ČT a ČRo ze státního rozpočtu. Kritici upozorňují, že by takový model mohl zvýšit politický vliv na veřejnoprávní média, protože rozpočtové příspěvky procházejí každoroční parlamentní schválením.",
-    "pillar": "media",
+    "date": "2025-08-12",
+    "headline": "Lídr Stačilo! v Ústeckém kraji vyzval k zákazu vládních stran po volbách",
+    "summary": "Lídr hnutí Stačilo! v Ústeckém kraji Jaroslav Komínek prohlásil, že po volbách jako první podpoří zákaz ODS, Starostů, TOP 09 a KDU-ČSL. Přední celostátní tváře hnutí se od výroku distancovat odmítly nebo výrok bagatelizovaly. Výzva k zákazu konkrétních politických stran představuje přímý útok na principy politického pluralismu.",
+    "pillar": "electoral",
     "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
       {
-        "title": "Klempíř (Motoristé) chce zrušit „mediální daň\", financování ČT a ČRo z rozpočtu",
-        "url": "https://m.echo24.cz/a/HBdU5/zpravy-domaci-klempir-chceme-zrusit-medialni-dan-ct-cro",
-        "outlet": "Echo24",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
+        "title": "„Nemá smysl víc odpovídat.“ Přední tváře Stačilo! nechtějí říct, zda jim vadí výrok ústeckého lídra o zákazu vládních stran",
+        "url": "https://denikn.cz/1808232/nema-smysl-vic-odpovidat-predni-tvare-stacilo-nechteji-rict-zda-jim-vadi-vyrok-usteckeho-lidra-o-zakazu-vladnich-stran/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:30.819Z"
+      },
+      {
+        "title": "„Klidně to navrhnu.“ Lídr Stačilo! v Ústeckém kraji chce zakázat vládní strany",
+        "url": "https://denikn.cz/1807919/klidne-to-navrhnu-lidr-stacilo-v-usteckem-kraji-chce-zakazat-vladni-strany/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:30.819Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — jde o legislativní záměr v počáteční fázi (poslanecký návrh, dosud nepředložen jako sněmovní tisk), bez přímého institucionálního dopadu. Subkomponenta M2 (nezávislost ČT a ČRo): přechod na přímé státní financování je standardně považován za faktor zvyšující politickou závislost veřejnoprávních médií, protože výše prostředků by závisela na každoroční vůli parlamentní většiny. Není doložen formální zákon ani schválení → eskalace na 3 není opodstatněna. Dle pravidla de-eskalace: čistě verbální záměr bez praktického dopadu → severity 2. Anti-bias: shodně bych hodnotil návrh z opačného politického spektra.",
+    "rationale": "Severity 2 per rubric §2 — konkrétní verbální výrok regionálního politika ohrožující principy pluralismu (subkomponenta E2), ale bez institucionálního dopadu: jde o prohlášení zastupitele kraje, nikoli o legislativní návrh či vládní opatření. Skutečnost, že celostátní lídři hnutí výrok nezatratili, je alarmující, avšak nevyvolala žádnou formální politickou ani právní reakci. Dle pravidla de-eskalace: čistě verbální incident bez praktického dopadu po >30 dnech by mohl spadnout na 1, ale distancování se předních kandidátů od odpovědi zvyšuje závažnost zpět na 2. Anti-bias check: stejnou klasifikaci bych aplikoval na jakékoli jiné hnutí.\n\n[merged with 2025-W33-003 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-08-11T00:00:00.000Z",
+    "expires_at": "2025-11-04T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W33-002",
+    "date": "2025-08-12",
+    "headline": "Poslankyně ANO Balaštíková čelí obvinění ze zneužití kontaktů na krajské hygieně",
+    "summary": "Poslankyně Margita Balaštíková (ANO) je podle nahrávek zveřejněných serverem Seznam Zprávy podezřelá z toho, že využila svých kontaktů na krajské hygienické stanici ve Zlíně k poškození firmy svého bývalého manžela. Poslankyně obvinění odmítá a zpochybňuje autenticitu nahrávek. Kauza je v předvolebním období zatím ve stadiu mediálního odhalení bez formálního trestního stíhání.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Viděla jsem tu bábu třikrát v životě.“ Poslankyně ANO popírá, že by kvůli sporu s exmanželem úkolovala šéfku hygieny",
+        "url": "https://denikn.cz/1808074/videla-jsem-ji-trikrat-v-zivote-poslankyne-ano-popira-ze-by-kvuli-sporu-s-exmanzelem-ukolovala-sefku-hygieny/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:30.819Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivované zneužití vlivu na státní instituci (subkomponenta K1 — střet zájmů a zneužití pravomoci), ale dopad je lokální (krajská hygiena, osobní spor) a kauza je zatím na úrovni mediálního odhalení bez potvrzeného trestního řízení. Jediný primární zdroj (nahrávky přes Seznam Zprávy), poslankyně popírá. Dle pravidla source-count: při jediném zdroji a potenciálu severity 3 je vhodné zachovat 2 nebo null; volím 2, protože institucionální dopad je objektivně omezený. Sekundárně se dotýká pilíře governance (zneužití státní správy poslankyní).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-08-11T00:00:00.000Z",
+    "expires_at": "2025-11-04T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W33-004",
+    "date": "2025-08-11",
+    "headline": "Policie obvinila Čecha z obcházení sankcí a pojistného podvodu po prodeji letadla do Ruska",
+    "summary": "Česká policie obvinila muže z prodeje malého letadla ruskému občanovi v rozporu se sankcemi a z následného pokusu vymoci pojistné plnění po jeho havárii. Případ se týká vymáhání protiruských sankcí, nikoli demokratických institucí.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Prodal do Ruska letadlo, pak chtěl využít jeho havárie. Policie viní Čecha z obcházení sankcí a podvodu",
+        "url": "https://denikn.cz/1807353/prodal-do-ruska-letadlo-vini-policie-cecha-kdyz-pak-havarovalo-chtel-pry-uplatnit-pojistku/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:30.819Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Trestní kauza obcházení sankcí je relevantní pro vymáhání práva, avšak nemá přímý dopad na demokratické instituce ani na žádnou konkrétní subkomponentu pilířů indexu. Přiřazeno pilíři governance jako nejbližší (správní a právní řád), severity 1 per rubric §1 — rutinní trestní případ bez precedentního nebo systémového charakteru. Direction 0 — neutrální dopad na stav demokracie. Zvažováno is_event: false, ale policie vydala konkrétní obvinění v konkrétní datum, takže událost naplňuje minimální definici. Hraničně slabá relevance pro index.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-08-11T00:00:00.000Z",
+    "expires_at": "2025-11-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W33-005",
+    "date": "2025-08-11",
+    "headline": "Poslankyně STAN zveřejnila adresu ukrajinských nájemníků a kritizovala je na základě národnosti",
+    "summary": "Poslankyně a starostka Brna-Černovic Petra Quittová (STAN) zveřejnila na Facebooku jménem své městské části adresu ukrajinských nájemníků a kritizovala je na základě jejich národnosti. Předseda STAN Rakušan se části výroků ohradil, politička za nimi stojí.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Poslankyně STAN se opřela do ukrajinských nájemníků, zveřejnila jejich národnost i adresu. „Není to v pořádku,“ reaguje Rakušan",
+        "url": "https://denikn.cz/1807023/poslankyne-stan-se-oprela-do-ukrajinskych-najemniku-zverejnila-i-jejich-adresu-neni-to-v-poradku-reaguje-rakusan/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:30.819Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — zveřejnění adresy konkrétních osob a jejich etnické identifikace zvolenou představitelkou je konkrétním porušením normy ochrany menšin (subkomponenta C4) a soukromí (C5). Jde o jednorázový incident s omezeným dopadem bez systémového precedentu; nebyl přijat žádný zákon ani správní rozhodnutí. Vnitrostranická reakce (Rakušan se ohrazuje) zmírňuje institucionální dopad. Pokud by podobné výroky pokračovaly bez stranické reakce nebo se staly součástí stranické linie, eskalace na 3. Anti-bias check: stejnou závažnost by obdržel výrok obdobného charakteru od politika jakékoli strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-08-11T00:00:00.000Z",
+    "expires_at": "2025-11-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W33-006",
+    "date": "2025-08-11",
+    "headline": "Česká firma dodávala zakázané letecké díly do Ruska přes Turecko",
+    "summary": "Česká firma obchodující s leteckými náhradními díly posílala zboží přes Turecko do Ruska, čímž porušovala sankční režim EU. Celníci případ zdokumentovali; majitel firmy účast na obchvatu sankcí popírá.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Rusové dostali zakázané letecké díly z Česka. Přišly v kufru, píšou celníci",
+        "url": "https://denikn.cz/1805909/rusove-dostali-zakazane-letecke-dily-z-ceska-prisly-v-kufru-pisou-celnici/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:30.819Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — obcházení sankcí zapojením prostředníka je konkrétní zdokumentované porušení normy s přeshraničním dopadem (subkomponenta K2: veřejné zakázky a obchodní pravidla, analogicky dodržování závazných právních předpisů). Případ je doložen celníky, tedy z úřední strany, nikoli jen z jednoho mediálního zdroje. Nejedná se o strukturální schéma zahrnující ústavní činitele (to by bylo severity 4–5), ale o individuální firmu; pokud by vyšetřování odhalilo napojení na veřejné zakázky nebo politické osoby, eskalace by byla namístě.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-08-11T00:00:00.000Z",
+    "expires_at": "2025-11-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W33-007",
+    "date": "2025-08-16",
+    "headline": "Noční razie policie u bitcoinového dárce Jiřikovského s přítomností dětí",
+    "summary": "Policie provedla noční zásah u Tomáše Jiřikovského v Břeclavi, při němž se zadržovaný ukryl na střeše s oběma dětmi. Policie postup obhajuje, matka dětí uvádí, že na rizika upozorňovala soud již v červnu a žádala předběžné opatření.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Proč se policie rozhodla pro noční razii u Jiřikovského? A musely u toho být děti?",
+        "url": "https://denikn.cz/1811512/proc-se-policie-rozhodla-k-nocni-razii-a-musely-u-toho-byt-deti/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:33.439Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní incident s omezeným, ale zaznamenatelným institucionálním dopadem (subkomponenta J2: nezávislost obecných soudů a přiměřenost postupu orgánů). Matčina námitka, že soud nereagoval na preventivní žádost z června, otevírá otázku funkčnosti procesní ochrany dítěte. Samotný policejní postup (timing, přítomnost dětí) je sporný, avšak policie postup hájí. Bez dalšího šetření nebo systematického vzorce nelze přiřadit severity 3; zatím jde o jednorázový incident hodný sledování. Primárně judicial (procesní otázka soudu a policie), sekundárně civil (C4 — ochrana zranitelných osob).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-08-11T00:00:00.000Z",
+    "expires_at": "2025-11-08T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W33-008",
+    "date": "2025-08-15",
+    "headline": "Ministr Výborný oznámil vymáhání dotací Agrofert včetně nárokových plateb na půdu",
+    "summary": "Ministr zemědělství Výborný potvrdil záměr vymáhat dotace vyplácené firmám holdingu Agrofert v době, kdy byl Babiš ve vládě, a to včetně tzv. nárokových dotací na hektar. Jde o vymáhání v řádu miliard korun v přímé návaznosti na zákon o střetu zájmů. Babiš akci označil za politicky motivovanou.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ve hře jsou miliardy. Po Agrofertu budeme vymáhat i přímé platby na hektar, potvrdil ministr Výborný",
+        "url": "https://denikn.cz/1811123/ve-hre-jsou-miliardy-po-agrofertu-budeme-vymahat-i-prime-platby-na-hektar-potvrdil-ministr-vyborny/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:33.439Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — ministrem potvrzené zahájení vymáhání dotací v řádu miliard Kč od subjektů politicky exponované osoby je významný krok v oblasti K1 (střet zájmů ústavních činitelů) a K2 (transparentnost veřejných zakázek a dotačních titulů). Jde o pozitivní (direction +1) kroky protikorupčních institucí, nikoli o nový protiprávní akt. Single source → severity ponechána na 3, protože jde o veřejné ministerské prohlášení s dostatečnou věrohodností. Sekundárně se dotýká governance (G1 — kontrola exekutivy), ale primární kořen je v korupční accountability.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2025-08-11T00:00:00.000Z",
     "expires_at": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W33-009",
+    "date": "2025-07-17",
+    "headline": "Ukrajina zařadila pražskou firmu Voice of Europe na sankční seznam za vliv na eurovolby",
+    "summary": "Ukrajina minulý měsíc přidala na svůj sankční seznam českou společnost Voice of Europe se sídlem v Praze. BIS již loni odhalila, že firma provozovala dezinformační web a pokoušela se ve prospěch Ruska ovlivnit volby do Evropského parlamentu. Jde o další případ v řadě sankcí Kyjeva vůči českým subjektům s vazbami na Rusko.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Ukrajina přidala na sankční seznam Voice of Europe. Rusové skrze pražskou firmu chtěli ovlivnit eurovolby",
+        "url": "https://www.irozhlas.cz/zpravy-domov/sankce-rusko-ukrajina-cesko-voice-europe_2508170900_gut",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:11.399Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — firma prokazatelně operovala jako nástroj zahraniční (ruské) manipulace evropských voleb (subkomponenta E3 — ochrana před zahraniční manipulací volební infrastruktury). Zařazení na sankční seznam Ukrajinou je formálním potvrzením ze strany mezinárodního subjektu, což dle eskalačních pravidel rubric podporuje závažnost 3. Mediální dimenze (dezinformační web) je sekundární — kořenová příčina je interference do volebního procesu. Datum události je přibližné — sankce uvaleny „minulý měsíc\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-08-11T00:00:00.000Z"
   }
 ]

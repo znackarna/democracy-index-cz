@@ -1,26 +1,288 @@
 [
   {
     "id": "2025-W46-001",
-    "date": "2025-11-15",
-    "headline": "Turek označil úředníky za parazity hodné deratizace, následně se omluvil",
-    "summary": "Vládní zmocněnec Filip Turek (Motoristé) veřejně označil úředníky za parazity a hovořil o nutnosti jejich deratizace. Premiér Babiš výroky odsoudil, politologové je označili za totalitní rétoriku. Turek se posléze omluvil s upřesněním, že mínil aktivisty na ministerstvech, nikoli úředníky obecně.",
-    "pillar": "civil",
+    "date": "2025-11-12",
+    "headline": "Ředitel ČT nařídil redakci Moravce zvát Okamuru, odvolal se na posudky o porušení kodexu",
+    "summary": "Generální ředitel České televize Hynek Chudárek po tlaku části Rady ČT nařídil redakci pořadu Otázky Václava Moravce, aby se řídila posudky konstatujícími porušení kodexu tím, že šéf SPD Tomio Okamura není zván jako host. Redakce i sám Moravec rozhodnutí odmítají a pořad hájí. Jde o přímý zásah vedení veřejnoprávní televize do editoriálního rozhodování konkrétní redakce na základě politicky motivovaného podnětu Rady ČT.",
+    "pillar": "media",
     "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
       {
-        "title": "Filip Turek označil úředníky za parazity, mluvil o nutnosti deratizace",
-        "url": "https://www.blesk.cz/clanek/zpravy-politika/838087/turek-dostava-sodu-za-parazity-slovy-o-deratizaci-nastval-babise-macinka-zmocnence-haji-plaga-nemlcel.html",
-        "outlet": "Blesk.cz",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
+        "title": "Ředitel ČT dal za pravdu Okamurovi. Moravec prý nedodržuje kodex, když šéfa SPD nezve",
+        "url": "https://denikn.cz/1891492/reditel-ct-kritizoval-moravce-nedodrzuje-pry-kodex-kdyz-do-poradu-nezve-okamuru/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:43.360Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — jde o verbální incident s omezeným bezprostředním institucionálním dopadem, nicméně použití dehumanizující rétoriky (deratizace) ústavním zmocněncem vůči skupině veřejných zaměstnanců překračuje rámec pouhé kritiky a dotýká se subkomponenty C1 (svoboda projevu a důstojnost ve veřejném diskurzu). Rychlá omluva a odmítnutí ze strany premiéra brání eskalaci na 3. Anti-bias check: stejné hodnocení by platilo pro zmocněnce jakékoliv vlády. Sekundárně se event dotýká governance (G1), neboť jde o výrok aktivního vládního zmocněnce.",
+    "rationale": "Severity 3 per rubric §3 — ředitel ČT zasáhl do editoriálního rozhodování konkrétní redakce pod tlakem části Rady ČT, čímž vytvořil precedent pro politicky iniciované zásahy do výběru hostů ve veřejnoprávním médiu (subkomponenta M2: nezávislost ČT). Rubric §3 uvádí jako příklad 'zákon o ČT/ČRo s návrhy měnícími politickou kontrolu v rané fázi' — zde je situace analogická: formální příkaz vedení zasahuje do editoriální autonomie bez schválené systémové změny zákona, ale s precedentním dopadem. Sekundárně se dotýká pilíře M1 (pluralita) — podnět přišel z politicky spjaté části rady ve prospěch konkrétního politického subjektu. Single-source eskalační pravidlo nesnižuje severity, protože událost je fakticky potvrzena (ředitelův příkaz, veřejné vyjádření Moravce). Anti-bias check: stejnou závažnost bych přiřadil, kdyby podnět přišel od rady loajální jinému politickému táboru.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2025-11-10T00:00:00.000Z",
-    "expires_at": "2026-02-07T00:00:00.000Z"
+    "expires_at": "2026-02-04T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-002",
+    "date": "2025-11-12",
+    "headline": "Fialova vláda pošle návrh rozpočtu na rok 2026 do Sněmovny",
+    "summary": "Dosluhující vláda Petra Fialy se rozhodla odeslat do Sněmovny návrh státního rozpočtu na rok 2026 se schodkem 286 miliard korun, a to i přes probíhající přechod moci. Formující se kabinet Andreje Babiše o to požádal, aby urychlil vlastní úpravy a schválení zákona. K hlasování využila absence ministra Stanjury.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vláda rozpočet do Sněmovny nakonec pošle. Využila Stanjurovy absence",
+        "url": "https://denikn.cz/1891444/vlada-rozpocet-do-snemovny-nakonec-posle-vyuzila-stanjurovy-absence/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:43.360Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o nestandardní procesní krok (hlasování v nepřítomnosti jednoho ministra), který nicméně nemá precedentní charakter ani dlouhodobý institucionální dopad. Subkomponenta G1 (dělba moci, ústavní procesy) je dotčena okrajově — dosluhující vláda jedná v souladu s požadavkem nastupujícího kabinetu, což odpovídá standardní ústavní praxi. Direction 0: odeslání rozpočtu je samo o sobě ústavně neutrální akt; mírně nestandardní postup při hlasování nevytváří jasně negativní ani pozitivní precedent.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z",
+    "expires_at": "2026-02-04T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-003",
+    "date": "2025-11-11",
+    "headline": "Prezident Pavel tlačí na Babiše, aby veřejně vysvětlil řešení střetu zájmů",
+    "summary": "Prezident Petr Pavel požaduje, aby předseda ANO a pravděpodobný budoucí premiér Andrej Babiš veřejně oznámil, jak hodlá vyřešit svůj střet zájmů v souvislosti s podnikáním. Babiš tento požadavek odmítá a zpochybňuje prezidentovo právo to po něm vyžadovat, čímž se rýsuje veřejný spor mezi oběma ústavními činiteli před sestavením vlády.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Mezi Pavlem a Babišem se rýsuje spor. Šéf ANO nyní nechce veřejně oznámit své řešení střetu zájmů",
+        "url": "https://denikn.cz/1890895/prezident-podle-nej-nema-pravo-toto-chtit-v-cem-spociva-hrozici-stret-mezi-pavlem-a-babisem/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:43.360Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní veřejný střet mezi prezidentem a pravděpodobným budoucím premiérem ohledně transparentnosti majetkových záležitostí a střetu zájmů (subkomponenta K1 — politická korupce, střet zájmů ústavních činitelů). V tuto chvíli se jedná o verbální spor bez přijatého rozhodnutí či institucionálního aktu; eskalace by nastala, pokud by Babiš jako premiér odmítl zákonné povinnosti ohledně střetu zájmů. Sekundárně se dotýká subkomponenty G1 (dělba moci mezi prezidentem a exekutivou). Direction -1: odmítnutí transparentnosti ze strany budoucího premiéra oslabuje standardy veřejné odpovědnosti.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z",
+    "expires_at": "2026-02-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-004",
+    "date": "2025-11-11",
+    "headline": "Sněmovna rozděluje vedení výborů: Vesecká, Pikora a další klíčové posty",
+    "summary": "Poslanci nově zvoleného parlamentu si rozdělují předsednická místa ve sněmovních výborech. Do vedení mají mimo jiné zamířit bývalá nejvyšší státní zástupkyně Renata Vesecká a ekonom Vladimír Pikora; zahraničním výborem by měli projít Turek a Rajchl. Obsazení výborů ovlivní kontrolní a legislativní kapacitu parlamentu.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Sněmovní výbory povedou Vesecká, Pikora i Peštová. V zahraničním usednou Turek a Rajchl",
+        "url": "https://denikn.cz/1890713/snemovni-vybory-povedou-vesecka-pikora-i-sichtarova-v-zahranicnim-usednou-turek-a-rajchl/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:43.360Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — personální obsazení výborů je standardní součástí povolební institucionální rutiny bez bezprostředního narušení demokratických norem. Subkomponenta G1 (kontrola exekutivy parlamentem) je relevantní z hlediska budoucí kapacity, ale samotný akt rozdělení výborů nepředstavuje porušení ani posílení normy. Jmenování Vesecké (bývalé NSZ) a Turka (kontroverzního politika) může mít budoucí implikace pro subkomponenty J3 a G2, ale v tuto chvíli jde o předběžnou informaci bez formálního rozhodnutí. Direction 0: čistě procesní krok bez jednoznačného demokratického dopadu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z",
+    "expires_at": "2026-02-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-005",
+    "date": "2025-11-11",
+    "headline": "Policie zasahuje na ŘSD a ministerstvu pro místní rozvoj, podezření z manipulace zakázek",
+    "summary": "Policie ráno zasáhla na několika místech včetně Ředitelství silnic a dálnic a ministerstva pro místní rozvoj. Kriminalisté zajišťovali důkazy v souvislosti s podezřením z manipulace veřejných zakázek, v hledáčku je i bývalý sponzor ČSSD. Bylo zadrženo přes deset osob.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zásah kolem ŘSD: Policie jde po bývalém sponzorovi sociálních demokratů",
+        "url": "https://denikn.cz/1890277/policie-zasahuje-na-ministerstvu-pro-mistni-rozvoj-a-na-rsd-zadrzela-pres-deset-lidi/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:43.360Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rozsáhlý policejní zásah na státní instituci (ŘSD) a ministerstvu v souvislosti s veřejnými zakázkami naplňuje subkomponentu K2 (transparentnost veřejných zakázek, ZZVZ). Incident má institucionální dosah a zahrnuje více subjektů, ale jde o zahájení vyšetřování, nikoli o pravomocné odsouzení či prokázaný systémový vzorec — proto 3, nikoli 4. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí). Jeden primární zdroj v době zásahu, potvrzeno dalšími zprávami téhož dne.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z",
+    "expires_at": "2026-02-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-006",
+    "date": "2025-11-13",
+    "headline": "Školské odbory vyhlásily stávkovou pohotovost kvůli chybějícím miliardám na regionální školství",
+    "summary": "Školské odbory reagovaly vyhlášením stávkové pohotovosti poté, co ministerstvo školství nedostalo 3,7 miliardy korun na dofinancování regionálního školství na závěr roku. Spor se týká přesunu financování nepedagogických pracovníků na obce a kraje. Jde o konkrétní kolektivní akci v reakci na rozpočtový výpadek.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Školské odbory vyhlásily stávkovou pohotovost. Resort podle nich nemá miliardy na regionální školství",
+        "url": "https://www.irozhlas.cz/zpravy-domov/skolske-odbory-vyhlasily-stavkovou-pohotovost-ministerstvu-chybi-miliardy-na_2511131116_ako",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:25.812Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — stávková pohotovost je konkrétní institucionální reakce na rozpočtový výpadek (subkomponenta G4 — transparentnost a výkaznost ministerstev, přístup ke zdrojům). Dopad je zatím omezený (pohotovost, nikoli stávka), bez precedentního charakteru pro ústavní fungování. Pokud by pohotovost eskalovala do stávky nebo systémového omezení výuky, severity by vzrostla na 3. Sekundárně se dotýká governance (G1 — kontrola exekutivy).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z",
+    "expires_at": "2026-02-05T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-007",
+    "date": "2025-11-13",
+    "headline": "Babiš odmítá prodat Agrofert a kritizuje prezidenta Pavla kvůli střetu zájmů",
+    "summary": "Předseda ANO Andrej Babiš veřejně odmítl prodat Agrofert jako řešení střetu zájmů, který by nastalo po jeho případném jmenování premiérem. Kritizoval prezidenta Pavla za změnu postoje k navrhovaným řešením. Způsob, jak střet zájmů hodlá řešit, Babiš neuvedl.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babiš ke střetu zájmů: Agrofert neprodám. Pavel byl s variantami řešení spokojený, teď změnil názor",
+        "url": "https://www.irozhlas.cz/zpravy-domov/babis-ke-stretu-zajmu-agrofert-neprodam-pavel-byl-s-variantami-reseni-spokojeny_2511130946_ako",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:25.812Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — veřejné prohlášení aspiranta na premiéra, že neprodá obchodní holdings v přímém konfliktu se zákonem o střetu zájmů, je relevantní pro subkomponentu K1 (střet zájmů ústavních činitelů). V tuto chvíli jde o verbální výrok bez formálního institucionálního dopadu (Babiš dosud jmenován nebyl), proto severity 2, nikoli 3+. Situace má persistent charakter, protože střet zájmů bude strukturálním problémem po případném jmenování. Anti-bias kontrola: stejnou závažnost by obdržel jakýkoli jiný premiérský kandidát bez ohledu na politickou příslušnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-008",
+    "date": "2025-11-13",
+    "headline": "NCOZ obvinila 12 lidí a 5 firem z manipulace zakázek ŘSD",
+    "summary": "Národní centrála proti organizovanému zločinu obvinila 12 fyzických osob a pět firem v souvislosti s manipulací veřejných zakázek Ředitelství silnic a dálnic. Všichni zadržení byli propuštěni na svobodu, státní zástupkyně vazbu nežádala. Obvinění jsou prvním formálním procesním krokem po úterním policejním zásahu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Policie obvinila 12 lidí v souvislosti se zakázkami Ředitelství silnic a dálnic. Zadržení jsou na svobodě",
+        "url": "https://www.irozhlas.cz/zpravy-domov/policie-obvinila-12-lidi-z-reditelstvi-silnic-a-dalnic-z-manipulace-se-zakazkami_2511130826_epo",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:25.812Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — formální obvinění 12 osob a 5 firem za manipulaci veřejných zakázek u státní instituce (ŘSD) naplňuje subkomponentu K2 (transparentnost zadávacích řízení, ZZVZ). Obvinění je závažnější procesní krok než pouhý policejní zásah (index 1) a potvrzuje institucionální dosah. Eskalace na 4 by přišla při prokázaném politickém propojení na ústavní úrovni nebo systémovém vzorci — zatím nejsou důkazy tohoto dosahu. Sekundárně governance (G4). Více zdrojů potvrzuje základní fakta.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z",
+    "expires_at": "2026-02-05T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-009",
+    "date": "2025-11-12",
+    "headline": "Vláda v demisi odeslala návrh státního rozpočtu do sněmovny navzdory odporu ministra Stanjury",
+    "summary": "Dosluhující vláda odeslala návrh státního rozpočtu nové sněmovně poté, co ministr financí Stanjura odjel do zahraničí a nezablokoval hlasování. Jde o nestandardní procesní krok, kdy vláda v demisi odeslala klíčový legislativní dokument navzdory předchozímu zdráhání a vnitřní neshodě. Situace nastoluje otázky ohledně procedurálních hranic při přechodu moci.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Stanjura proti všem. Odjel pryč a vláda poslala rozpočet dál, dosud to odmítala",
+        "url": "https://zpravy.aktualne.cz/domaci/osamoceny-stanjura-odjel-do-bruselu-a-poslani-rozpoctu-prosl/r~8dc70f46bfd011f0ae9c0cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T14:37:37.562Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní procedurální pochybení s omezeným dopadem: vláda v demisi odeslala klíčový legislativní dokument (státní rozpočet) přes vnitřní nesouhlas klíčového ministra, což je nestandardní, ale nikoli bezprecedentní krok. Subkomponenta G1 (dělba moci, respekt k institucionální posloupnosti při přechodu vlády) a G2 (kvalita legislativního procesu). Nejde o systematický vzorec ani o přímé porušení ústavního pořádku, ale je to relevantní procesní incident hodný záznamu. Anti-bias: stejné hodnocení by platilo pro jakoukoliv předchozí vládu v demisi.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z",
+    "expires_at": "2026-02-04T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-010",
+    "date": "2025-11-12",
+    "headline": "Rada ČT konstatovala, že dlouhodobé nevyzývání Okamury do pořadu ČT mohlo narušit politickou soutěž",
+    "summary": "Rada České televize se shodla, že opakované nezařazení předsedy SPD Tomia Okamury do politického pořadu Otázky Václava Moravce od roku 2017 může narušovat rovnost politické soutěže v médiích veřejné služby. Radní se v debatě nakonec shodli na problematičnosti situace, ačkoli řízení nebylo formálně uzavřeno sankcí.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Moravcovo ignorování Okamury může narušit politickou soutěž, shodli se radní ČT",
+        "url": "https://zpravy.aktualne.cz/domaci/rada-ct-vlekla-debata-pak-shoda-nezvani-okamury-muze-narusit/r~7ef1f1acbfd011f080bfac1f6b220ee8/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T14:37:37.562Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — Rada ČT konstatovala potenciální narušení rovného přístupu politických stran k veřejnoprávnímu médiu (subkomponenta M2: nezávislost ČT a rovný přístup napříč spektrem; subkomponenta E2 z electoral pilíře — reálná politická soutěž a dostupnost veřejnoprávních médií). Jde o rutinní konstatování, nikoli o formální sankci nebo systémovou změnu; dopad je tedy omezený. Duration: persistent, protože jde o stav trvající od 2017, nikoliv jednorázový incident. Anti-bias: stejné hodnocení by platilo, kdyby šlo o jiný politický subjekt opakovaně vynechávaný z pořadu veřejnoprávního média.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-011",
+    "date": "2025-11-12",
+    "headline": "Babiš jednal s prezidentem Pavlem o sestavení vlády",
+    "summary": "Předseda ANO Andrej Babiš se sešel s prezidentem Petrem Pavlem v rámci povolební konzultace o sestavení vlády. Schůzka proběhla po parlamentních volbách a týká se procesu pověření k sestavení vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Andrej Babiš jednal s prezidentem Pavlem. Podívejte se na brífink",
+        "url": "https://video.aktualne.cz/z-domova/zive-rozhori-se-naplno-stret-mezi-babisem-a-pavlem-zasadni-s/r~934f8832bfa111f0a1910cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T14:37:37.562Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — standardní povolební konzultace mezi vítězem voleb a prezidentem je součástí běžného ústavního procesu (subkomponenta G1: dělba moci, procedura pověření sestavením vlády). Bez dostupných informací o konkrétním institucionálním konfliktu nebo precedentu zatím nelze přiřadit vyšší závažnost. Direction 0, protože samotná schůzka je neutrální ústavní akt; výsledek konzultace zatím není znám. Anti-bias check: stejný postup by byl aplikován na jakéhokoliv pověřeného předsedu vlády.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z",
+    "expires_at": "2026-02-04T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W46-012",
+    "date": "2025-11-12",
+    "headline": "Ministr Rakušan požádal Evropskou komisi o výjimku z migračního solidarity mechanismu",
+    "summary": "Ministr vnitra Rakušan zaslal Evropské komisi formální žádost o osvobození České republiky od příspěvku do mechanismu solidarity v oblasti migrace. Důvodem je vysoký počet uprchlíků z Ukrajiny, na jehož základě EK zveřejnila zprávu umožňující takovou žádost.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Rakušan poslal Evropské komisi žádost o osvobození Česka od příspěvku na migraci",
+        "url": "https://zpravy.aktualne.cz/domaci/rakusan-poslal-evropske-komisi-zadost-o-osvobozeni-cr-od-pri/r~f2ceb282bfc511f0801c0cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T14:37:37.562Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní využití unijního mechanismu na základě zveřejněné zprávy EK; Česko využívá legislativně předvídaného postupu (subkomponenta G4: transparentnost vládnutí a výkaznost ministerstev vůči EU). Nejde o porušení normy ani precedent; jedná se o rutinní administrativní akt. Direction 0, protože žádost je neutrální správní úkon, jehož dopady na demokracii jsou zanedbatelné. Anti-bias check: stejné hodnocení by bylo přiřazeno jakémukoliv ministru vnitra bez ohledu na politickou příslušnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-10T00:00:00.000Z",
+    "expires_at": "2026-02-04T00:00:00.000Z"
   }
 ]

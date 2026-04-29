@@ -1,1 +1,478 @@
-[]
+[
+  {
+    "id": "2025-W50-001",
+    "date": "2025-12-09",
+    "headline": "Tisíce studentů protestovaly proti jmenování zástupce Motoristů do čela ministerstva životního prostředí",
+    "summary": "Studenti z iniciativy Univerzity za klima vyšli do ulic ve více českých městech a protestovali proti plánovanému obsazení ministerstva životního prostředí zástupcem strany Motoristé. Demonstrace se zúčastnily tisíce středoškoláků a vysokoškoláků. Akce byla reakcí na oznámenou personální volbu v rámci sestavování nové vlády.",
+    "pillar": "civil",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Obrazem: „Turka ne, raději latté.“ Studenti nechtějí, aby přírodu chránili Motoristé",
+        "url": "https://denikn.cz/1915286/obrazem-turka-ne-radeji-latte-studenti-nechteji-aby-prirodu-chranili-motoriste/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:51.514Z"
+      },
+      {
+        "title": "&bdquo;Zařaďte zpátečku.&ldquo; Studenti protestují proti Motoristům v čele resortu životního prostředí",
+        "url": "https://domaci.hn.cz/c1-67822950-bdquo-zaradte-zpatecku-ldquo-studenti-protestuji-proti-motoristum-v-cele-resortu-zivotniho-prostredi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:13.230Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jedná se o pokojnou demonstraci jako výraz svobody shromažďování (subkomponenta C2), nikoli o její omezení. Samotný protest demokratické instituce neoslabuje ani neposiluje — státní moc na něj nijak nereagovala represí ani ústupkem. Direction 0, protože událost zachycuje výkon občanského práva bez institucionálního dopadu v okamžiku záznamu. Sekundárně relevantní pro governance (G1 — personální složení exekutivy), ale kořenová příčina protestu (obsazení ministerstva) je zaznamenána v indexu 3.\n\n[merged with 2025-W50-014 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-002",
+    "date": "2025-12-09",
+    "headline": "Poslanec Ševčík odmítá odhalit věřitele padesátimilionové pohledávky, odvolává se na doložku o utajení",
+    "summary": "Nově zvolený poslanec SPD Miroslav Ševčík vykázal v majetkovém oznámení pohledávky v desítkách milionů korun, přičemž u největší — 50 milionů Kč — odmítá uvést, kdo mu dlužnou částku dluží. Jako důvod uvádí doložku o utajení, aniž by vysvětlil, zda vztah se záhadným věřitelem nezakládá střet zájmů. Transparentnost majetkového přiznání zákonodárce je tak fakticky nulová v klíčové položce.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Mám doložku o utajení.“ Poslanec Ševčík z SPD nechce říct, kdo mu dluží padesát milionů",
+        "url": "https://denikn.cz/1915146/mam-dolozku-o-utajeni-poslanec-sevcik-z-spd-nechce-rict-kdo-mu-dluzi-padesat-milionu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:51.514Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zákonodárce se vyhýbá plnění smyslu majetkového přiznání (subkomponenta K1 — politická korupce, střet zájmů ústavních činitelů) a vytváří precedent pro využívání utajovacích doložek k zastření potenciálního střetu zájmů. Na rozdíl od příkladu v rubric §1 ('drobná chyba s opravou do 30 dnů') jde o vědomé odmítnutí zveřejnění s odvoláním na formální mechanismus. Událost je persistent, protože netransparentní stav trvá po dobu výkonu mandátu. Single source — při absenci dalšího potvrzení severity zůstává na 3, nikoli 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-003",
+    "date": "2025-12-09",
+    "headline": "Babiš po jmenování premiérem oznámil složení nového kabinetu — Turek ministrem nebude, Macinka povede dva resorty",
+    "summary": "Andrej Babiš po jmenování premiérem prezidentem Petrem Pavlem oznámil plánované složení nové vlády. Filip Turek (Motoristé) se na rozdíl od dřívějších spekulací mezi ministry neobjeví; předseda Motoristů Macinka bude prozatímně řídit dvě ministerstva. Formální jmenování vlády prezidentem bylo oznámeno na pondělí.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Turek na seznamu ministrů není, Macinka povede dva rezorty. Babiš popsal plány pro svou novou vládu",
+        "url": "https://denikn.cz/1914736/turek-na-seznamu-ministru-neni-macinka-povede-dva-rezorty-babis-popsal-plany-pro-svou-novou-vladu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:51.514Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — oznámení složení vlády je standardní součástí ústavního procesu předávání moci (subkomponenta G1), nikoli jeho narušením. Rozhodnutí, že Turek ministrem nebude, lze číst jako dílčí pozitivní korekci pod tlakem veřejnosti (viz index 0), ale samo o sobě nejde o porušení ani posilování normy — direction 0. Personální obsazení dvou ministerstev jednou osobou je prozatímní opatření předvídané ústavním rámcem. Událost je one_off v rámci procesu sestavování vlády, který je zachycen komplexněji v indexu 4.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-004",
+    "date": "2025-12-09",
+    "headline": "Prezident Pavel jmenoval Andreje Babiše potřetí premiérem",
+    "summary": "Prezident Petr Pavel jmenoval Andreje Babiše předsedou vlády — Babiš se tak stal premiérem potřetí v historii. Nová koalice ANO, SPD a Motoristů má v následujících dnech sestavit kabinet, který prezident formálně jmenuje v pondělí. Jde o standardní ústavní akt předání moci po volbách.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Aby se Česko stalo nejlepším místem pro život na celé naší planetě.“ Prezident jmenoval Babiše premiérem",
+        "url": "https://denikn.cz/1914623/aby-se-cesko-stalo-nejlepsim-mistem-pro-zivot-na-cele-nasi-planete-prezident-jmenoval-babise-premierem/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:51.514Z"
+      },
+      {
+        "title": "Prezident jmenuje novou vládu v pondělí, Turek na seznamu ministrů není",
+        "url": "https://domaci.hn.cz/c1-67822780-filip-turek-neni-ze-zdravotnich-duvodu-mezi-nominovanymi-kandidaty-do-vlady-rekl-babis",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:13.230Z"
+      },
+      {
+        "title": "Babiš se stal potřetí premiérem, je nejstarším politikem v čele české vlády",
+        "url": "https://domaci.hn.cz/c1-67822740-babis-se-stal-potreti-premierem-vladu-by-mohl-prezident-jmenovat-do-tydne",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:13.230Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jmenování premiéra prezidentem je rutinní ústavní akt (subkomponenta G1, G3), který proběhl v souladu s ústavním pořádkem bez náznaku krize nebo protiústavního postupu. Direction 0: událost sama o sobě demokratické instituce neposiluje ani neoslabuje — jde o pokojné předání moci (E4) v souladu s výsledky voleb. Případný dopad na demokratické standardy bude záviset na budoucích krocích vlády, nikoli na samotném aktu jmenování.\n\n[merged with 2025-W50-015 — same incident, sources combined]\n\n[merged with 2025-W50-016 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-005",
+    "date": "2025-12-09",
+    "headline": "Slovenský manažer Ivan Bednárik jmenován ministrem dopravy v Babišově vládě",
+    "summary": "Ivan Bednárik, slovenský manažer s bohatými zkušenostmi z dopravního sektoru včetně Českých drah, se stane ministrem dopravy v nové vládě Andreje Babiše. Jmenování přináší odborný profil, ale také vazby na podnikatelské prostředí v dopravě.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Přímočarý myslivec, kterému s politikou pomůže Havlíček. Bednárik na dopravu přinese odbornost i vazby na byznys",
+        "url": "https://denikn.cz/1913902/primocary-myslivec-kteremu-s-politikou-pomuze-havlicek-bednarik-na-dopravu-prinese-odbornost-i-vazby-na-byznys/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:51.514Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — rutinní personální obsazení ministerského postu při sestavování nové vlády. Subkomponenta G1 (dělba moci a personální obsazení exekutivy) není ohrožena; jde o standardní součást vládní transformace po volbách. Vazby na byznys jsou zmíněny jako potenciální budoucí téma, nikoli jako aktuální prokázaný střet zájmů (ten by spadal do `corruption`, K1). Žádný precedent ani institucionální dopad, který by překračoval úroveň 1.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-006",
+    "date": "2025-12-08",
+    "headline": "Kandidát na ministra Filip Turek se nedostavil na konzultaci s prezidentem Pavlem",
+    "summary": "Prezident Petr Pavel dokončil sérii konzultací s kandidáty na ministry budoucí vlády; kontroverzní kandidát Filip Turek se však na schůzku nedostavil. Turekova absence je komentována jako možný průlom v dosud vázaných koaličních jednáních o sestavení vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pointa N: Jak vyhřezlé ploténky možná pomohly odšpuntovat jednání o nové vládě",
+        "url": "https://denikn.cz/1913968/pointa-n-jak-vyhrezle-plotenky-mozna-pomohly-odspuntovat-jednani-o-nove-vlade/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:51.514Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — konkrétní incident v průběhu ústavního procesu sestavování vlády (subkomponenta G1, součinnost prezidenta a budoucí exekutivy). Nedostavení se kandidáta na prezidentskou konzultaci je neobvyklé a v kontextu trvající vládní krize má potenciál ovlivnit průběh jmenování, ale samo o sobě nepřekračuje rámec drobného jednorázového incidentu bez trvalých institucionálních následků. Direction 0 — dopad na demokratické instituce je ambivalentní: situace mohla usnadnit i zkomplikovat sestavení vlády. Anti-bias check: stejné hodnocení by bylo aplikováno bez ohledu na politickou příslušnost kandidáta.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-007",
+    "date": "2025-12-08",
+    "headline": "Turek zaslal prezidentovi omluvu a potvrdil zájem o ministerský post",
+    "summary": "Filip Turek zaslal prezidentu Pavlovi písemnou omluvu za nedostavení se na konzultaci, přičemž zdůraznil, že nechce, aby jeho zdravotní stav zdržoval jmenování vlády. Turek zároveň stvrdil svůj zájem o ministerský post.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Případně i já v roli ministra.“ Víme, co nemocný Turek poslal prezidentovi",
+        "url": "https://denikn.cz/1914088/nechci-aby-moje-zdravi-zdrzovalo-jmenovani-vlady-napsal-turek-prezidentovi/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:51.514Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — písemná komunikace kontroverzního kandidáta s prezidentem v průběhu ústavního procesu sestavování vlády (subkomponenta G1). Jde o konkrétní datovaný úkon s potenciálním dopadem na průběh jmenování vlády, ale bez přímého porušení normy nebo precedentního charakteru. Direction 0 — samotný dopis je neutrálním procesním krokem; jeho politický dopad závisí na dalším vývoji. Poznámka: Pokud by prezident odmítl Turka jmenovat nebo naopak jmenoval přes silné věcné výhrady, eskalovalo by to na severity 3–4 (G1, subkomponenta prezidentského jmenování).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-008",
+    "date": "2025-12-08",
+    "headline": "Stanjura zrušil cestu vládním speciálem do USA; úřady se hádaly o úhradu statisícových storen",
+    "summary": "Ministr financí Zbyněk Stanjura zrušil na poslední chvíli oficiální cestu do Los Angeles v době politického tlaku kvůli bitcoinové kauze, přičemž po zrušení vznikl spor mezi úřady o to, kdo uhradí stornované náklady v hodnotě statisíců korun. Kauza propojuje otázku transparentnosti výdajů veřejných prostředků se střetem zájmů ministra.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Dozvuk kauzy Bitcoin: úřady se hádaly, kdo zaplatí statisíce za zrušenou Stanjurovu cestu do Hollywoodu",
+        "url": "https://denikn.cz/1910139/dozvuk-kauzy-bitcoin-urady-se-hadaly-kdo-zaplati-statisice-za-zrusenou-stanjurovu-cestu-do-hollywoodu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:51.514Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — incident s omezeným přímým finančním dopadem (statisíce Kč za storna), ale s relevancí pro subkomponentu K1 (střet zájmů ústavního činitele) a K2 (transparentnost výdajů veřejných prostředků). Zrušení cesty bylo podmíněno politickým tlakem bitcoinové kauzy, nikoli čistě provozním důvodem; spor o úhradu nákladů je veřejně doložen. Nepřekračuje úroveň 2, protože finanční částky jsou relativně nízké a incident je jednorázový bez strukturálního dopadu. Sekundárně se dotýká pilíře `governance` (G4, transparentnost vládnutí). Anti-bias check: stejné hodnocení by bylo aplikováno bez ohledu na stranickou příslušnost ministra.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-009",
+    "date": "2025-12-08",
+    "headline": "Ministerstvo obrany odstoupilo od zakázky na drony bez tendru, dodavatel míří do insolvence",
+    "summary": "Ministerstvo obrany odstoupilo od smlouvy na dodávku deseti dronů Osprey-H a požaduje po firmách Summit Defense a Summit Advanced Systems přes 70 milionů korun za téměř dvouletá zpoždění. Obě firmy nyní vstupují do insolvence s celkovým dluhem přes 90 milionů korun. Zakázka byla od počátku kontroverzní – byla uzavřena bez standardního výběrového řízení.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Firma měla dodat ministerstvu deset dronů. Teď míří do insolvence s dluhem přes devadesát milionů",
+        "url": "https://denikn.cz/1913746/firma-mela-dodat-ministerstvu-deset-dronu-ted-miri-do-insolvence-s-dluhem-pres-devadesat-milionu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:51.514Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zakázka uzavřená bez tendru (subkomponenta K2 — transparentnost zadávacích řízení, porušení principů ZZVZ) s nyní prokázaným finančním selháním v desítkách milionů korun. Insolvence dodavatele a vymáhání pohledávek státem potvrzují konkrétní institucionální dopad. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí). Jeden zdroj, proto se pohybujeme na úrovni 3 bez eskalace; absence opakovaného vzorce vylučuje upgrade na 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-010",
+    "date": "2025-12-09",
+    "headline": "Prezident jmenoval Babiše premiérem; opozice poukazuje na nedořešený střet zájmů s Agrofert",
+    "summary": "Prezident republiky jmenoval Andreje Babiše předsedou vlády. Opoziční poslankyně a právnička Kateřina Stojanová (Piráti) zpochybňuje, zda Babišovo oznámení o řešení střetu zájmů s holdingem Agrofert je dostatečné, a upozorňuje na řadu nezodpovězených otázek ohledně složení a fungování budoucí vlády.",
+    "pillar": "corruption",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Mnoho jmen budoucí vlády je citlivých. Babišovo oznámení o řešení střetu má bledá místa, říká pirátka",
+        "url": "https://www.irozhlas.cz/zpravy-domov/mnoho-jmen-budouci-vlady-je-citlivych-babisovo-oznameni-o-reseni-stretu-ma-bleda_2512100025_mab",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:31.956Z"
+      },
+      {
+        "title": "Ověřit, že Babiš není ve střetu zájmů, může trvat měsíce. Agrofert ale o většinu dotací nepřijde, jen si počká",
+        "url": "https://archiv.hn.cz/c1-67822460-overit-ze-babis-neni-ve-stretu-zajmu-muze-trvat-mesice-agrofert-ale-o-vetsinu-dotaci-neprijde-jen-si-pocka",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:13.230Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — jmenování premiéra s dosud nevyřešeným nebo nedostatečně transparentně vyřešeným střetem zájmů (subkomponenta K1 — politická korupce, střet zájmů ústavního činitele) vytváří precedent a strukturálně přetrvávající riziko. Sekundárně se dotýká pilíře governance (G1 — dělba moci, kontrola exekutivy). Jednosměrné oznámení bez konkrétních záruk naplňuje rubric §3 jako potenciálně precedentní incident; single source a fáze 'oznámení záměru bez ověřené implementace' brání eskalaci na 4. Duration: persistent, protože stav střetu zájmů přetrvává do vyřešení vlastnické struktury.\n\n[merged with 2025-W50-017 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-011",
+    "date": "2025-12-09",
+    "headline": "Babiš jako premiér získal imunitu před trestním stíháním ve Francii po celou dobu mandátu",
+    "summary": "Francouzští právní experti potvrdili, že Andrej Babiš jako premiér požívá absolutní imunity před francouzským trestním stíháním po celou dobu svého mandátu. Francouzské úřady prošetřují jeho nákup nemovitostí prostřednictvím offshorových společností. Imunita fakticky zastavuje možnost prověřování do skončení mandátu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babiš získal jako premiér ve Francii absolutní imunitu. Tamní úřady zajímá nákup jeho vily",
+        "url": "https://www.irozhlas.cz/zpravy-domov/babis-ziskal-jako-premier-ve-francii-absolutni-imunitu-tamni-urady-zajima-nakup_2512092126_mab",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:31.956Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — jmenování Babiše premiérem mu přináší imunitu zastavující zahraniční vyšetřování možného korupčního jednání (subkomponenta K1, střet zájmů a zneužití postavení). Jde o konkrétní datovanou institucionální skutečnost s přímým dopadem na rovnost před zákonem (sekundárně J4). Událost je persistent, protože imunita trvá po celé funkční období. Dostupné alespoň dva zdroje (iROZHLAS, HN) potvrzující totéž. Anti-bias: stejně bych klasifikoval jakéhokoli premiéra, jehož jmenování zastaví zahraniční vyšetřování.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-012",
+    "date": "2025-12-09",
+    "headline": "Babiš jmenován premiérem potřetí, Agrofert převede do slepého fondu",
+    "summary": "Prezident Pavel jmenoval Andreje Babiše předsedou vlády po třetí. Babiš podmínku jmenování splnil oznámením, že holding Agrofert převede do slepého fondu spravovaného nezávislým správcem, čímž formálně řeší dlouhodobý střet zájmů. Programové prohlášení vlády a kroky kabinetu jsou teprve očekávány.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Česko má nového premiéra. Jaké budou první kroky Babišovy vlády a proč je pro něj důležitá Evropa?",
+        "url": "https://archiv.hn.cz/c1-67823180-cesko-ma-noveho-premiera-jake-budou-prvni-kroky-babisovy-vlady-a-proc-je-pro-nej-dulezita-evropa",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:13.230Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 3 per rubric §3 — jmenování premiéra s historií střetu zájmů (subkomponenta K1) je institucionálně významnou událostí; oznámení slepého fondu je dosud jen záměr, nikoli dokončený převod, takže protikorupční efekt je nejistý. Direction 0: záměr předat Agrofert do slepého fondu je formálně krokem pozitivním (řešení střetu zájmů), ale jeho věrohodnost a dopad závisí na implementaci — ambivalentní institucionální dopad. Sekundárně governance (G1, předání moci a ústavní kontinuita). Anti-bias: slepý fond jako řešení střetu zájmů by byl hodnocen stejně u jakéhokoli jiného politika s podobnou majetkovou strukturou.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-013",
+    "date": "2025-12-09",
+    "headline": "Nastupující vláda Babiše trvá na zestátnění ČEZ, přestože Německo se vydává opačnou cestou",
+    "summary": "Nastupující vláda ANO, SPD a Motoristů potvrzuje záměr kompletně zestátnit energetickou skupinu ČEZ, čímž naplní předvolební slib. Záměr je zmiňován v kontextu srovnání s opačnou energetickou politikou Německa, kde se připravuje privatizace plynárenství. Jde o první konkrétní signál o hospodářsko-politickém směřování nové vlády v klíčovém sektoru.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Německo chystá &bdquo;odstátnění&ldquo; svého plynárenství. Ve hře je prodej přes burzu i napřímo, stejně jako velká plynárenská fúze",
+        "url": "https://archiv.hn.cz/c1-67822480-nemecko-chysta-bdquo-odstatneni-ldquo-sveho-plynarenstvi-ve-hre-je-prodej-pres-burzu-i-naprimo-stejne-jako-velka-plynarenska-fuze",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:13.230Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — oznámení záměru zestátnění ČEZ je konkrétní politický signál nastupující vlády s dopadem na správu klíčové státní infrastruktury (subkomponenta G4 — transparentnost a výkaznost vládnutí, G1 — dělba moci a kontrola exekutivy). Záměr zatím nebyl formalizován zákonem, proto nejde o severity 3+. Eskalace je možná při předložení konkrétního legislativního návrhu. Sekundárně relevantní pro pilíř corruption (K2 — veřejné zakázky a hospodaření se státním majetkem).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-018",
+    "date": "2025-12-09",
+    "headline": "Pavel jmenuje Babiše premiérem v úterý, konzultace s kandidáty na ministry dokončeny",
+    "summary": "Prezident Petr Pavel dokončil sérii konzultací s kandidáty na ministry budoucí vlády ANO, SPD a Motoristů a plánuje jmenovat Andreje Babiše premiérem v úterý. Výjimkou zůstal kandidát na ministra životního prostředí Filip Turek, s nímž se prezident ještě nesešel.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pavel už přijal všechny kandidáty na ministry, s výjimkou Turka. Babiše jmenuje premiérem v úterý",
+        "url": "https://domaci.hn.cz/c1-67822520-pavel-uz-prijal-vsechny-kandidaty-na-ministry-s-vyjimkou-turka-babise-jmenuje-premierem-v-utery",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:13.230Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní procedurální krok ústavního procesu vzniku vlády (subkomponenta G1, předání moci). Prezidentské konzultace s kandidáty jsou běžnou součástí ústavní praxe, nikoli precedentem ani odchylkou od normy. Direction 0, protože jde o neutrální procesní událost bez jasného demokratického posílení či oslabení. Sekundárně se dotýká G4 (transparentnost) jen marginálně.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-03T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-019",
+    "date": "2025-12-08",
+    "headline": "Nejvyšší soud definitivně zamítl nároky firem na odškodné za covidové uzavření provozoven",
+    "summary": "Nejvyšší soud vydal konečné rozhodnutí, jímž odmítl odškodnění firmám za nucené uzavření provozu během covidové pandemie v prvním roce. Soud tak potvrdil, že stát nenese odpovědnost za škody způsobené protiepidemickými opatřeními.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Konec nadějí. Nejvyšší soud definitivně odmítl odškodné za zavřené obchody během covidu",
+        "url": "https://archiv.hn.cz/c1-67822440-nejvyssi-soud-dal-podnikatelum-nadeji-na-odskodne-za-covid-nakonec-je-ale-definitivne-odmitl",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:13.230Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o věcné konečné rozhodnutí NS s dopadem na velký počet podnikatelských subjektů, nikoliv o otázku nezávislosti justice či politického tlaku. Pilíř judicial je správný (subkomponenta J4 — rovnost před zákonem a vymahatelnost práv), ale rozhodnutí samotné nevzbuzuje pochybnosti o nestrannosti či politickém ovlivnění — jde o výkladový spor o odpovědnost státu. Direction 0, protože výsledek je kontroverznní ekonomicky, ale institucionálně nejde o oslabení ani posílení demokratického pilíře.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-020",
+    "date": "2025-12-12",
+    "headline": "Ministr Hladík zrušil stanovisko EIA k silnici přes Český ráj",
+    "summary": "Ministr životního prostředí v demisi Petr Hladík zrušil závazné stanovisko k posouzení vlivu stavby silnice I/35 přes Český ráj na životní prostředí. Projekt musí projít novým posuzovacím procesem EIA. Jde o jedno z posledních rozhodnutí ministra před koncem funkčního období.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ministr Hladík vyšel vstříc odpůrcům nové silnice přes Český ráj. Zrušil stanovisko k posudku vlivu stavby na životní prostředí",
+        "url": "https://archiv.hn.cz/c1-67824610-dalnice-i-35-pres-cesky-raj-musi-projit-novym-posouzenim-vlivu-na-zivotni-prostredi-ministr-hladik-k-nemu-zrusil-stanovisko",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:15.344Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — rozhodnutí ministra v demisi je formálně legitimní správní úkon (zrušení závazného stanoviska EIA), nikoli porušení normy. Dopad je omezený na jeden projekt a nevytváří precedent pro narušení institucionálního fungování. Subkomponenta G2 (kvalita legislativy/správního procesu) je marginálně dotčena, ale bez indikátoru politické manipulace. Direction 0: zrušení může být vnímáno jako vstřícnost k ekologickým argumentům i jako zpoždění dopravní infrastruktury — institucionální dopad jednoznačně nevyznívá ani pozitivně ani negativně pro demokratické instituce.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-06T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-021",
+    "date": "2025-12-12",
+    "headline": "NSS: Firmy Agrofertu nesměly za Babišova premiérství čerpat ani zakázky malého rozsahu",
+    "summary": "Nejvyšší správní soud rozhodl, že střet zájmů Andreje Babiše v době jeho první vlády zakazoval firmám z Agrofertu nejen přijímat dotace, ale i ucházet se o veřejné zakázky malého rozsahu. Rozsudek rozšiřuje dosavadní výklad zákona o střetu zájmů a má potenciální dopad na stovky zakázek.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "V době, kdy byl Babiš premiérem, neměly firmy z Agrofertu přijímat dotace ani se ucházet o malé veřejné zakázky, rozhodl soud",
+        "url": "https://domaci.hn.cz/c1-67824390-v-dobe-kdy-byl-babis-premierem-nemely-firmy-z-agrofertu-prijimat-dotace-ani-se-uchazet-o-male-verejne-zakazky-rozhodl-soud",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:15.344Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — rozsudek NSS vytváří závazný precedent rozšiřující výklad zákona o střetu zájmů (subkomponenta K1 — politická korupce, střet zájmů ústavního činitele). Jde o konkrétní soudní rozhodnutí s institucionálním dopadem přesahujícím individuální případ. Direction +1: soud posiluje protikorupční normu a vymahatelnost zákona o střetu zájmů. Sekundárně relevantní pro pilíř judicial (J4 — rovnost před zákonem), zmíněno v rationale.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-06T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-022",
+    "date": "2025-12-11",
+    "headline": "Vojenská policie zasáhla u firmy dodávající drony Ukrajině, zadržela tři osoby a obstavila účet spolku spojeného s gen. Řehkou",
+    "summary": "Vojenská policie provedla razii v sídle firmy FPV Space, která sbírá prostředky na drony pro ukrajinskou armádu. Vyšetřovatelé obstavili účet spolku, jehož čestným předsedou je náčelník generálního štábu Karel Řehka, a zadrželi tři pracovníky firmy. Kauza se dotýká přímé vazby na nejvyšší vojenské vedení.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vojenská policie jde po firmě, která dodává Ukrajincům drony. Vetchý už se vyjádřil",
+        "url": "https://zpravy.aktualne.cz/domaci/cernochova-se-loucila-do-kamer-jeji-policie-zatim-zasahla-spolek-spojeny-s-rehkou/r~aaa29d15ad32d731848c676b761fc845/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T14:37:39.640Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zásah vojenské policie vůči subjektu provázanému s náčelníkem generálního štábu vytváří precedent a naznačuje možný střet institucionálních rolí (G1 — dělba moci, institucionální integridad armádního vedení). Sekundárně se dotýká pilíře corruption (K1 — možný střet zájmů nebo zneužití pozice). Zdroj je jeden, takže dle source-count rule zůstávám na severity 3, nikoli vyšší.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-05T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W50-023",
+    "date": "2025-12-11",
+    "headline": "NSS: Agrofert nesměl kvůli Babišovu střetu zájmů dostávat ani zakázky malého rozsahu, nejen dotace",
+    "summary": "Nejvyšší správní soud vydal rozsudek, podle nějž firmám z koncernu Agrofert příslušný střet zájmů Andreje Babiše bránil nejen v čerpání dotací, ale i v účasti na veřejných zakázkách malého rozsahu. Rozhodnutí rozšiřuje dosavadní výklad pravidel o střetu zájmů a posiluje právní základ pro vymáhání odpovědnosti za historické pochybení.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Firmy z Agrofertu neměly kvůli Babišovu střetu zájmů dostávat zakázky",
+        "url": "https://www.aktualne.cz/politika-75a3d01c-68e8-4454-9237-3fa08081f766/firmy-z-agrofertu-nemely-kvuli-babisovu-stretu-zajmu-dostavat-zakazky/r~aaa29bade0a5db299160485ba874d7c4/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T14:37:39.640Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — rozsudek NSS vytváří významný precedent (subkomponenta J4 — rovnost před zákonem, stejné zacházení bez ohledu na politické postavení) a rozšiřuje právní výklad střetu zájmů ústavního činitele. Primární pilíř je judicial, protože jde o soudní rozhodnutí posilující vymahatelnost práva; sekundárně se dotýká corruption (K1 — střet zájmů ústavního činitele, K2 — veřejné zakázky). Směr +1, neboť rozsudek demokratickou normu posiluje a upevňuje odpovědnost vůči zákonu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-08T00:00:00.000Z",
+    "expires_at": "2026-03-05T00:00:00.000Z"
+  }
+]

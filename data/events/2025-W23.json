@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2025-W23-001",
+    "date": "2025-06-04",
+    "headline": "Ministr financí Blažek rezignoval a odmítl účast na mimořádné schůzi sněmovny k bitcoinové kauze",
+    "summary": "Ministr financí Pavel Blažek podal demisi v souvislosti s bitcoinovou kauzou a odmítl se zúčastnit mimořádné schůze Poslanecké sněmovny svolané k vysvětlení jeho role. Blažek prohlásil, že rezignace je dostatečnou odpovědí. Tím de facto odmítl parlamentní kontrolu exekutivy v kauze s potenciálně závažnými korupčními aspekty.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Blažek se nezúčastní mimořádné schůze sněmovny k bitcoinům, demise podle něj stačí",
+        "url": "https://zpravy.aktualne.cz/domaci/kauza-blazek/r~72af8e06404911f0ae9c0cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T13:25:53.976Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odmítnutí ministra dostavit se na mimořádnou schůzi parlamentu po vlastní rezignaci oslabuje subkomponentu G1 (reálná kontrola exekutivy parlamentem). Parlamentní kontrola exekutivy je klíčová norma; vyhýbání se interpelaci v kauze veřejného zájmu vytváří precedent. Sekundárně relevantní pilíř corruption (K1 — střet zájmů ústavního činitele), zmíněno v rationale. Single source — ponecháno na 3, nikoli eskalace.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-02T00:00:00.000Z",
+    "expires_at": "2025-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W23-002",
+    "date": "2025-06-04",
+    "headline": "NSS zrušil předběžné opatření, smlouva na Dukovany podepsána",
+    "summary": "Nejvyšší správní soud zrušil předběžné opatření, které blokovalo podpis smlouvy na výstavbu dvou nových jaderných bloků v Dukovanech. Ke skutečnému podpisu smlouvy došlo ještě téhož dne. Soudní rozhodnutí umožnilo pokračování strategicky klíčového projektu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Podepsáno. Stavba dvou nových bloků v Dukovanech může začít",
+        "url": "https://zpravy.aktualne.cz/ekonomika/zakaz-podpisu-smlouvy-k-dukovanum-neplati-nejvyssi-spravni-s/r~99ebef16412311f09af20cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T13:25:53.976Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — zrušení předběžného opatření NSS je standardní soudní úkon, nikoli zásah do institucionální nezávislosti. Subkomponenta J1/J2: soud fungoval standardně a nezávisle, rozhodl v rámci svých pravomocí. Směr +1, protože soudní systém fungoval předvídatelně a bez politického tlaku — zrušení opatření přišlo na základě právní argumentace, nikoli politického diktátu. Dopad na pilíř governance (G2) je sekundární — smlouva mohla být podepsána až po soudním rozhodnutí, což svědčí o funkční právní infrastruktuře.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-02T00:00:00.000Z",
+    "expires_at": "2025-08-27T00:00:00.000Z"
+  }
+]

@@ -1,25 +1,404 @@
 [
   {
     "id": "2025-W51-001",
-    "date": "2025-12-15",
-    "headline": "Soud projednává kauzu střetu zájmů Babiše a dotací Agrofertu",
-    "summary": "Soud znovu projednává otázku střetu zájmů Andreje Babiše ve vztahu k možné účasti Agrofertu na veřejných zakázkách v době jeho premiérství. Watchdog organizace Kverulant pokračuje v právním tlaku na vyřešení věci.",
+    "date": "2025-12-16",
+    "headline": "BIS ztratila důvěru v šéfa slovenské tajné služby kvůli kauze Voice of Europe",
+    "summary": "Česká kontrarozvědka BIS zjistila, že šéf slovenské tajné služby SIS Pavol Gašpar porušil závazek a umožnil ochranu Arťomu Marčevskému, vůdci proruské sítě Voice of Europe podezřelé z uplácení evropských politiků. BIS v důsledku toho ztratila důvěru v Gašpara jako spolehlivého partnera, což oslabuje česko-slovenskou zpravodajskou spolupráci.",
     "pillar": "corruption",
     "severity": 2,
     "direction": -1,
     "duration": "persistent",
     "sources": [
       {
-        "title": "Soud projednává Babišův střet zájmů a dotace Agrofertu",
-        "url": "https://www.kverulant.org/article/soud-babisuv-stret-zajmu-agrofert-2025m/",
-        "outlet": "Kverulant.org",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
+        "title": "Slíbil, ale nedodržel. Jak BIS kvůli kauze Voice of Europe ztratila důvěru v šéfa slovenské tajné služby",
+        "url": "https://denikn.cz/1920228/slibil-ale-nekonal-jak-bis-kvuli-kauze-voice-of-europe-ztratila-duveru-v-sefa-slovenske-tajne-sluzby/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:53.717Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — jde o pokračující soudní řízení v již známé kauze střetu zájmů (subkomponenta K1), nikoli o nový strukturální průlom. Událost zaslouží zaznamenání jako pokračující proces, avšak nepředstavuje nový precedent ani eskalaci. Sekundárně relevantní pro pilíř judicial (J4 — rovnost před zákonem u politicky exponovaných osob). Zdrojem je jen jediný watchdog web bez potvrzení dalším zdrojem, proto se zdržuji vyšší severity.",
+    "rationale": "Severity 3 per rubric §3 — incident má širší institucionální dopad: zpravodajská nedůvěra mezi spojeneckými službami v kontextu zahraniční korupční sítě (Voice of Europe) zasahuje do fungování protikorupčních a bezpečnostních institucí (subkomponenta K4 — protikorupční instituce a jejich spolehlivost). Nejde o přímé selhání české instituce, ale o narušení funkční spolupráce BIS se zahraničním partnerem, které je persistent povahy. Sekundárně se dotýká pilíře governance (bezpečnostní spolupráce v rámci EU). Single-source — severity ponechána na 3, nikoli eskalována.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2025-12-15T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-002",
+    "date": "2025-12-16",
+    "headline": "Ministr Macinka pověřil hlasováním na Radě EU slovenského ministra Tarabu místo českého velvyslance",
+    "summary": "Při jednání Rady EU pro životní prostředí přenesl český ministr Macinka hlasovací právo na slovenského ministra Tarabu namísto přítomného českého velvyslance, přičemž uvedl, že tak činí na přání europoslance Turka. Postup je v praxi EU zcela výjimečný a způsobil zmatky, neboť zastupování cizím ministrem je nestandardní a procedurálně problematické.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Ukázka diletantství.“ Jaké zmatky způsobil neobvyklý Macinkův tah v Bruselu",
+        "url": "https://denikn.cz/1921488/ukazka-diletantstvi-jake-zmatky-zpusobil-neobvykly-macinkuv-tah-v-bruselu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:53.717Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázové procedurální pochybení s omezeným dopadem: nestandardní delegace hlasovacího práva na cizího ministra je narušením zavedené diplomatické praxe (subkomponenta G1 — dodržování ústavních a procedurálních norem) a G2 (kvalita vládnutí). Nejde o precedent s dopadem na chod instituce v ČR samotné, nenarušuje dělbu moci; zdůvodnění odkazem na přání konkrétního europoslance však signalizuje slabinu v hierarchii rozhodování. Eskalace na 3 by vyžadovala opakování nebo formálnější institucionální důsledky.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-003",
+    "date": "2025-12-16",
+    "headline": "Ministr Vojtěch obměňuje správní radu VZP, vrací se muž spjatý s platbami Babišovu fondu",
+    "summary": "Vláda schvaluje nové členy správní rady VZP. Mezi navrhovanými je David Šmehlík, který v minulém působení ve VZP musel vysvětlovat platby zdravotnickým zařízením spojeným s Andrejem Babišem. Jde o personální rozhodnutí s potenciálním střetem zájmů v institucí rozhodující o miliardových tocích.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vojtěch mění správní radu VZP. Vrací se i muž, který musel vysvětlovat miliony Babišovu fondu",
+        "url": "https://denikn.cz/1921113/vojtech-meni-spravni-radu-vzp-vraci-se-i-muz-ktery-musel-vysvetlovat-zvlastni-platby-babisovu-fondu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:53.717Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — jmenování osoby s dokumentovanou vazbou na problematické platby spřízněné s premiérem do klíčového řídicího orgánu VZP naplňuje subkomponentu K1 (politická korupce, střet zájmů ústavních a vládních činitelů). Sekundárně se dotýká G1 (personální rozhodnutí exekutivy). Single-source podmínka ponechána na severity 3, protože fakticky jde o oznámení vládního rozhodnutí, nikoli o nezdokumentované tvrzení. Anti-bias check: stejné hodnocení by platilo pro jakéhokoliv ministra jmenujícího osobu s podobnou historií.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-004",
+    "date": "2025-12-15",
+    "headline": "Prezident Pavel jmenoval vládu Andreje Babiše — sedmnáctý kabinet samostatného Česka",
+    "summary": "Prezident Petr Pavel jmenoval koaliční vládu ANO, Motoristů a SPD v čele s Andrejem Babišem. Při jmenování prezident vyzval ministry ke konstruktivní spolupráci s EU a odmítnutí izolacionistického přístupu. Jde o standardní předání moci po volbách.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Česko má novou vládu. „Nebuďme odmítači návrhů z EU,“ vyzval ministry prezident",
+        "url": "https://denikn.cz/1919527/cesko-ma-novou-vladu-nebudme-odmitaci-navrhu-z-eu-vyzval-ministry-prezident/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:53.717Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jmenování vlády je standardní ústavní akt (G1, pokojné předání moci / G3, respekt k ústavním normám) bez anomálie v procesu. Prezidentova výzva je verbální, bez institucionálního vynucení. Direction 0: samotný akt jmenování je ústavně neutrální — demokraticky je posilující (předání moci po volbách proběhlo), ale složení a politický program vlády mohou být negativní; nelze přiřadit jednoznačný směr jen na základě tohoto článku. Anti-bias check: stejné hodnocení by platilo pro jmenování jakékoliv koaliční vlády po regulérních volbách.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-09T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-005",
+    "date": "2025-12-16",
+    "headline": "Ministr Metnar odvolal dozorčí radu České pošty krátce po nástupu do funkce",
+    "summary": "Nově jmenovaný ministr vnitra Lubomír Metnar (ANO) odvolal členy dozorčí rady České pošty s odůvodněním, že vedení pošty připravovalo personální a organizační změny, aniž by o tom včas informovalo. Jde o jeden z prvních personálních kroků nové vlády v oblasti státních podniků.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nový ministr vnitra Metnar odvolal členy dozorčí rady České pošty. Kvůli údajným krokům vedení",
+        "url": "https://www.irozhlas.cz/zpravy-domov/novy-ministr-vnitra-metnar-odvolal-cleny-dozorci-rady-ceske-posty-babis_2512161637_dci",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:35.969Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah v státním podniku na středně-vysoké úrovni (dozorčí rada) bez kaskádového efektu na ústavní instituce. Subkomponenta G4 (transparentnost vládnutí a dohled nad státními podniky). Odvolání proběhlo bez veřejně doloženého standardního procesu, ale само o sobě nepřekračuje zákonné pravomoci ministra. Single source, absence vzorce — bez eskalace na 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-006",
+    "date": "2025-12-15",
+    "headline": "Babiš plánuje propustit stovky vládních úředníků a dosazuje loajální tváře na Úřad vlády",
+    "summary": "Nový premiér Andrej Babiš vrací na klíčové posty Úřadu vlády osoby z předchozích Babišových vlád a avizuje propuštění stovek stávajících úředníků. Jde o rozsáhlou personální obměnu ve vrcholné státní správě bezprostředně po jmenování nové vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "S Babišem se na Úřad vlády vrací známé tváře, stovky jiných lidí hodlá nový premiér vyhodit",
+        "url": "https://archiv.hn.cz/c1-67825300-s-babisem-se-na-urad-vlady-vraci-zname-tvare-stovky-jinych-lidi-hodla-novy-premier-vyhodit",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:15.344Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rozsáhlá politicky motivovaná obměna úředníků na Úřadu vlády vytváří precedent pro instrumentalizaci státní správy a oslabuje princip apolitické veřejné služby (subkomponenta G1: dělba moci a výkonná kontrola). Hromadné propouštění bez věcných důvodů narušuje stabilitu institucí. Událost má persistentní charakter, protože nová personální obsazení zůstanou v platnosti. Sekundárně se dotýká K1 (politická korupce/střet zájmů) — loajalita jako kritérium jmenování.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-007",
+    "date": "2025-12-15",
+    "headline": "Babiš navrhne Hynka Kmoníčka poradcem pro národní bezpečnost",
+    "summary": "Premiér Andrej Babiš oznámil záměr jmenovat diplomata a velvyslance Hynka Kmoníčka poradcem pro národní bezpečnost. Kmoníček je znám kontroverzními výroky a výběr signalizuje zahraniční a bezpečnostní orientaci nové vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Do funkce poradce pro národní bezpečnost navrhne Babiš diplomata Kmoníčka",
+        "url": "https://domaci.hn.cz/c1-67825240-do-funkce-poradce-pro-narodni-bezpecnost-navrhne-babis-diplomata-kmonicka",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:15.344Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o personální rozhodnutí v rámci standardní výkonné pravomoci premiéra, avšak nominace diplomata se spornou reputací na citlivý bezpečnostní post představuje drobný, ale zaznamenatelný incident (subkomponenta G1). Dosud jde pouze o avízo, nikoliv o formální jmenování, proto nelze aplikovat eskalaci za formální dokument. Přímý dopad na institucionální fungování je zatím omezený.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-09T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-008",
+    "date": "2025-12-15",
+    "headline": "Babiš po prvním zasedání nového kabinetu odmítl 100 dní hájení",
+    "summary": "Nově jmenovaný kabinet ANO, SPD a Motoristů se poprvé sešel a premiér Babiš prohlásil, že vláda nebude čekat na zhodnocení, ale ihned se pustí do práce. Jde o první formální jednání vlády po jmenování prezidentem.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vláda nechce sto dnů hájení, uděláme vše pro prosperitu Česka, řekl Babiš po prvním jednání svého kabinetu",
+        "url": "https://domaci.hn.cz/c1-67825060-cesko-ma-novou-vladu-o-duveru-pozada-v-pulce-ledna",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:15.344Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní zahájení funkce nové vlády, výrok premiéra je politické prohlášení bez bezprostředního institucionálního dopadu (subkomponenta G1). Ustavení nové vlády samo o sobě je standardním ústavním procesem, nikoli indikátorem backslidingu ani posilování demokracie. Direction 0, protože jde o neutrální institucionální akt — jmenování vlády je povinný krok ústavního procesu bez jasně pozitivního nebo negativního demokratického signálu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-09T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-009",
+    "date": "2025-12-19",
+    "headline": "Nová vláda chystá rozsáhlé čistky diplomatů a expertů na ochranu dětí",
+    "summary": "Nový kabinet plánuje zrušení odboru zahraničí věnovaného diplomatické praxi a propuštění zkušených pracovníků ministerstva práce zaměřených na ochranu dětí a rodinné právo. Dokumenty nasvědčují systematickému nahrazování odborníků z předchozí éry napříč resorty.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Ostré řezy nové vlády: Macinka se chce zbavit zkušených diplomatů, Juchelka expertů na ochranu dětí",
+        "url": "https://archiv.hn.cz/c1-67827450-rezy-nove-vlady-macinka-se-chce-zbavit-zkusenych-diplomatu-juchelka-expertu-na-ochranu-deti-a-rodinne-pravo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:17.908Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rozsáhlé personální čistky na středních a vyšších úrovních státní správy na více ministerstvích najednou (MZV, MPSV) naplňují subkomponentu G1 (dělba moci a profesionální výkon státní správy) a G4 (transparentnost vládnutí). Nejde o rutinní personální změny nové vlády, nýbrž o systematické odstraňování odborné kapacity, což vytváří precedent pro politizaci správy. Anti-bias: stejnou závažnost bychom přiřadili jakékoli vládě provádějící obdobné čistky odborníků. Zdroj je jeden (HN s dokumenty), proto se pohybujeme na hranici severity 3, nikoli 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-010",
+    "date": "2025-12-19",
+    "headline": "Babiš na bruselském summitu odmítl další pomoc Ukrajině, připojil se k Orbánovi a Ficovi",
+    "summary": "Na summitu lídrů EU v Bruselu se premiér Babiš odchýlil od dřívějšího postoje a odmítl podpořit další evropskou finanční pomoc Ukrajině, čímž se přidal k Maďarsku a Slovensku. Ostatní členské státy se na pokračující podpoře dohodly bez České republiky. Jde o výrazný posun zahraniční a evropské politiky ČR.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Babiš se spojil s Orbánem a Ficem, Česko už nepomůže Ukrajině. Ostatní státy unie jí naopak půjčí desítky miliard eur",
+        "url": "https://domaci.hn.cz/c1-67827150-babis-se-spojil-s-orbanem-a-ficem-cesko-uz-nepomuze-ukrajine-ostatni-staty-eu-ji-naopak-pujci-desitky-miliard-eur",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:17.908Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — premiérovo obrácení pozice na unijním summitu v průběhu jediného dne představuje konkrétní institucionální rozhodnutí s dopadem na zahraniční politiku ČR a její pozici v EU (subkomponenta G1: dělba moci a ústavní procesy). Přestože zahraniční politika primárně nespadá do sledovaných demokratických pilířů, změna postoje izolující ČR od spojenců EU a oslabující parlamentní konzistenci je zaznamenáníhodná z hlediska governance. Jeden zdroj — dle source-count rule ponechat severity 3, ale bez eskalace.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-13T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-011",
+    "date": "2025-12-18",
+    "headline": "Soud potvrdil právo Státního pozemkového úřadu žádat náhradu v miliardové restituční kauze Bečvářova statku",
+    "summary": "Soud se zastal Státního pozemkového úřadu ve sporu o náhradu za pozemky vydané v kontroverzní restituci takzvaného Bečvářova statku, jejichž hodnota dosahuje miliard korun. Parcely získala skupina podnikatelů, přičemž restituce je označována za podezřelou. Rozhodnutí posouvá kauzu ve prospěch státu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "&bdquo;Cinknutá&ldquo; restituce za miliardy: soud se zastal úřadu, který chce náhradu za vydané pozemky",
+        "url": "https://archiv.hn.cz/c1-67826880-bdquo-cinknuta-ldquo-restituce-za-miliardy-soud-se-zastal-uradu-ktery-chce-nahradu-za-vydane-pozemky",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:17.908Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — soud vydal rozhodnutí v konkrétní kauze s korupčním pozadím, které posouvá věc ve prospěch státu (subkomponenta J4: rovnost před zákonem, K2: veřejné zakázky/majetek). Jde o dílčí pozitivní krok v probíhajícím řízení, nikoli o strukturální změnu — proto severity 2, direction +1. Primární pilíř judicial (soudní rozhodnutí), sekundárně corruption (pozadí kauzy).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-12T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-012",
+    "date": "2025-12-18",
+    "headline": "Nový ministr Macinka ruší klimatickou sekci ministerstva životního prostředí",
+    "summary": "Ministr Petr Macinka (Motoristé) krátce po nástupu do funkce oznámil zrušení klimatické sekce ministerstva životního prostředí, čímž naplňuje předvolební sliby své strany. Jde o první konkrétní organizační krok nového vedení resortu, který mění institucionální strukturu ministerstva.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Zelená krev už začíná téct. Prvním Macinkovým krokem na životním prostředí je rušení klimatické sekce",
+        "url": "https://archiv.hn.cz/c1-67827070-zelena-krev-uz-zacina-tect-prvnim-macinkovym-krokem-na-zivotnim-prostredi-je-ruseni-klimaticke-sekce",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:17.908Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — organizační změna na ministerské úrovni s dopadem na institucionální kapacitu úřadu (subkomponenta G1: fungování exekutivy, G4: transparentnost vládnutí v oblasti klimatické politiky). Rušení odborné sekce je legitimní politické rozhodnutí nové vlády, nikoli porušení ústavní normy, ale zaznamenáníhodné pro jeho trvalý charakter (persistent). Severity 2 — lokální dopad, zatím bez precedentního charakteru pro demokratické instituce jako takové.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-013",
+    "date": "2025-12-18",
+    "headline": "Státu chybí data o výsledcích programu zastavení exekucí, přestože exekutorům zaplatil přes miliardu korun",
+    "summary": "Česká republika v letech 2022–2023 realizovala programy zastavení bagatelních a marných exekucí, za které zaplatila exekutorům více než miliardu korun, avšak nemá dostatečná data k vyhodnocení jejich dopadu. Absence výkaznosti ohrožuje transparentnost správy veřejných prostředků a schopnost státu učit se z politiky.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Skoro dva miliony zastavených exekucí? Státu chybí data ke klíčové akci, exekutorům přitom zaplatil přes miliardu",
+        "url": "https://archiv.hn.cz/c1-67826620-skoro-dva-miliony-zastavenych-exekuci-statu-chybi-data-ke-klicove-akci-exekutorum-pritom-zaplatil-pres-miliardu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:17.908Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — strukturální nedostatek výkaznosti a datové základny u klíčového vládního programu (subkomponenta G4: transparentnost vládnutí, přístup k informacím a výkaznost). Nejde o přímé porušení ústavní normy ani útok na konkrétní instituci, ale o systémový problém v dohledu nad veřejnými výdaji. Sekundárně corruption (K2: veřejné zakázky a transparentnost), ale kořenová příčina je v governance — chybějící data a kontrolní mechanismy. Persistent, protože problém trvá.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-014",
+    "date": "2025-12-18",
+    "headline": "Babiš nařídil ministrům snížit provozní výdaje resortů o pět procent do ledna",
+    "summary": "Premiér Andrej Babiš na zasedání vlády uložil ministrům úkol snížit provozní výdaje jejich resortů o pět procent a připravit plán škrtů v tabulkových místech. Opatření se týká nově nastoupených ministrů a má být splněno do začátku příštího roku.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Noví ministři hledají, kde ušetřit. Babiš je zaúkoloval, aby do ledna snížili náklady o pět procent",
+        "url": "https://archiv.hn.cz/c1-67827030-novi-ministri-hledaji-kde-usetrit-babis-je-zaukoloval-aby-do-ledna-snizili-naklady-o-pet-procent",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:17.908Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — rutinní vládní rozhodnutí o úsporných opatřeních bez přímého institucionálního dopadu na demokratické mechanismy (subkomponenta G1/G2: běžný vládní provoz). Škrty provozních výdajů jsou standardním nástrojem řízení státní správy; bez dalšího kontextu (např. cílení na protikorupční instituce nebo nezávislé orgány) nejde o demokraticky relevantní událost. Direction 0 — dopad na demokratické instituce jako takový není jednoznačně negativní ani pozitivní.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-12T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-015",
+    "date": "2025-12-15",
+    "headline": "Šéf Státní tiskárny cenin končí krátce po nástupu Babišovy vlády",
+    "summary": "Tomáš Hebelka, ředitel Státní tiskárny cenin, odchází z funkce krátce po vzniku nové Babišovy vlády. Odchod potvrdilo ministerstvo financí i sám Hebelka, který tvrdí, že výměna vlády s jeho odchodem nesouvisí. Podle zdrojů z firmy však načasování vyvolává otázky o politicky motivované personální výměně.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Konec skoro po deseti letech. Krátce po změně vlády končí šéf Státní tiskárny cenin",
+        "url": "https://archiv.hn.cz/c1-67826860-konec-po-skoro-deseti-letech-kratce-po-zmene-vlady-konci-sef-statni-tiskarny-cenin",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:17.908Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na úrovni vedení státního podniku bez doloženého kaskádového efektu (subkomponenta G1: dělba moci a výkaznost exekutivy). Ředitel státní firmy spadající pod MF je odvolán krátce po změně vlády, přičemž načasování vyvolává podezření na patronáž, ale přímé politické instrukce nejsou doloženy. Pouze jeden zdroj (HN) s konfirmací MF, ale bez nezávislého potvrzení politické motivace — zdůvodnění odchodu je sporné. Anti-bias: stejnou závažnost bych přiřadil u jakékoliv jiné strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-09T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-016",
+    "date": "2025-12-17",
+    "headline": "Firmy Agrofert dostávají státní zakázky od MZe i po jmenování Babiše premiérem — možný střet zájmů",
+    "summary": "Investigativní projekt PastVina zjistil, že firmy holdingu Agrofert obdržely zakázky od podniků pod ministerstvem zemědělství po Babišově jmenování premiérem, což je podle projektu v rozporu se zákonem o střetu zájmů. Agrofert by měl po dobu výkonu funkce Babiše jako premiéra být z takových zakázek vyloučen. Informaci přinesly HN na základě dat Hlídače státu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Střet zájmů? Agrofert získává zakázky od státu i po jmenování Babiše premiérem",
+        "url": "https://domaci.hn.cz/c1-67826690-stret-zajmu-agrofert-ziskava-zakazky-od-statu-i-po-jmenovani-babise-premierem",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:17.908Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — přímé porušení zákona o střetu zájmů (lex Babiš, zákon č. 159/2006 Sb.) ústavním činitelem (premiérem) s jasně doloženým finančním prospěchem holdingu Agrofert ze státních zakázek (subkomponenta K1: politická korupce a střet zájmů). Není to první výskyt — Babiš má historii opakovaných střetů zájmů, a pokud jde o systémový vzorec, eskalace na +1 dle pravidla o vzorci by připadala v úvahu, ale je zachována severity 4, protože konkrétní nový incident je doložen jedním investigativním zdrojem (Hlídač státu/PastVina). Duration: persistent, protože stav střetu zájmů trvá po celou dobu výkonu funkce. Sekundárně se dotýká governance (G1) a electoral (korupce ve veřejných zakázkách). Anti-bias: stejnou závažnost bych přiřadil jakémukoliv premiérovi z libovolné strany.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W51-017",
+    "date": "2025-12-17",
+    "headline": "Turek domlouval slovenskou poslaneckou podporu pro hlasování v ČR dva týdny před jmenováním do vlády",
+    "summary": "Poslanec Filip Turek (Motoristé) si dva týdny před jmenováním Babišova kabinetu zajistil účast slovenských poslanců na hlasování v českém parlamentu, přičemž k tomu neměl žádný formální mandát. Koaliční partneři požadují vysvětlení, protože postup byl proveden bez vědomí koalice a naznačuje jednání v zahraničí jménem budoucí vlády bez jejího pověření.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Záskok bez mandátu? Turek domlouval slovenskou pomoc na hlasování dva týdny dopředu, koalice žádá vysvětlení",
+        "url": "https://archiv.hn.cz/c1-67826560-zaskok-bez-mandatu-turek-domlouval-slovenskou-pomoc-na-hlasovani-dva-tydny-dopredu-koalice-zada-vysvetleni",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:17.908Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — Turekovo jednání bez mandátu vytváří precedent pro neformální přesuny politické moci mimo ústavní rámec (subkomponenta G1: dělba moci, respekt k institucionální posloupnosti). Poslanec bez vládní funkce dojednával zahraniční parlamentní spolupráci, čímž obcházel standardní mechanismy koaliční koordinace a potenciálně i pravidla zastupování státu navenek. Koalice sama žádá vysvětlení, což svědčí o institucionálním překvapení. Single source (HN), proto se nepřistupuje k eskalaci — závažnost 3 je adekvátní. Sekundárně lze zvažovat electoral pilíř (manipulace hlasovacího procesu), ale governance je primární kořen.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-15T00:00:00.000Z",
+    "expires_at": "2026-03-11T00:00:00.000Z"
   }
 ]

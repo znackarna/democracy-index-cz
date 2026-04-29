@@ -1,26 +1,50 @@
 [
   {
     "id": "2025-W24-001",
-    "date": "2025-06-11",
-    "headline": "NCOZ zadržela 8 osob za daňové úniky přes 34 milionů Kč na severozápadě Čech",
-    "summary": "Národní centrála proti organizovanému zločinu provedla razii na desítkách míst v Plzeňském, Karlovarském a Ústeckém kraji. Osm podnikatelů z Mostecka a Teplicka bylo zadrženo pro podezření z krácení DPH ve výši 34 milionů Kč, přičemž jim hrozí až desetiletý trest odnětí svobody.",
-    "pillar": "corruption",
+    "date": "2025-06-13",
+    "headline": "Poradci tří ministrů obdrželi mimořádné odměny přes milion korun",
+    "summary": "Investigace iROZHLAS odhalila, že ministři vyplatili svým poradcům v roce 2024 a na začátku roku 2025 celkem 1 248 000 korun na mimořádných odměnách. Nejštědřejší byla ministryně obrany Jana Černochová, jejíž tři poradci dostali celkově milion korun. Ostatní ministerstva mimořádné bonusy poradcům neposkytla.",
+    "pillar": "governance",
     "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
       {
-        "title": "NCOZ zasáhla v Litvínově: 8 zadržených, daňové úniky za 34 milionů",
-        "url": "https://www.denik.cz/krimi/litvinov-razie-policie-ncoz-skoda-miliony-dane-20250611.html",
-        "outlet": "Deník.cz",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
+        "title": "Bonusy za ‚mimořádné úkoly‘ i ‚nonstop podporu‘. Mimořádné odměny dostali poradci tří ministrů",
+        "url": "https://www.irozhlas.cz/zpravy-domov/bonusy-za-mimoradne-ukoly-i-nonstop-podporu-mimoradne-odmeny-dostali-poradci-tri_2506130500_mst",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T13:23:45.028Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — jde o konkrétní policejní akci s lokálním dopadem, bez indikací propojení na politické aktéry nebo systémové selhání protikorupčních institucí (subkomponenta K1/K2). Daňový únik 34 mil. Kč je sice nenezanedbatelný, ale postrádá prvky, které by ho povyšovaly na severity 3 (politická návaznost, strukturální vzorec, mezinárodní reakce). Aktivní zásah NCOZ je spíše pozitivním signálem funkčnosti institucí, avšak direction zůstává -1, protože samotná událost dokumentuje korupční jednání. Sekundárně se dotýká subkomponenty K4 (fungování protikorupčních institucí), přičemž efektivní zásah NCOZ je průvodním prvkem, nikoli hlavní zprávou.",
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní porušení normy transparentního vynakládání veřejných prostředků s omezeným dopadem; subkomponenta G4 (transparentnost vládnutí). Odměny jsou sice legální, ale jejich charakter (za 'nonstop podporu', 'mimořádné úkoly') vyvolává otázky ohledně účelnosti výdajů. Nejde o systémové selhání ani precedentní případ, spíše o drobný incident zaznamenání hodný. Anti-bias check: stejnou závažnost bych přiřadil kdykoli bez ohledu na stranickou příslušnost ministra.",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2025-06-09T00:00:00.000Z",
-    "expires_at": "2025-09-03T00:00:00.000Z"
+    "expires_at": "2025-09-05T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W24-002",
+    "date": "2025-06-12",
+    "headline": "Kauza bitcoinů darovaných ministerstvu spravedlnosti: komentář k motivaci Jiřikovského",
+    "summary": "Médii rezonuje kauza, v níž provozovatel darknetového tržiště Tomáš Jiřikovský daroval bitcoiny ministerstvu spravedlnosti. Podle komentátora Davida Brudňáka byl Jiřikovského cílem získat od státu potvrzení o legálnosti kryptoměn. Kauza vyvolává otázky ohledně transparentnosti postupu ministerstva a možných střetů zájmů.",
+    "pillar": "corruption",
+    "severity": null,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Jiřikovský chtěl od státu potvrzení, že jsou bitcoiny v pořádku. Teď se musí bát o život, míní Týc",
+        "url": "https://www.irozhlas.cz/zpravy-domov/jirikovsky-chtel-od-statu-potvrzeni-ze-jsou-bitcoiny-v-poradku-ted-se-musi-bat-o_2506121912_cen",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T13:23:45.028Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Potenciálně subkomponenta K1 (politická korupce, střet zájmů ústavních činitelů) nebo K2 (transparentnost). Závažnost nelze spolehlivě určit z dostupného článku — jde převážně o komentář/interpretaci jednoho zdroje (Roman Týc/Brudňák) bez nových faktů o samotném postupu ministerstva. Skutkový stav a institucionální dopad nejsou z tohoto textu dostatečně jasné; chybí informace o tom, zda ministerstvo skutečně vydalo požadovaný dokument a za jakých podmínek. Severity: null, needs_review — pouze jeden zdroj, a to komentátorský.",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2025-06-09T00:00:00.000Z",
+    "expires_at": "2025-09-04T00:00:00.000Z"
   }
 ]

@@ -1,47 +1,70 @@
 [
   {
     "id": "2025-W41-001",
-    "date": "2025-10-06",
-    "headline": "Pavel potvrdil koaliční vyjednávání ANO, SPD a Motoristů s Babišem jako kandidátem na premiéra",
-    "summary": "Prezident Petr Pavel oznámil, že probíhají koaliční vyjednávání tří stran — ANO, SPD a Motoristů. Podle dohody má ANO obsadit osm ministerstev, Motoristé čtyři a SPD tři. Andrej Babiš je kandidátem na předsedu vlády.",
-    "pillar": "electoral",
+    "date": "2025-10-12",
+    "headline": "Na českých letištích spuštěn systém EES pro evidenci vstupů cizinců ze třetích zemí",
+    "summary": "Od 12. října 2025 začal v České republice fungovat evropský systém vstupu a výstupu (EES), který nahrazuje razítka do pasů důkladnější biometrickou evidencí cestujících ze zemí mimo Schengen. Systém je zaveden ve 29 evropských zemích a má přispět k prevenci nelegální migrace a urychlení hraničních kontrol.",
+    "pillar": "civil",
     "severity": 1,
     "direction": 0,
-    "duration": "one_off",
+    "duration": "persistent",
     "sources": [
       {
-        "title": "Pavel potvrdil koaliční vyjednávání ANO, SPD a Motoristů",
-        "url": "https://www.denik.cz/z_domova/parlamentni-volby-2025-vysledky-voleb-aktualne-20251004.html",
-        "outlet": "Deník.cz",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
+        "title": "Kontroly cizinců ze zemí mimo Schengen přitvrdí. I na českých letištích začíná fungovat systém EES",
+        "url": "https://www.irozhlas.cz/zivotni-styl/cestovani/kontroly-cizincu-ze-zemi-mimo-schengen-pritvrdi-i-na-ceskych-letistich-zacina_2510122234_dci",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:21.884Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 1 per rubric §1 — jde o standardní povolební vyjednávání, které je přirozenou součástí demokratického procesu předání moci (subkomponenta E4). Prezidentovo potvrzení probíhajících jednání je rutinní institucionální úkon bez negativního dopadu na demokratické normy. Direction 0: událost sama o sobě není ani pozitivní, ani negativní pro stav demokracie — je to prostý popis formování vlády po volbách.",
+    "rationale": "Severity 1 per rubric §1 — jde o implementaci předem schválené unijní regulace bez prvku demokratického backslidingu. Subkomponenta C5 (práva v digitálním prostoru, soukromí) je částečně relevantní — EES zahrnuje biometrické zpracování dat, ale systém byl legálně schválen v EU a ČR, nevznikají nové obavy o státní sledování občanů. Direction 0: dopad na demokratické hodnoty je ambivalentní (bezpečnostní přínos vs. soukromí cizinců). Bez politické kontroverze nebo institucionálního narušení; jedná se spíše o administrativní/technický event na hranici relevance pro tento index.",
     "reviewer": "auto",
     "status": "active",
-    "created_at": "2025-10-06T00:00:00.000Z",
-    "expires_at": "2025-12-29T00:00:00.000Z"
+    "created_at": "2025-10-06T00:00:00.000Z"
   },
   {
     "id": "2025-W41-002",
     "date": "2025-10-12",
-    "headline": "Státní analytik tvrdí, že byl propuštěn za odborný nesouhlas s vládním zmocněncem Turkem",
-    "summary": "Martin Abel, analytik ve státní správě, uvádí, že byl propuštěn krátce poté, co veřejně odporoval argumentům vládního zmocněnce Filipa Turka. Abel označuje svůj odchod za politicky motivovaný personální zásah jako reakci na věcný nesouhlas, nikoliv na pracovní selhání.",
-    "pillar": "governance",
+    "headline": "Signatáři Charty 77 odsoudili výroky Filipa Turka, kandidáta na ministra zahraničí",
+    "summary": "Skupina veřejných osobností včetně signatářů Charty 77 vydala společné prohlášení odsuzující údajné rasistické, xenofobní a sexistické výroky Filipa Turka, čestného předsedy strany Motoristé sobě a kandidáta na post ministra zahraničí. Prohlášení varuje, že Turkovo případné jmenování do vlády by poškodilo mezinárodní reputaci ČR.",
+    "pillar": "civil",
     "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
       {
-        "title": "Vyhozený státní analytik: Motoristé řeší ideologické konflikty propouštěním",
-        "url": "https://denikn.cz/2045505/turek-vse-znici-buldozerem-motoriste-si-vyrizuji-ideologicke-konflikty-propoustenim-rika-vyhozeny-analytik/",
-        "outlet": "Deník N",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
+        "title": "Turek ve vládě by nás zařadil mezi politováníhodné národy, míní osobnosti jako Pithart a Třeštíková",
+        "url": "https://www.irozhlas.cz/volby/turek-ve-vlade-nas-zaradil-mezi-politovanihodne-narody-mini-osobnosti-jako_2510122200_dci",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:21.884Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni státní správy (subkomponenta G1) bez dosud prokázaného kaskádového efektu. Případ zatím vychází primárně z výpovědi jednoho zdroje (samotný Abel), což podle pravidla 'single source' snižuje jistotu a odpovídá spíše úrovni 2. Pokud se prokáže systematický vzorec propouštění odborníků za nesouhlas s ideologickými pozicemi, eskalace na 3+. Sekundárně se dotýká subkomponenty C3 (svoboda sdružování a profesní nezávislost), ale kořen je v G1 — kontrola exekutivy nad veřejnou správou.",
+    "rationale": "Severity 2 per rubric §2 — veřejné prohlášení respektovaných osobností reagující na konkrétní výroky politika, který aspiruje na ministerský post. Subkomponenta C4 (ochrana menšin, ochrana před diskriminací) je dotčena: nenávistné výroky ze strany potenciálního člena vlády se bezprostředně dotýkají standardů ochrany menšin. Samotné prohlášení občanské společnosti je demokraticky zdravou reakcí (direction -1 přiřazen k Turkově chování, nikoli k prohlášení). Není zde přímý institucionální dopad; jde o verbální rovinu bez formálního rozhodnutí — proto severity 2, nikoli 3. Anti-bias check: stejnou závažnost bych přiřadil analogickým výrokům politika jakékoliv jiné strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-10-06T00:00:00.000Z",
+    "expires_at": "2026-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W41-003",
+    "date": "2025-10-12",
+    "headline": "Motoristé podají trestní oznámení na Deník N; policie vyšetřuje Turkovy příspěvky na sítích",
+    "summary": "Strana Motoristé sobě oznámila záměr podat trestní oznámení na Deník N v souvislosti s kauzou Filipa Turka, jenž je kandidátem na ministra zahraničí. Policie již prověřuje jeho staré příspěvky na sociálních sítích s potenciálně nenávistným obsahem; právní expertiza naznačuje, že promlčení nemusí být okamžitou překážkou vyšetřování.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Právník k Turkovi: Policie případ kvůli promlčení neodloží hned. Najevo může vyjít něco nového",
+        "url": "https://www.irozhlas.cz/volby/pravnik-k-turkovi-policie-pripad-kvuli-promlceni-neodlozi-hned-najevo-muze-vyjit_2510121932_elev",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:21.884Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — trestní oznámení podané politickým subjektem na médium (Deník N) v reakci na investigativní zpravodajství naplňuje subkomponentu M3 (právní šikana, SLAPP), byť zatím jen ve fázi záměru bez podání. Samotné policejní prověřování Turkových příspěvků je relevantní pro C4/civil, ale primární demokratický rizikový prvek je zde potenciální SLAPP ze strany politické strany vůči médiím. Severity zůstává na 2, nikoli 3, protože jde dosud jen o avizovaný záměr bez faktického podání a bez znaku systematické šikany médií. Anti-bias check: stejně bych hodnotil trestní oznámení jakékoli jiné strany na médium za srovnatelných okolností.",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2025-10-06T00:00:00.000Z",

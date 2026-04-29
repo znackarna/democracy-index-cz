@@ -1,0 +1,168 @@
+[
+  {
+    "id": "2025-W31-001",
+    "date": "2025-08-01",
+    "headline": "Audit: Ministerstvo spravedlnosti nemělo přijmout miliardový bitcoinový dar kvůli riziku trestné činnosti",
+    "summary": "Interní audit zjistil, že ministerstvo spravedlnosti pochybilo, když přijalo miliardový bitcoinový dar, přestože vědělo o okolnostech naznačujících, že dar může pocházet z výnosů trestné činnosti. Ministerstvo před přijetím nepodniklo potřebné kroky k ověření původu prostředků. Závěry auditu naznačují možné naplnění skutkových podstat trestných činů.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Výsledek auditu: Ministerstvo nemělo přijímat bitcoinový dar. Hrozí tím naplnění skutkových podstat některých trestných činů",
+        "url": "https://domaci.hn.cz/c1-67768760-vysledek-auditu-ministerstvo-nemelo-prijimat-bitcoinovy-dar-hrozi-tim-naplneni-skutkovych-podstat-nekterych-trestnych-cinu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:36:59.948Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — audit formálně dokumentuje, že ústavní instituce (ministerstvo) vědomě přijala dar s vysokým rizikem nelegálního původu, čímž porušila standardy veřejné správy a mohla naplnit skutkové podstaty trestných činů (subkomponenta K1 — politická korupce a zneužití pravomoci). Existence formálního auditního dokumentu potvrzujícího pochybení splňuje eskalační kritérium 'formální dokument versus pouhý záměr'. Sekundárně se dotýká subkomponenty G4 (transparentnost vládnutí) v pilíři governance.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-28T00:00:00.000Z",
+    "expires_at": "2025-10-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W31-002",
+    "date": "2025-07-30",
+    "headline": "Koordinátor bitcoinové kauzy Uhlíř prý připraven sepsat zprávu, ale je na dovolené",
+    "summary": "Ministryně spravedlnosti Decroix uvedla, že koordinátor objasnění bitcoinové kauzy David Uhlíř je připraven vypracovat zprávu o svém působení na ministerstvu, avšak aktuálně čerpá dovolenou a ve funkci skončil. Otázka veřejné odpovědnosti za průběh kauzy tak zůstává otevřená.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Bude nakonec zpráva o&nbsp;bitcoinové kauze? Uhlíř je prý připraven",
+        "url": "https://archiv.hn.cz/c1-67768360-bude-nakonec-zprava-o-bitcoinove-kauze-uhlir-je-pry-pripraven",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:36:59.948Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o pokračující nejasnost kolem institucionální odpovědnosti (subkomponenta K4: protikorupční instituce a výkaznost) v kauze s politickým přesahem, nikoli o nové konkrétní porušení normy. Absence zprávy a mlžení o jejím vzniku je drobným, ale zaznamenáníhodným negativním signálem transparentnosti. Sekundárně se dotýká subkomponenty G4 (transparentnost vládnutí). Pouze jeden zdroj, proto bez eskalace. Anti-bias: stejný postup by byl aplikován na ministryni bez ohledu na stranickou příslušnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W31-003",
+    "date": "2025-07-30",
+    "headline": "Menší strany chtějí soudem napadnout registraci skrytých koalic před říjnovými volbami",
+    "summary": "Některé menší strany hodlají požádat soudy o přezkum registrace uskupení, která mohou fungovat jako skryté koalice obcházející volební zákon. Dotčena jsou zejména uskupení Stačilo! a SPD. Jde o spor, zda tato uskupení naplňují znaky koalice, na niž platí vyšší uzavírací klauzule.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Je Stačilo! strana, nebo koalice? A co SPD? Prozkoumejte, zda slepence neobchází volební zákon, chtějí požádat jejich konkurenti soud",
+        "url": "https://archiv.hn.cz/c1-67768170-je-stacilo-strana-nebo-koalice-a-co-spd-prozkoumejte-zda-slepence-neobchazi-volebni-zakon-chteji-pozadat-male-strany-soud",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:36:59.948Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní právní spor o dodržení pravidel volebního zákona s přímým dopadem na E1 (férovost voleb, rovný přístup ke kandidatuře) a E2 (politický pluralismus, bariéry pro subjekty). Zatím jde pouze o záměr podat návrh k soudu, nikoli o rozhodnutí soudu ani zákonodárnou změnu; dopad je lokální a prozatímně omezený. Sekundárně se dotýká J4 (rovnost před zákonem v přístupu k volebnímu procesu).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-28T00:00:00.000Z",
+    "expires_at": "2025-10-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W31-004",
+    "date": "2025-07-29",
+    "headline": "K říjnovým sněmovním volbám se přihlásilo 28 uskupení, o šest více než v roce 2021",
+    "summary": "Lhůta pro přihlášení do říjnových sněmovních voleb uplynula a celkem se zaregistrovalo 28 uskupení, což je o šest více než při posledních volbách. Jde o faktické zjištění o rozsahu politické soutěže v nadcházejících volbách.",
+    "pillar": "electoral",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "K&nbsp;říjnovým volbám se přihlásilo o&nbsp;šest více uskupení než minule",
+        "url": "https://archiv.hn.cz/c1-67767920-k-rijnovym-volbam-se-prihlasilo-o-sest-vice-uskupeni-nez-minule",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:36:59.948Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — nárůst počtu registrovaných volebních subjektů je pozitivní indikátor subkomponenty E2 (politický pluralismus, žádné de facto bariéry pro nové subjekty). Jedná se o drobný administrativní fakt bez precedentního charakteru; samotná registrace neimplikuje reálnou soutěžnost. Direction +1, protože vyšší počet soutěžících uskupení mírně signalizuje otevřenost volebního systému.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-28T00:00:00.000Z",
+    "expires_at": "2025-10-21T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W31-005",
+    "date": "2025-07-29",
+    "headline": "Prezident Pavel podepsal rozsáhlou novelu trestního řádu",
+    "summary": "Prezident Petr Pavel podepsal novelizaci trestněprávních předpisů, na níž dlouho pracovaly expertní a nevládní organizace. Reforma má zlepšit postavení obětí trestných činů, posílit odpovědnost pachatelů a přinést státu úspory. Jde o strukturální změnu fungování trestní justice.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Změna trestního řádu zamíchá českou justicí: oběti se dočkají nápravy, pachatelé zodpovědnosti a stát úspor",
+        "url": "https://archiv.hn.cz/c1-67764750-zmena-trestniho-radu-zamicha-ceskou-justici-obeti-se-dockaji-napravy-pachatele-zodpovednosti-a-stat-uspor",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:36:59.948Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 – podpis prezidenta završuje legislativní proces a novela nabývá účinnosti jako trvalá strukturální změna (subkomponenta J2, J4). Směr +1: reforma reaguje na dlouhodobé požadavky odborné veřejnosti a posiluje práva obětí a funkčnost trestního řízení. Duration persistent, neboť jde o zákon v platnosti, nikoli jednorázový incident. Anti-bias check: stejné hodnocení by platilo bez ohledu na to, která vláda reformu předložila.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W31-006",
+    "date": "2025-07-28",
+    "headline": "Londýnský odvolací soud potvrdil miliardový nárok Josefa Šťávy vůči českému státu v kauze Diag Human",
+    "summary": "Odvolací soud v Londýně potvrdil, že česko-švýcarský podnikatel Josef Šťáva má nárok na miliardové odškodné od českého státu za překažený obchod s krevní plazmou v 90. letech. Rozhodnutí navazuje na dřívější arbitrážní výroky a potvrzuje státní odpovědnost v dlouholeté kauze.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Odkryto: Soud potvrdil miliardy od státu pro Josefa Šťávu v kauze Diag Human",
+        "url": "https://byznys.hn.cz/c1-67767380-odkryto-soud-potvrdil-miliardy-od-statu-pro-josefa-stavu-v-kauze-diag-human",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:36:59.948Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 – jde o soudní rozhodnutí zahraniční instance potvrzující již dříve přiznaný nárok; institucím českého právního státu nevzniká nová újma, nicméně případ dokumentuje historické selhání státu (subkomponenta J4 – rovnost před zákonem a odpovědnost státu). Direction 0: rozhodnutí nijak neposiluje ani neoslabuje aktuální demokratické instituce ČR, jde o potvrzení existujícího závazku. Anti-bias check: hodnocení není ovlivněno politickou příslušností aktérů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-28T00:00:00.000Z",
+    "expires_at": "2025-10-20T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W31-007",
+    "date": "2025-07-28",
+    "headline": "Ministryně spravedlnosti Decroix podá podnět Bradáčové k dohledu nad bitcoinovou kauzou vedenou v Olomouci",
+    "summary": "Ministryně spravedlnosti Eva Decroix oznámila, že ministerstvo podá podnět nejvyšší státní zástupkyni Lence Bradáčové k výkonu dohledu v bitcoinové kauze, protože úřad podle ní nedostává adekvátní odpovědi od vrchního státního zastupitelství v Olomouci. Krok nastoluje otázku, zda jde o legitimní dohledový mechanismus, nebo o politický tlak na vedení konkrétní trestní kauzy.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "&bdquo;Z Olomouce nám neodpovídají.&ldquo; Ministryně Decroix chce, aby na bitcoinovou kauzu dohlédla Bradáčová",
+        "url": "https://domaci.hn.cz/c1-67767350-bdquo-z-olomouce-nam-neodpovidaji-ldquo-ministryne-decroix-chce-aby-na-bitcoinovou-kauzu-dohledla-bradacova",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:36:59.948Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 – ministryně jako člen exekutivy aktivně vstupuje do probíhající trestní kauzy tím, že iniciuje dohledový zásah NSZ vůči vrchnímu státnímu zastupitelství (subkomponenta J3 – nezávislost státního zastupitelství). Byť formální mechanismus dohledu NSZ existuje, veřejné oznámení přes sociální sítě s politickým frámováním vytváří precedent pro exekutivní tlak na konkrétní kauzu. Single source (HN/Facebook vyjádření), proto neeskaluji na 4. Anti-bias check: stejné hodnocení by platilo, pokud by krok podnikl ministr jiné politické orientace vůči jakékoli kauze.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-28T00:00:00.000Z",
+    "expires_at": "2025-10-20T00:00:00.000Z"
+  }
+]

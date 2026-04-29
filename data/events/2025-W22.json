@@ -1,0 +1,523 @@
+[
+  {
+    "id": "2025-W22-001",
+    "date": "2025-05-28",
+    "headline": "Ministerstvo spravedlnosti přijalo miliardu v bitcoinech od odsouzeného dealera drog, NCOZ případ vyšetřuje",
+    "summary": "Ministerstvo spravedlnosti ministra Pavla Blažka (ODS) přijalo přibližně miliardu korun v bitcoinech od osoby odsouzené za obchodování s drogami. Případ vyšetřuje NCOZ pro podezření z praní špinavých peněz; detektivové si přišli na ministerstvo pro dokumenty. Ministr Blažek příjem označil za plně legální.",
+    "pillar": "corruption",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Blažkovo ministerstvo si vzalo miliardu v bitcoinech od obchodníka s drogami. Řeší to policie",
+        "url": "https://denikn.cz/1745597/blazkovo-ministerstvo-si-vzalo-miliardu-v-bitcoinech-od-obchodnika-s-drogami-resi-to-policie/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:29.932Z"
+      },
+      {
+        "title": "Vrcholný kousek ministra Pavla Blažka. Výkon spravedlnosti financovaný odsouzeným drogovým mafiánem",
+        "url": "https://archiv.hn.cz/c1-67742090-vrcholny-kousek-ministra-pavla-blazka-vykon-spravedlnosti-financovany-odsouzenym-drogovym-mafianem",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      },
+      {
+        "title": "&bdquo;Někdo vám nabízí bitcoiny, tak si je vezmete.&ldquo; Ministerstvo získalo kryptoměnu za miliardu od online obchodníka s drogami",
+        "url": "https://domaci.hn.cz/c1-67741830-bdquo-nekdo-vam-nabizi-bitcoiny-tak-si-je-vezmete-ldquo-ministerstvo-ziskalo-bitcoiny-za-miliardu-od-on-line-obchodnika-s-drogami",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 4 per rubric §4 — přijetí miliardové částky od odsouzeného pachatele drogové trestné činnosti ministerstvem spravedlnosti představuje závažné podezření ze zneužití pravomoci a praní peněz na nejvyšší úrovni (subkomponenta K1 — střet zájmů ústavního činitele, K2 — transparentnost při nakládání s veřejnými hodnotami). Skutečnost, že NCOZ zahájila vyšetřování a provedla úkony přímo na ministerstvu, je silným indikátorem institucionálního selhání. Dva nezávislé zdroje (Deník N, iROZHLAS) potvrzují základní fakta. Pilíř governance je sekundárně zasažen (G4 — transparentnost vládnutí), ale kořenová příčina leží v korupčním selhání. Persistent, protože vyšetřování pokračuje.\n\n[merged with 2025-W22-009 — same incident, sources combined]\n\n[merged with 2025-W22-010 — same incident, sources combined]\n\n[severity capped from 4 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2025-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-002",
+    "date": "2025-05-28",
+    "headline": "Notářský kandidát pokutován za práci pro predátorskou firmu krytou poslanci ANO",
+    "summary": "Kárný senát Notářské komory udělil notářskému kandidátu Leoši Mitáčkovi pokutu 50 tisíc korun za závažná provinění při práci pro predátorskou úvěrovou firmu Venerati group. Firmu přitom zastupoval poslanec ANO Radek Vondráček i kroměřížský starosta. Případ poukazuje na propojení politiků se společností označenou za predátorskou.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Sto tisíc v hotovosti na parkovišti. Jak pro predátorskou firmu hájenou politiky ANO pracoval potrestaný notářský kandidát",
+        "url": "https://denikn.cz/1744791/sto-tisic-v-hotovosti-na-parkovisti-jak-pro-predatorskou-firmu-hajenou-politiky-ano-pracoval-potrestany-notarsky-kandidat/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:29.932Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ vytváří precedent propojení aktivního zákonodárce (poslanec Vondráček, ANO) s firmou označenou za predátorskou, přičemž kárný senát formálně potvrdil závažnost provinění (subkomponenta K1 — politická korupce a střet zájmů). Samotná pokuta notářského kandidáta by byla severity 2, ale zapojení aktivního poslance a politického funkcionáře jako obhájce predátorské firmy posouvá případ na 3. Pilíř judicial je sekundárně relevantní (kárné řízení v notářské profesi), ale kořenová příčina leží v politicko-korupční rovině. Jeden primární zdroj; severity by bylo null, avšak existuje formální rozhodnutí kárného orgánu jako verifikovatelný dokument.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-003",
+    "date": "2025-05-28",
+    "headline": "Čínští hackeři pronikli do komunikačního systému českého ministerstva zahraničí",
+    "summary": "České zpravodajské služby zjistily, že čínští hackeři získali přístup k e-mailové komunikaci diplomatů ministerstva zahraničí. Vláda uvedla, že útočníci se nedostali k utajovaným informacím. Česká strana si předvolala čínského velvyslance a incident označila za ilegální průnik.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Tohle civilizované státy nedělají, říká ke kyberútoku na Česko diplomatka z ministerstva. Předvolala si čínského velvyslance",
+        "url": "https://denikn.cz/1745264/tohle-civilizovane-staty-nedelaji-rika-ke-kyberutoku-na-cesko-diplomatka-z-ministerstva-predvolala-si-cinskeho-velvyslance/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:29.932Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — státem sponzorovaný kybernetický útok cizí mocnosti na komunikaci státního úřadu představuje závažný průnik do digitální suverenity a soukromí státní komunikace (subkomponenta C5 — práva v digitálním prostoru, ochrana před sledováním). Skutečnost, že byl odhalený, předvolání velvyslance a veřejné pojmenování Číny jako aktéra jsou institucionálně relevantní reakce. Governance je sekundárně relevantní (bezpečnost státní správy, G4), ale primárním pilířem je dopad na digitální práva a státní kybersuverenitu. Dva zdroje (Deník N, vládní komuniké). Severity ponechána na 3, nikoli 4, protože vláda potvrdila, že k utajovaným informacím nedošlo, a šlo o single incident bez prokázaného trvalého průniku.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-004",
+    "date": "2025-05-30",
+    "headline": "Ministr spravedlnosti Blažek podal demisi kvůli bitcoinové kauze",
+    "summary": "Ministr spravedlnosti Pavel Blažek po dohodě s premiérem Fialou rezignoval na svůj post v návaznosti na kauzu přijetí a prodeje bitcoinů pocházejících z trestné činnosti ministerstvem spravedlnosti. Blažek uvedl, že si není vědom nezákonného jednání, ale nechce poškozovat vládní koalici. Premiér přijal demisi a začal jednat o náhradníkovi.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Blažek svůj bitcoinový úlet neustál. Fiala už má náhradu, mluví se o Decroix",
+        "url": "https://domaci.hn.cz/c1-67742660-blazek-svuj-bitcoinovy-ulet-neustal-ministr-spravedlnosti-radeji-rezignoval-premier-fiala-ho-pochvalil",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      },
+      {
+        "title": "Pár hodin, které zlomily Blažka. Ministr globální bitcoinovou aféru neustál, otazníky ale zůstávají i pro vládu",
+        "url": "https://archiv.hn.cz/c1-67743000-par-hodin-ktere-zlomily-blazka-ministr-globalni-bitcoinovou-aferu-neustal-otazniky-ale-zustavaji-i-pro-vladu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:34.322Z"
+      },
+      {
+        "title": "Ministr spravedlnosti Pavel Blažek rezignoval. Ale stál za vzestupem premiéra Fialy, jeho odchod proto nemusí být definitivní",
+        "url": "https://archiv.hn.cz/c1-67742680-ministr-spravedlnosti-pavel-blazek-rezignoval-ale-stal-za-vzestupem-premiera-fialy-jeho-odchod-proto-nemusi-byt-definitivni",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:34.322Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rezignace ministra spravedlnosti je konkrétní institucionální změna s reálným dopadem na chod vlády (subkomponenta G1, odpovědnost exekutivy). Kauzalita je jasná: pochybné nakládání s prostředky pocházejícími z trestné činnosti vedlo k politické odpovědnosti. Primární pilíř je governance (personální změna v exekutivě), sekundárně corruption (K1 — střet zájmů a otázka integrity ústavního činitele). Anti-bias check: stejnou závažnost bych přiřadil rezignaci ministra jakékoli jiné vlády za srovnatelných okolností. Jeden zdroj, ale fakta jsou konzistentní a resignace je veřejný akt.\n\n[merged with 2025-W22-017 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2025-W22-019 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-005",
+    "date": "2025-05-30",
+    "headline": "Odhaleny detaily bitcoinové kauzy ministerstva spravedlnosti — bitcoiny pocházejí z prodeje drog",
+    "summary": "Ministerstvo spravedlnosti přijalo a prodalo bitcoiny darované odsouzeným dealerem drog Tomášem Jiřikovským v hodnotě přibližně jedné miliardy korun. Ministr Blažek kauzu prezentoval jako výhodnou dohodu pro stát, avšak investigace odhalila vážné otázky ohledně původu prostředků a zákonnosti celé transakce, přičemž celková hodnota majetku v kauze přesahuje tuto částku.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Detaily kauzy, která vedla k pádu ministra Blažka. Bitcoiny pochází z prodeje drog, v celém případu je ve hře výrazně více miliard",
+        "url": "https://domaci.hn.cz/c1-67742640-detaily-kauzy-ktera-vedla-k-padu-ministra-blazka-bitcoiny-pochazi-z-prodeje-drog-v-celem-pripadu-je-ve-hre-vyrazne-vice-miliard",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — jde o konkrétní pochybení na úrovni ministerstva (subkomponenta K1 — střet zájmů a otázka integrity ústavního činitele, K2 — nakládání s majetkem státního úřadu za nestandardních podmínek). Případ má reputační a institucionální dopad, vedl k demisi ministra. Eskalace na 4 není zatím odůvodněná, protože dosud nebyla prokázána trestní odpovědnost konkrétní osoby — pouze politická odpovědnost. Sekundárně se dotýká governance (G1) přes demisi ministra. Single-source pravidlo: více HN článků pokrývá tutéž kauzu z různých úhlů, faktická báze je konzistentní, severity ponecháno na 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-006",
+    "date": "2025-05-30",
+    "headline": "VSZ Olomouc prověřuje kauzu bitcoinů ministerstva spravedlnosti pro podezření ze tří trestných činů",
+    "summary": "Vrchní státní zastupitelství v Olomouci zahájilo prověřování kauzy darovaných bitcoinů ministerstvu spravedlnosti. Případ se týká podezření ze zneužití pravomoci úřední osoby a legalizace výnosů z trestné činnosti. Ministr spravedlnosti Blažek v reakci naznačil, že přemýšlí o své budoucnosti ve funkci.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vrchní zastupitelství prověřuje kauzu bitcoinů kvůli podezření ze tří trestných činů. Blažek chce &bdquo;přemýšlet o své budoucnosti&ldquo;",
+        "url": "https://domaci.hn.cz/c1-67742580-vrchni-zastupitelstvi-proveruje-kauzu-bitcoinu-kvuli-podezreni-ze-tri-trestnych-cinu-blazek-chce-bdquo-premyslet-o-sve-budoucnosti-ldquo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — formální prověřování VSZ potvrzuje institucionální dopad (subkomponenta K1: politická korupce, střet zájmů ústavního činitele). Přítomnost podezření z legalizace výnosů z trestné činnosti (K1 + K2) a zapojení ministerstva spravedlnosti jako potenciálního spolupachatele představuje závažné porušení normy s přímým dopadem na fungování klíčové instituce. Sekundárně se dotýká pilíře judicial (J3 — postavení státního zastupitelství a jeho schopnost vyšetřovat exekutivu). Persistent, protože prověřování stále probíhá.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-007",
+    "date": "2025-05-30",
+    "headline": "Opozice žádá mimořádnou schůzi sněmovny k bitcoinové kauze, ANO a Piráti volají po odchodu Blažka",
+    "summary": "Opoziční hnutí ANO požádalo o svolání mimořádné schůze Poslanecké sněmovny kvůli kauze bitcoinů darovaných ministerstvu spravedlnosti. Ministr spravedlnosti Pavel Blažek obvinění odmítá. K výzvám k jeho rezignaci se připojili i Piráti.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "ANO i Piráti chtějí konec Blažka kvůli darovaným bitcoinům. Chystá se mimořádná schůze sněmovny, ministr obvinění odmítá",
+        "url": "https://domaci.hn.cz/c1-67742440-ano-i-pirati-chteji-konec-blazka-kvuli-darovanym-bitcoinum-chysta-se-mimoradna-schuze-snemovny-ministr-obvineni-odmita",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — aktivace parlamentního kontrolního mechanismu (interpelace, mimořádná schůze) je standardní demokratický postup a samo o sobě nepředstavuje poškození instituce; jde o reakci opozice na kauzu, nikoli o porušení normy. Subkomponenta G1 (kontrola exekutivy parlamentem) je aktivována přiměřeně. Samotná žádost o mimořádnou schůzi je procedurálně korektní. Hlavní korupční událost je zachycena v indexu 0 a 3. Anti-bias check: stejně by byl hodnocen jakýkoli opoziční požadavek na mimořádnou schůzi bez ohledu na politický tábor.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-008",
+    "date": "2025-05-29",
+    "headline": "Ministr Blažek hájí prodej bitcoinů za miliardu korun, investigace odhaluje slabé stránky jeho rozhodnutí",
+    "summary": "Ministr spravedlnosti Pavel Blažek na tiskové konferenci obhajoval rozhodnutí svého ministerstva ohledně prodeje konfiskovaných bitcoinů. Investigativní žurnalistika (Deník N) odhalila, že ministerstvo přijalo dar od odsouzeného drogového dealera a následně s ním disponovalo způsobem, který vyvolává otázky ohledně zákonnosti.",
+    "pillar": "corruption",
+    "severity": null,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Blažkův obchod s bitcoiny: Bylo to ultralegální, tvrdí ministr.  Vybíráme slabé stránky celého podivného případu",
+        "url": "https://archiv.hn.cz/c1-67742230-blazkuv-obchod-s-bitcoiny-bylo-to-ultralegalni-tvrdi-ministr-vybirame-slabe-stranky-celeho-podivneho-pripadu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity null — needs_review. Článek je analytický a shrnuje slabé stránky kauzy, ale fakta jsou z velké části totožná s články v indexu 0 a 4. Nejasné, zda samotná tisková konference Blažka představuje novou samostatnou událost (severity 3 per rubric §3 — veřejné prohlášení ministra odmítající závěry investigace bez institucionálního uzavření) nebo jde o součást téže události zachycené v indexu 0. Váhám mezi 3 (nové veřejné vyjádření s precedentem) a pouhým duplikátem — volím null + needs_review pro lidského reviewera.",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-21T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-011",
+    "date": "2025-05-28",
+    "headline": "Rada ČT vybere nového generálního ředitele z 21 kandidátů; volba proběhne 11. června 2025",
+    "summary": "Rada České televize bude 11. června 2025 volit nového generálního ředitele z rekordního počtu 21 přihlášených kandidátů, výrazně více než při předchozí volbě v roce 2023. Článek analyzuje, kteří kandidáti jsou považováni za favority a jaké mohou být strategie radních při hlasování.",
+    "pillar": "media",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "O post šéfa České televize usiluje 21 kandidátů. Kteří se řadí k favoritům a jak by mohli radní volit?",
+        "url": "https://archiv.hn.cz/c1-67741770-o-post-sefa-ceske-televize-usiluje-nejmene-10-kandidatu-kteri-se-radi-k-favoritum-a-jak-by-mohli-radni-volit",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Volba generálního ředitele ČT je institucionálně relevantní událost (subkomponenta M2 — nezávislost ČT). Samotné oznámení počtu kandidátů a příprava na volbu však nepředstavuje žádné oslabení ani posílení demokratické instituce — jde o standardní procedurální krok. Dle rubric §1 (zanedbatelný incident, procedurální oznámení bez institucionálního dopadu): severity 1, direction 0. Pokud by volba proběhla způsobem naznačujícím politický vliv, závažnost by eskalovala na 3–5 dle rubric §3–5 (subkomponenta M2).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-012",
+    "date": "2025-05-28",
+    "headline": "Odvolací soud potvrdil Peltovi pět a půl roku vězení za korupci se sportovními dotacemi",
+    "summary": "Pražský vrchní soud potvrdil rozsudek nad Miroslavem Peltou, bývalým šéfem českého fotbalu, a uložil mu trest pět a půl roku odnětí svobody za manipulace se sportovními dotacemi. Také bývalá náměstkyně ministerstva školství Simonona Kratochvílová dostala nepodmíněný trest. Jde o potvrzení pravomocného odsouzení politicky exponovaných osob za korupci ve veřejných zakázkách.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Odvolací soud poslal Peltu na pět a půl roku do vězení za machinace se sportovními dotacemi",
+        "url": "https://archiv.hn.cz/c1-67741680-odvolaci-soud-poslal-peltu-na-pet-a-pul-roku-do-vezeni-za-machinace-se-sportovnimi-dotacemi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — pravomocné odsouzení funkcionáře spojeného s politickým systémem (subkomponenta K2: veřejné zakázky/dotace, K1: politická korupce) za korupci ve sportovních dotacích s vazbou na ministerstvo školství. Jde o konkrétní soudní výsledek s institucionálním dopadem, nikoli jen obvinění. Direction -1, protože případ dokumentuje existenci korupčního jednání ve veřejné správě, přestože soudní systém funguje (korekce přes J4). Sekundárně se dotýká pilíře judicial (fungování odvolacího soudu, rovnost před zákonem J4), ale primárním pilířem je corruption jako kořenová příčina.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-013",
+    "date": "2025-05-28",
+    "headline": "Česká vláda přičetla kybernetický útok na MZV Číně, ministr si předvolal velvyslance",
+    "summary": "Česká vláda formálně obvinila Čínu ze zodpovědnosti za kybernetickou kampaň namířenou proti komunikační síti ministerstva zahraničí. Ministr zahraničí Lipavský předvolal čínského velvyslance jako diplomatickou reakci na incident. Jde o první formální atribuci státního kyberútoku ze strany ČR vůči Číně.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kybernetický útok na Česko. Čínští hackeři zasáhli komunikační síť ministerstva, Lipavský si předvolal velvyslance",
+        "url": "https://domaci.hn.cz/c1-67741490-lipavsky-si-predvolal-cinskeho-velvyslance-vlada-vini-peking-z-kyberneticke-kampane-proti-komunikacni-siti-ministerstva",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — formální vládní atribuce státem sponzorovaného kybernetického útoku na klíčovou komunikační infrastrukturu ministerstva zahraničí je konkrétní institucionální událost s precedentním charakterem (subkomponenta G4: transparentnost vládnutí a bezpečnost komunikačních systémů; sekundárně E3: ochrana před zahraniční manipulací infrastruktury). Útok na komunikační sítě státní správy ohrožuje funkční vládnutí a diplomatickou kapacitu. Direction -1, protože incident dokumentuje realizovaný útok na státní infrastrukturu, přestože diplomatická odpověď je přiměřená. Single source v summáři — pokud by byl pouze jeden zdroj, zvážit null, avšak veřejné prohlášení ministerstva a vyjádření ministra jsou ověřitelné primární zdroje.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-014",
+    "date": "2025-05-27",
+    "headline": "Znalec u Vrchního soudu: Farma Čapí hnízdo nebyla schopna samostatně financovat kongresový areál",
+    "summary": "Znalec Vítězslav Hálek vypověděl před Vrchním soudem v Praze, že společnost Farma Čapí hnízdo nebyla v letech 2008–2013 schopna sama financovat výstavbu kongresového areálu. Andrej Babiš znalce označil za lháře. Jde o klíčové svědectví v probíhajícím odvolacím řízení v kauze předražené nebo neoprávněně čerpané dotace.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Samotná farma nebyla schopná financovat kongresový areál Čapí hnízdo, řekl znalec. Babiš ho označil za lháře",
+        "url": "https://domaci.hn.cz/c1-67741250-samotna-farma-nebyla-schopna-financovat-kongresovy-areal-capi-hnizdo-rekl-znalec-babis-ho-oznacil-za-lhare",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o dílčí procesní svědectví v probíhajícím soudním řízení (subkomponenta K1 — politická korupce a střet zájmů ústavního činitele), nikoli o nové skutkové odhalení nebo institucionální rozhodnutí. Událost dokumentuje pokračování kauzy Čapí hnízdo, kde je hlavním obžalovaným bývalý premiér a lídr ANO. Označení znalce za lháře ze strany Babiše je verbální útok bez bezprostředního institucionálního dopadu, ale zaznamenáníhodný jako součást probíhajícího řízení. Duration: persistent, protože jde o trvající soudní proces. Sekundárně relevantní pro pilíř judicial (J4 — rovnost před zákonem pro politicky exponované osoby).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-015",
+    "date": "2025-05-27",
+    "headline": "Nevinně odsouzený muž obdržel rekordní odškodné 2,5 milionu korun za chybné odsouzení na základě pachových stop",
+    "summary": "Martin Skalický strávil pět let ve vězení po odsouzení za loupežné přepadení zlatnictví, přičemž hlavním důkazem byly sporné pachové stopy. Po prokázání neviny mu bylo přiznáno rekordní odškodné 2,5 milionu korun. Případ otevírá otázku spolehlivosti pachových stop jako důkazu v trestním řízení.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nevinný za mřížemi. Za sporné pachové stopy dostal muž rekordní odškodné 2,5 milionu korun",
+        "url": "https://archiv.hn.cz/c1-67740920-nevinny-za-mrizemi-za-sporne-pachove-stopy-dostal-muz-rekordni-odskodne-2-5-milionu-korun",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ vytváří precedent a má širší dopad na hodnocení spolehlivosti důkazních metod v trestním řízení (subkomponenta J2 — nezávislost a kvalita obecných soudů, J4 — rovnost před zákonem a spravedlivý proces). Rekordní výše odškodného signalizuje závažnost pochybení. Událost sama je one_off (přiznání odškodného), ale odkazuje na systémový problém s pachovou identifikací jako důkazem. Směr -1, protože pochybení justice poškodilo konkrétního občana a vyvolalo oprávněnou kritiku důkazní praxe.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-016",
+    "date": "2025-05-26",
+    "headline": "Odvolací soud začal projednávat kauzu Čapí hnízdo: státní zástupce se odvolal proti zprošťujícímu rozsudku",
+    "summary": "Odvolací soud zahájil jednání v kauze Čapí hnízdo, v níž je obžalován předseda ANO Andrej Babiš. Státní zástupce podal odvolání proti prvoinstančnímu rozsudku, který Babiše zprostil obžaloby. Případ se týká podezření ze zneužití dotace EU na farmový resort v době, kdy byl Babiš politicky aktivní.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babiš zamířil z kampaně k soudu. Začalo odvolací jednání kauzy Čapí hnízdo",
+        "url": "https://archiv.hn.cz/c1-67740560-babis-zamiril-z-kampane-k-soudu-zacalo-odvolaci-jednani-kauzy-capi-hnizdo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:31.228Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 – zahájení odvolacího řízení v již existující kauze je procesním krokem bez nového institucionálního dopadu; nejde o precedentní rozhodnutí, ale o standardní průběh soudního řízení (subkomponenta J4 – rovnost před zákonem, kauza politicky exponované osoby). Direction 0: samotné zahájení odvolání nelze hodnotit jako oslabení ani posílení demokracie – jde o standardní fungování justice. Persistent, protože řízení pokračuje. Anti-bias check: stejný postup by byl aplikován na jakéhokoli jiného obžalovaného politika bez ohledu na stranickou příslušnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-018",
+    "date": "2025-05-29",
+    "headline": "ANO a SPD svolaly mimořádnou schůzi sněmovny a požadují demisi vlády kvůli bitcoinové aféře",
+    "summary": "Opoziční ANO a SPD iniciují mimořádnou schůzi Poslanecké sněmovny s požadavkem na demisi vlády Petra Fialy v souvislosti se spornými bitcoiny darovanými ministerstvu spravedlnosti. V případě neúspěchu plánují vyvolat formální hlasování o vyslovení nedůvěry. Jde o standardní využití ústavního mechanismu parlamentní kontroly exekutivy.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Opozice bude ve sněmovně kvůli &bdquo;bitcoinové aféře&ldquo; usilovat o sesazení vlády",
+        "url": "https://domaci.hn.cz/c1-67742950-opozice-bude-ve-snemovne-kvuli-bdquo-bitcoinove-afere-ldquo-usilovat-o-sesazeni-vlady",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:34.322Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 3 per rubric §3 — vyvolání mimořádné schůze sněmovny a plánované hlasování o nedůvěře je legitimní ústavní mechanismus parlamentní kontroly (subkomponenta G1), nikoli samo o sobě porušení normy. Událost je institucionálně relevantní jako projev parlamentní kontroly exekutivy, ale direction je 0 – využití standardního ústavního nástroje je ambivalentní z hlediska demokratického hodnocení. Primární pilíř governance; sekundárně corruption (bitcoinová aféra jako kořenová příčina krize).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-21T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-020",
+    "date": "2025-05-30",
+    "headline": "Ministerstvo spravedlnosti přijalo kryptoměny z trestné činnosti v hodnotě ~1 mld. Kč bez řádného procesu",
+    "summary": "Ministerstvo spravedlnosti přijalo bitcoiny v hodnotě přibližně miliardy korun jako dar od odsouzeného dealera drog a následně je prodalo, aniž by postupovalo standardním bankovním nebo právním způsobem. České banky uvedly, že zákon by jim takový postup neumožnil. Kauza vyvolala otázky ohledně transparentnosti nakládání s veřejnými prostředky a majetkem pocházejícím z trestné činnosti.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "My bychom takové peníze přijmout nemohly, říkají o &bdquo;ministerských&ldquo; bitcoinech české banky. Neumožnil by jim to zákon",
+        "url": "https://archiv.hn.cz/c1-67742540-my-bychom-takove-penize-prijmout-nemohly-rikaji-o-bdquo-ministerskych-ldquo-bitcoinech-ceske-banky-neumoznil-by-jim-to-zakon",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:34.322Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — jde o přímý dopad na fungování klíčové instituce (ministerstvo spravedlnosti) a jasné překročení standardních procesních norem při nakládání s majetkem pocházejícím z trestné činnosti (subkomponenta K1 — střet zájmů a zneužití pravomoci, K2 — transparentnost nakládání s veřejnými prostředky). Skutečnost, že banky explicitně uvedly, že by jim zákon takový postup nedovolil, potvrzuje překročení normativního rámce. Persistent, protože kauza se stále vyšetřuje a instituce je nadále zatížena. Sekundárně se dotýká pilíře judicial (ministerstvo spravedlnosti má dozorovou roli nad soustavou). Anti-bias: stejnou závažnost bych přiřadil analogickému jednání ministra jakékoliv vlády.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-021",
+    "date": "2025-05-30",
+    "headline": "Detaily bitcoinové kauzy: miliardy z drogového darkwebu, ministr Blažek chtěl skandál využít politicky",
+    "summary": "Odhaleny podrobnosti kauzy, která stála ministra Blažka funkci: odsouzený dealer Tomáš Jiřikovský daroval ministerstvu spravedlnosti třetinu svých bitcoinů pocházejících z prodeje drog na darkwebu, stát je prodal za miliardu korun. Ministr měl záměr prezentovat zisk jako úspěch, přičemž v celém případu figurují výrazně vyšší částky v řádu miliard. Kauza kombinuje pochybné nakládání s majetkem z trestné činnosti s politickým kalkuem.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Detaily kauzy, která vedla k pádu ministra Blažka. Bitcoiny pochází z prodeje drog, v celém případu je ve hře výrazně více miliard",
+        "url": "https://archiv.hn.cz/c1-67742640-detaily-kauzy-ktera-vedla-k-padu-ministra-blazka-bitcoiny-pochazi-z-prodeje-drog-v-celem-pripadu-je-ve-hre-vyrazne-vice-miliard",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:34.322Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — případ splňuje kritéria přímého dopadu na fungování klíčové instituce (ministerstvo spravedlnosti) s prokazatelným politickým motivem ministra (subkomponenta K1). Jedná se o tentýž případ jako index 2, ale tento článek přidává klíčová fakta: původ majetku z trestné činnosti byl ministrovi znám, přesto byl případ prezentován jako úspěch. Více nezávislých zdrojů popisuje stejný základ. Persistent, protože vyšetřování probíhá. Sekundárně dotýká pilíře governance (rezignace ministra) a judicial (ministerstvo jako součást justice systému).\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-022",
+    "date": "2025-05-30",
+    "headline": "Sněmovna schválila Blažkovu reformu trestního práva včetně zákazu deepfake porna a propagace komunismu",
+    "summary": "Poslanecká sněmovna schválila rozsáhlý reformní balík ministra Blažka upravující trestní právo – nově zahrnuje postihy za deepfake pornografii, legalizaci pěstování konopí pro domácí použití, zákaz propagace komunismu a zpřísnění sankcí za porušování mezinárodních sankcí. Jde o legislativní změny s dopadem na více oblastí trestního práva.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Blažkova reforma: Domácí konopí, postih za deepfake porno i zákaz propagace komunismu",
+        "url": "https://zpravy.aktualne.cz/domaci/blazkova-reforma-domaci-konopi-postih-za-deepfake-porno-i-za/r~498976083d8411f0bb77ac1f6b220ee8/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T13:25:49.251Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — schválení legislativního balíku je standardní součástí legislativního procesu bez narušení institucí (subkomponenta G2). Balík zahrnuje věcně různorodá témata, nicméně byl přijat v řádném procesu. Pozitivní směr (+1) vzhledem k posílení právní ochrany (deepfake, sankce). Sekundárně relevantní pro pilíř civil (C1 — ochrana projevu vs. zákaz propagace), zmíněno v rationale. Absence informací o zkrácení připomínkového řízení nebo jiném procedurálním pochybení snižuje závažnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-023",
+    "date": "2025-05-30",
+    "headline": "Ministr spravedlnosti Blažek rezignoval kvůli kauze bitcoinů nejasného původu",
+    "summary": "Pavel Blažek dobrovolně rezignoval na post ministra spravedlnosti v souvislosti s kauzou bitcoinů, jejichž původ je nejasný a vyšetřují je orgány činné v trestním řízení. Odchod ministra spravedlnosti z funkce uprostřed vládního období je mimořádnou událostí s dopadem na stabilitu vlády i fungování resortu justice.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Poslední rozhovor Blažka před rezignací: \"Udělám vám možná radost. Nevděčná práce.\"",
+        "url": "https://zpravy.aktualne.cz/domaci/ministr-blazek-nevylucuji-ze-skoncim/r~014871c43d5111f0beca0cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T13:25:49.251Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — rezignace ministra spravedlnosti v důsledku korupční kauzy (subkomponenta K1 — střet zájmů a podezření ze zneužití postavení ústavního činitele) je závažným porušením normy s přímým dopadem na klíčovou instituci (resort justice). Sekundárně relevantní pro pilíř governance (G1 — dělba moci, funkčnost vlády). Anti-bias check: stejnou závažnost by případ dostal bez ohledu na politickou příslušnost ministra. Jediný zdroj v sérii, ale rezignace je veřejně doložitelnou událostí; podezření z trestné činnosti doloží článek [3].\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-024",
+    "date": "2025-05-30",
+    "headline": "Policie podezřívá Blažka ze tří trestných činů včetně praní špinavých peněz z bitcoinů",
+    "summary": "Policisté zahájili vyšetřování v kauze bitcoinů darovaných Blažkovu ministerstvu a mají podezření ze tří trestných činů, včetně praní špinavých peněz – dárcem byl soudem odsouzený obchodník s drogami. Orgány se pokouší bitcoiny zmrazit.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "\"Blažkovy\" bitcoiny: žalobci mají podezření ze tří trestných činů",
+        "url": "https://zpravy.aktualne.cz/domaci/policie-se-snazi-zmrazit-pochybne-bitcoiny-vydrazene-blazkov/r~13adf0343d4f11f0bf960cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T13:25:49.251Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — podezření ze strukturálního schématu praní špinavých peněz zahrnujícího ústavního činitele (subkomponenta K1) je závažným incidentem s přímým institucionálním dopadem. Vyšetřování je průběžné (persistent), nikoliv uzavřená jednorázová událost. Sekundárně relevantní pro pilíř judicial (J3 — nezávislost státního zastupitelství a jeho schopnost stíhat politicky exponované osoby). Dva na sobě nezávislé zdroje (tento článek + [2]) potvrzují základní fakta kauzy. Escalation rule: přítomnost formálního trestního řízení posiluje severity oproti pouhému záměru.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W22-025",
+    "date": "2025-05-30",
+    "headline": "Europoslanec Turek oznámil kandidaturu ve sněmovních volbách za Motoristy ve Středočeském kraji",
+    "summary": "Europoslanec Filip Turek oznámil, že povede kandidátku strany Motoristé sobě ve Středočeském kraji v říjnových sněmovních volbách. Jde o standardní předvolební oznámení kandidatury kontroverzního politického aktéra.",
+    "pillar": "electoral",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Turek jde do sněmovních voleb. Má vybráno, kde povede Motoristy",
+        "url": "https://zpravy.aktualne.cz/domaci/europoslanec-turek-bude-kandidovat-do-ps-motoristy-povede-ve/r~df2538f43d4911f0beca0cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T13:25:49.251Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — oznámení kandidatury je rutinní součástí pluralitního volebního procesu (subkomponenta E2 — politický pluralismus), bez dopadu na institucionální rámec voleb. Direction 0 — samotné oznámení kandidatury není ani posilující, ani oslabující pro demokratické instituce; je projevem funkčního pluralismu. Případná problematická minulost kandidáta je samostatnou otázkou, která by vyžadovala konkrétní nové institucionální události ke klasifikaci.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-26T00:00:00.000Z",
+    "expires_at": "2025-08-22T00:00:00.000Z"
+  }
+]

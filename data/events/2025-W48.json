@@ -1,26 +1,429 @@
 [
   {
     "id": "2025-W48-001",
+    "date": "2025-11-26",
+    "headline": "Prezident Pavel odmítl Filipa Turka v jakékoli vládní funkci",
+    "summary": "Prezident Petr Pavel při setkání s Andrejem Babišem na Hradě jednoznačně odmítl jmenovat Filipa Turka (Motoristé) do vlády, a to kvůli jeho extremistickým výrokům i dalším kauzám. Babiš a Motoristé musí hledat jiné řešení pro obsazení ministerského postu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Turka nechce ve vládě vůbec.“ Prezident odmítl ustoupit. Jak reagoval Babiš?",
+        "url": "https://denikn.cz/1904074/turka-nechce-ve-vlade-vubec-prezident-odmitl-ustoupit-jak-reagoval-babis/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:47.226Z"
+      },
+      {
+        "title": "Prezident Turka ve vládě nechce, Macinka se znovu objednal na Hrad",
+        "url": "https://denikn.cz/1903748/prezident-turka-ve-vlade-nechce-mohl-mu-dat-sanci-mini-babis/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:47.226Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 3 per rubric §3 — prezident uplatňuje svou ústavní pravomoc odmítnout kandidáta na ministra (subkomponenta G1: dělba moci, role prezidenta). Jde o konkrétní institucionální konflikt mezi prezidentem a navrhující koalicí při formování vlády. Direction 0: odmítnutí kandidáta s extremistickými výroky lze interpretovat jak jako legitimní ústavní výkon pravomoci (+1), tak jako potenciální překračování prezidentových kompetenčních hranic (-1) — dopad na demokratické zdraví institucí je skutečně ambivalentní. Událost je persistent, dokud nebude personální otázka vyřešena. Sekundárně se dotýká pilíře civil (výroky kandidáta).\n\n[merged with 2025-W48-003 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2025-11-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-002",
+    "date": "2025-11-26",
+    "headline": "Babišovy poznámky potvrdily prezidentovy výhrady vůči Turkovi",
+    "summary": "Ručně psané poznámky Andreje Babiše zachycené při tiskovém výstupu po schůzce na Hradě odhalily konkrétní důvody, proč prezident Pavel odmítá Filipa Turka — deník N jejich autentičnost ověřil. Jde o první veřejně zdokumentované prezidentovy námitky vůči nominantovi koalice.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Bez Turka.“ Babišovy ručně psané poznámky odhalují, proč Pavel odmítá kandidáta Motoristů",
+        "url": "https://denikn.cz/1903955/bez-turka-babisovy-rucne-psane-poznamky-odhaluji-proc-pavel-odmita-kandidata-motoristu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:47.226Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o dokumentaci (ověřené poznámky) k téže události jako v článku [1], nikoliv o novou institucionální akci; přidává faktický detail k prezidentovu odmítnutí, ale samo o sobě nevytváří nový precedent ani institucionální dopad. Subkomponenta G1 (dělba moci při formování vlády). Direction 0: zveřejnění interních poznámek jako takové nemá jednoznačný pozitivní ani negativní demokratický efekt — zvyšuje transparentnost, ale nevyplývá z něj institucionální posun.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-18T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-004",
+    "date": "2025-11-26",
+    "headline": "Česko uzavře veřejný přístup do evidence skutečných majitelů firem",
+    "summary": "Vláda uzavře veřejnosti přístup do evidence skutečných majitelů (ESM) poté, co unijní i české soudy označily neomezenou přístupnost za nepřiměřený zásah do soukromí. Opatření snižuje transparentnost vlastnických struktur firem a oslabuje jeden z nástrojů boje proti praní špinavých peněz.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Stát uzavře evidenci skutečných majitelů. Proč už nezjistíme, kdo má z jaké firmy prospěch, a mohlo ministerstvo něco udělat jinak?",
+        "url": "https://denikn.cz/1901684/stat-uzavre-evidenci-skutecnych-majitelu-proc-uz-nezjistime-kdo-ma-z-jake-firmy-prospech-a-mohlo-ministerstvo-neco-udelat-jinak/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:47.226Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — znepřístupnění ESM vytváří precedent v oblasti transparentnosti a anti-korupčního prostředí (subkomponenta K2: transparentnost veřejných zakázek a registrů; K4: protikorupční instituce). Ačkoliv jde o reakci na soudní rozhodnutí (unijní i české), praktický dopad na veřejnou kontrolu vlastnických struktur je zřejmý a nepominutelný. De-eskalace není namístě, protože institucionální korekce přišla zvenčí (soudy), nikoli jako svévolné rozhodnutí vlády — ale efekt na demokratické standardy transparentnosti je reálný. Sekundárně se dotýká pilíře governance (G4: transparentnost vládnutí). Persistent, neboť jde o trvalou změnu přístupu k databázi.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-005",
     "date": "2025-11-25",
-    "headline": "MŽP zrušilo výběrové řízení na šéfa ČIŽP po podezření z politické intervence",
-    "summary": "Ministerstvo životního prostředí zrušilo výběrové řízení na ředitele České inspekce životního prostředí poté, co se v médiích objevily pochybnosti o postupu kandidáta napojené na hnutí Motoristé. Ministerstvo vypíše nové výběrové řízení. Případ naznačuje možnou politicky motivovanou intervenci do personálního obsazení státní správy.",
+    "headline": "Prezident Pavel varoval před ohrožením nezávislosti veřejnoprávních médií plánovanými změnami financování",
+    "summary": "Prezident Petr Pavel na konferenci Forum Media podpořil nezávislost veřejnoprávních médií a vyjádřil podmíněný souhlas se změnami financování za předpokladu zachování jejich nezávislosti a předvídatelnosti. Nepřímo se vymezil vůči poslanci Filipu Turkovi. Výrok přichází v kontextu plánů nastupující vlády na změnu systému financování ČT a ČRo.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Podkopání pilíře demokracie.“ Pavel se zastal veřejnoprávních médií, nepřímo kritizoval Turka",
+        "url": "https://denikn.cz/1902364/podkopani-pilire-demokracie-pavel-se-zastal-verejnopravnich-medii-neprimo-kritizoval-turka/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:47.226Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o verbální vyjádření ústavního činitele (prezidenta) s omezeným přímým institucionálním dopadem, bez konkrétního legislativního kroku. Subkomponenta M2 (nezávislost ČT a ČRo) je relevantní, protože vyjádření reaguje na plány nastupující vlády měnit financování veřejnoprávních médií. Direction +1 protože prezidentovo vystoupení podporuje ochranu nezávislosti médií. Pokud by konkrétní legislativní návrh na změnu financování byl podán, eskalovalo by to na severity 3–4 per rubric §3/§4 (přímý dopad na M2).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-006",
+    "date": "2025-11-25",
+    "headline": "Policie prohledala ministerstvo dopravy a centrály ŘSD a SŽ kvůli podezření z korupce ve veřejných zakázkách",
+    "summary": "Kriminalisté provedli razii na ministerstvu dopravy, v ústředí Ředitelství silnic a dálnic a Správy železnic, kde zajišťovali dokumenty a počítače týkající se velkých zakázek na dálniční a železniční infrastrukturu. Žádná osoba nebyla zadržena. Akce se dotkla kanceláří vrcholných manažerů zmíněných institucí.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Razie kvůli zakázkám na dálnice a železnice: policie je na Kupkově ministerstvu i v kanceláři šéfa ŘSD",
+        "url": "https://denikn.cz/1902441/razie-kvuli-zakazkam-na-dalnice-a-zeleznice-police-je-na-kupkove-ministerstvu-i-v-kancelari-sefa-rsd/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:47.226Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — policejní razie na ministerstvu a dvou klíčových státních infrastrukturních agenturách kvůli podezření z manipulace veřejných zakázek je konkrétní, datovaná událost s širokým institucionálním dosahem (subkomponenta K2 — transparentnost a zákonnost veřejných zakázek). Dopad je dostatečný pro úroveň 3, protože se týká velkých infrastrukturních zakázek a zasahuje více institucí zároveň. Zatím však nejsou podány obžaloby ani zadrženy osoby, proto nepřekračuje severity 4. Single-source rule (Deník N jako první zdroj) ponechávám na 3, ale potvrzení dalšími zdroji by severity mohlo potvrdit. Direction -1 protože incident indikuje selhání protikorupčních mechanismů ve veřejných zakázkách.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-007",
+    "date": "2025-11-25",
+    "headline": "Babiš předá prezidentovi Pavlovi seznam kandidátů na ministry včetně kontroverzního Filipa Turka",
+    "summary": "Předseda ANO Andrej Babiš se chystá předat prezidentu Pavlovi seznam kandidátů pro nastupující koaliční vládu. Koaliční partner Motoristé trvají na zařazení Filipa Turka do vlády navzdory jeho kontroverzím. Výsledek schůzky by měl rozhodout o personální skladbě nové vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Motoristé na seznam ministrů napsali i Turka. Zda Babiš ponese jeho jméno na Hrad, se rozhodne dnes",
+        "url": "https://denikn.cz/1902297/motoriste-na-seznam-ministru-napsali-i-turka-zda-babis-ponese-jeho-jmeno-na-hrad-se-rozhodne-dnes/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:47.226Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o standardní, byť politicky kontroverzní fázi sestavování vlády (předání seznamu kandidátů prezidentovi). Subkomponenta G1 (dělba moci, role prezidenta) je relevantní — prezident má v procesu jmenování vlády ústavní roli. Samotné předání seznamu je procedurálně normální krok, nikoli porušení normy. Direction 0, protože procesní krok jako takový není ani posilující, ani oslabující pro demokracii — kontroverznost konkrétního kandidáta (Turek) by se projevila teprve při případném odmítnutí jmenování nebo při konfliktu s prezidentem. Pokud by prezident odmítl jmenovat ministry bez ústavně přijatelného důvodu, eskalovalo by na severity 4 per rubric §4.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-008",
+    "date": "2025-11-25",
+    "headline": "Koaliční rada ANO, SPD a Motoristů schválila nominace na ministry nové vlády",
+    "summary": "Koaliční rada hnutí ANO, SPD a Motoristů schválila personální nominace na ministry vznikající vlády. Předseda ANO Andrej Babiš oznámil, že seznam předá prezidentu Pavlovi ve středu, konkrétní jména ale nezveřejnil.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "ANO, SPD a Motoristé schválili nominace na ministry. Jména kandidátů zatím neupřesnili",
+        "url": "https://www.irozhlas.cz/zpravy-domov/ano-spd-a-motoriste-schvalili-nominace-na-ministry-jmena-kandidatu-zatim_2511251942_jar",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:27.583Z"
+      },
+      {
+        "title": "Výměna Turek x Macinka? Od Motoristů chytrý tah, říká komentátor HN Petr Honzejk",
+        "url": "https://podcasty.hn.cz/c1-67818170-vymena-turek-x-macinka-od-motoristu-chytry-tah-rika-analytik-hn-petr-honzejk",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Schválení nominací koaliční radou je standardní součástí procesu sestavování vlády dle ústavní posloupnosti (subkomponenta G1 — dělba moci, předání moci po volbách). Nejde o porušení normy ani o posílení demokracie — jde o rutinní krok vládní formace, direction 0. Severity 1 per rubric §1 — procedurální krok bez precedentního charakteru či institucionálního dopadu nad rámec standardního procesu.\n\n[merged with 2025-W48-021 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-009",
+    "date": "2025-11-25",
+    "headline": "Koaliční rada schválila kandidáty na ministry, u několika hrozí prezidentské veto",
+    "summary": "Koaliční rada ANO, SPD a Motoristé sobě odsouhlasila seznam nominantů na ministry nové vlády. U části kandidátů přetrvávají otazníky kvůli možnému odmítnutí ze strany prezidenta nebo výhradám odborné veřejnosti. Situace naznačuje potenciální napětí v ústavním procesu jmenování vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babiš má hotový seznam kandidátů na ministry, který ponese k prezidentovi. S jakými jmény může narazit?",
+        "url": "https://archiv.hn.cz/c1-67817520-babis-ma-hotovy-seznam-kandidatu-na-ministry-ktery-ponese-k-prezidentovi-s-jakymi-jmeny-muze-narazit",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:06.184Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — schválení seznamu kandidátů s existujícím rizikem prezidentského veta je konkrétní krok v ústavním procesu jmenování vlády (subkomponenta G1: dělba moci, role prezidenta). Samo o sobě jde o standardní součást vládnutí, avšak potenciální konflikt mezi koalicí a prezidentem při odmítnutí kandidátů by mohl eskalovat. Zatím bez prokázaného překročení ústavních mezí → severity 2. Pokud by prezident odmítl jmenovat bez věcného důvodu, eskalovalo by na 4 per rubric §4.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-010",
+    "date": "2025-11-25",
+    "headline": "NCOZ zasahovala kvůli zakázkám Správy železnic a ŘSD, vyšetřování se dotýká i brněnského nádraží",
+    "summary": "Kriminalisté Národní centrály proti organizovanému zločinu provedli razii na několika místech v souvislosti se zakázkami státních organizací Správy železnic a Ředitelství silnic a dálnic. Podle státního zástupce Kučery se vyšetřování týká i zakázek spojených se stavbou brněnského nádraží. Jde o korupční vyšetřování v oblasti veřejných zakázek u klíčových státních infrastrukturních subjektů.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Policie zasahovala kvůli zakázkám Správy železnic a ŘSD, zajímat se měla i o stavbu brněnského nádraží",
+        "url": "https://domaci.hn.cz/c1-67817350-v-sidle-spravy-zeleznic-zasahuje-policie-zajimat-se-ma-i-o-stavbu-brnenskeho-nadrazi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:06.184Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — policejní razzia NCOZ na státní infrastrukturní organizace (SŽ, ŘSD) je konkrétní datovatelná událost s potenciálně širokým dopadem na subkomponentu K2 (veřejné zakázky, transparentnost zadávacích řízení). Rozsah vyšetřování zahrnující více míst a klíčové státní subjekty zakládá riziko systémové korupce ve veřejných zakázkách. Zatím jde o fázi razzie, nikoli odsouzení — severity 3 odpovídá závažnosti zahájení vyšetřování s precedentním charakterem; bez prokázaného strukturálního schématu s napojením na ústavní činitele nelze klasifikovat jako 4–5.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-011",
+    "date": "2025-11-24",
+    "headline": "Turek odevzdal majetkové přiznání: miliony v bezpečnostní schránce, experti poukazují na možné nesrovnalosti",
+    "summary": "Poslanec a kandidát na ministra zahraničí Filip Turek podal majetkové přiznání, ve kterém uvádí mimo jiné devět milionů korun v bezpečnostní schránce. Odborníci na praní peněz a finanční úřad mohou zahájit kontrolu příjmů, přičemž experti označují strukturu majetku za nestandardní.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Turkovy miliony v bezpečnostní schránce: finančák může rozjet kontrolu příjmů, experti na praní peněz kroutí hlavou",
+        "url": "https://archiv.hn.cz/c1-67816960-turkovy-miliony-v-bezpecnostni-schrance-financak-muze-rozjet-kontrolu-prijmu-experti-na-prani-penez-krouti-hlavou",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:06.184Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — majetkové přiznání obsahuje nestandardní položky, které zakládají důvod k prošetření, avšak zatím jde o přiznání bez prokázaného úmyslného zatajení ani zahájeného formálního řízení. Subkomponenta K1 (střet zájmů a transparentnost majetku ústavních činitelů). Pokud finanční správa zahájí formální kontrolu nebo se prokáže zamlčení, eskalace na severity 3–4.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-16T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-012",
+    "date": "2025-11-24",
+    "headline": "Česko se blíží rozpočtovému provizóriu kvůli neschopnosti vlády a budoucí koalice dohodnout se na návrhu",
+    "summary": "Vláda v demisi odmítá přistoupit na požadavky nastupující koalice ohledně návrhu státního rozpočtu, přičemž sněmovna dosud žádný návrh ke schválení neobdržela. Bez schváleného rozpočtu hrozí přechod do provizória, které by omezilo výdaje klíčových složek jako jsou hasiči.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Rozpočtové provizorium se blíží, politici se odmítají dohodnout. Nebudeme mít na provoz, obávají se hasiči",
+        "url": "https://archiv.hn.cz/c1-67817000-rozpoctove-provizorium-se-blizi-politici-se-odmitaji-dohodnout-nebudeme-mit-na-provoz-obavaji-se-hasici",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:06.184Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — institucionální pat mezi vládou v demisi a nastupující koalicí je dosud bez eskalace do ústavní krize; provizórium je standardní zákonný mechanismus, nikoli porušení normy. Subkomponenta G1 (fungování exekutivy a legislativní proces) a G3 (stabilita ústavních norem). Pokud dojde ke schválení provizória nebo k jeho záměrnému blokování, může eskalovat na severity 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-013",
+    "date": "2025-11-29",
+    "headline": "Odhalení 80 milionů v hotovosti u šéfa Správy železnic Jiřího Svobody",
+    "summary": "Policie při domovní prohlídce nalezla v domě generálního ředitele Správy železnic Jiřího Svobody hotovost ve výši 80 milionů korun. Svoboda je vyšetřován v souvislosti s podezřelými zakázkami a po téměř osmi letech ve funkci má skončit. Případ poukazuje na možné propojení politických vazeb a zadávání veřejných zakázek na železniční infrastruktuře.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Kauza 80 milionů v hotovosti: Jak se z výpravčího Svobody stal jeden z nejmocnějších lidí na železnici a kdo mu do funkce pomohl?",
+        "url": "https://archiv.hn.cz/c1-67819160-kauza-80-milionu-v-hotovosti-jak-se-z-vypravciho-svobody-stal-jeden-z-nejmocnejsich-lidi-na-zeleznici-a-kdo-mu-do-funkce-pomohl",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      },
+      {
+        "title": "Co bude s ředitelem Správy železnic, u kterého policie našla 80 milionů v hotovosti? Podle ministra Kupky ho správní rada odvolá v pondělí",
+        "url": "https://domaci.hn.cz/c1-67819150-co-bude-s-reditelem-spravy-zeleznic-svobodou-u-ktereho-policie-nasla-80-milionu-podle-ministra-kupky-ho-spravni-rada-odvola-v-pondeli",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      },
+      {
+        "title": "Problém šéfa Správy železnic: podle iRozhlasu u něj doma našla policie 80 milionů v hotovosti. Kupka ho poslal na dovolenou",
+        "url": "https://domaci.hn.cz/c1-67818950-problem-sefa-spravy-zeleznic-podle-irozhlasu-u-nej-doma-nasla-policie-80-milionu-v-hotovosti",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 dle rubric §4 — odhalení hotovosti 80 mil. Kč při domovní prohlídce vedoucího státní instituce s vazbou na podezřelé zakázky (subkomponenta K1 a K2) má přímý dopad na fungování klíčové státní infrastrukturní organizace a vytváří závažný precedent pro korupci ve veřejných zakázkách. Persistent, protože vyšetřování pokračuje a institucionální škody na věrohodnosti Správy železnic trvají. Sekundárně se dotýká G4 (transparentnost vládnutí a dohled nad státními podniky).\n\n[merged with 2025-W48-014 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2025-W48-015 — same incident, sources combined]\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2025-11-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-016",
+    "date": "2025-11-28",
+    "headline": "NSS potvrdil: Kostelecké uzeniny neměly nárok na dotaci kvůli Babišovu střetu zájmů",
+    "summary": "Nejvyšší správní soud zamítl kasační stížnost společnosti Kostelecké uzeniny (Agrofert) a pravomocně potvrdil, že firma v roce 2018 neměla nárok na dotaci z Programu rozvoje venkova kvůli střetu zájmů tehdejšího premiéra Babiše. Soud tak uzavřel jednu z klíčových kauz spojených s Babišovým holdingem a státními dotacemi.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kostelecké uzeniny neměly nárok na dotaci kvůli Babišovu střetu zájmů, potvrdil soud",
+        "url": "https://byznys.hn.cz/c1-67818750-kostelecke-uzeniny-nemely-narok-na-dotaci-kvuli-babisovu-stretu-zajmu-potvrdil-soud",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — pravomocný soudní rozsudek potvrzující protiprávní čerpání dotace v důsledku střetu zájmů ústavního činitele (subkomponenta K1) je významnou událostí s precedentní hodnotou. Direction +1, protože jde o institucionální korekci — soud fungoval jako pojistka a potvrdil porušení pravidel. Nejde o severity 4, protože event se týká historické kauzy z roku 2018 a rozsudek ji uzavírá, nikoli eskaluje. Sekundárně relevantní pro pilíř judicial (J1 — NSS funguje nezávisle).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-20T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-017",
+    "date": "2025-11-27",
+    "headline": "Sněmovna nakonec vyšle delegaci na Transatlantické fórum NATO po zvratu organizačního výboru",
+    "summary": "Sněmovní organizační výbor nejprve hlasy povolební většiny ANO, SPD a Motoristů zamítl vyslání delegace na Parlamentní shromáždění NATO. Po následném jednání bylo rozhodnutí zvráceno a sněmovna delegaci přece jen vyšle ve vyvážené sestavě zástupce koalice i opozice.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Poslanci nakonec na shromáždění NATO pojedou. Delegace je vyvážená, bude tam zástupce koalice i opozice, řekl Okamura",
+        "url": "https://domaci.hn.cz/c1-67818650-poslanci-nakonec-na-shromazdeni-nato-pojedou-delegace-je-vyvazena-bude-tam-zastupce-koalice-i-opozice-rekl-okamura",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — organizační výbor sněmovny nejprve hlasy nové většiny zablokoval standardní parlamentní aktivitu (účast v NATO PA), což je drobný precedent pro využívání procedurálních mechanismů novou většinou. Situace byla vzápětí korigována, což snižuje závažnost (de-eskalace per rubric: rychlá institucionální korekce). Direction 0, protože výsledný stav je neutrální — delegace pojede. Subkomponenta G1 (dělba moci, parlamentní procesy). Nedosahuje severity 3, protože nedošlo k trvalému blokování.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-19T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-018",
+    "date": "2025-11-27",
+    "headline": "Babiš odmítl poslanecké dotazy o střetu zájmů před jmenováním premiérem",
+    "summary": "Andrej Babiš na mimořádné schůzi sněmovny odmítl odpovídat na dotazy poslanců ohledně budoucího střetu zájmů spojeného s holdingem Agrofert. Zároveň uvedl, že s prezidentem se již dohodl, jakým způsobem střet zájmů oznámí, přičemž sám jeho existenci popírá.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Dohodl jsem se s prezidentem, jak oznámím ten střet zájmů, který samozřejmě nemám. Vám odpovídat nebudu, řekl Babiš poslancům",
+        "url": "https://domaci.hn.cz/c1-67818640-babis-ve-snemovne-odmitl-rict-jak-vyresi-stret-zajmu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — veřejné odmítnutí odpovídat na otázky týkající se střetu zájmů budoucího premiéra vytváří precedent pro obcházení parlamentní kontroly a transparentnosti (subkomponenta K1 — politická korupce, střet zájmů ústavního činitele). Sekundárně se dotýká G1 (dělba moci — parlamentní kontrola exekutivy) a G4 (transparentnost vládnutí). Jedná se o verbální incident s potenciálně závažnými institucionálními dopady, dosud bez formálního rozhodnutí, proto bez eskalace na 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-19T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-019",
+    "date": "2025-11-27",
+    "headline": "Jihočeský hejtman Martin Kuba opouští ODS a hodlá založit nové politické hnutí",
+    "summary": "Martin Kuba, hejtman Jihočeského kraje, oznámil odchod z ODS z důvodu neshod s vedením strany ohledně pojetí politiky. Nevylučuje celostátní působení nového hnutí.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Martin Kuba opouští ODS a chce založit nové hnutí. Vedení má jinou představu o politice, říká jihočeský hejtman",
+        "url": "https://archiv.hn.cz/c1-67818610-martin-kuba-opousti-ods-a-chce-zalozit-nove-hnuti-vedeni-ma-jinou-predstavu-o-politice-rika-jihocesky-hejtman",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — odchod regionálního politika a vznik nového politického subjektu je relevantní pro pilíř E2 (politický pluralismus, nové subjekty v politické soutěži), ale sám o sobě nepředstavuje narušení demokratické normy. Směr je 0, protože vznik nové strany může pluralismus posilovat i oslabovat v závislosti na dalším vývoji — jde o ambivalentní změnu ve stranickém systému. Anti-bias check: stejně bych hodnotil odchod politika jakékoli strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-11-24T00:00:00.000Z",
+    "expires_at": "2026-02-19T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W48-020",
+    "date": "2025-11-27",
+    "headline": "Předseda sněmovny Okamura zablokoval výjezd poslanců na zasedání parlamentních delegací NATO a EU, po tlaku rozhodnutí odvolal",
+    "summary": "Předseda Poslanecké sněmovny Tomio Okamura rozhodl ve středu večer, že poslanci nevycestují na zasedání parlamentních delegací NATO a výborů EU, čímž narušil standardní fungování meziparlamentní spolupráce. Po tlaku poslanců bylo rozhodnutí odvoláno.",
     "pillar": "governance",
     "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
       {
-        "title": "Ministerstvo ŽP zastavilo výběrové řízení na šéfa ČIŽP po podezření z politické intervence",
-        "url": "https://denikn.cz/2047706/opet-se-hleda-sef-inspekce-zivotniho-prostredi-posledni-vyberove-rizeni-vyvolalo-pochybnosti/",
-        "outlet": "Deník N",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
+        "title": "Veletoč kolem výjezdu českých poslanců na setkání NATO. Zaznívají tam utajované informace, nejet by bylo absurdní, říká Žáček",
+        "url": "https://archiv.hn.cz/c1-67818600-okamura-se-nechova-jako-predseda-snemovny-dela-jen-politiku-spd-jesteze-na-nej-poslanci-zatlacili-rika-zacek-z-ods",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni státní správy (subkomponenta G1) bez kaskádového efektu. Pozitivní je, že MŽP řízení zrušilo po upozornění médií, což odpovídá de-eskalačnímu pravidlu (-1 úroveň při rychlé korekci institucionálním mechanismem); bez korekce by šlo spíše o severity 3. Sekundárně se událost dotýká pilíře corruption (K1 — možné zneužití postavení pro stranický prospěch), ale kořenová příčina je v oblasti řádnosti vládnutí a obsazování pozic ve státní správě.",
+    "rationale": "Severity 2 per rubric §2 — rozhodnutí předsedy sněmovny blokovat zahraniční delegace je konkrétní porušení standardního parlamentního provozu (subkomponenta G1 — dělba moci, omezení parlamentní funkce). De-eskalace o 1 stupeň per pravidlo rychlé korekce (rubric §de-eskalace — rozhodnutí bylo odvoláno po tlaku poslanců v rámci jednoho dne), takže výsledná severity je 2. Bez rychlé korekce by incident dosahoval severity 3 pro precedentní charakter politizace předsednické funkce.",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2025-11-24T00:00:00.000Z",
-    "expires_at": "2026-02-17T00:00:00.000Z"
+    "expires_at": "2026-02-19T00:00:00.000Z"
   }
 ]

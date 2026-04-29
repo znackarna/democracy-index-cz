@@ -1,0 +1,334 @@
+[
+  {
+    "id": "2025-W49-001",
+    "date": "2025-11-25",
+    "headline": "Vláda přesunula část rozpočtu vědy a výzkumu do školství, vědci varují před dopady",
+    "summary": "Vláda Petra Fialy řešila nedostatek prostředků ve školství přesunem financí mezi rozpočtovými kapitolami. Organizace v oblasti vědy a výzkumu přiznávají, že jim peníze budou chybět, což může ohrozit financování vědeckých projektů.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Peníze nám budou chybět, ohradili se vědci. Vláda část jejich rozpočtu poslala školství",
+        "url": "https://denikn.cz/1909162/penize-nam-budou-chybet-ohradili-se-vedci-vlada-cast-jejich-rozpoctu-poslala-skolstvi/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:49.527Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní rozpočtový přesun mezi kapitolami (subkomponenta G2, kvalita legislativy a transparentnost vládnutí), který má omezený, ale reálný dopad na veřejné instituce (výzkumné organizace). Nejde o systémovou změnu ani o ignorování ústavní normy, ale o kontroverzní administrativní rozhodnutí s dopadem na vědeckou sféru. Datum je orientační – přesun byl popsán v předchozím týdnu, tedy přibližně 25. 11. 2025.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-002",
+    "date": "2025-12-02",
+    "headline": "Babiš jmenoval Zuzanu Schwarz Bařtipánovou ministryní pro místní rozvoj",
+    "summary": "Ve formující se vládě Andreje Babiše budou jen dvě ženy, obě z ANO. Novou ministryní pro místní rozvoj se má stát dosud málo známá bývalá starostka Bíliny Zuzana Schwarz Bařtipánová, přestože ANO původně plánovalo toto ministerstvo zrušit.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Politička z regionů, která „se snaží věci řešit“. Čím nová ministryně Bařtipánová oslovila Babiše a proč popudila Romy",
+        "url": "https://denikn.cz/1905046/politicka-z-regionu-ktera-se-snazi-veci-resit-cim-nova-ministryne-bartipanova-oslovila-babise-a-proc-popudila-romy/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:49.527Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — personální obsazení ministerstva je standardní součástí formování vlády (subkomponenta G1, dělba moci a sestavení exekutivy). Žádné porušení ústavní normy ani precedent; jde o rutinní jmenovací akt. Skutečnost, že ANO plánovalo ministerstvo zrušit a nyní je obsazuje, je politicky zajímavá, ale bez institucionálního dopadu v tuto chvíli. Direction 0 – ambivalentní, bez jasného pozitivního či negativního dopadu na demokratické instituce.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-003",
+    "date": "2025-12-02",
+    "headline": "ČT označila výroky moderátora Moravce za nepravdivé, ale neviní ho z porušení kodexu",
+    "summary": "Česká televize veřejně reagovala na rozhovor svého moderátora Václava Moravce s Deníkem N a část jeho tvrzení označila za zavádějící nebo nepravdivá. Přesto konstatovala, že Moravec kodex ČT neporušil, a odkázala na jeho veřejně známou roli. Sám Moravec i jeho nadřízená závěry ČT odmítli.",
+    "pillar": "media",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Moravec musí kritiku ustát, jeho výroky jsou nepravdivé a zavádějící, reaguje ČT na rozhovor Deníku N",
+        "url": "https://denikn.cz/1909075/moravec-musi-kritiku-ustat-jeho-vyroky-jsou-nepravdive-a-zavadejici-reaguje-ct-na-rozhovor-deniku-n/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:49.527Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o interní spor v rámci veřejnoprávního média o to, zda moderátor porušil novinářský kodex (subkomponenta M2, nezávislost ČT). ČT věc uzavřela konstatováním, že kodex porušen nebyl, bez dalšího institucionálního dopadu. Jedná se o drobný incident bez precedentní hodnoty pro nezávislost nebo redakční politiku ČT. Direction 0 – výsledek interní polemiky není jednoznačně pozitivní ani negativní z hlediska institucionální integrity.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-004",
+    "date": "2025-12-02",
+    "headline": "Policie u Okamurova domu nechala odstranit ukrajinskou vlajku souseda, pak to popřela",
+    "summary": "Soused předsedy Sněmovny Tomia Okamury opět vyvěsil před jeho dům ukrajinskou vlajku jako projev protestu. Na místo přijelo několik policejních vozů a policie měla podle svědků přivolat firmu, která vlajku i stožár zlikvidovala, přičemž policie toto popírá.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nové policejní manévry u Okamurova domu kvůli ukrajinské vlajce. Během úterý zmizela, policie odmítá, že ji odstranila",
+        "url": "https://denikn.cz/1909032/nove-policejni-manevry-u-okamurova-domu-policie-povolala-firmu-aby-odstranila-ukrajinskou-vlajku/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:49.527Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — pokud jsou svědectví přesná, policie zasáhla proti mírovému symbolickému projevu souseda (svoboda projevu, subkomponenta C1) tím, že nechala odstranit vlajku bez zjevného právního základu. Incident vytváří precedent pro použití státní moci k potlačení legálního občanského projevu v blízkosti politicky exponované osoby. Skutečnost, že policie své jednání popírá, naznačuje vědomí problematičnosti zásahu. Single source pravidlo snižuje jistotu – pouze jeden zdroj popisuje klíčové fakty, proto zvažuji severity null, ale dostupné svědectví je konkrétní a důvěryhodné; ponechávám severity 3. Anti-bias check: stejný zásah by byl hodnocen stejně bez ohledu na politickou orientaci osoby, u jejíhož domu k němu došlo.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-005",
+    "date": "2025-12-01",
+    "headline": "Prezident Pavel odmítá jmenovat Filipa Turka ministrem a požaduje vysvětlení",
+    "summary": "Prezident Petr Pavel trvá na výhradách ke kandidátovi Filipu Turkovi a požaduje po něm písemné vysvětlení výroků a chování, které jsou v rozporu s ústavními hodnotami. Jde o opakované odmítnutí jmenování navrhovaného ministra, které zakládá ústavní napětí mezi prezidentem a koaliční vládou.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Pointa N: Turkova mission impossible. Jak má prezidentovi vysvětlit, že není rasista, násilník a homofob?",
+        "url": "https://denikn.cz/1908074/pointa-n-turkova-mission-impossible-jak-ma-prezidentovi-vysvetlit-ze-neni-rasista-nasilnik-a-homofob/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:49.527Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — prezidentovo soustavné odmítání jmenovat ministerského kandidáta bez formálně vyloženého ústavního důvodu (ani nepodložená, ani věcná odmítnutí) zakládá napětí v subkomponentě G1 (dělba moci, role prezidenta). Pokud by šlo o první izolovaný případ, bylo by to severity 2; zde jde o opakovanou situaci v procesu sestavování vlády (viz i kandidatura Turka opakovaně mediálně sledovaná), což odpovídá §3 – precedentní charakter. Sekundárně se dotýká pilíře electoral (legitimita koaliční nominace). Persistence: spor přetrvává, dosud neuzavřen.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-006",
+    "date": "2025-12-01",
+    "headline": "Český báňský úřad znovu otevírá rozhodnutí o miliardové rekultivační rezervě pro Tykačovu firmu",
+    "summary": "Český báňský úřad zahájil přezkumné řízení ve věci pravomocného rozhodnutí, jímž byla Tykačově Severní energetické uvolněna přes miliarda korun z rekultivační rezervy lomu ČSA. Podnět k přezkumu dala investigativní zjištění Deníku N, která zpochybnila zákonnost původního rozhodnutí.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Tykačova miliarda se znovu řeší. Úřad kvůli zjištěním Deníku N otevřel pravomocné rozhodnutí",
+        "url": "https://denikn.cz/1907975/tykacova-miliarda-se-znovu-resi-urad-kvuli-zjistenim-deniku-n-zrusil-pravomocne-rozhodnuti/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:49.527Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — otevření přezkumného řízení státním úřadem na základě investigativních zjištění je pozitivní institucionální reakce (direction +1), ale jde o procedurální krok, nikoli výsledek; dopad je zatím omezený a výsledek nejistý. Subkomponenta K2 (transparentnost veřejných zakázek a hospodaření se státními prostředky) a K4 (funkčnost protikorupčních institucí). Pokud by přezkum vedl ke zjištění protiprávnosti a vrácení prostředků, eskalace na 3+. Single source (Deník N), proto severity nepřesahuje 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-007",
+    "date": "2025-12-01",
+    "headline": "Krajské ANO navrhuje vyloučit deset brněnských zastupitelů za odmítnutí opustit koalici s ODS",
+    "summary": "Krajské předsednictvo ANO na jižní Moravě navrhuje zrušit členství deseti ze třinácti brněnských zastupitelů hnutí, kteří navzdory opakovaným výzvám vedení odmítají opustit městskou koalici vedenou ODS. Konflikt probíhá již několik měsíců a eskaloval do formálního kárného návrhu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Brněnské ANO se znovu štěpí. Schillerová chce vyloučit většinu jeho městských zastupitelů",
+        "url": "https://denikn.cz/1908157/brnenske-ano-se-znovu-stepi-schillerova-chce-vyloucit-vetsinu-jeho-mestskych-zastupitelu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:49.527Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o vnitrostranický personální zásah s dopadem na fungování zastupitelského orgánu (subkomponenta G1 — dělba moci a stranická disciplína vs. mandát zastupitele). Událost má lokální, nikoli celostátní institucionální dopad. Nejedná se o zásah do ústavního rámce, ale o napětí mezi stranickou loajalitou a výkonem mandátu na úrovni obce. Anti-bias check: stejný přístup by byl aplikován na jakoukoliv stranu vynucující stranickou disciplínu vůči zastupitelům.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-008",
+    "date": "2025-12-02",
+    "headline": "Bradáčová podala dovolání ve věci bývalého náměstka rozvědky obviněného z defraudace 190 milionů",
+    "summary": "Nejvyšší státní zástupkyně Lenka Bradáčová zasáhla do pravomocně uzavřené kauzy bývalého náměstka Úřadu pro zahraniční styky a informace, kterého soudy obou stupňů zprostily obvinění z defraudace 190 milionů korun. Bradáčová využila mimořádný opravný prostředek a případ míří k Nejvyššímu soudu. Případ podle zprávy již vedl ke změnám ve vedení rozvědky.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Bradáčová zasáhla do kauzy špičkového špiona, který měl zneužít 190 milionů korun. Soudy ho očistily",
+        "url": "https://www.irozhlas.cz/zpravy-domov/bradacova-zasahla-do-kauzy-spickoveho-spiona-ktery-mel-zneuzit-190-milionu-korun_2512021627_hrk",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:29.660Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — NSZ využívá zákonný mimořádný opravný prostředek (dovolání) v závažné kauze s dopadem na fungování zpravodajských služeb. Jde o aktivní výkon pravomocí NSZ v oblasti J3 (nezávislost státního zastupitelství), nikoli o politický zásah. Směr +1, protože Bradáčová svým krokem posiluje funkci přezkumu v kauze možného zneužití veřejných prostředků. Single source, ale krok potvrdil mluvčí úřadu NSZ — severity zůstává 3 bez downgradu. Sekundárně se dotýká pilíře corruption (K1 — defraudace v zpravodajské struktuře), ale primárně jde o procesní krok justice.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-009",
+    "date": "2025-12-02",
+    "headline": "Kandidát na ministra Turek avizoval vysvětlení svých kauz prezidentovi před jmenováním",
+    "summary": "Filip Turek, navržený kandidát na ministra životního prostředí za Motoristé sobě, uvedl, že prezidentovi Petru Pavlovi hodlá vysvětlit kauzy spojené s jeho osobou a případně doložit dokumenty. Turek kauzy označil převážně za mediální. Jmenování kandidátů z nové koalice podléhá prezidentskému souhlasu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Těch kauz je dost. Ale vím, že mám čisté svědomí, takže to panu prezidentovi rád vysvětlím, říká Turek",
+        "url": "https://domaci.hn.cz/c1-67820390-tech-kauz-je-dost-ale-vim-ze-mam-ciste-svedomi-takze-to-panu-prezidentovi-rad-vysvetlim-rika-turek",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o veřejné vyjádření kandidáta na ministry před jmenováním, nikoli o institucionální rozhodnutí. Subkomponenta G1 (dělba moci, role prezidenta při jmenování vlády) je dotčena jen okrajově — jde o standardní součást procesu vetting. Směr 0 — kandidátovo prohlášení samo o sobě není ani posilující, ani oslabující pro demokratické instituce; žádné konkrétní rozhodnutí prezidenta ani vlády zatím nenastalo. Anti-bias check: stejný přístup bych aplikoval na kandidáta z jakéhokoli politického tábora.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-010",
+    "date": "2025-12-01",
+    "headline": "Okamura jako šéf sněmovny zablokoval cestu poslanecké delegace na parlamentní shromáždění NATO",
+    "summary": "Nový předseda sněmovny Tomio Okamura (SPD) zablokoval vyslání delegace na parlamentní shromáždění NATO; hlasování sněmovny zamítlo dvoučlennou delegaci. Poslanec Žáček byl opakovaně odmítnut jako člen delegace. Incident nastoluje otázky o způsobu, jakým vedení sněmovny využívá svého vlivu k omezování standardní parlamentní práce.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Anabáze kolem sněmovní cesty na sešlost zemí NATO nekončí. Žáček opět dostal stopku",
+        "url": "https://archiv.hn.cz/c1-67819730-anabaze-kolem-snemovni-cesty-na-seslost-zemi-nato-nekonci-zacek-opet-dostal-stopku",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní porušení parlamentní normy s omezeným dopadem; vedení sněmovny využilo procedurálních prostředků k zablokování standardní zahraniční aktivity parlamentu (subkomponenta G1: dělba moci a kontrola výkonu parlamentní funkce). Incident zatím nevytváří systémový precedent, nicméně opakované blokování (Žáček 'opět dostal stopku') naznačuje záměrný postup. Pokud bude trend pokračovat, eskalace na severity 3 dle pravidla '+1 úroveň při prokazatelném vzorci'.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-011",
+    "date": "2025-12-01",
+    "headline": "Česko směřuje k rozpočtovému provizoriu pod novou vládou ANO",
+    "summary": "Vláda Petra Fialy v demisi nepřepracuje státní rozpočet podle požadavků nastupujícího kabinetu Andreje Babiše. Nová vláda tak s vysokou pravděpodobností převezme odpovědnost za sestavení rozpočtu, což znamená, že Česko se nevyhne rozpočtovému provizoriu. Situace odráží nedostatečnou koordinaci při předávání moci.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Tvrdili, že mají hotový rozpočet, a nemají nic. Provizorium je za nastupující vlády ANO takřka jisté",
+        "url": "https://archiv.hn.cz/c1-67819400-tvrdili-ze-maji-hotovy-rozpocet-a-nemaji-nic-provizorium-je-za-nastupujici-vlady-ano-takrka-jiste",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — rozpočtové provizorium je kontroverzní situace s omezeným, ale reálným dopadem na funkci státu; netýká se ústavní krize, ale narušuje standardní legislativní proces (subkomponenta G2 — kvalita legislativy a plynulost přechodu moci). Není součástí prokazatelného vzorce eskalace; absence schváleného rozpočtu v řádném termínu je závažnější než procedurální pochybení, ale samo o sobě nedosahuje úrovně §3, protože provizorium je ústavně předvídaný stav.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-012",
+    "date": "2025-12-01",
+    "headline": "Správní rada SŽ odvolala ředitele Svobodu kvůli podezřelé hotovosti",
+    "summary": "Správní rada Správy železnic odvolala generálního ředitele Jiřího Svobodu poté, co vyšly najevo okolnosti spojené s přítomností 80 milionů korun v hotovosti. Vedením byl pověřen dosavadní náměstek. Případ nastoluje otázku nároku na odstupné.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Svoboda kvůli 80 milionům v hotovosti skončil v čele SŽ. Bude mít nárok na zlatý padák?",
+        "url": "https://archiv.hn.cz/c1-67819390-podivne-mnozstvi-penez-stacilo-svoboda-skoncil-sz-zatim-povede-nejezchleb",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odvolání ředitele velké státní instituce na základě podezření z finančních nesrovnalostí vytváří precedent a má dopad na chod klíčové infrastrukturní organizace (subkomponenta K1 — politická/manažerská korupce ve veřejném sektoru). Jeden zdroj, proto neklasifikuji výše; faktická hodnota incidentu závisí na dalším vyšetřování. Anti-bias check: totéž hodnocení bych přiřadil i kdyby k odvolání došlo za jiné vlády.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-013",
+    "date": "2025-12-01",
+    "headline": "NKÚ zjistil systémové nedostatky při výběru DPH a cel z e-shopů ze třetích zemí",
+    "summary": "Nejvyšší kontrolní úřad ve své zprávě konstatoval, že skoro dvě třetiny kontrolovaných malých zásilek z Číny a dalších třetích zemí byly záměrně podhodnoceny, aby unikly clům a DPH. Systém výběru daní v tomto segmentu vykazuje strukturální slabiny.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Systém výběru DPH a cel je u e-nákupů na čínských e-shopech děravý, konstatovali kontroloři NKÚ",
+        "url": "https://archiv.hn.cz/c1-67819380-system-vyberu-dph-a-cel-je-u-e-nakupu-na-cinskych-e-shopech-deravy-konstatovali-kontrolori-nku",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:10.346Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — zpráva NKÚ (subkomponenta K4 — funkce protikorupčních a kontrolních institucí) identifikuje strukturální problém, ale samotné zveřejnění auditu je standardní institucionální výstup bez bezprostředního politického nebo ústavního dopadu. Zjištění o systémovém obcházení daní je závažné, avšak jde o technický audit bez přímého politického aktéra. Direction -1, protože poukazuje na přetrvávající selhání systému.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W49-014",
+    "date": "2025-12-06",
+    "headline": "NKÚ: Státní rozpočet 2025 neodpovídá realitě, výdaje na OZE podhodnoceny",
+    "summary": "Nejvyšší kontrolní úřad konstatoval, že schválený státní rozpočet na rok 2025 v klíčových oblastech neodpovídá realitě — výdaje na dotace obnovitelných zdrojů jsou podhodnocené, příjmy z emisních povolenek nadhodnocené. NKÚ tak upozornil na systémové nepřesnosti v rozpočtovém plánování vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Letošní rozpočet neodpovídá realitě, výdaje na obnovitelné zdroje jsou podhodnocené, konstatuje Nejvyšší kontrolní úřad",
+        "url": "https://byznys.hn.cz/c1-67822100-letosni-rozpocet-neodpovida-realite-vydaje-na-obnovitelne-zdroje-jsou-podhodnocene-konstatuje-nejvyssi-kontrolni-urad",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:13.230Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní kontrolní nález NKÚ s omezeným, ale zaznamenaníhodným dopadem na transparentnost vládnutí (subkomponenta G4). NKÚ je klíčová kontrolní instituce; jeho nález o systematickém podhodnocení výdajů a nadhodnocení příjmů je relevantní pro kvalitu legislativy a rozpočtového procesu (G2). Nejde o eskalaci na 3, protože nález sám o sobě nezpochybňuje fungování instituce ani nevytváří precedent pro omezení NKÚ. Anti-bias: stejně bych hodnotil u jakékoli vlády.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-01T00:00:00.000Z",
+    "expires_at": "2026-02-28T00:00:00.000Z"
+  }
+]

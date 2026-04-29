@@ -1,0 +1,120 @@
+[
+  {
+    "id": "2025-W28-001",
+    "date": "2025-07-09",
+    "headline": "Pražský Operátor ICT v rozvalu kvůli sporům v koalici o odměny a hospodaření",
+    "summary": "Pražská městská akciová společnost Operátor ICT, stojící za projekty jako Lítačka nebo Portál Pražana, se ocitla v závažné krizi způsobené koaličními spory. Konflikt se týká odměn vedení a hospodaření firmy. Situace poukazuje na problémy v dohledu nad městskými podniky.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Firma, která stojí za Lítačkou nebo Portálem Pražana, je kvůli sporům v koalici v rozvalu. Vadí odměny i hospodaření",
+        "url": "https://archiv.hn.cz/c1-67760180-firma-ktera-stoji-za-litackou-nebo-portalem-prazana-je-kvuli-sporum-v-koalici-v-rozvalu-vadi-odmeny-i-hospodareni",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:42.857Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný spor o hospodaření městské firmy je konkrétní incident s omezeným dopadem na fungování samosprávy (subkomponenta G4, transparentnost a výkaznost). Nedosahuje na §3, protože jde o lokální municipální úroveň bez systémového precedentu pro celostátní demokratické instituce. Sekundárně se dotýká K2 (transparentnost zakázek a odměňování).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-07T00:00:00.000Z",
+    "expires_at": "2025-10-01T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W28-002",
+    "date": "2025-07-09",
+    "headline": "Ministerstvo spravedlnosti zadalo audit bitcoinové kauzy firmě Grant Thornton",
+    "summary": "Ministryně spravedlnosti Eva Decroix oznámila, že audit procesů ministerstva v bitcoinové kauze provede firma Grant Thornton. Audit má být dokončen do konce srpna a jde o reakci na dosavadní pochybnosti ohledně postupů ministerstva v dané kauze.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Externí audit v bitcoinové kauze provede firma Grant Thornton, má být hotový do konce srpna",
+        "url": "https://domaci.hn.cz/c1-67760250-externi-audit-v-bitcoinove-kauze-provede-firma-grant-thornton-ma-byt-hotovy-do-konce-srpna",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:42.857Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — zahájení externího auditu je konkrétní institucionální opatření s omezeným, ale pozitivním dopadem na transparentnost a odpovědnost ministerstva (subkomponenta K4, protikorupční instituce). Směr +1, neboť jde o krok posilující kontrolní mechanismy. Nedosahuje na §3, protože audit sám o sobě ještě neprokázal ani nevyřešil systémové pochybení — jde o proces, jehož výsledek teprve ukáže závažnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-07T00:00:00.000Z",
+    "expires_at": "2025-10-01T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W28-003",
+    "date": "2025-07-09",
+    "headline": "Vláda zakázala státní správě používat produkty DeepSeek na doporučení NÚKIB",
+    "summary": "Vláda ČR přijala rozhodnutí zakazující používání produktů čínské společnosti DeepSeek ve státní správě. Rozhodnutí vychází z doporučení NÚKIB, který identifikoval bezpečnostní rizika spojená s ochranou dat uživatelů.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Stopka pro DeepSeek. Vláda zakázala používat ve státní správě aplikace čínské firmy, bojí se zneužití dat",
+        "url": "https://archiv.hn.cz/c1-67760230-stopka-pro-deepseek-vlada-zakazala-pouzivat-ve-statni-sprave-aplikace-cinske-firmy-boji-se-zneuziti-dat",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:42.857Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní vládní rozhodnutí s omezeným, ale reálným institucionálním dopadem (subkomponenta G4, transparentnost a bezpečnost vládnutí; sekundárně K4, protikorupční a bezpečnostní instituce). NÚKIB plní svou roli a vláda na doporučení reaguje, což je pozitivní signál pro funkčnost bezpečnostních institucí. Direction +1, protože rozhodnutí posiluje odolnost státní správy vůči potenciálnímu zneužití dat. Persistent, protože zákaz vstupuje v trvalou platnost. Anti-bias check: stejný verdikt by platil pro zákaz produktů jakékoli jiné zahraniční firmy s prokázaným bezpečnostním rizikem.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-07T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W28-004",
+    "date": "2025-07-09",
+    "headline": "Ústavní soud odmítl návrh ANO na zrušení druhé etapy důchodové reformy",
+    "summary": "Ústavní soud zamítl návrh hnutí ANO směřující ke zrušení druhé etapy penzijní reformy schválené koaliční většinou v parlamentu. Jde o opakovaný neúspěch ANO u ÚS v podobných věcech.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Důchodová reforma platí, Ústavní soud odmítl návrh hnutí ANO na její zrušení",
+        "url": "https://domaci.hn.cz/c1-67760050-duchodova-reforma-plati-ustavni-soud-odmitl-navrh-hnuti-ano-na-jeji-zruseni",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:42.857Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — ÚS plní svou roli přezkumu ústavnosti legislativy a rozhodnutí potvrzuje platnost reformy, což je standardní výkon institucionální funkce (subkomponenta J1). Direction +1, protože soud funguje nezávisle a jeho rozhodnutí potvrzuje institucionální rovnováhu. Nejde o severity 3, protože se jedná o rutinní výkon soudní kontroly bez nového precedentu či ohrožení instituce. Sekundárně relevantní pro pilíř governance (G3, stabilita ústavních norem), zmíněno v rationale.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-07T00:00:00.000Z",
+    "expires_at": "2025-10-01T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W28-005",
+    "date": "2025-07-01",
+    "headline": "Senát schválil rozvodovou novelu měnící rodinné právo a soudní postupy",
+    "summary": "Senát schválil novelu zákona upravující pravidla rozvodu — soudci nebudou zjišťovat příčiny rozpadu manželství, zavádí se povinnost beztělesné výchovy a mění se úprava střídavé péče. Novela nabývá účinnosti od ledna 2026. Jde o standardní legislativní změnu v oblasti soukromého práva bez přímého dopadu na nezávislost soudnictví nebo dělbu moci.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Mění se pravidla rozvodů. Mají být rychlejší, &bdquo;střídavka&ldquo; oficiálně končí. Kritici se obávají byznysu s vymáháním výživného",
+        "url": "https://archiv.hn.cz/c1-67759060-meni-se-pravidla-rozvodu-maji-byt-rychlejsi-bdquo-stridavka-ldquo-oficialne-konci-kritici-se-obavaji-byznysu-s-vymahanim-vyzivneho",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:42.857Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní legislativní změnu procesních pravidel v rodinném právu (subkomponenta J2 obecné soudy, procedury), nikoli o zásah do nezávislosti soudnictví ani politické ovlivňování. Novela prošla standardním legislativním procesem. Direction 0, protože změna je ambivalentní: zrychlení rozvodů může být vnímáno jako procesní zlepšení, ale kritici upozorňují na rizika. Sekundárně mírný dopad na pilíř governance (G2 — kvalita legislativy) — bez negativních signálů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-07-07T00:00:00.000Z"
+  }
+]

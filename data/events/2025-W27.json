@@ -1,25 +1,264 @@
 [
   {
     "id": "2025-W27-001",
-    "date": "2025-07-01",
-    "headline": "Novela zákona o soudech a soudcích nabývá účinnosti – nová pravidla pro soudce",
-    "summary": "Novela zákona o soudech a soudcích vstoupila v platnost. Zavádí explicitní zákaz členství soudců v politických stranách, rozšiřuje povinnost soudců hlásit vedlejší aktivity a omezuje roli přísedících v trestním řízení. Změny jsou hodnoceny jako posilující nezávislost justice.",
+    "date": "2025-06-30",
+    "headline": "Senátoři se pozastavují nad rolí NSZ v bitcoinové kauze: jednalo prý neobvykle vstřícně vůči odsouzenému",
+    "summary": "Někteří senátoři vyjádřili pochybnosti nad postupem Nejvyššího státního zastupitelství v bitcoinové kauze Tomáše Jiřikovského. NSZ se tehdy postavilo na stranu části námitek obhajoby, což přispělo ke zrušení předchozích rozsudků Nejvyšším soudem v roce 2023. Senátoři tento postup považují za neobvyklý a vyvolávají otázky o nestrannosti státního zastupitelství.",
     "pillar": "judicial",
     "severity": 2,
-    "direction": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Jako z advokátova pera.“ Senátory zarazila role NSZ v bitcoinové kauze, pomohlo odsouzenému",
+        "url": "https://denikn.cz/1772984/jako-z-advokatova-pera-senatory-zarazila-role-nsz-v-bitcoinove-kauze-pomohlo-odsouzenemu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:34.940Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — veřejné zpochybnění nestrannosti NSZ ze strany zákonodárců v konkrétní kauze se dotýká subkomponenty J3 (nezávislost státního zastupitelství). Nejde jen o verbální kritiku, ale o parlamentní zájem o procedurální postup NSZ, který může vytvářet precedent pro politizaci vnímání státního zastupitelství. Sekundárně se dotýká pilíře corruption, protože kauza má korupční rozměr. Single source, proto spíše dolní konec škály 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z",
+    "expires_at": "2025-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-002",
+    "date": "2025-06-30",
+    "headline": "Sněmovna schválila zákon o jednotném hlášení zaměstnavatelů; ODS neprošly všechny priority",
+    "summary": "Vládní koalice v posledním předprázdninovém zasedání schválila návrh zákona o jednotném měsíčním hlášení zaměstnavatelů, který má zjednodušit administrativní povinnosti. Zákon byl přijat na hranici časového limitu před parlamentními prázdninami, přičemž část priorit ODS koalicí neprošla.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Úlevu pro podnikatele protlačila vláda na poslední chvíli. Stanjura ale prohrál",
+        "url": "https://denikn.cz/1770608/ulevu-pro-podnikatele-protlacila-vlada-na-posledni-chvili-stanjura-ale-prohral/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T13:22:34.940Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — schválení zákona v rámci standardního legislativního procesu, byť s časovým tlakem, je běžnou součástí parlamentní práce. Subkomponenta G2 (kvalita legislativy) je dotčena okrajově — článek nezmiňuje zkrácená čtení ani vynechání připomínkového řízení v nestandardním rozsahu. Jde spíše o politické vyjednávání uvnitř koalice, nikoli o institucionální narušení. Direction 0, protože se nejedná o demokratický backsliding ani posílení — jde o standardní koaliční politiku.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z",
+    "expires_at": "2025-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-003",
+    "date": "2025-06-30",
+    "headline": "Správní rada ZP MV zrušila mimořádné odměny ředitele Kostky, k odvolání nedošlo",
+    "summary": "Správní rada Zdravotní pojišťovny ministerstva vnitra zrušila smluvní dodatek upravující mimořádné odměny generálního ředitele Davida Kostky po výtkách za špatnou komunikaci. O samotném odvolání ředitele rada nakonec nehlasovala.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kostka zůstává ředitelem Zdravotní pojišťovny ministerstva vnitra. Správní rada mu snížila odměny",
+        "url": "https://www.irozhlas.cz/zpravy-domov/kostka-zustava-reditelem-zdravotni-pojistovny-ministerstva-vnitra-spravni-rada_2506301900_gav",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T13:23:49.161Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o personální a odměňovací záležitost u státní pojišťovny, která spadá pod subkomponentu G4 (transparentnost vládnutí) jen okrajově. Rada fungovala dle svých pravomocí, nedošlo k žádnému institucionálnímu narušení. Událost je zaznamenání hodná, ale nesvědčí o backsliding ani posílení demokratických norem. Direction 0, protože výsledek je ambivalentní — rušení odměn je krok k transparentnosti, ale odvolání neproběhlo.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z",
+    "expires_at": "2025-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-004",
+    "date": "2025-06-30",
+    "headline": "Znalec spojený s bitcoinovou kauzou poprvé promluvil: nevěděl o původu bitcoinů",
+    "summary": "Znalec Jiří Berger, jehož jméno se váže k bitcoinové kauze spojené s rezignací ministra spravedlnosti Pavla Blažka, poprvé veřejně promluvil o své roli. Uvedl, že byl osloven ministerstvem spravedlnosti ohledně starého výpočetního vybavení a nevěděl, odkud bitcoiny pocházejí. Kauza dříve vyvolala snahu opozice o vyslovení nedůvěry vládě.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
     "duration": "persistent",
     "sources": [
       {
-        "title": "Účinnost novely zákona o soudech a soudcích",
-        "url": "https://msp.gov.cz/en/web/msp/-/snemovnou-prosla-novela-zakona-o-soudech-a-soudcich",
-        "outlet": "Ministerstvo spravedlnosti",
-        "fetched_at": "2026-04-29T07:18:07.804Z"
+        "title": "Nevěděl jsem, odkud bitcoiny pocházejí. Červené světýlko se nerozsvítilo, říká znalec spojený s kauzou",
+        "url": "https://www.irozhlas.cz/zpravy-domov/nevedel-jsem-odkud-bitcoiny-pochazeji-cervene-svetylko-se-nerozsvitilo-rika_2506301830_jkd",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T13:23:49.161Z"
       }
     ],
-    "score_impact": 0.5,
-    "rationale": "Severity 3 per rubric §3 — novela nabývá účinnosti (formální dokument, eskalační pravidlo z rubric: +1 za schválenou a účinnou podobu oproti pouhému návrhu), čímž strukturálně posiluje subkomponentu J2 (nezávislost obecných soudů) a J1 (nezávislost ÚS/NS/NSS). Zákaz politického členství soudců je systémová změna s přímým dopadem na institucionální oddělení justice od stranické politiky, srovnatelná s výchozím nastavením pro ÚS. Direction +1, protože změna jednoznačně posiluje záruky soudcovské nezávislosti. Duration persistent, protože jde o zákon, který je nyní v účinnosti.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — bitcoinová kauza, která vedla k rezignaci ministra spravedlnosti, má jasný dopad na subkomponentu K1 (politická korupce, střet zájmů ústavních činitelů). Výpověď znalce je nová informace, která udržuje kauzu živou a potvrzuje zapojení ministerstva spravedlnosti. Sekundárně se kauza dotýká pilíře judicial (J3 — státní zastupitelství). Duration persistent, protože kauza strukturálně přetrvává a není uzavřena. Nutno sledovat další vývoj; single source, proto na dolní hranici severity 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2025-06-30T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-005",
+    "date": "2025-06-30",
+    "headline": "Poslanci odložili termín dorovnávací daně pro velké nadnárodní koncerny",
+    "summary": "Poslanecká sněmovna schválila posun termínu pro povinný report a přiznání k dorovnávací dani, která má zajistit minimální zdanění velkých nadnárodních skupin v EU. Opatření se dotkne zhruba čtyř tisíc českých firem a způsobí zpoždění příjmů do státního rozpočtu o přibližně dvě miliardy korun.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Dvě miliardy do rozpočtu se zpožděním. Poslanci posunuli dorovnávací daň pro velké koncerny",
+        "url": "https://archiv.hn.cz/c1-67756460-dve-miliardy-do-rozpoctu-se-zpozdenim-poslanci-posunuli-dorovnavaci-dan-pro-velke-koncerny",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní legislativní úpravu termínu s omezeným institucionálním dopadem (G2, kvalita legislativy). Odklad administrativního termínu pro daňové přiznání nemá precedentní povahu ani nevytváří strukturální problém. Direction 0, protože jde o technickou korekci bez jednoznačně pozitivního či negativního dopadu na demokratické instituce.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z",
+    "expires_at": "2025-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-006",
+    "date": "2025-06-30",
+    "headline": "Nejvyšší soud nařídil znovu projednat odškodné za vyvlastnění u dálnice D3",
+    "summary": "Nejvyšší soud rozhodl o novém projednání žaloby majitele motocentra u dálnice D3, kterému stát bránil v podnikání v důsledku vyvlastnění. Státu hrozí doplacení několikamilionového odškodného za dostavbu obchvatu Tábora.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Letité tahanice o motocentrum u D3 nekončí. Soudy budou znovu řešit odškodné vyvlastněným majitelům",
+        "url": "https://archiv.hn.cz/c1-67756600-letite-tahanice-o-motocentrum-u-d3-nekonci-soudy-budou-znovu-resit-odskodne-vyvlastnenym-majitelum",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — NS nařídil nové projednání v individuální majetkové věci, jde o standardní fungování soudní soustavy (subkomponenta J4, rovnost před zákonem). Událost nenaznačuje politické ovlivňování ani strukturální problém — soud funguje jako korekční mechanismus. Direction 0, neboť jde o procesní rozhodnutí bez jednoznačného demokratického dopadu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z",
+    "expires_at": "2025-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-007",
+    "date": "2025-06-30",
+    "headline": "Jihočeský hejtman Kuba si ponechá podíl ve firmě dodávající baterie ČEZ",
+    "summary": "Jihočeský hejtman a člen ODS Martin Kuba se rozhodl neprodávat svůj téměř poloviční podíl ve společnosti OIG Power, která dodává bateriová úložiště státní energetické skupině ČEZ. Situace vyvolává otázky ohledně možného střetu zájmů hejtmana, který rozhoduje o energetické politice kraje.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Hejtman Kuba si nakonec nechá podíl ve společnosti, která dodává baterie pro ČEZ",
+        "url": "https://archiv.hn.cz/c1-67755730-hejtman-kuba-si-nakonec-necha-podil-ve-spolecnosti-ktera-dodava-baterie-pro-cez",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jedná se o konkrétní střet zájmů ústavního/veřejného činitele (subkomponenta K1, politická korupce), nicméně bez prokázaného přímého propojení s konkrétním rozhodnutím nebo veřejnou zakázkou. Hejtman si vědomě ponechává podíl ve firmě obchodující se státní společností ČEZ, přičemž kraj může mít vliv na energetickou politiku. Duration persistent, protože podíl zůstává v držení a situace trvá. Sekundárně se dotýká G4 (transparentnost vládnutí). Anti-bias check: stejné hodnocení by platilo pro hejtmana jakékoli strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-008",
+    "date": "2025-06-30",
+    "headline": "Ostravská firma Leseft International dodávala součástky do ruských raket za půl miliardy korun",
+    "summary": "Investigativní zjištění Ukrajinska pravda naznačují, že ostravská firma Leseft International zprostředkovávala dodávky součástek pro ruské rakety od počátku plošné invaze za téměř 500 milionů korun. Kauza otevírá otázku účinnosti státního dohledu nad sankcemi a exportními kontrolami.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zboží za skoro půl miliardy korun. Ostravská firma se podílí na dodávkách součástek do ruských raket, píše Ukrajinska pravda",
+        "url": "https://archiv.hn.cz/c1-67756490-zbozi-za-skoro-pul-miliardy-korun-ostravska-firma-se-podili-na-dodavkach-soucastek-do-ruskych-raket-pise-ukrajinska-pravda",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:39.683Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odhalení naznačuje systémové selhání státního dohledu nad sankcemi a exportními kontrolami (subkomponenta G4 — transparentnost a výkaznost státu vůči závazkům). Incident vytváří precedent pro otázku, zda jsou české orgány schopny vymáhat sankční režim EU. Zatím jeden primární zdroj (Ukrajinska pravda), proto dle source-count rule severity nepřekračuje 3. Sekundárně se dotýká pilíře corruption (K2 — veřejné zakázky a regulatorní arbitráž). Anti-bias check: stejně bych hodnotil firmu jakékoliv politické orientace, pokud jsou fakta srovnatelná.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z",
+    "expires_at": "2025-09-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-009",
+    "date": "2025-07-05",
+    "headline": "Největší výpadek elektřiny v Česku za 40 let zasáhl čtyři kraje a část Prahy",
+    "summary": "Rozsáhlý výpadek dodávek elektřiny způsobený poruchou v přenosové soustavě ČEPS zasáhl čtyři kraje na severu a východě Česka a pravobřežní část Prahy. Šlo o největší podobný incident za čtyři desetiletí; vládní a systémová reakce je předmětem hodnocení. Článek mapuje průběh události a opatření k jejímu řešení.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Přehledně: Jak začal největší výpadek elektřiny v Česku za 40 let, co se postupně dělo a kdy se problémy vyřešily",
+        "url": "https://archiv.hn.cz/c1-67758530-prehledne-jak-zacal-nejvetsi-vypadek-elektriny-v-cesku-za-40-let-co-se-postupne-delo-a-kdy-se-problemy-vyresily",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:42.857Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázový incident s lokálním/regionálním dopadem bez zjevného selhání demokratické instituce; jde o infrastrukturní selhání provozovatele ČEPS, nikoli o záměrné obcházení norem. Relevantní subkomponenta G4 (transparentnost a reakce státu na krizi) a obecná akceschopnost vlády. Bez průkazu systémového selhání ani politické manipulace nelze přiřadit severity 3+. Anti-bias: stejně bych hodnotil výpadek za jiné vlády.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z",
+    "expires_at": "2025-09-27T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-010",
+    "date": "2025-07-03",
+    "headline": "Senát schválil rozsáhlou novelu trestního zákoníku navzdory protestům nejvyšší státní zástupkyně",
+    "summary": "Senát pohodlnou většinou schválil novelu trestního zákoníku, která mj. zavádí dětský certifikát a snižuje některé tresty. Nejvyšší státní zástupkyně Bradáčová veřejně vystoupila proti části změn. Novela nyní míří k prezidentovu podpisu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Velká změna trestního zákoníku prošla Senátem. Co přinese a protestovala proti ní Bradáčová oprávněně?",
+        "url": "https://archiv.hn.cz/c1-67758500-velka-zmena-trestniho-zakoniku-prosla-senatem-co-prinese-a-protestovala-proti-ni-bradacova-opravnene",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:42.857Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — novela prošla standardním legislativním procesem; protest Bradáčové poukazuje na možné oslabení trestní politiky (subkomponenta J3 — pozice státního zastupitelství), ale nejde o přímý politický zásah do nezávislosti justice ani o obcházení procedur. Bez detailního obsahu nelze hodnotit výše; pokud by novela prokazatelně oslabovala nástroje NSZ, byl by možný upgrade na 3. Direction -1 kvůli obavám z trestněprávní regresu signalizovaným NSZ, avšak s nejistotou — mohlo by být i 0. Single source, proto opatrná kalibrace.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z",
+    "expires_at": "2025-09-25T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W27-011",
+    "date": "2025-07-03",
+    "headline": "Senát schválil novelu trestního zákoníku snižující počty vězňů a částečně dekriminalizující konopí",
+    "summary": "Senát ve čtvrtek schválil novelu trestního zákoníku, jejímž cílem je snížení počtu vězňů a recidivy prostřednictvím alternativních a peněžitých trestů. Součástí je také částečná dekriminalizace konopí navzdory výhradám části senátorů.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Alternativní i peněžité tresty nebo částečná dekriminalizace konopí. Novela trestního zákoníku má snížit počet vězňů",
+        "url": "https://domaci.hn.cz/c1-67758230-alternativni-i-penezite-tresty-nebo-castecna-dekriminalizace-konopi-novela-trestniho-zakoniku-ma-snizit-pocet-veznu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T13:24:42.857Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — standardní schválení legislativy Senátem, konkrétní parlamentní akt s věcným dopadem na trestní politiku (subkomponenta G2: kvalita legislativního procesu). Schválení proběhlo řádným procesem, hlasování bylo kontroverzní kvůli výhradám části senátorů, ale nevznikl žádný precedent ústavního nebo procedurálního porušení. Směr +1, protože reforma sleduje legitimní cíle snižování kriminality a recidivy doporučované odbornou komunitou.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-06-30T00:00:00.000Z",
+    "expires_at": "2025-09-25T00:00:00.000Z"
   }
 ]

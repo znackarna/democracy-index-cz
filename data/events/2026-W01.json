@@ -1,0 +1,94 @@
+[
+  {
+    "id": "2026-W01-001",
+    "date": "2025-12-29",
+    "headline": "Vládní koalice připravuje zrušení služebního zákona a usnadnění propouštění úředníků",
+    "summary": "Vládní koalice avizuje záměr nahradit zákon o státní službě novou normou, která by zjednodušila nábor i propouštění státních zaměstnanců. Změna by měla sblížit podmínky státní služby s běžným zákoníkem práce. Jde zatím o záměr v rané fázi, nikoli o schválený zákon.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Konec služebního zákona. Koalice chce usnadnit propouštění úředníků",
+        "url": "https://denikn.cz/1930264/konec-sluzebniho-zakona-koalice-chce-usnadnit-propousteni-uredniku/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T14:35:59.278Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o politicky citlivý záměr, který byl veřejně oznámen, ale zákon zatím nebyl předložen ani schválen. Oslabení stability státní služby a ochran úředníků před politicky motivovaným propouštěním se dotýká subkomponenty G1 (dělba moci a ochrana státní správy před politizací) a G3 (stabilita ústavních norem). Rubric eskalace: pokud by zákon byl předložen ve standardním legislativním procesu, event by zůstal na 2; pokud by byl schválen bez řádného připomínkového řízení (G2), eskalace na 3–4. Zatím jeden zdroj a záměr bez formálního návrhu → severity 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W01-002",
+    "date": "2025-12-30",
+    "headline": "Čtveřice koaličních poslanců navrhuje nahradit zákon o státní službě od července 2026",
+    "summary": "Čtyři poslanci vládní koalice (ANO, SPD, Motoristé) předložili návrh, který by od července 2026 zrušil zákon o státní službě a nahradil jej normou přibližující podmínky státních úředníků běžnému zákoníku práce. Návrh by usnadnil zeštíhlování státní správy a rychlejší propouštění úředníků.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Koalice chce změnit služební zákon. Poslanci navrhují normu, která usnadní propouštění státních úředníků",
+        "url": "https://www.irozhlas.cz/zpravy-domov/koalice-chce-zmenit-sluzebni-zakon-poslanci-navrhuji-normu-ktera-usnadni_2512301905_jho",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:42.019Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zrušení zákona o státní službě je formálně podaný legislativní návrh (nikoli pouhý záměr jako u indexu 2), který by strukturálně změnil ochranu státních úředníků před politicky motivovaným propouštěním. Subkomponenta G1 (dělba moci, ochrana státní správy před politizací exekutivy) a G2 (kvalita legislativního procesu — návrh je podán čtveřicí poslanců bez standardního meziresortního připomínkového řízení). Rubric: přítomnost formálního dokumentu (poslanecký návrh) oproti pouhému záměru odůvodňuje severity 3 místo 2. Bez potvrzeného vzorce obcházení legislativního procesu zatím na 3; eskalace na 4, pokud by byl zákon schválen zkráceným čtením nebo bez připomínek. Sekundárně se dotýká pilíře civil (C3 — svoboda sdružování a ochrana zaměstnanců státní správy). Dva shodné zdroje (iROZHLAS + Deník N) potvrzují fakta.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W01-003",
+    "date": "2025-12-30",
+    "headline": "Babiš potvrdil: do svěřenského fondu vloží pouze Agrofert, SynBiol si ponechá",
+    "summary": "Premiér Babiš v rozhovoru pro Deník potvrdil, že do svěřenského fondu RSVP Trust vloží pouze holding Agrofert, nikoliv svou investiční společnost SynBiol. Prezident Pavel přitom podmínil Babišovo jmenování premiérem vyřešením střetu zájmů v otázce vlastnictví Agrofertu. Toto prohlášení naznačuje, že kompletní oddělení majetkových zájmů premiéra od výkonu funkce nebude plné.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babiš do sveřenského fondu hodlá vložit výhradně Agrofert. Investiční společnost SynBiol si ponechá",
+        "url": "https://www.irozhlas.cz/zpravy-domov/babis-do-sverenskeho-fondu-hodla-vlozit-vyhrade-agrofert-investicni-spolecnost_2512301843_jar",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T14:36:42.019Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — jde o konkrétní veřejné prohlášení ústavního činitele k mechanismu řešení střetu zájmů (subkomponenta K1). Skutečnost, že premiér ponechá SynBiol mimo svěřenský fond, přičemž prezident podmínil jmenování obecně vyřešením střetu zájmů, vytváří precedent a signalizuje neúplné naplnění protikorupčního závazku. Dva nezávislé zdroje (iROZHLAS a HN) potvrzují totéž. Potenciální dopad na G1 (dělba moci — závazek vůči prezidentovi) uveden v rationale, ale kořenová příčina je v K1.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W01-004",
+    "date": "2025-12-30",
+    "headline": "Koalice ANO, SPD a Motoristé navrhuje zrušit služební zákon a oslabit ochranu státních zaměstnanců",
+    "summary": "Nová koalice tří stran předložila do Poslanecké sněmovny návrh zcela nového zákona, který by nahradil stávající služební zákon a výrazně omezil ochranu státních úředníků. Kritici upozorňují, že návrh otevírá cestu k politickým čistkám ve státní správě. Návrh byl podán krátce po Vánocích, tedy záhy po vzniku nové vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Zelená pro politické čistky na úřadech? Koalice chce zrušit služební zákon a ořezat ochranu státních zaměstnanců",
+        "url": "https://archiv.hn.cz/c1-67829340-zelena-pro-politicke-cistky-na-uradech-koalice-chce-zrusit-sluzebni-zakon-a-orezat-ochranu-statnich-zamestnancu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T14:37:20.239Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — návrh zákona, který by zásadně změnil fungování státní správy a omezil ochranu úředníků před politicky motivovaným propouštěním, má přímý dopad na subkomponentu G1 (dělba moci, nezávislost státní správy) a G4 (transparentnost vládnutí). Zrušení existujícího služebního zákona bez adekvátní náhrady ochrany je krokem, který překračuje běžnou personální politiku a narušuje institucionální záruky depolitizace státní správy — srovnatelné s příklady úrovně 4 v rubric (politicky motivované personální zásahy s kaskádovým efektem). Zatím se jedná o návrh (ne schválený zákon), takže eskalace na 5 nepřichází v úvahu, avšak závažnost 4 je opodstatněná rozsahem a systémovým dopadem. Křížový dopad na C3 (svoboda sdružování, ochrana zaměstnanců) zmíněn okrajově.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-12-29T00:00:00.000Z"
+  }
+]
