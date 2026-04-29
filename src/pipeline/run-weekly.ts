@@ -205,6 +205,8 @@ interface CliArgs {
   sources?: string;
   skipLlm?: boolean;
   skipAudit?: boolean;
+  /** Path where anomalies (if any) are written as JSON array. Used by GH Actions to open issues. */
+  emitAnomaliesJson?: string;
 }
 
 function parseArgs(argv: readonly string[]): CliArgs {
@@ -212,8 +214,10 @@ function parseArgs(argv: readonly string[]): CliArgs {
   for (const arg of argv) {
     const m = /^--([^=]+)=(.*)$/.exec(arg);
     if (m) {
-      const key = m[1] as keyof CliArgs;
+      const rawKey = m[1] ?? '';
       const value = m[2] ?? '';
+      // Convert kebab-case CLI flags to camelCase keys.
+      const key = rawKey.replace(/-([a-z])/g, (_, c: string) => c.toUpperCase()) as keyof CliArgs;
       if (key === 'skipLlm' || key === 'skipAudit') {
         (out[key] as boolean) = value === 'true';
       } else {
@@ -293,6 +297,15 @@ async function main(): Promise<void> {
   console.log(`wrote ${result.outputs.eventsPath}`);
   console.log(`wrote ${result.outputs.scoresPath}`);
   if (result.outputs.reportPath) console.log(`wrote ${result.outputs.reportPath}`);
+
+  if (args.emitAnomaliesJson) {
+    await writeFile(
+      args.emitAnomaliesJson,
+      JSON.stringify(result.anomalies, null, 2),
+      'utf-8',
+    );
+    console.log(`wrote ${args.emitAnomaliesJson} (${result.anomalies.length} anomalies)`);
+  }
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) {

@@ -1,0 +1,65 @@
+name: monthly spotcheck
+
+# 1. den každého měsíce v 08:00 UTC otevře oversight issue s 10 random
+# events z předchozího měsíce. Per methodology/governance.md vrstva 5 —
+# nezávisí na pipeline, je to čistě calibration loop pro reviewera.
+on:
+  schedule:
+    - cron: '0 8 1 * *'
+  workflow_dispatch:
+    inputs:
+      month:
+        description: 'Month to spot-check (YYYY-MM, default: previous month)'
+        required: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  spotcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Compute target month
+        id: month
+        run: |
+          if [ -n "${{ inputs.month }}" ]; then
+            echo "value=${{ inputs.month }}" >> "$GITHUB_OUTPUT"
+          else
+            # First day of previous month UTC
+            VALUE=$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)
+            echo "value=$VALUE" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Generate spot-check body
+        env:
+          MONTH: ${{ steps.month.outputs.value }}
+        run: |
+          mkdir -p tmp
+          npm run --silent pipeline:monthly-spotcheck -- --month="$MONTH" > tmp/spotcheck.md
+          echo "::group::Spotcheck preview"
+          head -30 tmp/spotcheck.md
+          echo "::endgroup::"
+
+      - name: Open spot-check issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MONTH: ${{ steps.month.outputs.value }}
+        run: |
+          gh issue create \
+            --title "Monthly spot-check: $MONTH" \
+            --body-file tmp/spotcheck.md \
+            --label spotcheck

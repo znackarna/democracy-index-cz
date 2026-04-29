@@ -11,11 +11,11 @@
 | 2 | ✅ done | Pipeline core: `claude.ts` SDK wrapper s prompt cachingem, `feeds.ts` rss-parser, `fetch-sources.ts`, `pre-filter.ts` (Haiku 4.5), `extract-events.ts` (Sonnet 4.6), `validate.ts` (AJV). Plné prompty. 56 testů. |
 | 3 | ✅ done | `run-weekly.ts` orchestrátor + CLI (`npm run pipeline:weekly`), placeholder strukturální baseline pro 2026-Q2, první živý běh proti 4 RSS feedům: 90 článků → 28 pre-filtered → 14 events. |
 | 4 | ✅ done | Prompt fixes (datumy, noise filtering) + `dedupe.ts` modul (Czech-aware Jaccard, conflict detection → `disputed`). Re-run prokázal vyřešení tří issues. |
-| 5 | ▶ next | Real strukturální baseline z V-Dem 2024 / EIU 2024 / FH 2025 / RSF 2025 / TI CPI 2024 / WJP 2024 + dokumentované per-pillar mapování. |
-| 6 | pending | Next.js + Tailwind dashboard, static export, deploy na Vercel. Public dispute link z každé události. |
-| 7 | pending | Self-audit infrastruktura: oddělený auditor Claude pass, daily reports v `data/reports/YYYY-MM-DD.md`, anomaly detection (auto GitHub issue), source-count → severity cap rule, GitHub issue templates. |
-| 8 | pending | GitHub Actions: weekly-pipeline (auto-merge po self-audit), recompute-scores, monthly spot-check issue, dispute-handler. |
-| 9+ | pending | Backtesting 2018–2020, kvartální validace proti EIU/V-Dem. |
+| 5 | ✅ done | Real strukturální baseline z V-Dem 2024 / EIU 2024 / FH 2025 / RSF 2025 / TI CPI 2024 / WJP 2024 + dokumentované per-pillar mapping v `methodology/structural_mapping.md`. |
+| 6 | ✅ done | Next.js 15 + Tailwind dashboard (homepage, /events), static export do `out/`, Vercel ready. EventCard má funkční dispute link s URL-prefilled GitHub issue templatem. |
+| 7 | ✅ done | Self-audit infrastruktura: `cap-severity.ts` (deterministic source-count rule), `audit.ts` (Sonnet 4.6 s odděleným promptem), `detect-anomalies.ts` (5 triggerů), `report.ts` (data/reports/YYYY-MM-DD.md). 26 nových testů. |
+| 8 | ✅ done | GitHub Actions: `weekly-pipeline.yml` (Po 06:00 UTC, auto-commit + open anomaly issues), `recompute-scores.yml` (po edit events nebo baseline), `monthly-spotcheck.yml` (1. v měsíci, deterministic seed), `dispute-handler.yml` (auto-triage), `ci.yml` (typecheck/lint/test/build na PR). |
+| 9+ | ▶ next | Backtesting 2018–2020, kvartální validace proti EIU/V-Dem, prompt tuning na základě dispute logu, případně rozšíření source listu o HTML/API zdroje (psp.cz, Hlídač státu). |
 
 Detail aktivních úkolů a technického dluhu v [`methodology/issues.md`](methodology/issues.md).
 

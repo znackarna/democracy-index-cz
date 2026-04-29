@@ -1,0 +1,63 @@
+name: recompute scores
+
+# Spustí se, když někdo ručně upraví events file (typicky po review nebo
+# disputu) a commitne. Přepočítá data/scores/timeline.json proti aktuálnímu
+# baseline a commitne výsledek se [skip ci] aby se neopakoval cyklus.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/events/**'
+      - 'data/structural/**'
+  workflow_dispatch:
+    inputs:
+      baseline:
+        description: 'Structural baseline quarter (default: 2026-Q2)'
+        required: false
+        default: '2026-Q2'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recompute-scores
+  cancel-in-progress: true
+
+jobs:
+  recompute:
+    # Skip self-loop: weekly-pipeline a tenhle workflow oba commitují s [skip ci]
+    # v message — GH Actions to respektuje a další běh se nespustí.
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Recompute scores
+        env:
+          BASELINE: ${{ inputs.baseline || '2026-Q2' }}
+        run: npm run pipeline:recompute -- --baseline="$BASELINE"
+
+      - name: Commit timeline
+        run: |
+          git config user.name 'democracy-pipeline-bot'
+          git config user.email '[email protected]'
+          git add data/scores/timeline.json
+          if git diff --cached --quiet; then
+            echo "No score changes to commit."
+            exit 0
+          fi
+          git commit -m "data: recompute scores [skip ci]"
+          git push origin main

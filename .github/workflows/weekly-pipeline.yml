@@ -1,0 +1,129 @@
+name: weekly pipeline
+
+on:
+  # Po 06:00 UTC = 07:00/08:00 v ČR (zima/léto). Pokrývá uplynulý týden Po–Ne.
+  schedule:
+    - cron: '0 6 * * 1'
+  # Manuální trigger z UI Actions tabu — užitečné pro test po deployi nebo
+  # ad-hoc běh mimo pondělní cyklus.
+  workflow_dispatch:
+    inputs:
+      week:
+        description: 'ISO week to process (default: previous full week)'
+        required: false
+      baseline:
+        description: 'Structural baseline quarter (default: 2026-Q2)'
+        required: false
+        default: '2026-Q2'
+      sources:
+        description: 'Comma-separated source ids (default: 4 reliable RSS)'
+        required: false
+        default: 'denik-n,irozhlas,aktualne,investigace-cz'
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: weekly-pipeline
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Compute target week
+        id: week
+        run: |
+          # Default: previous full ISO week (Mon-Sun ending the day before today UTC).
+          # User-provided input overrides.
+          if [ -n "${{ inputs.week }}" ]; then
+            echo "value=${{ inputs.week }}" >> "$GITHUB_OUTPUT"
+          else
+            # date -u prints UTC; %V is ISO week number.
+            YEAR=$(date -u -d 'last monday' +%G)
+            WEEK=$(date -u -d 'last monday' +%V)
+            echo "value=${YEAR}-W${WEEK}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run pipeline
+        env:
+          WEEK: ${{ steps.week.outputs.value }}
+          BASELINE: ${{ inputs.baseline || '2026-Q2' }}
+          SOURCES: ${{ inputs.sources || 'denik-n,irozhlas,aktualne,investigace-cz' }}
+        run: |
+          mkdir -p tmp
+          npm run pipeline:weekly -- \
+            --week="$WEEK" \
+            --baseline="$BASELINE" \
+            --sources="$SOURCES" \
+            --emit-anomalies-json=tmp/anomalies.json
+
+      - name: Open anomaly issues
+        if: ${{ hashFiles('tmp/anomalies.json') != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WEEK: ${{ steps.week.outputs.value }}
+        run: |
+          if [ ! -s tmp/anomalies.json ]; then
+            echo "No anomalies file populated."
+            exit 0
+          fi
+          # jq array length
+          COUNT=$(jq 'length' tmp/anomalies.json)
+          if [ "$COUNT" = "0" ]; then
+            echo "No anomalies for $WEEK."
+            exit 0
+          fi
+          echo "Opening $COUNT anomaly issue(s) for $WEEK..."
+          jq -c '.[]' tmp/anomalies.json | while IFS= read -r anomaly; do
+            TRIGGER=$(echo "$anomaly" | jq -r '.trigger')
+            LEVEL=$(echo "$anomaly" | jq -r '.level')
+            DETAILS=$(echo "$anomaly" | jq -r '.details')
+            TITLE="Anomaly ($LEVEL) $WEEK: $TRIGGER"
+            BODY="**Week:** \`$WEEK\`
+
+**Trigger:** \`$TRIGGER\` (level: $LEVEL)
+
+**Details:** $DETAILS
+
+---
+
+Per [methodology/governance.md](../blob/main/methodology/governance.md) vrstva 4: anomálie nezablokuje publikaci. Index byl commitnut normálně. Tento issue je oversight ping — projdi daily report, případně edituj \`data/events/$WEEK.json\` (recompute-scores workflow přepočítá timeline) a issue zavři.
+
+Daily report: [\`data/reports/$(date -u +%Y-%m-%d).md\`](../blob/main/data/reports/$(date -u +%Y-%m-%d).md)
+Events: [\`data/events/$WEEK.json\`](../blob/main/data/events/$WEEK.json)"
+            gh issue create \
+              --title "$TITLE" \
+              --body "$BODY" \
+              --label anomaly
+          done
+
+      - name: Commit results
+        run: |
+          git config user.name 'democracy-pipeline-bot'
+          git config user.email '[email protected]'
+          git add data/events data/scores data/reports
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "data: weekly pipeline ${{ steps.week.outputs.value }} [skip ci]"
+          git push origin main
