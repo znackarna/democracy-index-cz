@@ -2,10 +2,10 @@
   {
     "id": "2026-W17-001",
     "date": "2026-04-28",
-    "headline": "Schillerová potvrdila, že ČR letos závazek NATO dvou procent HDP na obranu nesplní",
-    "summary": "Ministryně financí Alena Schillerová uvedla, že v letošním rozpočtu pravděpodobně nenajde dodatečné prostředky na obranu. Česko tak nesplní závazek vůči NATO vydávat na obranu alespoň dvě procenta HDP, přičemž situace se do konce roku patrně nezmění.",
+    "headline": "Schillerová: Česko letos nesplní závazek vůči NATO, dodatečné peníze v rozpočtu nejsou",
+    "summary": "Ministryně financí Alena Schillerová potvrdila, že Česko v letošním roce pravděpodobně nesplní závazek vůči NATO vydávat na obranu alespoň dvě procenta HDP. Dodatečné prostředky v rozpočtu podle ní dostupné nejsou, čímž se potvrdilo, že vláda vědomě rezignuje na klíčový mezinárodní závazek.",
     "pillar": "governance",
-    "severity": 3,
+    "severity": 2,
     "direction": -1,
     "duration": "persistent",
     "sources": [
@@ -13,20 +13,20 @@
         "title": "Schillerová letos peníze na obranu nejspíš nepřidá. Česko tak závazek vůči NATO nesplní",
         "url": "https://denikn.cz/2048940/schillerova-letos-penize-na-obranu-nejspis-neprida-cesko-tak-zavazek-vuci-nato-nesplni/",
         "outlet": "Deník N",
-        "fetched_at": "2026-04-28T20:12:04.052Z"
+        "fetched_at": "2026-04-29T04:53:09.190Z"
       }
     ],
-    "score_impact": -1.5,
-    "rationale": "Severity 3 per rubric §3 — konkrétní veřejné prohlášení ministryně financí potvrzující neplnění mezinárodního závazku má přímý dopad na věrohodnost exekutivy a její schopnost dostát závazkům státu (G1 — reálná zodpovědnost exekutivy). Jde o precedentní veřejné přiznání selhání, nikoli jen záměr. Pilíř governance jako primární, protože jde o vládní rozhodnutí o alokaci státních prostředků a politickou zodpovědnost exekutivy; sekundárně relevantní pro G4 (transparentnost vládnutí — ministryně sice informuje, ale výsledek je negativní). Persistent, protože situace bude trvat po celý fiskální rok.",
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — veřejné potvrzení ministryně financí, že závazek vůči klíčové alianci nebude splněn, je konkrétní institucionální rozhodnutí s širokým dopadem na mezinárodní pozici ČR. Odpovídá subkomponentě G1 (transparentnost a výkaznost vlády vůči strategickým závazkům) a G4 (výkaznost ministerstev). Persistent, protože jde o trvající stav v průběhu celého roku.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Pillar misassignment risk: NATO spending compliance is foreign/security policy, not governance in G1/G4 sense. Rationale references G4 but NATO obligation isn't 'ministerial accountability' per pillars.md. Also single-source cap correctly applied but original rationale still says severity 3.",
     "reviewer": "auto",
     "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z"
+    "created_at": "2026-04-29T04:53:09.181Z"
   },
   {
     "id": "2026-W17-002",
     "date": "2026-04-28",
-    "headline": "Motoristé navrhují do dozorčí rady ČEZ zastánce ruského plynu s kontroverzní minulostí",
-    "summary": "Koaliční strana Motoristé plánuje nominovat do dozorčí rady státní energetické společnosti ČEZ Pavla Janečka, bývalého šéfa Pražské plynárenské spojeného s několika kauzami, který veřejně obhajuje dovoz energetických surovin z Ruska. V úvahu přichází i jméno Filipa Turka.",
+    "headline": "Motoristé navrhují do dozorčí rady ČEZ kandidáta spojovaného s obhajobou ruského plynu",
+    "summary": "Strana Motoristé sobě plánuje do dozorčí rady státní energetické firmy ČEZ nominovat Pavla Janečka, bývalého šéfa Pražské plynárenské, jehož působení bylo spojováno s kauzami a který obhajuje dovoz ruských energetických surovin. Nominace politicky exponované osoby s kontroverzní minulostí do vedení strategického státního podniku vyvolává otázky ohledně politického vlivu na státní energetiku.",
     "pillar": "governance",
     "severity": 2,
     "direction": -1,
@@ -36,53 +36,47 @@
         "title": "Motoristé chtějí do dozorčí rady ČEZ zastánce ruského plynu. Ve hře je i Turek",
         "url": "https://denikn.cz/2047341/motoriste-chteji-do-dozorci-rady-cez-zastance-ruskeho-plynu-ve-hre-je-i-turek/",
         "outlet": "Deník N",
-        "fetched_at": "2026-04-28T20:12:04.052Z"
+        "fetched_at": "2026-04-29T04:53:09.190Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — jde o politicky motivovaný personální záměr do státem ovládané společnosti s omezeným (dosud nerealizovaným) institucionálním dopadem; kandidát má kontroverzní minulost a proruské postoje, ale nominace ještě nebyla formálně schválena. Subkomponenta G1 (dělba moci, obsazování klíčových pozic politickými aktéry). Bez formálního rozhodnutí zůstává na úrovni 2; eskalace na 3 by přišla při faktickém jmenování. Anti-bias: stejné hodnocení by platilo pro nominaci kontroverzní osoby jakoukoli vládní stranou.",
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní politicky motivovaný personální záměr na úrovni dozorčí rady státního podniku, zatím bez formálního schválení. Odpovídá subkomponentě G1 (dělba moci a kontrola státních podniků) a G4 (transparentnost vládnutí). Bez kaskádového efektu v tuto chvíli, tedy severity 2. Sekundárně relevantní pro pilíř corruption (K1 — střet zájmů a zneužití politického vlivu).\n\n[auditor: flag] Nomination without formal vote is speculative — rationale says 'záměr bez schválení'. Severity 2 defensible but direction -1 presumes negative outcome. G1 subcomponent stretch; ČEZ supervisory board appointment is closer to K1 corruption angle mentioned in rationale.",
     "reviewer": "auto",
     "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
+    "created_at": "2026-04-29T04:53:09.181Z",
     "expires_at": "2026-07-21T00:00:00.000Z"
   },
   {
     "id": "2026-W17-003",
     "date": "2026-04-28",
-    "headline": "NCOZ zadržela třináct lidí při razii v příbramské nemocnici a na středočeském krajském úřadě",
-    "summary": "Národní centrála proti organizovanému zločinu provedla rozsáhlý zásah v Příbrami a na Krajském úřadě Středočeského kraje, při němž zadržela třináct osob včetně ředitele nemocnice. Akce naznačuje podezření z korupce nebo trestné činnosti s účastí veřejných institucí.",
+    "headline": "NCOZ zadržela 13 lidí při zásahu v příbramské nemocnici a na středočeském krajském úřadu",
+    "summary": "Národní centrála proti organizovanému zločinu provedla rozsáhlý zásah v Příbrami a na Krajském úřadě Středočeského kraje, při němž bylo zadrženo třináct osob včetně ředitele nemocnice. Akce naznačuje možnou korupci nebo organizovaný zločin propojený s veřejnou institucí a regionální správou.",
     "pillar": "corruption",
-    "severity": 3,
-    "direction": 1,
+    "severity": 2,
+    "direction": -1,
     "duration": "one_off",
     "sources": [
       {
         "title": "Policie zasahovala v příbramské nemocnici, zadržela třináct lidí včetně ředitele",
         "url": "https://denikn.cz/2048760/policie-zasahovala-v-pribramske-nemocnici-zadrzela-trinact-lidi-vcetne-reditele/",
         "outlet": "Deník N",
-        "fetched_at": "2026-04-28T20:12:04.052Z"
-      },
-      {
-        "title": "Policie zasahovala v příbramské nemocnici a na krajském úřadě, zadržela 13 lidí",
-        "url": "https://zpravy.aktualne.cz/domaci/policie-zasahovala-v-pribramske-nemocnici-a-na-krajskem-urade-zadrzela-13-lidi/r~aaa29cd8873e38c3c361f686ffc99b18/",
-        "outlet": "Aktuálně.cz",
-        "fetched_at": "2026-04-28T20:12:04.295Z"
+        "fetched_at": "2026-04-29T04:53:09.190Z"
       }
     ],
-    "score_impact": 1.5,
-    "rationale": "Severity 3 per rubric §3 — rozsáhlá policejní akce s třinácti zadrženými včetně ředitele veřejné instituce a zásahem na krajském úřadě představuje konkrétní krok protikorupčních složek s širším institucionálním dopadem (subkomponenta K4 — protikorupční instituce v akci). Direction +1, protože aktivní vymáhání práva vůči podezření z korupce je projevem funkčního protikorupčního systému. Závažnost 3 odpovídá rozsahu akce, ale bez znalosti konkrétního obvinění nebo výsledku nelze jít výše — absence finálního rozsudku brání eskalaci na 4.\n\n[merged with 2026-W17-016 — direction/severity conflict, set status=disputed for reviewer]",
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rozsáhlý policejní zásah s třinácti zadrženými osobami včetně ředitele veřejné nemocnice a zásahem na krajském úřadu vytváří precedent a má dopad na důvěru ve veřejné instituce. Odpovídá subkomponentě K1 (politická korupce a zneužití pravomoci) a K2 (veřejné zakázky). Jde o one_off událost — zahájení vyšetřování.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Direction error: NCOZ enforcement action is institutions working correctly — direction should be +1 (law enforcement functioning), not -1. Rubric example: 'anti-corruption raid by NCOZ has direction +1'. Reviewer should reconsider direction.",
     "reviewer": "auto",
-    "status": "disputed",
-    "created_at": "2026-04-28T20:12:04.045Z",
+    "status": "active",
+    "created_at": "2026-04-29T04:53:09.181Z",
     "expires_at": "2026-07-21T00:00:00.000Z"
   },
   {
     "id": "2026-W17-004",
     "date": "2026-04-28",
-    "headline": "Ministr obrany Zůna označil závazky NATO za 'nula a politický papír', generál Šedivý kritizuje premiéra Babiše",
-    "summary": "Ministr obrany Jaromír Zůna zpochybnil závaznost výdajových cílů NATO a prohlásil je za politický dokument bez závazné platnosti. Bývalý náčelník generálního štábu Jiří Šedivý toto prohlášení odmítl jako překvapivé a zodpovědnost za neplnění závazků přičetl přímo premiéru Babišovi.",
+    "headline": "Ministr obrany Zůna označil závazky vůči NATO za 'nulu a politický papír'",
+    "summary": "Ministr obrany Jaromír Zůna v rozhovoru veřejně zpochybnil závaznost výdajových závazků ČR vůči NATO, čímž se výrazně odchýlil od standardní vládní linie. Bývalý náčelník generálního štábu Jiří Šedivý jeho výrok odmítl a zodpovědnost přiřkl premiérovi Babišovi, jenž má rozhodující slovo o financování obrany.",
     "pillar": "governance",
-    "severity": 3,
+    "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
@@ -90,46 +84,28 @@
         "title": "Že závazek vůči NATO platil jen pro Fialu, jak tvrdí Babiš? „Úplně mimo,“ říká bývalý náčelník štábu",
         "url": "https://denikn.cz/2048512/ze-zavazek-vuci-nato-platil-jen-pro-fialu-jak-tvrdi-babis-uplne-mimo-rika-byvaly-nacelnik-stabu/",
         "outlet": "Deník N",
-        "fetched_at": "2026-04-28T20:12:04.052Z"
-      }
-    ],
-    "score_impact": -1.5,
-    "rationale": "Severity 3 per rubric §3 — veřejné prohlášení člena vlády zpochybňující závaznost mezinárodních závazků státu tvoří precedent a má dopad na důvěryhodnost exekutivy (G1 — zodpovědnost exekutivy, G3 — respekt k normám). Výrok ministra v rozhovoru je konkrétní datovaná událost s institucionálním dopadem; zůstává na 3, nikoli 4, protože jde o verbální projev bez formálního legislativního nebo rozpočtového rozhodnutí. Sekundárně relevantní pro pilíř electoral (věrohodnost vládní koalice voličům), ale primárně governance jako kořenová příčina.",
-    "reviewer": "auto",
-    "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
-    "expires_at": "2026-07-21T00:00:00.000Z"
-  },
-  {
-    "id": "2026-W17-005",
-    "date": "2026-04-27",
-    "headline": "Ministr obrany Zůna prohlásil závazky NATO za bezcenné a přiznal jejich neplnění",
-    "summary": "Ministr obrany Jaromír Zůna (za SPD) v rozhovoru otevřeně přiznal, že Česká republika neplní spojenecké závazky vůči NATO, a deklaraci ze summitu v Haagu označil za politicky bezvýznamný dokument. Výrok přichází krátce poté, co premiér Babiš ujišťoval šéfa NATO o plnění závazků, a odráží vnitrokoaliční napětí v otázce obrany.",
-    "pillar": "governance",
-    "severity": 3,
-    "direction": -1,
-    "duration": "one_off",
-    "sources": [
+        "fetched_at": "2026-04-29T04:53:09.190Z"
+      },
       {
         "title": "Závazky neplníme. Deklarace NATO o výdajích na obranu je nula a politický papír, říká Zůna",
         "url": "https://denikn.cz/2048020/zavazky-neplnime-deklarace-nato-o-vydajich-na-obranu-je-nula-a-politicky-papir-rika-zuna/",
         "outlet": "Deník N",
-        "fetched_at": "2026-04-28T20:12:04.052Z"
+        "fetched_at": "2026-04-29T04:53:09.190Z"
       }
     ],
-    "score_impact": -1.5,
-    "rationale": "Severity 3 per rubric §3 — verifikovatelné prohlášení jmenovaného ministra zpochybňující platnost mezinárodních závazků země je konkrétní veřejný výstup s institucionálním dopadem (G1: dělba moci a odpovědnost exekutivy, G3: stabilita norem). Nejde o strukturální změnu (→ ne 4), ale jde o precedentní veřejné odmítnutí platnosti mezivládní deklarace ministrem ve funkci, a nikoli pouhý verbální výstup bez dopadu. Anti-bias check: stejnou závažnost bych přiřadil bez ohledu na stranické zabarvení ministra.",
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o kontroverzní verbální prohlášení ústavního ministra, které zpochybňuje mezinárodní závazky ČR, avšak bez okamžitého institucionálního dopadu nebo formálního rozhodnutí. Odpovídá subkomponentě G1 (dělba moci a odpovědnost exekutivy). Pokud by výrok byl podpořen formálním rozpočtovým rozhodnutím (viz index 1), kombinace by mohla eskalovat. Anti-bias check: stejné hodnocení by bylo aplikováno u ministra libovolné politické orientace.\n\n[merged with 2026-W17-005 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Severity cap note says '1 unique outlet' but header shows '2 total, Deník N, Deník N' — same outlet twice, so cap is correct, but the note is confusing. Rationale is solid. Status=disputed appropriate. Verbal statement, severity 2 defensible.",
     "reviewer": "auto",
-    "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
-    "expires_at": "2026-07-20T00:00:00.000Z"
+    "status": "disputed",
+    "created_at": "2026-04-29T04:53:09.181Z",
+    "expires_at": "2026-07-21T00:00:00.000Z"
   },
   {
     "id": "2026-W17-006",
     "date": "2026-04-27",
-    "headline": "Státní analytik propuštěn po kritice klimatického zmocněnce Turka",
-    "summary": "Martin Abel, analytik ve státní službě, byl propuštěn krátce poté, co se veřejně ohradil proti argumentaci vládního zmocněnce pro klima Filipa Turka. Abel v rozhovoru naznačuje, že jeho odchod byl ideologicky motivovaný, nikoliv věcný.",
-    "pillar": "governance",
+    "headline": "Státní analytik propuštěn po veřejné kritice vládního zmocněnce Filipa Turka",
+    "summary": "Martin Abel, analytik ve státních službách, byl propuštěn krátce poté, co se veřejně ohradil proti argumentům vládního zmocněnce pro klima Filipa Turka. Abel popisuje propuštění jako ideologicky motivované a spojené se svou odbornou kritikou. Incident vyvolává otázky o nezávislosti státního aparátu na politickém vedení.",
+    "pillar": "civil",
     "severity": 2,
     "direction": -1,
     "duration": "one_off",
@@ -138,21 +114,44 @@
         "title": "Turek vše zničí buldozerem, Motoristé si vyřizují ideologické konflikty propouštěním, říká vyhozený analytik",
         "url": "https://denikn.cz/2045505/turek-vse-znici-buldozerem-motoriste-si-vyrizuji-ideologicke-konflikty-propoustenim-rika-vyhozeny-analytik/",
         "outlet": "Deník N",
-        "fetched_at": "2026-04-28T20:12:04.052Z"
+        "fetched_at": "2026-04-29T04:53:09.190Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni státní správy bez prokázaného kaskádového efektu na instituci. Splňuje přímo příklad uvedený v rubrice úrovně 2 ('politicky motivovaný personální zásah na střední úrovni státní správy... bez kaskádového efektu'). Pokud by šlo o prokazatelný vzorec (≥3 podobné případy), eskalovalo by na 3. Zatím jeden případ bez dalších potvrzených paralel. Sekundárně relevantní pro pilíř civil (C3 — ochrana státních zaměstnanců před odvetou za kritiku), zmíněno v rationale.",
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni státní správy (odvolání analytika) bez prokázaného kaskádového efektu na instituci jako celek. Subkomponenta C1 (svoboda projevu) a C3 (svoboda sdružování/odborné vyjadřování ve veřejné službě). Zatím se jedná o jeden případ bez doloženého systémového vzorce, zdroj je primárně výpověď propuštěného zaměstnance. Pokud by se prokázal opakovaný vzorec, eskalace na 3. Směr -1: naznačuje odrazování úředníků od odborné kritiky politických rozhodnutí.\n\n[auditor: flag] Pillar civil (C1) is arguable but governance (G4/G1 — state apparatus independence) may be more appropriate root cause. Single source is propuštěného zaměstnance's own account — rubric requires 2+ sources for severity 3+; at severity 2 acceptable but epistemic caveat missing from rationale.",
     "reviewer": "auto",
     "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
+    "created_at": "2026-04-29T04:53:09.181Z",
     "expires_at": "2026-07-20T00:00:00.000Z"
   },
   {
     "id": "2026-W17-007",
     "date": "2026-04-27",
-    "headline": "Ministerstvo životního prostředí vypsalo nové výběrové řízení na šéfa inspekce po pochybnostech v původním procesu",
-    "summary": "Ministerstvo životního prostředí spustilo nový výběr vedoucího České inspekce životního prostředí poté, co původní řízení zastavilo za nejasných okolností. Média upozornila, že do finále původního výběru postoupil neznámý kandidát spojovaný s hnutím Motoristé. Případ vyvolává pochybnosti o integritě personálních rozhodnutí ve státní správě.",
+    "headline": "Mediální analytik kritizuje vládní návrh na zrušení poplatků ČT a ČRo jako odborně nepodložený",
+    "summary": "Mediální analytik Filip Rožánek veřejně zkritizoval návrh ministra kultury Oto Klempíře (Motoristé) na zrušení mediálních poplatků ČT a ČRo, přičemž označil argumentaci ministra za slabou a návrh za odborně nepřipravený. Uvedl, že nevěří, že návrh vzešel ze standardního legislativního procesu ministerstva. Jde o součást probíhající debaty o financování veřejnoprávních médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vláda vařila z vody, říká analytik Rožánek k návrhu na financování ČT a ČRo",
+        "url": "https://denikn.cz/2047522/vlada-si-s-ct-a-cro-vyrizuje-ucty-klempirova-argumentace-je-slaba-rika-analytik-rozanek/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T04:53:09.190Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — vládní návrh na zrušení mediálních poplatků je kontroverzní legislativní iniciativa s potenciálním dopadem na financování ČT a ČRo, avšak zatím se jedná pouze o návrh v rané fázi bez schválení. Subkomponenta M2 (nezávislost ČT a ČRo — financování). Rubric §3 uvádí 'zákon o ČT/ČRo s návrhy, které mění politickou kontrolu, ale je v rané fázi' jako příklad severity 3; nicméně tento článek přináší pouze analytickou kritiku návrhu, nikoli nové institucionální kroky — proto severity 2. Duration persistent, protože legislativní proces pokračuje. Směr -1: návrh ohrožuje stabilní financování veřejnoprávních médií.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-04-29T04:53:09.181Z"
+  },
+  {
+    "id": "2026-W17-008",
+    "date": "2026-04-27",
+    "headline": "Ministerstvo životního prostředí vypíše nové výběrové řízení na šéfa inspekce po pochybnostech o původním procesu",
+    "summary": "Ministerstvo životního prostředí zastavilo původní výběrové řízení na vedoucího České inspekce životního prostředí poté, co média upozornila na podezřelého kandidáta napojení na Motoristy. Nyní bylo vypsáno nové výběrové řízení. Incident vyvolává otázky ohledně transparentnosti státních personálních procesů.",
     "pillar": "governance",
     "severity": 2,
     "direction": -1,
@@ -162,186 +161,62 @@
         "title": "Opět se hledá šéf inspekce životního prostředí. Poslední výběrové řízení vyvolalo pochybnosti",
         "url": "https://denikn.cz/2047706/opet-se-hleda-sef-inspekce-zivotniho-prostredi-posledni-vyberove-rizeni-vyvolalo-pochybnosti/",
         "outlet": "Deník N",
-        "fetched_at": "2026-04-28T20:12:04.052Z"
+        "fetched_at": "2026-04-29T04:53:09.190Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni státní správy bez zjevného kaskádového efektu; původní řízení bylo zastaveno z netransparentních důvodů, což je porušení normy s omezeným dopadem. Subkomponenta G4 (transparentnost vládnutí) a G1 (dělba moci / výkonná kontrola). Rychlé vypsání nového řízení mírně snižuje závažnost. Anti-bias check: stejné hodnocení by bylo aplikováno na jakékoliv ministerstvo bez ohledu na politickou příslušnost.",
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah ve státní správě na střední úrovni, zastavení výběrového řízení z důvodu politicky nevhodného kandidáta bez kaskádového efektu na klíčové instituce. Subkomponenta G4 (transparentnost vládnutí). Skutečnost, že byl proces zastaven a vypsán nový, představuje určitou korekci, ale samotné pochybení zaznamenání hodné.",
     "reviewer": "auto",
     "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
+    "created_at": "2026-04-29T04:53:09.181Z",
     "expires_at": "2026-07-20T00:00:00.000Z"
   },
   {
-    "id": "2026-W17-008",
-    "date": "2026-04-28",
-    "headline": "Česko se připojilo k dohodě o zřízení zvláštního tribunálu pro ruské válečné zločiny na Ukrajině",
-    "summary": "Česká republika se stala 23. signatářem dohody potřebné k vytvoření mezinárodního tribunálu pro zločiny ruské agrese vůči Ukrajině. Ministr zahraničí Macinka označil připojení za předběžnou pozici, zatímco prezident Pavel připomněl, že Česko tento záměr vyjádřilo již dříve. Připojení posiluje českou angažovanost v multilaterálním systému mezinárodní justice.",
+    "id": "2026-W17-009",
+    "date": "2026-04-29",
+    "headline": "Žalobkyně Lastovecká dostala výtku po vyjádření k bitcoinové kauze, spor půjde ke kárné soudu",
+    "summary": "Vrchní státní zástupce Radim Dragoun udělil výtku žalobkyni Petře Lastovecké poté, co poskytla rozhovor o bitcoinové kauze a svém odvolání z vyšetřovacího týmu. Lastovecká podala námitky a věc bude rozhodovat kárný senát Vrchního soudu v Olomouci. Případ nastoluje otázku, zda kárný postih žalobkyně za veřejné vyjádření nenarušuje nezávislost státního zastupitelství.",
     "pillar": "judicial",
     "severity": 2,
-    "direction": 1,
+    "direction": -1,
     "duration": "one_off",
     "sources": [
       {
-        "title": "Česko se připojilo k dohodě na vytvoření tribunálu pro Rusko. Podle Macinky jde o předběžnou pozici",
-        "url": "https://www.irozhlas.cz/zpravy-domov/cesko-se-pripojilo-k-dohode-na-vytvoreni-tribunalu-pro-rusko-podle-macinky-jde-o_2604282054_jar",
+        "title": "Žalobkyně promluvila o bitcoinové kauze a dostala výtku od Dragouna. Spor rozhodne soud",
+        "url": "https://www.irozhlas.cz/zpravy-domov/zalobkyne-promluvila-o-bitcoinove-kauze-a-dostala-vytku-od-dragouna-spor_2604290500_pik",
         "outlet": "iROZHLAS",
-        "fetched_at": "2026-04-28T20:12:04.221Z"
+        "fetched_at": "2026-04-29T04:53:09.424Z"
       }
     ],
-    "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — konkrétní pozitivní krok ČR v oblasti mezinárodní justice s omezeným přímým institucionálním dopadem na domácí demokratické struktury, ale relevantní pro subkomponentu J4 (rovnost před zákonem a mezinárodní právní řád) a českou roli v podpoře právního státu mezinárodně. Nedosahuje severity 3, protože jde o přihlášení k mezinárodní dohodě v rané fázi bez přímého dopadu na domácí instituce. Anti-bias check: stejné hodnocení bez ohledu na to, která vláda krok učinila.",
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — výtka žalobkyni za veřejné vyjádření k probíhající kauze, v níž byla sama odvolána z týmu, vytváří precedent potenciálního tlaku na nezávislost státního zastupitelství (subkomponenta J3). Událost má institucionální dopad na svobodu žalobkyň vyjadřovat se k jejich kauzám. Případ se dostává ke kárné instanci, takže není jednorázovou verbální výměnou. Anti-bias check: stejné hodnocení by platilo nezávisle na politické orientaci aktérů.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Direction -1 is ambiguous: kárný postih could be legitimate hierarchical oversight OR political pressure — rationale doesn't resolve this. J3 anchor is correct but 'vytváří precedent' language suggests severity 3 reasoning; severity 2 (capped) creates tension with rationale tone.",
     "reviewer": "auto",
     "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
-    "expires_at": "2026-07-21T00:00:00.000Z"
-  },
-  {
-    "id": "2026-W17-009",
-    "date": "2026-04-28",
-    "headline": "Stovky lidí protestovaly v Brně proti plánovanému sjezdu sudetských Němců",
-    "summary": "V Brně se konala demonstrace několika stovek lidí namířená proti nadcházejícímu sjezdu sudetských Němců, který se má uskutečnit v květnu. Předseda Sněmovny a šéf SPD Tomio Okamura označil sjezd za ostudný. Protest proběhl pokojně bez eskalace.",
-    "pillar": "civil",
-    "severity": 1,
-    "direction": 1,
-    "duration": "one_off",
-    "sources": [
-      {
-        "title": "Stovky lidí protestovaly v Brně proti sjezdu sudetských Němců. ‚Nebetyčná ostuda,‘ řekl o akci Okamura",
-        "url": "https://www.irozhlas.cz/zpravy-domov/stovky-lidi-protestuji-v-brne-proti-sjezdu-sudetskych-nemcu-nebetycna-ostuda_2604281903_jos",
-        "outlet": "iROZHLAS",
-        "fetched_at": "2026-04-28T20:12:04.221Z"
-      }
-    ],
-    "score_impact": 0.2,
-    "rationale": "Pokojná demonstrace je přirozeným výkonem svobody shromažďování (subkomponenta C2). Žádný institucionální dopad nebyl hlášen — policie nezasáhla, akce proběhla nerušeně. Severity 1 dle rubric §1: verbální a demonstrativní vyjádření bez institucionálních následků. Direction +1, protože samotný výkon práva na shromažďování funguje, žádné omezení nebylo uplatněno.",
-    "reviewer": "auto",
-    "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
-    "expires_at": "2026-07-21T00:00:00.000Z"
+    "created_at": "2026-04-29T04:53:09.181Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
   },
   {
     "id": "2026-W17-010",
     "date": "2026-04-28",
-    "headline": "Náčelník generálního štábu přiznal, že MO považovalo rozhovor s prezidentem za politicky citlivý",
-    "summary": "Náčelník generálního štábu Karel Řehka před sněmovním branným výborem potvrdil, že ministerstvo obrany označilo rozhovor armády s prezidentem Pavlem za politicky citlivý, a proto nebyl zveřejněn. Ministr obrany Zůna před výborem předložil odlišný výklad situace. Kauza odhaluje napětí v civilně-vojenských vztazích a v komunikaci mezi kabinetem a prezidentem.",
+    "headline": "Vláda navrhuje uvolnění pravidel rozpočtové odpovědnosti, investice by se nezapočítávaly do deficitu",
+    "summary": "Vláda chce změnit pravidla sestavování státního rozpočtu tak, aby investice do infrastruktury a části výdajů na obranu nebylo nutné zahrnovat do výpočtu deficitu. Koaliční partneři ANO a STAN prezentují odlišné pohledy na žádoucí míru fiskální flexibility. Jde o návrh, který je zatím v debatní fázi.",
     "pillar": "governance",
     "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
       {
-        "title": "Obrana měla rozhovor s Pavlem za politicky citlivý, tvrdí Řehka. Zůna: Důvody byly jiné, nešlo o video",
-        "url": "https://www.irozhlas.cz/zpravy-domov/obrana-mela-rozhovor-s-pavlem-za-politicky-citlivy-tvrdi-rehka-zuna-duvody-byly_2604281856_rec",
+        "title": "Rozpočet na rok 2027 s dnešními pravidly je nesestavitelný, tvrdí ANO. Starostové: Malý dluh je výhodou",
+        "url": "https://www.irozhlas.cz/ekonomika/rozpocet-na-rok-2027-s-dnesnimi-pravidly-je-nesestavitelny-tvrdi-ano-starostove_2604290010_raf",
         "outlet": "iROZHLAS",
-        "fetched_at": "2026-04-28T20:12:04.221Z"
+        "fetched_at": "2026-04-29T04:53:09.424Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Případ dokládá politický zásah do informační politiky armády (subkomponenta G4 — transparentnost vládnutí) a napětí v civilně-vojenských vztazích. Záměrné nepřiznání komunikace s prezidentem jako 'politicky citlivé' je porušením standardu transparentnosti, avšak bez přímého kaskádového dopadu na instituce. Severity 2 dle rubric §2 — konkrétní porušení normy s omezeným dopadem, jeden výskyt. Anti-bias check: stejné hodnocení by platilo pro koalici jakékoliv barvy.",
+    "rationale": "Severity 2 per rubric §2 — návrh na úpravu fiskálních pravidel je kontroverzní politické rozhodnutí s potenciálním dopadem na institucionální rámec rozpočtové odpovědnosti (subkomponenta G2, kvalita legislativy a transparentnost vládnutí). Zatím jde o deklarovaný záměr bez schváleného návrhu zákona, nikoli o přijatou změnu. Snižuje se tedy o stupeň oproti situaci, kdy by byl zákon předložen či schválen (eskalační pravidlo: formální dokument versus pouhý záměr). Anti-bias check: stejné hodnocení by platilo pro jakoukoli vládu navrhující oslabení fiskálních pravidel.",
     "reviewer": "auto",
     "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
-    "expires_at": "2026-07-21T00:00:00.000Z"
-  },
-  {
-    "id": "2026-W17-011",
-    "date": "2026-04-28",
-    "headline": "Sněmovní výbor vyzval ministra Klempíře ke stažení návrhu zákona o médiích veřejné služby",
-    "summary": "Sněmovní výbor pro mediální záležitosti hlasy opozice přijal výzvu ministru kultury Klempířovi, aby stáhl z připomínkového řízení návrh zákona o médiích veřejné služby. Klíčovým sporným bodem je přesun financování ČT a ČRo ze systému poplatků na státní rozpočet, což kritici považují za ohrožení nezávislosti veřejnoprávních médií.",
-    "pillar": "media",
-    "severity": 3,
-    "direction": -1,
-    "duration": "persistent",
-    "sources": [
-      {
-        "title": "‚Je připraven velmi špatně.‘ Výbor hlasy opozice vyzval Klempíře, ať stáhne zákon o médiích",
-        "url": "https://www.irozhlas.cz/zpravy-domov/je-pripraven-velmi-spatne-vybor-hlasy-opozice-vyzval-klempire-stahne-zakon-o_2604281813_med",
-        "outlet": "iROZHLAS",
-        "fetched_at": "2026-04-28T20:12:04.221Z"
-      },
-      {
-        "title": "Výbor hlasy opozice vyzval Klempíře, ať stáhne zákon o médiích",
-        "url": "https://zpravy.aktualne.cz/domaci/vybor-hlasy-opozice-vyzval-klempire-at-stahne-zakon-o-mediich/r~aaa29980683b7d0e39b705256a6c0bf3/",
-        "outlet": "Aktuálně.cz",
-        "fetched_at": "2026-04-28T20:12:04.295Z"
-      }
-    ],
-    "score_impact": -1.5,
-    "rationale": "Návrh zákona mění systém financování ČT a ČRo přechodem na státní rozpočet, čímž by exekutiva získala přímý vliv na financování veřejnoprávních médií (subkomponenta M2 — nezávislost ČT a ČRo). Dle rubric §3: zákon je v rané fázi (meziresortní připomínkové řízení), ale vytváří precedent a parlamentní výbor jej hodnotí jako systémově problematický. Porovnání s rubric příkladem: 'Zákon o ČT/ČRo s návrhy, které mění politickou kontrolu nad volbou rad, ale je v rané fázi (předložen, neschválen)' — severity 3. Duration persistent, protože návrh je stále v procesu. Sekundárně se dotýká pilíře governance (G2 — kvalita legislativy).\n\n[merged with 2026-W17-013 — same incident, sources combined]",
-    "reviewer": "auto",
-    "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z"
-  },
-  {
-    "id": "2026-W17-012",
-    "date": "2026-04-28",
-    "headline": "Brněnský soud odsoudil dva strážníky za pochybení v případě smrti bezdomovce",
-    "summary": "Městský soud v Brně shledal dvojici strážníků vinnou z porušení služebních povinností v případě, který skončil smrtí muže bez domova. Každý ze strážníků obdržel peněžitý trest a dvouletý zákaz výkonu práce u obecní policie.",
-    "pillar": "judicial",
-    "severity": 1,
-    "direction": 1,
-    "duration": "one_off",
-    "sources": [
-      {
-        "title": "Peněžitý trest a dvouletý zákaz činnosti. Strážníci v případě smrti bezdomovce pochybili, rozhodl soud",
-        "url": "https://www.irozhlas.cz/zpravy-domov/penezity-trest-a-dvoulety-zakaz-cinnosti-straznici-v-pripade-smrti-bezdomovce_2604281733_aha",
-        "outlet": "iROZHLAS",
-        "fetched_at": "2026-04-28T20:12:04.221Z"
-      }
-    ],
-    "score_impact": 0.2,
-    "rationale": "Soud vynesl odsuzující rozsudek za pochybení příslušníků obecní policie — jde o standardní institucionální odpovědnost (subkomponenta J4 — rovnost před zákonem, zacházení bez ohledu na status). Severity 1 dle rubric §1: jde o jednotlivý rozsudek na místní úrovni bez precedentního systémového dopadu. Direction +1, protože soudní systém funguje a vyvodil odpovědnost. Sekundárně relevantní pro pilíř civil (C4 — ochrana zranitelných skupin), ale primárním zdrojem je soudní rozhodnutí.",
-    "reviewer": "auto",
-    "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
-    "expires_at": "2026-07-21T00:00:00.000Z"
-  },
-  {
-    "id": "2026-W17-014",
-    "date": "2026-04-28",
-    "headline": "Státní fond bude vymáhat milionové podpory od Agrofertu kvůli střetu zájmů premiéra Babiše",
-    "summary": "Podpůrný a garanční lesnický a rolnický fond oznámil, že zahájí vymáhání finančních podpor od desítek firem holdingu Agrofert. Důvodem je střet zájmů premiéra Andreje Babiše, někdejšího vlastníka holdingu. Informaci po zasedání sněmovního zemědělského výboru potvrdil předseda představenstva fondu.",
-    "pillar": "corruption",
-    "severity": 3,
-    "direction": -1,
-    "duration": "persistent",
-    "sources": [
-      {
-        "title": "Podpůrný fond bude od Agrofertu kvůli střetu zájmů vymáhat podpory za miliony korun",
-        "url": "https://zpravy.aktualne.cz/ekonomika/podpurny-fond-bude-od-agrofertu-kvuli-stretu-zajmu-vymahat-podpory-za-miliony-korun/r~aaa2956afa74d3a7f32aeed64a0b995e/",
-        "outlet": "Aktuálně.cz",
-        "fetched_at": "2026-04-28T20:12:04.295Z"
-      }
-    ],
-    "score_impact": -1.5,
-    "rationale": "Severity 3 per rubric §3 — jde o konkrétní institucionální krok (státní fond zahajuje vymáhání) v kauze střetu zájmů ústavního činitele (K1 — politická korupce, střet zájmů ústavních činitelů). Nejde o severity 4, protože vymáhání je spíše nápravný krok než nové porušení normy; nicméně perzistentní charakter střetu zájmů a jeho rozsah (nižší desítky firem) ospravedlňují 3. Sekundárně se dotýká G1 (dělba moci, kontrola exekutivy). Direction -1 reflektuje přetrvávající systémový problém střetu zájmů premiéra, byť vymáhání je samo o sobě nápravné — primární negativní dopad je na důvěryhodnost instituce vlády a K1.",
-    "reviewer": "auto",
-    "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z"
-  },
-  {
-    "id": "2026-W17-015",
-    "date": "2026-04-28",
-    "headline": "Náčelník generálního štábu Řehka na sněmovním jednání odhalil, že ministerstvo obrany zastavilo vydání podcastu s prezidentem Pavlem z politických důvodů",
-    "summary": "Při sněmovním projednávání o sociálních sítích armády náčelník generálního štábu Řehka otevřeně popsal, jak ministerstvo obrany zablokovalo vydání podcastu s prezidentem Pavlem s odůvodněním politické citlivosti. Ministerstvo přitom chtělo záležitost neřešit, avšak Řehka ji veřejně přiznal před poslanci.",
-    "pillar": "governance",
-    "severity": 3,
-    "direction": -1,
-    "duration": "one_off",
-    "sources": [
-      {
-        "title": "„Teď to nevydávejte, je to politicky citlivé.“ Řehka otevřeně o „zakázaném“ podcastu s prezidentem",
-        "url": "https://zpravy.aktualne.cz/domaci/ted-to-nevydavejte-je-to-politicky-citlive-rehka-otevrene-o-zakazanem-podcastu-s-prezidentem/r~aaa29d3c081f92588abb3708d0a1ec68/",
-        "outlet": "Aktuálně.cz",
-        "fetched_at": "2026-04-28T20:12:04.295Z"
-      }
-    ],
-    "score_impact": -1.5,
-    "rationale": "Severity 3 per rubric §3 — ministerstvo obrany zasáhlo do komunikace armády z politických důvodů (politická citlivost jako zdůvodnění zákazu), čímž potenciálně narušilo institucionální nezávislost vojenského velení vůči politické exekutivě (G1 — dělba moci, kontrola exekutivy). Incident vytváří precedent politického filtrování vojenské komunikace zahrnující prezidenta jako vrchního velitele. Sekundárně se dotýká M1/M4 (přístup k informacím a svoboda vyjádření ve veřejné správě). Zatím jde o jeden ověřený incident bez prokázaného vzorce, proto 3 a nikoli 4.",
-    "reviewer": "auto",
-    "status": "active",
-    "created_at": "2026-04-28T20:12:04.045Z",
+    "created_at": "2026-04-29T04:53:09.181Z",
     "expires_at": "2026-07-21T00:00:00.000Z"
   }
 ]

@@ -204,6 +204,18 @@ describe('runWeekly — with mocked LLM', () => {
               outlet: 'Test',
               fetched_at: '2026-04-23T08:00:00.000Z',
             },
+            {
+              title: 'Confirm B',
+              url: 'https://b.test/article/1',
+              outlet: 'Outlet B',
+              fetched_at: '2026-04-23T08:00:00.000Z',
+            },
+            {
+              title: 'Confirm C',
+              url: 'https://c.test/article/1',
+              outlet: 'Outlet C',
+              fetched_at: '2026-04-23T08:00:00.000Z',
+            },
           ],
           score_impact: -3,
           rationale:
@@ -224,6 +236,9 @@ describe('runWeekly — with mocked LLM', () => {
       projectRoot: root,
       now: FIXED_NOW,
       configPath,
+      // skipAudit so we don't hit the (unmocked) audit module — audit is
+      // covered by tests/audit.test.ts independently.
+      skipAudit: true,
     });
 
     expect(result.fetched).toBe(1);
