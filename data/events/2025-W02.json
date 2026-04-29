@@ -1,0 +1,49 @@
+[
+  {
+    "id": "2025-W02-001",
+    "date": "2025-01-08",
+    "headline": "Šéf NKÚ: Systém nákupů ministerstva obrany vykazuje fatální chyby",
+    "summary": "Prezident Nejvyššího kontrolního úřadu Miloslav Kala upozornil, že přes výrazný růst obranného rozpočtu systém nákupů ministerstva obrany vykazuje závažné nedostatky. Podle Kaly se resort soustředí na velké projekty a přehlíží důležité detaily.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "V systému nákupů ministerstva obrany jsou fatální chyby, říká šéf Nejvyššího kontrolního úřadu",
+        "url": "https://www.irozhlas.cz/zpravy-domov/nku-miloslav-kala-ministerstvo-obrany-armada-vojaci-technika-nakup_2501080500_gut",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:28.617Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — NKÚ identifikuje systémové problémy v zadávání zakázek MO (subkomponenta K2 — veřejné zakázky a transparentnost zadávacích řízení), ale jedná se o rozhovor/vyjádření bez nového formálního nálezu či zprávy NKÚ. Chybí konkrétní nový auditní výstup, jde o opakované upozornění bez přímého institucionálního dopadu v daném okamžiku. Sekundárně se dotýká G4 (transparentnost vládnutí). Single source — dle source-count rule zůstává severity 2.\n\n[auditor: flag] Rationale popisuje verbální vyjádření/rozhovor bez nového formálního nálezu NKÚ. Severity 2 je obhajitelná, ale rubric §2 se odkazuje na konkrétní porušení normy, ne jen mediální komentář. Chybí silnější kotva v rubric — „opakované upozornění",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-06T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W02-002",
+    "date": "2025-01-10",
+    "headline": "Soudy zamítly první žaloby komunistických funkcionářů proti sníženým důchodům",
+    "summary": "Městský soud v Praze zamítl žaloby několika funkcionářů předlistopadové KSČ, kteří se bránili zákonné redukci svých penzí. Rozhodnutí potvrzuje, že zákon o snížení důchodů prominentů komunistického režimu obstál u soudu v prvním kole soudních přezkumů.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Komunističtí prominenti se brání sníženým penzím. Šéf předlistopadového SSM se žalobou neuspěl",
+        "url": "https://archiv.hn.cz/c1-67551140-komunisticti-prominenti-se-brani-snizenym-penzim-sef-predlistopadoveho-ssm-se-zalobou-neuspel",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:51.656Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní soudní rozhodnutí s omezeným, ale zaznamenihodným precedenčním dopadem (subkomponenta J4 — rovnost před zákonem a vymahatelnost práva). Soudy potvrdily ústavnost a zákonnost mechanismu snižování důchodů, což je institucionálně relevantní precedent. Direction +1: rozhodnutí posiluje vymahatelnost demokraticky přijatého zákona. Pouze jeden mediální zdroj — podle source-count rule zádrže na severity 2.\n\n[auditor: flag] Direction +1 je sporná: jde o standardní výkon justice (soudy dělají svoji práci), nikoli o posilující institucionální událost. Subkomponenta J4 se týká rovnosti před zákonem — routine soudní rozhodnutí spíše direction: 0 nebo needs_review. Rubric §2 kotva slabá.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-06T00:00:00.000Z",
+    "expires_at": "2025-04-04T00:00:00.000Z"
+  }
+]

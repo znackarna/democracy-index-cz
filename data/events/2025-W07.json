@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2025-W07-001",
+    "date": "2025-02-11",
+    "headline": "V kauze olomouckých dopravních zakázek uzavřen první plea deal",
+    "summary": "V případu manipulace veřejných zakázek v Olomouckém kraji uzavřel první obviněný dohodu o vině a trestu se žalobcem. Soud o ní dosud nerozhodl. Jde o konkrétní procesní posun v korupční kauze zahrnující veřejné zakázky.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kauza olomouckých dopravních zakázek: první obviněný uzavřel dohodu o vině a trestu",
+        "url": "https://www.irozhlas.cz/zpravy-domov/kauza-olomouckych-dopravnich-zakazek-prvni-obvineny-uzavrel-dohodu-o-vine-a_2502112116_dci",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:42.528Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — uzavření dohody o vině a trestu je dílčí procesní krok v korupční kauze (subkomponenta K2 — veřejné zakázky), nikoli strukturální nebo systémový posun. Směr -1, protože korupce v oblasti veřejných zakázek index oslabuje, byť plea deal naznačuje funkci systému. Jednorázová událost, soud dosud nerozhodl.\n\n[auditor: flag] direction -1 je sporný: plea deal naznačuje funkční protikorupční systém (J4/K2), nikoliv jeho selhání. Zvažovat direction +1 nebo 0. Rubric anchor slabý — §2 neodkazuje na konkrétní kritérium severity 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-02-10T00:00:00.000Z",
+    "expires_at": "2025-05-06T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W07-002",
+    "date": "2025-02-16",
+    "headline": "Stovky lidí protestovaly v Praze proti sexuálnímu zneužívání v církvi a Vatikánské smlouvě",
+    "summary": "Před Arcibiskupským palácem v Praze se sešly stovky účastníků protestu organizovaného Iniciativou pro čistou církev. Demonstranti žádali odchod pražského arcibiskupa Jana Graubnera a odmítali ratifikaci Vatikánské smlouvy. Protest je součástí širší diskuse o odpovědnosti církevních institucí v ČR.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "‚Stop klerikalismu.‘ Na protest proti sexuálnímu obtěžování v církvi v Praze přišly stovky lidí",
+        "url": "https://www.irozhlas.cz/zpravy-domov/stop-klerikalismu-na-protest-proti-sexualnimu-obtezovani-v-cirkvi-v-praze-prisly_2502161953_ava",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:44.197Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní veřejné shromáždění s institucionálními požadavky (subkomponenta C2: svoboda shromažďování). Pokojná demonstrace proběhla bez omezení, což je pozitivní signál pro fungování občanských svobod. Požadavek zastavení ratifikace Vatikánské smlouvy přidává dimenzi institucionálního tlaku na vládu, ale jde o jednorázový incident bez přímého dopadu na instituci. Směr +1, protože demonstrace proběhla svobodně a bez státní represe, což je projev zdravého fungování C2.\n\n[auditor: flag] Severity 2 pro pokojnou demonstraci bez státní represe je přijatelná, ale direction +1 je sporný — absence represe je standard, ne pozitivní institucionální posun. Doporučuji direction 0 nebo needs_review pro C2 baseline events.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-02-10T00:00:00.000Z",
+    "expires_at": "2025-05-11T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W07-003",
+    "date": "2025-02-14",
+    "headline": "Policie obvinila pět osob z dezinformační scény v kauze útěku odsouzeného Čermáka",
+    "summary": "Česká policie obvinila pět osob napojených na dezinformační prostředí v souvislosti s tím, že odsouzený Tomáš Čermák před dvěma lety nenastoupil do výkonu trestu. Mezi obviněnými je i Peterková. Případ naznačuje vazby dezinformační sítě na maření výkonu justice.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kvůli útěku dezinformátora Čermáka stíhá policie Peterkovou a další čtyři lidi",
+        "url": "https://zpravy.aktualne.cz/domaci/kvuli-uteku-dezinformatora-cermaka-stiha-policie-peterkovou/r~029c68b4eab811ef9a9dac1f6b220ee8/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T12:23:19.953Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — policie konkrétně obvinila pět osob, jde o diskrétní procesní událost s omezeným systémovým dopadem (subkomponenta J4: rovnost před zákonem, výkon trestů). Směr +1, protože obvinění naznačuje funkční reakci justice na maření výkonu trestu. Sekundárně relevantní pro pilíř media/civil — dezinformační scéna, ale kořenová příčina je výkon soudního rozhodnutí (J4). Případ je jednorázový bez doložených systémových vzorců.\n\n[auditor: flag] direction +1 je obhajitelný, ale rubric anchor chybí — §2 není explicitně citován ve vazbě na J4. Pilíř judicial je správný. Sekundární relevance pro media/civil zmíněna v rationale, ale bez křížového odkazu dle pillars.md pravidla 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-02-10T00:00:00.000Z",
+    "expires_at": "2025-05-09T00:00:00.000Z"
+  }
+]

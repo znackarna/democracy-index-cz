@@ -1,0 +1,240 @@
+[
+  {
+    "id": "2025-W11-001",
+    "date": "2025-03-14",
+    "headline": "Praha připravuje odvolání šéfa magistrátu Kubelky kvůli korupčním kauzám",
+    "summary": "Pražský primátor Bohuslav Svoboda oznámil odvolání ředitele magistrátu Martina Kubelky a odeslal návrh ministru vnitra Rakušanovi. Důvodem jsou kauzy nevyváženého rozdělování odměn a pochybného udílení parkovacích oprávnění. Odvolání ředitele magistrátu vyžaduje souhlas ministra vnitra.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Praha po souhlasu Rakušana odvolá šéfa magistrátu Kubelku, uvedl Svoboda",
+        "url": "https://www.irozhlas.cz/zpravy-domov/praha-po-souhlasu-rakusana-odvola-sefa-magistratu-kubelku-uvedl-svoboda_2503141204_nel",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:59.975Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — personální zásah na střední úrovni veřejné správy (subkomponenta G1: dělba moci a institucionální odpovědnost) bez zřejmého kaskádového efektu. Samotné odvolání úředníka v reakci na prokázané pochybnosti je standardní institucionální mechanismus, avšak kauzy odměn a parkovacích oprávnění naznačují selhání transparentnosti (G4). Sekundárně relevantní pro pilíř corruption (K1, K2), neboť impulzem jsou podezření z korupčního jednání. Směr -1: indikuje předchozí selhání v řízení, byť reakce primátora je sama o sobě krokem k nápravě — celkový dopad na instituci je negativní z hlediska odhaleného stavu. Jedna mediální zpráva, bez dalšího potvrzení; nepřesahuje úroveň 2.\n\n[auditor: flag] Pilíř governance je sporný — kořenová příčina je korupce (K1, K2), nikoli fungování vlády (G1). Per pravidlo překryvu by primární pilíř měl být corruption. Rationale to uznává sekundárně, ale klasifikace je inverzní. Severity 2 je přiměřená.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z",
+    "expires_at": "2025-06-06T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W11-002",
+    "date": "2025-03-14",
+    "headline": "Pohřešovaný soudce Kafka vyřazen z policejní databáze hledaných bez vysvětlení",
+    "summary": "Soudce brněnského krajského soudu Roman Kafka byl vyřazen z policejní databáze pohřešovaných osob, aniž policie nebo NCOZ sdělily důvod. Kroměřížská policie i NCOZ odmítají případ komentovat. Situace vyvolává otázky ohledně transparentnosti postupu bezpečnostních složek v případu týkajícím se soudce.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pohřešovaný soudce Kafka zmizel z databáze hledaných. Důvod policie neuvedla",
+        "url": "https://www.irozhlas.cz/zpravy-domov/pohresovany-soudce-kafka-zmizel-z-databaze-hledanych-duvod-policie-neuvedla_2503140930_adn",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:59.975Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní datovanou událost (výmaz z databáze hledaných) s omezeným ale reálným institucionálním dopadem. Subkomponenta J2 (nezávislost a ochrana obecných soudů) je dotčena absencí transparentní komunikace bezpečnostních složek v případu soudce. Netransparentnost postupu NCOZ a policie (odmítnutí komentáře) je znepokojivá, ale bez důkazů o politickém pozadí nelze kvalifikovat výše. Jediný zdroj, fakta omezená — severity null/needs_review by byla přiměřenější při nejasnosti základních faktů, nicméně událost jako taková (výmaz z databáze) je ověřitelná; volím severity 2 s upozorněním na potřebu sledování dalšího vývoje.\n\n[auditor: flag] Rationale explicitně váhá mezi severity 2 a needs_review ('null/needs_review by byla přiměřenější'). Dle rubric §4 je při jediném zdroji a nejasných faktech správný postup null + needs_review, nikoli severity 2 s komentářem.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z",
+    "expires_at": "2025-06-06T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W11-003",
+    "date": "2025-03-14",
+    "headline": "ANO vyloučilo zastupitele Suchánka po incidentu se zbraní ve sněmovně",
+    "summary": "Předsednictvo hnutí ANO vyloučilo zastupitele Martina Suchánka na základě návrhu krajské organizace. Důvodem bylo jeho chování při incidentu se zbraní v prostorách sněmovny. Jde o interní stranickou disciplinární záležitost bez přímého institucionálního dopadu.",
+    "pillar": "electoral",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Předsednictvo ANO vyloučilo Suchánka kvůli incidentu se zbraní ve sněmovně",
+        "url": "https://domaci.hn.cz/c1-67659730-predsednictvo-ano-vyloucilo-suchanka-kvuli-incidentu-se-zbrani-ve-snemovne",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:54.397Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jedná se o interní stranickou záležitost bez institucionálního dopadu na volební proces nebo parlamentní fungování. Subkomponenta E2 (politický pluralismus) není dotčena; disciplinární vyloučení člena strany je standardní vnitrostranická praxe. Žádný precedent pro demokratické instituce. Direction 0, protože dopad na demokratické instituce je neutrální — strana funguje standardně, incident byl vyřešen interními mechanismy.\n\n[auditor: flag] Pilíř electoral je špatně — interní stranické vyloučení se netýká voleb ani pluralismu (E1–E4). Správně by byl buď governance nebo žádný demokratický dopad. Severity 1 a direction 0 jsou přiměřené, ale pilíř vyžaduje přehodnocení.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z",
+    "expires_at": "2025-06-06T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W11-004",
+    "date": "2025-03-14",
+    "headline": "Ministerstvo vnitra navrhuje rozšíření sledování internetového provozu uživatelů",
+    "summary": "Ministerstvo vnitra připravuje změnu vyhlášky o data retention, která by rozšířila povinné uchovávání údajů o uživatelích internetu — nad rámec IP adres i na navštívené webové stránky. Návrh vyvolává otázky ohledně přiměřenosti zásahu do soukromí a digitálních práv občanů.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Chce policie sledovat, kam chodíte na webu? Komentář k novému návrhu ministerstva vnitra",
+        "url": "https://tech.hn.cz/c1-67658730-chce-policie-sledovat-kam-chodite-na-webu-komentar-k-novemu-navrhu-ministerstva-vnitra",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:54.397Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh ministerstva vnitra na rozšíření data retention na obsah procházení webu (navštívené stránky) představuje významný zásah do subkomponenty C5 (práva v digitálním prostoru, ochrana před masovým sledováním státem). Pokud by byl přijat, šlo by o plošné sledování chování uživatelů internetu bez individuálního podezření. V tuto chvíli jde o předložený návrh, nikoli schválený předpis — escalation rule (+1 za formální dokument ve formě zákona) se proto neuplatní plně, severity zůstává na 3. Článek je komentářem, ale odkazuje na konkrétní návrh vyhlášky reportovaný iRozhlasem. Sekundárně se dotýká pilíře governance (G2 — kvalita legislativy, připomínkové řízení).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z",
+    "expires_at": "2025-06-06T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W11-005",
+    "date": "2025-03-13",
+    "headline": "Soud osvobodil skupinu obviněnou z machinací s vízy v hodnotě téměř miliardy korun",
+    "summary": "Obvodní soud pro Prahu 9 zprostil obžaloby skupinu Rusů a Vietnamců obviněných z rozsáhlých podvodů se systémem udělování českých víz. Soudkyně konstatovala, že jednání bylo sice nestandardní, avšak nepřekračuje hranici trestného činu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Drzý, ale nikoliv trestný byznys. Proč soud osvobodil skupinu, která si machinacemi s vízy přišla skoro na miliardu",
+        "url": "https://archiv.hn.cz/c1-67657520-drzy-ale-nikoliv-trestny-byznys-proc-soud-osvobodil-skupinu-ktera-si-machinacemi-s-vizy-prisla-skoro-na-miliardu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:54.397Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní soudní rozhodnutí s veřejným dopadem (téměř miliarda Kč v přiznané malinaci), které však nevykazuje politický tlak ani zásah do nezávislosti justice (subkomponenta J2, J4). Rozsudek je výsledkem standardního soudního procesu; jeho kontroverznost (osvobozující verdikt) sama o sobě neznačí systémové selhání. Direction 0 — rozhodnutí je výsledkem aplikace trestního práva soudem, bez prokazatelně negativního ani pozitivního institucionálního dopadu na demokratické ukazatele. Případ nicméně ukazuje na potenciální mezery v právní úpravě vízového systému (subkomponenta J4 — rovnost před zákonem v praxi).\n\n[auditor: flag] Direction 0 je problematický — osvobozující verdikt v kauze nestandardních víz za ~miliardu Kč bez jasného trestněprávního závěru může signalizovat mezery v J4 (rovnost před zákonem). Direction -1 s nižší jistotou nebo needs_review by byl přesnější než neutrál.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z",
+    "expires_at": "2025-06-05T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W11-006",
+    "date": "2025-03-13",
+    "headline": "Návrh na omezení sněmovních obstrukcí míří na vládu k posouzení",
+    "summary": "Poslankyně navrhuje změnu jednacího řádu Poslanecké sněmovny s cílem omezit možnosti opozičních poslanců blokovat hlasování dlouhými projevy. Návrh je ve fázi projednávání a čeká se na stanovisko ODS a vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Poslankyně proti &bdquo;žvanírně&ldquo;. Návrh na osekání obstrukcí ve sněmovně míří na vládu, čeká se na postoj ODS",
+        "url": "https://archiv.hn.cz/c1-67657450-poslankyne-proti-bdquo-zvanirne-ldquo-navrh-na-osekani-obstrukci-ve-snemovne-miri-na-vladu-ceka-se-na-postoj-ods",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:54.397Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh na omezení obstrukcí v parlamentu se dotýká subkomponenty G1 (dělba moci, kontrola exekutivy parlamentem) a G2 (kvalita legislativního procesu). Obstrukce jsou legitimní parlamentní nástroj menšiny; jejich plošné omezení může oslabit reálnou kontrolu opozice nad vládnoucí většinou a nastavit precedent pro zužování parlamentní debaty. Zatím jde o návrh (nikoli schválený zákon), což dle pravidel eskalace odpovídá severity 3 (nikoli 4). Direction -1, protože potenciální dopad na právo opozice na řádnou debatu je negativní z hlediska demokratické rovnováhy.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z",
+    "expires_at": "2025-06-05T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W11-007",
+    "date": "2025-03-13",
+    "headline": "Ústavní soud zamítl Babišovu stížnost ve věci povinné omluvy Kalouskovi",
+    "summary": "Ústavní soud odmítl ústavní stížnost předsedy ANO Andreje Babiše, který napadal rozsudek Nejvyššího soudu přikazující mu omluvit se Miroslavu Kalouskovi za výrok o padácích. Soud potvrdil ochranu cti politika v občanskoprávním sporu. Jde o standardní soudní řízení v rámci fungujícího právního státu.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "&bdquo;Zabil lidi cez padáky.&ldquo; Ústavní soud zamítl Babišovu stížnost proti rozsudku, na jehož základě se musel omluvit Kalouskovi",
+        "url": "https://archiv.hn.cz/c1-67657340-bdquo-zabil-lidi-cez-padaky-ldquo-ustavni-soud-zamitl-babisovu-stiznost-proti-rozsudku-na-jehoz-zaklade-se-musel-omluvit-kalouskovi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:54.397Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — ÚS rozhodl v rutinní věci ochrany osobnosti politika, žádný systémový ani precedentní dopad na nezávislost justice (subkomponenta J1, J4). Směr +1, protože ÚS funguje standardně a potvrzuje ochranu práv. Absence jakéhokoli prvku politického tlaku nebo narušení institucionálního prostředí.\n\n[auditor: flag] Direction +1 je slabě odůvodněn — rutinní odmítnutí ÚS stížnosti politika v občanskoprávním sporu není posilování instituce, jen standardní provoz. Direction 0 by byl přesnější. Rationale postrádá konkrétní rubric anchor.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z",
+    "expires_at": "2025-06-05T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W11-008",
+    "date": "2025-03-06",
+    "headline": "Sněmovna přijala energetickou novelu Lex OZE III upravující flexibilitu obnovitelných zdrojů",
+    "summary": "Česká sněmovna schválila novelu energetického zákona označovanou jako Lex OZE III, která po šesti letech příprav zavádí pravidla pro bateriová úložiště a flexibilitu obnovitelných zdrojů. Jde o konkrétní legislativní krok s dopadem na energetický sektor.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Lex OZE III dává v Česku šanci celému odvětví průmyslu. Klíčem k úspěchu jsou bateriová uložiště",
+        "url": "https://nazory.hn.cz/c1-67655400-lex-oze-iii-dava-v-cesku-sanci-celemu-odvetvi-prumyslu-klicem-k-uspechu-jsou-bateriova-uloziste",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:54.397Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — přijetí sektorové energetické novely je standardní legislativní akt bez signálu o porušení demokratické normy či procedury (subkomponenta G2). Novela prošla standardním procesem, článek neuvádí žádné procedurální pochybení. Směr +1, protože zákon řeší dlouhodobě odkládaný regulatorní deficit, tedy posiluje právní jistotu v dané oblasti. Duration persistent, protože zákon vstoupí v platnost a bude trvale regulovat odvětví. Datum odvozeno z formulace „minulý týden přijatá\n\n[auditor: flag] Pilíř governance pro sektorovou energetickou novelu bez demokratického rozměru je sporný — energetická regulace nepatří do žádné subkomponenty G1–G4 smysluplně. Událost by spíše neměla být v indexu vůbec, nebo potřebuje silnější zdůvodnění demokratické relevance.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W11-009",
+    "date": "2025-03-05",
+    "headline": "Sněmovna schválila Vatikánskou smlouvu navzdory kritice ze strany obětí zneužívání",
+    "summary": "Poslanecká sněmovna minulý týden schválila smlouvu mezi Českou republikou a Svatým stolcem. Kritici, včetně obětí sexuálního zneužívání ze strany duchovních, namítají, že dohoda může církvím umožnit krytí pachatelů a oslabuje ochranu obětí. Smlouva zaručuje mimo jiné svobodu vyznání a právo na námitku svědomí.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Církev se bojí, že bude muset dát obětem víc než jen svatý obrázek, říká k Vatikánské smlouvě žena znásilněná knězem",
+        "url": "https://domaci.hn.cz/c1-67655370-cirkev-se-boji-ze-bude-muset-dat-obetem-vic-nez-jen-svaty-obrazek-rika-k-vatikanske-smlouve-zena-znasilnena-knezem",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:54.397Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — schválená smlouva má konkrétní institucionální dopad (subkomponenta C4: ochrana menšin a zranitelných skupin) a je zdrojem odůvodněné kritiky ohledně ochrany obětí, ale zatím nejde o prokázané strukturální selhání. Jde o ratifikovaný mezinárodní dokument s trvalými účinky, nikoli o jednorázový incident — proto persistent. Chybí jasné důkazy o úmyslném oslabení mechanismů ochrany, takže závažnost 3 by vyžadovala silnější zdrojovou oporu. Sekundárně se téma dotýká pilíře governance (G2: legislativní proces a jeho transparentnost).\n\n[auditor: flag] Rationale konstatuje 'chybí jasné důkazy o úmyslném oslabení' ale přesto přiřazuje direction -1. Při absenci jasných důkazů o negativním dopadu na C4 by byl direction 0 nebo needs_review přesnější. Severity 2 obhajitelná.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W11-010",
+    "date": "2025-03-14",
+    "headline": "Vláda stahuje návrh vyhlášky o sledování internetových stránek uživatelů",
+    "summary": "Premiér Fiala oznámil, že vláda nepřijme připravovanou vyhlášku, která by ukládala povinnost sledovat a uchovávat záznamy o navštívených internetových stránkách. Návrh čelil ostré kritice jako opatření ohrožující digitální soukromí občanů. Couvnutí vlády přišlo po veřejném odporu politiků i odborníků.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vláda couvá. Fiala vyloučil přijetí vyhlášky o internetovém \"šmírování\"",
+        "url": "https://zpravy.aktualne.cz/domaci/vlada-couva-vyhlaska-o-sledovani-navstivenych-stranek/r~4a689fe400e511f095ee0cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T12:23:25.808Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2, direction +1 — vláda stáhla návrh, který by představoval závažný zásah do digitálního soukromí (subkomponenta C5: práva v digitálním prostoru, ochrana před masovým sledováním státem). Jde o pozitivní korekci institucionálním mechanismem (de-eskalace per rubric pravidla: rychlá korekce snižuje severity), přičemž samotný návrh by při přijetí dosáhl severity 3–4. Výsledek je demokraticky příznivý — tlak veřejnosti a opozice byl vyslyšen. One_off, protože vyhláška byla stažena a nejde o trvající stav.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-10T00:00:00.000Z",
+    "expires_at": "2025-06-06T00:00:00.000Z"
+  }
+]

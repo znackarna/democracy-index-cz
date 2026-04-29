@@ -1,0 +1,335 @@
+[
+  {
+    "id": "2025-W13-001",
+    "date": "2025-03-28",
+    "headline": "Soudce Krajského soudu v Brně zadržen policií pro podezření z podvodu",
+    "summary": "Policie zadržela soudce Romana Kafku z Krajského soudu v Brně v souvislosti s podezřením z podvodu. Kafka si měl půjčovat peníze od kolegů, advokátů i žalobců, čímž porušil závazné normy soudcovského chování. Případ potvrdil i jeho bývalý zaměstnavatel.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Případ Romana Kafky: Soudce si půjčoval od kolegů, advokátů i žalobců, zlom podle nich nastal loni na podzim",
+        "url": "https://denikn.cz/1692102/pripad-romana-kafky-soudce-si-pujcoval-od-kolegu-advokatu-i-zalobcu-zlom-podle-nich-nastal-loni-na-podzim/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T12:21:14.969Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní porušení normy soudcovského chování jedním soudcem s omezeným institucionálním dopadem; případ nemá systémový charakter ani nedochází ke kompromitaci celé instituce. Primárně jde o individuální pochybení (subkomponenta J2 — nezávislost obecných soudů), sekundárně K1 (korupční chování veřejného činitele). Korupce uvnitř justice se klasifikuje primárně do `judicial` per pravidlo překryvu pilířů. Single-source, ale závažnost sama o sobě odpovídá §2 — žádný eskalační důvod. Případ zatím ve fázi zadržení, nikoli pravomocného odsouzení.\n\n[auditor: flag] Korupce uvnitř justice se dle pillars.md klasifikuje primárně do `corruption`, sekundárně `judicial`. Rationale toto pravidlo zná, ale pilíř nechává jako `judicial` bez odůvodnění výjimky. Doporučuji přezkoumat primární pilíř.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-20T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-002",
+    "date": "2025-03-24",
+    "headline": "Policie prověřuje zakázky zdravotní pojišťovny MV firmám spjatým se šéfem lyžařů",
+    "summary": "Pražská policie prověřuje, zda Zdravotní pojišťovna ministerstva vnitra zadala firmám spojeným s Davidem Trávníčkem zakázky na marketing v hodnotě přes 40 milionů korun bez výběrového řízení. Na pochybné tendry upozornil Radiožurnál v loňském roce.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Policie zkoumá zakázky pojišťovny ministerstva vnitra pro firmy šéfa lyžařů Trávníčka",
+        "url": "https://www.irozhlas.cz/zpravy-domov/policie-zkouma-zakazky-pojistovny-ministerstva-vnitra-pro-firmy-sefa-lyzaru_2503240500_jar",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:12.321Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zakázky veřejného subjektu (státní pojišťovna) bez výběrového řízení v řádu desítek milionů Kč odpovídají subkomponentě K2 (veřejné zakázky, porušení ZZVZ). Zahájení policejního šetření potvrzuje institucionální dopad, nikoli pouhou spekulaci. Zatím jde o jeden případ bez prokázaného vzorce, proto severity 3, nikoli 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-16T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-003",
+    "date": "2025-03-29",
+    "headline": "Odsouzený za krádež půl miliardy z konsolidační agentury propuštěn, nabízí polici nové informace o Savovovi",
+    "summary": "Miloš Skořepa, odsouzený za pomoc při odcizení přibližně půl miliardy korun ze státní České konsolidační agentury před dvaceti lety, byl propuštěn z vězení. Skořepa nyní nabízí policii nové informace o roli podnikatele Savova v celé kauze.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Muž, který pomohl ukrást půl miliardy z konsolidační agentury, je venku z vězení. Řeknu víc o roli Savova, nabízí policii",
+        "url": "https://domaci.hn.cz/c1-67682360-muz-ktery-pomohl-ukrast-pul-miliardy-z-konsolidacni-agentury-je-venku-z-vezeni-reknu-vic-o-roli-savova-nabizi-policii",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o obnovu starší korupční kauzy (K1, K2) s potenciálně novými informacemi, nikoli o nový strukturální incident. Propuštění odsouzeného a jeho spolupráce s policií jsou procesní skutečnosti bez bezprostředního institucionálního dopadu. Pokud by nové výpovědi vedly k obvinění dalších osob, eskalace na severity 3+.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-21T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-004",
+    "date": "2025-03-28",
+    "headline": "NCOZ odložila tři kauzy exkancléře Mynáře po vrácení k došetření",
+    "summary": "Národní centrála proti organizovanému zločinu odložila vyšetřování tří kauz bývalého prezidentského kancléře Vratislava Mynáře, a to přesto, že je loni vrchní státní zastupitelství vrátilo k došetření. Kauzy se týkají slivovice z autoservisu, darů z prezidentské kanceláře a party stanu. Rozhodnutí NCOZ de facto uzavírá případy bez obžaloby.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Slivovice z autoservisu, dary prezidentské kanceláře i party stan. Policie odložila další tři kauzy exkancléře Mynáře",
+        "url": "https://domaci.hn.cz/c1-67681250-slivovice-z-autoservisu-dary-prezidentske-kancelare-i-party-stan-policie-odlozila-dalsi-tri-kauzy-exkanclere-mynare",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odložení tří kauz politicky exponované osoby po vrácení k došetření nadřízeným zastupitelstvím vytváří precedent pro nedostatečnou účinnost protikorupčních institucí (subkomponenta K4 — nezávislost a účinnost NCOZ). Skutečnost, že VSZ považoval původní odložení za nedostatečně odůvodněné a věc vrátil, ale NCOZ opět odložila, naznačuje možné selhání institucionálního mechanismu kontroly. Sekundárně se dotýká J3 (nezávislost státního zastupitelství). Jediný zdroj, proto zvažuji null, ale rozhodnutí NCOZ je ověřitelné oficiální institucionální akt potvrzený mluvčím — severity 3 zůstává; nebylo by přesnější nullovat, protože fakta jsou jasná. Anti-bias check: stejnou závažnost bych přiřadil odložení kauz politika jakékoli strany po vrácení k došetření.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Severity cap na 2 aplikován, ale rationale popisuje potenciálně systémové selhání K4 (opakované odložení po vrácení VSZ). Při dohledání druhého zdroje by event zasloužil severity 3+. Doporučuji aktivní monitoring pro eskalaci.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-20T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-005",
+    "date": "2025-03-26",
+    "headline": "Soudní dvůr EU rozhodne o pokutách ÚOHS vůči autorským svazům za TV poplatky v prázdných hotelích",
+    "summary": "Soudní dvůr EU v Lucemburku projednává spor trvající několik let mezi ÚOHS a ochrannými autorskými svazy ohledně pokut přesahujících 30 milionů Kč za TV poplatky v prázdných hotelových pokojích. Rozhodnutí SDEU může mít precedentní dopad nejen na tento případ, ale i na další spory týkající se hospodářské soutěže v EU.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Pokuty za TV poplatky v prázdných hotelových pokojích rozsekne Soudní dvůr EU. Ovlivní to i spor Apple s Bruselem",
+        "url": "https://archiv.hn.cz/c1-67678140-pokuty-za-tv-poplatky-v-prazdnych-hotelovych-pokojich-rozsekne-soudni-dvur-eu-ovlivni-to-i-spor-apple-s-bruselem",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o probíhající soudní spor s omezeným přímým institucionálním dopadem na demokratické instituce v ČR; SDEU řeší výklad unijního práva v konkrétní věci ÚOHS, nikoli otázku nezávislosti justice či právního státu (subkomponenta J4 — rovnost před zákonem, doby řízení). Direction 0, protože postoupení věci SDEU je standardní mechanismus bez jasného demokratického posílení či oslabení. Sekundárně subkomponenta G1 (dělba moci, role regulačních orgánů). Událost je persistent, neboť řízení před SDEU stále probíhá.\n\n[auditor: flag] Přiřazení k pilíři `judicial` je slabé — spor ÚOHS vs. autorské svazy je soutěžně-právní věc bez dopadu na demokratické instituce. Chybí přesvědčivé ukotvení v J4 nebo jiné subkomponentě. Zvážit vyloučení nebo pilíř `governance`.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-006",
+    "date": "2025-03-26",
+    "headline": "Mimořádná schůze sněmovny k obraně přerostla v politickou hádku navzdory výzvě prezidenta",
+    "summary": "Na mimořádné schůzi Poslanecké sněmovny věnované koncepci české obrany do roku 2035 vyzval prezident Pavel ke stranické zdrženlivosti. Krátce po jeho projevu vypukla mezi koalicí a opozicí (ANO) ostrá politická roztržka, čímž se schůze stala spíše předvolební arénou než věcnou debatou o obraně.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nedělejme z obrany politiku, vyzval prezident poslance. Nevydrželo to ani půl hodiny a opozice získala další &bdquo;munici&ldquo;",
+        "url": "https://archiv.hn.cz/c1-67678330-nedelejme-z-obrany-politiku-vyzval-prezident-poslance-nevydrzelo-to-ani-pul-hodiny-a-opozice-ziskala-dalsi-bdquo-munici-ldquo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázová epizoda politizace parlamentní schůze s omezeným dopadem na institucionální fungování; jde o kontroverzní chování bez trvalého precedentu. Subkomponenta G1 (dělba moci, kvalita parlamentní debaty) je dotčena, avšak nikoli systémovým způsobem. Prezidentova přítomnost a výzva ke zdržení přináší křížový odkaz na vztah exekutiva–legislativa, ale bez porušení ústavních norem. Single-source, tedy source-count rule udržuje severity na 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-18T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-007",
+    "date": "2025-03-26",
+    "headline": "Ústavní soud částečně vyhověl stížnosti oběti znásilňování, předseda Baxa se proti nálezu vymezil",
+    "summary": "Ústavní soud se částečně zastal dívky opakovaně znásilňované otčímem, jehož krajský soud v Brně zmírnil původní nepodmíněný trest. Předseda ÚS Baxa se veřejně vymezil vůči většinovému nálezu, což naznačuje vnitřní neshodu uvnitř soudu. Případ otevírá otázku přiměřenosti trestání za závažné sexuální trestné činy.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ústavní soud se zastal znásilňované dívky. Jenže jen částečně, proti verdiktu se postavil i předseda Baxa",
+        "url": "https://archiv.hn.cz/c1-67677620-ustavni-soud-se-zastal-znasilnovane-divky-jenze-jen-castecne-proti-verdiktu-se-postavil-i-predseda-baxa",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní nález ÚS v individuální trestní věci, který má precedentní potenciál v oblasti ochrany obětí sexuálního násilí (subkomponenta J4 — rovnost před zákonem, přiměřenost trestu), avšak bez systémového dopadu na nezávislost justice jako takové. Nesoulad předsedy Baxy s většinovým nálezem je interní institucionální dynamikou, nikoli politickým tlakem zvnějšku. Direction 0, neboť nález je částečně pozitivní pro oběť, zároveň však předseda vyjádřil odlišný právní názor — institucionální dopad není jednoznačně ani pozitivní ani negativní pro demokratické fungování justice. Single source.\n\n[auditor: flag] Events 007 a 010 pokrývají zřejmě tutéž kauzu (ÚS, KS Brno, oběť znásilňování). Pokud jde o jeden nález, jde o duplicitu — doporučuji sloučit nebo označit jeden jako needs_review. Direction 0 u 007 vs. -1 u 010 je vnitřně nekonzistentní pro tentýž případ.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-18T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-008",
+    "date": "2025-03-26",
+    "headline": "Sněmovna schválila zákon o superdávce, dopad na rozpočet zůstává nejasný",
+    "summary": "Poslanecká sněmovna schválila zákon zavádějící tzv. superdávku — sloučenou sociální dávku prosazovanou vládní koalicí. Zákon prošel s podporou koalice i principiálním souhlasem části opozice, nicméně jeho konkrétní dopad na státní rozpočet není dosud kvantifikován. Legislativní proces proběhl standardním způsobem.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Superdávka prošla sněmovnou, komu pomůže a jak dopadne na rozpočet, zůstává velkou neznámou",
+        "url": "https://archiv.hn.cz/c1-67677950-superdavka-prosla-snemovnou-komu-pomuze-a-jak-dopadne-na-rozpocet-zustava-velkou-neznamou",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — schválení zákona standardním legislativním procesem bez zkrácených lhůt nebo obcházení procedur; subkomponenta G2 (kvalita legislativy) není narušena. Nejistota ohledně rozpočtového dopadu je politickým rizikem, nikoli demokratickým backslindingem. Direction 0, protože jde o standardní legislativní akt bez jednoznačného institucionálního posílení či oslabení demokratického prostředí. Duration persistent, neboť zákon vstoupí v platnost a bude mít trvalé účinky.\n\n[auditor: flag] Severity 1, direction 0 pro schválený zákon je obhajitelné, ale pilíř `governance` je diskutabilní — věcná sociální reforma bez dopadu na G1–G4 by lépe odpovídala vyloučení z indexu. Rubric anchor chybí (není citován §1 explicitně).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-009",
+    "date": "2025-03-26",
+    "headline": "Sněmovna schválila sloučení čtyř sociálních dávek do jedné superdávky",
+    "summary": "Poslanecká sněmovna schválila zákon o reformě sociálních podpor, který nahrazuje čtyři dosavadní dávky (příspěvky na bydlení, na živobytí, dětské přídavky a doplatek na bydlení) jednou novou dávkou státní sociální pomoci. Žadatelé budou nově podávat jednu žádost u úřadu práce.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Sněmovna schválila reformu sociálních dávek. Současné čtyři nahradí jedna superdávka",
+        "url": "https://archiv.hn.cz/c1-67677640-snemovna-schvalila-reformu-socialnich-davek-soucasne-ctyri-nahradi-jedna-superdavka",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — standardní legislativní akt s omezeným dopadem na demokratické instituce samotné; jde o věcnou sociálněpolitickou reformu, nikoli o zásah do dělby moci, kvality legislativního procesu (subkomponenta G2) ani transparentnosti vládnutí (G4). Pozitivní směr (+1) z hlediska G2, neboť konsolidace agendy snižuje administrativní komplexitu. Persistent, protože zákon po nabytí účinnosti vytváří trvalý strukturální stav.\n\n[auditor: flag] Events 008 a 009 pokrývají zřejmě tutéž legislativní událost (schválení superdávky/sloučení dávek). Duplicita — doporučuji sloučit. Navíc direction +1 pro rutinní legislativu je nadhodnocení; G2 se posiluje reformou procesu, ne věcným obsahem zákona.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-010",
+    "date": "2025-03-26",
+    "headline": "Ústavní soud: podmíněný trest za znásilňování nezletilé porušil práva oběti, verdikt však nezrušil",
+    "summary": "Ústavní soud konstatoval, že Krajský soud v Brně porušil práva oběti tím, že otčímovi uložil podmíněný trest za opakované znásilňování nezletilé. ÚS verdikt přesto nezrušil a odkázal na svou omezenou roli v systému dělby moci; oběti ale přiznal právo domáhat se odškodnění.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Podmínka za opakované znásilňování nezletilé? Porušení práva oběti, které narušuje důvěru v trestní systém, řekl Ústavní soud",
+        "url": "https://domaci.hn.cz/c1-67677370-podminka-za-opakovane-znasilnovani-nezletile-ustavni-soud-se-divky-castecne-zastal-muze-zadat-odskodneni",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — ÚS identifikoval porušení práv oběti (subkomponenta J4 — rovnost před zákonem, zacházení s oběťmi v trestním řízení), avšak s omezeným systémovým dopadem, neboť verdikt nezrušil a sám uznal limitovanost své role. Nejde o strukturální selhání nezávislosti soudnictví, ale o konkrétní individuální pochybení nižší instance bez precedentní změny institucionálního rámce. Směr -1 z hlediska J4, protože systém neposkytl plnou ochranu oběti.\n\n[auditor: flag] Pravděpodobná duplicita s 2025-W13-007 (stejný případ, stejný soud, stejné období). Rationale a direction se liší (-1 vs. 0), což je vnitřně nekonzistentní. Jeden z eventů by měl být označen needs_review.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-18T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-011",
+    "date": "2025-03-25",
+    "headline": "Koalice Spolu zahájila předvolební kampaň podpisem koaliční smlouvy",
+    "summary": "Vládní koalice Spolu formálně zahájila kampaň před podzimními sněmovními volbami podpisem koaliční smlouvy v Praze. Premiér a předseda ODS Petr Fiala uvedl, že koalice chce oslovit voliče znepokojené změnami světového řádu.",
+    "pillar": "electoral",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Koalice Spolu slibuje reakci na&nbsp;měnící se světový řád",
+        "url": "https://archiv.hn.cz/c1-67677140-koalice-spolu-slibuje-reakci-na-menici-se-svetovy-rad",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — standardní předvolební aktivita bez institucionálního dopadu; zahájení kampaně a podpis koaliční smlouvy jsou běžnou součástí volebního procesu (subkomponenta E2 — politický pluralismus a soutěž), nikoli jeho narušením. Žádný zásah do férovosti voleb (E1) ani volební infrastruktury (E3). Směr 0 — neutrální institucionální dopad, jde o obvyklou demokratickou aktivitu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-012",
+    "date": "2025-03-25",
+    "headline": "Soud: Šlachta musí zaplatit Wollnerovi 400 tisíc za nepravdivé spojení s kauzou Dozimetr",
+    "summary": "Okresní soud v Břeclavi nepravomocně rozhodl, že předseda Přísahy Róbert Šlachta se musí omluvit bývalému šéfovi pořadu Reportéři ČT Marku Wollnerovi a zaplatit mu 400 000 korun. Šlachta novináře veřejně spojil s korupcí v kauze Dozimetr bez dostatečného základu. Rozsudek je zatím nepravomocný.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Soud: Šlachta se má omluvit Wollnerovi a zaplatit mu 400 tisíc. Novináře spojil s kauzou Dozimetr",
+        "url": "https://domaci.hn.cz/c1-67676610-soud-slachta-se-ma-omluvit-wollnerovi-a-zaplatit-mu-400-tisic-novinare-spojil-s-kauzou-dozimetr",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — soud přiznal ochranu novináři před nepravdivými politickými výroky, což posiluje subkomponentu M3 (bezpečnost novinářů, ochrana před šikanou). Direction +1, protože rozsudek je pro demokracii pozitivní — potvrzuje, že politický útok na novináře má právní důsledky. Nepravomocnost rozsudku a omezenost dopadu (jeden případ, jedna osoba) odůvodňují severity 2 spíše než 3. Sekundárně se dotýká pilíře judicial (J4 — rovnost před zákonem pro politicky exponované osoby).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-013",
+    "date": "2025-03-25",
+    "headline": "ÚOHS zastavil přesun kontroly nad BigBoard: J&T nesmí prozatím změnit akcionářskou strukturu",
+    "summary": "Úřad pro ochranu hospodářské soutěže vstoupil do transakce skupiny J&T a zakázal plánovanou změnu v akcionářské struktuře největší české firmy s venkovní reklamou BigBoard. Operace měla přenést kontrolu nad firmou na nové osoby, avšak ÚOHS ji zablokoval jako nedovolenou koncentraci. Případ nemá přímou politickou dimenzi.",
+    "pillar": "media",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Manévry J&T v jedničce s venkovní reklamou narazily. Palcr a spol. nesmí ovládnout BigBoard",
+        "url": "https://archiv.hn.cz/c1-67676440-manevry-j-t-v-jednicce-s-venkovni-reklamou-narazily-palcr-a-spol-nesmi-ovladnout-bigboard",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:56.550Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 — rozhodnutí ÚOHS o koncentraci na trhu venkovní reklamy se pohybuje na okraji mediálního pilíře (subkomponenta M1 — vlastnická diverzita). Dopad na pluralitu médií je nepřímý a omezený: bigboardy nejsou redakční médium. Direction 0, protože institucionální dopad na demokratické fungování médií je nejasný — ÚOHS zde funguje standardně. Článek nemá dostatečně silnou vazbu na demokratické ukazatele, aby dosáhl severity 2.\n\n[auditor: flag] Zařazení do pilíře `media` (M1) je hraniční — bigboardy nejsou redakční médium a dopad na pluralitu je nepřímý. Rationale to přiznává, ale event by lépe odpovídal vyloučení z indexu jako mimo scope demokratických ukazatelů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-17T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W13-014",
+    "date": "2025-03-30",
+    "headline": "Český výbor IPI vyzývá Stačilo! k omluvě novinářce Brodníčkové za výhrůžky a sexuální narážky",
+    "summary": "Správní rada českého výboru Mezinárodního tiskového institutu (IPI) veřejně odsoudila útoky vedení a příznivců hnutí Stačilo! na redaktorku Novinky.cz Karolínu Brodníčkovou, včetně sexuálních narážek a výhrůžek násilím. IPI vyzval hnutí k omluvě a všechny politické strany k odmítnutí podobných výhrůžek vůči novinářům.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Český výbor Mezinárodního tiskového institutu: Výzva hnutí Stačilo! k omluvě redaktorce Novinky.cz a všem stranám k odmítnutí výhrůžek",
+        "url": "https://domaci.hn.cz/c1-67683530-cesky-vybor-mezinarodniho-tiskoveho-institutu-vyzva-hnuti-stacilo-k-omluve-redaktorce-novinky-cz-a-vsem-stranam-k-odmitnuti-vyhruzek",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:58.779Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní incident s koordinovanými výhrůžkami a sexuálními narážkami ze strany politického subjektu vůči novinářce, který dokumentuje mezinárodní organizace (IPI). Subkomponenta M3 (bezpečnost novinářů). Incident je závažnější než verbální útok jednotlivce (rubric §1), ale bez doložené systematické kampaně nebo právní šikany zatím nedosahuje úrovně §3. Anti-bias check: stejná závažnost by byla přiřazena i jinému politickému subjektu. Sekundárně se dotýká C1 (svoboda projevu).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-24T00:00:00.000Z",
+    "expires_at": "2025-06-22T00:00:00.000Z"
+  }
+]

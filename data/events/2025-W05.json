@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2025-W05-001",
+    "date": "2025-01-27",
+    "headline": "Poslanci schválili status umělce – legislativa přijata kvůli souladu s EU",
+    "summary": "Sněmovna schválila zákon o statusu umělce, který má zlepšit podmínky pracovníků v kultuře. Poslanec za TOP 09 přiznal, že hlavní motivací bylo zabránit vrácení peněz do Bruselu, nikoli systémová reforma. Básnířka Anna Štičková upozorňuje, že zákon nepřináší zásadní narovnání podmínek.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Status umělce jsme přijali kvůli Unii, přiznává poslanec. ‚I to je krok dopředu,‘ říká básnířka",
+        "url": "https://www.irozhlas.cz/kultura/status-umelce-jsme-prijali-kvuli-unii-priznava-poslanec-i-je-krok-dopredu-rika_2501290010_elev",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:38.156Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní legislativní akt, byť s přiznanou motivací EU compliance spíše než věcnou reformou (subkomponenta G2). Zákon byl přijat standardním postupem, nebyly porušeny procedury. Přiznání poslance, že šlo primárně o EU compliance, je politicky zajímavé, ale institucionálně nevýznamné. Direction 0 — zákon má formálně pozitivní i negativní čtení (splnění závazků vs. nedostatečná ambice), bez jasného demokratického dopadu.\n\n[auditor: flag] Direction 0 je sporný: zákon byl přijat, instituce fungovala. Pokud zákon sám o sobě nemá demokratický dopad, event by mohl být celkově vynechán. Chybí ukotvení v konkrétním bodu rubric (§1 nestačí, měl by odkázat na G2 kritérium).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-27T00:00:00.000Z",
+    "expires_at": "2025-04-21T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W05-002",
+    "date": "2025-01-28",
+    "headline": "Policie znovu otevřela případ úmrtí Jana Masaryka na základě nových zahraničních dokumentů",
+    "summary": "Úřad dokumentace a vyšetřování zločinů komunismu znovu otevřel případ smrti Jana Masaryka z roku 1948. Nově získané dokumenty z diplomatických archivů USA, Francie a Velké Británie naznačují, že šlo o vraždu, nikoli sebevraždu.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Policie opět otevřela případ úmrtí Jana Masaryka. Dokumenty z USA i Francie naznačují, že šlo o vraždu",
+        "url": "https://www.irozhlas.cz/veda-technologie/historie/policie-opet-otevrela-pripad-umrti-jana-masaryka-dokumenty-z-usa-i-francie_2501281909_pj",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:38.156Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — otevření historické kauzy na základě nových dokumentů je procedurálně korektní krok, bez přímého dopadu na současné demokratické instituce. Subkomponenta J4 (rovnost před zákonem, vymahatelnost práva) je vzdáleně relevantní v rovině historické spravedlnosti, ale dopad na fungování dnešního právního státu je zanedbatelný. Direction +1 — aktivní přístup policie k objasňování zločinů komunismu je mírně pozitivním signálem pro nezávislost a institucionální paměť justice.\n\n[auditor: flag] Pillar judicial a direction +1 jsou problematické — otevření historické kauzy z roku 1948 nemá přímý dopad na J4 dnešního právního státu. Severity 1 správná, ale relevance pro index je velmi hraniční; zvážit vyloučení nebo needs_review.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-27T00:00:00.000Z",
+    "expires_at": "2025-04-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W05-003",
+    "date": "2025-01-28",
+    "headline": "Senát neupravil ani neschválil novelu o platech veřejných činitelů, vrátil ji Sněmovně",
+    "summary": "Senát nepřijal ani neupravil novelu zákona o platových poměrech veřejných činitelů, přestože senátoři měli výhrady vůči omezení platů v justici. Tím umožnil, aby novela postupovala k prezidentu k podpisu v původním znění.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Senát kvůli výhradám neschválil novelu o zvyšování platů veřejných činitelů, umožnil ale její přijetí",
+        "url": "https://www.irozhlas.cz/zpravy-domov/senat-neschvalil-novelu-o-zvysovani-platu-verejnych-cinitelu-vadi-mu-omezovani_2501281712_epo",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:38.156Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — Senát svou nečinností (neschválení ani neupravení) umožnil průchod novely, která obsahuje kontroverzní omezení platů v justici (subkomponenta G1 — dělba moci, role Senátu jako pojistky). Výhrady vůči krácení platů soudců se dotýkají sekundárně pilíře judicial (J1 — nezávislost soudů; nižší odměny mohou působit jako nepřímý tlak), zmíněno v rationale. Nejde o závažné porušení normy — Senát svůj postoj projevil výhradami, ale nedospěl k akci, což je v mezích jeho pravomocí. Direction -1 — průchod sporné novely bez korekce Senátu je mírně negativní pro kontrolní funkci druhé komory.\n\n[auditor: flag] Rationale popisuje Senátovu nečinnost jako porušení kontrolní funkce, ale Senát má právo nepřijmout ani neupravit novelu — jde o legitimní postup, ne pochybení. Direction -1 a severity 2 jsou proto přehnané; spíše severity 1, direction 0.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-27T00:00:00.000Z",
+    "expires_at": "2025-04-22T00:00:00.000Z"
+  }
+]

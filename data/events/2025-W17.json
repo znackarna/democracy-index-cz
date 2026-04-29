@@ -1,0 +1,143 @@
+[
+  {
+    "id": "2025-W17-001",
+    "date": "2025-04-25",
+    "headline": "Česká televize odmítla vpustit reportéry Deníku N a Seznam Zpráv na brífink ředitele Součka",
+    "summary": "Česká televize v pátek nepustila novináře dvou předních nezávislých médií na brífink generálního ředitele s odůvodněním, že šlo o akci pouze pro zvané. Šéfredaktor Deníku N situaci označil za nepřijatelnou selekci ze strany média veřejné služby. Incident nastává v kontextu napjatých vztahů vedení ČT s částí mediálního prostředí.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "‚Pro zvané novináře.‘ Česká televize odmítla vpustit reportéry Deníku N a Seznam zpráv na brífink Součka",
+        "url": "https://www.irozhlas.cz/zpravy-domov/pro-zvane-novinare-ceska-televize-odmitla-vpustit-reportery-deniku-n-a-seznam_2504251410_ako",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:20.073Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázové vyloučení novinářů konkrétních médií z tiskové konference s možnou politickou konotací, nicméně bez formální omluvy a v kontextu probíhajícího tlaku na vedení ČT. Subkomponenta M2 (nezávislost ČT) i M3 (přístup novinářů). Pokud by šlo o prokazatelný vzorec systematického vylučování těchto médií, eskalace na 3. Sekundárně relevantní M4 (přístup k informacím od veřejnoprávního subjektu).\n\n[auditor: flag] Rationale zmiňuje absenci omluvy jako faktor závažnosti, ale rubric §2 výslovně uvádí severity 2 pouze při 'jednorázovém vyloučení s následnou omluvou'. Bez omluvy a v kontextu napětí je argumentace pro severity 2 oslabena — možná territory severity 3 (precedent/vzorec). Zvážit eskalaci nebo needs_review.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-21T00:00:00.000Z",
+    "expires_at": "2025-07-18T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W17-002",
+    "date": "2025-04-25",
+    "headline": "Sněmovna vypustila ze zákona o volební kampani sankci za šíření lží a hrubých urážek",
+    "summary": "Poslanecká sněmovna rozhodla vyškrtnout z vládního návrhu zákona o volebních kampaních ustanovení, které by umožňovalo sankcionovat šíření zjevných lží a hrubých urážek v kampani pokutou až dva miliony korun. Změna se dotkne regulace volební kampaně před parlamentními i regionálními volbami.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Zveřejňování lží a hrubých urážek ve volebních kampaních nebude přestupkem, rozhodla Sněmovna",
+        "url": "https://www.irozhlas.cz/zpravy-domov/zverejnovani-lzi-a-hrubych-urazek-ve-volebnich-kampanich-nebude-prestupkem_2504251308_lar",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:20.073Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — parlamentní rozhodnutí vytváří precedent v regulaci volební integrity, subkomponenta E1 (férovost voleb, transparentnost kampaní). Odstranění sankčního mechanismu pro zjevné dezinformace v kampani oslabuje ochranu volebního procesu před manipulací, přičemž výsledný zákon bude mít trvalý normativní účinek. Duration persistent, protože výsledná úprava zákona vstoupí v platnost. Anti-bias check: stejné hodnocení by platilo nezávisle na stranické příslušnosti navrhovatelů změny.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Source-cap snížil severity z 3 na 2, ale rationale popisuje legislativní rozhodnutí s trvalým normativním účinkem (vstup zákona v platnost) — to odpovídá rubric §3, ne §2. Cap je technicky správný, ale výsledek podceňuje dopad. Doporučuji doplnit druhý zdroj a obnovit severity 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-21T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W17-003",
+    "date": "2025-04-25",
+    "headline": "Rada ČT bude v květnu jednat o odvolání generálního ředitele Součka",
+    "summary": "Předseda Rady České televize potvrdil, že v květnu proběhne jednání o odvolání generálního ředitele Jana Součka. Ten odmítl sám odstoupit a odůvodnil to dobrými výsledky televize i snahou o stabilitu instituce před volbami. Situace nastává v kontextu dlouhodobého napětí mezi vedením ČT a částí politického spektra.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "V České televizi budou jednat o odvolání generálního ředitele. Souček sám odstoupit nehodlá",
+        "url": "https://www.irozhlas.cz/zpravy-domov/ceska-televize-zvazuje-obnoveni-kanalu-ct3-ktery-byl-zamereny-na-reprizy-oznamil_2504251059_ako",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:20.073Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zahájení formálního procesu možného odvolání ředitele veřejnoprávního média Radou ČT je institucionálně závažná událost s dopadem na subkomponentu M2 (nezávislost ČT, procedury vedení). Samotné iniciování jednání o odvolání bez jasného věcného důvodu, v kontextu politického tlaku, může vytvářet chilling effect na editoriální nezávislost ČT. Duration persistent, protože proces bude pokračovat. Pokud by odvolání proběhlo prokazatelně z politických důvodů, eskalace na severity 4 per rubric §4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Source-cap snížil severity z 3 na 2, přičemž rationale popisuje formální institucionální proces (jednání o odvolání ředitele ČT) odpovídající rubric §3. Bez druhého zdroje technicky správné, ale klasifikátor správně identifikoval §3 úroveň. Doporučuji ověřit dalšími zdroji.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-21T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W17-004",
+    "date": "2025-04-25",
+    "headline": "Prezident Pavel podepsal novelu o zvýšení televizních a rozhlasových poplatků",
+    "summary": "Prezident Petr Pavel podepsal novelu zákona zvyšující televizní poplatky o 15 Kč na 150 Kč a rozhlasové o 10 Kč na 55 Kč měsíčně. Změna vstoupí v platnost od května 2025. Jde o posílení financování veřejnoprávních médií prostřednictvím standardního legislativního procesu.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Poplatky za rozhlas a televizi se od května zvýší. Novelu podepsal prezident Pavel",
+        "url": "https://www.irozhlas.cz/zpravy-domov/poplatky-za-rozhlas-a-televizi-se-od-kvetna-zvysi-novelu-podepsal-prezident_2504251048_ako",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:20.073Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — zvýšení poplatků je konkrétní legislativní akt s přímým dopadem na financování ČT a ČRo (subkomponenta M2). Jde o pozitivní krok pro finanční udržitelnost veřejnoprávních médií, ale rozsah je omezený (jednorázová zákonná změna, nikoli strukturální reforma). Direction +1: posílení financování ČT a ČRo, což přispívá k jejich nezávislosti na reklamním trhu a politickém tlaku. Duration persistent: zákon je v platnosti. Sekundárně se dotýká pilíře governance (standardní legislativní proces), ale primárně jde o M2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-21T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W17-005",
+    "date": "2025-04-25",
+    "headline": "Prezident Pavel svědčil u soudu v kauze odškodného pro generála Halenku",
+    "summary": "Prezident Petr Pavel vypovídal jako svědek u Obvodního soudu pro Prahu 2 v civilním sporu o odškodné pro generála ve výslužbě Vladimíra Halenku, jehož trestní stíhání bylo zastaveno. Pavel v době obvinění Halenky zastával funkci náčelníka generálního štábu. Soud zkoumá, zda stíhání ovlivnilo Halenkovu kariéru.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "‚Považoval jsem ho za profesionála a odborníka.‘ Pavel svědčil v kauze odškodného pro generála Halenku",
+        "url": "https://www.irozhlas.cz/zpravy-domov/povazoval-jsem-ho-za-profesionala-a-odbornika-pavel-svedcil-v-kauze-odskodneho_2504250917_adn",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:20.073Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — svědectví prezidenta u civilního soudu je standardní právní úkon bez institucionálního dopadu na demokratické fungování. Subkomponenta J4 (rovnost před zákonem) je splněna — prezident se dostavil jako svědek bez jakéhokoli záměru ovlivnit řízení. Nejde o útok na justici ani o ohrožení nezávislosti soudu. Direction 0: ambivalentní, resp. neutrální — jde o rutinní soudní úkon, nikoli o posílení ani oslabení instituce. Duration one_off.\n\n[auditor: flag] Zařazení do pilíře judicial je problematické — svědectví prezidenta v civilním sporu se netýká fungování justice ani jejích institucí. Spíše marginálně relevantní, nebo vůbec neklasifikovat. Rubric anchor na J4 je slabý: J4 měří rovnost zacházení, ne rutinní svědecké výpovědi.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-21T00:00:00.000Z",
+    "expires_at": "2025-07-18T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W17-006",
+    "date": "2025-04-25",
+    "headline": "Odvolací soud vrátil kauzu Altner vs. SOCDEM k novému projednání",
+    "summary": "Odvolací Městský soud v Praze zrušil předchozí rozsudek ve sporu o odměnu advokáta Zdeňka Altnera vůči Sociální demokracii a nařídil věc projednat znovu s důrazem na rozsah poskytnutých právních služeb. Spor o stamiliony korun tak pokračuje i po čtvrtstoletí. Případ se dotýká historického financování politické strany a rozsahu závazků vzniklých z advokátní smlouvy.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "HN získaly verdikt odvolacího soudu: Proč je spor o stamiliony v kauze Altner versus SOCDEM po čtvrtstoletí opět na začátku?",
+        "url": "https://archiv.hn.cz/c1-67714730-hn-ziskaly-verdikt-odvolaciho-soudu-proc-je-spor-o-stamiliony-v-kauze-altner-versus-socdem-po-ctvrtstoleti-opet-na-zacatku",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:23:01.632Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — procesní rozhodnutí odvolacího soudu o vrácení věci k novému projednání je standardní soudní úkon bez dopadu na demokratické instituce nebo nezávislost soudnictví (subkomponenta J2, J4). Kauza má historický politický přesah (financování SOCDEM), ale samotný verdikt není politicky motivovaný ani neohrožuje právní stát. Sekundárně se může dotýkat pilíře corruption (K3 — financování politiky), ale bez nových zjištění o korupci. Direction 0: neutrální soudní rozhodnutí. Duration one_off.\n\n[auditor: flag] Procesní rozhodnutí odvolacího soudu bez politického rozměru nebo institucionálního dopadu pravděpodobně nesplňuje práh pro záznam v indexu. Severity 1 a direction 0 jsou správné, ale relevance pro demokratický index je velmi nízká. Zvážit vyloučení z datasetu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-21T00:00:00.000Z",
+    "expires_at": "2025-07-18T00:00:00.000Z"
+  }
+]

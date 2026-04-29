@@ -1,0 +1,309 @@
+[
+  {
+    "id": "2025-W18-001",
+    "date": "2025-04-30",
+    "headline": "Ředitel ČT Souček tvrdí, že byl vydírán prostřednictvím radního Matochy",
+    "summary": "Generální ředitel České televize Jan Souček předložil Deníku N SMS zprávy, které podle něj dokládají vydírání ze strany prostředníka radního Pavla Matochy. Zprávy měly Součka tlačit ke vstřícnosti vůči Radě ČT pod hrozbou osobní újmy. Jde o nový rozměr dlouhodobého konfliktu mezi vedením ČT a částí Rady ČT.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Nechci, abys šel pod most.“ Souček popsal, kdo a jak ho měl vydírat",
+        "url": "https://denikn.cz/1720984/nechci-abys-sel-pod-most-soucek-popsal-kdo-a-jak-ho-mel-vydiral/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T12:21:23.288Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — tvrzení o vydírání generálního ředitele veřejnoprávního média členem jeho dozorčího orgánu je přímým útokem na institucionální nezávislost ČT (subkomponenta M2). Pokud by se prokázalo, šlo by o prokazatelný politický tlak na editoriální a personální rozhodování v ČT. Jediný primární zdroj (Deník N), ale Souček je přímo citovaný a zprávy mu byly ukázány. Severity ponechána na 4 vzhledem k závažnosti obvinění a institucionálnímu kontextu; bez dalšího potvrzení zvažována null — ponecháno 4 s poznámkou pro review. Sekundárně relevantní dimenze: governance (G1 — kontrola veřejnoprávní instituce dozorčím orgánem).\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]\n\n[auditor: flag] Severity 2 (po source-cap z 4) — rationale ale popisuje závažnost 4 a sám klasifikátor váhal. Mismatch: rationale je kalibro­ván na severity 4, výsledné skóre je 2. Pro reviewera: ověřit dalšími zdroji, zda tvrzení o vydírání potvrzují i jiná média.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-002",
+    "date": "2025-04-30",
+    "headline": "Poslanci ze zákona o volebních kampaních vyškrtli sankce za nepravdivé informace",
+    "summary": "Při projednávání zákona o volebních kampaních sněmovna odstranila ustanovení umožňující sankcionovat uvádění nepravdivých nebo hrubě urážlivých informací v kampani. Experti se neshodují na tom, zda by taková regulace byla vůbec vymahatelná, a politolog poradce premiéra považuje voliče za nejvyššího arbitra pravdivosti.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Lež jako volební strategie? Tenká linie, míní advokát. ‚Nejvyšší arbitr by měl být volič,‘ opáčil politolog",
+        "url": "https://www.irozhlas.cz/zpravy-domov/lez-jako-volebni-strategie-tenka-linie-mini-advokat-nejvyssi-arbitr-mel-byt_2504302230_jkd",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:22.295Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — odstranění ustanovení je konkrétní legislativní rozhodnutí s omezeným přímým dopadem; problematika regulace nepravdy v kampani je normativně sporná (ochrana svobody projevu vs. integrita voleb, subkomponenta E1). Nejde o systémové omezení férové soutěže, ale o vědomé upuštění od nové regulace, což lze klasifikovat jako drobný jednorázový incident. Sekundárně relevantní: civil (C1 — svoboda projevu v kampani). Direction -1 protože absence sankčního mechanismu mírně oslabuje integritu volebního procesu, ale efekt je sporný — není jednoznačné, zda taková regulace demokratické prostředí posiluje nebo oslabuje.\n\n[auditor: flag] Direction -1 je sporný: upuštění od nové regulace nepravdivých výroků v kampani lze číst jako ochranu svobody projevu (C1), tedy neutrální nebo +1. Rationale sám připouští normativní spor, přesto přiřazuje -1. Doporučuji needs_review nebo direction 0.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z",
+    "expires_at": "2025-07-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-003",
+    "date": "2025-04-30",
+    "headline": "Rada ČT svolává mimořádné zasedání kvůli hlasování o odvolání ředitele Součka",
+    "summary": "Rada České televize se příští úterý mimořádně sejde, aby hlasovala o odvolání generálního ředitele Jana Součka. K vyvolání zasedání přispěly občanské iniciativy včetně Milionu chvilek, které Součkovi vyčítají destabilizaci televize. Souček sám rezignaci nezvažuje a tvrdí, že absorboval vnější tlaky, aniž by je přenesl dovnitř instituce.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nebyl jsem to já, kdo tuto situaci způsobil, vysvětluje dění v ČT její ředitel Souček. Rezignaci nezvažuje",
+        "url": "https://www.irozhlas.cz/zpravy-domov/nebyl-jsem-ja-kdo-tuto-situaci-zpusobil-vysvetluje-deni-v-ct-jeji-reditel-soucek_2504301943_job",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:22.295Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — svolání mimořádného zasedání Rady ČT za účelem odvolání generálního ředitele je institucionálně významná událost s přímým dopadem na nezávislost vedení veřejnoprávního média (subkomponenta M2). Nejde dosud o dokončený akt (odvolání se teprve bude hlasovat), ale vytváří silný precedent a tlak. Pokud by hlasování proběhlo na politickém základě bez věcného důvodu, eskalovalo by na severity 4 (srov. rubric §4 — veřejnoprávní médium odvolá vedení po politickém tlaku). Duration persistent, protože krize probíhá kontinuálně.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-004",
+    "date": "2025-04-30",
+    "headline": "Oběť sexuálního zneužívání žádá od státu 600 tisíc Kč odškodného po nálezu ÚS",
+    "summary": "Dívka, jejíž případ řešil Ústavní soud v březnu 2025, podala žádost o odškodnění 600 tisíc Kč za nemajetkovou újmu způsobenou státem. ÚS dříve konstatoval, že podmíněný trest pro pachatele porušil práva oběti, rozsudek však nezrušil. Ministerstvo spravedlnosti existenci žádosti potvrdilo.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Dívka, kterou znásilňoval otčím, žádá odškodnění. Za nemajetkovou újmu požaduje od státu 600 tisíc korun",
+        "url": "https://www.irozhlas.cz/zpravy-domov/divka-kterou-znasilnoval-otcim-zada-odskodneni-za-nemajetkovou-ujmu-pozaduje-od_2504301917_jkd",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:22.295Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jedná se o konkrétní právní krok navazující na nález ÚS z března 2025 (subkomponenta J4 — rovnost před zákonem a ochrana obětí). Samotné podání žádosti o odškodnění je standardní procesní akt bez širšího institucionálního dopadu; dopad nálezu ÚS byl zaznamenán v době jeho vydání. Direction 0 — jde o neutrální procesní úkon v rámci standardního fungování systému, nikoli o posílení ani oslabení institucí.\n\n[auditor: flag] Pilíř judicial a severity 2 jsou přiměřené, ale direction 0 je sporný: úspěšné uplatnění nálezu ÚS přes odškodňovací žádost lze číst jako +1 (instituce funguje). Rationale neobsahuje explicitní rubric anchor.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z",
+    "expires_at": "2025-07-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-005",
+    "date": "2025-04-29",
+    "headline": "Vysílací rada chce povinnou registraci úspěšných influencerů",
+    "summary": "Rada pro rozhlasové a televizní vysílání vydala stanovisko požadující registraci tvůrců obsahu, kteří dosáhnou alespoň 500 tisíc zhlédnutí ročně, publikují nejméně 52 videí a vydělají nad 50 tisíc korun ročně. Rada je ze zákona dozorovým orgánem audiovizuálních mediálních služeb na vyžádání.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Příjem nad 50 000 a přes půl milionu zhlédnutí. Vysílací rada chce registrovat úspěšné influencery",
+        "url": "https://www.irozhlas.cz/zpravy-domov/prijem-nad-50-000-a-pres-pul-milionu-zhlednuti-vysilaci-rada-chce-registrovat_2504301735_job",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:22.295Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o stanovisko regulatorního orgánu s omezeným bezprostředním dopadem, které však může vytvářet precedent pro rozšíření regulace na nové kategorie mediálních subjektů (subkomponenta M1 — mediální pluralita, dostupnost prostoru pro různé hlasy). Stanovisko zatím nemá formu závazného právního předpisu, takže eskalace na 3 není oprávněná. Direction -1, protože rozšíření regulatorních povinností na malé tvůrce obsahu může odrazovat od vstupu nových subjektů a omezovat pluralitu.\n\n[auditor: flag] Direction -1 je předčasný: jde o stanovisko bez závazné právní síly. Rationale to přiznává, přesto přiřazuje -1. Rubric §1/2 u pouhých stanovisek preferuje direction 0 nebo null; doporučuji přehodnotit.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z",
+    "expires_at": "2025-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-006",
+    "date": "2025-04-30",
+    "headline": "Ředitel Zdravotní pojišťovny MV pobírá odměny přes 400 tisíc měsíčně; šéf dozorčí rady si nepamatuje důvod",
+    "summary": "Ředitel Zdravotní pojišťovny ministerstva vnitra David Kostka dostává měsíční odměny 416 tisíc korun nad rámec čtvrtmilionového platu; celkový příjem dosahuje 666 tisíc měsíčně. Šéf dozorčí rady, který o odměnách rozhodoval, nedokáže vysvětlit jejich odůvodnění.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ředitel pojišťovny dostává odměny téměř půl milionu korun měsíčně. Za co přesně? Nevzpomínám si, říká šéf rady, která rozhodla",
+        "url": "https://domaci.hn.cz/c1-67720790-reditel-pojistovny-dostava-odmeny-temer-pul-milionu-korun-mesicne-za-co-presne-nevzpominam-si-rika-sef-rady-ktera-rozhodla",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:23:01.632Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — odměňování ve veřejné instituci bez transparentního zdůvodnění odpovídá subkomponentě K1 (střet zájmů a zneužívání veřejných prostředků) a K2 (transparentnost nakládání s veřejnými prostředky). Případ je zatím doložen jedním zdrojem (Hlídač státu / HN) a nemá prokázaný přímý politický rozměr; eskalace na 3 by vyžadovala více zdrojů nebo jasnou politickou vazbu. Direction -1 pro deficit transparentnosti ve veřejné správě.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z",
+    "expires_at": "2025-07-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-007",
+    "date": "2025-04-30",
+    "headline": "Francouzská EdF připravuje novou žalobu na výsledek tendru na Dukovany",
+    "summary": "Neúspěšný uchazeč EdF hodlá v nejbližších dnech soudně napadnout průběh tendru na výstavbu jaderných bloků v Dukovanech, ve kterém zadavatel ČEZ vybral korejský KHNP. Smlouva má být přesto podepsána 7. května.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Smlouva na Dukovany se podepíše 7. května. Francouzská EdF chystá novou žalobu na výběr vítěze",
+        "url": "https://byznys.hn.cz/c1-67720800-smlouva-na-dukovany-se-podepise-7-kvetna-francouzska-edf-chysta-novou-zalobu-na-vyber-viteze",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:23:01.632Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o komerčně-právní spor v rámci velkého státem sledovaného tendru; samotné podání žaloby soukromou firmou nepředstavuje zásah do demokratických institucí, ale dotýká se transparentnosti zadávacích řízení s politickým rozměrem (subkomponenta G4 — transparentnost vládnutí; sekundárně K2 — veřejné zakázky). Direction 0, protože žaloba je standardním právním nástrojem a institucionální dopad není jednoznačně pozitivní ani negativní — výsledek závisí na soudním procesu.\n\n[auditor: flag] Pilíř governance (G4) je hraniční; primární kořen je K2 (veřejné zakázky, komerční spor). Dle pravidla překryvu pilířů by primárním pilířem měl být corruption/K2. Direction 0 je přijatelný.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z",
+    "expires_at": "2025-07-23T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-008",
+    "date": "2025-04-29",
+    "headline": "Sněmovna doporučila neschválit výroční zprávu ČT, ředitel Souček čelil kritice poslanců",
+    "summary": "Generální ředitel ČT Jan Souček obhajoval své vedení veřejnoprávního média před poslanci, kteří nakonec doporučili výroční zprávu ČT neschválit. Hlasování se koná v kontextu sporů o Součkovo zvolení a jeho údajné sliby radnímu Veselému. Jde o signál parlamentní nedůvěry vůči vedení veřejnoprávního média.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Souček se hájil ve sněmovně. Nezabralo to, poslanci doporučili neschválit výroční zprávu ČT",
+        "url": "https://archiv.hn.cz/c1-67719020-soucek-se-hajil-ve-snemovne-nezabralo-to-poslanci-doporucili-neschvalit-vyrocni-zpravu-ct",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:23:01.632Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — parlamentní doporučení neschválit výroční zprávu ČT je konkrétní institucionální krok s omezeným přímým dopadem na fungování média, ale politicky signifikantní. Subkomponenta M2 (nezávislost ČT a ČRo, ochrana před politickým tlakem na editoriální obsah). Samotné doporučení nevede k odvolání ředitele ani ke změně struktury, je to procedurální krok bez přímého dopadu na chod ČT; eskalace na 3 by vyžadovala prokázaný tlak na editoriální obsah nebo personální změny. Sekundárně se dotýká subkomponenty G1 (parlamentní kontrola instituci), ale primárně jde o mediální pilíř.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z",
+    "expires_at": "2025-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-009",
+    "date": "2025-04-29",
+    "headline": "Odvolací soud nařídil nové projednání kauzy psychiatra Cimického",
+    "summary": "Pražský městský soud jako odvolací instance rozhodl, že případ psychiatra Jana Cimického, původně odsouzeného za znásilnění a vydírání, musí znovu projednat Obvodní soud pro Prahu 8. Jde o standardní procesní postup v rámci soudního přezkumu.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Případem Cimického se bude muset znovu zabývat soud",
+        "url": "https://archiv.hn.cz/c1-67719130-pripadem-cimickeho-se-bude-muset-znovu-zabyvat-soud",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:23:01.632Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — nařízení retrial odvolacím soudem je standardní procesní rozhodnutí bez precedentního charakteru ani politického rozměru; nejedná se o útok na nezávislost soudnictví ani o politicky motivovaný zásah. Subkomponenta J2 (nezávislost obecných soudů) — zde soud funguje normálně v rámci přezkumného řízení. Direction 0, protože jde o neutrální procesní krok (přezkum v trestní věci), nikoli o posílení ani oslabení demokratické instituce. Událost je zaznamenána pro úplnost, ale má minimální dopad na demokratický index.\n\n[auditor: flag] Severity 1, direction 0 jsou obhajitelné, ale zařazení do indexu je sporné: standardní retrial bez politického rozměru nemá dopad na demokratické instituce. Rubric §1 uvádí 'zaznamenáno pro úplnost' — zvážit vyloučení nebo needs_review.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z",
+    "expires_at": "2025-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-010",
+    "date": "2025-04-29",
+    "headline": "Korespondenční volba pro Čechy v zahraničí: zájem zatím nízký, propagaci podpoří i prezident",
+    "summary": "Češi žijící dlouhodobě v zahraničí budou moci poprvé v letošních sněmovních volbách hlasovat korespondenčně, aniž by museli cestovat na ambasádu. Zájem o registraci je zatím nízký a k propagaci nové možnosti má přispět i prezident republiky.",
+    "pillar": "electoral",
+    "severity": 1,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "O korespondenční volbu zatím není příliš velký zájem. Pomáhat s její propagací má i prezident",
+        "url": "https://archiv.hn.cz/c1-67718430-o-korespondencni-volbu-zatim-neni-prilis-velky-zajem-pomahat-s-jeji-propagaci-ma-i-prezident",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:23:01.632Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — zavedení korespondenční volby je pozitivní institucionální inovace (subkomponenta E3 — volební infrastruktura, rozšíření přístupu k hlasování), ale konkrétní zpráva o nízkém zájmu a propagaci je procedurální informace bez výraznějšího institucionálního dopadu. Direction +1, protože rozšíření volebních možností pro zahraniční Čechy demokratické procesy posiluje. Persistent, protože jde o novou trvalou součást volebního systému, nikoli jednorázový incident.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-011",
+    "date": "2025-04-28",
+    "headline": "Politici napříč spektrem volají po odchodu ředitele ČT Součka, padají jména nástupců",
+    "summary": "Poslanci a senátoři z příslušných výborů a komisí napříč politickým spektrem se shodují, že pozice generálního ředitele České televize Jana Součka je neudržitelná. Veřejně to komentovat nechtějí, aby nevytvářeli politický tlak, přesto sdílejí jména možných nástupců. Situace signalizuje rostoucí tlak politické sféry na vedení veřejnoprávní televize.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Součkova pozice je neudržitelná, shodují se politici zleva i zprava. Už padají jména jeho možného nástupce",
+        "url": "https://archiv.hn.cz/c1-67717650-souckova-pozice-je-neudrzitelna-shoduji-se-politici-zleva-i-zprava-uz-padaji-jmena-jeho-mozneho-nastupce",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:23:01.632Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — koordinovaný politický tlak napříč stranami na odvolání ředitele ČT (subkomponenta M2: nezávislost ČT a ČRo, ochrana před politickým tlakem na vedení). Politici sice deklarují, že nechtějí veřejně komentovat z obav z tlaku, ale samotný fakt, že pětice poslanců a dvojice senátorů soukromě sdílejí jména nástupce, vytváří tlak na institucionální nezávislost. Anti-bias check: totéž hodnocení by platilo bez ohledu na politickou orientaci aktérů. Persistent, protože jde o pokračující stav, nikoli jednorázovou událost.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-012",
+    "date": "2025-04-28",
+    "headline": "STAN odsunul vítěze vlastní Podpisovky Havlíčka na nevolitelné místo kandidátky",
+    "summary": "Stanislav Havlíček zvítězil v předvolební akci STAN nazvané Podpisovka, avšak vedení hnutí ho přesto zařadilo na nevolitelné místo kandidátní listiny. Předseda Rakušan mu ani nezavolal. Případ nastoluje otázku, nakolik vnitrostranické nominační procesy odpovídají výsledkům vlastních participativních mechanismů.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Rakušan ani nezavolal. Nevzdám to, říká vítěz Podpisovky STAN, kterého hnutí odsunulo na nevolitelné místo",
+        "url": "https://domaci.hn.cz/c1-67714350-rakusan-ani-nezavolal-nevzdam-to-rika-vitez-podpisovky-stan-ktereho-hnuti-odsunulo-na-nevolitelne-misto",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:23:01.632Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — vnitrostranické rozhodnutí, které ignoruje výsledek vlastního participativního procesu, je politicky kontroverzní a zaslouží zaznamenání, ale samo o sobě neohrožuje demokratickou instituci ani nevolební systém (subkomponenta E2: reálná soutěž, dostupnost kandidatury). Jde o interní stranické rozhodnutí v rámci legálně přípustné autonomie strany. Anti-bias check: stejné hodnocení by platilo pro libovolnou jinou stranu.\n\n[auditor: flag] Pilíř electoral (E2) je hraniční — jde o interní stranický proces, nikoli o volby do státních funkcí. Rubric E2 míří na zákonné/de facto bariéry pro subjekty, ne na interní nominace. Zvážit downgrade pilíře nebo needs_review.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z",
+    "expires_at": "2025-07-21T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W18-013",
+    "date": "2025-04-28",
+    "headline": "Třetina Rady ČT iniciuje mimořádnou schůzi k odvolání generálního ředitele Součka na 6. května",
+    "summary": "Předseda Rady České televize Karel Novák svolává na návrh třetiny radních mimořádnou schůzi na 6. května, jejímž tématem má být odvolání generálního ředitele Jana Součka. Důvodem je nespokojenost části rady s jeho působením. Mediální analytik situaci hodnotí jako projev rostoucí nespokojenosti, přičemž rychlost svolání schůze signalizuje eskalaci tlaku na vedení veřejnoprávní televize.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Rychlý tlak na jednání rady naznačuje rostoucí nespokojenost s generálním ředitelem České televize, říká mediální analytik",
+        "url": "https://podcasty.hn.cz/c1-67714740-rychly-tlak-na-jednani-rady-naznacuje-rostouci-nespokojenost-s-generalnim-reditelem-ceske-televize-rika-medialni-analytik",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:23:01.632Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — svolání mimořádné schůze rady s cílem odvolat ředitele ČT je konkrétní institucionální krok, který přímo ohrožuje stabilitu vedení veřejnoprávní televize (subkomponenta M2: nezávislost ČT a ČRo). Rubric §3 zmiňuje jako příklad 'zákon o ČT/ČRo s návrhy měnícími politickou kontrolu nad volbou rad — v rané fázi'. Odvolání ředitele je přímější hrozba; dosud jde o svolání schůze, nikoli o samotné odvolání, proto 3 a nikoli 4. Persistent, protože situace trvá a výsledek schůze 6. 5. není ještě znám. Sekundárně zasahuje do pilíře governance (parlamentní výbory koordinující tlak). Anti-bias check: stejné hodnocení bez ohledu na politickou orientaci radních.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-04-28T00:00:00.000Z"
+  }
+]

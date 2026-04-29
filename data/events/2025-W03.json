@@ -1,0 +1,121 @@
+[
+  {
+    "id": "2025-W03-001",
+    "date": "2025-01-15",
+    "headline": "Soud má vynést rozsudek nad Mynářem v kauze podvodu s dotacemi",
+    "summary": "Bývalý kancléř prezidenta Zemana Vratislav Mynář čelí soudnímu rozsudku v kauze dotačního podvodu spojeného s jeho penzionem v Osvětimanech. Státní zástupce požaduje podmíněný trest a peněžitou pokutu ve výši deseti milionů korun. Mynář vinu odmítá a trvá na správnosti podané žádosti.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Mynáře čeká soudní verdikt. Žalobce žádá podmínku a peněžitý trest, exkancléř vinu odmítá",
+        "url": "https://www.irozhlas.cz/zpravy-domov/mynare-ceka-soudni-verdikt-zalobce-zada-podminku-a-penezity-trest-exkancler-vinu_2501150500_pik",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:31.772Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — dotační podvod ze strany vysokého ústavního úředníka (kancléř prezidenta republiky) naplňuje subkomponentu K1 (politická korupce, zneužití postavení). Rozsudek je konkrétní datovaná událost s institucionálním dopadem. Případ se týká osoby bezprostředně spjaté s výkonem prezidentské funkce, což zvyšuje závažnost oproti běžné korupční kauze. Nejde o severity 4, protože aktér již není ve funkci a kauza se týká jednoho konkrétního skutku, nikoli strukturálního schématu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Rationale explicitně uvádí severity 3, ale událost byla stropována na 2 kvůli pravidlu jediného zdroje. Samotná klasifikace pilíře (K1) je správná. Nicméně rationale popisuje soudní rozsudek — nikoli korupci samotnou — jako klíčovou událost; dopad je spíše J4 (rovnost před zákonem) než K1. Zvažte přeřazení nebo křížový odkaz.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-13T00:00:00.000Z",
+    "expires_at": "2025-04-09T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W03-002",
+    "date": "2025-01-14",
+    "headline": "Česko dokončilo rozšíření ropovodu TAL pro případ výpadku ruské ropy",
+    "summary": "Premiér Fiala a ředitel MERO oznámili dokončení technologických úprav ropovodu TAL, které umožní plné zásobování ČR ropou ze západu. Testy a certifikace stále probíhají, přechod od ruské ropy je plánován na polovinu roku 2025.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Ruskou ropu Česko podle Fialy odstřihne v polovině roku. Ropovod TAL kvůli tomu prošel rozšířením",
+        "url": "https://www.irozhlas.cz/ekonomika/ruskou-ropu-cesko-podle-fialy-odstrihne-v-polovine-roku-ropovod-tal-kvuli-tomu_2501141744_kvr",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:31.772Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní a pozitivní institucionální krok v oblasti energetické bezpečnosti státu. Jde o výsledek realizace vládní strategie (subkomponenta G4 — transparentnost a výkaznost vládnutí), nikoli o strukturální změnu demokratických institucí. Dopad na demokracii je marginální, ale zaznamenání je relevantní jako pozitivní vládní výkon. Direction +1 vzhledem k posílení suverenity a nezávislosti na autoritářském státu.\n\n[auditor: flag] Energetická infrastruktura (TAL) nespadá pod G4 (transparentnost vládnutí) ani pod žádnou subkomponentu governance v pillars.md. Jde o bezpečnostní/energetickou politiku, nikoli o demokratické instituce. Pilíř governance je sporný; vhodné needs_review nebo vyloučení.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-13T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W03-003",
+    "date": "2025-01-15",
+    "headline": "Krajský soud zprostil exkancléře Mynáře obžaloby z dotačního podvodu",
+    "summary": "Krajský soud ve Zlíně zprostil bývalého kancléře prezidenta Mynáře obžaloby z dotačního podvodu a poškozování zájmů EU při stavbě penzionu v Osvětimanech. Soud konstatoval, že skutek popsaný v obžalobě není trestným činem.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nevinen. Soud zprostil exkancléře Mynáře žaloby z dotačního podvodu při stavbě penzionu v Osvětimanech",
+        "url": "https://domaci.hn.cz/c1-67561340-nevinen-soud-zprostil-exkanclere-mynare-zaloby-z-dotacniho-podvodu-pri-stavbe-penzionu-v-osvetimanech",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:51.656Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — rozsudek v kauze politicky exponované osoby (subkomponenta K1, K4) je zaznamenáníhodný, ale zproštění obžaloby soudem je standardní výkon justice bez přímého negativního dopadu na demokratické instituce. Direction 0 — výsledek je institucionálně ambivalentní: justice fungovala standardně, ale zproštění vysokého úředníka v dotační kauze nevysílá jednoznačně pozitivní ani negativní signál. Sekundárně relevantní pro pilíř judicial (J4 — rovnost před zákonem).\n\n[auditor: flag] Události 001 a 003 pokrývají tutéž kauzu (Mynář, dotační podvod) ze stejného dne — riziko duplicity. Direction 0 je obhajitelný, ale rationale postrádá konkrétní odkaz na rubric (chybí §-citace). Sekundární odkaz na J4 správný.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-13T00:00:00.000Z",
+    "expires_at": "2025-04-09T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W03-004",
+    "date": "2025-01-14",
+    "headline": "Vláda plánuje ukončit financování pozic sociálních pedagogů na školách",
+    "summary": "Vláda připravuje škrty, které by měly zrušit státní financování pozic sociálních pedagogů na základních školách. Tito pracovníci pomáhají ohroženým dětem z problémových rodin a odhalují případy týrání. Rozhodnutí by mohlo postihnout stovky škol, kde tato pozice funguje.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Díky nim začaly problémové děti chodit do školy. Vláda jim chce nyní utnout financování",
+        "url": "https://archiv.hn.cz/c1-67557530-diky-nim-zacaly-deti-z-problemovych-rodin-chodit-do-skoly-vlada-chce-ale-socialnim-pedagogum-stopnout-penize",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:51.656Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní vládní rozpočtové rozhodnutí s dopadem na sociální služby ve školství (subkomponenta G4 — transparentnost a výkaznost vládnutí, resp. G1 — rozhodnutí exekutivy bez širší parlamentní debaty). Dopad je reálný, ale omezený na jednu skupinu pracovníků; nejde o strukturální změnu demokratické instituce. Relevance pro pilíř governance je marginální — primárně jde o sociálně-politické rozhodnutí, nikoli o demokratický backsliding. Severity null by byla vhodnější, ale událost je datovatelná a má konkrétní institucionální aktér (vláda). Pokud by bylo potvrzeno formálním rozhodnutím (zákon, usnesení), eskalace na 3.\n\n[auditor: downgrade] Škrty sociálních pedagogů jsou sociálně-politické rozhodnutí bez přímé vazby na demokratické instituce či backsliding. Rationale sám připouští marginální relevanci pro governance. Pilíř a severity nejsou dostatečně ukotveny v pillars.md. Nastavuji needs_review.",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2025-01-13T00:00:00.000Z",
+    "expires_at": "2025-04-08T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W03-005",
+    "date": "2025-01-13",
+    "headline": "Sněmovna schválila nový trestný čin neoprávněné činnosti pro cizí moc jako přílepek k zákonu o pomoci Ukrajině",
+    "summary": "Poslanecká sněmovna krátce před koncem roku 2024 přijala jako přílepek k zákonu o pomoci Ukrajině novou skutkovou podstatu trestného činu – neoprávněnou činnost pro cizí moc. Opatření reaguje na případ Vrbětice a má legislativně pokrýt spolupráci s cizími zpravodajskými službami. Použití přílepku obchází standardní legislativní proces a připomínkové řízení.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Žádné další Vrbětice! Neoprávněná činnost pro cizí moc jako trestní čin",
+        "url": "https://nazory.aktualne.cz/komentare/zadne-dalsi-vrbetice-neopravnena-cinnost-pro-cizi-moc-jako-n/r~618faecad38011efae9c0cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T12:23:12.707Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — schválení věcně relevantního zákona formou přílepku k nesouvisejícímu předpisu (zákon o pomoci Ukrajině) obchází standardní legislativní proces (subkomponenta G2: kvalita legislativy, přílepky). Samotný obsah trestného činu může být legitimní, ale procesní nedostatek zaslouží zaznamenání. Není součástí prokazatelného vzorce, proto bez eskalace. Sekundárně se dotýká pilíře civil (C1 — potenciální dopad na svobodu projevu a sdružování), zmíněno v rationale.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-13T00:00:00.000Z",
+    "expires_at": "2025-04-07T00:00:00.000Z"
+  }
+]

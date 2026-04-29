@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2025-W06-001",
+    "date": "2025-02-04",
+    "headline": "Tajemník pardubického obvodu zaplatil část pokuty za pochybnou zakázku, radnice jeho totožnost tajila",
+    "summary": "Tajemník pátého pardubického obvodu uhradil polovinu pokuty od antimonopolního úřadu za chybnou zakázku na dětské hřiště. Radnice jeho totožnost dlouho skrývala pod záminkou ochrany osobních údajů; identitu odhalila až občanská iniciativa Zelená Pětka.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Polovinu pokuty zaplatil za pardubický úřad tajemník. Jeho totožnost odhalila občanská iniciativa",
+        "url": "https://www.irozhlas.cz/zpravy-domov/polovinu-pokuty-zaplatil-za-pardubicky-urad-tajemnik-jeho-totoznost-odhalila_2502042326_ava",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:40.321Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní porušení transparentnosti ve veřejné zakázce na místní úrovni (subkomponenta K2) s omezeným lokálním dopadem. Tajení totožnosti úředníka je znepokojivé, avšak případ se týká jednoho obvodu a nepředstavuje systémový vzorec. Zakázka byla již prošetřena ÚOHS a pokuta uložena, takže protikorupční mechanismus částečně fungoval, což snižuje závažnost.\n\n[auditor: flag] Pouze jeden zdroj (iROZHLAS) u události severity 2 — to je hraniční, ale přijatelné. Rationale korekotně odkazuje na K2. Nicméně tajení totožnosti úředníka pod záminkou GDPR je spíše M4/K4 hra než čistě K2; rationale by to mělo explicitně odmítnout. Celkově obhajitelné, ale slabý anchor.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-02-03T00:00:00.000Z",
+    "expires_at": "2025-04-29T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W06-002",
+    "date": "2025-02-04",
+    "headline": "Soudkyně čelí kárné žalobě za nátlak na děti při rozvodovém řízení",
+    "summary": "Soudkyni, která při pohovorech s nezletilými dětmi vyvíjela nepřiměřený nátlak a jedno z nich přivedla k pláči, bylo zahájeno kárné řízení. Případ se dostal k Nejvyššímu správnímu soudu, který rozhodne o případném potrestání.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Soudkyně rozplakala dítě, když nutila sourozence, aby se více stýkali s matkou. Čelí kárnému řízení",
+        "url": "https://www.irozhlas.cz/zpravy-domov/soudkyne-rozplakala-dite-kdyz-nutila-sourozence-aby-se-vice-stykali-s-matkou_2502041704_ava",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:21:40.321Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o individuální pochybení konkrétní soudkyně v rodinné kauze, které je řešeno standardním kárným mechanismem (subkomponenta J2). Kárné řízení funguje správně a případ neindikuje systémový problém ani politický tlak. Směr je 0, protože samotné zahájení kárného řízení je institucionálně neutrální — svědčí o funkčnosti mechanismu odpovědnosti, ale pochybení soudkyně demokracii přímo neoslabuje ani neposiluje.\n\n[auditor: flag] Direction 0 je sporný: zahájení kárného řízení za pochybení soudkyně je spíše +1 (fungující mechanismus odpovědnosti J2), nebo zcela vyloučit. Severity 1 a pillar judicial jsou OK. Rationale popisuje spíše atmosféru funkčnosti než konkrétní dopad — chybí odkaz na rubric §1 kritérium.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-02-03T00:00:00.000Z",
+    "expires_at": "2025-04-29T00:00:00.000Z"
+  }
+]

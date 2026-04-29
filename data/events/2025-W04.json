@@ -1,0 +1,26 @@
+[
+  {
+    "id": "2025-W04-001",
+    "date": "2025-01-24",
+    "headline": "Okamura a ANO blokovaly hlasování o zvýšení koncesionářských poplatků tříhodinovou obstrukcí",
+    "summary": "Opoziční poslanci SPD a ANO v čele s Tomiem Okumurou zablokovali hlasování Poslanecké sněmovny o zvýšení koncesionářských poplatků, přičemž Okamura hovořil přes tři hodiny. Obstrukce cílila na zákon přímo ovlivňující financování veřejnoprávních médií ČT a ČRo. Jde o využití legálního parlamentního nástroje, avšak s přímým dopadem na mediální pilíř.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Okamura se střetl s lidmi z Milionu chvilek. Pak s Babišem blokoval zvýšení poplatků",
+        "url": "https://zpravy.aktualne.cz/domaci/okamura-milion-chvilek-koncesionarske-poplatky/r~4aae7c5cda4411ef801c0cc47ab5f122/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T12:23:15.288Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázové využití legálního parlamentního nástroje (obstrukce) k zablokování hlasování o financování veřejnoprávních médií (subkomponenta M2). Obstrukce samy o sobě jsou součástí standardního parlamentního repertoáru opozice, nicméně cílení na zákon o financování ČT/ČRo přidává mediální rozměr. Událost sama o sobě nepředstavuje strukturální změnu ani precedent; pokud by se opakovala jako součást soustavné snahy oslabit financování veřejnoprávních médií, bylo by nutné eskalovat na severity 3. Primární pilíř media (M2 — financování veřejnoprávních médií), sekundárně governance (G1 — využití parlamentních nástrojů k blokaci legislativy).\n\n[auditor: flag] Severity 2 je obhajitelná, ale pilíř media je sporný: kořenová příčina je parlamentní obstrukce (G1), nikoli přímý zásah do M2. Per pillars.md §overlap: primární pilíř = nejbližší kořenová příčina. Navíc jen 1 zdroj pro severity 2 — doporučeno ověření.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-01-20T00:00:00.000Z",
+    "expires_at": "2025-04-18T00:00:00.000Z"
+  }
+]

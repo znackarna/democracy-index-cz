@@ -1,0 +1,25 @@
+[
+  {
+    "id": "2025-W19-001",
+    "date": "2025-05-09",
+    "headline": "Koalice chce odvolat Veselého z Rady ČT, nástupce Součka bude volit oslabená rada",
+    "summary": "Koaliční poslanci opakovaně usilují o odvolání Xavera Veselého z Rady České televize. Hlasování má proběhnout na nejbližší schůzi Poslanecké sněmovny. Opozice je proti tomuto kroku.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Xaver Veselý ven, zní jasně z koalice. Součkova nástupce bude volit oslabená Rada ČT",
+        "url": "https://zpravy.aktualne.cz/domaci/xaver-vesely-ven-zni-jasne-z-koalice-rada-ct-bude-volit-nast/r~b26f466c2cd011f080bfac1f6b220ee8/?utm_source=mediafed&utm_medium=rss&utm_campaign=mediafed",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-04-29T12:23:40.333Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — opakovaný pokus koalice odvolat konkrétního člena Rady ČT je kontroverzní personální zásah s omezeným (dosud neprokázaným systémovým) dopadem na nezávislost ČT (subkomponenta M2). Samotný záměr odvolání člena rady z politických důvodů je zaznamenáníhodný, ale dosud nepřináší strukturální změnu. Pokud by bylo odvolání součástí systematického ovládání rady koalicí, eskalovalo by na 3+. Sekundárně relevantní pro pilíř governance (G1 — vliv parlamentní většiny na nezávislé instituce).\n\n[auditor: flag] Rationale uvádí 'opakované pokusy', což dle severity_rubric naznačuje vzorec (eskalace +1). Severity 2 může být podhodnocena — opakovaný politický zásah do Rady ČT (M2) se blíží severity 3. Jeden zdroj (Aktuálně.cz) pro event s potenciálem eskalace na 3 — zvážit needs_review.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-05-05T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2025-W12-001",
+    "date": "2025-03-18",
+    "headline": "Ústavní soud zrušil rozsudek za výrok o českém jaderném útoku, zdůraznil ochranu svobody projevu",
+    "summary": "Ústavní soud zrušil odsuzující rozsudek nad Ladislavem Vrabelem, který byl pokutován za šíření tvrzení o plánovaném jaderném útoku ČR na Rusko. Soud konstatoval, že svoboda projevu je kardinální ústavní hodnotou a kriminalizace dezinformací musí mít jasné meze. Rozhodnutí vytváří precedent pro hodnocení hranice trestněprávního postihu projevu.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Svoboda slova je ústavně chráněná hodnota, říká soudce Langášek k zrušení rozsudku nad Vrabelem",
+        "url": "https://www.irozhlas.cz/zpravy-domov/svoboda-slova-je-ustavne-chranena-hodnota-rika-soudce-langasek-k-zruseni_2503182029_elev",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:02.691Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — nález ÚS vytváří precedent pro ochranu svobody projevu (subkomponenta C1) a vymezuje hranice přípustné kriminalizace výroků. Směr +1, protože soud svobodu projevu posílil a omezil její restrikci státní mocí. Sekundárně se dotýká pilíře judicial (J1 — ÚS aktivně chrání ústavní práva), ale primárním dopadem je posílení občanské svobody projevu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Severity 2 odpovídá cap pravidlu, ale rationale stále hovoří o 'severity 3 per rubric §3' — interní nesoulad. Pilíř civil a direction +1 jsou správné. Score_impact 0.5 odpovídá severity 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-17T00:00:00.000Z",
+    "expires_at": "2025-06-10T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W12-002",
+    "date": "2025-03-18",
+    "headline": "Obviněný Jansta rezignoval na čelo České unie sportu i basketbalové federace po vazbě v kauze Motol",
+    "summary": "Miroslav Jansta, předseda České unie sportu a České basketbalové federace, rezignoval z obou funkcí poté, co byl obviněn a vzat do vyšetřovací vazby v korupční kauze nemocnice Motol. Rezignaci oznámil prostřednictvím právního zástupce.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Česká unie sportu i basketbalová federace přišly o předsedu. Jansta odstoupil, je obviněný v kauze Motol",
+        "url": "https://www.irozhlas.cz/zpravy-domov/ceska-unie-sportu-i-basketbalova-federace-prisly-o-predsedu-jansta-odstoupil-je_2503181616_elev",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:02.691Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní personální důsledek korupčního obvinění (subkomponenta K1 — politická/veřejná korupce), avšak ČUS a ČBF jsou sportovní spolky, nikoli klíčové demokratické instituce. Dopad je lokální a nepřesahuje do fungování státních orgánů. Směr -1, neboť korupční kauza ve vedení veřejně financovaných sportovních organizací oslabuje důvěryhodnost veřejného sektoru.\n\n[auditor: flag] K1 je subkomponenta pro politickou korupci ústavních činitelů. Jansta je předseda spolku, nikoli ústavní/veřejný činitel — správnější by bylo zvážit, zda event vůbec patří do indexu. Rationale tuto slabinu neuznává.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-17T00:00:00.000Z",
+    "expires_at": "2025-06-10T00:00:00.000Z"
+  }
+]

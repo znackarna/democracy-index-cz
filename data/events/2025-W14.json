@@ -1,0 +1,72 @@
+[
+  {
+    "id": "2025-W14-001",
+    "date": "2025-04-01",
+    "headline": "RFE/RL posílá pražské zaměstnance na neplacené volno kvůli zadržení kongresmanova financování",
+    "summary": "Rádio Svobodná Evropa/Rádio Svoboda začalo posílat zaměstnance pražské centrály na neplacené volno poté, co Trumpova administrativa nevyplatila kongresem schválené prostředky na duben. Stanice se proti plánovanému ukončení financování brání soudní cestou.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Pražští zaměstnanci Rádia Svobodná Evropa dostávají neplacené volno. Důvodem je nedostatek financí",
+        "url": "https://www.irozhlas.cz/zpravy-domov/prazsti-zamestnanci-radia-svobodna-evropa-dostavaji-neplacene-volno-duvodem-je_2504012300_kce",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:15.487Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — faktické přerušení provozu klíčové zahraniční redakce se sídlem v ČR v důsledku politického tlaku administrativy cizí moci (subkomponenta M3: bezpečnost a fungování novinářů/redakcí). Jde o precedentní situaci s přímým dopadem na fungování redakce. Primárně mediální svoboda, sekundárně governance rozměr mezinárodního demokratického prostředí. Persistent, protože financování zůstává nevyřešeno a soudní spor probíhá dál.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Severity v rationale popsána jako 3, ale capped na 2 kvůli single-source pravidlu — to je v pořádku. Nicméně rationale zmiňuje M3 (bezpečnost novinářů), ale událost spíše odpovídá M1/M4 (fungování redakce, přístup k financování). Dopad je reálný, cap oprávněný.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-31T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W14-002",
+    "date": "2025-04-01",
+    "headline": "Ředitel pražského magistrátu Kubelka byl odvolán z funkce",
+    "summary": "Primátor Prahy Bohuslav Svoboda odvolal ředitele magistrátu Martina Kubelku poté, co byl kritizován za vyplácení vysokých odměn bývalé asistentce a za problematické udělování parkovacích karet. Dočasným vedením byl pověřen zástupce ředitele.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Šéf pražského magistrátu Kubelka převzal odvolání z funkce. Svoboda chce náhradu najít co nejrychleji",
+        "url": "https://www.irozhlas.cz/zpravy-domov/sef-prazskeho-magistratu-kubelka-prevzal-odvolani-z-funkce-svoboda-chce-nahradu_2504011959_kce",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:15.487Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni veřejné správy (subkomponenta K1: střet zájmů a zneužívání pravomoci v místní samosprávě). Direction +1, protože odvolání je reakcí na zjištěná pochybení a představuje mechanismus accountability. Omezený dopad bez kaskádového efektu na celostátní instituce.\n\n[auditor: flag] Direction +1 je sporné: odvolání ředitele magistrátu primátorem může být i politicky motivovaný personální zásah (rubric §2, příklad), nikoli čistý accountability mechanismus. Bez 2. zdroje potvrzujícího pochybení nelze jednoznačně klasifikovat +1. Doporučuji needs_review nebo direction 0.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-31T00:00:00.000Z",
+    "expires_at": "2025-06-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W14-003",
+    "date": "2025-04-01",
+    "headline": "Lenka Bradáčová nastoupila do funkce nejvyšší státní zástupkyně",
+    "summary": "Lenka Bradáčová převzala funkci nejvyšší státní zástupkyně po Igoru Střížovi. Podle komentářů bylo jmenování dlouhodobým přáním ministra spravedlnosti Pavla Blažka, který se svým záměrem netajil. Jde o personální změnu na klíčovém postu nezávislosti státního zastupitelství.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Bradáčová je loajální sama k sobě. Bude chtít, abychom o ní v nové funkci slyšeli, očekává Slonková",
+        "url": "https://www.irozhlas.cz/zpravy-domov/bradacova-je-loajalni-sama-k-sobe-bude-chtit-abychom-o-ni-v-nove-funkci-slyseli_2504011700_kce",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-29T12:22:15.487Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — personální změna na vrcholu státního zastupitelství (subkomponenta J3: nezávislost státního zastupitelství) sama o sobě není závažné porušení normy, avšak okolnost, že ministr spravedlnosti otevřeně avizoval svůj záměr jmenovat konkrétní osobu a čekal jen na odchod předchůdce, vyvolává otázky ohledně procesní nezávislosti jmenování. Jednorázové veřejné komentáře o loajalitě kandidátky bez prokázaného institucionálního dopadu nepřesahují úroveň 2. Single source (komentář Slonkové) — bez dalšího potvrzení nelze eskalovat. Direction -1 z důvodu naznačeného politického vlivu na obsazení funkce, nikoli pro samotný nástup Bradáčové.\n\n[auditor: flag] Direction -1 pouze na základě komentáře Slonkové (single source) je slabý základ — rubric vyžaduje pro -1 konkrétní fakta, ne atmosféru. Samotné jmenování oblíbeného kandidáta ministra bez prokázaného porušení procesu je spíše severity 1 nebo needs_review. Rationale „anchor",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2025-03-31T00:00:00.000Z"
+  }
+]

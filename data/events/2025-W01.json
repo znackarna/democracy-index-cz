@@ -1,0 +1,120 @@
+[
+  {
+    "id": "2025-W01-001",
+    "date": "2025-01-03",
+    "headline": "Politička ANO pronesla diskriminační výroky o Romech, kritizoval ji i Babiš",
+    "summary": "Místostarostka Moravské Ostravy a Přívozu Alena Pataky (ANO) v rozhovoru prohlásila, že Romové nemají cíl vzdělávat se, a připisovala jim nezměněnou mentalitu od 13. století. Šéf ANO Andrej Babiš její výroky označil za naprosto nepřijatelná, kritiku vznášejí i odborníci.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Mentalita Romů se od 13. století nezměnila, prohlásila politička ANO. Kritizují ji Babiš i experti",
+        "url": "https://denikn.cz/1617368/mentalita-romu-se-od-13-stoleti-nezmenila-prohlasila-politicka-ano-kritizuji-ji-babis-i-experti/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-29T12:21:04.194Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o verbální incident konkrétní političky střední úrovně (místostarostka) s omezeným institucionálním dopadem; výroky se týkají subkomponenty C4 (ochrana menšin — Romové). Eskalaci brání skutečnost, že ji kritizoval i vlastní stranický šéf, čímž nedochází k institucionálnímu potvrzení diskurzu. Absence systémového vzorce ani formálního institucionálního dopadu vylučuje severity 3. Anti-bias kontrola: výrok posuzuji na základě obsahu, nikoli stranické příslušnosti.\n\n[auditor: flag] Pouze jeden zdroj (Deník N) pro severity 2 — rubric doporučuje needs_review při jednom zdroji a severity 3+, zde je to 2, takže formálně OK. Nicméně rationale chybí explicitní odkaz na konkrétní bod rubric (§2 nestačí — chybí „lokální dopad",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2024-12-30T00:00:00.000Z",
+    "expires_at": "2025-03-28T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W01-002",
+    "date": "2025-01-01",
+    "headline": "Prezident Pavel v novoročním projevu podpořil euro a komentoval podzimní volby",
+    "summary": "Prezident Petr Pavel pronesl druhý novoroční projev ve funkci, ve kterém vyjádřil podporu přijetí eura a komentoval ekonomickou situaci ČR. Zmínil také nadcházející podzimní parlamentní volby. Jde o standardní ústavní projev prezidenta bez institucionálního průlomu.",
+    "pillar": "electoral",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ekonomická situace není tak špatná, řekl Pavel a&nbsp;podpořil euro",
+        "url": "https://archiv.hn.cz/c1-67542140-ekonomicka-situace-neni-tak-spatna-rekl-pavel-a-podporil-euro",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:49.057Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — verbální vyjádření prezidenta bez institucionálního dopadu na volební proces (subkomponenta E2 — politický pluralismus). Podpora eura je legitimní politický postoj ústavního činitele, nikoli zásah do volebního mechanismu. Direction 0, protože jde o ambivalentní komentář k volbám bez jednoznačného posílení či oslabení instituce. Anti-bias: stejné hodnocení by platilo pro jakéhokoliv prezidenta bez ohledu na politické zaměření.\n\n[auditor: flag] Pillar electoral je sporný — novoroční projev prezidenta k volbám je ústavní akt bez dopadu na E1–E4. Patří spíše do governance (G1 — role prezidenta) nebo zcela vypustit. Direction 0 je obhajitelný. Jeden zdroj, severity 1 je přiměřená.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2024-12-30T00:00:00.000Z",
+    "expires_at": "2025-03-26T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W01-003",
+    "date": "2025-01-01",
+    "headline": "Česko přestalo od 1. ledna 2025 přijímat ruský zemní plyn přes Slovensko",
+    "summary": "S novým rokem přestalo do České republiky proudit zemní plyn přes hraniční bod Lanžhot, kudy dosud tekla převážně ruská komodita. Jde o přímý důsledek uplynutí tranzitní smlouvy Ukrajiny s Ruskem, nikoliv aktivního rozhodnutí české vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Česko vykročilo do nového roku bez ruského plynu. Slovensko čerpá hlavně z Maďarska",
+        "url": "https://archiv.hn.cz/c1-67541330-cesko-vykrocilo-do-noveho-roku-bez-ruskeho-plynu-slovensko-cerpa-hlavne-z-madarska",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:49.057Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — faktická změna v energetické politice s omezeným přímým institucionálním dopadem na demokratické procesy. Subkomponenta G4 (transparentnost vládnutí) je dotčena okrajově — vláda čelila kritice za pomalost diverzifikace. Direction +1, protože odklon od ruského plynu je z hlediska energetické bezpečnosti a geopolitické nezávislosti pozitivní krok. Persistent, protože jde o strukturální změnu dodavatelského řetězce, nikoli jednorázovou událost. Sekundárně se dotýká G1 (exekutivní odpovědnost) — vládní postup byl předmětem parlamentní debaty.\n\n[auditor: downgrade] Pillar governance a direction +1 jsou problematické: event je důsledkem smlouvy třetích stran (Ukraina–Rusko), ne aktivního rozhodnutí české vlády. G4 ani G1 se netýkají energetické komoditní logistiky. Institucionální demokratický dopad chybí — event by neměl být v indexu, nebo needs_review.",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2024-12-30T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W01-004",
+    "date": "2024-12-30",
+    "headline": "Nejvyšší soud: Odmítnutí dechové zkoušky není důvodem k platné výpovědi",
+    "summary": "Nejvyšší soud potvrdil, že zaměstnavatel nemůže platně ukončit pracovní poměr zaměstnanci, který odmítl podstoupit dechovou zkoušku na alkohol. Případ se týkal dvou učitelů střední školy v Prostějově, jejichž výpovědi soud označil za neplatné. Rozhodnutí vytváří precedent v pracovněprávní oblasti.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pijete v práci, ale odmítnete dýchnout? Tak ta výpověď neplatí, potvrdil Nejvyšší soud",
+        "url": "https://archiv.hn.cz/c1-67534930-pijete-v-praci-ale-odmitnete-dychnout-tak-ta-vypoved-neplati-potvrdil-nejvyssi-soud",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:49.057Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní soudní rozhodnutí s precedentním dopadem v pracovním právu (subkomponenta J4 — rovnost před zákonem a předvídatelnost práva), avšak bez přímého dopadu na demokratické instituce ani politické dimenze. Direction 0: rozhodnutí je výkladové a nelze jej jednoznačně klasifikovat jako posílení či oslabení demokratické kvality — jde o rutinní výkon soudní funkce. Věcně spadá spíše do oblasti běžného soudnictví než do demokratického backslidingu, ale je zaznamenatelné jako fungování nezávislého soudnictví.\n\n[auditor: flag] Rutinní soudní precedent v pracovním právu (dechová zkouška) nemá dopad na demokratické instituce ani na J1–J4 v relevantním smyslu. J4 (rovnost před zákonem) se vztahuje k politicky exponovaným osobám, ne k obecné judikatuře. Event je na hraně relevance pro index — rationale neodůvodňuje zařazení.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2024-12-30T00:00:00.000Z",
+    "expires_at": "2025-03-24T00:00:00.000Z"
+  },
+  {
+    "id": "2025-W01-005",
+    "date": "2024-12-30",
+    "headline": "Ministr školství Bek podepsal kurikulární reformu; změny výuky začnou od září 2025",
+    "summary": "Ministr školství Mikuláš Bek (STAN) podepsal v pondělí rámcový vzdělávací program, který završuje desetiletý proces přípravy školské reformy. Reforma zpřísňuje požadavky na angličtinu a matematiku a první žáci se podle nových pravidel mohou učit již od září 2025. Jde o formální institucionální rozhodnutí s celoplošným dopadem na vzdělávací systém.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Těžší angličtina i matematika, ministr podepsal klíčové změny ve výuce. Co dalšího se ve školách změní",
+        "url": "https://archiv.hn.cz/c1-67536140-tezsi-anglictina-i-matematika-ministr-podepsal-klicove-zmeny-ve-vyuce-co-dalsiho-se-ve-skolach-zmeni",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-29T12:22:49.057Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — podpis ministra završuje standardní legislativně-administrativní proces bez náznaku obcházení norem či demokratického deficitu (subkomponenta G2 — kvalita legislativy a řádný proces). Direction +1: reforma prošla standardním připomínkovým řízením a posiluje institucionální kapacitu státu. Dopad na demokratické pilíře je minimální — jde o sektorovou politiku, nikoli o změnu mocenských vztahů. Anti-bias: stejně bych hodnotil reformu libovolné vlády podepsanou řádnou procedurou.\n\n[auditor: downgrade] Podpis kurikulární reformy ministrem je čistě sektorová politika bez jakéhokoli dopadu na demokratické pilíře ani G2 v relevantním smyslu. Severity 1 + direction +1 + governance pillar nelze obhájit rubricí — chybí jakákoliv demokratická dimenze. Doporučuji vyřazení z indexu nebo needs_review.",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2024-12-30T00:00:00.000Z"
+  }
+]
