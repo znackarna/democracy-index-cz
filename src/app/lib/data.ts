@@ -1,6 +1,11 @@
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import {
+  baselineWeightedOverall,
+  computeIndexComparisons,
+  type IndexComparison,
+} from '@/lib/external-comparison';
+import {
   type Event,
   type ScoreSnapshot,
   type StructuralBaseline,
@@ -68,4 +73,26 @@ export async function readLatest(): Promise<{
   if (!last) return { snapshot: null, baseline: null };
   const baseline = await readBaseline(last.structural_baseline);
   return { snapshot: last, baseline };
+}
+
+/**
+ * Per-source comparison of our index against external benchmarks. Used by the
+ * IndexComparison component on the homepage. Single-dim indices (RSF, TI,
+ * WJP) compare to a specific pillar; multi-dim composites (V-Dem, EIU, FH)
+ * compare to weighted overall. Returns empty array if baseline is missing.
+ */
+export async function readIndexComparisons(): Promise<{
+  baselineQuarter: string | null;
+  baselineWeighted: number | null;
+  comparisons: IndexComparison[];
+}> {
+  const { baseline } = await readLatest();
+  if (!baseline) {
+    return { baselineQuarter: null, baselineWeighted: null, comparisons: [] };
+  }
+  return {
+    baselineQuarter: baseline.quarter,
+    baselineWeighted: baselineWeightedOverall(baseline),
+    comparisons: computeIndexComparisons(baseline),
+  };
 }

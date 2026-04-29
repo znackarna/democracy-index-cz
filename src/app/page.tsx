@@ -2,14 +2,21 @@ import Link from 'next/link';
 import { ScoreSummary } from './components/ScoreSummary';
 import { ScoreTimeline } from './components/ScoreTimeline';
 import { PillarBreakdown } from './components/PillarBreakdown';
+import { IndexComparisonTable } from './components/IndexComparison';
 import { EventCard } from './components/EventCard';
-import { readAllEvents, readLatest, readTimeline } from './lib/data';
+import {
+  readAllEvents,
+  readIndexComparisons,
+  readLatest,
+  readTimeline,
+} from './lib/data';
 
 export default async function HomePage() {
-  const [{ snapshot, baseline }, timeline, allEvents] = await Promise.all([
+  const [{ snapshot, baseline }, timeline, allEvents, comparisons] = await Promise.all([
     readLatest(),
     readTimeline(),
     readAllEvents(),
+    readIndexComparisons(),
   ]);
 
   const recentEvents = allEvents.slice(0, 5);
@@ -60,6 +67,16 @@ export default async function HomePage() {
       ) : (
         <section className="rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center text-slate-500">
           <p>Zatím žádný snapshot. První běh pipeline vytvoří snapshot pro aktuální týden.</p>
+        </section>
+      )}
+
+      {comparisons.baselineQuarter && comparisons.comparisons.length > 0 && (
+        <section>
+          <h2 className="mb-4 text-xl font-semibold text-slate-900">Srovnání s externími indexy</h2>
+          <IndexComparisonTable
+            comparisons={comparisons.comparisons}
+            baselineQuarter={comparisons.baselineQuarter}
+          />
         </section>
       )}
 

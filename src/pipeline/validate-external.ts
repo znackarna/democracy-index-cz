@@ -2,9 +2,14 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import {
+  baselineWeightedOverall,
+  computeIndexComparisons,
+  SUSTAINED_DIVERGENCE_THRESHOLD,
+  type IndexComparison,
+} from '../lib/external-comparison';
+import {
   PILLARS,
   PILLAR_WEIGHTS,
-  type Pillar,
   type ScoreSnapshot,
   type StructuralBaseline,
 } from '../lib/types';
@@ -35,8 +40,6 @@ const DEFAULT_PROJECT_ROOT = path.resolve(
   '..',
 );
 
-const SUSTAINED_DIVERGENCE_THRESHOLD = 10.0;
-
 export interface ValidateOptions {
   /** Quarter id of the structural baseline to validate (e.g. '2026-Q2'). */
   quarter: string;
@@ -45,16 +48,8 @@ export interface ValidateOptions {
   now?: Date;
 }
 
-export interface ExternalDivergence {
-  index: string;
-  externalScale01_100: number;
-  /** What we compare against — either weighted overall or a specific pillar score. */
-  comparisonTarget: number;
-  comparisonLabel: string;
-  delta: number;
-  /** True if |delta| exceeds the actionable threshold. */
-  exceedsThreshold: boolean;
-}
+/** Backward-compatible alias for the report-rendering code below. */
+export type ExternalDivergence = IndexComparison;
 
 export interface ValidationResult {
   quarter: string;
@@ -75,14 +70,10 @@ export async function generateValidation(options: ValidateOptions): Promise<Vali
     await readFile(path.join(root, 'data', 'structural', `${options.quarter}.json`), 'utf-8'),
   ) as StructuralBaseline;
 
-  const baselineWeighted = round1(
-    PILLARS.reduce((s, p) => s + baseline.pillars[p] * PILLAR_WEIGHTS[p], 0),
-  );
-
+  const baselineWeighted = baselineWeightedOverall(baseline);
   const timeline = await loadTimeline(root);
   const latestSnapshot = timeline.at(-1) ?? null;
-
-  const divergences = computeDivergences(baseline, baselineWeighted);
+  const divergences = computeIndexComparisons(baseline);
 
   const reportPath = path.join(root, 'methodology', `validation_${options.quarter}.md`);
   const report = renderReport({
@@ -118,71 +109,6 @@ async function loadTimeline(root: string): Promise<ScoreSnapshot[]> {
   }
 }
 
-/**
- * Single-dimension indices map to a specific pillar. Comparing TI CPI to our
- * weighted overall is misleading — TI CPI is exactly our corruption pillar's
- * input, so the meaningful comparison is TI CPI vs corruption pillar (not
- * overall). Same for RSF↔media, WJP↔judicial.
- *
- * Multi-dimension indices (V-Dem LDI, EIU Democracy Index, Freedom House FitW)
- * are overall composites and compare to our weighted overall.
- */
-const SINGLE_DIMENSION_PILLAR: Record<string, Pillar> = {
-  RSF: 'media',
-  'TI-CPI': 'corruption',
-  TI: 'corruption',
-  WJP: 'judicial',
-};
-
-/**
- * Normalize each external source value to 0-100 scale and compare against the
- * appropriate target (weighted overall for composites, specific pillar for
- * single-dimension). Skips structural-baseline source entries with unknown
- * index normalization.
- */
-function computeDivergences(
-  baseline: StructuralBaseline,
-  baselineWeighted: number,
-): ExternalDivergence[] {
-  const out: ExternalDivergence[] = [];
-  for (const s of baseline.sources) {
-    const normalized = normalizeExternalScore(s.index, s.value);
-    if (normalized === null) continue;
-    const idx = s.index.toUpperCase();
-    const pillar = SINGLE_DIMENSION_PILLAR[idx];
-    const target = pillar ? baseline.pillars[pillar] : baselineWeighted;
-    const label = pillar ? `pillar ${pillar}` : 'baseline overall';
-    const delta = round1(target - normalized);
-    out.push({
-      index: `${s.index} (${s.year})`,
-      externalScale01_100: normalized,
-      comparisonTarget: target,
-      comparisonLabel: label,
-      delta,
-      exceedsThreshold: Math.abs(delta) > SUSTAINED_DIVERGENCE_THRESHOLD,
-    });
-  }
-  return out;
-}
-
-/**
- * Normalize an external score to a 0-100 scale matching our index. Returns
- * null if the index is unknown — we'd rather skip than misnormalize.
- *
- * - V-Dem indices are 0-1 → ×100
- * - EIU is 0-10 → ×10
- * - WJP overall is 0-1 → ×100
- * - FH FitW, RSF, TI CPI are already 0-100
- */
-function normalizeExternalScore(index: string, value: number): number | null {
-  const idx = index.toUpperCase();
-  if (idx.startsWith('V-DEM') || idx === 'WJP') return round1(value * 100);
-  if (idx === 'EIU') return round1(value * 10);
-  if (idx === 'FH-FITW' || idx === 'FH' || idx === 'RSF' || idx === 'TI-CPI' || idx === 'TI')
-    return round1(value);
-  return null;
-}
-
 function renderReport(args: {
   quarter: string;
   baseline: StructuralBaseline;
@@ -210,7 +136,7 @@ function renderReport(args: {
     const flag = d.exceedsThreshold ? '⚠️' : '✓';
     const sign = d.delta >= 0 ? '+' : '';
     lines.push(
-      `| ${d.index} | ${d.externalScale01_100.toFixed(1)} | ${d.comparisonLabel} | ${d.comparisonTarget.toFixed(1)} | ${sign}${d.delta.toFixed(1)} | ${flag} |`,
+      `| ${d.index} (${d.year}) | ${d.externalNormalized.toFixed(1)} | ${d.comparisonLabel} | ${d.comparisonTarget.toFixed(1)} | ${sign}${d.delta.toFixed(1)} | ${flag} |`,
     );
   }
   lines.push('');
@@ -224,7 +150,7 @@ function renderReport(args: {
   } else {
     lines.push(`**Závěr:** ${exceeded.length} index(y) přes práh:`);
     for (const d of exceeded) {
-      lines.push(`- **${d.index}**: ${d.delta >= 0 ? '+' : ''}${d.delta.toFixed(1)} b.`);
+      lines.push(`- **${d.index} (${d.year})**: ${d.delta >= 0 ? '+' : ''}${d.delta.toFixed(1)} b.`);
     }
     lines.push('');
     lines.push('Pokud se rozdíl objeví i v dalším kvartálu, otevřít issue typu `methodology-review` a spustit per-pillar audit mappingu (`methodology/structural_mapping.md`).');
@@ -298,7 +224,7 @@ async function main(): Promise<void> {
   for (const d of result.baselineDivergences) {
     const flag = d.exceedsThreshold ? '⚠️' : '✓';
     const sign = d.delta >= 0 ? '+' : '';
-    console.log(`  ${flag} ${d.index.padEnd(20)} ext=${d.externalScale01_100.toFixed(1).padStart(5)} vs ${d.comparisonLabel.padEnd(22)} ${d.comparisonTarget.toFixed(1).padStart(5)} Δ=${sign}${d.delta}`);
+    console.log(`  ${flag} ${(d.index + ' (' + d.year + ')').padEnd(20)} ext=${d.externalNormalized.toFixed(1).padStart(5)} vs ${d.comparisonLabel.padEnd(22)} ${d.comparisonTarget.toFixed(1).padStart(5)} Δ=${sign}${d.delta}`);
   }
   console.log('');
   console.log(`wrote ${result.reportPath}`);
