@@ -36,7 +36,7 @@ Veškerá aritmetika je deterministická a má unit testy ([`src/pipeline/score.
 | `src/pipeline/validate.ts` | AJV validace JSON schémat |
 | `src/pipeline/run-weekly.ts` | Orchestrátor + CLI |
 | `tests/` | 67 vitest testů, 100% coverage pro `score.ts` |
-| `config/sources.yaml` | Seznam RSS feedů a (plánovaných) API/HTML zdrojů |
+| `config/sources.yaml` | Seznam RSS feedů + API/HTML adapterů (lidsky čitelný přehled na [/methodology/sources/](https://democracy-index-cz.vercel.app/methodology/sources/)) |
 | `data/structural/` | Quarterly baseline (`2026-Q2.json` zatím placeholder) |
 | `data/events/` | Týdenní soubory s klasifikovanými events (`2026-W17.json` první živý běh) |
 | `data/scores/` | `timeline.json` historie skóre |

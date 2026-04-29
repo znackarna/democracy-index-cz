@@ -1,5 +1,6 @@
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
+import yaml from 'js-yaml';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeSlug from 'rehype-slug';
 import rehypeStringify from 'rehype-stringify';
@@ -9,6 +10,7 @@ import remarkRehype from 'remark-rehype';
 import { unified } from 'unified';
 
 const METHODOLOGY_ROOT = path.resolve(process.cwd(), 'methodology');
+const SOURCES_YAML = path.resolve(process.cwd(), 'config', 'sources.yaml');
 
 /** Static metadata for each methodology document we expose on the site. */
 export interface MethodologyDoc {
@@ -62,6 +64,13 @@ export const METHODOLOGY_DOCS: readonly MethodologyDoc[] = [
     title: 'Strukturální mapping',
     description:
       'Jak konkrétně se z V-Dem 2024 / EIU 2024 / FH 2025 / RSF / TI / WJP počítá strukturální baseline pro každý pilíř.',
+  },
+  {
+    slug: 'sources',
+    file: 'sources',
+    title: 'Zdroje dat',
+    description:
+      'Odkud index čerpá — 8 českých redakčních médií, otevřená data PSP a soudů, watchdog organizace, mezinárodní zpravodajství. Aktuální tabulka generovaná z config/sources.yaml.',
   },
   {
     slug: 'changelog',
@@ -123,11 +132,14 @@ export async function renderValidationReport(quarter: string): Promise<string | 
 /**
  * Convert a Markdown file to HTML. Pre-processes `.md` links to point at our
  * web routes (so cross-references inside methodology files resolve to
- * `/methodology/<slug>/` instead of dead `.md` paths).
+ * `/methodology/<slug>/` instead of dead `.md` paths). Also expands the
+ * `<!-- SOURCES_TABLE -->` marker into a live table generated from
+ * config/sources.yaml — used by methodology/sources.md to stay in sync.
  */
 async function renderMarkdownFile(file: string): Promise<string> {
   const raw = await readFile(file, 'utf-8');
-  const rewritten = rewriteInternalLinks(raw);
+  const withTable = await injectSourcesTable(raw);
+  const rewritten = rewriteInternalLinks(withTable);
   const result = await unified()
     .use(remarkParse)
     .use(remarkGfm)
@@ -137,6 +149,125 @@ async function renderMarkdownFile(file: string): Promise<string> {
     .use(rehypeStringify)
     .process(rewritten);
   return result.toString();
+}
+
+// ============================================================
+// Auto-rendered sources table (used by methodology/sources.md)
+// ============================================================
+
+/**
+ * Adaptery, které jsou skutečně implementované pro non-RSS zdroje. Všechny
+ * RSS zdroje jsou aktivní z principu (čte je rss-parser). Cokoli mimo tento
+ * set + non-RSS = "nezapojený" placeholder.
+ *
+ * Pokud přidáš adapter pro nový zdroj v src/pipeline/fetch-sources.ts,
+ * doplň ho i sem, jinak se bude na webu hlásit jako neaktivní.
+ */
+const IMPLEMENTED_NON_RSS_ADAPTERS = new Set<string>([
+  'psp-cz',
+  'hlidac-statu',
+  'hlidac-smlouvy',
+  'hlidac-dotace',
+]);
+
+const CATEGORY_LABELS: Record<string, string> = {
+  czech_media: 'Česká média',
+  open_data: 'Otevřená data',
+  watchdog: 'Watchdog',
+  international: 'Mezinárodní',
+};
+
+const TYPE_LABELS: Record<string, string> = {
+  rss: 'RSS feed',
+  api: 'API',
+  html: 'HTML scraper',
+};
+
+interface YamlSource {
+  id: string;
+  name: string;
+  category: string;
+  type: string;
+  url: string;
+  homepage?: string;
+  notes?: string;
+}
+
+interface YamlSourcesFile {
+  version: number;
+  sources: YamlSource[];
+}
+
+async function injectSourcesTable(md: string): Promise<string> {
+  if (!md.includes('<!-- SOURCES_TABLE -->')) return md;
+  const sources = await loadYamlSources();
+  return md.replace('<!-- SOURCES_TABLE -->', renderSourcesMarkdown(sources));
+}
+
+async function loadYamlSources(): Promise<YamlSource[]> {
+  const raw = await readFile(SOURCES_YAML, 'utf-8');
+  const parsed = yaml.load(raw) as YamlSourcesFile;
+  return parsed.sources ?? [];
+}
+
+function isActive(s: YamlSource): boolean {
+  if (s.type === 'rss') return true;
+  return IMPLEMENTED_NON_RSS_ADAPTERS.has(s.id);
+}
+
+/**
+ * Skupinkuje zdroje podle kategorie (zachová pořadí z yamlu uvnitř skupiny)
+ * a pro každou kategorii vyrenderuje vlastní tabulku se sloupci:
+ * Stav | Zdroj | Typ | Poznámka. Linky vedou na homepage (čitelnější
+ * než API endpointy).
+ */
+function renderSourcesMarkdown(sources: YamlSource[]): string {
+  const order: ReadonlyArray<string> = ['czech_media', 'open_data', 'watchdog', 'international'];
+  const grouped = new Map<string, YamlSource[]>();
+  for (const s of sources) {
+    const list = grouped.get(s.category) ?? [];
+    list.push(s);
+    grouped.set(s.category, list);
+  }
+  const sections: string[] = [];
+  for (const cat of order) {
+    const list = grouped.get(cat);
+    if (!list || list.length === 0) continue;
+    const active = list.filter(isActive).length;
+    sections.push(`### ${CATEGORY_LABELS[cat] ?? cat} (${active}/${list.length} aktivních)`);
+    sections.push('');
+    sections.push('| Stav | Zdroj | Typ | Poznámka |');
+    sections.push('|------|-------|-----|----------|');
+    for (const s of list) {
+      sections.push(renderRow(s));
+    }
+    sections.push('');
+  }
+  return sections.join('\n');
+}
+
+function renderRow(s: YamlSource): string {
+  const stav = isActive(s) ? '✓ aktivní' : '⏸ nezapojený';
+  const link = s.homepage ?? s.url;
+  const name = `[${escapeCell(s.name)}](${link})`;
+  const typ = TYPE_LABELS[s.type] ?? s.type;
+  const note = firstNoteSentence(s.notes);
+  return `| ${stav} | ${name} | ${typ} | ${note} |`;
+}
+
+/** Vezme první větu z `notes` a očistí ji pro tabulkovou buňku. */
+function firstNoteSentence(notes: string | undefined): string {
+  if (!notes) return '–';
+  const flattened = notes.replace(/\s+/g, ' ').trim();
+  if (!flattened) return '–';
+  const firstSentence = flattened.split(/(?<=[.!?])\s/)[0] ?? flattened;
+  const trimmed = firstSentence.length > 220 ? `${firstSentence.slice(0, 217)}…` : firstSentence;
+  return escapeCell(trimmed);
+}
+
+/** Markdown-table cells nesmějí obsahovat `|` ani neuzavřené znaky. */
+function escapeCell(text: string): string {
+  return text.replace(/\|/g, '\\|').replace(/\n/g, ' ');
 }
 
 const FILE_TO_SLUG: Record<string, string> = Object.fromEntries(

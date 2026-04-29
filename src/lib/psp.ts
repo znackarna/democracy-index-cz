@@ -231,7 +231,7 @@ export function parseCzechDateRange(raw: string): { start?: string; end?: string
 
   // Cross-month range: "DD. month1 - DD. month2 YYYY"
   const crossMatch = text.match(
-    /^(\d{1,2})\.\s+([a-zěščřžýáíéůúďťň]+)\s*[–\-]\s*(\d{1,2})\.\s+([a-zěščřžýáíéůúďťň]+)\s+(\d{4})$/i,
+    /^(\d{1,2})\.\s+([a-zěščřžýáíéůúďťň]+)\s*[–-]\s*(\d{1,2})\.\s+([a-zěščřžýáíéůúďťň]+)\s+(\d{4})$/i,
   );
   if (crossMatch) {
     const startDay = Number.parseInt(crossMatch[1] ?? '0', 10);
@@ -249,7 +249,7 @@ export function parseCzechDateRange(raw: string): { start?: string; end?: string
 
   // Same-month range: "DD. - DD. month YYYY"
   const sameMonthMatch = text.match(
-    /^(\d{1,2})\.\s*[–\-]\s*(\d{1,2})\.\s+([a-zěščřžýáíéůúďťň]+)\s+(\d{4})$/i,
+    /^(\d{1,2})\.\s*[–-]\s*(\d{1,2})\.\s+([a-zěščřžýáíéůúďťň]+)\s+(\d{4})$/i,
   );
   if (sameMonthMatch) {
     const startDay = Number.parseInt(sameMonthMatch[1] ?? '0', 10);
