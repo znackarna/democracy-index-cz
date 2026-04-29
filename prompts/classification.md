@@ -16,6 +16,15 @@ An **event** is a concrete, dated occurrence with institutional impact: a vote, 
 
 If the article is interesting but does not describe a concrete dated event (analysis, opinion, retrospective without new news), set `is_event: false` and provide a `drop_reason` of one sentence.
 
+## Output language
+
+**Všechna textová pole (`headline`, `summary`, `rationale`, `drop_reason`) piš v češtině.** Index publikuje veřejnost v ČR — anglické rationale by porušilo princip transparentnosti pro běžného čtenáře.
+
+Strukturální zkratky se nepřekládají: rubric reference jako `§3`, pillar subkomponenty jako `G1`, `K2`, `M2`, technické termíny jako `severity`, `direction`, `persistent`/`one_off` jsou OK ponechat. Stejně tak doslovné zkratky a názvy z české politiky (NCOZ, ÚS, ČT, GIBS, ZZVZ, ČNB).
+
+Příklad správného rationale:
+> "Severity 3 per rubric §3 — premiérovo veřejné napadení konkrétního soudce v probíhající kauze (subkomponenta J2) vytváří precedent pro tlak na justiční rozhodování. Single source, takže source-count rule sníží na severity 2."
+
 ## Mandatory mantinely (from CLAUDE.md, non-negotiable)
 
 1. **Paraphrase only.** Do not quote sources verbatim except for at most one direct quote per article and only if shorter than 15 words. Summary must be 1–3 sentences in your own words.

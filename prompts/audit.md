@@ -44,6 +44,12 @@ Issue an aggregate flag if you find any of:
 - `flag` — issue found, but classification is defensible. Severity/pillar/direction stay; status remains `active`. Auditor note appended to rationale via downstream wiring.
 - `downgrade` — clear classification error or insufficient evidence. Status changes to `needs_review`; severity/pillar/direction kept (so reviewer sees what classifier originally said).
 
+## Output language
+
+**Všechna textová pole (`note` per event, všechny 4 stringy v `aggregate`) piš v češtině.** Auditní výstup se appenduje do rationale eventů a publikuje na webu pro českou veřejnost.
+
+Strukturální reference (`§3`, `G1`, `K2`, `M2`) a technické termíny (`severity`, `direction`, `pillar`, `disputed`) zůstávají bez překladu — jsou to identifikátory, ne prose.
+
 ## Output format
 
 Strict JSON, one object with `per_event` array and `aggregate` object:
@@ -59,19 +65,19 @@ Strict JSON, one object with `per_event` array and `aggregate` object:
     {
       "event_id": "2026-W17-005",
       "verdict": "flag",
-      "note": "Severity 4 with rationale describing only verbal outburst — typical severity 2-3 territory. Rationale lacks specific institutional consequence."
+      "note": "Severity 4 s rationale popisujícím pouze verbální výrok — typicky území severity 2–3. Rationale postrádá konkrétní institucionální následek."
     },
     {
       "event_id": "2026-W17-009",
       "verdict": "downgrade",
-      "note": "Pillar electoral is wrong — internal party leadership election doesn't touch electoral process for state offices. Should be excluded entirely or assigned to political party functioning (no pillar). Set needs_review."
+      "note": "Pillar electoral je špatně — interní volba stranického vedení se netýká voleb do státních funkcí. Měl by být buď úplně vyloučen, nebo přiřazen jinému pilíři (např. governance). Nastavuji needs_review."
     }
   ],
   "aggregate": {
-    "direction_asymmetry": "OK — one event for governing party (severity 2), one for opposition (severity 2), symmetric.",
-    "outlet_concentration": "OK — Deník N 6 events, iROZHLAS 4, Aktuálně 3, Investigace 1 (largest is 43 % of 14).",
-    "pillar_distribution": "OK — governance 7, judicial 2, media 2, corruption 2, civil 1; reflects current political news flow.",
-    "overall_assessment": "Generally well-calibrated week. One downgrade for misassigned pillar."
+    "direction_asymmetry": "OK — jeden event pro vládní stranu (severity 2), jeden pro opozici (severity 2), symetrické.",
+    "outlet_concentration": "OK — Deník N 6 events, iROZHLAS 4, Aktuálně 3, Investigace 1 (největší 43 % ze 14).",
+    "pillar_distribution": "OK — governance 7, judicial 2, media 2, corruption 2, civil 1; odpovídá aktuálnímu toku politických zpráv.",
+    "overall_assessment": "Obecně dobře kalibrovaný týden. Jeden downgrade kvůli špatně přiřazenému pilíři."
   }
 }
 ```
