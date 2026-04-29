@@ -21,26 +21,30 @@ describe('getDefaultClient', () => {
 });
 
 describe('callClaudeJson', () => {
-  it('parses JSON returned in the first text block', async () => {
-    const create = vi.fn(async () => ({
-      content: [{ type: 'text', text: '{"ok": true, "n": 42}' }],
+  it('returns the SDK parsed_output, runs it through the user parse callback', async () => {
+    const parse = vi.fn(async () => ({
+      content: [{ type: 'text', text: '{"ok":true,"n":42}' }],
+      parsed_output: { ok: true, n: 42 },
     }));
-    const client = { messages: { create } } as unknown as Anthropic;
+    const client = { messages: { parse } } as unknown as Anthropic;
     const result = await callClaudeJson<{ ok: boolean; n: number }>({
       client,
       model: 'm',
       system: 'sys',
       user: 'usr',
-      schema: { type: 'object' },
+      schema: { type: 'object', properties: {} },
       parse: (raw) => raw as { ok: boolean; n: number },
     });
     expect(result).toEqual({ ok: true, n: 42 });
-    expect(create).toHaveBeenCalledOnce();
+    expect(parse).toHaveBeenCalledOnce();
   });
 
   it('attaches cache_control to system blocks marked cache:true', async () => {
-    const create = vi.fn(async () => ({ content: [{ type: 'text', text: '{}' }] }));
-    const client = { messages: { create } } as unknown as Anthropic;
+    const parse = vi.fn(async () => ({
+      content: [{ type: 'text', text: '{}' }],
+      parsed_output: {},
+    }));
+    const client = { messages: { parse } } as unknown as Anthropic;
     await callClaudeJson({
       client,
       model: 'm',
@@ -49,29 +53,90 @@ describe('callClaudeJson', () => {
         { text: 'volatile part', cache: false },
       ],
       user: 'usr',
-      schema: {},
+      schema: { type: 'object', properties: {} },
       parse: (raw) => raw,
     });
-    expect(create).toHaveBeenCalledOnce();
-    // create.mock.calls is typed as never[] when the fn is async () => ... — cast.
-    const calls = create.mock.calls as unknown as Array<[{ system: Array<{ cache_control?: unknown }> }]>;
+    expect(parse).toHaveBeenCalledOnce();
+    const calls = parse.mock.calls as unknown as Array<[{ system: Array<{ cache_control?: unknown }> }]>;
     const systemBlocks = calls[0]![0].system;
     expect(systemBlocks[0]?.cache_control).toEqual({ type: 'ephemeral' });
     expect(systemBlocks[1]?.cache_control).toBeUndefined();
   });
 
-  it('throws a helpful error when the response is not valid JSON', async () => {
-    const create = vi.fn(async () => ({ content: [{ type: 'text', text: 'not json' }] }));
-    const client = { messages: { create } } as unknown as Anthropic;
+  it('retries once when the SDK reports a transient parse failure, then succeeds', async () => {
+    const parse = vi
+      .fn()
+      .mockImplementationOnce(() => {
+        throw new Error('Failed to parse structured output: Unexpected end of JSON input');
+      })
+      .mockImplementationOnce(async () => ({
+        content: [{ type: 'text', text: '{"ok":true}' }],
+        parsed_output: { ok: true },
+      }));
+    const client = { messages: { parse } } as unknown as Anthropic;
+    const result = await callClaudeJson({
+      client,
+      model: 'm',
+      system: 'sys',
+      user: 'usr',
+      schema: { type: 'object', properties: {} },
+      parse: (raw) => raw,
+    });
+    expect(result).toEqual({ ok: true });
+    expect(parse).toHaveBeenCalledTimes(2);
+  });
+
+  it('propagates the parse error after the retry also fails', async () => {
+    const parse = vi.fn(() => {
+      throw new Error('Failed to parse structured output: still broken');
+    });
+    const client = { messages: { parse } } as unknown as Anthropic;
     await expect(
       callClaudeJson({
         client,
         model: 'm',
         system: 'sys',
         user: 'usr',
-        schema: {},
+        schema: { type: 'object', properties: {} },
         parse: (raw) => raw,
       }),
-    ).rejects.toThrow(/not valid JSON/);
+    ).rejects.toThrow(/Failed to parse structured output/);
+    expect(parse).toHaveBeenCalledTimes(2);
+  });
+
+  it('does NOT retry on non-parse errors (rate limit, network, validation)', async () => {
+    const parse = vi.fn(() => {
+      throw new Error('Rate limit exceeded');
+    });
+    const client = { messages: { parse } } as unknown as Anthropic;
+    await expect(
+      callClaudeJson({
+        client,
+        model: 'm',
+        system: 'sys',
+        user: 'usr',
+        schema: { type: 'object', properties: {} },
+        parse: (raw) => raw,
+      }),
+    ).rejects.toThrow(/Rate limit/);
+    expect(parse).toHaveBeenCalledOnce();
+  });
+
+  it('throws if SDK returns null parsed_output (e.g. response had no text block)', async () => {
+    const parse = vi.fn(async () => ({
+      content: [],
+      parsed_output: null,
+    }));
+    const client = { messages: { parse } } as unknown as Anthropic;
+    await expect(
+      callClaudeJson({
+        client,
+        model: 'm',
+        system: 'sys',
+        user: 'usr',
+        schema: { type: 'object', properties: {} },
+        parse: (raw) => raw,
+      }),
+    ).rejects.toThrow(/null parsed_output/);
   });
 });

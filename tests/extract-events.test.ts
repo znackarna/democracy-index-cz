@@ -9,10 +9,11 @@ import { getValidator } from '../src/pipeline/validate';
 import type { PreFilteredArticle } from '../src/lib/types';
 
 function mockClient(jsonResponse: unknown): Anthropic {
-  const create = vi.fn(async () => ({
+  const parse = vi.fn(async () => ({
     content: [{ type: 'text', text: JSON.stringify(jsonResponse) }],
+    parsed_output: jsonResponse,
   }));
-  return { messages: { create } } as unknown as Anthropic;
+  return { messages: { parse } } as unknown as Anthropic;
 }
 
 const FETCHED_AT = '2026-04-23T08:00:00.000Z';

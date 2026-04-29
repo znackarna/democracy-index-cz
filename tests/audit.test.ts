@@ -4,10 +4,11 @@ import { applyAuditVerdicts, auditEvents, type AuditResult } from '../src/pipeli
 import type { Event } from '../src/lib/types';
 
 function mockClient(jsonResponse: unknown): Anthropic {
-  const create = vi.fn(async () => ({
+  const parse = vi.fn(async () => ({
     content: [{ type: 'text', text: JSON.stringify(jsonResponse) }],
+    parsed_output: jsonResponse,
   }));
-  return { messages: { create } } as unknown as Anthropic;
+  return { messages: { parse } } as unknown as Anthropic;
 }
 
 function makeEvent(overrides: Partial<Event> & { id: string }): Event {

@@ -4,10 +4,11 @@ import { preFilter } from '../src/pipeline/pre-filter';
 import type { RawArticle } from '../src/lib/types';
 
 function mockClient(jsonResponse: unknown): Anthropic {
-  const create = vi.fn(async () => ({
+  const parse = vi.fn(async () => ({
     content: [{ type: 'text', text: JSON.stringify(jsonResponse) }],
+    parsed_output: jsonResponse,
   }));
-  return { messages: { create } } as unknown as Anthropic;
+  return { messages: { parse } } as unknown as Anthropic;
 }
 
 const FETCHED_AT = '2026-04-23T08:00:00.000Z';
@@ -72,9 +73,15 @@ describe('preFilter', () => {
     expect(result).toHaveLength(1);
   });
 
-  it('throws when the model returns invalid JSON', async () => {
-    const create = vi.fn(async () => ({ content: [{ type: 'text', text: '<<not json>>' }] }));
-    const client = { messages: { create } } as unknown as Anthropic;
-    await expect(preFilter(articles, { client, prompt: 'x' })).rejects.toThrow(/not valid JSON/);
+  it('propagates SDK parse failure when the model returns invalid JSON twice', async () => {
+    const parse = vi.fn(() => {
+      throw new Error('Failed to parse structured output: unexpected token');
+    });
+    const client = { messages: { parse } } as unknown as Anthropic;
+    await expect(preFilter(articles, { client, prompt: 'x' })).rejects.toThrow(
+      /Failed to parse structured output/,
+    );
+    // callClaudeJson retries once on SDK parse failures (1 + 1 retry = 2 calls).
+    expect(parse).toHaveBeenCalledTimes(2);
   });
 });
