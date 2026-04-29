@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ScoreSummary } from './components/ScoreSummary';
 import { ScoreTimeline } from './components/ScoreTimeline';
 import { PillarBreakdown } from './components/PillarBreakdown';
+import { PillarDetailGrid } from './components/PillarDetail';
 import { IndexComparisonTable } from './components/IndexComparison';
 import { EventCard } from './components/EventCard';
 import { InfoBox } from './components/InfoBox';
@@ -82,38 +83,38 @@ export default async function HomePage() {
                 posunuly pilíř.
               </p>
             </div>
+          </section>
+
+          <section>
+            <div className="mb-4">
+              <h2 className="text-xl font-semibold text-slate-900">Detail po pilířích</h2>
+              <p className="mt-1 max-w-3xl text-sm text-slate-600">
+                Co každý pilíř konkrétně měří, jaké subkomponenty obsahuje a co se v něm
+                stane, když ho události posunou. Procentuální štítek je váha pilíře v
+                celkovém skóre.
+              </p>
+            </div>
+            <PillarDetailGrid snapshot={snapshot} baseline={baseline} />
             <div className="mt-3">
-              <InfoBox title="Co každý pilíř měří" readMore={{ slug: 'pillars' }}>
-                <ul className="list-disc space-y-1 pl-5">
-                  <li>
-                    <strong>Volby (15 %)</strong> — férovost voleb, politický pluralismus,
-                    pokojné předání moci.
-                  </li>
-                  <li>
-                    <strong>Vládnutí (20 %)</strong> — dělba moci, kvalita legislativy,
-                    respekt k ústavním normám.
-                  </li>
-                  <li>
-                    <strong>Justice (20 %)</strong> — nezávislost ÚS / NS / NSS, nezávislost
-                    státních zástupců, rovnost před zákonem.
-                  </li>
-                  <li>
-                    <strong>Média (15 %)</strong> — pluralita, nezávislost ČT/ČRo,
-                    bezpečnost novinářů.
-                  </li>
-                  <li>
-                    <strong>Svobody (15 %)</strong> — projevu, shromažďování, sdružování;
-                    ochrana menšin.
-                  </li>
-                  <li>
-                    <strong>Korupce (15 %)</strong> — politická korupce, transparentnost
-                    veřejných zakázek, protikorupční instituce.
-                  </li>
-                </ul>
-                <p className="text-xs text-slate-500">
-                  Vyšší váha pro Vládnutí a Justici reflektuje empirickou literaturu
-                  demokratického backslidingu — tam se nejčastěji objevují strukturální
-                  posuny.
+              <InfoBox title="Jak číst pilířové skóre">
+                <p>
+                  Stupnice <strong>0–100</strong> je matematická, ne normativní — vyšší
+                  znamená méně institucionálních problémů v daném týdnu. Externí indexy
+                  (V-Dem, EIU, FH) řadí ČR aktuálně do horní třetiny vyspělých demokracií,
+                  takže typický rozsah pro ČR baseline je <strong>cca 60–95</strong>.
+                </p>
+                <p>
+                  Konkrétní událost typicky posune pilíř o <strong>0.2–6 bodů</strong>{' '}
+                  (podle severity), persistentní událost zůstává v pilíři dokud reviewer
+                  nezavře jako resolved. Jednorázové události stárnou lineárně přes 12 týdnů.
+                </p>
+                <p>
+                  <strong>Korupce</strong> stojí systematicky níž než ostatní pilíře — reflektuje
+                  reálnou diskrepanci v ČR (silné formální instituce, ale dlouhodobě vnímaná
+                  korupce per TI CPI).{' '}
+                  <strong>Vládnutí</strong> a <strong>Justice</strong> mají vyšší váhu (20 %
+                  vs 15 %), protože literatura backslidingu identifikuje právě tyto oblasti
+                  jako nejčastější kanály eroze.
                 </p>
               </InfoBox>
             </div>
