@@ -67,3 +67,42 @@ Events 009 (Grolich KDU sjezd) a 010 (NATO tribunál) mají `direction: 0` nebo 
 - Issue 1 (halucinované roky): vyřešeno přidáním `Today` + `Reference week` headeru do user message v `extract-events.ts` a předáním `published_at` per článek. Re-run: 14/14 events s datem 2026 (předtím 6/17).
 - Issue 2 (duplikace): vyřešeno novým modulem `src/pipeline/dedupe.ts` (Czech-aware Jaccard přes 5-znakové prefixy, conflict detection → `disputed`). Re-run: NCOZ Příbram kauza správně sloučená do jednoho disputed eventu.
 - Issue 3 (noise): vyřešeno přitvrzením pre-filter promptu o explicitní drop kategorie (sjezdy, ceremonial, background context). Re-run: 0/14 events s `direction: 0` (předtím 2/17).
+
+## 2026-04-29 — Asymetrie hustoty zdrojů napříč obdobími: skóre není čistá time-series
+
+**Kontext:** Po backfillech historie z roku 2025 (Wayback Machine + curated seed) vznikla timeline 2025-W04 → 2026-W18. Při pohledu na ni je vidět nelineární průběh:
+
+```
+2025-W04:  84.8 (events_active=7,   4 zdroje × Wayback)
+2025-W18:  83.7 (events_active=44,  4 zdroje × Wayback, vrchol H1 backfillu)
+2025-W27:  84.5 (events_active=26,  curated seed — jen 0.6 events/týden)
+2025-W51:  84.2 (events_active=27,  curated seed)
+2026-W17:  83.0 (events_active=49,  19 zdrojů × live pipeline)
+2026-W18:  81.0 (events_active=92,  19 zdrojů × live pipeline)
+```
+
+Skore mezi 2025-W18 a 2025-W27 **stoupne** (-0.7 → +0.8), což metodologicky nedává smysl. Stejně tak skok z 2025-W51 (84.2) na 2026-W17 (83.0) o tři body za jeden týden není reálná změna stavu demokracie.
+
+**Problém:** Skóre v daném týdnu = baseline + Σ aged_impact(active events historie). Funkce `score.ts` je deterministická a správná. Křivka je ale formována **hustotou monitorování**, která se mění:
+
+| Období | # zdrojů | Cesta | Events / týden |
+|---|---|---|---|
+| 2025-W04 → W19 | 4 | Wayback backfill | ~4 |
+| 2025-W20 → W51 | 4 (curated seed) | 20 ručně vybraných URL | ~0.6 |
+| 2026-W17 → | 19 | Live pipeline | ~50 |
+
+Persistent události se akumulují, ale když přestane proudit data (curated seed pokrývá H2 sporadicky), nové persistent události nepřibývají a one-offy decayují → skóre se odlepí od baseline. Po přechodu na 19zdrojovou pipeline (2026) přibude náhle masivně events → skok dolů.
+
+**Důsledek pro publikaci:** Nelze prezentovat skóre jako srovnatelný indikátor mezi rokem 2025 a 2026. Pohled "ČR v 2025-W51 byla 84.2, v 2026-W17 je 83.0, znamená to zhoršení?" je zavádějící — primární vysvětlení je více zdrojů monitorujících víc událostí, ne reálné zhoršení.
+
+**Návrh řešení (k diskuzi, žádný není triviální):**
+
+1. **Normalizace event impactu podle intenzity zdrojů.** Místo absolutního součtu impactů použít `Σ impact / activeSourceCount × reference_count` (kde `reference_count` = nějaká stabilní hodnota, např. 4 jako "minimální monitoring"). Risk: zatemňuje vztah mezi reálnou událostí a jejím dopadem; kalibrace severity rubric je vázána na absolutní hodnoty.
+
+2. **Backfill historie přes všech 19 zdrojů.** Wayback bohužel většinu moderních zdrojů (Hlídač API, PSP HTML, ÚS RSS, foreign RSS) v 2025 neindexuje. Část by šlo dostat z PSP OpenData hlasovacích dumpů, novinových webarchivů (CzechELib), GRECO/ECHR datasetů. High effort.
+
+3. **Akceptovat asymetrii a explicitně ji komunikovat.** Na dashboardu disclaimer "Pre-2026-W17 data jsou z menšího počtu zdrojů; trendová srovnání mezi obdobími nemusí být plně srovnatelná." Skóre se neupraví. Methodology dokument popisuje limit.
+
+4. **Rolling window severity benchmark.** Místo srovnávat absolutní skóre srovnávat 90-day rolling window proti baseline pro ten samý okno. Sníží efekt sudden expansion zdrojů, ale i sníží signál ze skutečných šoků.
+
+**Status:** open. Doporučení: pro krátkodobou prezentaci (do 2026-Q3) řešení 3 (disclaimer + dokumentace). Pro dlouhodobou srovnatelnost zvážit kombinaci 1 + 2.

@@ -75,6 +75,20 @@ export default async function HomePage() {
                   První snapshot — historie se buduje od týdne {timeline[0]?.week}.
                 </p>
               )}
+              <p className="mt-3 border-t border-slate-100 pt-3 text-xs text-slate-500">
+                <strong className="font-semibold text-slate-700">Pozor na srovnatelnost:</strong>{' '}
+                pre-2026-W17 data pochází z menšího počtu zdrojů (4 česká média přes Wayback
+                Machine vs. 19 zdrojů v aktuální pipeline). Trendová srovnání mezi obdobími
+                proto nemusí být plně srovnatelná — víc zdrojů zachytí víc událostí, což může
+                vypadat jako zhoršení i bez reálné změny stavu. Detail v{' '}
+                <Link
+                  href="/methodology/issues/"
+                  className="underline hover:text-slate-700"
+                >
+                  methodology/issues
+                </Link>
+                .
+              </p>
             </div>
           </section>
 
