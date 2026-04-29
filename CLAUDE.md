@@ -15,7 +15,8 @@
 | 6 | ✅ done | Next.js 15 + Tailwind dashboard (homepage, /events), static export do `out/`, Vercel ready. EventCard má funkční dispute link s URL-prefilled GitHub issue templatem. |
 | 7 | ✅ done | Self-audit infrastruktura: `cap-severity.ts` (deterministic source-count rule), `audit.ts` (Sonnet 4.6 s odděleným promptem), `detect-anomalies.ts` (5 triggerů), `report.ts` (data/reports/YYYY-MM-DD.md). 26 nových testů. |
 | 8 | ✅ done | GitHub Actions: `weekly-pipeline.yml` (Po 06:00 UTC, auto-commit + open anomaly issues), `recompute-scores.yml` (po edit events nebo baseline), `monthly-spotcheck.yml` (1. v měsíci, deterministic seed), `dispute-handler.yml` (auto-triage), `ci.yml` (typecheck/lint/test/build na PR). |
-| 9+ | ▶ next | Backtesting 2018–2020, kvartální validace proti EIU/V-Dem, prompt tuning na základě dispute logu, případně rozšíření source listu o HTML/API zdroje (psp.cz, Hlídač státu). |
+| 9 | ✅ done | Quarterly validation framework: `validate-external.ts` + `methodology/validation_2026-Q2.md`. Single-dim indexy (RSF↔media, TI↔corruption, WJP↔judicial) se srovnávají s konkrétním pilířem; multi-dim (V-Dem/EIU/FH) s overall. Threshold > 10 b. trvalé divergence ve 2 kvartálech = methodology review trigger. |
+| 10+ | ▶ next | Plný backtesting 2018–2020 (vyžaduje archiv historických článků + ~$80 LLM nákladů), prompt tuning na základě dispute logu, rozšíření source listu o HTML/API adaptery (psp.cz, Hlídač státu). |
 
 Detail aktivních úkolů a technického dluhu v [`methodology/issues.md`](methodology/issues.md).
 

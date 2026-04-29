@@ -2,6 +2,33 @@
 
 Každá změna metodiky (pilíře, váhy, rubric, mantinely) je zaznamenána zde s datem, autorem a odůvodněním. Změny vyžadují přepočet historické řady, viz [`weights.md`](weights.md), pravidla pro změnu vah.
 
+## v0.2.1 — Quarterly validation framework (2026-04-29, iter 9)
+
+Přidán `methodology/validation_<quarter>.md` — automaticky generovaný report
+porovnávající náš index s externími benchmarky (V-Dem, EIU, FH, RSF, TI, WJP).
+
+Klíčové pravidlo srovnání:
+- Multi-dimension overall composity (V-Dem LDI, EIU Democracy Index,
+  Freedom House FitW) → srovnávají se s naším weighted overall
+- Single-dimension indexy (RSF press freedom, TI CPI corruption, WJP rule
+  of law) → srovnávají se s konkrétním pilířem (RSF↔media, TI↔corruption,
+  WJP↔judicial)
+
+**Threshold pro action:** trvalá divergence > 10 bodů ve 2 po sobě jdoucích
+kvartálech vůči referenčnímu indexu (V-Dem nebo EIU) = otevřít issue
+`methodology-review` a spustit per-pillar audit mappingu.
+
+První report (2026-Q2) ukazuje žádné překročení prahu:
+- V-Dem 81.7 vs naše overall 85.0 → +3.3 (normální)
+- EIU 80.8 vs overall 85.0 → +4.2 (normální)
+- FH 95 vs overall 85.0 → -10.0 (právě na hraně, FH dlouhodobě
+  generózní vůči ČR)
+- RSF 84 vs media 92 → +8 (FH D=100 averaging up)
+- TI CPI 59 vs corruption 59 → 0 (perfect match — corruption pillar JE TI CPI)
+- WJP 74 vs judicial 83.9 → +9.9 (FH F=93.75 averaging up)
+
+Žádná změna pilířů, vah ani rubric.
+
 ## v0.2 — Governance model: oversight bez pre-merge gate (2026-04-28)
 
 **Major change.** Princip #6 v CLAUDE.md ("Lidský review je povinný před merge") se ruší a nahrazuje vícevrstvým oversight modelem bez blokace publikace.

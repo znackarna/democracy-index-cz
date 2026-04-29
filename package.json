@@ -18,6 +18,7 @@
     "pipeline:weekly": "tsx src/pipeline/run-weekly.ts",
     "pipeline:recompute": "tsx src/pipeline/recompute-scores.ts",
     "pipeline:monthly-spotcheck": "tsx src/pipeline/monthly-spotcheck.ts",
+    "pipeline:validate": "tsx src/pipeline/validate-external.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
