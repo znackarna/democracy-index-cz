@@ -3,7 +3,7 @@
 > Tento soubor je trvalý kontext pro Claude Code. Čti ho na začátku každé session.
 > Aktualizuje se ručně commitem, nikdy ne automaticky agentem.
 
-## Aktuální stav (2026-04-28)
+## Aktuální stav (2026-04-29)
 
 | Iterace | Status | Co je v ní |
 |---|---|---|
@@ -12,11 +12,17 @@
 | 3 | ✅ done | `run-weekly.ts` orchestrátor + CLI (`npm run pipeline:weekly`), placeholder strukturální baseline pro 2026-Q2, první živý běh proti 4 RSS feedům: 90 článků → 28 pre-filtered → 14 events. |
 | 4 | ✅ done | Prompt fixes (datumy, noise filtering) + `dedupe.ts` modul (Czech-aware Jaccard, conflict detection → `disputed`). Re-run prokázal vyřešení tří issues. |
 | 5 | ✅ done | Real strukturální baseline z V-Dem 2024 / EIU 2024 / FH 2025 / RSF 2025 / TI CPI 2024 / WJP 2024 + dokumentované per-pillar mapping v `methodology/structural_mapping.md`. |
-| 6 | ✅ done | Next.js 15 + Tailwind dashboard (homepage, /events), static export do `out/`, Vercel ready. EventCard má funkční dispute link s URL-prefilled GitHub issue templatem. |
+| 6 | ✅ done | Next.js 15 + Tailwind dashboard, static export do `out/`, Vercel ready. EventCard má funkční dispute link s URL-prefilled GitHub issue templatem. |
 | 7 | ✅ done | Self-audit infrastruktura: `cap-severity.ts` (deterministic source-count rule), `audit.ts` (Sonnet 4.6 s odděleným promptem), `detect-anomalies.ts` (5 triggerů), `report.ts` (data/reports/YYYY-MM-DD.md). 26 nových testů. |
 | 8 | ✅ done | GitHub Actions: `weekly-pipeline.yml` (Po 06:00 UTC, auto-commit + open anomaly issues), `recompute-scores.yml` (po edit events nebo baseline), `monthly-spotcheck.yml` (1. v měsíci, deterministic seed), `dispute-handler.yml` (auto-triage), `ci.yml` (typecheck/lint/test/build na PR). |
 | 9 | ✅ done | Quarterly validation framework: `validate-external.ts` + `methodology/validation_2026-Q2.md`. Single-dim indexy (RSF↔media, TI↔corruption, WJP↔judicial) se srovnávají s konkrétním pilířem; multi-dim (V-Dem/EIU/FH) s overall. Threshold > 10 b. trvalé divergence ve 2 kvartálech = methodology review trigger. |
-| 10+ | ▶ next | Plný backtesting 2018–2020 (vyžaduje archiv historických článků + ~$80 LLM nákladů), prompt tuning na základě dispute logu, rozšíření source listu o HTML/API adaptery (psp.cz, Hlídač státu). |
+| 10 | ✅ done | Source expanze: ÚS RSS adapter (objevený nedokumentovaný feed), `psp.ts` HTML scraper pro přehled schůzí PSP, Hlídač iter 2 (smlouvy s anomáliemi pro AGROFERT/MAFRA, dotace pro watchlist). 8 CZ médií + ÚS + PSP + 3 Hlídač surfaces + 5 zahraničních = **19 aktivních zdrojů** v live pipeline. |
+| 11 | ✅ done | `claude.ts` refactor na `messages.parse()` + `jsonSchemaOutputFormat()` se 1-retry policy. Dřívější fragile `JSON.parse(text)` selhával na malformed Sonnet output (workflow run 25104314676). SDK helper přes `transformJSONSchema()` přidává `additionalProperties: false` → Sonnet output je výrazně robustnější. |
+| 12 | ✅ done | Backfill 2025: Wayback Machine fetcher pro archivované RSS snapshoty + curated seed pro nedostupné týdny. **2025 H1+H2 backfilled** (denik-n, irozhlas, hn, aktualne) — 195 events napříč 35 týdnů, timeline 50 snapshotů 2025-W01 → 2026-W18 s gradual decline 84.9 → 77.4. Per-source + per-week try/catch resilience. |
+| 13 | ✅ done | Web UX vylepšení: PillarDetail komponenta (per-pilíř karty), IndexComparison (srovnání s externími indexy), ScoreSummary s WoW deltou, InfoBox callouts, Vercel Analytics, /metodika/zdroje/ stránka s auto-renderovanou tabulkou z config/sources.yaml. |
+| 14 | ✅ done | Czech URLs: `/metodika/`, `/udalosti/`, slugy bez diakritiky (`pilire`, `zavaznost`, `vahy`, `model-dohledu`, `strukturalni-mapovani`, `zdroje`, `zmeny`, `otevrene-otazky`, `validace-2026-q2`). Filesystem `methodology/*.md` a `data/events/*.json` zůstávají (source-of-truth, ne URL). |
+| 15 | ✅ done | `/udalosti/` filtrace + paginace (15/stránka): chips pro pilíř + závažnost (multi-toggle), dropdown pro rok. Klientský `EventsList.tsx`, in-memory filtrace. |
+| 16+ | ▶ next | Plný backtesting 2018–2020 (vyžaduje historický archiv + ~$80 LLM nákladů), prompt tuning na základě dispute logu, řešení source-intensity asymmetry mezi obdobími (viz `methodology/issues.md`), případně doplnění chybějících 2025 týdnů z dalších archivů (W08, W15, W30, W36, W39-40, W44-45, W52). |
 
 Detail aktivních úkolů a technického dluhu v [`methodology/issues.md`](methodology/issues.md).
 
@@ -92,13 +98,19 @@ Příklady a kalibrační pravidla v `methodology/severity_rubric.md`.
 ### Strukturální (kvartální)
 V-Dem · EIU Democracy Index · Freedom House (FitW, NiT) · RSF Press Freedom Index · Transparency International CPI · World Justice Project Rule of Law Index · EK Rule of Law Report (CZ kapitola) · Bertelsmann BTI
 
-### Týdenní (event monitoring)
-- **Česká média:** Deník N, iROZHLAS, ČT24, HN, Aktuálně.cz, Investigace.cz, A2larm
-- **Otevřená data:** Hlídač státu API, psp.cz (hlasování, zkrácená čtení), nsoud.cz, usoud.cz
-- **Watchdogy:** Transparency International ČR, Rekonstrukce státu, Iuridicum Remedium, Frank Bold
-- **Mezinárodní:** GRECO, Venice Commission, ESLP, EK (právní stát)
+### Týdenní (event monitoring) — 19 aktivních zdrojů
+- **Česká média (8 RSS):** Deník N, iROZHLAS, ČT24, HN, Aktuálně.cz, Investigace.cz, A2larm, Seznam Zprávy
+- **Otevřená data (3 implementované adaptery):**
+  - Hlídač státu — sponzoring (`src/lib/hlidac.ts`, fan-out přes 9 hlavních CZ stran, threshold 100k Kč)
+  - Hlídač státu — smlouvy s anomáliemi (`fetchWatchlistSmlouvyAsArticles`, watchlist AGROFERT + MAFRA)
+  - Hlídač státu — dotace pro watchlist (`fetchWatchlistDotaceAsArticles`)
+  - PSP HTML scraper (`src/lib/psp.ts`) — přehled schůzí + status „Přerušeno"
+  - ÚS RSS feed (nedokumentovaný `https://www.usoud.cz/rss`, 30 položek, fresh)
+- **Watchdog (1 RSS):** Transparency International ČR
+- **Mezinárodní (5 RSS):** POLITICO Europe, BBC News Europe, Euronews, Visegrad Insight, Brno Daily
+- **Nezapojené placeholdery:** Senát, Nejvyšší soud, Nejvyšší správní soud, Rekonstrukce státu, Frank Bold, GRECO, Venice Commission, EC Rule of Law, ECHR (Iuridicum Remedium dropped 2026-04-29 kvůli HTTP 500).
 
-Plný seznam s URL a typem feedu v `config/sources.yaml`.
+Plný seznam s URL, typem a `notes` v [`config/sources.yaml`](config/sources.yaml). Lidsky čitelný přehled na webu na [`/metodika/zdroje/`](src/app/metodika/[slug]/page.tsx) (auto-renderovaná tabulka z yamlu při buildu).
 
 ## Struktura repozitáře
 
@@ -106,68 +118,108 @@ Plný seznam s URL a typem feedu v `config/sources.yaml`.
 democracy-index-cz/
 ├── CLAUDE.md                      # tento soubor
 ├── README.md                      # veřejný popis
-├── package.json
+├── package.json                   # @anthropic-ai/sdk 0.91+, @vercel/analytics, next 15
 ├── tsconfig.json
 ├── next.config.mjs                # output: 'export'
-├── vercel.json                    # build config
+├── vercel.json                    # framework: nextjs (žádné cron jobs)
 │
-├── methodology/
+├── methodology/                   # source-of-truth dokumenty (NE URL, ty jsou /metodika/)
 │   ├── pillars.md                 # vymezení pilířů
 │   ├── severity_rubric.md         # rubric s příklady
 │   ├── weights.md                 # zdůvodnění vah
-│   ├── governance.md              # oversight model: self-audit, anomaly detection, dispute
-│   ├── structural_mapping.md      # (iter 5) mapování V-Dem/EIU/FH/RSF/TI/WJP → pilíře
-│   ├── issues.md                  # otevřené metodologické otázky
-│   └── CHANGELOG.md               # log změn metodiky
+│   ├── governance.md              # 6-vrstvý oversight model
+│   ├── structural_mapping.md      # mapování V-Dem/EIU/FH/RSF/TI/WJP → pilíře
+│   ├── sources.md                 # popis kategorií zdrojů + auto-render tabulky
+│   ├── issues.md                  # otevřené metodologické otázky (data-intensity asymmetry)
+│   ├── CHANGELOG.md               # log změn metodiky
+│   └── validation_2026-Q2.md      # kvartální validační report
 │
 ├── config/
-│   └── sources.yaml               # feedy a API endpointy
+│   └── sources.yaml               # 28 zdrojů (19 aktivních + 9 placeholderů)
 │
 ├── data/                          # source of truth
 │   ├── structural/                # YYYY-Qx.json
-│   ├── events/                    # YYYY-Wxx.json
-│   ├── scores/timeline.json       # historie skóre
-│   └── reports/                   # YYYY-MM-DD.md daily reports (iter 7)
+│   ├── events/                    # YYYY-Wxx.json (50 týdnů 2025-W01 → 2026-W18)
+│   ├── scores/timeline.json       # historie skóre (50 snapshotů)
+│   ├── reports/                   # YYYY-MM-DD.md daily reports
+│   ├── seeds/                     # curated seed JSONs pro backfill mode
+│   └── index_comparisons/         # YYYY-Qx.json srovnání s externími indexy
 │
 ├── schemas/
 │   ├── event.schema.json
 │   └── score.schema.json
 │
 ├── prompts/
-│   ├── event_extraction.md       # Haiku pre-filter
-│   ├── classification.md         # Sonnet klasifikace
-│   └── audit.md                  # (iter 7) oddělený auditor pass
+│   ├── event_extraction.md        # Haiku pre-filter
+│   ├── classification.md          # Sonnet klasifikace (Output language: Czech)
+│   └── audit.md                   # oddělený auditor pass (anti-bias)
 │
 ├── src/
 │   ├── pipeline/                  # běží v GitHub Actions
-│   │   ├── fetch-sources.ts       # RSS/API agregace
-│   │   ├── extract-events.ts      # Claude API (Sonnet)
-│   │   ├── pre-filter.ts          # Claude API (Haiku) — relevance gate
-│   │   ├── score.ts               # ČISTĚ DETERMINISTICKÝ
+│   │   ├── fetch-sources.ts       # RSS/API/HTML agregace per source-id dispatch
+│   │   ├── pre-filter.ts          # Claude Haiku 4.5 — relevance gate
+│   │   ├── extract-events.ts      # Claude Sonnet 4.6 — klasifikace
+│   │   ├── audit.ts               # Sonnet self-audit (oddělený prompt)
+│   │   ├── cap-severity.ts        # deterministic source-count → severity cap
+│   │   ├── dedupe.ts              # Czech-aware Jaccard, conflict → disputed
+│   │   ├── detect-anomalies.ts    # 5 triggerů, per-source threshold scaling
+│   │   ├── report.ts              # daily MD report generator
+│   │   ├── score.ts               # ČISTĚ DETERMINISTICKÝ — počítá skóre
+│   │   ├── recompute-scores.ts    # přepočet timeline napříč všemi events
+│   │   ├── monthly-spotcheck.ts   # 1. v měsíci, deterministic seed
+│   │   ├── validate-external.ts   # quarterly index comparison
 │   │   ├── validate.ts            # AJV schema validace
-│   │   └── run-weekly.ts          # orchestrátor
+│   │   ├── backfill.ts            # seed/Wayback historický backfill
+│   │   ├── wayback-fetcher.ts     # CDX API klient pro archivované RSS
+│   │   └── run-weekly.ts          # orchestrátor + CLI
 │   ├── lib/
-│   │   ├── claude.ts              # @anthropic-ai/sdk wrapper
+│   │   ├── claude.ts              # SDK wrapper, messages.parse + retry
 │   │   ├── feeds.ts               # rss-parser wrapper
+│   │   ├── hlidac.ts              # Hlídač státu API klient (3 surfaces)
+│   │   ├── psp.ts                 # PSP HTML scraper (přehled schůzí)
 │   │   └── types.ts               # Zod schemas + TS typy
 │   └── app/                       # Next.js App Router (dashboard)
-│       ├── layout.tsx
+│       ├── layout.tsx             # + <Analytics /> z @vercel/analytics
 │       ├── page.tsx               # hlavní dashboard
-│       ├── events/page.tsx        # seznam events
-│       ├── methodology/page.tsx
+│       ├── udalosti/page.tsx      # /udalosti/ — server, deleguje na <EventsList>
+│       ├── metodika/
+│       │   ├── page.tsx           # /metodika/ — TOC
+│       │   └── [slug]/page.tsx    # /metodika/{pilire,zavaznost,...}
+│       ├── lib/
+│       │   ├── data.ts            # readAllEvents, readLatest, readTimeline, readIndexComparisons
+│       │   └── markdown.ts        # MD → HTML build-time, METHODOLOGY_DOCS registry, SOURCES_TABLE marker
 │       └── components/
-│           ├── ScoreTimeline.tsx
-│           ├── PillarBreakdown.tsx
-│           └── EventCard.tsx
+│           ├── Header.tsx         # nav: Přehled / Události / Metodika
+│           ├── ScoreSummary.tsx   # hlavní číslo + WoW delta
+│           ├── ScoreTimeline.tsx  # Recharts line chart
+│           ├── PillarBreakdown.tsx # 6 sloupců + černé tečky baseline
+│           ├── PillarDetail.tsx   # per-pilíř karty s příklady
+│           ├── IndexComparison.tsx # tabulka vs. V-Dem/EIU/FH/RSF/TI/WJP
+│           ├── EventCard.tsx      # + dispute link
+│           ├── EventsList.tsx     # client filter+pagination (15/strana)
+│           └── InfoBox.tsx        # collapsible <details> callout
 │
-├── tests/
-│   └── score.test.ts              # vitest, povinný coverage
+├── tests/                         # vitest, 146+ testů
+│   ├── score.test.ts              # 100 % coverage
+│   ├── claude.test.ts             # SDK wrapper + retry policy
+│   ├── psp.test.ts                # PSP scraper (date parsing, table)
+│   ├── hlidac.test.ts             # Hlídač client + 3 surfaces
+│   ├── backfill.test.ts           # seed mode (Wayback je integration, off)
+│   ├── wayback-fetcher.test.ts    # CDX query + snapshot picker
+│   ├── recompute-scores.test.ts
+│   └── ... (další per-modul)
+│
+├── tmp/                           # ad-hoc probe scripty (gitignored kromě .gitkeep)
 │
 ├── .github/
-│   └── workflows/
-│       ├── weekly-pipeline.yml    # cron Po 06:00 UTC
-│       ├── validate-pr.yml        # JSON schema check na PR
-│       └── recompute-scores.yml   # přepočet skóre po merge
+│   ├── workflows/
+│   │   ├── weekly-pipeline.yml     # cron Po 06:00 UTC, auto-commit + anomaly issues
+│   │   ├── recompute-scores.yml    # po edit events nebo baseline
+│   │   ├── monthly-spotcheck.yml   # 1. v měsíci, deterministic seed
+│   │   ├── dispute-handler.yml     # auto-triage disputes
+│   │   └── ci.yml                  # typecheck/lint/test/build na PR
+│   └── ISSUE_TEMPLATE/
+│       └── dispute.md              # public dispute mechanismus
 │
 └── public/                        # statická aktiva pro Next.js
 ```
@@ -289,8 +341,8 @@ Dashboard nepotřebuje SSR. Build čte `data/scores/timeline.json` a `data/event
 
 ```bash
 # Setup
-npm install
-cp .env.example .env  # a doplnit ANTHROPIC_API_KEY
+npm install --legacy-peer-deps  # vitest 2.1 vs vite 5 peer dep conflict
+cp .env.example .env  # a doplnit ANTHROPIC_API_KEY (+ volitelně HLIDAC_API_KEY)
 
 # Lint, typecheck, testy
 npm run typecheck
@@ -298,9 +350,12 @@ npm run lint
 npm test
 npm run test:coverage  # pro kontrolu, že score.ts má 100 %
 
-# Týdenní pipeline lokálně (současný stav iterace 4)
-npm run pipeline:weekly -- --week=2026-W17 --baseline=2026-Q2 \
-  --sources=denik-n,irozhlas,aktualne,investigace-cz
+# Next.js dev server
+npm run dev
+npm run build  # static export do out/
+
+# Týdenní pipeline lokálně (default 19 zdrojů, s --sources lze omezit)
+npm run pipeline:weekly -- --week=2026-W17 --baseline=2026-Q2
 
 # Pipeline bez LLM (plumbing test, žádné Claude volání)
 npm run pipeline:weekly -- --week=2026-W17 --baseline=2026-Q2 --skip-llm
@@ -308,20 +363,16 @@ npm run pipeline:weekly -- --week=2026-W17 --baseline=2026-Q2 --skip-llm
 # Backfill historie z curated seedu (JSON s {date, url, headline, outlet})
 npm run pipeline:backfill -- --seed=data/seeds/2025-curated.json --baseline=2026-Q2 --skip-audit
 
-# Backfill z Wayback Machine archivovaných RSS snapshotů (pomalé, dražší)
-npm run pipeline:backfill -- --wayback --from=2025-01-01 --to=2025-12-31 \
-  --sources=denik-n,irozhlas --baseline=2026-Q2
+# Backfill z Wayback Machine archivovaných RSS snapshotů (per-source +
+# per-week try/catch — výpadek jednoho zdroje/týdne neshodí celý běh)
+npm run pipeline:backfill -- --wayback --from=2025-01-01 --to=2025-05-11 \
+  --sources=denik-n,irozhlas,hn,aktualne --baseline=2026-Q2 --skip-audit
 
 # Recompute scores přes všechny existující events files (po edit baseline / events)
 npm run pipeline:recompute -- --baseline=2026-Q2
 
 # Validation report
 npm run pipeline:validate -- --quarter=2026-Q2
-
-# (Plánováno iter 6+)
-# npm run dev          # Next.js dev server
-# npm run build        # static export do out/
-# npm run pipeline:replay -- --from 2024-Q1 --to 2025-Q4   # backtesting
 ```
 
 CLI flags pro `pipeline:weekly`:
@@ -334,50 +385,46 @@ CLI flags pro `pipeline:weekly`:
 
 ### `.github/workflows/weekly-pipeline.yml`
 - Trigger: `cron: '0 6 * * 1'` + `workflow_dispatch` (pro manuální spuštění)
-- Secrets: `ANTHROPIC_API_KEY`
-- Permissions: `pull-requests: write`, `contents: write`
-- Outputs: PR s navrženými events pro daný týden
-- Time limit: 30 minut (default), v praxi pod 10 minut
-
-### `.github/workflows/validate-pr.yml`
-- Trigger: PR do `main`
-- Spustí `npm run validate` na změněné event soubory
-- Spustí `npm test` (score function tests)
-- Blocking — PR nelze merge bez green checks
+- Secrets: `ANTHROPIC_API_KEY` (povinné), `HLIDAC_API_KEY` (volitelné — fail-soft warning)
+- Permissions: `contents: write`, `issues: write`
+- Default sources: 19 aktivních (8 CZ media + ÚS + PSP + 5 zahraničních + 3 Hlídač)
+- Outputs: auto-commit do `main` (`data: weekly pipeline YYYY-Wxx [skip ci]`) + auto-otevřené anomaly issues přes `gh issue create` s pre-filled bodem
+- Time limit: 30 minut (default), v praxi 8-12 minut
 
 ### `.github/workflows/recompute-scores.yml`
-- Trigger: push do `main` na cestě `data/events/**`
-- Spustí `npm run pipeline:score -- --rebuild`
-- Commitne `data/scores/timeline.json` zpět (s `[skip ci]` v message)
+- Trigger: push do `main` na cestě `data/events/**` nebo `data/structural/**`
+- Spustí `npm run pipeline:recompute -- --baseline=2026-Q2`
+- Commitne aktualizovaný `data/scores/timeline.json` zpět (s `[skip ci]` v message)
+
+### `.github/workflows/monthly-spotcheck.yml`
+- Trigger: cron 1. v měsíci, `workflow_dispatch`
+- Vybere 10 deterministicky seeded events z minulého měsíce
+- Otevře GitHub issue s otázkou „Souhlasíš s klasifikací?" (non-blocking, kalibrace)
+
+### `.github/workflows/dispute-handler.yml`
+- Trigger: nový GitHub issue s `dispute` labelem
+- Auto-triage: extrahuje event ID z těla, ověří jeho existenci, doplní context
+
+### `.github/workflows/ci.yml`
+- Trigger: PR + push do `main`
+- Spustí: typecheck, lint, vitest, `next build`
+- Blocking — `main` chráněný, PR potřebuje green checks
 
 ## Vercel konfigurace
 
-- **Framework preset:** Next.js
+- **Framework preset:** Next.js (auto-detect, `vercel.json` má jen `framework: nextjs`)
 - **Build command:** `npm run build`
 - **Output directory:** `out` (kvůli static export)
-- **Install command:** `npm install`
-- **Root directory:** `./`
+- **Install command:** `npm install --legacy-peer-deps`
 - **Environment variables:** žádné runtime (static), build-only pokud potřeba
 - **Cron jobs:** **NEPOUŽÍVAT.** Pipeline běží na GitHub Actions, ne na Vercelu.
 - **Production branch:** `main`
-- **Preview deployments:** zapnuté pro všechny PR (užitečné pro review event změn před merge)
+- **Preview deployments:** zapnuté pro všechny PR
+- **Analytics:** zapnuté přes `@vercel/analytics` v `src/app/layout.tsx` (`<Analytics />` před `</body>`)
 
 ## Initial setup — historie
 
-Tyto kroky byly provedené v iteracích 1–4. Ponecháno jako záznam pořadí, ne aktivní TODO.
-
-1. ✅ Repo struktura, schemas, prompts, methodology stuby (iter 1)
-2. ✅ `methodology/pillars.md` plný draft (iter 1)
-3. ✅ `methodology/severity_rubric.md` s ČR příklady (iter 1)
-4. ✅ `src/pipeline/score.ts` čistá funkce + 22 vitest testů, 100 % coverage (iter 1)
-5. ✅ Pipeline core: `claude.ts`, `feeds.ts`, `fetch-sources.ts`, `pre-filter.ts`, `extract-events.ts`, `validate.ts` + 38 dalších testů (iter 2)
-6. ✅ `run-weekly.ts` orchestrátor + CLI, placeholder baseline 2026-Q2.json, první živý běh (iter 3)
-7. ✅ Prompt tuning + dedupe modul, vyřešené 3 issues z prvního běhu (iter 4)
-8. ⏳ Real strukturální skóre z V-Dem/EIU/FH/RSF/TI/WJP dat → `data/structural/2026-Q2.json` (iter 5, plánované)
-9. ⏳ `npm create next-app` (App Router, TS, Tailwind, ESLint) v `src/app/` (iter 6, plánované)
-10. ⏳ Backtesting na 2018–2020 (iter 8+)
-11. ⏳ Připojit Vercel k repu, ověřit static export (iter 6 / 7)
-12. ⏳ Teprve potom zapnout GitHub Actions cron (iter 7)
+Iterace 1–15 hotové k 2026-04-29. Detail v tabulce na začátku souboru. Pro každou iteraci je v Gitu commit s explicitním rozsahem; `git log --oneline` ukáže chronologický průběh.
 
 ## Co Claude Code typicky řeší v této code base
 
