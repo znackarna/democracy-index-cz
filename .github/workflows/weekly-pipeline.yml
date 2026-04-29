@@ -35,6 +35,18 @@ jobs:
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     steps:
+      - name: Verify ANTHROPIC_API_KEY secret is set
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::ANTHROPIC_API_KEY repository secret is not set."
+            echo "Set it at: https://github.com/${{ github.repository }}/settings/secrets/actions/new"
+            echo "Use the same value as your local .env (from console.anthropic.com → Settings → API Keys)."
+            exit 1
+          fi
+          echo "✓ ANTHROPIC_API_KEY is configured (${#ANTHROPIC_API_KEY} chars)"
+
       - name: Check out repo
         uses: actions/checkout@v4
         with:
