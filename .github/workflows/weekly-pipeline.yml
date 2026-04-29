@@ -86,33 +86,32 @@ jobs:
             echo "No anomalies file populated."
             exit 0
           fi
-          # jq array length
           COUNT=$(jq 'length' tmp/anomalies.json)
           if [ "$COUNT" = "0" ]; then
             echo "No anomalies for $WEEK."
             exit 0
           fi
+          DATE=$(date -u +%Y-%m-%d)
           echo "Opening $COUNT anomaly issue(s) for $WEEK..."
+          # Body is built per-anomaly in tmp/issue-body.md via printf so we
+          # avoid multi-line bash variables that would break YAML indentation.
           jq -c '.[]' tmp/anomalies.json | while IFS= read -r anomaly; do
             TRIGGER=$(echo "$anomaly" | jq -r '.trigger')
             LEVEL=$(echo "$anomaly" | jq -r '.level')
             DETAILS=$(echo "$anomaly" | jq -r '.details')
             TITLE="Anomaly ($LEVEL) $WEEK: $TRIGGER"
-            BODY="**Week:** \`$WEEK\`
-
-**Trigger:** \`$TRIGGER\` (level: $LEVEL)
-
-**Details:** $DETAILS
-
----
-
-Per [methodology/governance.md](../blob/main/methodology/governance.md) vrstva 4: anomálie nezablokuje publikaci. Index byl commitnut normálně. Tento issue je oversight ping — projdi daily report, případně edituj \`data/events/$WEEK.json\` (recompute-scores workflow přepočítá timeline) a issue zavři.
-
-Daily report: [\`data/reports/$(date -u +%Y-%m-%d).md\`](../blob/main/data/reports/$(date -u +%Y-%m-%d).md)
-Events: [\`data/events/$WEEK.json\`](../blob/main/data/events/$WEEK.json)"
+            {
+              printf '**Week:** `%s`\n\n' "$WEEK"
+              printf '**Trigger:** `%s` (level: %s)\n\n' "$TRIGGER" "$LEVEL"
+              printf '**Details:** %s\n\n' "$DETAILS"
+              printf -- '---\n\n'
+              printf 'Per [methodology/governance.md](../blob/main/methodology/governance.md) vrstva 4: anomálie nezablokuje publikaci. Index byl commitnut normálně. Tento issue je oversight ping — projdi daily report, případně edituj `data/events/%s.json` (recompute-scores workflow přepočítá timeline) a issue zavři.\n\n' "$WEEK"
+              printf 'Daily report: [`data/reports/%s.md`](../blob/main/data/reports/%s.md)\n' "$DATE" "$DATE"
+              printf 'Events: [`data/events/%s.json`](../blob/main/data/events/%s.json)\n' "$WEEK" "$WEEK"
+            } > tmp/issue-body.md
             gh issue create \
               --title "$TITLE" \
-              --body "$BODY" \
+              --body-file tmp/issue-body.md \
               --label anomaly
           done
 

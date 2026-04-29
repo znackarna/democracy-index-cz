@@ -31,19 +31,21 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE: ${{ github.event.issue.number }}
         run: |
-          BODY="Díky za dispute! 🙏
-
-Tento issue automaticky dostal label \`triage\`. Než se k němu dostanu ručně, krátký kontext:
-
-**Než budeš pokračovat — podívej se prosím sem:**
-- [\`methodology/pillars.md\`](../blob/main/methodology/pillars.md) — co každý pilíř měří, kdy patří/nepatří k pillaru
-- [\`methodology/severity_rubric.md\`](../blob/main/methodology/severity_rubric.md) — kalibrace severity 1–5 s ČR příklady
-- [\`methodology/governance.md\`](../blob/main/methodology/governance.md) — proč nepřepisujeme severity ručně po publikaci, ale řešíme to skrz dispute log
-
-**Co dispute typicky vede k:**
-- Pokud najdu jasnou chybu klasifikace → ruční edit \`data/events/<week>.json\` s commitem; recompute-scores workflow přepočítá timeline
-- Pokud jde o sporný judgment call → necháme původní klasifikaci, ale zaznamenám rozpor pro budoucí prompt-tuning
-- Pokud disagreement odhalí systematický problém → otevřu issue na úpravu rubric/promptu
-
-Odpověď typicky do týdne."
-          gh issue comment "$ISSUE" --body "$BODY" --repo "${{ github.repository }}"
+          # Build body via printf in a single block so we don't run into the
+          # YAML literal-block indentation rule (lines at column 0 inside
+          # a `run: |` scalar terminate the scalar early).
+          mkdir -p tmp
+          {
+            printf 'Díky za dispute! 🙏\n\n'
+            printf 'Tento issue automaticky dostal label `triage`. Než se k němu dostanu ručně, krátký kontext:\n\n'
+            printf '**Než budeš pokračovat — podívej se prosím sem:**\n'
+            printf -- '- [`methodology/pillars.md`](../blob/main/methodology/pillars.md) — co každý pilíř měří, kdy patří/nepatří k pillaru\n'
+            printf -- '- [`methodology/severity_rubric.md`](../blob/main/methodology/severity_rubric.md) — kalibrace severity 1–5 s ČR příklady\n'
+            printf -- '- [`methodology/governance.md`](../blob/main/methodology/governance.md) — proč nepřepisujeme severity ručně po publikaci, ale řešíme to skrz dispute log\n\n'
+            printf '**Co dispute typicky vede k:**\n'
+            printf -- '- Pokud najdu jasnou chybu klasifikace → ruční edit `data/events/<week>.json` s commitem; recompute-scores workflow přepočítá timeline\n'
+            printf -- '- Pokud jde o sporný judgment call → necháme původní klasifikaci, ale zaznamenám rozpor pro budoucí prompt-tuning\n'
+            printf -- '- Pokud disagreement odhalí systematický problém → otevřu issue na úpravu rubric/promptu\n\n'
+            printf 'Odpověď typicky do týdne.\n'
+          } > tmp/dispute-comment.md
+          gh issue comment "$ISSUE" --body-file tmp/dispute-comment.md --repo "${{ github.repository }}"
