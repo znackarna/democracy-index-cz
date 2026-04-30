@@ -151,27 +151,6 @@ export default async function HomePage() {
         </section>
       )}
 
-      {(pollSeries.length > 0 || (topical && topical.items.length > 0)) && (
-        <section>
-          <h2 className="mb-2 text-xl font-semibold text-slate-900">Veřejné mínění</h2>
-          <p className="mb-4 max-w-3xl text-sm text-slate-600">
-            Doplňkový kontext k institucionálnímu indexu. <strong>Tyto hodnoty
-            nevstupují do skóre</strong> — slouží k porovnání, jak na demokratickou
-            agendu reaguje veřejná nálada vs. kde jsou skutečné institucionální
-            posuny. Detail v{' '}
-            <Link href="/metodika/verejne-mineni/" className="underline hover:text-slate-900">
-              metodice
-            </Link>
-            .
-          </p>
-          <PublicOpinion
-            series={pollSeries}
-            topical={topical?.items ?? null}
-            {...(topical?.description ? { topicalDescription: topical.description } : {})}
-          />
-        </section>
-      )}
-
       {comparisons.baselineQuarter && comparisons.comparisons.length > 0 && (
         <section>
           <h2 className="mb-4 text-xl font-semibold text-slate-900">Srovnání s externími indexy</h2>
@@ -271,6 +250,27 @@ export default async function HomePage() {
           </div>
         )}
       </section>
+
+      {(pollSeries.length > 0 || (topical && topical.items.length > 0)) && (
+        <section>
+          <h2 className="mb-2 text-xl font-semibold text-slate-900">Veřejné mínění</h2>
+          <p className="mb-4 max-w-3xl text-sm text-slate-600">
+            Doplňkový kontext k institucionálnímu indexu. <strong>Tyto hodnoty
+            nevstupují do skóre</strong> — slouží k porovnání, jak na demokratickou
+            agendu reaguje veřejná nálada vs. kde jsou skutečné institucionální
+            posuny. Detail v{' '}
+            <Link href="/metodika/verejne-mineni/" className="underline hover:text-slate-900">
+              metodice
+            </Link>
+            .
+          </p>
+          <PublicOpinion
+            series={pollSeries}
+            topical={topical?.items ?? null}
+            {...(topical?.description ? { topicalDescription: topical.description } : {})}
+          />
+        </section>
+      )}
     </div>
   );
 }
