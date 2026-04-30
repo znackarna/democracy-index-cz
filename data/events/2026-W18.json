@@ -859,5 +859,207 @@
     "status": "active",
     "created_at": "2026-04-29T09:57:46.831Z",
     "expires_at": "2026-07-21T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-038",
+    "date": "2026-04-29",
+    "headline": "Turek veřejně četl ze smlouvy propuštěného spolupracovníka, úřad varuje před porušením ochrany dat",
+    "summary": "Vládní zmocněnec Filip Turek v internetové televizi přečetl informace ze smlouvy analytika Martela Abela, který byl následně propuštěn z ministerstva životního prostředí. Státní úřad upozornil, že takový postup může představovat porušení pravidel ochrany osobních dat. Turek tvrdí, že smlouvu pouze „našel\".",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Turek veřejně četl ze smlouvy vyhozeného analytika Abela. Úřad varuje před možným porušením ochrany dat",
+        "url": "https://denikn.cz/2050003/turek-verejne-cetl-ze-smlouvy-vyhozeneho-analytika-abela-urad-varuje-pred-porusenim-ochrany-dat/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-30T07:20:46.398Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázový incident politicky exponované osoby s omezeným dopadem. Veřejné čtení osobních smluvních údajů státním funkcionářem se dotýká subkomponenty C5 (práva v digitálním prostoru, ochrana před zneužitím osobních dat státem) a sekundárně G4 (transparentnost vládnutí a odpovědné zacházení s informacemi). Úřad vydal varování, ale věc nemá zatím precedentní charakter ani systémový dopad — nejde o schválený zákon ani o opakované chování. Anti-bias: stejné hodnocení by platilo pro ministra jakékoli jiné strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-04-30T07:20:46.380Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-039",
+    "date": "2026-04-29",
+    "headline": "Soud opětovně odsoudil psychiatra Cimického k pěti letům vězení",
+    "summary": "Soud v druhém rozhodnutí uznal psychiatra Jana Cimického vinným a uložil mu pět let odnětí svobody a desetiletý zákaz výkonu profese za čtyři znásilnění a desítky případů vydírání. Rozsudek dosud nenabylo právní moci, obě strany mají právo odvolání.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Výpovědi obětí jsou věrohodné.“ Cimický opět dostal pět let",
+        "url": "https://denikn.cz/2050011/soud-hodnoti-vypovedi-obeti-jako-verohodne-cimicky-opet-dostal-pet-let/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-04-30T07:20:46.398Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — trestní řízení v konkrétní kauze, které ilustruje standardní fungování justice (J2, J4 — rovnost před zákonem, nezávislost obecných soudů). Soud rozhodl věrohodně a konsistentně s předchozím rozsudkem, což je pozitivní signál pro fungování soustavy. Dopad na systémovou úroveň je zanedbatelný; jde o individuální případ bez precedentu pro institucionální nastavení. Direction +1, protože výsledek odpovídá očekávanému fungování nezávislé justice.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-04-30T07:20:46.380Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-040",
+    "date": "2026-04-30",
+    "headline": "RSF: Svoboda médií ve světě na minimu za 25 let, Česko kleslo na 11. místo",
+    "summary": "Organizace Reportéři bez hranic zveřejnila výroční index svobody médií, podle nějž je situace celosvětově nejhorší za čtvrtstoletí. Česká republika si oproti loňsku pohoršila o jednu příčku a obsadila 11. místo. Hlavní příčinou globálního poklesu je šíření restriktivních zákonů v oblasti médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Svoboda médií ve světě je nejnižší za 25 let. Pohoršilo si i Česko, které spadlo o jednu příčku",
+        "url": "https://www.irozhlas.cz/zpravy-svet/svoboda-medii-ve-svete-je-nejnizsi-za-25-let-pohorsilo-si-i-cesko-ktere-spadlo-o_2604300704_med",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-04-30T07:20:47.377Z"
+      },
+      {
+        "title": "Svoboda médií ve světě je nejnižší za 25 let, uvedli Reportéři bez hranic",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/svoboda-medii-ve-svete-je-nejnizsi-za-25-let-uvedli-reporteri-bez-hranic-372962",
+        "outlet": "ČT24",
+        "fetched_at": "2026-04-30T07:20:47.656Z"
+      },
+      {
+        "title": "Svoboda médií ve světě je nejnižší za 25 let, uvedli Reportéři bez hranic",
+        "url": "https://www.seznamzpravy.cz/clanek/zahranicni-svoboda-medii-ve-svete-je-nejnizsi-za-25-let-uvedli-reporteri-bez-hranic-305178",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-04-30T07:20:50.827Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — zveřejnění renomovaného externího indexu (RSF, mapující subkomponentu M1 a M3) dokládá mírný pokles pozice ČR o jednu příčku, bez zásadní systémové změny. Rubric eskalace: mezinárodní orgán potvrzuje negativní trend, ale pokles o jednu příčku při zachování top-15 pozice nepředstavuje strukturální posun (ten by byl severity 4–5). Událost je persistent, neboť RSF skóre reflektuje strukturální stav mediálního prostředí, nikoli jednorázový incident. Sekundárně relevantní pro subkomponentu M4 (přístup k informacím). Anti-bias: stejné hodnocení by platilo pro jakýkoli jiný stát obdobné velikosti.\n\n[merged with 2026-W18-041 — same incident, sources combined]\n\n[merged with 2026-W18-044 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-04-30T07:20:46.380Z"
+  },
+  {
+    "id": "2026-W18-042",
+    "date": "2026-04-29",
+    "headline": "Ústavní soud potvrdil tresty pro Metrostav Infrastructure za manipulaci veřejných zakázek",
+    "summary": "Ústavní soud definitivně zamítl stížnost firmy Metrostav Infrastructure a potvrdil oprávněnost trestů udělených za manipulaci veřejných zakázek. Soudy nižší instance na ni automaticky převedly odpovědnost mateřské skupiny Metrostav. Rozhodnutí potvrzuje funkčnost mechanismů postihu za porušení pravidel veřejných zakázek.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Tresty pro dceru Metrostavu jsou v pořádku, řekl Ústavní soud a smetl stížnosti stavebního giganta",
+        "url": "https://archiv.hn.cz/c1-67872310-tresty-pro-dceru-metrostavu-jsou-v-poradku-rekl-ustavni-soud-a-smetl-stiznosti-stavebniho-giganta",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-30T07:20:48.957Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — ÚS potvrdil platnost trestů za manipulaci veřejných zakázek (subkomponenta K2), což je pozitivní signal pro funkčnost protikorupčních mechanismů. Nespadá na úroveň 3, protože jde o uzavření konkrétního případu bez precedentního strukturálního dopadu na institucionalní prostředí. Směr +1: rozhodnutí posiluje vymahatelnost pravidel ZZVZ. Sekundárně relevantní pilíř judicial (J1 — ÚS potvrdil rozhodnutí nižších soudů).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-04-30T07:20:46.380Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-043",
+    "date": "2026-04-29",
+    "headline": "Poslanci kritizují předělávku stavebního zákona projednávanou dva týdny po vzniku tisícistránkového dokumentu",
+    "summary": "Hospodářský výbor Poslanecké sněmovny má projednávat rozsáhlou přepracovanou verzi stavebního zákona pouhé dva týdny po jejím vzniku, přičemž podklady dostali poslanci s jednodenním předstihem. Poslanci kritizují závažné věcné nedostatky textu, včetně chybějících vět a ustanovení legalizujících černé stavby. Jde o další případ nedostatečného legislativního procesu bez řádného připomínkového řízení.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Chybí v něm věty a legalizuje černé stavby. Poslanci před jednáním výboru kritizují kompletní předělávku stavebního zákona",
+        "url": "https://archiv.hn.cz/c1-67872240-chybi-v-nem-vety-a-legalizuje-cerne-stavby-poslanci-pred-jednanim-vyboru-kritizuji-kompletni-predelavku-stavebniho-zakona",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-04-30T07:20:48.957Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — předložení více než tisícistránkového návrhu zákona k projednání výborem s jednodenním předstihem naplňuje subkomponentu G2 (kvalita legislativy): extrémně krátká legisvakance, nedostatečný čas pro debatu, obcházení standardního připomínkového řízení. Věcné nedostatky (chybějící věty, legalizace černých staveb) dále prohlubují institucionální dopad. Událost zatím nepřesahuje na úroveň 4, protože zákon nebyl schválen — je ve fázi výboru. Anti-bias check: stejnou závažnost bych přiřadil bez ohledu na to, která vládní koalice předkládá text.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-04-30T07:20:46.380Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-045",
+    "date": "2026-04-30",
+    "headline": "Ministryně Mrázová prosazuje legalizaci černých staveb, sama má problematické objekty na svém pozemku",
+    "summary": "Investigace odhalila, že ministryně Zuzana Mrázová (ANO) se roky snaží vyřešit stavby na vlastní parcele, které jsou v rozporu s územním plánem. Zároveň prosazuje legislativní změnu usnadňující legalizaci podobných staveb, což nasvědčuje střetu zájmů.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ministryně Mrázová má na pozemku černé stavby. A teď chce měnit pravidla",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-ministryne-mrazova-ma-na-pozemku-cerne-stavby-a-ted-chce-menit-pravidla-305091",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-04-30T07:20:50.827Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ naplňuje subkomponentu K1 (politická korupce, střet zájmů ústavního činitele). Ministryně prosazuje zákon, z nějž by osobně profitovala, což je klasický střet zájmů zakládající potenciální porušení zákona o střetu zájmů (lex Babiš). Severity 3 (nikoli 4) proto, že jde o odhalení investigace bez zatím prokázaného úmyslu nebo formálního zahájení řízení. Sekundárně se dotýká pilíře governance (G2 — kvalita legislativy navrhované s osobním zájmem předkladatelky). Anti-bias: stejnou závažnost bych přiřadil ministru jakékoli jiné strany ve stejné situaci.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-04-30T07:20:46.380Z",
+    "expires_at": "2026-07-23T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-046",
+    "date": "2026-04-29",
+    "headline": "Rada ČRo vyzývá k přepracování návrhu zákona o veřejnoprávních médiích",
+    "summary": "Rada Českého rozhlasu zaslala Ministerstvu kultury výzvu k zásadnímu přepracování vládního návrhu zákona o veřejnoprávních médiích. Rada upozorňuje na závažné nedostatky v návrhu, který podle ní nezaručuje kontinuitu fungování ČRo ani jasné financování. Legislativní proces kolem zákona upravujícího provoz veřejnoprávních médií tak narázil na odpor klíčového dotčeného orgánu.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Rada ČRo vyzvala Klempíře k zásadnímu přepracování mediálního zákona",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-rada-cro-vyzvala-klempire-k-zasadnimu-prepracovani-medialniho-zakona-305149",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-04-30T07:20:50.827Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh zákona o veřejnoprávních médiích zasahuje do subkomponenty M2 (nezávislost ČRo) a G2 (kvalita legislativy). Rada ČRo jako odborný orgán identifikuje závažné nedostatky v podobě chybějícího zajištění kontinuity fungování a financování, což naznačuje riziko institucionálního oslabení. Jde o rané stadium legislativního procesu (návrh nebyl schválen), takže eskalace na 4 není opodstatněná — rubric upozorňuje, že pouhý návrh bez schválení nepřekračuje §4. Persistent, protože legislativní proces probíhá a nejde o jednorázový incident. Sekundárně se dotýká pilíře governance (G2 — přiměřenost a kvalita legislativního procesu).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-04-30T07:20:46.380Z"
+  },
+  {
+    "id": "2026-W18-047",
+    "date": "2026-04-29",
+    "headline": "Ústavní soud zamítl stížnost Metrostav Infrastructure ve věci trestní odpovědnosti právnické osoby",
+    "summary": "Ústavní soud odmítl ústavní stížnost společnosti Metrostav Infrastructure, a. s., která namítala nepřípustné přenesení trestní odpovědnosti na ni jako právního nástupce. Soudy prokázaly, že převod části závodu byl motivován snahou vyhnout se trestním následkům, a ÚS shledal tuto právní argumentaci ústavně konformní.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ústavní soud zamítl ústavní stížnost obchodní společnosti Metrostav Infrastructure, a. s.",
+        "url": "https://www.usoud.cz/aktualne/ustavni-soud-zamitl-ustavni-stiznost-obchodni-spolecnosti-metrostav-infrastructure-a-s",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-04-30T07:20:59.333Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní rozhodnutí ÚS v individuální kauze korporátního práva bez dopadu na fungování soudnictví jako instituce ani na demokratické pilíře. Subkomponenta J4 (rovnost před zákonem) je zachována — soud aplikoval zákon konzistentně. Žádný indikátor politického tlaku, precedentního zásahu do nezávislosti justice ani strukturálního posunu. Direction 0, protože se jedná o rutinní výkon soudní moci bez jednoznačně pozitivního nebo negativního institucionálního signálu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-04-30T07:20:46.380Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
   }
 ]
