@@ -1,11 +1,17 @@
 name: pipeline
 
 on:
-  # Denně 06:00 UTC = 07:00/08:00 v ČR (zima/léto). Daily fetch + classify
+  # Denně 06:13 UTC (= 07:13/08:13 v ČR podle DST). Daily fetch + classify
   # zachytí rychle se točící RSS feedy (iROZHLAS retence ~1 den, HN ~3 dny).
   # V pondělí navíc proběhne agregace uplynulého kompletního týdne.
+  #
+  # Offset z top-of-hour ('0 6 * * *' → '13 6 * * *') je doporučen GitHub
+  # docs: "schedule events can be delayed during high loads of GitHub Actions
+  # workflow runs. High load times include the start of every hour." 13 minutes
+  # past the hour vyhne se peak load slotu (cron 0 6 * * *). První spuštění
+  # potvrdilo 1h lag; po offsetu by mělo být stabilnější.
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '13 6 * * *'
   # Manuální trigger z UI Actions tabu — užitečné pro test po deployi nebo
   # ad-hoc běh mimo cron cyklus.
   workflow_dispatch:

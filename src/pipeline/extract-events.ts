@@ -127,15 +127,30 @@ export async function extractEvents(
 
   for (let start = 0; start < articles.length; start += batchSize) {
     const batch = articles.slice(start, start + batchSize);
-    const extractions = await classifyBatch(
-      batch,
-      classificationPrompt,
-      pillarsContext,
-      rubricContext,
-      options.week,
-      now,
-      options.client,
-    );
+    // Per-batch try/catch — Sonnet občas vrátí malformed JSON pro konkrétní
+    // batch articles a obě retry attempts selžou (deterministický bug, ne
+    // transient). Bez tohoto chytání jeden zlomený batch zabije celé volání
+    // extractEvents — všechny ostatní úspěšné batche v tom samém runu zahodí.
+    // Cena: ~5-15 article z toho batch zmizí. Daily run je má šanci pokud
+    // článek zůstane v RSS retenci přes URL-dedupe v dalším runu (typicky až
+    // se zformuluje jiný náhodný batching), nebo do týdne propadne navždy.
+    let extractions: ExtractionResult[];
+    try {
+      extractions = await classifyBatch(
+        batch,
+        classificationPrompt,
+        pillarsContext,
+        rubricContext,
+        options.week,
+        now,
+        options.client,
+      );
+    } catch (err) {
+      console.warn(
+        `  ✗ classify batch ${start}-${start + batch.length} FAILED, skipping: ${(err as Error).message.slice(0, 200)}`,
+      );
+      continue;
+    }
     for (const e of extractions) {
       if (!e.is_event) continue;
       const article = batch[e.index];

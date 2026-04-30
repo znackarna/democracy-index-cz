@@ -121,39 +121,49 @@ export async function runDaily(options: RunDailyOptions): Promise<RunDailyResult
   const byWeek = groupByWeekOfPublished(preFiltered);
 
   // 5. Per week: classify, cap, merge, write.
+  // Per-week try/catch — když jeden týden selže (typicky deterministický
+  // Sonnet JSON parse fail nebo síťový blip), ostatní pokračují. Tímto se
+  // run-daily nikdy nezhroutí celý kvůli jednomu týdnu, takže se vždycky
+  // commitne to, co se stihlo, a recompute timeline zůstane konzistentní.
   const perWeek: PerWeekResult[] = [];
   const touchedWeeks: IsoWeek[] = [];
   for (const [week, articlesForWeek] of byWeek) {
     if (articlesForWeek.length === 0) continue;
-    const eventsPath = path.join(eventsDir, `${week}.json`);
-    const existing = await readEventsFile(eventsPath);
-    const startSeq = nextSeqForWeek(existing, week);
+    try {
+      const eventsPath = path.join(eventsDir, `${week}.json`);
+      const existing = await readEventsFile(eventsPath);
+      const startSeq = nextSeqForWeek(existing, week);
 
-    const candidates = options.skipLlm
-      ? []
-      : await extractEvents(articlesForWeek, {
-          week,
-          now,
-          startSeq,
-        });
+      const candidates = options.skipLlm
+        ? []
+        : await extractEvents(articlesForWeek, {
+            week,
+            now,
+            startSeq,
+          });
 
-    const { valid: validEvents } = await validateMany<Event>('event', candidates);
-    const { events: cappedEvents, capped } = capSeverityBySourceCount(validEvents);
+      const { valid: validEvents } = await validateMany<Event>('event', candidates);
+      const { events: cappedEvents, capped } = capSeverityBySourceCount(validEvents);
 
-    // Cross-day dedupe: merge new candidates with existing events. dedupeEvents
-    // iterates in order, takes earlier IDs as canonical → existing events drží
-    // své ID, nové se buď přidají, nebo se sloučí jako další zdroj existující.
-    const merged = dedupeEvents([...existing, ...cappedEvents]).events;
+      // Cross-day dedupe: merge new candidates with existing events. dedupeEvents
+      // iterates in order, takes earlier IDs as canonical → existing events drží
+      // své ID, nové se buď přidají, nebo se sloučí jako další zdroj existující.
+      const merged = dedupeEvents([...existing, ...cappedEvents]).events;
 
-    await writeFile(eventsPath, JSON.stringify(merged, null, 2) + '\n', 'utf-8');
-    perWeek.push({
-      week,
-      added: cappedEvents.length,
-      existed: existing.length,
-      total: merged.length,
-      capped,
-    });
-    touchedWeeks.push(week);
+      await writeFile(eventsPath, JSON.stringify(merged, null, 2) + '\n', 'utf-8');
+      perWeek.push({
+        week,
+        added: cappedEvents.length,
+        existed: existing.length,
+        total: merged.length,
+        capped,
+      });
+      touchedWeeks.push(week);
+    } catch (err) {
+      console.warn(
+        `  ✗ week ${week} FAILED, skipping: ${(err as Error).message.slice(0, 200)}`,
+      );
+    }
   }
 
   return {
