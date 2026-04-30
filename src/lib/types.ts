@@ -123,3 +123,73 @@ export const PreFilteredArticleSchema = RawArticleSchema.extend({
   reason_kept: z.string().min(1),
 });
 export type PreFilteredArticle = z.infer<typeof PreFilteredArticleSchema>;
+
+// ============================================================
+// Public opinion data — read-only display, NEVSTUPUJE do skóre.
+// ============================================================
+
+export const PollDataPointSchema = z.object({
+  /** Identifikátor období (např. "2026-03"). */
+  period: z.string().min(1),
+  /** Lidsky čitelný popis terénní fáze sběru ("březen – duben 2026"). */
+  fieldwork: z.string().min(1),
+  /** ISO datum publikace zprávy. */
+  publication: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  /** URL na konkrétní tiskovku, která tato data publikuje. */
+  url: z.string().url(),
+  /** Přerušení metodologie — zobrazí se varování v grafu. */
+  methodology_break: z.boolean().optional(),
+  /** Detail toho, co se v metodologii změnilo. */
+  methodology_break_note: z.string().optional(),
+  /** Mapa instituce → procento (0-100). Klíče odpovídají PollSeries.institution_labels. */
+  values: z.record(z.string(), z.number().min(0).max(100)),
+});
+export type PollDataPoint = z.infer<typeof PollDataPointSchema>;
+
+export const PollSeriesSchema = z.object({
+  /** ID poller-u (cvvm | stem | median | eurobarometer | globsec). */
+  source: z.string().min(1),
+  /** Lidsky čitelný název pollera (zobrazení v UI). */
+  source_label: z.string().min(1),
+  /** Domovská stránka pollera (citation link). */
+  source_url: z.string().url(),
+  /** Identifikátor metriky (zatím jen "trust_pct"; rozšiřitelné na "corruption_pct" atp.). */
+  metric: z.string().min(1),
+  /** Lidsky čitelný popis metriky pro osu Y / tooltip. */
+  metric_label: z.string().min(1),
+  /** Maximum scale (typicky 100 pro percentage). */
+  scale_max: z.number().positive(),
+  /** Volitelně frekvence sběru — informace pro UI tooltip. */
+  frequency: z.enum(['monthly', 'quarterly', 'biannual', 'annual', 'irregular']).optional(),
+  /** Globální poznámka k metodologii (zobrazí se pod grafem). */
+  methodology_note: z.string().optional(),
+  /** Mapa institution_id → CZ display label. Klíče odpovídají values v každém datapointu. */
+  institution_labels: z.record(z.string(), z.string()),
+  /** Time series datapointy, sorted ascending by period. */
+  data: z.array(PollDataPointSchema),
+});
+export type PollSeries = z.infer<typeof PollSeriesSchema>;
+
+export const TopicalFindingSchema = z.object({
+  source: z.string().min(1),
+  source_label: z.string().min(1),
+  source_homepage: z.string().url(),
+  /** ISO datum publikace nálezu. */
+  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  /** Krátký název tématu (3-8 slov). */
+  topic: z.string().min(3),
+  /** Headline finding (1-3 věty parafrázovaná). */
+  headline: z.string().min(20),
+  /** URL na originální zprávu. */
+  url: z.string().url(),
+  /** Které z našich pilířů toto téma týká (volitelně, pro filtrování). */
+  pillars_relevant: z.array(PillarSchema).optional(),
+});
+export type TopicalFinding = z.infer<typeof TopicalFindingSchema>;
+
+export const TopicalFindingsFileSchema = z.object({
+  metric_label: z.string().min(1),
+  description: z.string().min(1),
+  items: z.array(TopicalFindingSchema),
+});
+export type TopicalFindingsFile = z.infer<typeof TopicalFindingsFileSchema>;

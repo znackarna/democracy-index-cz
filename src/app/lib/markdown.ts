@@ -73,6 +73,13 @@ export const METHODOLOGY_DOCS: readonly MethodologyDoc[] = [
       'Odkud index čerpá — 8 českých redakčních médií, otevřená data PSP a soudů, watchdog organizace, mezinárodní zpravodajství. Aktuální tabulka generovaná z config/sources.yaml.',
   },
   {
+    slug: 'verejne-mineni',
+    file: 'public_opinion',
+    title: 'Veřejné mínění',
+    description:
+      'Doplňkový read-only kontext z průzkumů (CVVM, STEM, Median). Nevstupuje do skóre — proč ne, jak ho užívat, co plánujeme přidat. Zdroje a jejich profil.',
+  },
+  {
     slug: 'zmeny',
     file: 'CHANGELOG',
     title: 'Changelog',

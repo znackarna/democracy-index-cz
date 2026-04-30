@@ -23,7 +23,8 @@
 | 14 | ✅ done | Czech URLs: `/metodika/`, `/udalosti/`, slugy bez diakritiky (`pilire`, `zavaznost`, `vahy`, `model-dohledu`, `strukturalni-mapovani`, `zdroje`, `zmeny`, `otevrene-otazky`, `validace-2026-q2`). Filesystem `methodology/*.md` a `data/events/*.json` zůstávají (source-of-truth, ne URL). |
 | 15 | ✅ done | `/udalosti/` filtrace + paginace (15/stránka): chips pro pilíř + závažnost (multi-toggle), dropdown pro rok. Klientský `EventsList.tsx`, in-memory filtrace. |
 | 16 | ✅ done | Daily classify + weekly aggregate split: `run-daily.ts` + `aggregate-weekly.ts`, cron `0 6 * * *`. Řeší ztráty ~30-60 % obsahu kvůli rychlé RSS retenci (iROZHLAS ~1 den). URL-dedupe gate před pre-filterem drží náklad v $13-17/měsíc. 10 nových testů. |
-| 17+ | ▶ next | Plný backtesting 2018–2020 (vyžaduje historický archiv + ~$80 LLM nákladů), prompt tuning na základě dispute logu, řešení source-intensity asymmetry mezi obdobími (viz `methodology/issues.md`), případně doplnění chybějících 2025 týdnů z dalších archivů (W08, W15, W30, W36, W39-40, W44-45, W52). |
+| 17 | ✅ done | Veřejné mínění (read-only, NE input do skóre): CVVM time series 2023-2026 (11 datapointů × 8 institucí, hand-curated z tiskových zpráv), STEM + Median jako topical findings cards. Nová sekce na homepage + `/metodika/verejne-mineni/` dokument vysvětlující, proč read-only (causality direction, feedback loops, double-count s V-Dem/EIU). Eurobarometer defer (jejich web JS-rendered, manual ingest workflow zdokumentován). |
+| 18+ | ▶ next | Plný backtesting 2018–2020 (vyžaduje historický archiv + ~$80 LLM nákladů), prompt tuning na základě dispute logu, řešení source-intensity asymmetry mezi obdobími (viz `methodology/issues.md`), případně doplnění chybějících 2025 týdnů z dalších archivů (W08, W15, W30, W36, W39-40, W44-45, W52), Eurobarometer manual ingest po publikaci dalšího Standard EB. |
 
 Detail aktivních úkolů a technického dluhu v [`methodology/issues.md`](methodology/issues.md).
 
@@ -144,7 +145,8 @@ democracy-index-cz/
 │   ├── scores/timeline.json       # historie skóre (50 snapshotů)
 │   ├── reports/                   # YYYY-MM-DD.md daily reports
 │   ├── seeds/                     # curated seed JSONs pro backfill mode
-│   └── index_comparisons/         # YYYY-Qx.json srovnání s externími indexy
+│   ├── index_comparisons/         # YYYY-Qx.json srovnání s externími indexy
+│   └── public_opinion/            # CVVM trust + topical findings (read-only)
 │
 ├── schemas/
 │   ├── event.schema.json
@@ -198,6 +200,7 @@ democracy-index-cz/
 │           ├── IndexComparison.tsx # tabulka vs. V-Dem/EIU/FH/RSF/TI/WJP
 │           ├── EventCard.tsx      # + dispute link
 │           ├── EventsList.tsx     # client filter+pagination (15/strana)
+│           ├── PublicOpinion.tsx  # CVVM time series + topical findings cards
 │           └── InfoBox.tsx        # collapsible <details> callout
 │
 ├── tests/                         # vitest, 146+ testů

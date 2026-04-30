@@ -1,0 +1,181 @@
+{
+  "source": "cvvm",
+  "source_label": "CVVM (Sociologický ústav AV ČR)",
+  "source_url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici",
+  "metric": "trust_pct",
+  "metric_label": "Důvěra (rozhodně + spíše věří, %)",
+  "scale_max": 100,
+  "frequency": "monthly",
+  "methodology_note": "Reprezentativní šetření populace ČR 15+. Otázka: \"Důvěřujete, nebo nedůvěřujete těmto institucím?\" — agregát \"rozhodně + spíše důvěřuje\". V listopadu 2025 CVVM změnil metodologii (CAPI → online panel) — výsledky od té doby nejsou přímo srovnatelné s předchozí řadou.",
+  "institution_labels": {
+    "prezident": "Prezident",
+    "vlada": "Vláda",
+    "parlament": "Poslanecká sněmovna",
+    "senat": "Senát",
+    "starostove": "Starostové",
+    "obecni_zastupitelstva": "Obecní zastupitelstva",
+    "krajska_zastupitelstva": "Krajská zastupitelstva",
+    "hejtmani": "Krajští hejtmani"
+  },
+  "data": [
+    {
+      "period": "2023-02",
+      "fieldwork": "únor – polovina března 2023",
+      "publication": "2023-04-06",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/5649-duvera-ustavnim-institucim-unor-brezen-2023",
+      "values": {
+        "vlada": 33,
+        "parlament": 33,
+        "senat": 36,
+        "starostove": 65,
+        "obecni_zastupitelstva": 65
+      }
+    },
+    {
+      "period": "2023-04",
+      "fieldwork": "konec března – třetí třetina května 2023",
+      "publication": "2023-06-01",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/5671-duvera-ustavnim-institucim-duben-kveten-2023",
+      "values": {
+        "prezident": 58,
+        "vlada": 32,
+        "parlament": 32,
+        "senat": 38,
+        "starostove": 67,
+        "obecni_zastupitelstva": 66
+      }
+    },
+    {
+      "period": "2023-06",
+      "fieldwork": "konec května – polovina července 2023",
+      "publication": "2023-08-07",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/5710-duvera-ustavnim-institucim-cerven-cervenec-2023",
+      "values": {
+        "prezident": 58,
+        "vlada": 25,
+        "parlament": 25,
+        "senat": 36,
+        "starostove": 65,
+        "obecni_zastupitelstva": 62
+      }
+    },
+    {
+      "period": "2023-08",
+      "fieldwork": "konec července – polovina září 2023",
+      "publication": "2023-10-13",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/5742-duvera-ustavnim-institucim-srpen-zari-2023",
+      "values": {
+        "prezident": 58,
+        "vlada": 25,
+        "parlament": 23,
+        "senat": 33,
+        "starostove": 66,
+        "obecni_zastupitelstva": 65
+      }
+    },
+    {
+      "period": "2023-10",
+      "fieldwork": "konec září – začátek prosince 2023",
+      "publication": "2023-12-14",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/5765-duvera-ustavnim-institucim-podzim-2023",
+      "values": {
+        "prezident": 52,
+        "vlada": 17,
+        "parlament": 18,
+        "senat": 29,
+        "starostove": 67,
+        "obecni_zastupitelstva": 62
+      }
+    },
+    {
+      "period": "2024-02",
+      "fieldwork": "konec ledna – první třetina března 2024",
+      "publication": "2024-04-03",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/5807-duvera-ustavnim-institucim-unor-2024",
+      "values": {
+        "prezident": 54,
+        "vlada": 20,
+        "parlament": 20,
+        "senat": 32,
+        "starostove": 66,
+        "obecni_zastupitelstva": 62
+      }
+    },
+    {
+      "period": "2024-04",
+      "fieldwork": "polovina března – začátek června 2024",
+      "publication": "2024-06-19",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/5823-duvera-ustavnim-institucim---duben-kveten-2024",
+      "values": {
+        "prezident": 55,
+        "vlada": 21,
+        "parlament": 21,
+        "senat": 32,
+        "starostove": 68,
+        "obecni_zastupitelstva": 66
+      }
+    },
+    {
+      "period": "2024-06",
+      "fieldwork": "červen – srpen 2024",
+      "publication": "2024-09-19",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/5867-duvera-ustavnim-institucim---leto-2024",
+      "values": {
+        "prezident": 53,
+        "vlada": 24,
+        "parlament": 23,
+        "senat": 30,
+        "starostove": 67,
+        "obecni_zastupitelstva": 64
+      }
+    },
+    {
+      "period": "2024-09",
+      "fieldwork": "druhá dekáda září – konec listopadu 2024",
+      "publication": "2024-12-15",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/5893-duvera-ustavnim-institucim---podzim-2024",
+      "values": {
+        "prezident": 51,
+        "vlada": 23,
+        "parlament": 24,
+        "senat": 32,
+        "starostove": 68,
+        "obecni_zastupitelstva": 65
+      }
+    },
+    {
+      "period": "2025-11",
+      "fieldwork": "přelom listopadu a prosince 2025",
+      "publication": "2025-12-20",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/6201-duvera-ustavnim-institucim-listopad-prosinec-2025",
+      "methodology_break": true,
+      "methodology_break_note": "CVVM změnil metodologii sběru — nesrovnatelné s předchozí řadou.",
+      "values": {
+        "prezident": 58,
+        "vlada": 29,
+        "parlament": 22,
+        "senat": 38,
+        "starostove": 58,
+        "obecni_zastupitelstva": 55,
+        "krajska_zastupitelstva": 41,
+        "hejtmani": 43
+      }
+    },
+    {
+      "period": "2026-03",
+      "fieldwork": "březen – duben 2026",
+      "publication": "2026-04-25",
+      "url": "https://cvvm.soc.cas.cz/cz/tiskove-zpravy/politicke/instituce-a-politici/6230-duvera-ustavnim-institucim-brezen-duben-2026",
+      "values": {
+        "prezident": 60,
+        "vlada": 25,
+        "parlament": 20,
+        "senat": 39,
+        "starostove": 56,
+        "obecni_zastupitelstva": 52,
+        "krajska_zastupitelstva": 37,
+        "hejtmani": 37
+      }
+    }
+  ]
+}

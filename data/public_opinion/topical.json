@@ -1,0 +1,36 @@
+{
+  "metric_label": "Aktuální nálezy z dalších šetření",
+  "description": "Ad-hoc průzkumy od komerčních pollerů, které neběží pravidelně, ale tematicky pokrývají demokratickou agendu. Každá karta ukazuje headline finding od konkrétního pollera; pro detail klikni na zdroj.",
+  "items": [
+    {
+      "source": "median",
+      "source_label": "Median",
+      "source_homepage": "https://www.median.eu/cs/",
+      "date": "2026-03-25",
+      "topic": "Důvěra ve vládu a prezidenta po nominaci F. Turka",
+      "headline": "34 % respondentů uvedlo zvýšenou důvěru v prezidenta po jeho odmítnutí jmenovat Filipa Turka ministrem; 30 % uvedlo sníženou důvěru. Důvěra ve vládu stagnuje nebo mírně klesá. Štěpení podle stranických preferencí > 40 procentních bodů.",
+      "url": "https://www.median.eu/cs/?p=3692",
+      "pillars_relevant": ["governance", "electoral"]
+    },
+    {
+      "source": "median",
+      "source_label": "Median",
+      "source_homepage": "https://www.median.eu/cs/",
+      "date": "2026-03-17",
+      "topic": "Postoj veřejnosti k Milionu chvilek pro demokracii",
+      "headline": "30 % vidí akce hnutí jako demokratické vyjádření, 27 % je považuje za jednostranně politické. 54 % nesouhlasí s tím, aby se Milion chvilek transformoval na politickou stranu, 14 % souhlasí. Polarizace mezi voliči koalice vs. opozice > 40 b.",
+      "url": "https://www.median.eu/cs/?p=3688",
+      "pillars_relevant": ["civil"]
+    },
+    {
+      "source": "stem",
+      "source_label": "STEM",
+      "source_homepage": "https://www.stem.cz/",
+      "date": "2026-04-02",
+      "topic": "Důvěra armádě a podpora obranyschopnosti",
+      "headline": "Důvěra v armádu narůstá, stejně jako podpora obranyschopnosti a výdajů na obranu. Postoje se ale výrazně liší podle politické afiliace.",
+      "url": "https://www.stem.cz/duvera-armade-narusta-stejne-jako-podpora-obranyschopnosti-a-vydaju-na-obranu/",
+      "pillars_relevant": ["governance"]
+    }
+  ]
+}

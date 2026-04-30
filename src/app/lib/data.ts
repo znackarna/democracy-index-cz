@@ -6,9 +6,13 @@ import {
   type IndexComparison,
 } from '@/lib/external-comparison';
 import {
+  PollSeriesSchema,
+  TopicalFindingsFileSchema,
   type Event,
+  type PollSeries,
   type ScoreSnapshot,
   type StructuralBaseline,
+  type TopicalFindingsFile,
 } from '@/lib/types';
 
 // Data lives at the repo root. From src/app/lib/ we go up three levels.
@@ -95,4 +99,60 @@ export async function readIndexComparisons(): Promise<{
     baselineWeighted: baselineWeightedOverall(baseline),
     comparisons: computeIndexComparisons(baseline),
   };
+}
+
+/**
+ * Read every poll-time-series file from data/public_opinion/. Each file je
+ * jeden source (CVVM, STEM, Median, EB...). Topical findings (`topical.json`)
+ * jsou ad-hoc nálezy mimo time series — read-em odděleně přes readTopicalFindings.
+ *
+ * Read-only zobrazení — TYTO HODNOTY NEVSTUPUJÍ DO SKÓRE. Slouží jen jako
+ * doplňkový kontext na dashboardu (viz methodology/public_opinion.md).
+ */
+export async function readPollSeries(): Promise<PollSeries[]> {
+  const dir = path.join(DATA_ROOT, 'public_opinion');
+  let entries: string[];
+  try {
+    entries = await readdir(dir);
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return [];
+    throw err;
+  }
+  // Vše kromě "topical.json" (jiný shape) a non-JSON souborů.
+  const seriesFiles = entries.filter(
+    (f) => f.endsWith('.json') && f !== 'topical.json',
+  );
+  const series: PollSeries[] = [];
+  for (const f of seriesFiles) {
+    const raw = await readFile(path.join(dir, f), 'utf-8');
+    const parsed = PollSeriesSchema.safeParse(JSON.parse(raw));
+    if (parsed.success) series.push(parsed.data);
+    // Tichá tolerance malformed file — nezbouráme dashboard kvůli jednomu
+    // souboru. Při buildu by se nemělo stát; review při manuálním ingestu.
+  }
+  // Sort: CVVM (academic gold standard) první, pak komerční, pak EU.
+  const orderHint = ['cvvm', 'stem', 'median', 'eurobarometer', 'globsec'];
+  series.sort((a, b) => {
+    const ia = orderHint.indexOf(a.source);
+    const ib = orderHint.indexOf(b.source);
+    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+  });
+  return series;
+}
+
+export async function readTopicalFindings(): Promise<TopicalFindingsFile | null> {
+  const file = path.join(DATA_ROOT, 'public_opinion', 'topical.json');
+  try {
+    const raw = await readFile(file, 'utf-8');
+    const parsed = TopicalFindingsFileSchema.safeParse(JSON.parse(raw));
+    if (!parsed.success) return null;
+    // Sort newest-first.
+    return {
+      ...parsed.data,
+      items: [...parsed.data.items].sort((a, b) => b.date.localeCompare(a.date)),
+    };
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code === 'ENOENT') return null;
+    throw err;
+  }
 }

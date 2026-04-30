@@ -6,20 +6,26 @@ import { PillarDetailGrid } from './components/PillarDetail';
 import { IndexComparisonTable } from './components/IndexComparison';
 import { EventCard } from './components/EventCard';
 import { InfoBox } from './components/InfoBox';
+import { PublicOpinion } from './components/PublicOpinion';
 import {
   readAllEvents,
   readIndexComparisons,
   readLatest,
+  readPollSeries,
   readTimeline,
+  readTopicalFindings,
 } from './lib/data';
 
 export default async function HomePage() {
-  const [{ snapshot, baseline }, timeline, allEvents, comparisons] = await Promise.all([
-    readLatest(),
-    readTimeline(),
-    readAllEvents(),
-    readIndexComparisons(),
-  ]);
+  const [{ snapshot, baseline }, timeline, allEvents, comparisons, pollSeries, topical] =
+    await Promise.all([
+      readLatest(),
+      readTimeline(),
+      readAllEvents(),
+      readIndexComparisons(),
+      readPollSeries(),
+      readTopicalFindings(),
+    ]);
 
   const recentEvents = allEvents.slice(0, 5);
 
@@ -142,6 +148,27 @@ export default async function HomePage() {
       ) : (
         <section className="rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center text-slate-500">
           <p>Zatím žádný snapshot. První běh pipeline vytvoří snapshot pro aktuální týden.</p>
+        </section>
+      )}
+
+      {(pollSeries.length > 0 || (topical && topical.items.length > 0)) && (
+        <section>
+          <h2 className="mb-2 text-xl font-semibold text-slate-900">Veřejné mínění</h2>
+          <p className="mb-4 max-w-3xl text-sm text-slate-600">
+            Doplňkový kontext k institucionálnímu indexu. <strong>Tyto hodnoty
+            nevstupují do skóre</strong> — slouží k porovnání, jak na demokratickou
+            agendu reaguje veřejná nálada vs. kde jsou skutečné institucionální
+            posuny. Detail v{' '}
+            <Link href="/metodika/verejne-mineni/" className="underline hover:text-slate-900">
+              metodice
+            </Link>
+            .
+          </p>
+          <PublicOpinion
+            series={pollSeries}
+            topical={topical?.items ?? null}
+            {...(topical?.description ? { topicalDescription: topical.description } : {})}
+          />
         </section>
       )}
 
