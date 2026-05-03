@@ -1519,5 +1519,101 @@
     "status": "active",
     "created_at": "2026-05-02T06:53:23.323Z",
     "expires_at": "2026-07-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-067",
+    "date": "2026-04-30",
+    "headline": "Nacherova mediální novela o zrušení poplatků zůstává v nejistotě navzdory Babišově podpoře",
+    "summary": "Poslanec Patrik Nacher připravuje návrh na částečné zrušení mediálních poplatků pro ČT a ČRo, přičemž premiér Babiš jeho předložení předpokládá, ale jiní koaliční partneři jsou skeptičtí. Budoucnost novely, která by ovlivnila financování veřejnoprávních médií, zůstává nejasná.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Může se stát cokoliv.“ Kolem Nacherovy mediální novely panuje nejistota",
+        "url": "https://denikn.cz/2040554/muze-se-stat-cokoliv-kolem-nacherovy-medialni-novely-panuje-nejistota/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-03T07:04:57.185Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o legislativní návrh v rané fázi bez schválení, jehož dopad je zatím omezený a nejistý. Subkomponenta M2 (nezávislost ČT a ČRo) je dotčena: financování koncesionářskými poplatky je klíčovou zárukou editoriální nezávislosti veřejnoprávních médií. Koaliční nesoulad snižuje pravděpodobnost postupu, proto nelze eskalovat na severity 3. Pokud by byl návrh formálně předložen a prošel prvním čtením, severity by eskalovala na 3 per rubric §3 — 'zákon o ČT/ČRo s návrhy, které mění politickou kontrolu... ale je v rané fázi (předložen, neschválen)'.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-03T07:04:57.169Z",
+    "expires_at": "2026-07-23T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-068",
+    "date": "2026-05-02",
+    "headline": "Babiš oznámil jmenování Landovského vládním zmocněncem pro NATO",
+    "summary": "Premiér Babiš na televizní diskusi oznámil, že bývalý velvyslanec u NATO Jakub Landovský se stane vládním zmocněncem pro plnění závazků vůči Alianci. Cílem je zajistit výdaje na obranu ve výši alespoň 2 % HDP.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Landovský bude vládním zmocněncem pro plnění závazků vůči NATO, oznámil Babiš",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/landovsky-bude-vladnim-zmocnencem-pro-plneni-zavazku-vuci-nato-oznamil-babis-373026",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-03T07:04:58.702Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Jde o standardní personální rozhodnutí exekutivy v oblasti zahraniční a bezpečnostní politiky, které nemá přímý dopad na demokratické instituce ani dělbu moci (subkomponenta G1). Per rubric §1 — výrok bez institucionálního dopadu na demokratický rámec. Direction 0, protože jmenování odborného zmocněnce je neutrální administrativní akt; mohlo by být +1 z hlediska funkčnosti vlády, ale přímý demokratický dopad je minimální. Celkově hraniční případ pro is_event, ale zaznamenaný jako drobný personální akt vlády.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-03T07:04:57.169Z",
+    "expires_at": "2026-07-25T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-069",
+    "date": "2026-05-03",
+    "headline": "Česko se vrátilo mezi úplné demokracie v EIU Democracy Index",
+    "summary": "Podle čerstvě vydaného EIU Democracy Index se Česká republika zařadila zpět do kategorie 'úplných demokracií' a dosáhla nejvyššího skóre mezi zeměmi bývalého východního bloku, přičemž předčila i řadu tradičních západoevropských demokracií. Výsledek byl prezentován v kontextu srovnání vlád Babiše a Fialy.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Bylo lépe za Babiše, či za Fialy? Index demokracie má pro Česko překvapivý výsledek",
+        "url": "https://zpravy.aktualne.cz/domaci/bylo-lepe-za-babise-ci-za-fialy-index-demokracie-ma-pro-cesko-prekvapivy-vysledek/r~aaa29d5c2c2444ef0e51c4ff94521dc0/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-05-03T07:05:00.916Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — publikace mezinárodního indexu potvrzující zlepšení stavu demokratických institucí je konkrétní datovaná událost s omezeným, ale zaznamenáníhodným dopadem (pozitivní signál od externího hodnotitele). Mapuje se na pilíř governance (G3 — stabilita ústavních norem, celkové hodnocení demokratického fungování), sekundárně relevantní pro všechny pilíře. Rubric pravidlo eskalace: +1 za potvrzení mezinárodního orgánu nelze aplikovat negativním směrem; de-eskalace není relevantní. Direction +1, protože výsledek demokratické instituce posiluje (zlepšení skóre). Anti-bias: stejný přístup by byl aplikován i při zhoršení skóre.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-03T07:04:57.169Z",
+    "expires_at": "2026-07-26T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-070",
+    "date": "2026-04-29",
+    "headline": "Ústavní soud: trestní soudy porušily procesní práva obviněného při hodnocení kamerového záznamu",
+    "summary": "Ústavní soud shledal, že odvolací trestní soud a Nejvyšší soud pochybily při hodnocení kamerového záznamu jako důkazu — nižší soudy provedl důkaz, ale nevyvodily z něj skutkové závěry, přičemž vyšší soudy přehodnotily důkaz bez vlastního dokazování. ÚS zároveň upozornil na nejednotnost judikatury NS v otázce provádění a protokolování videozáznamů.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Sporný prodej automobilu vyústil v potyčku, při jejímž posouzení trestní soudy porušily procesní práva obviněného stěžovatele",
+        "url": "https://www.usoud.cz/aktualne/sporny-prodej-automobilu-vyustil-v-potycku-pri-jejimz-posouzeni-trestni-soudy-porusily-procesni-prava-obvineneho-stezovatele",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-05-03T07:05:11.816Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — nález ÚS konstatuje pochybení obecných soudů v konkrétní trestní věci (subkomponenta J2: nezávislost a řádné fungování obecných soudů, procesní práva). Dopad je omezen na individuální kauzu bez systémového precedentu, avšak upozornění na nejednotnost judikatury NS přidává institucionální rozměr. Nesplňuje práh severity 3, protože nejde o politicky motivovaný tlak ani o strukturální ohrožení instituce — jde o standardní korekci pochybení v rámci ústavní stížnosti.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-03T07:04:57.169Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
   }
 ]

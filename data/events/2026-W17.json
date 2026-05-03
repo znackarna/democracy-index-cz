@@ -945,13 +945,43 @@
         "url": "https://domaci.hn.cz/c1-67871010-babis-vede-cesko-do-krize-spoluprace-s-nim-je-bdquo-no-go-ldquo-rika-novy-predseda-lidovcu-jan-grolich",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-05-01T07:09:27.848Z"
+      },
+      {
+        "title": "Lidovci si podle vzoru starých Římanů zvolili diktátora. Jeho šance ale vyjadřuje jedno tradiční lidovecké slovo",
+        "url": "https://archiv.hn.cz/c1-67871070-lidovci-si-podle-vzoru-starych-rimanu-zvolili-diktatora-jeho-sance-ale-vyjadruje-jedno-tradicni-lidovecke-slovo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-03T07:04:59.902Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Volba stranického předsedy je rutinní demokratická událost (subkomponenta E2 — politický pluralismus), nikoli backsliding. Nový vnitrostranický model rozhodování je interní záležitostí strany bez dopadu na volební infrastrukturu nebo férovost soutěže. Severity 1 per rubric §1 — výrok/personální změna bez institucionálního dopadu na demokratické procesy státu. Direction 0, protože jde o standardní obměnu stranického vedení bez jednoznačně pozitivního ani negativního efektu na demokratické instituce.",
+    "rationale": "Volba stranického předsedy je rutinní demokratická událost (subkomponenta E2 — politický pluralismus), nikoli backsliding. Nový vnitrostranický model rozhodování je interní záležitostí strany bez dopadu na volební infrastrukturu nebo férovost soutěže. Severity 1 per rubric §1 — výrok/personální změna bez institucionálního dopadu na demokratické procesy státu. Direction 0, protože jde o standardní obměnu stranického vedení bez jednoznačně pozitivního ani negativního efektu na demokratické instituce.\n\n[merged with 2026-W17-042 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-01T07:09:24.427Z",
     "expires_at": "2026-07-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W17-043",
+    "date": "2026-04-26",
+    "headline": "Vláda odložila novelu stavebního zákona označovaného za neúspěšnou reformu",
+    "summary": "Vláda se rozhodla odložit novelu nového stavebního zákona, který měl zrychlit povolovací procesy, ale jeho implementace provázely problémy. Odklad je komentován jako de facto přiznání neúspěchu vlajkové lodě vládního legislativního programu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Odklad novely nepovedeného stavebního zákona je tou nejlepší zprávou pro všechny",
+        "url": "https://archiv.hn.cz/c1-67871000-nazev-clanku",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-03T07:04:59.902Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Odklad novelizace vadného zákona je legislativní rozhodnutí s dopadem na subkomponentu G2 (kvalita legislativy). Severity 2 per rubric §2 — jde o konkrétní pochybení legislativního procesu (zákon byl přijat s vadami, nyní se odkládá řešení), ale bez přímého ústavního dopadu a s omezeným precedentním charakterem. Direction 0 — odložení vadné novely může být vnímáno neutrálně nebo mírně pozitivně (připuštění chyby), ale zároveň signalizuje neschopnost dodržet legislativní plán; efekt na demokratické instituce není jednoznačně záporný ani kladný. Single-source, proto spíše dolní mez.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-03T07:04:57.169Z",
+    "expires_at": "2026-07-19T00:00:00.000Z"
   }
 ]
