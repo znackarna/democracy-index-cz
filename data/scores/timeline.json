@@ -1,727 +1,757 @@
 [
   {
     "week": "2025-W01",
-    "computed_at": "2026-05-03T05:18:46.440Z",
-    "overall_score": 85,
+    "computed_at": "2026-05-03T05:19:33.985Z",
+    "overall_score": 84.9,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.6,
+      "governance": 86.3,
       "judicial": 83.9,
       "media": 92,
       "civil": 96.4,
       "corruption": 59
     },
     "active_events_count": 1,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W02",
-    "computed_at": "2026-05-03T05:18:46.444Z",
-    "overall_score": 85,
+    "computed_at": "2026-05-03T05:19:33.988Z",
+    "overall_score": 84.9,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.6,
+      "governance": 86.3,
       "judicial": 84.4,
       "media": 92,
       "civil": 96.4,
       "corruption": 58.5
     },
     "active_events_count": 3,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W03",
-    "computed_at": "2026-05-03T05:18:46.446Z",
+    "computed_at": "2026-05-03T05:19:33.991Z",
     "overall_score": 84.9,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.6,
+      "governance": 86.3,
       "judicial": 84.4,
       "media": 92,
       "civil": 96.5,
       "corruption": 58
     },
     "active_events_count": 6,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W04",
-    "computed_at": "2026-05-03T05:18:46.449Z",
-    "overall_score": 84.9,
+    "computed_at": "2026-05-03T05:19:33.993Z",
+    "overall_score": 84.8,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.6,
+      "governance": 86.3,
       "judicial": 84.3,
       "media": 91.5,
       "civil": 96.5,
       "corruption": 58
     },
     "active_events_count": 7,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W05",
-    "computed_at": "2026-05-03T05:18:46.451Z",
+    "computed_at": "2026-05-03T05:19:33.995Z",
     "overall_score": 84.8,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.2,
+      "governance": 85.9,
       "judicial": 84.5,
       "media": 91.5,
       "civil": 96.6,
       "corruption": 58.1
     },
     "active_events_count": 9,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W06",
-    "computed_at": "2026-05-03T05:18:46.453Z",
-    "overall_score": 84.8,
+    "computed_at": "2026-05-03T05:19:33.997Z",
+    "overall_score": 84.7,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.3,
+      "governance": 86,
       "judicial": 84.4,
       "media": 91.6,
       "civil": 96.6,
       "corruption": 57.6
     },
     "active_events_count": 10,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W07",
-    "computed_at": "2026-05-03T05:18:46.454Z",
+    "computed_at": "2026-05-03T05:19:33.998Z",
     "overall_score": 84.9,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.4,
+      "governance": 86.1,
       "judicial": 84.9,
       "media": 91.6,
       "civil": 97.2,
       "corruption": 57.2
     },
     "active_events_count": 13,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W09",
-    "computed_at": "2026-05-03T05:18:46.456Z",
-    "overall_score": 85,
+    "computed_at": "2026-05-03T05:19:34.000Z",
+    "overall_score": 84.9,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.5,
+      "governance": 86.2,
       "judicial": 84.7,
       "media": 91.7,
       "civil": 97.2,
       "corruption": 57.5
     },
     "active_events_count": 13,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W10",
-    "computed_at": "2026-05-03T05:18:46.457Z",
-    "overall_score": 85,
+    "computed_at": "2026-05-03T05:19:34.002Z",
+    "overall_score": 84.9,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.8,
+      "governance": 86.5,
       "judicial": 85.1,
       "media": 91.8,
       "civil": 96.7,
       "corruption": 57.1
     },
     "active_events_count": 17,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W11",
-    "computed_at": "2026-05-03T05:18:46.459Z",
+    "computed_at": "2026-05-03T05:19:34.006Z",
     "overall_score": 84.7,
     "pillars": {
       "electoral": 91.8,
-      "governance": 85.9,
+      "governance": 85.6,
       "judicial": 84.6,
       "media": 91.8,
       "civil": 96.7,
       "corruption": 57.3
     },
     "active_events_count": 23,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W12",
-    "computed_at": "2026-05-03T05:18:46.460Z",
-    "overall_score": 84.8,
+    "computed_at": "2026-05-03T05:19:34.007Z",
+    "overall_score": 84.7,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.1,
+      "governance": 85.8,
       "judicial": 84.5,
       "media": 91.8,
       "civil": 97.2,
       "corruption": 56.9
     },
     "active_events_count": 25,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W13",
-    "computed_at": "2026-05-03T05:18:46.461Z",
-    "overall_score": 84.4,
+    "computed_at": "2026-05-03T05:19:34.008Z",
+    "overall_score": 84.3,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.2,
+      "governance": 85.9,
       "judicial": 83.4,
       "media": 91.9,
       "civil": 97.1,
       "corruption": 55.6
     },
     "active_events_count": 33,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W14",
-    "computed_at": "2026-05-03T05:18:46.462Z",
-    "overall_score": 84.4,
+    "computed_at": "2026-05-03T05:19:34.009Z",
+    "overall_score": 84.3,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.4,
+      "governance": 86.1,
       "judicial": 82.9,
       "media": 91.4,
       "civil": 97,
       "corruption": 56.5
     },
     "active_events_count": 35,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W16",
-    "computed_at": "2026-05-03T05:18:46.463Z",
+    "computed_at": "2026-05-03T05:19:34.011Z",
     "overall_score": 84.4,
     "pillars": {
       "electoral": 91.8,
-      "governance": 86.8,
+      "governance": 86.5,
       "judicial": 82.9,
       "media": 91.5,
       "civil": 96.9,
       "corruption": 56.5
     },
     "active_events_count": 33,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W17",
-    "computed_at": "2026-05-03T05:18:46.465Z",
-    "overall_score": 84.4,
+    "computed_at": "2026-05-03T05:19:34.012Z",
+    "overall_score": 84.3,
     "pillars": {
       "electoral": 91.3,
-      "governance": 87,
+      "governance": 86.7,
       "judicial": 82.9,
       "media": 91,
       "civil": 96.8,
       "corruption": 56.8
     },
     "active_events_count": 35,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W18",
-    "computed_at": "2026-05-03T05:18:46.466Z",
-    "overall_score": 83.8,
+    "computed_at": "2026-05-03T05:19:34.013Z",
+    "overall_score": 83.7,
     "pillars": {
       "electoral": 90.5,
-      "governance": 87.1,
+      "governance": 86.8,
       "judicial": 82.9,
       "media": 88,
       "civil": 96.7,
       "corruption": 56.6
     },
     "active_events_count": 44,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W19",
-    "computed_at": "2026-05-03T05:18:46.467Z",
-    "overall_score": 83.8,
+    "computed_at": "2026-05-03T05:19:34.015Z",
+    "overall_score": 83.7,
     "pillars": {
       "electoral": 90.6,
-      "governance": 87.2,
+      "governance": 86.9,
       "judicial": 82.9,
       "media": 87.7,
       "civil": 96.6,
       "corruption": 56.9
     },
     "active_events_count": 42,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W20",
-    "computed_at": "2026-05-03T05:18:46.469Z",
-    "overall_score": 84,
+    "computed_at": "2026-05-03T05:19:34.017Z",
+    "overall_score": 83.9,
     "pillars": {
       "electoral": 90.7,
-      "governance": 87.3,
+      "governance": 87,
       "judicial": 83,
       "media": 88.3,
       "civil": 96.6,
       "corruption": 57.1
     },
     "active_events_count": 43,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W22",
-    "computed_at": "2026-05-03T05:18:46.470Z",
-    "overall_score": 83.2,
+    "computed_at": "2026-05-03T05:19:34.019Z",
+    "overall_score": 83.1,
     "pillars": {
       "electoral": 90.8,
-      "governance": 87.1,
+      "governance": 86.8,
       "judicial": 82.6,
       "media": 88.5,
       "civil": 96,
       "corruption": 53.1
     },
     "active_events_count": 55,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W23",
-    "computed_at": "2026-05-03T05:18:46.471Z",
-    "overall_score": 83.4,
+    "computed_at": "2026-05-03T05:19:34.021Z",
+    "overall_score": 83.3,
     "pillars": {
       "electoral": 90.9,
-      "governance": 86.8,
+      "governance": 86.5,
       "judicial": 83.3,
       "media": 88.5,
       "civil": 96,
       "corruption": 53.5
     },
     "active_events_count": 51,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W24",
-    "computed_at": "2026-05-03T05:18:46.472Z",
-    "overall_score": 83.4,
+    "computed_at": "2026-05-03T05:19:34.023Z",
+    "overall_score": 83.3,
     "pillars": {
       "electoral": 91,
-      "governance": 86.4,
+      "governance": 86.1,
       "judicial": 83.4,
       "media": 88.6,
       "civil": 96,
       "corruption": 53.9
     },
     "active_events_count": 50,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W25",
-    "computed_at": "2026-05-03T05:18:46.473Z",
+    "computed_at": "2026-05-03T05:19:34.025Z",
     "overall_score": 83.4,
     "pillars": {
       "electoral": 91.1,
-      "governance": 86.1,
+      "governance": 85.8,
       "judicial": 83.9,
       "media": 88.2,
       "civil": 96,
       "corruption": 54.2
     },
     "active_events_count": 49,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W26",
-    "computed_at": "2026-05-03T05:18:46.474Z",
-    "overall_score": 82.9,
+    "computed_at": "2026-05-03T05:19:34.027Z",
+    "overall_score": 82.8,
     "pillars": {
       "electoral": 89.2,
-      "governance": 86.2,
+      "governance": 85.9,
       "judicial": 84.2,
       "media": 87.3,
       "civil": 95.6,
       "corruption": 53.3
     },
     "active_events_count": 61,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W27",
-    "computed_at": "2026-05-03T05:18:46.475Z",
-    "overall_score": 82.6,
+    "computed_at": "2026-05-03T05:19:34.028Z",
+    "overall_score": 82.5,
     "pillars": {
       "electoral": 89.3,
-      "governance": 85.9,
+      "governance": 85.6,
       "judicial": 83.1,
       "media": 87.5,
       "civil": 95.7,
       "corruption": 52.5
     },
     "active_events_count": 68,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W28",
-    "computed_at": "2026-05-03T05:18:46.476Z",
-    "overall_score": 82.9,
+    "computed_at": "2026-05-03T05:19:34.030Z",
+    "overall_score": 82.8,
     "pillars": {
       "electoral": 89.4,
-      "governance": 86.2,
+      "governance": 85.9,
       "judicial": 83.7,
       "media": 87.7,
       "civil": 95.7,
       "corruption": 53.3
     },
     "active_events_count": 71,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W29",
-    "computed_at": "2026-05-03T05:18:46.478Z",
+    "computed_at": "2026-05-03T05:19:34.031Z",
     "overall_score": 82.9,
     "pillars": {
       "electoral": 89,
-      "governance": 86.5,
+      "governance": 86.2,
       "judicial": 83.6,
       "media": 87.8,
       "civil": 95.8,
       "corruption": 53.4
     },
     "active_events_count": 71,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W31",
-    "computed_at": "2026-05-03T05:18:46.479Z",
-    "overall_score": 83,
+    "computed_at": "2026-05-03T05:19:34.032Z",
+    "overall_score": 82.9,
     "pillars": {
       "electoral": 88.9,
-      "governance": 87.1,
+      "governance": 86.8,
       "judicial": 83.6,
       "media": 88,
       "civil": 96,
       "corruption": 52.6
     },
     "active_events_count": 72,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W32",
-    "computed_at": "2026-05-03T05:18:46.480Z",
-    "overall_score": 83.1,
+    "computed_at": "2026-05-03T05:19:34.032Z",
+    "overall_score": 83,
     "pillars": {
       "electoral": 89,
-      "governance": 87.3,
+      "governance": 87,
       "judicial": 83.6,
       "media": 88,
       "civil": 96.1,
       "corruption": 52.7
     },
     "active_events_count": 71,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W33",
-    "computed_at": "2026-05-03T05:18:46.481Z",
+    "computed_at": "2026-05-03T05:19:34.033Z",
     "overall_score": 82.8,
     "pillars": {
       "electoral": 88.5,
-      "governance": 87.6,
+      "governance": 87.3,
       "judicial": 83.1,
       "media": 88.1,
       "civil": 95.7,
       "corruption": 52.3
     },
     "active_events_count": 77,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W34",
-    "computed_at": "2026-05-03T05:18:46.482Z",
-    "overall_score": 83,
+    "computed_at": "2026-05-03T05:19:34.034Z",
+    "overall_score": 82.9,
     "pillars": {
       "electoral": 88.7,
-      "governance": 87.9,
+      "governance": 87.6,
       "judicial": 83.2,
       "media": 88.2,
       "civil": 95.8,
       "corruption": 52.5
     },
     "active_events_count": 68,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W35",
-    "computed_at": "2026-05-03T05:18:46.483Z",
-    "overall_score": 83.2,
+    "computed_at": "2026-05-03T05:19:34.035Z",
+    "overall_score": 83.1,
     "pillars": {
       "electoral": 88.8,
-      "governance": 88.2,
+      "governance": 87.9,
       "judicial": 83.7,
       "media": 88.3,
       "civil": 95.9,
       "corruption": 52.5
     },
     "active_events_count": 67,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W36",
-    "computed_at": "2026-05-03T05:18:46.484Z",
-    "overall_score": 83.3,
+    "computed_at": "2026-05-03T05:19:34.036Z",
+    "overall_score": 83.2,
     "pillars": {
       "electoral": 88.9,
-      "governance": 88.4,
+      "governance": 88.1,
       "judicial": 83.7,
       "media": 88.4,
       "civil": 95.9,
       "corruption": 52.5
     },
     "active_events_count": 66,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W37",
-    "computed_at": "2026-05-03T05:18:46.485Z",
-    "overall_score": 83.3,
+    "computed_at": "2026-05-03T05:19:34.037Z",
+    "overall_score": 83.2,
     "pillars": {
       "electoral": 89,
-      "governance": 88.6,
+      "governance": 88.3,
       "judicial": 84.2,
       "media": 88.5,
       "civil": 95.5,
       "corruption": 52
     },
     "active_events_count": 64,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W38",
-    "computed_at": "2026-05-03T05:18:46.486Z",
-    "overall_score": 83.1,
+    "computed_at": "2026-05-03T05:19:34.038Z",
+    "overall_score": 83,
     "pillars": {
       "electoral": 89.1,
-      "governance": 88.2,
+      "governance": 87.9,
       "judicial": 84.2,
       "media": 88.5,
       "civil": 95.2,
       "corruption": 51.1
     },
     "active_events_count": 61,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W39",
-    "computed_at": "2026-05-03T05:18:46.487Z",
+    "computed_at": "2026-05-03T05:19:34.039Z",
     "overall_score": 83.1,
     "pillars": {
       "electoral": 89.1,
-      "governance": 88.3,
+      "governance": 88,
       "judicial": 84.3,
       "media": 88.5,
       "civil": 95.3,
       "corruption": 51.3
     },
     "active_events_count": 56,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W40",
-    "computed_at": "2026-05-03T05:18:46.488Z",
-    "overall_score": 83.2,
+    "computed_at": "2026-05-03T05:19:34.040Z",
+    "overall_score": 83.1,
     "pillars": {
       "electoral": 89.2,
-      "governance": 88.3,
+      "governance": 88,
       "judicial": 84.2,
       "media": 88.5,
       "civil": 95.4,
       "corruption": 51.5
     },
     "active_events_count": 53,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W41",
-    "computed_at": "2026-05-03T05:18:46.489Z",
-    "overall_score": 83.1,
+    "computed_at": "2026-05-03T05:19:34.040Z",
+    "overall_score": 83,
     "pillars": {
       "electoral": 89.3,
-      "governance": 88.3,
+      "governance": 88,
       "judicial": 84.2,
       "media": 88,
       "civil": 95,
       "corruption": 51.7
     },
     "active_events_count": 55,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W42",
-    "computed_at": "2026-05-03T05:18:46.490Z",
-    "overall_score": 83.1,
+    "computed_at": "2026-05-03T05:19:34.041Z",
+    "overall_score": 83,
     "pillars": {
       "electoral": 89.4,
-      "governance": 88.3,
+      "governance": 88,
       "judicial": 84.2,
       "media": 88,
       "civil": 95.2,
       "corruption": 51.4
     },
     "active_events_count": 56,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W43",
-    "computed_at": "2026-05-03T05:18:46.491Z",
-    "overall_score": 83.1,
+    "computed_at": "2026-05-03T05:19:34.042Z",
+    "overall_score": 83,
     "pillars": {
       "electoral": 89.4,
-      "governance": 87.8,
+      "governance": 87.5,
       "judicial": 84.2,
       "media": 88.1,
       "civil": 95.4,
       "corruption": 51.6
     },
     "active_events_count": 53,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W44",
-    "computed_at": "2026-05-03T05:18:46.492Z",
-    "overall_score": 83.1,
+    "computed_at": "2026-05-03T05:19:34.043Z",
+    "overall_score": 83,
     "pillars": {
       "electoral": 89.5,
-      "governance": 87.8,
+      "governance": 87.5,
       "judicial": 84.2,
       "media": 88.1,
       "civil": 95.5,
       "corruption": 51.3
     },
     "active_events_count": 54,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W45",
-    "computed_at": "2026-05-03T05:18:46.493Z",
-    "overall_score": 83.3,
+    "computed_at": "2026-05-03T05:19:34.044Z",
+    "overall_score": 83.2,
     "pillars": {
       "electoral": 89.5,
-      "governance": 87.9,
+      "governance": 87.6,
       "judicial": 84.4,
       "media": 88.2,
       "civil": 95.7,
       "corruption": 52
     },
     "active_events_count": 50,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W46",
-    "computed_at": "2026-05-03T05:18:46.494Z",
+    "computed_at": "2026-05-03T05:19:34.045Z",
     "overall_score": 82.6,
     "pillars": {
       "electoral": 89.5,
-      "governance": 86.9,
+      "governance": 86.6,
       "judicial": 84.3,
       "media": 87.2,
       "civil": 95.8,
       "corruption": 50.1
     },
     "active_events_count": 58,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W47",
-    "computed_at": "2026-05-03T05:18:46.495Z",
+    "computed_at": "2026-05-03T05:19:34.046Z",
     "overall_score": 82,
     "pillars": {
       "electoral": 89.5,
-      "governance": 85.1,
+      "governance": 84.8,
       "judicial": 84.2,
       "media": 86.8,
       "civil": 95.6,
       "corruption": 49.3
     },
     "active_events_count": 66,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W48",
-    "computed_at": "2026-05-03T05:18:46.496Z",
-    "overall_score": 81.5,
+    "computed_at": "2026-05-03T05:19:34.047Z",
+    "overall_score": 81.4,
     "pillars": {
       "electoral": 89.5,
-      "governance": 83.2,
+      "governance": 82.9,
       "judicial": 84.1,
       "media": 87.4,
       "civil": 95.8,
       "corruption": 47.6
     },
     "active_events_count": 77,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W49",
-    "computed_at": "2026-05-03T05:18:46.498Z",
-    "overall_score": 81.1,
+    "computed_at": "2026-05-03T05:19:34.048Z",
+    "overall_score": 81,
     "pillars": {
       "electoral": 89.5,
-      "governance": 81,
+      "governance": 80.7,
       "judicial": 84.5,
       "media": 87.5,
       "civil": 95.4,
       "corruption": 47.5
     },
     "active_events_count": 84,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W50",
-    "computed_at": "2026-05-03T05:18:46.499Z",
-    "overall_score": 80.7,
+    "computed_at": "2026-05-03T05:19:34.048Z",
+    "overall_score": 80.6,
     "pillars": {
       "electoral": 89.5,
-      "governance": 80.3,
+      "governance": 80,
       "judicial": 85,
       "media": 87.6,
       "civil": 95.6,
       "corruption": 44.9
     },
     "active_events_count": 90,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2025-W51",
-    "computed_at": "2026-05-03T05:18:46.500Z",
+    "computed_at": "2026-05-03T05:19:34.049Z",
     "overall_score": 79.7,
     "pillars": {
       "electoral": 89.5,
-      "governance": 75.7,
+      "governance": 75.4,
       "judicial": 85.4,
       "media": 87.7,
       "civil": 95.7,
       "corruption": 43.8
     },
     "active_events_count": 104,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2026-W01",
-    "computed_at": "2026-05-03T05:18:46.501Z",
-    "overall_score": 79.7,
+    "computed_at": "2026-05-03T05:19:34.050Z",
+    "overall_score": 79.6,
     "pillars": {
       "electoral": 89.5,
-      "governance": 75.4,
+      "governance": 75.1,
       "judicial": 85.1,
       "media": 87.8,
       "civil": 95.9,
       "corruption": 44
     },
     "active_events_count": 106,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2026-W10",
-    "computed_at": "2026-05-03T05:18:46.502Z",
+    "computed_at": "2026-05-03T05:19:34.051Z",
+    "overall_score": 80.5,
+    "pillars": {
+      "electoral": 89.5,
+      "governance": 79.7,
+      "judicial": 83.9,
+      "media": 88,
+      "civil": 96.4,
+      "corruption": 44.3
+    },
+    "active_events_count": 78,
+    "structural_baseline": "2026-Q2"
+  },
+  {
+    "week": "2026-W12",
+    "computed_at": "2026-05-03T05:19:34.052Z",
+    "overall_score": 80.4,
+    "pillars": {
+      "electoral": 89.5,
+      "governance": 80,
+      "judicial": 83.9,
+      "media": 88,
+      "civil": 96.4,
+      "corruption": 43.8
+    },
+    "active_events_count": 73,
+    "structural_baseline": "2026-Q2"
+  },
+  {
+    "week": "2026-W13",
+    "computed_at": "2026-05-03T05:19:34.053Z",
     "overall_score": 80.5,
     "pillars": {
       "electoral": 89.5,
@@ -729,114 +759,84 @@
       "judicial": 83.9,
       "media": 88,
       "civil": 96.4,
-      "corruption": 44.3
-    },
-    "active_events_count": 78,
-    "structural_baseline": "2026-Q3"
-  },
-  {
-    "week": "2026-W12",
-    "computed_at": "2026-05-03T05:18:46.503Z",
-    "overall_score": 80.5,
-    "pillars": {
-      "electoral": 89.5,
-      "governance": 80.3,
-      "judicial": 83.9,
-      "media": 88,
-      "civil": 96.4,
-      "corruption": 43.8
-    },
-    "active_events_count": 73,
-    "structural_baseline": "2026-Q3"
-  },
-  {
-    "week": "2026-W13",
-    "computed_at": "2026-05-03T05:18:46.504Z",
-    "overall_score": 80.5,
-    "pillars": {
-      "electoral": 89.5,
-      "governance": 80.3,
-      "judicial": 83.9,
-      "media": 88,
-      "civil": 96.4,
       "corruption": 44
     },
     "active_events_count": 73,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2026-W14",
-    "computed_at": "2026-05-03T05:18:46.505Z",
-    "overall_score": 80.5,
+    "computed_at": "2026-05-03T05:19:34.054Z",
+    "overall_score": 80.4,
     "pillars": {
       "electoral": 89.5,
-      "governance": 80.3,
+      "governance": 80,
       "judicial": 83.9,
       "media": 88,
       "civil": 96.4,
       "corruption": 43.6
     },
     "active_events_count": 74,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2026-W15",
-    "computed_at": "2026-05-03T05:18:46.506Z",
+    "computed_at": "2026-05-03T05:19:34.055Z",
     "overall_score": 80.3,
     "pillars": {
       "electoral": 89.5,
-      "governance": 80.3,
+      "governance": 80,
       "judicial": 83.9,
       "media": 88,
       "civil": 96.4,
       "corruption": 42.8
     },
     "active_events_count": 76,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2026-W16",
-    "computed_at": "2026-05-03T05:18:46.507Z",
-    "overall_score": 80.4,
+    "computed_at": "2026-05-03T05:19:34.056Z",
+    "overall_score": 80.3,
     "pillars": {
       "electoral": 89.5,
-      "governance": 80.5,
+      "governance": 80.2,
       "judicial": 83.6,
       "media": 88,
       "civil": 96.4,
       "corruption": 43.1
     },
     "active_events_count": 79,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2026-W17",
-    "computed_at": "2026-05-03T05:18:46.508Z",
-    "overall_score": 79.6,
+    "computed_at": "2026-05-03T05:19:34.057Z",
+    "overall_score": 79.5,
     "pillars": {
       "electoral": 89.5,
-      "governance": 76.8,
+      "governance": 76.5,
       "judicial": 83.8,
       "media": 87,
       "civil": 96.9,
       "corruption": 42.9
     },
     "active_events_count": 94,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   },
   {
     "week": "2026-W18",
-    "computed_at": "2026-05-03T05:18:46.509Z",
-    "overall_score": 76.3,
+    "computed_at": "2026-05-03T05:19:34.058Z",
+    "overall_score": 76.2,
     "pillars": {
       "electoral": 89.7,
-      "governance": 66.8,
+      "governance": 66.5,
       "judicial": 82.4,
       "media": 85.5,
       "civil": 95.4,
       "corruption": 39.1
     },
     "active_events_count": 161,
-    "structural_baseline": "2026-Q3"
+    "structural_baseline": "2026-Q2"
   }
 ]
