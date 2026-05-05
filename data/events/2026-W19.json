@@ -45,5 +45,318 @@
     "status": "active",
     "created_at": "2026-05-04T07:20:09.774Z",
     "expires_at": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-003",
+    "date": "2026-05-04",
+    "headline": "Policie obvinila Blažka a spol. ze zneužití státní autority v bitcoinové kauze",
+    "summary": "Vyšetřovatelé popsali plán, v němž měl stát posloužit jako nástroj k legitimizaci bitcoinů pocházejících z darknetového tržiště Nucleus Market. Obviněnému Blažkovi a dalším osobám policie klade za vinu zneužití pravomocí a autoritu státní moci pro soukromý prospěch.",
+    "pillar": "corruption",
+    "severity": 4,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Zneužili autoritu státu.“ Popisujeme, z čeho policie viní Blažka a spol. v bitcoinové kauze",
+        "url": "https://denikn.cz/2054279/zneuzili-autoritu-statu-popisujeme-z-ceho-policie-vini-blazka-a-spol-v-bitcoinove-kauze/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-05T07:02:47.203Z"
+      },
+      {
+        "title": "Policie obvinila Blažka a spol. v bitcoinové kauze. Hrozí jim až 12 let",
+        "url": "https://denikn.cz/2053379/bitcoinova-kauza-policie-obvinila-blazka-i-jeho-namestka/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-05T07:02:47.203Z"
+      },
+      {
+        "title": "Policie obvinila další tři lidi v bitcoinové kauze. Je mezi nimi i exministr Blažek",
+        "url": "https://archiv.hn.cz/c1-67873320-policie-obvinila-v-bitcoinove-kauze-i-exministra-blazka-pisi-media",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-05T07:02:49.861Z"
+      },
+      {
+        "title": "Advokátovi, který dohodl dar s Blažkem, přišly bitcoiny z drogového tržiště",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-advokatovi-ktery-dohodl-dar-s-blazkem-prisly-bitcoiny-z-drogoveho-trziste-304632",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-05T07:02:52.498Z"
+      },
+      {
+        "title": "Former Justice Minister Blazek Among Three New Charges In Bitcoin Scandal",
+        "url": "https://brnodaily.com/2026/05/05/news/politics/former-justice-minister-blazek-among-three-new-charges-in-bitcoin-scandal/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-05-05T07:04:18.737Z"
+      }
+    ],
+    "score_impact": -3,
+    "rationale": "Severity 4 per rubric §4 — obvinění ústavně či státně exponované osoby ze systematického zneužití státní autority k legalizaci kriminálních aktiv je přímým dopadem na subkomponentu K1 (politická korupce, zneužití pravomoci pro osobní prospěch). Případ naplňuje kritérium „přímého dopadu na fungování klíčové instituce a překročení ústavních hranic\n\n[merged with 2026-W19-004 — same incident, sources combined]\n\n[merged with 2026-W19-011 — same incident, sources combined]\n\n[merged with 2026-W19-017 — same incident, sources combined]\n\n[merged with 2026-W19-019 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z",
+    "expires_at": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-005",
+    "date": "2026-05-04",
+    "headline": "Nagyová odsouzena v kauze Čapí hnízdo — soudce vyjádřil pochybnosti o spravedlnosti verdiktu",
+    "summary": "Městský soud v Praze uložil europoslankyni Janě Nagyové (ANO) podmíněný trest tři roky a peněžitý trest půl milionu korun v kauze Čapí hnízdo. Rozsudek je nepravomocný. Soudce Jan Šott veřejně deklaroval, že sám o vině Nagyové není přesvědčen, ale byl vázán závazným právním názorem vrchního soudu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nagyová v kauze Čapí hnízdo dostala podmínku a musí zaplatit půl milionu. Podle soudce ale neměla být potrestána",
+        "url": "https://denikn.cz/2053635/zije-radne-a-od-skutku-ubehla-rada-let-zalobce-chce-pro-nagyovou-za-capi-hnizdo-podminku/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-05T07:02:47.203Z"
+      },
+      {
+        "title": "Za osvobozením si stojíme, ale musíme respektovat odvolací soud, řekl Šott. A Nagyové v kauze Čapí hnízdo dal podmínku",
+        "url": "https://archiv.hn.cz/c1-67873250-soud-dal-nagyove-v-kauze-capi-hnizdo-podminku-a-trest-pul-milionu-korun",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-05T07:02:49.861Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní soudní rozhodnutí v trvající politické kauze, které samo o sobě nenarušuje institucionální fungování justice; verdikt je nepravomocný a výrok soudce o vlastních pochybnostech je standardní součástí odůvodnění v situaci vázanosti právním názorem vyšší instance (§228 odst. 1 TŘ). Subkomponenta J4 (rovnost před zákonem, doba řízení vůči politicky exponovaným osobám) je relevantní — kauza trvá roky — ale samotný dnešní rozsudek nevytváří nový precedent ani neohrožuje nezávislost justice. Direction -1 mírně, protože veřejná proklamace soudcovy nevíry ve vinu odsouzeného oslabuje důvěru v procesní konzistenci, přestože procesně jde o standardní postup. Sekundárně se dotýká K1 (korupce ve spojení s dotačním podvodem).\n\n[merged with 2026-W19-013 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-05-05T07:02:47.189Z",
+    "expires_at": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-006",
+    "date": "2026-05-05",
+    "headline": "Turek ignoruje slib a zůstává místopředsedou výboru, přestože na něj nemá čas",
+    "summary": "Poslanec Filip Turek přes únorový slib stále nezískal odchod z výboru pro evropské záležitosti, jehož je místopředsedou a na jehož zasedání nedochází. Přitom za tuto funkci pobírá navýšený plat. Jde o porušení parlamentních etických norem a neplnění veřejně deklarovaného závazku.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Funkcemi ověnčený Turek nechodí na výbor, ze kterého sliboval odejít. Zůstává jeho místopředsedou",
+        "url": "https://www.irozhlas.cz/zpravy-domov/funkcemi-ovenceny-turek-nechodi-na-vybor-ze-ktereho-sliboval-odejit-zustava-jeho_2605050620_jgr",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-05T07:02:48.250Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o individuální drobné porušení parlamentní etiky (neplnění slíbeného vzdání se funkce) bez precedentního nebo institucionálního dopadu. Subkomponenta G1 (reálná kontrola a funkčnost parlamentu) je dotčena okrajově. Anti-bias check: stejnou závažnost bych přiřadil poslanci libovolné strany. Persistent, protože stav trvá.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z"
+  },
+  {
+    "id": "2026-W19-007",
+    "date": "2026-05-05",
+    "headline": "Vondráček označil Čapí hnízdo za selhání justice, Decroix oponuje odkazem na právní stát",
+    "summary": "Místopředseda ústavně-právního výboru Radek Vondráček (ANO) veřejně prohlásil, že v kauze Čapí hnízdo došlo k individuálnímu selhání justice a že trestní řád byl „ohnut a zlomen\". Exministryně spravedlnosti Eva Decroix odmítla zpochybňování nezávislosti justice a zdůraznila platnost právního státu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "U Čapího hnízda selhala justice, míní Vondráček. Decroix oponuje právním státem",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/u-capiho-hnizda-selhala-justice-mini-vondracek-decroix-oponuje-pravnim-statem-373104",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-05T07:02:48.540Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — soustavná verbální kritika konkrétního soudního výsledku vysokým parlamentním představitelem bez výzev k personálním změnám nebo legislativnímu zásahu; srovnatelné s příkladem „soustavná kritika konkrétního soudce politikem (≥ 3 vystoupení v týdnu) bez výzev k odvolání\". Subkomponenta J2 (ochrana před politickým tlakem na konkrétní kauzy). Jedna TV debata bez eskalace do návrhů institucionálních změn. Anti-bias check: stejnou závažnost bych přiřadil libovolné straně zpochybňující soudní rozhodnutí. Rubric de-eskalace: čistě verbální výstup, žádný formální dokument.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z",
+    "expires_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-008",
+    "date": "2026-05-04",
+    "headline": "Reportéři ČT odhalili stopy k majitelům podvodné solární elektrárny v Krušných horách",
+    "summary": "Investigativní reportáž ČT sledovala vlastnickou strukturu fotovoltaické elektrárny v Moldavě, po níž stát vymáhá přibližně půl miliardy korun za podvody při licencování. Stopami vedoucími k původním spoluvlastníkům, včetně podnikatele a odsouzeného korupčníka Alexandra Nováka, se novinářům podařilo získat rozhovor i přes současné krytí kyperskou firmou.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Reportéři ČT odhalovali majitele podvodné solární elektrárny v Krušných horách",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/reporteri-ct-odhalovali-majitele-podvodne-solarni-elektrarny-v-krusnych-horach-373092",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-05T07:02:48.540Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní investigativní zjištění s lokálním dopadem vztahující se k existující trestněprávní kauze (subkomponenta K2: transparentnost veřejných zakázek a licencování). Samotná reportáž nepředstavuje novou institucionální událost, ale potvrzuje přetrvávající schéma manipulace s licenčním řízením a zakrývání vlastnictví. Škoda půl miliardy je relevantní, avšak případ je primárně investigativní mediální výstup bez nového formálního procesního kroku (obvinění, obžaloba, rozsudek). Duration persistent, neboť vlastnická struktura a vymáhání škody jsou stále aktivní.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z"
+  },
+  {
+    "id": "2026-W19-009",
+    "date": "2026-05-04",
+    "headline": "Policie obvinila dalších šest osob v kauze korupce ve veřejných zakázkách Ústeckého kraje",
+    "summary": "V kauze bývalého chomutovského primátora Hrabáče policie obvinila šest dalších fyzických a tři právnické osoby z manipulace s veřejnými zakázkami Správy a údržby silnic Ústeckého kraje. Celkový počet obviněných vzrostl na dvacet osob a osm firem, přičemž dva obvinění již uzavřeli dohodu o vině a trestu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Policie obvinila v kauze chomutovského exprimátora Hrabáče dalších šest lidí",
+        "url": "https://ct24.ceskatelevize.cz/clanek/regiony/ustecky-kraj/policie-obvinila-v-kauze-chomutovskeho-exprimatora-hrabace-dalsich-sest-lidi-373081",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-05T07:02:48.540Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rozšíření obvinění na celkem dvacet osob a osm právnických osob v korupčním schématu zahrnujícím systematické ovlivňování veřejných zakázek (subkomponenta K2: transparentnost zadávacích řízení) potvrzuje rozsáhlý a organizovaný charakter případu. Nejde o izolovaný incident, ale o odhalení strukturálního korupčního schématu na krajské úrovni. Dohoda o vině a trestu u dvou obviněných naznačuje postupující procesní fázi. Duration persistent, případ stále probíhá. Anti-bias: stejné hodnocení by se aplikovalo na primátora jakékoli jiné politické příslušnosti.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z"
+  },
+  {
+    "id": "2026-W19-010",
+    "date": "2026-05-04",
+    "headline": "NCOZ obvinila exministra spravedlnosti Blažka v kauze darování bitcoinů státu",
+    "summary": "Vyšetřovatelé NCOZ obvinili exministra spravedlnosti Pavla Blažka, jeho náměstka a advokáta Kárima Titze v souvislosti s kauzou darování bitcoinů ministerstvu spravedlnosti. Blažek obvinění potvrdil, ale odmítá jakékoli pochybení.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kriminalisté v souvislosti s bitcoinovou kauzou stíhají další tři lidi včetně Blažka",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/kriminaliste-v-souvislosti-s-bitcoinovou-kauzou-stihaji-dalsi-tri-lidi-373080",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-05T07:02:48.540Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — obvinění ústavního činitele (ministra spravedlnosti) ze závažného trestného činu má přímý dopad na důvěryhodnost klíčové instituce státní správy a dotýká se subkomponenty K1 (politická korupce, střet zájmů ústavních činitelů). Obvinění exministra spravedlnosti — tedy osoby, která by měla dohlížet na právní stát — je kvalitativně závažnější než regionální korupce. Sekundárně se dotýká pilíře judicial (J3: nezávislost státního zastupitelství a právního systému). Single-source pravidlo: informaci potvrdily minimálně tři nezávislé redakce (Seznam Zprávy, Deník N, iRozhlas) a sám Blažek, takže zdrojová podmínka pro severity 4 je splněna. Duration one_off — jde o konkrétní procesní krok (obvinění), případ dále sledovat.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z",
+    "expires_at": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-012",
+    "date": "2026-05-04",
+    "headline": "Vláda schválila návrh na znovuzavedení EET od ledna 2027",
+    "summary": "Vláda v pondělí 4. května schválila návrh na obnovení elektronické evidence tržeb, která by měla platit od ledna 2027. Návrh nyní míří do parlamentu. Kabinet odhaduje roční výnos 14 miliard korun.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "EET se vrátí v lednu 2027, schválila vláda. Věří ve výnos 14 miliard",
+        "url": "https://archiv.hn.cz/c1-67873270-eet-se-vrati-v-ledna-2027-schvalila-vlada-veri-ve-vynos-14-miliard",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-05T07:02:49.861Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — vládní schválení návrhu zákona je standardní legislativní krok bez precedentního charakteru; jde o obnovení dříve existujícího nástroje (EET), nikoli o novou strukturální změnu. Subkomponenta G2 (kvalita legislativy) je marginálně relevantní, ale schválení ve standardním procesu bez zkrácení připomínkového řízení nenaznačuje porušení norem. Direction 0 — EET je standardní fiskální opatření, jehož demokratický dopad je ambivalentní (pozitivní fiskálně, neutrální institucionálně). Pilíř governance je primární jako vládní politika, ale demokratický rozměr je velmi omezený.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z",
+    "expires_at": "2026-07-27T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-014",
+    "date": "2026-05-05",
+    "headline": "Pokračuje soudní proces v kauze miliardových daňových úniků Shahrama Zadeha",
+    "summary": "Poslední větev rozsáhlé kauzy daňových úniků spojené se Shahramem Zadehem se vrátila k soudu s pěticí obžalovaných. Proces byl prodloužen kvůli novému znaleckému posudku, který potvrdil závěry obžaloby; obžalovaní vinu odmítají.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "V kauze miliardových daňových úniků znovu začal „ne zcela typický proces“",
+        "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-v-kauze-miliardovych-danovych-uniku-znovu-zacal-ne-zcela-typicky-proces-305450",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-05T07:02:52.498Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní procesní krok (obnovení hlavního líčení, nový znalecký posudek) ve stávající kauze bez nového institucionálního dopadu. Subkomponenta J4 (rovnost před zákonem, délka řízení) je relevantní, ale článek nepopisuje žádné pochybení ani zásah do nezávislosti soudu. Direction 0: soud funguje, avšak protahování procesu je ambivalentní. Needs_review zvažováno, ale severity 1 je dostatečně konzervativní.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z"
+  },
+  {
+    "id": "2026-W19-015",
+    "date": "2026-05-05",
+    "headline": "Soud svěřil dítě otci označenému znalci za nebezpečného — kauza Viktorka",
+    "summary": "Nové dokumenty ukazují, že otec malé Viktorky byl po násilném incidentu se zbraní částečně zbaven svéprávnosti a znalci označen za nebezpečnou osobu, přesto mu soud svěřil dítě do péče. Případ vyvolává otázky o kvalitě rozhodovacích procesů obecných soudů v opatrovnických věcech.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nové informace v kauze Viktorka. Chtěl zabít matku, soud mu i tak dal dítě",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-nove-informace-v-kauze-viktorka-chtel-zabit-matku-soud-mu-i-tak-dal-dite-305290",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-05T07:02:52.498Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní soudní rozhodnutí, které je v rozporu s dostupnými znaleckými posudky, představuje drobné, ale zaznamenatelné pochybení obecného soudu (subkomponenta J2 — nezávislost a kvalita obecných soudů). Nedosahuje na §3, protože jde o individuální kauzu bez jasného precedentního nebo systémového charakteru a bez dokladů o politickém tlaku. Direction -1: rozhodnutí oslabuje důvěru v soudní ochranu dítěte.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z",
+    "expires_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-016",
+    "date": "2026-05-05",
+    "headline": "Vláda schválila obnovu elektronické evidence tržeb (EET) v plném rozsahu",
+    "summary": "Vládní kabinet odsouhlasil návrat elektronické evidence tržeb, která bude povinná plošně. Komentátoři upozorňují na napětí mezi fiskální účelností opatření a principem proporcionálního státního dohledu nad podnikatelskou sférou.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Státní dozor nad každou útratou. Vážně to máme znovu zapotřebí?",
+        "url": "https://www.seznamzpravy.cz/clanek/ekonomika-byznys-trendy-analyzy-statni-dozor-nad-kazdou-utratou-vazne-to-mame-znovu-zapotrebi-305461",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-05T07:02:52.498Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — schválení EET vládou je konkrétní datovaná politická akce (subkomponenta G2, kvalita legislativy a přiměřenost regulace). Nedosahuje na §3, protože se jedná o daňově-administrativní opatření s legitimní fiskální motivací a bez přímého narušení dělby moci či ústavních norem. Direction -1 přiřazen opatrně na základě komentáře o disproporcionalitě státní kontroly; anti-bias check: stejnou závažnost bych přiřadil bez ohledu na to, která vládní koalice opatření prosadila. Článek je převážně komentářem — event klasifikován na základě faktické zmínky o vládním schválení.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z"
+  },
+  {
+    "id": "2026-W19-018",
+    "date": "2026-05-04",
+    "headline": "Transparency International podala podnět na ÚOHS kvůli zakázkám pro firmy mosteckých radních",
+    "summary": "Transparency International ČR upozornila na propojení radních a zastupitelů hnutí ProMost s firmami, které čerpají milionové zakázky a dotace z rozpočtu města Most. TI podala v této věci podnět k Úřadu pro ochranu hospodářské soutěže. Jde o možný střet zájmů na komunální úrovni.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Mostecké miliony končí u politiků a jejich firem. TI se obrací s podnětem na ÚOHS",
+        "url": "https://www.transparency.cz/mostecke-miliony-konci-u-politiku-a-jejich-firem-ti-se-obraci-s-podnetem-na-uohs/",
+        "outlet": "Transparency International ČR",
+        "fetched_at": "2026-05-05T07:04:15.980Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — podnět nevládní organizace k ÚOHS je konkrétní institucionální krok dokumentující strukturální střet zájmů (subkomponenta K1 — politická korupce, K2 — veřejné zakázky). Rozsah zakázek v řádu milionů a systémový charakter propojení politiků s firmami čerpajícími z městského rozpočtu zakládají precedentní hodnotu pro hodnocení komunální korupce. Nejde dosud o pravomocné rozhodnutí ÚOHS, proto se neeskaluje na 4. Zdroj je jedním nezávislým médiem (TI), avšak jako přímý aktér kauzy je relevantním zdrojem.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z",
+    "expires_at": "2026-07-27T00:00:00.000Z"
   }
 ]

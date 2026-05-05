@@ -1693,5 +1693,29 @@
     "status": "active",
     "created_at": "2026-05-04T07:20:09.774Z",
     "expires_at": "2026-07-26T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-075",
+    "date": "2026-04-29",
+    "headline": "ÚS: Zákonem stanovená možnost nevydat odůvodnění rozhodnutí o upuštění od výkonu trestu při vyhoštění je protiústavní",
+    "summary": "Ústavní soud (IV. senát) vyhlásil nález sp. zn. IV. ÚS 422/26, v němž konstatoval, že zákonná úprava umožňující soudu nevydat odůvodnění rozhodnutí o upuštění od výkonu trestu odnětí svobody při současném vyhoštění je v rozporu s ústavně garantovaným právem na spravedlivý proces. Nález se dotýká ochrany základních procesních práv obviněných v trestním řízení.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Souhrn vyhlášených nálezů",
+        "url": "https://www.usoud.cz/aktualne/souhrn-vyhlasenych-nalezu-2",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-05-05T07:04:13.718Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — nález ÚS potvrzující protiústavnost konkrétního procesního ustanovení je pozitivní událost posilující J4 (rovnost před zákonem a procesní záruky) a J2 (nezávislost obecných soudů skrze standardy odůvodnění). Dopad je reálný, ale omezený na specifickou oblast trestního práva bez širšího systémového charakteru; proto nelze přiřadit severity 3. Direction +1, neboť nález posiluje právní záruky občanů vůči státu. Sekundárně se dotýká C1 (ochrana práv v právním procesu). Zdroj je přímo ÚS, spolehlivý, ale dostupné je pouze právní věta bez plného textu — severity proto nekalibruji výše.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-05T07:02:47.189Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
   }
 ]
