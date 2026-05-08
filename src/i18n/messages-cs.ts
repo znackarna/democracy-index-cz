@@ -22,14 +22,58 @@ export const messagesCs = {
 
   nav: {
     overview: 'Přehled',
+    pillars: 'Pilíře',
     events: 'Události',
     comparison: 'Srovnání',
     methodology: 'Metodika',
     support: 'Podpořit',
     languageSwitchAria: 'Přepnout jazyk',
+    /** Used inside formatWeekLabel(): "2026 · týden 19". */
+    weekLabelTemplate: '{year} · týden {week}',
   },
 
   footer: {
+    /** Header column over the brand block. */
+    brandName: 'Index české demokracie',
+    brandTagline: 'Nezávislý projekt. Otevřená data, otevřená metodika.',
+    /** Bottom row, copyright + license. {year} placeholder substituted at build. */
+    copyright:
+      '© {year} Index demokracie ČR · provozuje Značkárna s.r.o. · IČO 22119988',
+    license: 'CC BY 4.0 · bez sledovacích cookies',
+
+    /** Four columns of links. Some destinations are aspirational and rendered
+     *  as plain text (no href) until target pages exist — see flag in
+     *  MORNING-CHECKLIST. */
+    columns: {
+      project: {
+        heading: 'Projekt',
+        about: 'O projektu',
+        team: 'Tým',
+        funding: 'Financování',
+      },
+      data: {
+        heading: 'Data',
+        downloads: 'CSV / JSON',
+        api: 'API',
+        history: 'Historie změn',
+      },
+      board: {
+        heading: 'Vědecká rada',
+        members: 'Členové',
+        review: 'Recenzní řízení',
+        publicNotes: 'Veřejné připomínky',
+      },
+      contact: {
+        heading: 'Kontakt',
+        email: 'redakce@indexdemokracie.cz',
+        forJournalists: 'Pro novináře',
+        securityTip: 'Bezpečnostní tip',
+      },
+    },
+
+    /** Legacy keys retained because /podpora/ + /metodika/ link copy still
+     *  uses them inline elsewhere. Will be retired once redesign cleanup
+     *  pass removes the old footer paragraph entirely. */
     leadIn: 'Auditovatelný open-source projekt.',
     repoLink: 'Repo na GitHubu',
     afterRepo: 'Klasifikuje Claude Sonnet 4.6, skóre počítá deterministická TS funkce.',
@@ -75,6 +119,39 @@ export const messagesCs = {
 
   duration: {
     persistent: 'trvalá',
+  },
+
+  hero: {
+    /** "Hodnota tento týden" — uppercase eyebrow above the big number. */
+    valueOfTheWeek: 'Hodnota tento týden',
+    /** Headline with blue period. The period dot is rendered separately. */
+    headline: 'Index české demokracie',
+    /** Lede paragraph rendered above buttons. Uses {pillar1} and {pillar2}
+     *  placeholders that the component resolves to the lowest two pillars
+     *  (with anchor links). */
+    lede:
+      'Letos drží, ale slábne. Nejvíc ji táhne dolů to, jak se ztrácí kontrola nad {pillar1} — a staré nedořešené {pillar2}, na které politika neumí najít odpověď.',
+    primaryCta: 'Co se stalo tento týden',
+    secondaryCta: 'Jak měříme',
+    /** Number caption: "{deltaBaseline} bodu vs. lednu loňska. Za poslední
+     *  týden {deltaWeek}." Filled in by the component. */
+    /** Number caption: "{baselineDelta}. Za poslední týden {weekDelta}.". */
+    numberCaption: '{baselineDelta} Za poslední týden {weekDelta}.',
+    baselineDeltaDown: 'O {value} bodu níž než výchozí hodnota.',
+    baselineDeltaUp: 'O {value} bodu výš než výchozí hodnota.',
+    baselineDeltaFlat: 'Na úrovni výchozí hodnoty.',
+    weekDeltaDown: 'klesla o {value} bodu',
+    weekDeltaUp: 'stoupla o {value} bodu',
+    weekDeltaFlat: 'beze změny',
+    statusBadgeLabel: 'Stále demokracie. Slábnoucí.',
+    sparklineEyebrowLeft: 'Posledních 52 týdnů',
+    sparklineEyebrowRight: '2025–2026',
+    sparklineBaselineLabel: 'VÝCHOZÍ {value}',
+    sparklineCaption:
+      'Nejnižší za poslední rok je z konce ledna; nejvýš byla v dubnu loňska. Tlumený, ale jednoznačný sestup.',
+    sparklineFootnote:
+      'Šest pilířů, 26 ukazatelů, týdenní aktualizace. Všechny zdroje na {methodologyLink}.',
+    sparklineMethodologyLink: 'jiném místě',
   },
 
   home: {
@@ -228,6 +305,25 @@ export const messagesCs = {
       'Vážený index 0–100. Baseline {baseline} ({quarter}) {delta} z {count} aktivních událostí.',
   },
 
+  eventLog: {
+    eyebrow: '03 — Události',
+    title: 'Co tento týden index pohnulo.',
+    intro:
+      'Každá událost je ručně zařazena do pilíře a oceněna dopadem od −6 do +6 bodů. Plný changelog je {repoLink}.',
+    introRepoLink: 'na GitHubu',
+    weekChipPrefix: 'Týden',
+    archiveChip: 'Archiv',
+    summaryTemplate: 'Σ TÝDEN {sum} · {count} událostí · {sources} zdrojů',
+    fullArchiveLink: 'Plný archiv →',
+    impactLabels: {
+      severe: 'vážný',
+      positive: 'pozitivní',
+      minor: 'menší',
+      neutral: 'neutrální',
+    },
+    emptyWeek: 'Tento týden žádné klasifikované události.',
+  },
+
   events: {
     pageTitle: 'Všechny události',
     pageIntro:
@@ -337,6 +433,43 @@ export const messagesCs = {
     scaleLabel: 'stupnice 0–',
     subPillarsHeading: 'Subpilíře',
     scoreTooltip: 'skóre',
+  },
+
+  manifest: {
+    eyebrow: '05 — Manifest',
+    /** Mono kicker on the left column. */
+    kicker: 'Demokracie není binární stav. Je to kontinuum, které se měří denně.',
+    /** Big quote on the right. */
+    quote:
+      'Měříme proto, aby se nejdřív mluvilo o datech — a až potom o „krizi", nebo „klidu".',
+    /** Warm paragraph below the quote. NOTE: design's draft mentions a
+     *  team of "dva politologové, tři analytici a redakce dvou nezávislých
+     *  titulů" which doesn't yet match the project's actual setup — flagged
+     *  in MORNING-CHECKLIST for editorial review. */
+    body:
+      'Sami politici nejsme. Tvoří nás dva politologové, tři analytici a redakce dvou nezávislých titulů. Data, váhy a komentáře jsou veřejné. Když najdete chybu, napište — nejpozději do týdne ji opravujeme a označíme jako opravu.',
+  },
+
+  benchmarks: {
+    eyebrow: '04 — Srovnání',
+    title: 'Co o ČR říkají externí indexy.',
+    intro:
+      'Roční hodnocení nejcitovanějších mezinárodních pracovišť. Náš index je s nimi ve veřejné křížové kalibraci.',
+    headers: {
+      index: 'Index',
+      value: 'Hodnota',
+      delta: 'Δ rok—rok',
+      rank: 'Pozice',
+      classification: 'Klasifikace',
+    },
+    classifications: {
+      'V-Dem': 'Liberální demokracie',
+      EIU: 'Plnohodnotná demokracie',
+      'FH-FitW': 'Free',
+      RSF: 'Dobrá situace',
+      'TI-CPI': 'Středně korumpovaná',
+      WJP: 'Vyspělý právní stát',
+    },
   },
 
   comparisonTable: {
@@ -466,6 +599,26 @@ export const messagesCs = {
 
   pillarBreakdown: {
     tooltipCurrent: 'Aktuálně',
+  },
+
+  pillarsTable: {
+    eyebrow: '02 — Pilíře',
+    title: 'Šest os, podle kterých demokracii vážíme.',
+    headers: {
+      number: '#',
+      pillar: 'Pilíř',
+      score: 'Skóre',
+      deltaWeek: 'Δ TÝDEN',
+      deltaBaseline: 'Δ VÝCH.',
+      weight: 'Váha',
+      trend: 'Trend 52 t.',
+      signal: 'Hlavní signál',
+    },
+    riskZoneTag: 'pásmo rizika',
+    detailLink: 'Detail →',
+    noEvent: 'Bez pohybu tento týden',
+    footnote:
+      '⚠ Pilíře pod 70 bodů jsou označeny jako pásmo zvýšeného rizika. Trend ukazuje pohyb 52 týdnů proti vlastní výchozí hodnotě pilíře, ne proti kompozitnímu indexu.',
   },
 
   infoBox: {

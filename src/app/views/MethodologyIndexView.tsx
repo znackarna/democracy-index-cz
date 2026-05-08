@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { PageContainer } from '../components/PageContainer';
 import { getMethodologyDocs, listValidationReports } from '../lib/markdown';
 import {
   getMessages,
@@ -23,12 +24,14 @@ export async function MethodologyIndexView({ locale }: Props) {
   const auditDocs = docs.filter((d) => AUDIT_TRAIL_KEYS.has(d.key));
 
   return (
+    <PageContainer>
     <div className="space-y-10">
       <section>
-        <h1 className="mb-2 text-3xl font-bold tracking-tight text-slate-900">
+        <div className="text-[11px] uppercase tracking-[0.22em] text-black/50">06 — {t.methodologyIndex.title}</div>
+        <h1 className="mt-2 mb-3 text-3xl font-medium tracking-tight md:text-4xl">
           {t.methodologyIndex.title}
         </h1>
-        <p className="max-w-3xl text-slate-600">
+        <p className="max-w-3xl text-[15px] text-black/65">
           {t.methodologyIndex.intro.pre}
           <Link
             href={methodologyDocPath('changelog', locale)}
@@ -49,7 +52,7 @@ export async function MethodologyIndexView({ locale }: Props) {
             <Link
               key={doc.key}
               href={methodologyDocPath(doc.key, locale)}
-              className="block rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-slate-300 hover:shadow"
+              className="block border border-black/15 bg-paper p-5 transition hover:border-black"
             >
               <h3 className="text-base font-semibold text-slate-900">{doc.title}</h3>
               <p className="mt-2 text-sm text-slate-600">{doc.description}</p>
@@ -70,7 +73,7 @@ export async function MethodologyIndexView({ locale }: Props) {
             <Link
               key={doc.key}
               href={methodologyDocPath(doc.key, locale)}
-              className="block rounded-2xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-slate-300 hover:shadow"
+              className="block border border-black/15 bg-paper p-5 transition hover:border-black"
             >
               <h3 className="text-base font-semibold text-slate-900">{doc.title}</h3>
               <p className="mt-2 text-sm text-slate-600">{doc.description}</p>
@@ -93,7 +96,7 @@ export async function MethodologyIndexView({ locale }: Props) {
               <li key={v.slug}>
                 <Link
                   href={validationReportPath(v.quarter, locale)}
-                  className="inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-4 py-2 text-sm text-slate-700 hover:border-slate-300 hover:text-slate-900"
+                  className="inline-flex items-center gap-2 border border-black/15 bg-paper px-4 py-2 text-sm text-black/70 hover:border-black hover:text-black"
                 >
                   {t.methodologyIndex.validationLinkPrefix}
                   {v.quarter} →
@@ -104,5 +107,6 @@ export async function MethodologyIndexView({ locale }: Props) {
         </section>
       )}
     </div>
+    </PageContainer>
   );
 }

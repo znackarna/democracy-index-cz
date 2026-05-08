@@ -6,11 +6,59 @@
   color-scheme: light;
 }
 
-body {
-  @apply bg-slate-50 text-slate-900 antialiased;
+html {
+  font-feature-settings: 'ss01', 'cv11';
 }
 
-/* Recharts tooltip override — match Tailwind look */
+body {
+  @apply bg-paper text-ink antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #1944b8;
+  color: #fff;
+}
+
+/* Tabular numerics — used heavily for scores, deltas, dates. */
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Animated underline-on-hover for nav and inline links. */
+a.uhover {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.25s ease;
+}
+a.uhover:hover {
+  background-size: 100% 1px;
+}
+
+/* 3-px blue editorial accent rule used as a visual divider in hero. */
+.accent-rule {
+  background: #1944b8;
+}
+
+/* Vertical gridlines behind hero number for editorial chart-paper feel. */
+.gridlines {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 80px 100%;
+}
+
+/* Caret-style blink (1.1s steps(1)) used by the live-update dot. */
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1.1s steps(1) infinite;
+}
+
+/* Recharts tooltip override — match design (no rounded, no shadow). */
 .recharts-tooltip-wrapper {
   outline: none !important;
 }

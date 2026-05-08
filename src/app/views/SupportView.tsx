@@ -1,4 +1,5 @@
 import { DonateButtons } from '../components/DonateButtons';
+import { PageContainer } from '../components/PageContainer';
 import { isAnyLinkConfigured, readDonationsConfig } from '../lib/donations';
 import { getMessages, type Locale } from '@/i18n';
 
@@ -31,13 +32,15 @@ export async function SupportView({ locale }: Props) {
   const totalAnnualCzk = config.total_monthly_czk * 12;
 
   return (
+    <PageContainer>
     <div className="space-y-10">
       <section>
-        <h1 className="mb-2 text-3xl font-bold tracking-tight text-slate-900">
+        <div className="text-[11px] uppercase tracking-[0.22em] text-black/50">07 — {t.support.pageTitle}</div>
+        <h1 className="mt-2 mb-3 text-3xl font-medium tracking-tight md:text-4xl">
           {t.support.pageTitle}
         </h1>
-        <p className="max-w-3xl text-slate-600">{t.support.pageIntro}</p>
-        <p className="mt-3 max-w-3xl text-xs text-slate-500">{t.support.legalDisclaimer}</p>
+        <p className="max-w-3xl text-[15px] text-black/65">{t.support.pageIntro}</p>
+        <p className="mt-3 max-w-3xl text-xs text-black/55">{t.support.legalDisclaimer}</p>
       </section>
 
       {ready ? (
@@ -131,8 +134,9 @@ export async function SupportView({ locale }: Props) {
             </tfoot>
           </table>
         </div>
-        <p className="mt-3 max-w-3xl text-xs text-slate-500">{t.support.transparencyFooter}</p>
+        <p className="mt-3 max-w-3xl text-xs text-black/55">{t.support.transparencyFooter}</p>
       </section>
     </div>
+    </PageContainer>
   );
 }

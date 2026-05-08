@@ -20,14 +20,49 @@ export const messagesEn: Messages = {
 
   nav: {
     overview: 'Overview',
+    pillars: 'Pillars',
     events: 'Events',
     comparison: 'Comparison',
     methodology: 'Methodology',
     support: 'Support',
     languageSwitchAria: 'Switch language',
+    weekLabelTemplate: '{year} · week {week}',
   },
 
   footer: {
+    brandName: 'Czech Democracy Index',
+    brandTagline: 'An independent project. Open data, open methodology.',
+    copyright:
+      '© {year} Czech Democracy Index · operated by Značkárna s.r.o. · ID 22119988',
+    license: 'CC BY 4.0 · no tracking cookies',
+
+    columns: {
+      project: {
+        heading: 'Project',
+        about: 'About',
+        team: 'Team',
+        funding: 'Funding',
+      },
+      data: {
+        heading: 'Data',
+        downloads: 'CSV / JSON',
+        api: 'API',
+        history: 'Change log',
+      },
+      board: {
+        heading: 'Advisory board',
+        members: 'Members',
+        review: 'Peer review',
+        publicNotes: 'Public comments',
+      },
+      contact: {
+        heading: 'Contact',
+        email: 'redakce@indexdemokracie.cz',
+        forJournalists: 'For journalists',
+        securityTip: 'Security tip',
+      },
+    },
+
     leadIn: 'An auditable open-source project.',
     repoLink: 'Repo on GitHub',
     afterRepo: 'Classification by Claude Sonnet 4.6, scoring by a deterministic TS function.',
@@ -73,6 +108,31 @@ export const messagesEn: Messages = {
 
   duration: {
     persistent: 'persistent',
+  },
+
+  hero: {
+    valueOfTheWeek: 'This week’s value',
+    headline: 'Czech Democracy Index',
+    lede:
+      'Holding for now, but slipping. The biggest drag is the loss of control over {pillar1} — and the old, unresolved {pillar2} that politics can’t bring itself to answer.',
+    primaryCta: 'What happened this week',
+    secondaryCta: 'How we measure',
+    numberCaption: '{baselineDelta} Over the past week {weekDelta}.',
+    baselineDeltaDown: '{value} points below the structural baseline.',
+    baselineDeltaUp: '{value} points above the structural baseline.',
+    baselineDeltaFlat: 'In line with the structural baseline.',
+    weekDeltaDown: 'down {value} points',
+    weekDeltaUp: 'up {value} points',
+    weekDeltaFlat: 'unchanged',
+    statusBadgeLabel: 'Still a democracy. Slipping.',
+    sparklineEyebrowLeft: 'Last 52 weeks',
+    sparklineEyebrowRight: '2025–2026',
+    sparklineBaselineLabel: 'BASELINE {value}',
+    sparklineCaption:
+      'Lowest point in the past year was late January; highest was last April. A muted but unambiguous decline.',
+    sparklineFootnote:
+      'Six pillars, 26 indicators, weekly updates. All sources on the {methodologyLink}.',
+    sparklineMethodologyLink: 'methodology page',
   },
 
   home: {
@@ -227,6 +287,25 @@ export const messagesEn: Messages = {
       'Weighted index 0–100. Baseline {baseline} ({quarter}) {delta} from {count} active events.',
   },
 
+  eventLog: {
+    eyebrow: '03 — Events',
+    title: 'What moved the index this week.',
+    intro:
+      'Each event is manually placed in a pillar and scored from −6 to +6 points. The full changelog is {repoLink}.',
+    introRepoLink: 'on GitHub',
+    weekChipPrefix: 'Week',
+    archiveChip: 'Archive',
+    summaryTemplate: 'Σ WEEK {sum} · {count} events · {sources} sources',
+    fullArchiveLink: 'Full archive →',
+    impactLabels: {
+      severe: 'severe',
+      positive: 'positive',
+      minor: 'minor',
+      neutral: 'neutral',
+    },
+    emptyWeek: 'No classified events this week.',
+  },
+
   events: {
     pageTitle: 'All events',
     pageIntro:
@@ -337,6 +416,37 @@ export const messagesEn: Messages = {
     scaleLabel: 'scale 0–',
     subPillarsHeading: 'Sub-pillars',
     scoreTooltip: 'score',
+  },
+
+  manifest: {
+    eyebrow: '05 — Manifesto',
+    kicker: 'Democracy is not a binary state. It’s a continuum measured daily.',
+    quote:
+      'We measure so that we talk about the data first — and only then about a "crisis" or "calm".',
+    body:
+      'We’re not politicians. The project is two political scientists, three analysts and the editorial teams of two independent titles. Data, weights and commentary are public. If you find a mistake, write to us — we fix it within a week and mark it as a correction.',
+  },
+
+  benchmarks: {
+    eyebrow: '04 — Benchmarks',
+    title: 'What external indices say about Czechia.',
+    intro:
+      'Annual assessments by the most-cited international institutions. Our index is in public cross-calibration with them.',
+    headers: {
+      index: 'Index',
+      value: 'Value',
+      delta: 'Δ y/y',
+      rank: 'Rank',
+      classification: 'Classification',
+    },
+    classifications: {
+      'V-Dem': 'Liberal democracy',
+      EIU: 'Full democracy',
+      'FH-FitW': 'Free',
+      RSF: 'Good situation',
+      'TI-CPI': 'Moderately corrupt',
+      WJP: 'Mature rule of law',
+    },
   },
 
   comparisonTable: {
@@ -466,6 +576,26 @@ export const messagesEn: Messages = {
 
   pillarBreakdown: {
     tooltipCurrent: 'Current',
+  },
+
+  pillarsTable: {
+    eyebrow: '02 — Pillars',
+    title: 'Six axes by which we weigh democracy.',
+    headers: {
+      number: '#',
+      pillar: 'Pillar',
+      score: 'Score',
+      deltaWeek: 'Δ WEEK',
+      deltaBaseline: 'Δ BASE',
+      weight: 'Weight',
+      trend: '52-w trend',
+      signal: 'Main signal',
+    },
+    riskZoneTag: 'risk zone',
+    detailLink: 'Detail →',
+    noEvent: 'No movement this week',
+    footnote:
+      '⚠ Pillars below 70 points are flagged as a heightened-risk zone. The trend shows the past 52 weeks against the pillar’s own baseline, not against the overall composite.',
   },
 
   infoBox: {

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { CrossCountryBars } from '../components/CrossCountryBars';
 import { CrossCountryMatrix } from '../components/CrossCountryMatrix';
 import { InfoBox } from '../components/InfoBox';
+import { PageContainer } from '../components/PageContainer';
 import { readCrossCountry } from '../lib/data';
 import { getMessages, methodologyDocPath, type Locale } from '@/i18n';
 
@@ -15,9 +16,11 @@ export async function ComparisonView({ locale }: Props) {
 
   if (!data) {
     return (
-      <section className="rounded-2xl border border-dashed border-slate-300 bg-white p-12 text-center text-slate-500">
+      <PageContainer>
+      <section className="border border-dashed border-black/30 bg-paper p-12 text-center text-black/55">
         <p>{t.comparison.noData}</p>
       </section>
+      </PageContainer>
     );
   }
 
@@ -25,12 +28,14 @@ export async function ComparisonView({ locale }: Props) {
   const otherCountriesCount = data.countries.length - 1;
 
   return (
+    <PageContainer>
     <div className="space-y-10">
       <section>
-        <h1 className="mb-2 text-3xl font-bold tracking-tight text-slate-900">
+        <div className="text-[11px] uppercase tracking-[0.22em] text-black/50">04 — {t.comparison.pageTitle}</div>
+        <h1 className="mt-2 mb-3 text-3xl font-medium tracking-tight md:text-4xl">
           {t.comparison.pageTitle}
         </h1>
-        <p className="max-w-3xl text-slate-600">
+        <p className="max-w-3xl text-[15px] text-black/65">
           {t.comparison.pageIntro.pre}
           {otherCountriesCount}
           {t.comparison.pageIntro.mid}
@@ -87,7 +92,7 @@ export async function ComparisonView({ locale }: Props) {
         />
       </section>
 
-      <section className="rounded-xl border border-slate-200 bg-slate-50 p-6">
+      <section className="border border-black/15 bg-paper p-6">
         <h3 className="mb-2 text-sm font-semibold text-slate-900">
           {t.comparison.methodologyHeading}
         </h3>
@@ -115,5 +120,6 @@ export async function ComparisonView({ locale }: Props) {
         )}
       </section>
     </div>
+    </PageContainer>
   );
 }

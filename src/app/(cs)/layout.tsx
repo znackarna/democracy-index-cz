@@ -1,9 +1,13 @@
 import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/next';
-import Link from 'next/link';
+import { GeistSans } from 'geist/font/sans';
+import { GeistMono } from 'geist/font/mono';
 import '../globals.css';
 import { Header } from '../components/Header';
-import { getMessages, methodologyIndexPath, supportPath } from '@/i18n';
+import { Footer } from '../components/Footer';
+import { readTimeline } from '../lib/data';
+import { formatLastUpdated, formatWeekLabel } from '@/i18n/dates';
+import { getMessages } from '@/i18n';
 
 const t = getMessages('cs');
 
@@ -18,46 +22,33 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CzechRootLayout({ children }: { children: React.ReactNode }) {
+export default async function CzechRootLayout({ children }: { children: React.ReactNode }) {
+  // Latest snapshot drives the week label in the masthead and the
+  // "Aktualizováno v pondělí …" line in the footer. Single source of truth
+  // is data/scores/timeline.json — read at build time (static export).
+  const timeline = await readTimeline();
+  const latestWeek = timeline.at(-1)?.week ?? '';
+  const weekLabel = latestWeek ? formatWeekLabel(latestWeek, 'cs') : '';
+  const lastUpdated = latestWeek ? formatLastUpdated(latestWeek, 'cs') : '';
+
   return (
-    <html lang="cs">
-      <body>
+    <html lang="cs" className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <body className="font-sans">
         <Header
           locale="cs"
           labels={{
-            siteTitle: t.meta.siteTitle,
-            tagline: t.meta.tagline,
             overview: t.nav.overview,
+            pillars: t.nav.pillars,
             events: t.nav.events,
             comparison: t.nav.comparison,
             methodology: t.nav.methodology,
             support: t.nav.support,
             languageSwitchAria: t.nav.languageSwitchAria,
+            weekLabel,
           }}
         />
-        <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">{children}</main>
-        <footer className="mx-auto max-w-6xl px-4 py-8 text-sm text-slate-500 sm:px-6 lg:px-8">
-          <p>
-            {t.footer.leadIn}{' '}
-            <a
-              href={t.meta.repoUrl}
-              className="underline hover:text-slate-900"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {t.footer.repoLink}
-            </a>
-            . {t.footer.afterRepo} {t.footer.methodologyLeadIn}{' '}
-            <Link href={methodologyIndexPath('cs')} className="underline hover:text-slate-900">
-              {methodologyIndexPath('cs')}
-            </Link>
-            . {t.footer.supportLeadIn}{' '}
-            <Link href={supportPath('cs')} className="underline hover:text-slate-900">
-              {t.footer.supportLink}
-            </Link>
-            {t.footer.supportTail}
-          </p>
-        </footer>
+        <main>{children}</main>
+        <Footer locale="cs" lastUpdated={lastUpdated} />
         <Analytics />
       </body>
     </html>

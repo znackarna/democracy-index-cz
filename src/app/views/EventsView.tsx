@@ -1,5 +1,6 @@
 import { EventsList } from '../components/EventsList';
 import { InfoBox } from '../components/InfoBox';
+import { PageContainer } from '../components/PageContainer';
 import { readAllEvents } from '../lib/data';
 import { PILLARS, type Pillar } from '@/lib/types';
 import { getMessages, type Locale } from '@/i18n';
@@ -32,12 +33,14 @@ export async function EventsView({ locale }: Props) {
   ) as Record<Pillar, string>;
 
   return (
+    <PageContainer>
     <div className="space-y-8">
       <section>
-        <h1 className="mb-2 text-3xl font-bold tracking-tight text-slate-900">
+        <div className="text-[11px] uppercase tracking-[0.22em] text-black/50">03 — {t.eventLog.eyebrow.split('— ')[1] ?? 'Události'}</div>
+        <h1 className="mt-2 mb-3 text-3xl font-medium tracking-tight md:text-4xl">
           {t.events.pageTitle}
         </h1>
-        <p className="max-w-3xl text-slate-600">{t.events.pageIntro}</p>
+        <p className="max-w-3xl text-[15px] text-black/65">{t.events.pageIntro}</p>
       </section>
 
       <InfoBox
@@ -82,7 +85,7 @@ export async function EventsView({ locale }: Props) {
         </p>
       </InfoBox>
 
-      <section className="rounded-xl border border-slate-200 bg-white p-4">
+      <section className="border border-black/15 bg-paper p-4">
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
           <div className="text-slate-500">
             <span className="font-semibold text-slate-900 tabular-nums">{events.length}</span>{' '}
@@ -124,5 +127,6 @@ export async function EventsView({ locale }: Props) {
         }}
       />
     </div>
+    </PageContainer>
   );
 }
