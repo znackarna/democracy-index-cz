@@ -1049,5 +1049,183 @@
     "status": "active",
     "created_at": "2026-05-07T07:17:07.431Z",
     "expires_at": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-052",
+    "date": "2026-05-07",
+    "headline": "Ministryně Mrázová odvolala vedení Agentury pro sociální začleňování a odboru bydlení",
+    "summary": "Ministryně Zuzana Mrázová (ANO) na mimořádném tiskovém brífinku oznámila personální změny ve vedení Agentury pro sociální začleňování a odboru bydlení. Odvolané šéfy obvinila ze špatných výsledků a střetu zájmů, zatímco kritici tvrdí, že se jedná o politicky motivovaný zásah.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Mrázová se ostře obula do propuštěných expertů. „Našla nové dno,“ reaguje bývalý šéf rezortu Bartoš",
+        "url": "https://denikn.cz/2057647/mrazova-se-ostre-obula-do-propustenych-expertu-nasla-nove-dno-reaguje-byvaly-sef-rezortu-bartos/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-08T06:50:16.014Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 – politicky motivovaný personální zásah na střední úrovni státní správy (subkomponenta G1, kontrola exekutivy) bez zjevného kaskádového efektu na fungování institucí. Ministryně postup zdůvodnila výsledky a střetem zájmů, ale věrohodnost zdůvodnění zpochybňuje opoziční reakce. Nejde o strukturální změnu ani vzorec; ojedinělý incident s omezeným dopadem. Sekundárně se dotýká K1 (střet zájmů), ale kořenová příčina je v G1.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-08T06:50:15.998Z",
+    "expires_at": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-053",
+    "date": "2026-05-07",
+    "headline": "Prezident Pavel pohrozil žalobou kvůli účasti na summitu NATO v Ankaře, kritizoval ministra Macinku",
+    "summary": "Prezident Petr Pavel před schůzkou s premiérem Babišem veřejně oznámil, že na summit NATO v Ankaře pojede v každém případě, a je připraven podat ústavní žalobu, pokud mu vláda nebude komunikovat. Zároveň vyzval premiéra, aby se vyjádřil k výrokům ministra zahraničí Macinky, které označil za negativní vizitku premiéra.",
+    "pillar": "governance",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pavel před schůzkou s Babišem: Do Ankary pojedu v každém případě. Macinkovo chování je vizitkou premiéra",
+        "url": "https://denikn.cz/2057616/pavel-pred-schuzkou-s-babisem-do-ankary-pojedu-v-kazdem-pripade-macinkovo-chovani-je-vizitkou-premiera/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-08T06:50:16.014Z"
+      },
+      {
+        "title": "Pavel přijal Babiše, projednají účast na summitu NATO v Ankaře",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pavel-se-sejde-s-babisem-projednaji-ucast-na-cervencovem-summitu-nato-v-ankare-373228",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-08T06:50:17.269Z"
+      },
+      {
+        "title": "Pavel chce po jednání s Babišem oznámit, že na summit NATO pojedou oba. Jinak podá kompetenční žalobu",
+        "url": "https://domaci.hn.cz/c1-67874980-pavel-chce-po-jednani-s-babisem-oznamit-ze-na-summit-nato-pojedou-oba-jinak-poda-kompetencni-zalobu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-08T06:50:19.871Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 – veřejný spor mezi prezidentem a premiérem o zahraniční politiku (subkomponenta G1, dělba moci) s hrozbou ústavní žaloby vytváří precedent napětí mezi ústavními činiteli. Incident ukazuje na narušenou komunikaci a potenciální ústavní krizi v oblasti zastupování státu navenek. Pokud nedojde ke korekci, může eskalovat; zatím jde o první výskyt hrozby žalobou v tomto cyklu. Sekundárně se dotýká G3 (stabilita ústavních norem).\n\n[merged with 2026-W19-056 — same incident, sources combined]\n\n[merged with 2026-W19-060 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-08T06:50:15.998Z",
+    "expires_at": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-054",
+    "date": "2026-05-09",
+    "headline": "Proruská akce na Staroměstském náměstí v den sovětského výročí vítězství",
+    "summary": "Na Staroměstském náměstí se 9. května koná festival spojený se sovětskou tradicí oslavy konce druhé světové války, organizovaný mimo jiné osobami obhajujícími ruskou agresi vůči Ukrajině. Pořadatelům se nepodařilo dovézt tank, akce se přesto koná.",
+    "pillar": "civil",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Proruská scéna oslaví vítězství na Staroměstském náměstí. Dovezení tanku jí neprošlo",
+        "url": "https://denikn.cz/2056109/proruska-scena-oslavi-vitezstvi-na-staromestskem-namesti-dovezeni-tanku-ji-neproslo/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-08T06:50:16.014Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o veřejné shromáždění, jehož konání samo o sobě neporušuje žádná pravidla (svoboda shromažďování a projevu, subkomponenta C2 a C1). Proruské zaměření akce je politicky kontroverzní, avšak článek neuvádí žádný zásah státu, zákaz ani institucionální dopad. Nedovezení tanku je pouze logistické selhání organizátorů. Událost nenaplňuje vyšší úroveň, protože chybí institucionální dimenze.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-08T06:50:15.998Z",
+    "expires_at": "2026-08-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-055",
+    "date": "2026-05-08",
+    "headline": "Zemědělský fond uznal Babišovo řešení střetu zájmů; EK si vyhrazuje právo přezkumu",
+    "summary": "Vedení zemědělského fondu rozhodlo, že Babišův převod akcií Agrofertu do svěřenského fondu RSVP Trust jeho střet zájmů řeší. Evropská komise nicméně deklarovala, že jako strážkyně smluv bude ověřovat soulad tohoto kroku s evropským právem, přičemž experti upozorňují na přetrvávající otazníky ohledně souladu s EU legislativou.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Přijmeme nezbytná opatření stejně jako v roce 2022, zní z Komise k obnovení zemědělských dotací Agrofertu",
+        "url": "https://www.irozhlas.cz/zpravy-domov/stret-zajmu-andrej-babis-rsvp-trust-evropska-komise-evropsky-zakon-audit_2605080600_tec",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-08T06:50:17.018Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rozhodnutí zemědělského fondu o střetu zájmů ústavního činitele (subkomponenta K1) má potenciálně přímý dopad na obnovení dotací Agrofertu v řádu miliard Kč, přičemž experti i EK zpochybňují jeho soulad s právem EU. Vytváří precedent pro způsob řešení střetu zájmů premiéra. Duration: persistent, protože jde o trvající institucionální stav (fond je aktivní, EK audit probíhá). Sekundárně relevantní pro pilíř governance (G4 — transparentnost vládnutí). Jeden primární zdroj, proto neeskaluji na 4, ale závažnost 3 odpovídá rozsahu dopadu a mezinárodní dimenzi (EK).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-08T06:50:15.998Z"
+  },
+  {
+    "id": "2026-W19-057",
+    "date": "2026-05-07",
+    "headline": "ODS zvažuje ústavní žalobu na nová rozpočtová pravidla kvůli vládní kontrole nad nezávislými institucemi",
+    "summary": "Místopředseda sněmovny Jan Skopeček (ODS) naznačil, že jeho klub by se mohl přidat ke Starostům v podání žaloby k Ústavnímu soudu na nová pravidla rozpočtové odpovědnosti. Klíčovou námitkou je, že návrh dává vládě rozhodovací pravomoc i nad rozpočty ÚS, NKÚ a sněmovny — institucí, které mají kontrolovat exekutivu. Skopeček nicméně doporučuje počkat na schválení v dolní komoře.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "ODS se možná kvůli novým pravidlům rozpočtové odpovědnosti obrátí na ÚS, říká Skopeček",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ods-se-mozna-kvuli-novym-pravidlum-rozpoctove-odpovednosti-obrati-na-us-rika-skopecek-373221",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-08T06:50:17.269Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o politické prohlášení o záměru (žalobu zvažovat), nikoli o schválený zákon ani podanou žalobu. Věcná podstata je nicméně relevantní pro subkomponentu G1 (dělba moci): plánovaná úprava by dávala exekutivě kontrolu nad rozpočty institucí, které ji mají kontrolovat (ÚS, NKÚ, PSP). Pokud zákon projde a žaloba bude podána, severity eskaluje na 4. Cross-pillar: sekundárně judicial (J1 — nezávislost ÚS).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-08T06:50:15.998Z",
+    "expires_at": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-058",
+    "date": "2026-05-07",
+    "headline": "Soud odsoudil čtyři osoby za manipulaci zakázek radioaktivního úložiště SÚRAO",
+    "summary": "Soud uznal vinu čtyř fyzických osob a jedné firmy za manipulaci s veřejnými zakázkami Správy úložišť radioaktivních odpadů, včetně tendru na modernizaci jaderného úložiště v Dukovanech. Obžalovaní obdrželi podmíněné tresty dva až tři roky a peněžité sankce celkem přes sedmnáct milionů korun.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Soud v kauze radioaktivních úložišť uložil podmínky a pokuty",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/soud-v-kauze-radioaktivnich-ulozist-ulozil-podminky-a-pokuty-373222",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-08T06:50:17.269Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — pravomocný rozsudek v kauze ovlivňování veřejných zakázek ve státní instituci (subkomponenta K2 — veřejné zakázky) s dopadem na strategický sektor (jaderná energetika). Direction +1: funkční odsouzení pachatelů korupce systém posiluje. Výše sankcí (17 mil. Kč) a zákaz řídících funkcí naznačují seriózní postih. Jednorázová soudní událost, nikoli strukturální změna.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-08T06:50:15.998Z",
+    "expires_at": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-059",
+    "date": "2026-05-07",
+    "headline": "Ministryně Mrázová odmítla rezignaci přes kauzy obecního bytu a černých staveb, Babiš ji podporuje",
+    "summary": "Ministryně pro místní rozvoj Zuzana Mrázová odmítla výzvy opozice (Piráti, STAN) k rezignaci v souvislosti s kauzami bydlení v obecním bytě během výkonu funkce starostky a černých staveb na jejím pozemku. Omluvila se za nedůslednost v případě pozemku, obecní byt za nadstandard nepovažuje. Premiér Babiš ji nadále podporuje.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Mrázová cítí Babišovu podporu. Opozice dále žádá rezignaci",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/mrazova-citi-babisovu-podporu-opozice-dale-zada-rezignaci-373216",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-08T06:50:17.269Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — ministryně veřejně reaguje na již probíhající skandál (subkomponenta K1 — střet zájmů ústavního činitele), ale nová fakta nejsou v článku doložena — jde o tiskový brífinkg, nikoliv o nové odhalení. Persistent, protože kauza trvá a ministryně setrvává ve funkci navzdory oprávněným námitkám. Cross-pillar: sekundárně governance (G4 — transparentnost), pokud bydlení v obecním bytě jako úřední osoba nebylo řádně deklarováno.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-08T06:50:15.998Z"
   }
 ]
