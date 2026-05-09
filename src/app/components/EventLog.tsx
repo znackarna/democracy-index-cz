@@ -48,8 +48,13 @@ export function EventLog({ locale, events, currentWeek, previousWeekLabels }: Pr
   return (
     <section id="udalosti" className="border-b border-black">
       <div className="mx-auto max-w-editorial px-6 py-14 md:px-10">
-        <div className="grid grid-cols-12 gap-10">
-          <div className="col-span-12 lg:col-span-3">
+        {/* On mobile + tablet, stack the filter rail above the list as a
+         *  flex column. The grid only kicks in at lg+ where the 12-col
+         *  gap math actually fits. CSS grid with `gap-10` and 12 tracks
+         *  silently overflows below ~480 px because gap budget exceeds
+         *  available space, forcing items wider than the viewport. */}
+        <div className="flex flex-col gap-10 lg:grid lg:grid-cols-12">
+          <div className="lg:col-span-3">
             <div className="text-[11px] uppercase tracking-[0.22em] text-black/50">{E.eyebrow}</div>
             <h2 className="mt-2 text-3xl font-medium tracking-tight">{E.title}</h2>
             <p className="mt-4 text-[14px] leading-relaxed text-black/65">
@@ -95,7 +100,7 @@ export function EventLog({ locale, events, currentWeek, previousWeekLabels }: Pr
             </div>
           </div>
 
-          <div className="col-span-12 lg:col-span-9">
+          <div className="lg:col-span-9">
             {ordered.length === 0 ? (
               <div className="border-t border-black py-10 text-[14px] text-black/55">
                 {E.emptyWeek}
@@ -158,20 +163,22 @@ function EventRow({
   const pillarLabel = t.pillars[event.pillar].short;
 
   return (
-    <li className="grid grid-cols-12 gap-4 py-5">
-      <div className="col-span-12 num text-black/55 md:col-span-2">{dateLabel}</div>
-      <div className="col-span-12 md:col-span-7">
+    <li className="flex flex-col gap-3 py-5 md:grid md:grid-cols-12 md:gap-4">
+      <div className="num text-[12px] text-black/55 md:col-span-2 md:text-[13px]">{dateLabel}</div>
+      <div className="md:col-span-7">
         <div className="font-sans text-[15px] leading-snug text-black">{headline}</div>
         <div className="mt-1 text-[12px] text-black/55">{outletLine}</div>
       </div>
-      <div className="col-span-6 flex items-start gap-2 md:col-span-2">
-        <span className="border border-black px-1.5 py-0.5 text-[10px] uppercase tracking-wider">
-          {pillarLabel}
-        </span>
-      </div>
-      <div className="col-span-6 text-right num md:col-span-1">
-        <span className="text-black">{impactStr}</span>
-        <div className="text-[10px] uppercase tracking-wider text-black/45">{impactLabel}</div>
+      <div className="flex items-center justify-between gap-3 md:contents">
+        <div className="md:col-span-2">
+          <span className="inline-block border border-black px-1.5 py-0.5 text-[10px] uppercase tracking-wider">
+            {pillarLabel}
+          </span>
+        </div>
+        <div className="text-right num md:col-span-1">
+          <span className="text-[14px] text-black">{impactStr}</span>
+          <div className="text-[10px] uppercase tracking-wider text-black/45">{impactLabel}</div>
+        </div>
       </div>
     </li>
   );

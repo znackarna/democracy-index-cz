@@ -19,8 +19,8 @@ export function Manifest({ locale }: Props) {
   return (
     <section className="border-b border-black bg-black text-white">
       <div className="mx-auto max-w-editorial px-6 py-20 md:px-10">
-        <div className="grid grid-cols-12 gap-8">
-          <div className="col-span-12 md:col-span-3">
+        <div className="flex flex-col gap-8 md:grid md:grid-cols-12">
+          <div className="md:col-span-3">
             <div className="text-[11px] uppercase tracking-[0.22em] text-white/55">
               {M.eyebrow}
             </div>
@@ -28,7 +28,7 @@ export function Manifest({ locale }: Props) {
               {M.kicker}
             </div>
           </div>
-          <div className="col-span-12 md:col-span-9">
+          <div className="md:col-span-9">
             <p
               className="max-w-[34ch] text-[28px] font-light leading-[1.15] tracking-tight md:text-[40px]"
               style={{ textWrap: 'balance' }}

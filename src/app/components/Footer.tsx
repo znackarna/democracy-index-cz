@@ -31,8 +31,9 @@ export function Footer({ locale, updateLabel }: Props) {
 
   return (
     <footer className="border-t border-black bg-paper">
-      <div className="mx-auto grid max-w-editorial grid-cols-12 gap-6 px-6 py-10 text-[12px] text-black/60 md:px-10">
-        <div className="col-span-12 md:col-span-4">
+      <div className="mx-auto max-w-editorial px-6 py-10 text-[12px] text-black/60 md:px-10">
+        <div className="grid grid-cols-2 gap-6 md:grid-cols-12">
+        <div className="col-span-2 md:col-span-4">
           <div className="text-[14px] font-medium text-black">{f.brandName}</div>
           <div className="mt-2 max-w-[36ch]">{f.brandTagline}</div>
           {updateLabel && (
@@ -73,9 +74,10 @@ export function Footer({ locale, updateLabel }: Props) {
           ]}
         />
 
-        <div className="col-span-12 mt-2 flex flex-wrap justify-between gap-3 border-t border-black/10 pt-4">
+        <div className="col-span-2 mt-2 flex flex-wrap justify-between gap-3 border-t border-black/10 pt-4 md:col-span-12">
           <span>{copyright}</span>
           <span className="font-mono">{f.license}</span>
+        </div>
         </div>
       </div>
     </footer>
@@ -90,7 +92,7 @@ function FooterColumn({
   items: Array<{ label: string; href: string | null }>;
 }) {
   return (
-    <div className="col-span-6 md:col-span-2">
+    <div className="col-span-1 min-w-0 md:col-span-2">
       <div className="mb-2 text-[11px] uppercase tracking-[0.18em] text-black/40">{heading}</div>
       {items.map((item) => {
         if (!item.href) {
@@ -112,7 +114,7 @@ function FooterColumn({
             <a
               key={item.label}
               href={item.href}
-              className="uhover block"
+              className="uhover block break-all"
               target={item.href.startsWith('http') ? '_blank' : undefined}
               rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
             >
@@ -121,7 +123,7 @@ function FooterColumn({
           );
         }
         return (
-          <Link key={item.label} href={item.href} className="uhover block">
+          <Link key={item.label} href={item.href} className="uhover block break-all">
             {item.label}
           </Link>
         );

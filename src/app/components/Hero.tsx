@@ -70,9 +70,12 @@ export function Hero({ locale, snapshot, baseline, timeline, prevSnapshot }: Pro
   return (
     <section id="prehled" className="border-b border-black">
       <div className="mx-auto max-w-editorial px-6 pb-10 pt-14 md:px-10">
-        <div className="grid grid-cols-12 gap-8 md:gap-12">
+        {/* On mobile + tablet, stack the left/right columns. The 12-col
+         *  grid only fits at lg+ where the gap budget (88 px gap × 11 =
+         *  ~132 px) is small relative to the wider container. */}
+        <div className="flex flex-col gap-8 md:gap-12 lg:grid lg:grid-cols-12">
           {/* Left: meta + headline + lede + buttons */}
-          <div className="col-span-12 lg:col-span-5">
+          <div className="lg:col-span-5">
             <div className="text-[11px] uppercase tracking-[0.2em] text-black/50">{eyebrow}</div>
             <div className="accent-rule mb-5 mt-5 h-[3px] w-12" aria-hidden />
             <h1
@@ -108,9 +111,9 @@ export function Hero({ locale, snapshot, baseline, timeline, prevSnapshot }: Pro
           </div>
 
           {/* Right: number + sparkline */}
-          <div className="col-span-12 lg:col-span-7 lg:border-l lg:border-black/15 lg:pl-12">
-            <div className="grid grid-cols-12 gap-6">
-              <div className="gridlines relative col-span-12 md:col-span-7">
+          <div className="lg:col-span-7 lg:border-l lg:border-black/15 lg:pl-12">
+            <div className="flex flex-col gap-6 md:grid md:grid-cols-12">
+              <div className="gridlines relative md:col-span-7">
                 <div className="mb-3 text-[10px] uppercase tracking-[0.22em] text-black/50">
                   {h.valueOfTheWeek}
                 </div>
@@ -131,7 +134,7 @@ export function Hero({ locale, snapshot, baseline, timeline, prevSnapshot }: Pro
                 </div>
               </div>
 
-              <div className="col-span-12 flex flex-col md:col-span-5">
+              <div className="flex flex-col md:col-span-5">
                 <div className="mb-3 flex items-center justify-between text-[10px] uppercase tracking-[0.2em] text-black/50">
                   <span>{h.sparklineEyebrowLeft}</span>
                   <span className="font-mono num text-black/70">{h.sparklineEyebrowRight}</span>
