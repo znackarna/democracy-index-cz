@@ -73,7 +73,7 @@ export function PillarsTable({ locale, snapshot, baseline, timeline, prevSnapsho
           <div className="col-span-2">{T.headers.signal}</div>
         </div>
 
-        <div className="divide-y divide-black/10">
+        <div className="divide-y divide-black/10 border-b border-black/10 md:border-b-0">
           {PILLARS.map((p, i) => {
             const score = snapshot.pillars[p];
             const baselineValue = baseline.pillars[p];
@@ -88,72 +88,134 @@ export function PillarsTable({ locale, snapshot, baseline, timeline, prevSnapsho
             const fmt = (n: number) =>
               (n >= 0 ? '+' : '−') + Math.abs(n).toFixed(1).replace('.', locale === 'cs' ? ',' : '.');
 
+            const dWeekClass =
+              Math.abs(dWeek) < 0.05 ? 'text-black/40' : dWeek < 0 ? 'text-black' : 'text-black/55';
+            const dBaseClass =
+              Math.abs(dBase) < 0.05 ? 'text-black/40' : dBase < 0 ? 'text-black' : 'text-black/55';
+
             return (
               <a
                 key={p}
                 id={`pilire-${p}`}
                 href={detailHref}
-                className="group grid grid-cols-12 items-center py-5 transition hover:bg-black/[0.02]"
+                className="group block transition hover:bg-black/[0.02]"
               >
-                <div className="col-span-1 font-mono num text-[12px] text-black/45">
-                  {String(i + 1).padStart(2, '0')}
-                </div>
-                <div className="col-span-12 md:col-span-3">
-                  <div className="flex items-center gap-2.5">
-                    <span
-                      aria-hidden
-                      className="inline-block h-2.5 w-2.5 rounded-sm"
-                      style={{ background: color }}
-                    />
-                    <span className="text-[15px] font-medium tracking-tight">
-                      {t.pillars[p].short}
-                    </span>
-                  </div>
-                  {critical && (
-                    <div
-                      className="ml-5 mt-1 font-mono text-[11px] uppercase tracking-wider"
-                      style={{ color }}
-                    >
-                      {T.riskZoneTag}
+                {/* Mobile layout: each row a small card with the badge inline. */}
+                <div className="flex flex-col gap-3 py-5 md:hidden">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <div className="flex items-center gap-2.5">
+                      <span className="font-mono num text-[11px] text-black/45">
+                        {String(i + 1).padStart(2, '0')}
+                      </span>
+                      <span
+                        aria-hidden
+                        className="inline-block h-2.5 w-2.5 rounded-sm"
+                        style={{ background: color }}
+                      />
+                      <span className="text-[16px] font-medium tracking-tight">
+                        {t.pillars[p].short}
+                      </span>
+                      {critical && (
+                        <span
+                          className="font-mono text-[10px] uppercase tracking-wider"
+                          style={{ color }}
+                        >
+                          · {T.riskZoneTag}
+                        </span>
+                      )}
                     </div>
-                  )}
-                </div>
-                <div className="col-span-3 text-right text-[18px] font-medium tracking-tight num md:col-span-1">
-                  {score.toFixed(1)}
-                </div>
-                <div
-                  className={`col-span-3 text-right font-mono text-[12px] num md:col-span-1 ${
-                    Math.abs(dWeek) < 0.05 ? 'text-black/40' : dWeek < 0 ? 'text-black' : 'text-black/55'
-                  }`}
-                >
-                  {fmt(dWeek)}
-                </div>
-                <div
-                  className={`col-span-3 text-right font-mono text-[12px] num md:col-span-1 ${
-                    Math.abs(dBase) < 0.05 ? 'text-black/40' : dBase < 0 ? 'text-black' : 'text-black/55'
-                  }`}
-                >
-                  {fmt(dBase)}
-                </div>
-                <div className="col-span-3 text-right font-mono text-[12px] text-black/55 num md:col-span-1">
-                  {(weight * 100).toFixed(0)} %
-                </div>
-                <div className="col-span-12 mt-2 md:col-span-2 md:mt-0">
+                    <div className="text-[20px] font-medium tracking-tight num">
+                      {score.toFixed(1)}
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-3 gap-2 text-[12px]">
+                    <MobilePillarStat
+                      label={T.headers.deltaWeek}
+                      value={fmt(dWeek)}
+                      valueClass={dWeekClass}
+                    />
+                    <MobilePillarStat
+                      label={T.headers.deltaBaseline}
+                      value={fmt(dBase)}
+                      valueClass={dBaseClass}
+                    />
+                    <MobilePillarStat
+                      label={T.headers.weight}
+                      value={`${(weight * 100).toFixed(0)} %`}
+                      valueClass="text-black/55"
+                    />
+                  </div>
                   <Sparkline
                     values={sparkValues}
                     width={160}
-                    height={36}
-                    pad={4}
+                    height={28}
+                    pad={3}
                     color={color}
                     centerline
-                    className="h-9 w-full"
+                    className="h-7 w-full"
                   />
+                  <div className="text-[12px] leading-snug text-black/65">
+                    {signal}
+                    <span className="mt-1 block text-[10px] uppercase tracking-wider text-black/40 group-hover:text-black/70">
+                      {T.detailLink}
+                    </span>
+                  </div>
                 </div>
-                <div className="col-span-12 mt-2 text-[12px] leading-snug text-black/65 md:col-span-2 md:mt-0">
-                  {signal}
-                  <span className="mt-1 block text-[10px] uppercase tracking-wider text-black/40 group-hover:text-black/70">
-                    {T.detailLink}
-                  </span>
+
+                {/* Desktop layout: original 12-col grid. */}
+                <div className="hidden grid-cols-12 items-center py-5 md:grid">
+                  <div className="col-span-1 font-mono num text-[12px] text-black/45">
+                    {String(i + 1).padStart(2, '0')}
+                  </div>
+                  <div className="col-span-3">
+                    <div className="flex items-center gap-2.5">
+                      <span
+                        aria-hidden
+                        className="inline-block h-2.5 w-2.5 rounded-sm"
+                        style={{ background: color }}
+                      />
+                      <span className="text-[15px] font-medium tracking-tight">
+                        {t.pillars[p].short}
+                      </span>
+                    </div>
+                    {critical && (
+                      <div
+                        className="ml-5 mt-1 font-mono text-[11px] uppercase tracking-wider"
+                        style={{ color }}
+                      >
+                        {T.riskZoneTag}
+                      </div>
+                    )}
+                  </div>
+                  <div className="col-span-1 text-right text-[18px] font-medium tracking-tight num">
+                    {score.toFixed(1)}
+                  </div>
+                  <div className={`col-span-1 text-right font-mono text-[12px] num ${dWeekClass}`}>
+                    {fmt(dWeek)}
+                  </div>
+                  <div className={`col-span-1 text-right font-mono text-[12px] num ${dBaseClass}`}>
+                    {fmt(dBase)}
+                  </div>
+                  <div className="col-span-1 text-right font-mono text-[12px] text-black/55 num">
+                    {(weight * 100).toFixed(0)} %
+                  </div>
+                  <div className="col-span-2">
+                    <Sparkline
+                      values={sparkValues}
+                      width={160}
+                      height={36}
+                      pad={4}
+                      color={color}
+                      centerline
+                      className="h-9 w-full"
+                    />
+                  </div>
+                  <div className="col-span-2 text-[12px] leading-snug text-black/65">
+                    {signal}
+                    <span className="mt-1 block text-[10px] uppercase tracking-wider text-black/40 group-hover:text-black/70">
+                      {T.detailLink}
+                    </span>
+                  </div>
                 </div>
               </a>
             );
@@ -165,6 +227,23 @@ export function PillarsTable({ locale, snapshot, baseline, timeline, prevSnapsho
         </div>
       </div>
     </section>
+  );
+}
+
+function MobilePillarStat({
+  label,
+  value,
+  valueClass,
+}: {
+  label: string;
+  value: string;
+  valueClass: string;
+}) {
+  return (
+    <div className="flex flex-col gap-0.5">
+      <span className="text-[9px] uppercase tracking-[0.18em] text-black/45">{label}</span>
+      <span className={`font-mono num ${valueClass}`}>{value}</span>
+    </div>
   );
 }
 

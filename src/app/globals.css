@@ -10,15 +10,20 @@ html {
   font-feature-settings: 'ss01', 'cv11';
 }
 
+html,
+body {
+  /* Belt-and-suspenders mobile horizontal overflow guard. `overflow-x:
+   * hidden` is supported everywhere (older Safari/Edge included);
+   * we set it on both <html> and <body> because Safari sometimes
+   * propagates a child's overflow up to <html> when only <body>
+   * declares it. Specific elements still wrap/shrink correctly on
+   * their own; this is just the safety net. */
+  overflow-x: hidden;
+}
+
 body {
   @apply bg-paper text-ink antialiased;
   -webkit-font-smoothing: antialiased;
-  /* Belt-and-suspenders mobile horizontal overflow guard. Specific
-   * elements should still wrap or shrink correctly on their own; this
-   * only ensures a stray child can't make the page horizontally
-   * scrollable on a phone. `overflow-x: clip` keeps sticky headers
-   * working while preventing scroll. */
-  overflow-x: clip;
 }
 
 ::selection {

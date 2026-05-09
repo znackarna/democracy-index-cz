@@ -6,14 +6,8 @@ interface Props {
   baseline: StructuralBaseline;
 }
 
-/**
- * Order in which external indices are displayed on the home benchmarks
- * table. Hand-curated to match the design (V-Dem first, then EIU, then
- * FH, then single-dimension indices).
- */
 const ROW_ORDER = ['V-Dem', 'EIU', 'FH-FitW', 'RSF', 'TI-CPI', 'WJP'] as const;
 
-/** Display labels per index (always shown — not localised). */
 const INDEX_LABEL: Record<string, string> = {
   'V-Dem': 'V-Dem LDI',
   EIU: 'EIU Democracy Index',
@@ -23,9 +17,6 @@ const INDEX_LABEL: Record<string, string> = {
   WJP: 'WJP Rule of Law',
 };
 
-/** Approximate ranks. Hand-curated from each index's published 2024-2025
- *  reports. Ratings change rarely so a static map is fine; revise quarterly
- *  alongside structural baseline updates. */
 const STATIC_RANK: Record<string, string> = {
   'V-Dem': '28 / 179',
   EIU: '23 / 167',
@@ -35,9 +26,6 @@ const STATIC_RANK: Record<string, string> = {
   WJP: '20 / 142',
 };
 
-/** Long-running deltas published by each index for 2014→2025 (or whatever
- *  their latest comparable horizon is). Pulled from each index's site;
- *  refresh quarterly. */
 const STATIC_TEN_YEAR_DELTA: Record<string, string> = {
   'V-Dem': '−0.05',
   EIU: '−0.13',
@@ -50,15 +38,18 @@ const STATIC_TEN_YEAR_DELTA: Record<string, string> = {
 /**
  * Editorial benchmarks table per redesign-v2.
  *
- * Reads current values from the active structural baseline (2026-Q3 at the
- * time of this redesign) so the table never drifts out of sync with the
- * weighted overall used by the rest of the site.
+ * Two layouts in one component:
+ *   - **Desktop (≥ md)**: 5-column grid with hairline dividers — Index ·
+ *     Hodnota · Δ · Pozice · Klasifikace.
+ *   - **Mobile (< md)**: each row is a card-like block — index name on
+ *     its own line at full width (so "Transparency CPI" doesn't wrap
+ *     to "Transp/arency"), then a 3-cell row underneath with Hodnota,
+ *     Δ, Pozice. Classification dropped on mobile (low-info per inch).
  */
 export function BenchmarksTable({ locale, baseline }: Props) {
   const t = getMessages(locale);
   const T = t.benchmarks;
 
-  // Index value formatter per index's native scale.
   const fmtValue = (key: string, raw: number): string => {
     if (key === 'V-Dem') return raw.toFixed(2);
     if (key === 'EIU') return raw.toFixed(2);
@@ -68,9 +59,6 @@ export function BenchmarksTable({ locale, baseline }: Props) {
     return raw.toFixed(1);
   };
 
-  // Build display rows by joining the canonical order with the latest
-  // baseline's source list. Indices not present in baseline.sources still
-  // render (with — for value) so the table layout stays consistent.
   const sourceMap = new Map<string, { value: number; year: number; url: string }>();
   for (const s of baseline.sources) {
     if (!sourceMap.has(s.index)) {
@@ -110,74 +98,114 @@ export function BenchmarksTable({ locale, baseline }: Props) {
           </div>
         </div>
 
-        <div className="grid grid-cols-12 border-y border-black">
-          <HeaderCell span={3} label={T.headers.index} />
-          <HeaderCell span={2} label={T.headers.value} />
-          <HeaderCell span={2} label={T.headers.delta} />
-          <HeaderCell span={2} label={T.headers.rank} />
-          <HeaderCell span={3} label={T.headers.classification} hideOnMobile />
+        {/* Desktop header row */}
+        <div className="hidden grid-cols-12 border-y border-black md:grid">
+          <DesktopHeader span={3} label={T.headers.index} />
+          <DesktopHeader span={2} label={T.headers.value} />
+          <DesktopHeader span={2} label={T.headers.delta} />
+          <DesktopHeader span={2} label={T.headers.rank} />
+          <DesktopHeader span={3} label={T.headers.classification} last />
         </div>
 
-        {rows.map((row) => (
-          <div key={row.key} className="grid grid-cols-12 border-b border-black/10">
-            <Cell span={3} className="text-[13px] sm:text-[14px]">
-              {row.url ? (
-                <a
-                  href={row.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="uhover"
-                >
-                  {row.label}
-                </a>
-              ) : (
-                row.label
-              )}
-              {row.year !== null && (
-                <span className="ml-2 font-mono num text-[11px] text-black/45">
-                  '{String(row.year).slice(-2)}
-                </span>
-              )}
-            </Cell>
-            <Cell span={2} className="font-mono num text-[14px]">
-              {row.value}
-            </Cell>
-            <Cell span={2} className="font-mono num text-[14px]">
-              {row.delta}
-            </Cell>
-            <Cell span={2} className="font-mono num text-[14px]">
-              {row.rank}
-            </Cell>
-            <Cell span={3} className="text-[14px] text-black/65" hideOnMobile>
-              {row.classification}
-            </Cell>
-          </div>
-        ))}
+        {/* Rows */}
+        <div className="border-t border-black md:border-t-0">
+          {rows.map((row) => (
+            <div key={row.key}>
+              {/* Mobile: stacked. Index name on its own line, values below. */}
+              <div className="flex flex-col border-b border-black/10 md:hidden">
+                <div className="flex items-baseline justify-between gap-3 px-1 pb-2 pt-4">
+                  <div className="text-[15px] font-medium tracking-tight">
+                    {row.url ? (
+                      <a
+                        href={row.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="uhover"
+                      >
+                        {row.label}
+                      </a>
+                    ) : (
+                      row.label
+                    )}
+                  </div>
+                  {row.year !== null && (
+                    <span className="font-mono num text-[11px] text-black/45">
+                      '{String(row.year).slice(-2)}
+                    </span>
+                  )}
+                </div>
+                {row.classification !== '—' && (
+                  <div className="px-1 pb-2 text-[12px] text-black/55">{row.classification}</div>
+                )}
+                <div className="grid grid-cols-3 border-t border-black/10 text-[13px]">
+                  <MobileStatCell label={T.headers.value} value={row.value} />
+                  <MobileStatCell label={T.headers.delta} value={row.delta} />
+                  <MobileStatCell label={T.headers.rank} value={row.rank} />
+                </div>
+              </div>
+
+              {/* Desktop: original 5-col grid */}
+              <div className="hidden grid-cols-12 border-b border-black/10 md:grid">
+                <DesktopCell span={3} className="text-[14px]">
+                  {row.url ? (
+                    <a
+                      href={row.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="uhover"
+                    >
+                      {row.label}
+                    </a>
+                  ) : (
+                    row.label
+                  )}
+                  {row.year !== null && (
+                    <span className="ml-2 font-mono num text-[11px] text-black/45">
+                      '{String(row.year).slice(-2)}
+                    </span>
+                  )}
+                </DesktopCell>
+                <DesktopCell span={2} className="font-mono num text-[14px]">
+                  {row.value}
+                </DesktopCell>
+                <DesktopCell span={2} className="font-mono num text-[14px]">
+                  {row.delta}
+                </DesktopCell>
+                <DesktopCell span={2} className="font-mono num text-[14px]">
+                  {row.rank}
+                </DesktopCell>
+                <DesktopCell span={3} className="text-[14px] text-black/65" last>
+                  {row.classification}
+                </DesktopCell>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
 }
 
-function HeaderCell({
+// Tailwind doesn't generate classes from dynamic strings, so we map the
+// span numbers we actually use to their static class.
+const SPAN_CLASS: Record<number, string> = {
+  2: 'col-span-2',
+  3: 'col-span-3',
+};
+
+function DesktopHeader({
   span,
   label,
-  hideOnMobile,
+  last,
 }: {
   span: number;
   label: string;
-  hideOnMobile?: boolean;
+  last?: boolean;
 }) {
   return (
     <div
-      className={`p-5 text-[11px] uppercase tracking-[0.18em] text-black/50 ${
-        span === 3
-          ? 'col-span-3'
-          : span === 2
-            ? 'col-span-3 md:col-span-2'
-            : `col-span-${span}`
-      } ${hideOnMobile ? 'hidden md:block' : ''} ${
-        // No right border on the last column.
-        hideOnMobile ? '' : 'border-r border-black/10'
+      className={`p-5 text-[11px] uppercase tracking-[0.18em] text-black/50 ${SPAN_CLASS[span]} ${
+        last ? '' : 'border-r border-black/10'
       }`}
     >
       {label}
@@ -185,30 +213,29 @@ function HeaderCell({
   );
 }
 
-function Cell({
+function DesktopCell({
   span,
-  children,
-  hideOnMobile,
   className = '',
+  last,
+  children,
 }: {
   span: number;
-  children: React.ReactNode;
-  hideOnMobile?: boolean;
   className?: string;
+  last?: boolean;
+  children: React.ReactNode;
 }) {
-  const spanClass =
-    span === 3
-      ? 'col-span-3'
-      : span === 2
-        ? 'col-span-3 md:col-span-2'
-        : `col-span-${span}`;
   return (
-    <div
-      className={`p-5 ${spanClass} ${hideOnMobile ? 'hidden md:block' : ''} ${
-        hideOnMobile ? '' : 'border-r border-black/10'
-      } ${className}`}
-    >
+    <div className={`p-5 ${SPAN_CLASS[span]} ${last ? '' : 'border-r border-black/10'} ${className}`}>
       {children}
+    </div>
+  );
+}
+
+function MobileStatCell({ label, value }: { label: string; value: string }) {
+  return (
+    <div className="flex flex-col items-center gap-1 border-r border-black/10 p-3 last:border-r-0">
+      <span className="text-[9px] uppercase tracking-[0.18em] text-black/45">{label}</span>
+      <span className="font-mono num text-[14px] text-black">{value}</span>
     </div>
   );
 }
