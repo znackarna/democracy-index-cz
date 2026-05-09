@@ -76,7 +76,13 @@ export function Hero({ locale, snapshot, baseline, timeline, prevSnapshot }: Pro
         <div className="flex flex-col gap-8 md:gap-12 lg:grid lg:grid-cols-12">
           {/* Left: meta + headline + lede + buttons */}
           <div className="lg:col-span-5">
-            <div className="text-[11px] uppercase tracking-[0.2em] text-black/50">{eyebrow}</div>
+            <div className="text-[11px] uppercase tracking-[0.2em] text-black/50">
+              <span>{h.eyebrow}</span>
+              <span className="mx-2 text-black/30" aria-hidden>
+                ·
+              </span>
+              <span>{eyebrow}</span>
+            </div>
             <div className="accent-rule mb-5 mt-5 h-[3px] w-12" aria-hidden />
             <h1
               className="text-[32px] font-medium leading-[1.02] tracking-tight sm:text-[40px] md:text-[56px]"

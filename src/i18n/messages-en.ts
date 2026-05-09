@@ -102,6 +102,7 @@ export const messagesEn: Messages = {
   },
 
   hero: {
+    eyebrow: '01 — Index',
     valueOfTheWeek: 'This week’s value',
     headline: 'Czech Democracy Index',
     lede:
@@ -580,7 +581,7 @@ export const messagesEn: Messages = {
 
   pillarsTable: {
     eyebrow: '02 — Pillars',
-    title: 'Six axes by which we weigh democracy.',
+    title: 'The pillars the index is built from.',
     headers: {
       number: '#',
       pillar: 'Pillar',

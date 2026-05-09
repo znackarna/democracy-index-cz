@@ -117,6 +117,9 @@ export const messagesCs = {
   },
 
   hero: {
+    /** Section number above the date eyebrow, mirrors the rest of the
+     *  page's editorial numbering (02 — Pilíře, 03 — Události, …). */
+    eyebrow: '01 — Index',
     /** "Hodnota tento týden" — uppercase eyebrow above the big number. */
     valueOfTheWeek: 'Hodnota tento týden',
     /** Headline with blue period. The period dot is rendered separately. */
@@ -607,7 +610,7 @@ export const messagesCs = {
 
   pillarsTable: {
     eyebrow: '02 — Pilíře',
-    title: 'Šest os, podle kterých demokracii vážíme.',
+    title: 'Pilíře, kterými index počítáme.',
     headers: {
       number: '#',
       pillar: 'Pilíř',
