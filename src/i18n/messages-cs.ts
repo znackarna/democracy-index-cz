@@ -305,7 +305,7 @@ export const messagesCs = {
 
   eventLog: {
     eyebrow: '03 — Události',
-    title: 'Co nedávno ovlivnilo index',
+    title: 'Co nedávno ovlivnilo index.',
     intro:
       'Každá událost je ručně zařazena do pilíře a oceněna dopadem od −6 do +6 bodů. Plný changelog je {repoLink}.',
     introRepoLink: 'na GitHubu',
