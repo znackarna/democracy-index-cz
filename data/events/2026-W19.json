@@ -1101,12 +1101,24 @@
         "url": "https://domaci.hn.cz/c1-67874980-pavel-chce-po-jednani-s-babisem-oznamit-ze-na-summit-nato-pojedou-oba-jinak-poda-kompetencni-zalobu",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-05-08T06:50:19.871Z"
+      },
+      {
+        "title": "Roztržka na Hradě. Babiš nechce prezidenta na summitu NATO, zpožděním dal Pavlovi signál",
+        "url": "https://denikn.cz/2057989/roztrzka-na-hrade-babis-nechce-prezidenta-na-summitu-nato-zpozdenim-dal-pavlovi-signal/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-09T06:57:16.268Z"
+      },
+      {
+        "title": "Pavel chce s Babišem oznámit společnou účast na summitu NATO, nevyloučil žalobu",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pavel-chce-s-babisem-oznamit-spolecnou-ucast-na-summitu-nato-nevyloucil-zalobu-373223",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-09T06:57:17.479Z"
       }
     ],
     "score_impact": -1.5,
-    "rationale": "Severity 3 per rubric §3 – veřejný spor mezi prezidentem a premiérem o zahraniční politiku (subkomponenta G1, dělba moci) s hrozbou ústavní žaloby vytváří precedent napětí mezi ústavními činiteli. Incident ukazuje na narušenou komunikaci a potenciální ústavní krizi v oblasti zastupování státu navenek. Pokud nedojde ke korekci, může eskalovat; zatím jde o první výskyt hrozby žalobou v tomto cyklu. Sekundárně se dotýká G3 (stabilita ústavních norem).\n\n[merged with 2026-W19-056 — same incident, sources combined]\n\n[merged with 2026-W19-060 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 – veřejný spor mezi prezidentem a premiérem o zahraniční politiku (subkomponenta G1, dělba moci) s hrozbou ústavní žaloby vytváří precedent napětí mezi ústavními činiteli. Incident ukazuje na narušenou komunikaci a potenciální ústavní krizi v oblasti zastupování státu navenek. Pokud nedojde ke korekci, může eskalovat; zatím jde o první výskyt hrozby žalobou v tomto cyklu. Sekundárně se dotýká G3 (stabilita ústavních norem).\n\n[merged with 2026-W19-056 — same incident, sources combined]\n\n[merged with 2026-W19-060 — same incident, sources combined]\n\n[merged with 2026-W19-060 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W19-063 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-05-08T06:50:15.998Z",
     "expires_at": "2026-07-30T00:00:00.000Z"
   },
@@ -1227,5 +1239,337 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-08T06:50:15.998Z"
+  },
+  {
+    "id": "2026-W19-061",
+    "date": "2026-05-08",
+    "headline": "Prezident Pavel v rozhovoru kritizuje Babiše za slabou kontrolu nad ministry",
+    "summary": "Prezident Petr Pavel v rozhovoru otevřeně kritizoval premiéra Babiše za to, že nedostatečně kontroluje své ministry, a naznačil, že výsledek závisí na tom, zda chce Babiš vypadat jako slabý premiér. Pavel rovněž sdělil, že rozhodnutí o případné kandidatuře oznámí příští rok.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Babiš by si měl usměrnit ministry. Rozhodnutí o kandidatuře oznámím příští rok, říká prezident Pavel",
+        "url": "https://denikn.cz/2057871/babis-by-si-mel-usmernit-ministry-rozhodnuti-o-kandidature-oznamim-pristi-rok-rika-prezident-pavel/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-09T06:57:16.268Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o verbální výstup ústavního činitele vůči jiné vrcholné exekutivní funkci bez bezprostředního institucionálního dopadu, ale s politickou váhou. Subkomponenta G1 (dělba moci) je relevantní — prezidentova veřejná kritika řízení vlády premiérem zasahuje do ústavních vztahů. Nejde však o formální akt ani o přímé narušení procesu; závažnost 3 by vyžadovala prokazatelný dopad na fungování instituce. Komentář k účasti na summitu NATO je zachycen v indexu [2], proto tento event pokrývá primárně personální/politický rozměr rozhovoru. Anti-bias check: stejnou závažnost bych přiřadil komentáři opačné politické orientace.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-062",
+    "date": "2026-05-09",
+    "headline": "ÚOHS prověřuje vztah Pražských služeb a advokátní kanceláře, která sloužila i soukromým zájmům ředitele",
+    "summary": "Úřad pro ochranu hospodářské soutěže zahájil šetření vztahu mezi Pražskými službami a advokátní kanceláří act Řanda Havel Legal, která je hlavním poskytovatelem právních služeb této městské firmy a zároveň obstarávala soukromé záležitosti jejího ředitele Patrika Romana. Jde o potenciální střet zájmů na úrovni vedení klíčové pražské komunální společnosti.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Úřad prověřuje vztah Pražských služeb a advokátů, kteří se starají i o soukromý byznys ředitele Romana",
+        "url": "https://www.irozhlas.cz/zpravy-domov/urad-proveruje-vztah-prazskych-sluzeb-a-advokatu-kteri-se-staraji-i-o-soukromy_2605090500_hrk",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-09T06:57:17.218Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — šetření ÚOHS naznačuje možný střet zájmů (subkomponenta K1) při zadávání právních služeb z veřejných prostředků soukromé kanceláři, která současně obsluhovala soukromý byznys ředitele. Případ má precedentní charakter pro transparentnost komunálních podniků (K2 — veřejné zakázky). Šetření stále probíhá, tedy nejde o uzavřený případ, ale o otevřenou situaci — duration persistent. Single-source rule (jediný zdroj — iROZHLAS) brání eskalaci nad 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z"
+  },
+  {
+    "id": "2026-W19-064",
+    "date": "2026-05-08",
+    "headline": "Páteční jednání Pavla s Babišem o summitu NATO skončilo bez dohody",
+    "summary": "Setkání prezidenta Pavla s premiérem Babišem nepřineslo shodu na účasti na summitu NATO v Ankaře. Pavel nadále trvá na své účasti navzdory postoji vlády a kompetenční žalobu považuje za možný nástroj vyjasnění pravomocí. Ústavní spor o zahraniční zastupování ČR tak pokračuje.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "&bdquo;Není to vlamování se do zavřených dveří.&ldquo; Prezident Pavel trvá na své účasti na summitu NATO",
+        "url": "https://byznys.hn.cz/c1-67875140-bdquo-neni-to-vlamovani-se-do-zavrenych-dveri-ldquo-prezident-pavel-trva-na-sve-ucasti-na-summitu-nato",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-09T06:57:19.022Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — neúspěšné jednání prohlubuje existující ústavní spor o kompetence v zahraniční politice (subkomponenta G1). Tento článek přináší nový konkrétní fakt (výsledek pátečního setkání = nedohoda), nikoli pouze komentář. Jako součást probíhajícího vzorce napětí mezi prezidentem a vládou (viz index 2) se nezávisle opakující selhání dosáhnout dohody posiluje hodnocení severity 3. Prozatím bez podané žaloby, proto neeskaluje na 4. Sekundárně G3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z"
+  },
+  {
+    "id": "2026-W19-065",
+    "date": "2026-05-07",
+    "headline": "Policie odmítla přijmout oznámení o znásilnění, pachatel poté útočil znovu",
+    "summary": "Investigativní reportáž popisuje případ z roku 2023, kdy policie odmítla přijmout oznámení oběti brutálního znásilnění, načež pachatel znovu zaútočil. Případ otevírá otázky o selhání policejních postupů při přijímání trestních oznámení a ochraně obětí. Pachatel byl následně odsouzen.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pomáhat a chránit? Přišla nahlásit brutální znásilnění, policisté ji ale vyhodili a pachatel útočil znovu",
+        "url": "https://domaci.hn.cz/c1-67874760-pomahat-a-chranit-prisla-nahlasit-brutalni-znasilneni-policiste-ji-ale-vyhodili-a-pachatel-utocil-znovu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-09T06:57:19.022Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ dokumentuje konkrétní selhání státního orgánu (policie) v ochraně oběti, což zasahuje subkomponentu C2 (přiměřená reakce bezpečnostních složek) a C4 (ochrana zranitelných osob před státním nezájmem). Selhání mělo přímý a závažný důsledek — opakovaný útok na oběť. Investigativní žurnalistika přináší nové fakty o systémovém pochybení, nikoli jen ojedinělou chybu. Případ je uzavřen odsouzením pachatele, ale otevírá otázku systémové nápravy policejních postupů. Anti-bias check: stejné hodnocení by bylo aplikováno bez ohledu na totožnost pachatele či policistů.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-07-30T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-066",
+    "date": "2026-05-07",
+    "headline": "EU zakáže AI aplikace vytvářející nahé fotky skutečných lidí bez souhlasu",
+    "summary": "Evropský parlament a členské státy EU se dohodly na zákazu AI aplikací umožňujících tvorbu sexualizovaných snímků skutečných lidí bez jejich souhlasu. Zákaz vstoupí v platnost od 2. prosince 2026.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Konec &bdquo;svlékacích aplikací&ldquo;. EU zakáže umělé inteligenci vytvářet nahé fotky skutečných lidí",
+        "url": "https://zahranicni.hn.cz/c1-67874650-konec-bdquo-svlekacich-aplikaci-ldquo-eu-zakaze-umele-inteligenci-vytvaret-nahe-fotky-skutecnych-lidi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-09T06:57:19.022Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — dohoda na úrovni EU s přímým dopadem na digitální práva občanů ČR (subkomponenta C5 — práva v digitálním prostoru, ochrana soukromí a před zneužitím). Jde o pozitivní legislativní krok posilující ochranu osob, zejm. žen, před nonconsensual intimate imagery. Dopad na ČR je reálný, ale zprostředkovaný (implementace EU nařízení); proto severity 2, nikoli 3. Direction +1, neboť regulace posiluje ochranu základních práv.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z"
+  },
+  {
+    "id": "2026-W19-067",
+    "date": "2026-05-06",
+    "headline": "Sněmovna schválila ve zrychleném řízení odklad povinnosti používat národní geoportál",
+    "summary": "Poslanecká sněmovna schválila ve zrychleném režimu odklad povinného využívání Národního geoportálu územního plánování o jeden rok, do 30. června 2027. Věc ještě musí posoudit Senát.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Sněmovna schválila roční odklad povinného používání národního geoportálu",
+        "url": "https://byznys.hn.cz/c1-67874580-snemovna-schvalila-rocni-odklad-povinneho-pouzivani-narodniho-geoportalu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-09T06:57:19.022Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní procedurální odklad technické agendy (geoportál územního plánování), schválený ve zrychleném čtení. Zrychlené čtení je mírný procedurální nedostatek (subkomponenta G2), avšak nekontroverzní charakter věci a absence precedentního efektu řadí událost na nejnižší úroveň. Anti-bias check: stejné hodnocení by platilo pro jakoukoliv vládní koalici.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-068",
+    "date": "2026-05-06",
+    "headline": "Sněmovna odložila hlasování o novele zákona o veřejných rozpočtech kritizované jako \"rozpočtový armagedón\"",
+    "summary": "Poslanecká sněmovna odložila o týden finální schvalování novely zákona o veřejných rozpočtech. Ministryně financí Schillerová brání návrh jako pojistku, oponenti z řad politiků i ekonomů varují před oslabením fiskální odpovědnosti.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Je to jen pojistka, říká Schillerová ke kritice &bdquo;rozpočtového armagedonu&ldquo;",
+        "url": "https://archiv.hn.cz/c1-67874550-je-to-jen-pojistka-rika-schillerova-ke-kritice-bdquo-rozpoctoveho-armagedonu-ldquo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-09T06:57:19.022Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — legislativní debata o novele, která by dle kritiků oslabila rozpočtová pravidla, se týká subkomponenty G2 (kvalita legislativy) a G3 (stabilita ústavních norem v oblasti fiskálních pravidel). Samotné odložení hlasování je procedurální incident bez přímého dopadu; nicméně kontroverznost návrhu a kritika ekonomů zasluhuje zaznamenání. Severity 3 by vyžadovala schválenou změnu s prokazatelným institucionálním dopadem — zde jde zatím jen o probíhající legislativní proces. Direction -1 reflektuje potenciální oslabení fiskální odpovědnosti.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-069",
+    "date": "2026-05-06",
+    "headline": "Novela stavebního zákona kritizována jako nepřehledná paragrafová změť vložená jako přílepek",
+    "summary": "Ministr Havlíček prosazuje přejmenování svého resortu prostřednictvím pozměňovacího návrhu k novele stavebního zákona, čímž vznikla podle kritiků nepřehledná legislativní změť. Způsob legislování – vkládání nesouvisejících ustanovení jako přílepky bez řádného připomínkového řízení – je kritizován jako porušení standardů legislativního procesu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pozměňte ten pozměňovák! Z novely stavebního zákona se stala nepřehledná paragrafová změť, v které se už teď nikdo nevyzná",
+        "url": "https://archiv.hn.cz/c1-67874380-pozmente-ten-pozmenovak-z-novely-stavebniho-zakona-se-stala-neprehledna-paragrafova-zmet-v-ktere-se-uz-ted-nikdo-nevyzna",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-09T06:57:19.022Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní případ legislativního přílepku (subkomponenta G2: kvalita legislativy), který porušuje standardy připomínkového řízení a přehlednosti právní úpravy, avšak sám o sobě nepředstavuje systémový precedent ani širší institucionální dopad. De-eskalace z 3 aplikovatelná, protože se jedná o jednorázový incident bez prokazatelného vzorce eskalace. Anti-bias check: stejnou závažnost bych přiřadil bez ohledu na stranickou příslušnost navrhovatele.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-070",
+    "date": "2026-05-01",
+    "headline": "Ministerstvo financí zavedlo nová pravidla výpočtu maximálních cen pohonných hmot",
+    "summary": "Od května 2026 platí novelizovaná metodika, podle níž ministerstvo financí stanovuje maximální povolené ceny benzinu a nafty. Nově se pracuje s třídenním průměrem velkoobchodních cen a zvýšila se povolená marže. Jde o regulatorní změnu zasahující do fungování trhu pohonných hmot.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nová pravidla pro regulaci cen benzinu a nafty: Co se mění a jak funguje byznys provozovatelů pump",
+        "url": "https://podcasty.hn.cz/c1-67873040-nova-pravidla-pro-regulaci-cen-benzinu-a-nafty-co-se-meni-a-jak-funguje-byznys-provozovatelu-pump",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-09T06:57:19.022Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní regulatorní změnu s omezeným, avšak reálným dopadem na hospodářskou politiku (subkomponenta G2 — kvalita legislativy a exekutivní rozhodování). Změna metodiky výpočtu cen je standardní administrativní akt, nikoli narušení demokratické normy; direction 0, protože jde o technickou regulaci bez jednoznačně pozitivního či negativního demokratického dopadu. Datum odhadováno na 1. 5. 2026 dle textu 'od května platí'.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z"
+  },
+  {
+    "id": "2026-W19-071",
+    "date": "2026-05-08",
+    "headline": "Poslanci SPD doprovodili ruský motorkářský klub Noční vlci na pietní akci v Praze",
+    "summary": "Poslanec SPD Jaroslav Foldyna doprovodil členy klubu Noční vlci na pietní akci na Olšanských hřbitovech v Praze, kde se vzdávala hold sovětským vojákům. Na místě byl přítomen i exposlance Jiří Kobza. Akce přilákala jak přívržence ruské symboliky, tak podporovatele Ukrajiny.",
+    "pillar": "civil",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Kolaboranti, zdrastvujtě.“ S Nočními vlky přijeli i čeští politici",
+        "url": "https://zpravy.aktualne.cz/domaci/kolaboranti-zdrastvujte-s-nocnimi-vlky-prijeli-i-cesti-politici/r~aaa290c26b552030b29aafbf3442acef/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-05-09T06:57:19.961Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o verbální/symbolický akt poslanců bez přímého institucionálního dopadu; účast politiků na veřejné pietní akci s kontroverzní skupinou je znepokojivá z hlediska signalizace zahraničních vazeb, ale sama o sobě netvoří precedent ani nenarušuje demokratickou instituci (subkomponenta C1 — svoboda projevu/sdružování; případně překryv s G1). Žádný zákon, rozhodnutí ani strukturální dopad nevznikl. Anti-bias check: stejné hodnocení by platilo pro poslance jiné strany na srovnatelné akci s kontroverzní skupinou.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-072",
+    "date": "2026-05-05",
+    "headline": "Kauza Hunterbrook odhalila nesrovnalosti v dokumentech firmy CSG Michala Strnada",
+    "summary": "Investigativní server Hunterbrook zveřejnil materiály poukazující na nesrovnalosti v dokumentech a veřejných příslibech zbrojařské skupiny Czechoslovak Group. Akcie CSG po zveřejnění poklesly; kauza se dotýká i vazeb firmy na bývalého prezidenta Zemana a operací na Balkáně a v Ázerbájdžánu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Český zbrojař CSG v krizi: Ázerbájdžán, Balkán, stará munice a Zeman",
+        "url": "https://www.investigace.cz/nejvetsi-ceska-zbrojovka-v-krizi-vse-podstatne-o-ni-psala-investigace-cz/",
+        "outlet": "Investigace.cz",
+        "fetched_at": "2026-05-09T06:57:20.241Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odhalení nesrovnalostí v dokumentech velké zbrojařské firmy s politickými vazbami (subkomponenta K1, K2) vytváří potenciálně precedentní zjištění o střetu politických a obchodních zájmů. Přítomnost vazeb na ústavního činitele (bývalý prezident) zvyšuje institucionální relevanci. Zároveň jde o jediný zdroj (investigace.cz/Hunterbrook), takže dle source-count rule nelze překročit severity 3 bez dalšího potvrzení. Sekundárně se dotýká pilíře governance (vazby na státní zakázky).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-073",
+    "date": "2026-05-09",
+    "headline": "Audit prověří možný střet zájmů manželského páru ve Správě železnic",
+    "summary": "Správa železnic zadala audit kvůli možnému střetu zájmů: manžel poskytuje organizaci právní služby jako externí dodavatel, zatímco jeho žena vede interní oddělení zajišťující právní servis. Případ může vysvětlovat vysoké výdaje na externí advokáty.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ona dělá pro stát, manžel pro dodavatele. Možný konflikt zájmů prověří audit",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-ona-dela-pro-stat-manzel-pro-dodavatele-mozny-konflikt-zajmu-proveri-audit-304789",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-09T06:57:21.125Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní podezření na střet zájmů ve státní organizaci (subkomponenta K1, K2), které je teprve prověřováno auditem. Institucionální dopad je zatím omezený a lokální; nejde o potvrzenézneužití pravomoci ústavního činitele, ale o podezření na střední úrovni veřejné správy. De-eskalace: zatím jen jeden zdroj a audit nebyl dokončen, výsledek není znám.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-08-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-074",
+    "date": "2026-05-08",
+    "headline": "Nagyová odsouzena v kauze Čapí hnízdo, Blažek obviněn z bitcoinové aféry",
+    "summary": "Europoslankyně Jana Nagyová (dříve manažerka Agrofertu) obdržela trest v kauze Čapí hnízdo. Policie zároveň obvinila exministra Pavla Blažka v souvislosti s bitcoinovou kauzou. Obě kauzy se týkají politicky exponovaných osob.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Politické kauzy se hýbou, levice se hledá, Fideszu dochází dech",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-petka-sz-politicke-kauzy-se-hybou-levice-se-hleda-fideszu-dochazi-dech-305732",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-09T06:57:21.125Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rozsudek v kauze Čapí hnízdo představuje výsledek dlouhého trestního řízení proti politicky exponované osobě s vazbou na Agrofert a premiéra Babiše (subkomponenta K1, J4). Obvinění exministra Blažka v bitcoinové aféře je druhou paralelní korupční kauzou politika. Dohromady incidenty mají širší institucionální dopad a precedentní hodnotu. Článek je však víceméně souhrn týdne; obě kauzy jsou spíše pokračováním dřívějšího vývoje. Anti-bias: stejnou závažnost by dostal politik jakékoliv strany v analogické situaci.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-075",
+    "date": "2026-05-08",
+    "headline": "Česko a Německo podepsali memorandum o prodloužení Fondu budoucnosti",
+    "summary": "Čeští a němečtí ministři se sešli v Berlíně a schválili memorandum o pokračování Česko-německého fondu budoucnosti na další desetiletí. Konkrétní výše a forma finanční podpory zatím nebyly upřesněny.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Debata o sjezdu sudetských Němců neovlivní vztahy Česka a Německa, míní Macinka",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-macinka-a-wadephul-podepsali-memorandum-o-pokracovani-fondu-budoucnosti-305789",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-09T06:57:21.125Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní diplomatický a vládní akt bez negativního institucionálního dopadu. Podpis memoranda o pokračování bilaterálního fondu je rutinní záležitost mezinárodní spolupráce (subkomponenta G4 — transparentnost a výkaznost vládnutí). Direction +1, protože jde o pozitivní vládní aktivitu, byť s minimálním dopadem na demokratické ukazatele.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-09T06:57:16.257Z",
+    "expires_at": "2026-07-31T00:00:00.000Z"
   }
 ]
