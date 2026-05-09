@@ -13,6 +13,12 @@ html {
 body {
   @apply bg-paper text-ink antialiased;
   -webkit-font-smoothing: antialiased;
+  /* Belt-and-suspenders mobile horizontal overflow guard. Specific
+   * elements should still wrap or shrink correctly on their own; this
+   * only ensures a stray child can't make the page horizontally
+   * scrollable on a phone. `overflow-x: clip` keeps sticky headers
+   * working while preventing scroll. */
+  overflow-x: clip;
 }
 
 ::selection {

@@ -2,8 +2,15 @@ import { Hero } from '../components/Hero';
 import { PillarsTable } from '../components/PillarsTable';
 import { EventLog } from '../components/EventLog';
 import { BenchmarksTable } from '../components/BenchmarksTable';
+import { PublicOpinionSection } from '../components/PublicOpinionSection';
 import { Manifest } from '../components/Manifest';
-import { readAllEvents, readLatest, readTimeline } from '../lib/data';
+import {
+  readAllEvents,
+  readLatest,
+  readPollSeries,
+  readTimeline,
+  readTopicalFindings,
+} from '../lib/data';
 import type { Locale } from '@/i18n';
 
 interface Props {
@@ -26,10 +33,12 @@ interface Props {
  * archive lives at /metodika/.
  */
 export async function HomeView({ locale }: Props) {
-  const [{ snapshot, baseline }, timeline, allEvents] = await Promise.all([
+  const [{ snapshot, baseline }, timeline, allEvents, pollSeries, topical] = await Promise.all([
     readLatest(),
     readTimeline(),
     readAllEvents(),
+    readPollSeries(),
+    readTopicalFindings(),
   ]);
 
   if (!snapshot || !baseline) {
@@ -44,10 +53,15 @@ export async function HomeView({ locale }: Props) {
 
   const prevSnapshot = timeline.length >= 2 ? (timeline[timeline.length - 2] ?? null) : null;
   const currentWeek = snapshot.week;
-  const currentWeekEvents = allEvents.filter((e) => e.id.startsWith(`${currentWeek}-`));
-  // Most recent events across pillars feed the "Hlavní signál" cell in
-  // the pillars table — broaden window to last 4 weeks so quiet weeks
-  // still surface a meaningful headline per pillar.
+  // Top 5 most recent events across all weeks — matches the original
+  // homepage's editorial selection. Filtering strictly to the current
+  // ISO week made the home empty mid-week, which read as "nothing
+  // happened" rather than the actual "this is the most recent activity".
+  // Full archive lives at /udalosti/.
+  const recentEvents = allEvents.slice(0, 5);
+  // Broader window for the pillars table's "Hlavní signál" cell — give
+  // each pillar a fair shot at the most relevant headline even on quiet
+  // weeks.
   const recentEventsForSignals = allEvents.slice(0, 80);
   const previousWeekLabels = timeline
     .slice(-4, -1)
@@ -73,11 +87,17 @@ export async function HomeView({ locale }: Props) {
       />
       <EventLog
         locale={locale}
-        events={currentWeekEvents}
+        events={recentEvents}
         currentWeek={currentWeek}
         previousWeekLabels={previousWeekLabels}
       />
       <BenchmarksTable locale={locale} baseline={baseline} />
+      <PublicOpinionSection
+        locale={locale}
+        series={pollSeries}
+        topical={topical?.items ?? null}
+        {...(topical?.description ? { topicalDescription: topical.description } : {})}
+      />
       <Manifest locale={locale} />
     </>
   );

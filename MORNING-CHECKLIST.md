@@ -4,6 +4,34 @@
 > co je potřeba ručně zkontrolovat, a co jsem **nepushnul do produkce** —
 > aby ses na to mohl podívat na preview a teprve pak rozhodnout o merge.
 
+## Druhý přírůstek (po feedbacku z mobilu)
+
+Reagováno na 5 bodů:
+
+- **Hero eyebrow** používá teď `formatUpdateLabel(computed_at, week)` —
+  stejný string jako header/footer. Žádný synthetický Pondělí-z-týdne.
+- **Mobilní horizontal scroll** — primárně způsobený `text-[clamp(7rem,
+  16vw,12rem)]` na hero čísle (na úzkém viewportu se 4-znakové "76.1"
+  nevlezlo). Snížil jsem mobile clamp na `5rem,18vw,12rem`. H1 šel
+  z 40px na 32px na mobile. Body má nově `overflow-x: clip` jako
+  pojistka. BenchmarksTable index column zmenšen na 13px na mobile.
+- **EventLog na home** zobrazuje opět **top 5 nejnovějších events
+  napříč všemi týdny** (nikoli jen current-week filter). Title změněn
+  z "Co tento týden index pohnulo" na "Co index naposled pohnulo" /
+  "What moved the index recently" pro přesnost. Plný archiv s týdenními
+  filtry je dál na `/udalosti/`.
+- **Public Opinion sekce vrácená** na home — nová `PublicOpinionSection`
+  komponenta, restyle s editoriálním eyebrow `05 — Veřejné mínění` /
+  `05 — Public opinion`, zachovává původní CVVM time series + topical
+  findings cards. Zobrazí se jen když existují data (server-side check).
+- **Hero sparkline interaktivní** — nový `HeroSparkline` client comp,
+  na hover/tap ukáže vertikální čáru + bod + tooltip s týdnem a skóre.
+  Pillar row sparkliny zůstávají statické (jsou moc malé na užitečnou
+  interakci).
+
+Pořadí sekcí na home: 01 Hero · 02 Pilíře · 03 Události · 04 Srovnání ·
+05 Veřejné mínění · 06 Manifest · footer.
+
 ## Přírůstek po prvním pohledu (mobile + datum)
 
 Reagoval jsem na noc v 23:5x na zpětnou vazbu o mobilu a datu:
@@ -94,6 +122,15 @@ V preview prohlédni hlavní stránku (CS i EN) a podívej se:
 - [ ] **Header pravá strana**: dlouhý label "Pondělí · X. května 2026 ·
       Týden NN" (skutečné datum z `computed_at`, ne Monday-of-week).
 - [ ] **Footer**: identický update label v brand bloku.
+- [ ] **Hero eyebrow**: identický string ("Pondělí · X. května 2026 ·
+      Týden NN") jako header + footer.
+- [ ] **Sparkline interakce**: hover myší na desktopu, tap na telefonu
+      — ukáže vertikální čáru, větší bod a tooltip s týdnem + hodnotou
+      v daném týdnu.
+- [ ] **Mobile bez horizontálního scrollu** — testuj na úzkém viewportu
+      (Chrome DevTools 360px width).
+- [ ] **Veřejné mínění sekce** mezi Srovnání a Manifestem — CVVM time
+      series chart + případně topical findings cards.
 
 ### 2. Ediční rozhodnutí (potřebuju tvůj vstup)
 

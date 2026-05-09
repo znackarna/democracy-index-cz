@@ -7,8 +7,8 @@ import {
   type StructuralBaseline,
 } from '@/lib/types';
 import { eventsPath, getMessages, methodologyIndexPath, type Locale } from '@/i18n';
-import { formatHeroEyebrow } from '@/i18n/dates';
-import { Sparkline } from './Sparkline';
+import { formatUpdateLabel } from '@/i18n/dates';
+import { HeroSparkline } from './HeroSparkline';
 
 interface Props {
   locale: Locale;
@@ -40,8 +40,10 @@ export function Hero({ locale, snapshot, baseline, timeline, prevSnapshot }: Pro
   const deltaBaseline = score - baselineWeighted; // negative = below baseline
   const deltaWeek = prevSnapshot ? score - prevSnapshot.overall_score : 0;
 
-  // Hero eyebrow: "Pondělí · 18. května 2026 · Týden 19".
-  const eyebrow = formatHeroEyebrow(snapshot.week, locale);
+  // Hero eyebrow: "Pondělí · 4. května 2026 · Týden 18" — same string the
+  // masthead and footer show, derived from the snapshot's real
+  // computed_at timestamp (not synthetic Monday-of-week).
+  const eyebrow = formatUpdateLabel(snapshot.computed_at, snapshot.week, locale);
 
   // Pick two lowest pillars for the lede inline links.
   const ranked = [...PILLARS].sort((a, b) => snapshot.pillars[a] - snapshot.pillars[b]);
@@ -50,7 +52,9 @@ export function Hero({ locale, snapshot, baseline, timeline, prevSnapshot }: Pro
   const ledeRendered = renderLede(h.lede, locale, [lowestPillar, secondPillar], t);
 
   // Sparkline values: last 52 weekly overall scores, oldest-first.
-  const sparkValues = timeline.slice(-52).map((s) => s.overall_score);
+  const sparkSlice = timeline.slice(-52);
+  const sparkValues = sparkSlice.map((s) => s.overall_score);
+  const sparkWeeks = sparkSlice.map((s) => s.week);
 
   // Number caption: "{baselineDelta} Za poslední týden {weekDelta}."
   const weekDelta = formatWeekDelta(deltaWeek, h);
@@ -72,7 +76,7 @@ export function Hero({ locale, snapshot, baseline, timeline, prevSnapshot }: Pro
             <div className="text-[11px] uppercase tracking-[0.2em] text-black/50">{eyebrow}</div>
             <div className="accent-rule mb-5 mt-5 h-[3px] w-12" aria-hidden />
             <h1
-              className="text-[40px] font-medium leading-[1.02] tracking-tight md:text-[56px]"
+              className="text-[32px] font-medium leading-[1.02] tracking-tight sm:text-[40px] md:text-[56px]"
               style={{ textWrap: 'balance' }}
             >
               {h.headline}
@@ -111,7 +115,7 @@ export function Hero({ locale, snapshot, baseline, timeline, prevSnapshot }: Pro
                   {h.valueOfTheWeek}
                 </div>
                 <div className="flex items-start gap-2">
-                  <div className="num text-[clamp(7rem,16vw,12rem)] font-medium leading-[0.85] tracking-tightest">
+                  <div className="num text-[clamp(5rem,18vw,12rem)] font-medium leading-[0.85] tracking-tightest md:text-[clamp(7rem,16vw,12rem)]">
                     {intPart}
                     <span className="text-accent">.{decPart}</span>
                   </div>
@@ -133,18 +137,20 @@ export function Hero({ locale, snapshot, baseline, timeline, prevSnapshot }: Pro
                   <span className="font-mono num text-black/70">{h.sparklineEyebrowRight}</span>
                 </div>
                 <div className="border-y border-black/15 py-3">
-                  <Sparkline
+                  <HeroSparkline
                     values={sparkValues}
+                    weeks={sparkWeeks}
                     width={320}
                     height={90}
                     pad={6}
                     color="#1944B8"
-                    area
                     baseline={baselineWeighted}
                     baselineLabel={h.sparklineBaselineLabel.replace(
                       '{value}',
                       baselineWeighted.toFixed(1),
                     )}
+                    weekWord={locale === 'cs' ? 'Týden' : 'Week'}
+                    locale={locale}
                     className="h-[120px] w-full"
                   />
                 </div>

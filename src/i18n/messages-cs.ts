@@ -312,7 +312,7 @@ export const messagesCs = {
 
   eventLog: {
     eyebrow: '03 — Události',
-    title: 'Co tento týden index pohnulo.',
+    title: 'Co index naposled pohnulo.',
     intro:
       'Každá událost je ručně zařazena do pilíře a oceněna dopadem od −6 do +6 bodů. Plný changelog je {repoLink}.',
     introRepoLink: 'na GitHubu',
@@ -440,8 +440,17 @@ export const messagesCs = {
     scoreTooltip: 'skóre',
   },
 
+  publicOpinionSection: {
+    eyebrow: '05 — Veřejné mínění',
+    title: 'Jak to lidé vidí.',
+    intro:
+      'Doplňkový kontext k institucionálnímu indexu. {bold} — slouží k porovnání nálady veřejnosti s tím, kde jsou skutečné institucionální posuny. Detail v {link}.',
+    introBold: 'Tyto hodnoty nevstupují do skóre',
+    introLink: 'metodice',
+  },
+
   manifest: {
-    eyebrow: '05 — Manifest',
+    eyebrow: '06 — Manifest',
     /** Mono kicker on the left column. */
     kicker: 'Demokracie není binární stav. Je to kontinuum, které se měří denně.',
     /** Big quote on the right. */

@@ -291,7 +291,7 @@ export const messagesEn: Messages = {
 
   eventLog: {
     eyebrow: '03 — Events',
-    title: 'What moved the index this week.',
+    title: 'What moved the index recently.',
     intro:
       'Each event is manually placed in a pillar and scored from −6 to +6 points. The full changelog is {repoLink}.',
     introRepoLink: 'on GitHub',
@@ -420,8 +420,17 @@ export const messagesEn: Messages = {
     scoreTooltip: 'score',
   },
 
+  publicOpinionSection: {
+    eyebrow: '05 — Public opinion',
+    title: 'How the public sees it.',
+    intro:
+      'Supplementary context to the institutional index. {bold} — they’re here to compare public mood against where the actual institutional shifts are. Detail in the {link}.',
+    introBold: 'These values do not feed into the score',
+    introLink: 'methodology',
+  },
+
   manifest: {
-    eyebrow: '05 — Manifesto',
+    eyebrow: '06 — Manifesto',
     kicker: 'Democracy is not a binary state. It’s a continuum measured daily.',
     quote:
       'We measure so that we talk about the data first — and only then about a "crisis" or "calm".',

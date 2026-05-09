@@ -120,7 +120,7 @@ export function BenchmarksTable({ locale, baseline }: Props) {
 
         {rows.map((row) => (
           <div key={row.key} className="grid grid-cols-12 border-b border-black/10">
-            <Cell span={3} className="text-[14px]">
+            <Cell span={3} className="text-[13px] sm:text-[14px]">
               {row.url ? (
                 <a
                   href={row.url}
