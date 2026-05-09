@@ -34,34 +34,23 @@ export const messagesEn: Messages = {
   footer: {
     brandName: 'Czech Democracy Index',
     brandTagline: 'An independent project. Open data, open methodology.',
-    copyright:
-      '© {year} Czech Democracy Index · operated by Značkárna s.r.o. · ID 22119988',
+    copyright: '© {year} Czech Democracy Index',
     license: 'CC BY 4.0 · no tracking cookies',
 
     columns: {
       project: {
         heading: 'Project',
-        about: 'About',
-        team: 'Team',
         funding: 'Funding',
       },
       data: {
         heading: 'Data',
         downloads: 'CSV / JSON',
-        api: 'API',
         history: 'Change log',
-      },
-      board: {
-        heading: 'Advisory board',
-        members: 'Members',
-        review: 'Peer review',
-        publicNotes: 'Public comments',
       },
       contact: {
         heading: 'Contact',
         email: 'redakce@indexdemokracie.cz',
-        forJournalists: 'For journalists',
-        securityTip: 'Security tip',
+        publicNotes: 'Public comments',
       },
     },
 

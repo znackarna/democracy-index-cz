@@ -42,37 +42,27 @@ export const messagesCs = {
     brandName: 'Index české demokracie',
     brandTagline: 'Nezávislý projekt. Otevřená data, otevřená metodika.',
     /** Bottom row, copyright + license. {year} placeholder substituted at build. */
-    copyright:
-      '© {year} Index demokracie ČR · provozuje Značkárna s.r.o. · IČO 22119988',
+    copyright: '© {year} Index demokracie ČR',
     license: 'CC BY 4.0 · bez sledovacích cookies',
 
-    /** Four columns of links. Some destinations are aspirational and rendered
-     *  as plain text (no href) until target pages exist — see flag in
-     *  MORNING-CHECKLIST. */
+    /** Three columns of footer links. Aspirational destinations (Tým,
+     *  Financování besides /podpora/, Vědecká rada members, …) were
+     *  removed once it became clear they wouldn't ship; only links that
+     *  resolve to a working page are listed. */
     columns: {
       project: {
         heading: 'Projekt',
-        about: 'O projektu',
-        team: 'Tým',
         funding: 'Financování',
       },
       data: {
         heading: 'Data',
         downloads: 'CSV / JSON',
-        api: 'API',
         history: 'Historie změn',
-      },
-      board: {
-        heading: 'Vědecká rada',
-        members: 'Členové',
-        review: 'Recenzní řízení',
-        publicNotes: 'Veřejné připomínky',
       },
       contact: {
         heading: 'Kontakt',
         email: 'redakce@indexdemokracie.cz',
-        forJournalists: 'Pro novináře',
-        securityTip: 'Bezpečnostní tip',
+        publicNotes: 'Veřejné připomínky',
       },
     },
 
