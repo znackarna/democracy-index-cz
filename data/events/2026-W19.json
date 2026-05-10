@@ -1137,12 +1137,18 @@
         "url": "https://denikn.cz/2056109/proruska-scena-oslavi-vitezstvi-na-staromestskem-namesti-dovezeni-tanku-ji-neproslo/",
         "outlet": "Deník N",
         "fetched_at": "2026-05-08T06:50:16.014Z"
+      },
+      {
+        "title": "Obrazem: Sověti v centru Prahy. Na akci proruských spolků dorazili i odpůrci Moskvy",
+        "url": "https://denikn.cz/2058871/obrazem-soveti-v-centru-prahy-na-akci-proruskych-spolku-dorazili-i-odpurci-moskvy/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-10T07:09:06.604Z"
       }
     ],
     "score_impact": -0.2,
-    "rationale": "Severity 1 per rubric §1 — jde o veřejné shromáždění, jehož konání samo o sobě neporušuje žádná pravidla (svoboda shromažďování a projevu, subkomponenta C2 a C1). Proruské zaměření akce je politicky kontroverzní, avšak článek neuvádí žádný zásah státu, zákaz ani institucionální dopad. Nedovezení tanku je pouze logistické selhání organizátorů. Událost nenaplňuje vyšší úroveň, protože chybí institucionální dimenze.",
+    "rationale": "Severity 1 per rubric §1 — jde o veřejné shromáždění, jehož konání samo o sobě neporušuje žádná pravidla (svoboda shromažďování a projevu, subkomponenta C2 a C1). Proruské zaměření akce je politicky kontroverzní, avšak článek neuvádí žádný zásah státu, zákaz ani institucionální dopad. Nedovezení tanku je pouze logistické selhání organizátorů. Událost nenaplňuje vyšší úroveň, protože chybí institucionální dimenze.\n\n[merged with 2026-W19-076 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-05-08T06:50:15.998Z",
     "expires_at": "2026-08-01T00:00:00.000Z"
   },
@@ -1232,10 +1238,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/mrazova-citi-babisovu-podporu-opozice-dale-zada-rezignaci-373216",
         "outlet": "ČT24",
         "fetched_at": "2026-05-08T06:50:17.269Z"
+      },
+      {
+        "title": "Obecní byt nebyl nadstandard, od Babiše cítím podporu, řekla Mrázová. Problém s &bdquo;černými stavbami&ldquo; chce dát do pořádku",
+        "url": "https://domaci.hn.cz/c1-67874930-obecni-byt-nebyl-nadstandard-od-babise-citim-podporu-rekla-mrazova-problem-s-bdquo-cernymi-stavbami-ldquo-chce-dat-do-poradku",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-10T07:09:08.831Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — ministryně veřejně reaguje na již probíhající skandál (subkomponenta K1 — střet zájmů ústavního činitele), ale nová fakta nejsou v článku doložena — jde o tiskový brífinkg, nikoliv o nové odhalení. Persistent, protože kauza trvá a ministryně setrvává ve funkci navzdory oprávněným námitkám. Cross-pillar: sekundárně governance (G4 — transparentnost), pokud bydlení v obecním bytě jako úřední osoba nebylo řádně deklarováno.",
+    "rationale": "Severity 2 per rubric §2 — ministryně veřejně reaguje na již probíhající skandál (subkomponenta K1 — střet zájmů ústavního činitele), ale nová fakta nejsou v článku doložena — jde o tiskový brífinkg, nikoliv o nové odhalení. Persistent, protože kauza trvá a ministryně setrvává ve funkci navzdory oprávněným námitkám. Cross-pillar: sekundárně governance (G4 — transparentnost), pokud bydlení v obecním bytě jako úřední osoba nebylo řádně deklarováno.\n\n[merged with 2026-W19-082 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-08T06:50:15.998Z"
@@ -1571,5 +1583,195 @@
     "status": "active",
     "created_at": "2026-05-09T06:57:16.257Z",
     "expires_at": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-077",
+    "date": "2026-05-08",
+    "headline": "Noční vlci a čeští politici na pietní akci u hrobů vojáků Rudé armády v Praze",
+    "summary": "Motorkářská skupina Noční vlci a dva čeští politici se zúčastnili pietní akce u hrobů sovětských vojáků na pražských Olšanských hřbitovech. Akce, která byla loni organizována tajně, letos proběhla veřejně a ve větším měřítku, přičemž vyvolala slovní konflikty mezi účastníky.",
+    "pillar": "civil",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Kolaboranti“ a „škoda, že vás nevyhladili“. Nad hroby vojáků Rudé armády vlály sovětské i ukrajinské vlajky",
+        "url": "https://denikn.cz/2058390/kolaboranti-a-skoda-ze-vas-nevyhladili-nad-hroby-vojaku-rude-armady-vlaly-sovetske-i-ukrajinske-vlajky/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-10T07:09:06.604Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — pietn akce proběhla v rámci práva na shromažďování (subkomponenta C2); verbální konflikty na místě nemají institucionální dopad. Účast politiků na symbolické akci proruských skupin je politicky citlivá, avšak bez přímého dopadu na demokratické instituce. Žádný formální akt státu ani zásah do ústavního rámce. Sekundárně se akce dotýká pilíře governance (veřejná symbolika a zahraniční politika), avšak bez konkrétního institucionálního rozhodnutí. Direction 0 — přítomnost je ambivalentní, nelze ji jednoznačně hodnotit jako oslabení demokracie.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-10T07:09:06.589Z",
+    "expires_at": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-078",
+    "date": "2026-05-08",
+    "headline": "Spor Babiše a Pavla o účast na summitu NATO odhaluje napětí v ústavní dělbě moci",
+    "summary": "Premiér Babiš a prezident Pavel se dostali do otevřeného konfliktu ohledně toho, kdo rozhoduje o prezidentově účasti na červencovém summitu NATO v Ankaře. Babiš zvažoval bojkot schůzky s Pavlem poté, co prezident veřejně avizoval své záměry ještě před jejich jednáním. Spor se dotýká ústavního vymezení kompetencí v zahraniční politice.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Naštvaný Babiš a signál s pozdním příchodem. Pohled do zákulisí rozkolu na Hradě",
+        "url": "https://denikn.cz/2058177/babis-zvazoval-ze-na-schuzku-s-pavlem-vubec-nepujde-pohled-do-zakulisi-roztrzky-na-hrade/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-10T07:09:06.604Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — otevřený konflikt mezi prezidentem a premiérem o zahraniční reprezentaci ČR (subkomponenta G1 — dělba moci, respekt k roli prezidenta) vytváří precedent a narušuje standardní fungování exekutivy. Spor se týká ústavně citlivé oblasti: čl. 63 Ústavy ČR svěřuje prezidentu zastupování státu navenek, přičemž vláda odpovídá za zahraniční politiku. Pokud jde o opakující se vzorec napětí mezi Hradem a Strakovou akademií, hodnocení může eskalovat na severity 4. Duration persistent, neboť spor o kompetence není jednorázový incident, ale trvající institucionální třecí plocha. Sekundárně se dotýká pilíře electoral (vztah volených orgánů k mandátu).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-10T07:09:06.589Z"
+  },
+  {
+    "id": "2026-W19-079",
+    "date": "2026-05-10",
+    "headline": "Vláda zřizuje post zmocněnce pro NATO, opozice kritizuje funkci jako nepotismus",
+    "summary": "Vláda má schválit nový post zmocněnce pro plnění závazků vůči NATO, který má obsadit bývalý velvyslanec Jakub Landovský. Opozice označuje funkci za zbytečnou trafiku s poukazem na to, že potřebné kapacity již existují na ministerstvu obrany a v Bruselu. Premiér Babiš odmítá nařčení z klientelismu s tím, že Landovský nebude pobírat plat.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Landovský má hlídat závazky vůči NATO. Opozice mluví o trafice",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/landovsky-ma-hlidat-zavazky-vuci-nato-opozice-mluvi-o-trafice-373255",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-10T07:09:07.605Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — vznik nové vládní funkce s nejasnou přidanou hodnotou a politickou nominací je konkrétní, ohraničená událost s omezeným institucionálním dopadem. Subkomponenta G1 (dělba moci, výkonná moc) je dotčena slabě — jde o personální rozhodnutí exekutivy, nikoli o překročení ústavních hranic. Anti-bias check: stejně bych hodnotil i opoziční vládu zřizující obdobnou funkci pro politického spojence. Absence průkazného střetu zájmů nebo korupčního mechanismu vylučuje eskalaci do pilíře corruption (K1). Čistě verbální kritika opozice bez institucionálního dopadu neeskaluje severity výše.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-10T07:09:06.589Z",
+    "expires_at": "2026-08-02T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-080",
+    "date": "2026-05-09",
+    "headline": "Koalice se nedohodla na parametrech celostátního referenda, potřebuje opozici",
+    "summary": "Vládní koalice ANO a SPD se přou o kvórum platnosti výsledku referenda – ministr spravedlnosti Tejc požaduje minimálně čtvrtinu všech voličů, předseda sněmovny Okamura prosazuje nižší práh. Protože jde o ústavní zákon, koalice potřebuje hlasy opozice, jejichž získání je nejisté.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": 0,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Koalice se pře o parametry celostátního referenda",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/koalice-se-pre-o-parametry-celostatniho-referenda-373254",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-10T07:09:07.605Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 – jde o vnitrokoaliční politický spor o parametry připravovaného zákona, který ještě nebyl ani předložen, natož schválen. Subkomponenta E1 (férovost voleb a volební infrastruktura) je relevantní, protože nastavení kvóra referenda přímo ovlivňuje legitimitu přímé demokracie. Událost sama o sobě nemá institucionální dopad – je to legislativní proces v rané fázi. Direction 0, protože výsledek debaty (přísnější vs. mírnější kvórum) má ambivalentní demokratický dopad; přijetí referenda by obecně posílilo participaci (E2), ale konkrétní podoba ještě není jasná. Anti-bias: stejně bych hodnotil spor o referendum v jakékoliv jiné koalici.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-10T07:09:06.589Z"
+  },
+  {
+    "id": "2026-W19-081",
+    "date": "2026-05-08",
+    "headline": "Opozice hrozí ústavní žalobou kvůli zahrnutí karetních plateb do nové EET",
+    "summary": "Nová podoba EET, která zahrnuje i platby kartou, čelí odporu opozice a hrozí soudní přezkum u Ústavního soudu. Ústavní soud přitom karetní platby z předchozí verze EET již jednou vyloučil, přičemž ministryně financí Schillerová argumentuje změněnou technickou situací.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Spor o zahrnutí plateb kartou do EET může skončit u Ústavního soudu",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/spor-o-zahrnuti-plateb-kartou-do-eet-muze-skoncit-u-ustavniho-soudu-373239",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-10T07:09:07.605Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 – jde o avizovaný, nikoli zahájený přezkum ÚS; samotné podání návrhu k ÚS nebo jeho rozhodnutí jsou zatím hypotetické. Relevantní subkomponenta J1 (nezávislost ÚS a respekt k jeho rozhodnutím) a G3 (stabilita ústavních norem) – vláda předkládá zákon v podobě, kterou ÚS již dříve odmítl, což může signalizovat přehlížení předchozího nálezu. Direction 0: spor je teprve v zárodku a výsledek přezkumu ÚS může demokracii posílit (soud opět koriguje exekutivu) nebo zůstat bez dopadu. Pokud by vláda ignorovala případný negativní nález, severity by eskalovala na 4–5 (rubric §4–5, G3).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-10T07:09:06.589Z",
+    "expires_at": "2026-07-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-083",
+    "date": "2026-05-10",
+    "headline": "Armáda nakoupila brazilské transportéry bez soutěže i přes levnější evropskou nabídku",
+    "summary": "Česká republika zakoupila dvojici brazilských transportních letounů za 14 miliard Kč bez výběrového řízení, přestože existovala levnější evropská alternativa. Nákup proběhl bez znaleckého posudku ověřujícího výslednou cenu, což naznačuje pochybení v procesu zadávání veřejných zakázek.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "První létající obr z Brazílie. Češi mohli nakoupit i levněji, víme, co rozhodlo",
+        "url": "https://zpravy.aktualne.cz/domaci/prvni-letajici-obr-z-brazilie-cesi-mohli-nakoupit-i-levneji-vime-co-rozhodlo/r~aaa29f1a6c92624c934e35c2f9f70327/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-05-10T07:09:09.610Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — nákup bez soutěže a bez znaleckého posudku v hodnotě 14 miliard Kč naplňuje subkomponentu K2 (transparentnost veřejných zakázek, ZZVZ). Případ vytváří precedent v oblasti obranných zakázek a naznačuje systémové obcházení standardních zadávacích procedur. Sekundárně se dotýká G4 (transparentnost vládnutí). Jeden primární zdroj — bez eskalace na severity 4, ale bez de-eskalace, neboť fakta o existenci levnější nabídky a absenci posudku jsou konkrétní a ověřitelná.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-10T07:09:06.589Z",
+    "expires_at": "2026-08-02T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-084",
+    "date": "2026-05-10",
+    "headline": "Politici Prahy 1 bagatelizují audit odhalující manipulace v Nemocnici Na Františku",
+    "summary": "Audit nemocnice Na Františku odhalil manipulace s docházkou a mzdami. Zastupitelé Prahy 1, kteří o pochybnostech věděli roky a nekonali, nyní výsledky auditu zlehčují a konzultují s právníky, jak výsledkům čelit.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Politici z Prahy 1 zlehčují „nepohodlný“ audit městské nemocnice. Volají právníky",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-politici-z-prahy-1-zlehcuji-nepohodlny-audit-mestske-nemocnice-volaji-pravniky-305810",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-10T07:09:10.499Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ kombinuje subkomponentu K1 (zneužití veřejné funkce a nečinnost při odhalených pochybnostech) a K2 (nepravidelnosti ve správě veřejné instituce). Aktivní bagatelizace výsledků auditu ze strany zodpovědných politiků vytváří precedent pro ignorování kontrolních mechanismů na úrovni samosprávy. Jednalo se o potvrzený audit, nikoli pouhou spekulaci, což zvyšuje závažnost. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-10T07:09:06.589Z",
+    "expires_at": "2026-08-02T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-085",
+    "date": "2026-05-06",
+    "headline": "Sněmovna debatovala o sudetoněmeckém sjezdu v Brně, jednání skončilo bez výsledku",
+    "summary": "Poslanecká sněmovna projednávala otázku konání sjezdu Sudetoněmeckého landsmanšaftu v Brně, avšak po dohodě parlamentních skupin a procedurálním návrhu ODS bylo jednání ukončeno stažením zbývajících bodů z programu. Debata tak neskončila žádným usnesením ani závěrem.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Parliamentary Debate On Brno Sudeten Congress Ends Without Resolution",
+        "url": "https://brnodaily.com/2026/05/07/brno/parliamentary-debate-on-brno-sudeten-congress-ends-without-resolution/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-05-10T07:09:23.452Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní parlamentní proceduru bez precedentního institucionálního dopadu. Subkomponenta G1 (dělba moci, fungování parlamentu): použití standardních procedurálních nástrojů (přestávky, stažení bodů) není porušením normy. Direction 0, protože výsledek je ambivalentní — parlament neporušil žádné pravidlo, ale zároveň se věci nevyřešily. Téma kongresu se týká spíše historické a diplomatické citlivosti než demokratického backslidingu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-10T07:09:06.589Z",
+    "expires_at": "2026-07-29T00:00:00.000Z"
   }
 ]
