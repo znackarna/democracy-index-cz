@@ -195,4 +195,20 @@ jobs:
             MSG="data: daily ${DAILY_WEEK} [skip ci]"
           fi
           git commit -m "$MSG"
-          git push origin main
+          # Rebase before push to survive the actions/checkout queue-time
+          # SHA pin: if another pipeline run (or any other commit) landed on
+          # main between this run's checkout and now, our commit needs to
+          # sit on top of it. `--autostash` is a defensive no-op here (the
+          # tree is already clean after `git add`/`git commit`) and
+          # `--rebase` replays our single commit onto the new tip. Retry on
+          # transient races; fail loudly if all attempts exhaust so we still
+          # get the red ❌ in Actions when something genuinely broke.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin main && git push origin main; then
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed; retrying after short delay…"
+            sleep $((attempt * 5))
+          done
+          echo "All push attempts exhausted." >&2
+          exit 1
