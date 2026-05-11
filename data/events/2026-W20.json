@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2026-W20-001",
+    "date": "2026-05-11",
+    "headline": "Ombudsman dosáhl změny vyhlášky: děti s inkontinencí mají opět přístup k lázeňské péči",
+    "summary": "Po zásahu veřejného ochránce práv ministerstvo zdravotnictví upravilo vyhlášku, která fakticky znemožňovala lázeňský pobyt dětem s vysokým stupněm inkontinence. Děti se do lázní vracejí. Případ ilustruje funkční roli ombudsmana jako korekčního mechanismu vůči exekutivě.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Děti s inkontinencí mohou po zásahu ombudsmana znovu do lázní. Do Teplic už se malí pacienti vracejí",
+        "url": "https://www.irozhlas.cz/zpravy-domov/deti-s-inkontinenci-mohou-po-zasahu-ombudsmana-znovu-do-lazni-do-teplic-uz-se_2605110600_ape",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-11T07:24:55.328Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní institucionální korekce (ombudsman → ministerstvo → změna vyhlášky) s pozitivním dopadem na přístup ke zdravotní péči. Subkomponenta G1 (reálná kontrola exekutivy nezávislou institucí) a G4 (výkaznost ministerstev). Směr +1: jde o posílení funkce ombudsmana jako korekčního mechanismu. Scope je omezený (jedna vyhláška, specifická skupina pacientů), proto severity 2, nikoli 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-11T07:24:54.292Z",
+    "expires_at": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-002",
+    "date": "2026-05-11",
+    "headline": "Europoslanec ANO umožnil proruské sektě přístup do Evropského parlamentu",
+    "summary": "Europoslanec Ondřej Knotek (ANO) poskytl organizaci AllatRa přístup do Evropského parlamentu, přestože ukrajinská policie tuto sektu vyšetřuje pro podezření z vlastizrady a šíření proruských narativů. Knotek v tom sám nevidí problém. Jde o případ, kdy člen zákonodárného sboru institucionálně legitimizuje subjekt podezřelý ze spolupráce s nepřátelskou mocností.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Politik hnutí ANO spolupracuje se sektou, která šíří ruské narativy",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-cesky-politik-pustil-proruskou-sektu-do-europarlamentu-nevidi-v-tom-problem-303421",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-11T07:24:58.931Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 – jednání europoslance vytváří precedent pro zneužití institucionálního přístupu ve prospěch organizace podezřelé ze špionáže a šíření dezinformací (subkomponenta G1, dělba moci a odpovědné jednání zákonodárců). Sekundárně se dotýká pilíře electoral (proruské narativy v kontextu politické soutěže). Pouze jeden zdroj, event se opírá o potvrzení ukrajinské policie – source-count pravidlo ponechává severity na 3 vzhledem k institucionálnímu charakteru jednání. Anti-bias check: stejné hodnocení by bylo aplikováno na europoslance jakékoli jiné strany.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-11T07:24:54.292Z",
+    "expires_at": "2026-08-03T00:00:00.000Z"
+  }
+]
