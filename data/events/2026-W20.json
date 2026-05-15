@@ -442,10 +442,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslance-ceka-projednavani-sporne-novely-rozpoctovych-zakonu-373364",
         "outlet": "ČT24",
         "fetched_at": "2026-05-13T07:21:31.439Z"
+      },
+      {
+        "title": "Sněmovna by mohla pokračovat ve schvalování sporné novely k rozpočtům",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/snemovna-by-mohla-pokracovat-ve-schvalovani-sporne-novely-k-rozpoctum-373454",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-15T07:24:59.022Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — projednání sporné novely je konkrétní legislativní událost dotýkající se subkomponenty G2 (kvalita legislativy) a G1 (kontrola exekutivy parlamentem). Opozice poukazuje na oslabení parlamentního dohledu nad výdaji, nicméně samotné projednání bez informací o schválení a bez doložení procedurálních pochybení nedosahuje na úroveň 3. Informace pochází z jediného zdroje, což dle source-count rule drží hodnocení na 2.",
+    "rationale": "Severity 2 per rubric §2 — projednání sporné novely je konkrétní legislativní událost dotýkající se subkomponenty G2 (kvalita legislativy) a G1 (kontrola exekutivy parlamentem). Opozice poukazuje na oslabení parlamentního dohledu nad výdaji, nicméně samotné projednání bez informací o schválení a bez doložení procedurálních pochybení nedosahuje na úroveň 3. Informace pochází z jediného zdroje, což dle source-count rule drží hodnocení na 2.\n\n[merged with 2026-W20-048 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-13T07:21:30.081Z",
@@ -981,5 +987,302 @@
     "status": "active",
     "created_at": "2026-05-14T07:17:53.342Z",
     "expires_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-043",
+    "date": "2026-05-14",
+    "headline": "Ředitelka Cermatu zadala zakázku firmě spojené s sousedkou za více než 2 mil. Kč",
+    "summary": "Ředitelka státní instituce Cermat Barbora Rosůlková zadala zakázku na rozvoz přijímacích a maturitních testů firmě, která má vazbu na její sousedku z rodinného dvojdomku. Hodnota zakázky přesáhla dva miliony korun, čímž vzniká podezření na střet zájmů při zadávání veřejné zakázky.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zakázka z dvojdomku. Ředitelka Cermatu zadala rozvoz přijímaček a maturit firmě spojené se sousedkou",
+        "url": "https://denikn.cz/2061574/zakazka-z-dvojdomku-reditelka-cermatu-zadala-rozvoz-prijimacek-a-maturit-firme-spojene-se-sousedkou/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-15T07:24:57.614Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — konkrétní případ možného porušení pravidel veřejných zakázek (subkomponenta K2) s osobní vazbou zadavatele na dodavatele. Nejde o prokázané schéma, ale o konkrétní případ s vyšším finančním objemem (2+ mil. Kč) u státní instituce zodpovědné za klíčové zkoušky. Single source (Deník N) — bez dalšího potvrzení nelze eskalovat na 4. Sekundárně se dotýká G4 (transparentnost zadávání v rámci státní instituce).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z",
+    "expires_at": "2026-08-06T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-044",
+    "date": "2026-05-13",
+    "headline": "Člen Rady ČT Matocha sledoval zápas Slavie ve VIP sektoru přítele majitele klubu",
+    "summary": "Radní České televize Pavel Matocha se zúčastnil fotbalového utkání Slavie, které se hrálo bez diváků za trest, ve VIP prostorách přístupných přes přítele majitele klubu Pavla Tykače. Situace vyvolává otázky ohledně potenciálního střetu zájmů člena dozorčího orgánu veřejnoprávního média.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zápas Slavie bez diváků sledoval ve VIP sektoru i radní ČT Matocha. „Zcela legálně,“ říká Tykačův přítel",
+        "url": "https://denikn.cz/2063897/zapas-slavie-bez-divaku-sledoval-ve-vip-sektoru-i-radni-ct-matocha-zcela-legalne-rika-tykacuv-pritel/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-15T07:24:57.614Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní incident naznačující personální propojení člena Rady ČT s podnikatelskými kruhy (subkomponenta M2), avšak bez přímého prokázaného vlivu na editoriální rozhodování ČT. Incident sám o sobě nepředstavuje institucionální poškození, ale zaznamenává pochybnou vazbu u dozorčího orgánu veřejnoprávního média. Bez dalšího kontextu eskalace not warranted; single source.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z",
+    "expires_at": "2026-08-05T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-045",
+    "date": "2026-05-14",
+    "headline": "Náměstkyně ministerstva práce Jirková rezignovala kvůli mediálnímu tlaku ohledně vztahu s kolegou",
+    "summary": "Kateřina Jirková ukončila funkci náměstkyně ministerstva práce a sociálních věcí s odvoláním na osobní důvody a mediální tlak. Deník N dříve upozornil na její spolupráci s náměstkem Karlem Trpkošem, s nímž je v partnerském vztahu, což naznačuje možný střet zájmů uvnitř ministerstva.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Juchelkova náměstkyně končí, stěžuje si na „mediální tlak“ kvůli vztahu s klíčovým úředníkem",
+        "url": "https://denikn.cz/2063853/juchelkova-namestkyne-konci-stezuje-si-na-medialni-tlak-kvuli-vztahu-s-klicovym-urednikem/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-15T07:24:57.614Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — rezignace střední úrovně státní správy (náměstkyně) po mediálním odhalení personálního propojení s dalším klíčovým úředníkem (subkomponenta K1 — střet zájmů). Odchod lze interpretovat jako fungující korekční mechanismus, proto direction 0 (ambivalentní: problém byl odhalen a vyřešen rezignací, ale vzniklý střet zájmů existoval). Bez prokázaného konkrétního majetkového prospěchu nelze eskalovat výše.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z",
+    "expires_at": "2026-08-06T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-046",
+    "date": "2026-05-14",
+    "headline": "Státní úřady ostře kritizují Klempířův návrh zákona o médiích veřejné služby",
+    "summary": "Ministerstvo kultury obdrželo rozsáhlé připomínky od státních úřadů k návrhu mediálního zákona předloženého ministrem Klempířem. Kritika míří na nedůslednost, nadbytečnost a neslučitelnost návrhu s platnými předpisy a úřady požadují jeho zásadní přepracování.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nedůsledné, nadbytečné, neslučitelné. Úřady ostře kritizují Klempířův návrh k médiím",
+        "url": "https://denikn.cz/2063076/nedusledne-nadbytecne-neslucitelne-urady-ostre-kritizuji-klempiruv-navrh-k-mediim/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-15T07:24:57.614Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní fázi legislativního procesu (připomínkové řízení k návrhu zákona o ČT/ČRo), která dokládá vážné výhrady státních orgánů. Subkomponenta M2 — nezávislost a zákonný rámec veřejnoprávních médií. Návrh dosud nebyl schválen, jedná se o ranou fázi (předložen, neschválen), jak rubric §3 uvádí při odkazu na analogický případ ('zákon v rané fázi — předložen, neschválen'). Chybí detailní informace o konkrétním obsahu kritizovaných ustanovení z jednoho zdroje, proto nevolím 3. Persistent, protože zákonodárný proces bude pokračovat.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z"
+  },
+  {
+    "id": "2026-W20-047",
+    "date": "2026-05-15",
+    "headline": "Obyvatelé Zlínského kraje protestují v Praze proti akceleračním zónám",
+    "summary": "Starostové a obyvatelé měst Zlínského kraje přijeli do Prahy protestovat proti navrhovaným akceleračním zónám pro větrné a solární elektrárny. Stěžují si na absenci konzultací ze strany státu při výběru lokalit, přičemž ministerstvo pro místní rozvoj se jim nabídlo věnovat na veřejném jednání.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "‚Nikdo o tom s námi nejednal.‘ Obyvatelé Zlínského kraje chtějí protestovat proti akceleračním zónám",
+        "url": "https://www.irozhlas.cz/zpravy-domov/nikdo-o-tom-s-nami-nejednal-obyvatele-zlinskeho-kraje-chteji-protestovat-proti_2605150622_mkv",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-15T07:24:58.736Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázový protest s lokálním dopadem (subkomponenta C2: svoboda shromažďování a právo na konzultaci při rozhodnutích státu). Stížnosti na nedostatečné konzultace jsou zaznamenáníhodné, ale nemají precedentní charakter ani systémový dopad na instituci. Bez eskalace dle rubric — jde o první výskyt, rychlá reakce ministerstva snižuje závažnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z",
+    "expires_at": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-049",
+    "date": "2026-05-14",
+    "headline": "Sněmovna se postavila proti sudetoněmeckému sjezdu, člen koalice kritizuje překročení mandátu",
+    "summary": "Sněmovna hlasy vládní koalice přijala usnesení vyzývající ke zrušení sjezdu Sudetoněmeckého krajanského sdružení v Brně. Předseda poslaneckého klubu KDU-ČSL Jurečka veřejně kritizoval tento krok jako překračující mandát dolní komory a připomněl, že Ústava garantuje právo shromažďovací. Incident odhaluje napětí uvnitř koalice ohledně ústavních hranic parlamentní akce.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ústava garantuje právo shromažďovací, komentoval Jurečka sudetoněmecký sjezd",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ustava-garantuje-pravo-shromazdovaci-komentoval-jurecka-sudetonemecky-sjezd-373449",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-15T07:24:59.022Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — usnesení sněmovny vyzývající ke zrušení konkrétní shromažďovací akce je konkrétní porušení normy s omezeným dopadem, neboť jde o politické gesto bez právní vynutitelnosti. Subkomponenta C2 (svoboda shromažďování) — parlament formálně apeloval na zrušení zákonné shromažďovací akce, čímž vytvořil neblahý precedent pro politické tlaky na realizaci tohoto práva. Závažnost nepřesahuje úroveň 2, protože usnesení nemá přímou právní sílu a člen koalice jej veřejně zpochybnil, čímž existuje vnitřní institucionální korekce. Anti-bias check: stejnou závažnost bych přiřadil, pokud by šlo o usnesení opačně orientované koalice proti jinému sdružení.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z",
+    "expires_at": "2026-08-06T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-050",
+    "date": "2026-05-14",
+    "headline": "Rezignace politické náměstkyně ministerstva práce a personální otřesy v jeho vedení",
+    "summary": "Z pozice politické náměstkyně ministerstva práce a sociálních věcí rezignovala Kateřina Jirková, přičemž dalšímu klíčovému úředníkovi byl odebrán jeden z jeho postů. Personální otřesy zasahují vedení ministerstva v době, kdy stojí v čele ministr Juchelka. Charakter změn naznačuje politicky motivovaný tlak na silné úřednické duo v pozadí resortu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Další otřesy u Juchelky. Rezignovala náměstkyně ministra a o jeden z postů přišel i &bdquo;pan nepostradatelný&ldquo;",
+        "url": "https://archiv.hn.cz/c1-67877010-dalsi-otresy-u-juchelky-rezignovala-namestkyne-ministra-a-o-jeden-z-postu-prisel-i-bdquo-pan-nepostradatelny-ldquo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-15T07:25:01.534Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o politicky motivovaný personální zásah na vyšší úrovni státní správy (náměstkyně ministra), který sám o sobě neohrožuje instituci jako celek, ale zaslouží zaznamenání per subkomponentu G1 (dělba moci, personální stabilita exekutivy). Bez dalšího kontextu o systémovém vzorci nelze eskalovat na 3. Pouze jeden zdroj — single-source rule brání eskalaci. Anti-bias check: stejný rating bych přiřadil u jakékoli vlády.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z",
+    "expires_at": "2026-08-06T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-051",
+    "date": "2026-05-14",
+    "headline": "Ministerský návrh reformy vysokých škol oslabuje akademické senáty ve prospěch rektora a nové rady",
+    "summary": "Ministerstvo školství představilo návrh reformy, která by změnila volbu rektora z akademických senátů na nově zřízenou nezávislou univerzitní radu a posílila pravomoci rektora. Návrh se dotýká interní správy vysokých škol a akademické samosprávy, nikoli přímo ústavních institucí demokratického systému.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Víc pravomocí pro rektora, méně pro akademické senáty. Ministr představil reformu vysokých škol",
+        "url": "https://archiv.hn.cz/c1-67877100-akademicke-senaty-prijdou-o-cast-moci-posili-rektor-a-vznikne-nova-univerzitni-rada-ministr-predstavil-reformu-vysokych-skol",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-15T07:25:01.534Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jedná se o ministerský návrh (nikoli schválený zákon) s dopadem na akademickou samosprávu, konkrétně na způsob volby vedení veřejných institucí. Subkomponenta G2 (kvalita legislativy) a G1 (dělba moci ve veřejných institucích) jsou dotčeny, ale dopad je omezený — akademické senáty nejsou ústavní instituce v přísném smyslu. Návrh je v rané fázi, aplikace de-eskalačního pravidla (pouhý záměr/návrh, nikoli schválená norma) brání vyššímu hodnocení. Direction -1, protože oslabení akademické samosprávy ve prospěch manažerského modelu sníží demokratickou kontrolu uvnitř institucí.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z",
+    "expires_at": "2026-08-06T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-052",
+    "date": "2026-05-14",
+    "headline": "Sněmovna na koaliční popud vyzývá organizátory sjezdu sudetských Němců, aby akci v Brně zrušili",
+    "summary": "Poslanecká sněmovna přijala usnesení, které z iniciativy vládní koalice (ANO, SPD, Motoristé) vyzývá organizátory sjezdu sudetských Němců, plánovaného na konec května v Brně, aby od akce upustili. Kritériem pro usnesení bylo zejména vystoupení poslankyně německé AfD. Jde o parlamentní tlak na svobodné shromáždění zahraniční organizace na území ČR.",
+    "pillar": "civil",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vládní koalice vyjádřila nesouhlas se sjezdem sudetských Němců v Brně. Macinka s Okamurou kritizují výroky poslankyně AfD",
+        "url": "https://domaci.hn.cz/c1-67877090-vladni-koalice-nechce-v-cesku-sjezd-sudetskych-nemcu-podle-ano-spd-a-motoristu-zpochybnuji-povalecne-usporadani",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-15T07:25:01.534Z"
+      },
+      {
+        "title": "Sněmovna žádá zrušení sjezdu sudetských Němců, opozice i církev vyzvaly ke smíru",
+        "url": "https://zpravy.aktualne.cz/domaci/snemovna-bez-opozice-se-postavila-proti-sjezdu-sudetskych-nemcu-v-cesku/r~aaa2954b7a12d965e48cb11e425b7f8d/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-05-15T07:25:02.257Z"
+      },
+      {
+        "title": "Sněmovna bez opozice vyzvala ke zrušení sjezdu sudetských Němců v Česku",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-snemovna-bez-opozice-vyzvala-ke-zruseni-sjezdu-sudetskych-nemcu-v-cesku-306188",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-15T07:25:03.378Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — parlamentní usnesení samo o sobě nemá právní sílu zakazovat shromáždění, ale jeho přijetí hlasy vládní koalice představuje politický tlak na svobodu shromažďování (subkomponenta C2). Usnesení nevytváří právně závazný zákaz, proto nesplňuje práh §3 (absence přímého institucionálního dopadu nebo precedentní zákonné normy). Direction -1 — použití parlamentní platformy k nátlaku na realizaci pokojného shromáždění je demokraticky problematické i bez právního závazku. Anti-bias: stejné hodnocení by platilo pro jakékoli jiné usnesení vládní koalice namířené proti legálnímu shromáždění bez konkrétního právního základu.\n\n[merged with 2026-W20-055 — same incident, sources combined]\n\n[merged with 2026-W20-057 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-05-15T07:24:57.600Z",
+    "expires_at": "2026-08-06T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-053",
+    "date": "2026-05-12",
+    "headline": "Ministr Macinka buduje poradní tým z okruhu Klausova institutu; klíčovou roli má interní 'ideolog'",
+    "summary": "Ministr zahraničí Petr Macinka (Motoristé sobě) sestavuje svůj poradní tým převážně z lidí spjatých s Institutem Václava Klause, kteří zastávají kontroverzní zahraničněpolitické postoje. Jedním z nejvlivnějších poradců je osoba označovaná na ministerstvu jako 'vrchní ideolog', která píše projevy a filtruje informace. Článek popisuje interní strukturu a ideové směřování ministerstva zahraničí.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Píše mu projevy, třídí informace a na ministerstvu mu říkají vrchní ideolog. Kdo je Macinkova pravá ruka a jak vypadá tým poradců?",
+        "url": "https://archiv.hn.cz/c1-67876110-na-zahranici-miri-lide-z-klausova-institutu-macinka-z-nich-stavi-tym-nejblizsich-povysit-ma-i-jeho-bdquo-ideolog-ldquo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-15T07:25:01.534Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — personální složení poradního týmu ministra je standardní manažerské rozhodnutí exekutivy. Fakt, že poradci sdílejí určité ideologické zaměření, sám o sobě nepředstavuje porušení ústavní nebo zákonné normy (subkomponenta G1 ani G4 nejsou prokazatelně narušeny). Článek je faktografický, ale popisuje strukturální stav spíše než konkrétní porušení normy. Direction -1 mírně, protože ideová uzavřenost poradního týmu může snižovat kvalitu rozhodování a diverzitu vstupů, ale dopad na demokratické instituce je v tuto chvíli spekulativní. Duration persistent, protože jde o složení týmu, nikoli o jednorázový incident.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z"
+  },
+  {
+    "id": "2026-W20-054",
+    "date": "2026-05-15",
+    "headline": "Vláda blokuje účast prezidenta Pavla na Valném shromáždění OSN – nový konflikt o zahraniční kompetence",
+    "summary": "Ministerstvo zahraničních věcí obdrželo z USA žádost o informaci o složení české delegace na zářijové Valné shromáždění OSN, přičemž hrozí opakování konfliktu, jaký nastal u summitu NATO v Ankaře – vláda Andreje Babiše patrně znovu zpochybňuje prezidentovo právo vést delegaci. Jde o pokračující spor mezi exekutivou a Hradem o dělbu zahraničněpolitických kompetencí.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Další boj o cestu prezidenta Pavla. Babišova vláda má „deadline“, z USA přišla žádost",
+        "url": "https://zpravy.aktualne.cz/domaci/dalsi-boj-o-cestu-prezidenta-pavla-babisova-vlada-ma-deadline-z-usa-prisla-zadost/r~aaa29f95cc6cf7f86e415c32beea06b4/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-05-15T07:25:02.257Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 – opakující se blokování prezidentovy zahraniční representace vládou vytváří precedent pro narušení ústavní rovnováhy mezi exekutivou a prezidentem (subkomponenta G1: reálná dělba moci, respekt k roli prezidenta). Jde o součást prokazatelného vzorce (summit NATO v Ankaře + nyní OSN), což by dle eskalačního pravidla +1 za opakování mohlo vést na severity 4, ale event je zatím ve fázi hrozby/anticipace bez formálního rozhodnutí – ponechávám 3. Sekundárně relevantní pro pilíř electoral (ústavní posloupnost, E4). Single diplomatický zdroj snižuje jistotu; pokud by se konflikt materializoval formálním rozhodnutím vlády, eskalace na 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z"
+  },
+  {
+    "id": "2026-W20-056",
+    "date": "2026-05-15",
+    "headline": "Policie obvinila manažera příbramské nemocnice z manipulace zakázek za 280 milionů Kč",
+    "summary": "Detektivové po dvouletém odposlechu a sledování obvinili manažera nemocnice v Příbrami z vyzrazení interních informací o 33milionové zakázce stavební firmě. Případ se dotýká veřejných zakázek v celkovém objemu přes 280 milionů korun a naznačuje systémové selhání v hospodaření nemocnice zřizované krajem.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Manažer nemocnice jednal v tajném bytě. Policie řeší zakázky za 280 milionů",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-manazer-nemocnice-jednal-v-tajnem-byte-policie-resi-zakazky-za-280-milionu-306098",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-15T07:25:03.378Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ se týká manipulace veřejných zakázek (subkomponenta K2) v řádu stovek milionů Kč s prokazatelnou politickou návazností (krajská nemocnice). Dvouletá policejní operace a rozsah zakázek překračují drobný lokální incident (úroveň 2), ale jde o jeden případ bez doloženého systémového vzorce zahrnujícího ústavní činitele, což brání klasifikaci na úrovni 4. Jediný zdroj — severity ponechána na 3, nikoli eskalována.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-15T07:24:57.600Z",
+    "expires_at": "2026-08-07T00:00:00.000Z"
   }
 ]
