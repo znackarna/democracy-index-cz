@@ -837,10 +837,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/sudetonemecke-sdruzeni-se-behem-let-promenilo-usiluje-o-smireni-373397",
         "outlet": "ČT24",
         "fetched_at": "2026-05-14T07:17:54.640Z"
+      },
+      {
+        "title": "Chamber of Deputies Approves Motion Calling For Cancellation of Brno Sudeten German Congress",
+        "url": "https://brnodaily.com/2026/05/15/brno/chamber-of-deputies-approves-motion-calling-for-cancellation-of-brno-sudeten-german-congress/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-05-16T07:00:56.828Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — koaliční snaha prosadit sněmovní usnesení požadující zákaz konkrétní akce spolku je politickým tlakem na svobodu sdružování a shromažďování (subkomponenta C3), ale jde zatím o parlamentní usnesení bez závazné právní síly, nikoli o zákon omezující shromažďovací právo. Dopad je lokální a konkrétní, bez jasného precedentu pro jiné spolky. Pokud by usnesení bylo přijato a posloužilo jako základ pro administrativní zásah, severity by eskalovala na 3.",
+    "rationale": "Severity 2 per rubric §2 — koaliční snaha prosadit sněmovní usnesení požadující zákaz konkrétní akce spolku je politickým tlakem na svobodu sdružování a shromažďování (subkomponenta C3), ale jde zatím o parlamentní usnesení bez závazné právní síly, nikoli o zákon omezující shromažďovací právo. Dopad je lokální a konkrétní, bez jasného precedentu pro jiné spolky. Pokud by usnesení bylo přijato a posloužilo jako základ pro administrativní zásah, severity by eskalovala na 3.\n\n[merged with 2026-W20-068 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-14T07:17:53.342Z",
@@ -1284,5 +1290,289 @@
     "status": "active",
     "created_at": "2026-05-15T07:24:57.600Z",
     "expires_at": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-057",
+    "date": "2026-05-15",
+    "headline": "Rajchl po příspěvku na sociální síti rozpoutal vlnu výhrůžek smrtí vůči novinářce",
+    "summary": "Předseda PRO Jindřich Rajchl zveřejnil příspěvek namířený proti novinářce Zuzaně Černé, po němž začala čelit masivní vlně nenávistných zpráv a výhrůžek smrtí. Jde o případ využití politické autority k mobilizaci davové agrese vůči konkrétní novinářce.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Zabte někdo tu svini.“ Rajchl rozpoutal nenávist proti novinářce. Jak politici pracují s davem?",
+        "url": "https://denikn.cz/2064179/zabte-nekdo-tu-svini-rajchl-rozpoutal-nenavist-proti-novinarce-jak-politici-pracuji-s-davem/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-16T07:00:36.292Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — subkomponenta M3 (bezpečnost novinářů): pojmenování konkrétní novinářky politickým lídrem s následnou vlnou výhrůžek smrtí vytváří precedent pro zastrašování žurnalistů. Nejde o SLAPP žalobu, ale o faktické ohrožení bezpečnosti novinářky s cílem ji umlčet, což odpovídá rubric §3 ('útok na nezávislost konkrétní instituce'). Primárně pilíř media/M3, sekundárně civil/C1 (svoboda projevu novinářky ve veřejném prostoru).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z",
+    "expires_at": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-058",
+    "date": "2026-05-15",
+    "headline": "Koalice řeší absentérství poslanců ve výborech; Majerová opustí výbor",
+    "summary": "Vedení koalice zakročilo proti opakované neúčasti některých svých poslanců na jednáních sněmovních výborů, kde se hlasuje o vládních zákonech. Poslanec Turek přislíbil nápravu, poslankyně Majerová výbor opustí.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Koalice si došlápla na poslanecké absentéry. Turek slíbil nápravu, Majerová ve výboru skončí",
+        "url": "https://denikn.cz/2064850/koalice-si-doslapla-na-poslanecke-absentery-turek-slibil-napravu-majerova-ve-vyboru-skonci/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-16T07:00:36.292Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — rutinní procedurální incident bez precedentního charakteru a bez trvalého institucionálního dopadu (subkomponenta G1: kontrola a fungování parlamentu). Koalice problém sama identifikovala a vyřešila standardním stranickým mechanismem, nikoli obcházením pravidel. Direction 0: interní stranická korekce nevykazuje jednoznačný demokratický posun ani negativním, ani pozitivním směrem.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z",
+    "expires_at": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-059",
+    "date": "2026-05-16",
+    "headline": "Vojenská policie navrhuje zahájení řízení za kázeňské přestupky v kybernetických silách po úniku dokumentů",
+    "summary": "Náčelník generálního štábu Karel Řehka obdržel návrh na zahájení kázeňského řízení v útvarech Velitelství informačních a kybernetických sil. Případ navazuje na zveřejnění útržků armádních dokumentů poslancem Pavlem Růžičkou (ANO), po němž Vojenská policie vedla trestní řízení. Věc se dotýká otázky civilní kontroly armády a nakládání s citlivými bezpečnostními informacemi.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Úniky z kybercvičení a operace informačních sil: Řehka má na stole k řešení návrhy na potrestání",
+        "url": "https://www.irozhlas.cz/zpravy-domov/uniky-z-kybercviceni-a-operace-informacnich-sil-rehka-ma-na-stole-k-reseni_2605160500_hrk",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-16T07:00:37.246Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní personální/disciplinární případ na střední úrovni státní správy (armádní velitelství) bez prokázaného kaskádového efektu na fungování instituce jako celku (subkomponenta G1 — dělba moci a kontrola exekutivy). Incident zahrnuje únik citlivých dokumentů a roli poslance ANO při jejich zveřejnění, což vytváří otázky ohledně politického zneužití armádních informací, ale dosud jde o návrh na řízení, nikoli o výsledek. Single source (iROZHLAS), severity ponechána na 2. Sekundárně se dotýká G4 (transparentnost a bezpečnostní informace).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z",
+    "expires_at": "2026-08-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-060",
+    "date": "2026-05-15",
+    "headline": "Vláda představila akcelerační zóny pro OZE bez konzultace s obcemi a odborníky",
+    "summary": "Vláda v pátek zveřejnila návrh akceleračních zón pro zjednodušené povolování obnovitelných zdrojů energie, aniž by předem konzultovala dotčené obce nebo odborníky. Svaz měst a obcí ČR kritizuje absenci dialogu — starostové jsou překvapeni zařazením jejich území do zón. Jde o pochybení v rámci standardního připomínkového a konzultačního procesu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Akcelerační zóny pro větrníky nebyly diskutovány s obcemi ani s odborníky, kritizuje Svaz měst a obcí",
+        "url": "https://www.irozhlas.cz/zpravy-domov/akceleracni-zony-pro-vetrniky-nebyly-diskutovany-s-obcemi-ani-s-odborniky_2605160010_dci",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-16T07:00:37.246Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — vláda zveřejnila návrh zásadní prostorové regulace bez konzultace s dotčenými samosprávami, což je porušení standardů transparentního vládnutí (subkomponenta G2: kvalita legislativy, standardní připomínkové řízení). Dopad je prozatím omezený — jde o fázi návrhu, nikoli přijatého předpisu, a existuje veřejné projednání (viz index 4). Bez eskalace na 3, protože událost neopakuje prokázaný vzorec a institucionální poškození je dosud minimální.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z",
+    "expires_at": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-061",
+    "date": "2026-05-15",
+    "headline": "Připomínkové řízení k návrhu přesunu financování ČT a ČRo do státního rozpočtu odhalilo zásadní chyby",
+    "summary": "K návrhu ministerstva kultury na převod financování České televize a Českého rozhlasu ze systému koncesionářských poplatků pod státní rozpočet se sešlo téměř tři stovky připomínek. Ministerstva v meziresortním připomínkovém řízení vytýkají předloze nejasnosti, legislativní chyby i absenci odůvodnění záměru. Ministr Klempíř avizuje úpravy, opozice považuje zákon za neopravitelný.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Na tři stovky připomínek se sešlo ke změně financování veřejnoprávních médií",
+        "url": "https://ct24.ceskatelevize.cz/clanek/media/na-tri-stovky-pripominek-se-seslo-ke-zmene-financovani-verejnopravnich-medii-373495",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-16T07:00:37.536Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh na přesun financování ČT a ČRo pod státní rozpočet je strukturální hrozba pro nezávislost veřejnoprávních médií (subkomponenta M2: nezávislost ČT a ČRo, financování). Zákon je ve fázi připomínkového řízení (neschválen), proto nikoliv severity 4, ale precedentní charakter záměru a rozsah negativních připomínek (včetně rezortních ministerstev) odůvodňuje severity 3. Duration persistent, protože legislativní proces bude pokračovat. Sekundárně se dotýká pilíře governance (G2 — kvalita legislativy).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z"
+  },
+  {
+    "id": "2026-W20-062",
+    "date": "2026-05-15",
+    "headline": "Veřejné projednání akceleračních zón pro OZE proběhlo za silné kritiky veřejnosti",
+    "summary": "Ministerští úředníci představili na veřejném projednání návrh akceleračních zón pro obnovitelné zdroje energie, který drtivá většina přítomných odmítala. Akce s několika stovkami účastníků trvala téměř 12 hodin a proběhla bez vážnějších incidentů, debata však byla emocionálně nabitá. Jde o součást širšího procesu, v němž vláda čelí kritice za nedostatečnou předchozí konzultaci s obcemi.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zástupci resortů představovali návrh akceleračních zón. Jednání narušili kritici",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zastupci-resortu-predstavovali-navrh-akceleracnich-zon-jednani-narusili-kritici-373475",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-16T07:00:37.536Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — samotné konání veřejného projednání je standardní součástí legislativního procesu (subkomponenta G2) a nepředstavuje porušení normy. Průběh setkání byl bouřlivý, ale bez excesů a bez institucionálního dopadu. Událost dokládá existenci veřejné diskuse, nikoli její potlačení — direction 0, protože projednání samo o sobě je neutrálním procesním krokem. Kontext nedostatečné předchozí konzultace je zaznamenán v indexu 0.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z",
+    "expires_at": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-063",
+    "date": "2026-05-15",
+    "headline": "Česko podpořilo vznik zvláštního tribunálu pro ruskou agresi v Kišiněvě",
+    "summary": "Na dvoudenní schůzce ministrů Rady Evropy v moldavském Kišiněvě se Česká republika připojila k 35 dalším zemím, které se zavázaly podpořit zřízení zvláštního tribunálu pro zločin ruské agrese proti Ukrajině. Českou delegaci vedl ministr zahraničí Petr Macinka.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Česko a dalších 35 zemí podpořilo v Kišiněvě tribunál pro ruské zločiny",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/cesko-a-dalsich-35-zemi-podporilo-v-kisineve-tribunal-pro-ruske-zlociny-373470",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-16T07:00:37.536Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o potvrzení diplomatického závazku, který Česko deklarovalo již v Reykjavíku v roce 2023; nová institucionální hodnota je minimální. Subkomponenta G3 (stabilita ústavních norem a respekt k mezinárodnímu právu) je mírně posílena mezinárodním závazkem, ale dopad na domácí demokratické instituce je zanedbatelný. Směr +1, protože Česko posiluje multilaterální mechanismus právního státu. Anti-bias: stejně bych hodnotil závazek jakékoli jiné vlády.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z",
+    "expires_at": "2026-08-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-064",
+    "date": "2026-05-15",
+    "headline": "Sněmovna schválila novelu rozpočtových pravidel vyjímající obranné výdaje z výdajových rámců do roku 2036",
+    "summary": "Koaliční poslanci přijali novelu, podle níž výdaje na obranu přesahující dvě procenta HDP nebudou započítávány do schválených výdajových rámců státního rozpočtu až do roku 2036. Opozice považuje novelu za protiústavní a avizuje podnět k Ústavnímu soudu, neboť podle ní narušuje pravidla fiskální odpovědnosti.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Koaliční poslanci schválili kontroverzní rozpočtovou novelu. Opozice se chce obrátit na Ústavní soud",
+        "url": "https://domaci.hn.cz/c1-67877450-koalicni-poslanci-schvalili-kontroverzni-rozpoctovou-novelu-opozice-se-chce-obratit-na-ustavni-soud",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-16T07:00:40.674Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — schválení novely ve sněmovně vytváří precedent trvalého vyjmutí části výdajů ze zákonných rozpočtových rámců, čímž oslabuje parlamentní kontrolu nad veřejnými financemi (subkomponenta G1 — dělba moci, kontrola exekutivy). Opozice plánuje ústavní stížnost, což naznačuje spornost ústavní konformity. Jde o schválenou normu s trvalým dopadem (persistent), nikoli jednorázový incident. Sekundárně se dotýká G2 (kvalita legislativy). Anti-bias: stejnou závažnost bych přidělil, pokud by obdobnou výjimku prosadila jakákoli jiná koalice.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z"
+  },
+  {
+    "id": "2026-W20-065",
+    "date": "2026-05-15",
+    "headline": "Kladno nasadilo čínské drony pro městskou policii navzdory bezpečnostním varováním odborníků",
+    "summary": "Město Kladno pořídilo pro městskou policii drony čínské výroby, přestože odborníci upozorňují na rizika sběru strategických dat čínskou technologií. Podcast Odposlech mapuje napětí mezi bezpečností veřejného prostoru a ochranou soukromí občanů i potenciálními bezpečnostními riziky plynoucími z technologií ze zemí s odlišným právním řádem.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Podcast Odposlech: Čínské drony nad Kladnem. Bezpečnější město nebo bezpečnostní riziko a zásah do soukromí?",
+        "url": "https://www.investigace.cz/podcast-odposlech-cinske-drony-nad-kladnem-bezpecnejsi-mesto-nebo-bezpecnostni-riziko-a-zasah-do-soukromi/",
+        "outlet": "Investigace.cz",
+        "fetched_at": "2026-05-16T07:00:41.842Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — lokální incident s omezeným dopadem, ale dotýká se subkomponenty C5 (práva v digitálním prostoru, ochrana před sledováním státem). Nasazení čínských dronů obcí představuje konkrétní kroky, které odborníci hodnotí jako potenciální bezpečnostní a soukromí riziko, avšak jde o jedno město bez celostátního precedentu. Zdroj je podcast/investigace, nikoli formální rozhodnutí s celostátním dopadem — single source pravidlo udržuje severity na 2. Sekundárně se dotýká národní bezpečnosti (NÚKIB dimenze pilíře K4), zmíněno v rationale.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z"
+  },
+  {
+    "id": "2026-W20-066",
+    "date": "2026-05-16",
+    "headline": "24 institucí v připomínkovém řízení odmítlo mediální novelu ministra Klempíře pro obavy o nezávislost",
+    "summary": "Mediální novela ministra kultury Oty Klempíře prošla meziresortním připomínkovacím řízením, v němž 24 institucí na desítkách stran vzneslo závažné námitky. Opakujícím se tématem jsou obavy o nepřipravenost návrhu a ohrožení nezávislosti médií. Novela zatím nebyla schválena.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Úřady ztrhaly Klempířův návrh. Vyvolává obavy o nezávislost, shodují se",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-urady-ztrhaly-klempiruv-navrh-vyvolava-obavy-o-nezavislost-shoduji-se-306284",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-16T07:00:42.719Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh zákona měnící mediální prostředí je v rané fázi (předložen, neschválen), ale rozsah odmítnutí (24 institucí) a povaha námitek (ohrožení nezávislosti) vytváří relevantní precedent a institucionální alarm odpovídající subkomponentě M2 (nezávislost veřejnoprávních médií) a M1 (mediální pluralita). Per rubric §3 příklad: 'Zákon o ČT/ČRo s návrhy, které mění politickou kontrolu nad volbou rad, ale je v rané fázi (předložen, neschválen).' Persistent, protože legislativní proces pokračuje. Single-source (Seznam Zprávy) — pokud by to byl jediný zdroj závažnější události, snížil bych; zde severity 3 je konzistentní s tím, že jde o proces, nikoli schválený zákon.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z"
+  },
+  {
+    "id": "2026-W20-067",
+    "date": "2026-05-16",
+    "headline": "Macinka jmenoval náměstkem ministra synovce poslankyně Vesecké",
+    "summary": "Ministr spravedlnosti Macinka jmenoval náměstkem Adama Šimici, začínajícího advokáta a synovce poslankyně Renaty Vesecké (Motoristé), která jeho jmenování veřejně chválila. Rodinná vazba nebyla při jmenování zveřejněna.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Je mi to ukradené.“ Macinka udělal náměstkem ministra synovce Vesecké",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-macinka-v-tichosti-udelal-namestkem-ministra-synovce-vesecke-306247",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-16T07:00:42.719Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — jmenování příbuzného poslankyně vládní strany na vysokou funkci ministerstva bez zveřejnění rodinné vazby naplňuje subkomponentu K1 (střet zájmů ústavních a vrcholných činitelů, zneužívání postavení pro osobní prospěch v širším slova smyslu). Macinkovo jednání vytváří precedent pro netransparentní klientelistické personální obsazování. Sekundárně se dotýká G4 (transparentnost vládnutí). Single source — bez dalšího potvrzení nelze escalovat na 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z",
+    "expires_at": "2026-08-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-069",
+    "date": "2026-05-11",
+    "headline": "Ministr zahraničí Macinka naznačil hrozby bavorskému premiérovi kvůli účasti na sudetoněmeckém sjezdu",
+    "summary": "Český ministr zahraničí Petr Macinka pohrozil bavorskému premiéru Söderovi a německému ministru vnitra Dobrandtovi, že jejich návštěva Brna při příležitosti sudetoněmeckého sjezdu nebude příjemná, aniž by upřesnil, jaká opatření má na mysli. Söder přesto potvrdil svou účast na sjezdu. Případ vyvolal diplomatické napětí mezi ČR a Bavorskem.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Bavarian Leader Confirms Visit To Brno Sudeten Congress Despite Veiled Threats From Macinka",
+        "url": "https://brnodaily.com/2026/05/11/brno/bavarian-leader-confirms-visit-to-brno-sudeten-congress-despite-veiled-threats-from-macinka/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-05-16T07:00:56.828Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — verbální hrozby ministra zahraničí vůči zahraničním politikům ohledně jejich účasti na soukromé akci jsou konkrétní porušení normy s omezeným dopadem (subkomponenta C2 — svoboda shromažďování; sekundárně governance G1). Hrozby zůstávají zatím bez konkrétního institucionálního následku a Söder svou účast potvrdil, takže dopad je omezený. Eskalace na 3 by byla na místě, pokud by hrozby byly konkretizovány nebo vykonány. Anti-bias check: stejné hodnocení by platilo pro ministra jakékoliv jiné politické orientace při podobném výroku.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-16T07:00:36.274Z",
+    "expires_at": "2026-08-03T00:00:00.000Z"
   }
 ]

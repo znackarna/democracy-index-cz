@@ -17,7 +17,7 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS potvrzující procesní povinnosti orgánů v konkrétní kauze má omezený institucionální dopad, ale vytváří precedent pro podobné případy (subkomponenta J4 — rovnost před zákonem a ochrana zranitelných). Směr +1: soud korigoval selhání orgánů činných v trestním řízení a posílil ochranu práv. Křížově relevantní pro subkomponentu C4 (ochrana menšin, zranitelné skupiny). Single source, žádný prokazatelný vzorec systémového selhání — proto severity 2, nikoli 3.",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS potvrzující procesní povinnosti orgánů v konkrétní kauze má omezený institucionální dopad, ale vytváří precedent pro podobné případy (subkomponenta J4 — rovnost před zákonem a ochrana zranitelných). Směr +1: soud korigoval selhání orgánů činných v trestním řízení a posílil ochranu práv. Křížově relevantní pro subkomponentu C4 (ochrana menšin, zranitelné skupiny). Single source, žádný prokazatelný vzorec systémového selhání — proto severity 2, nikoli 3.\n\n[merged with 2026-W15-002 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-14T07:17:53.342Z",
