@@ -1962,5 +1962,29 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-13T07:21:30.081Z"
+  },
+  {
+    "id": "2026-W19-094",
+    "date": "2026-05-06",
+    "headline": "ÚS: obecné soudy porušily právo na soudní ochranu svévolným výkladem práva (II. ÚS 98/26)",
+    "summary": "Ústavní soud ve věci II. ÚS 98/26 vyhověl ústavní stížnosti a konstatoval, že obecné soudy porušily zákaz svévole a právo účastníka na soudní ochranu dle čl. 36 odst. 1 Listiny tím, že podústavní právo vyložily svévolným způsobem. Nález potvrzuje roli ÚS jako korektivu obecného soudnictví v individuálních věcech.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Souhrn nálezů vyhlášených v 18. týdnu roku 2026",
+        "url": "https://www.usoud.cz/aktualne/souhrn-nalezu-vyhlasenych-v-18-tydnu-roku-2026",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-05-17T07:14:02.697Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní nález ÚS v individuální ústavní stížnosti bez systémového dopadu na institucionální uspořádání. Subkomponenta J2 (nezávislost a kontrola obecných soudů) je posílena tím, že ÚS plní svou korektivní funkci, direction +1. Žádný prvek backslidingu ani precedentní novosti — jedná se o rutinní výkon kontrolní funkce ÚS.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-17T07:13:48.863Z",
+    "expires_at": "2026-07-29T00:00:00.000Z"
   }
 ]

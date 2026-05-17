@@ -1574,5 +1574,104 @@
     "status": "active",
     "created_at": "2026-05-16T07:00:36.274Z",
     "expires_at": "2026-08-03T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W20-070",
+    "date": "2026-05-17",
+    "headline": "Advokátní komora prověřuje postup soudkyně v kauze Rožek kvůli údajnému omezení práva na obhajobu",
+    "summary": "Česká advokátní komora prošetřuje chování soudkyně Jany Miklové v trestní kauze Davida Rožka, přičemž obhájci tvrdí, že obžalovaný čelil nepřiměřeným zásahům do práva na obhajobu. Ministerstvo spravedlnosti pochybení odmítlo, avšak komora v prověřování pokračuje i po smrti odsouzeného.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Posun nástupu do nemocnice i ztížené kladení dotazů. Postup soudkyně prověřuje advokátní komora",
+        "url": "https://www.irozhlas.cz/zpravy-domov/pravni-bitva-pokracuje-i-po-smrti-obzalovaneho-ministerstvo-i-cak-resi-spor_2605170500_mst",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-17T07:13:49.709Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 – jde o konkrétní prověřování postupu individuální soudkyně s omezeným dopadem na instituci jako celek; zatím není doložen systémový vzorec, jde o izolovaný případ. Subkomponenta J2 (nezávislost obecných soudů, kárné řízení a ochrana spravedlivého procesu) – spor se týká procedurální spravedlnosti v konkrétní kauze, nikoli politického tlaku na soudnictví. Ministerstvo pochybení odmítlo, což snižuje závažnost; Advokátní komora pokračuje v prověřování, proto 'persistent'. Anti-bias check: stejnou závažnost bych přiřadil bez ohledu na politický kontext kauzy.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-17T07:13:48.863Z"
+  },
+  {
+    "id": "2026-W20-071",
+    "date": "2026-05-16",
+    "headline": "Ministr Klempíř avizuje rychlé prosazení zákona o financování veřejnoprávních médií navzdory stovkám připomínek",
+    "summary": "Ministr kultury Klempíř veřejně deklaroval odhodlání co nejrychleji prosadit zákon o médiích veřejné služby, který mění jejich financování. K návrhu bylo podáno přibližně tři sta připomínek a ministerstva poukázala na legislativní nedostatky, přesto koalice avizuje urychlené schválení.",
+    "pillar": "media",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Klempíř počítá s prosazením zákona o veřejnoprávních médiích",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/klempir-pocita-s-prosazenim-zakona-o-verejnopravnich-mediich-373508",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-17T07:13:50.041Z"
+      },
+      {
+        "title": "Klempíř počítá s prosazením zákona o médiích, podle něj bude obrovsky rychlé",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-klempir-pocita-s-prosazenim-zakona-o-mediich-podle-nej-bude-obrovsky-rychle-306326",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-17T07:13:54.932Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — legislativní návrh měnící financování ČT a ČRo je v aktivní parlamentní fázi (předložen, dosud neschválen), což odpovídá příkladu ze severity 3: 'Zákon o ČT/ČRo s návrhy, které mění politickou kontrolu... ale je v rané fázi (předložen, neschválen).' Subkomponenta M2 (nezávislost ČT a ČRo — financování koncesionářskými poplatky, ochrana před politickým tlakem). Zjevný záměr urychlit proces navzdory rozsáhlým připomínkám a identifikovaným legislativním chybám zesiluje riziko; +1 eskalace by přicházela v úvahu, pokud zákon projde schválením. Sekundárně G2 (kvalita legislativy — přiměřené připomínkové řízení).\n\n[merged with 2026-W20-074 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-05-17T07:13:48.863Z"
+  },
+  {
+    "id": "2026-W20-072",
+    "date": "2026-05-15",
+    "headline": "Koalice prosadila novelu umožňující navyšovat výdaje na obranu nad schválené rámce rozpočtu",
+    "summary": "Koaliční poslanci během mimořádné sněmovní schůze schválili novelu rozpočtových pravidel, která výdajům na obranu přesahujícím dvě procenta HDP umožňuje nepočítat se do výdajových limitů platných do roku 2036. Stejné pravidlo se má vztahovat i na výdaje na strategickou infrastrukturu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Hosté Událostí, komentářů se přeli o změně rozpočtových pravidel a obranné politice",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/hoste-udalosti-komentaru-se-preli-o-zmene-rozpoctovych-pravidel-a-obranne-politice-373498",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-17T07:13:50.041Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní legislativní změnu s institucionálním dopadem, avšak omezeného charakteru: výjimka z rozpočtových rámců pro obranné výdaje je ve světovém i evropském kontextu poměrně běžnou mimořádnou reakcí na bezpečnostní potřeby a sama o sobě neohrožuje klíčovou instituci. Subkomponenta G2 (kvalita legislativy) — norma prošla mimořádnou schůzí, přičemž je sporná; G1 (dělba moci) je dotčena jen okrajově. Pokud by se výjimky staly trvalým nástrojem rozšiřování exekutivní fiskální volnosti mimo parlamentní kontrolu, bylo by na místě přehodnotit na 3. Antibilasová kontrola: stejnou závažnost bych přiřadil bez ohledu na stranické složení koalice.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-17T07:13:48.863Z"
+  },
+  {
+    "id": "2026-W20-073",
+    "date": "2026-05-12",
+    "headline": "Soudní dvůr EU: Itálie mohla přikázat Metě odškodnit vydavatele za použití mediálního obsahu",
+    "summary": "Soudní dvůr EU rozhodl, že italský regulátor AGCOM byl oprávněn nařídit společnosti Meta odškodnění vydavatelů za využívání úryvků jejich článků. Rozsudek se netýká přímo ČR, ale vytváří precedent pro výklad práv vydavatelů vůči platformám v celé EU, včetně českých médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Průlom? Itálie má právo nařídit Metě odškodnit média za používání jejich obsahu, rozhodl Soudní dvůr Evropské unie",
+        "url": "https://archiv.hn.cz/c1-67875890-prulom-italie-ma-pravo-naridit-mete-odskodnit-media-za-pouzivani-jejich-obsahu-rozhodl-soudni-dvur-evropske-unie",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-17T07:13:52.701Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — rozsudek SDEU potvrzuje právo národních regulátorů vymáhat odměnu pro vydavatele od velkých platforem (subkomponenta M1 — mediální pluralita a ekonomická životaschopnost vydavatelů). Dopad na ČR je nepřímý a zprostředkovaný přes unijní precedent, nikoliv přímý zásah do českých institucí. Směr +1, protože rozhodnutí posiluje ekonomickou pozici vydavatelů médií vůči dominantním platformám. Anti-bias: stejné hodnocení by platilo pro analogický rozsudek zahrnující jakoukoliv jinou platformu či členský stát.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-17T07:13:48.863Z",
+    "expires_at": "2026-08-04T00:00:00.000Z"
   }
 ]
