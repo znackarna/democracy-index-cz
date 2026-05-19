@@ -14,7 +14,14 @@ export function getDefaultClient(): Anthropic {
       'ANTHROPIC_API_KEY is not set. Set it in .env or your shell before running pipeline modules.',
     );
   }
-  _defaultClient = new Anthropic({ apiKey });
+  // maxRetries: 5 (default 2) — survives the typical 30–60 s Anthropic
+  // capacity spike that returns HTTP 529 "Overloaded". The SDK retries
+  // on 408/409/429/5xx with exponential backoff, so this gives us
+  // roughly 30 s of patience before the pipeline gives up — well within
+  // the 30 min workflow timeout. Tradeoff: a persistent outage delays
+  // the failure signal by a couple of minutes, which we accept because
+  // most overloads clear within seconds.
+  _defaultClient = new Anthropic({ apiKey, maxRetries: 5 });
   return _defaultClient;
 }
 
