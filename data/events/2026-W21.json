@@ -205,10 +205,16 @@
         "url": "https://denikn.cz/2067297/zmocnenkyne-pro-lidska-prava-ztraci-smysl-babis-nahle-zrusil-zasadni-agendu-zaskocil-i-sve-lidi/",
         "outlet": "Deník N",
         "fetched_at": "2026-05-19T08:06:25.769Z"
+      },
+      {
+        "title": "Pointa N: Česko bez médií a lidských práv",
+        "url": "https://denikn.cz/2068358/pointa-n-cesko-bez-medii-a-lidskych-prav/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-20T07:31:26.249Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 4 per rubric §4 — zrušení celé agendy úřadu zmocněnkyně pro lidská práva je přímý a trvalý zásah do institucionální ochrany práv (subkomponenta C4, ochrana menšin a mechanismů ochrany práv). Jednání vlády je formální akt (usnesení vlády), nikoli pouhý záměr, což dle kalibračního pravidla eskalace (+1 za existenci formálního dokumentu) potvrzuje severity 4. Sekundárně se dotýká pilíře governance (G1, oslabení kontrolních mechanismů exekutivy).\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "rationale": "Severity 4 per rubric §4 — zrušení celé agendy úřadu zmocněnkyně pro lidská práva je přímý a trvalý zásah do institucionální ochrany práv (subkomponenta C4, ochrana menšin a mechanismů ochrany práv). Jednání vlády je formální akt (usnesení vlády), nikoli pouhý záměr, což dle kalibračního pravidla eskalace (+1 za existenci formálního dokumentu) potvrzuje severity 4. Sekundárně se dotýká pilíře governance (G1, oslabení kontrolních mechanismů exekutivy).\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]\n\n[merged with 2026-W21-022 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-19T08:06:25.753Z"
@@ -358,12 +364,18 @@
         "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ct-pripominkovala-zakon-o-mediich-vadi-ji-mimo-jine-nizky-rozpocet-306453",
         "outlet": "Seznam Zprávy",
         "fetched_at": "2026-05-19T08:06:32.346Z"
+      },
+      {
+        "title": "Klempíř má přepracovat zákon o veřejnoprávních médiích. Obsahuje nedostatky a vytváří nové problémy, vadí ministerstvu financí",
+        "url": "https://domaci.hn.cz/c1-67878410-klempir-ma-prepracovat-zakon-o-verejnopravnich-mediich-obsahuje-nedostatky-a-vytvari-nove-problemy-vadi-ministerstvu-financi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-20T07:31:28.580Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — ČT formálně identifikuje konkrétní strukturální nedostatky v návrhu zákona (financování, definice veřejné služby, regionální studia), které by mohly oslabit subkomponentu M2 (nezávislost ČT a ČRo, financování). Samotné podání připomínek je součástí standardního legislativního procesu, ale obsah výhrad naznačuje, že návrh může ohrozit institucionální stabilitu ČT. Zákon zatím není schválen, proto se neaplikuje eskalace za formální dokument (+1 dle kalibrace); persistent, protože legislativní proces pokračuje. Sekundárně: subkomponenta G2 (kvalita legislativy — připomínkové řízení).\n\n[merged with 2026-W21-022 — same incident, sources combined]",
+    "rationale": "Severity 2 per rubric §2 — ČT formálně identifikuje konkrétní strukturální nedostatky v návrhu zákona (financování, definice veřejné služby, regionální studia), které by mohly oslabit subkomponentu M2 (nezávislost ČT a ČRo, financování). Samotné podání připomínek je součástí standardního legislativního procesu, ale obsah výhrad naznačuje, že návrh může ohrozit institucionální stabilitu ČT. Zákon zatím není schválen, proto se neaplikuje eskalace za formální dokument (+1 dle kalibrace); persistent, protože legislativní proces pokračuje. Sekundárně: subkomponenta G2 (kvalita legislativy — připomínkové řízení).\n\n[merged with 2026-W21-022 — same incident, sources combined]\n\n[merged with 2026-W21-033 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-05-19T08:06:25.753Z"
   },
   {
@@ -396,7 +408,7 @@
     "headline": "Vláda schválila nového náčelníka generálního štábu, Hlaváč nahradí Řehku",
     "summary": "Vláda schválila jmenování Miroslava Hlaváče novým náčelníkem generálního štábu. Ministr obrany Zůna byl jediným členem vlády, který hlasoval proti. Jde o standardní personální rozhodnutí v rámci ústavní pravomoci vlády.",
     "pillar": "governance",
-    "severity": 1,
+    "severity": 3,
     "direction": 0,
     "duration": "one_off",
     "sources": [
@@ -405,12 +417,24 @@
         "url": "https://domaci.hn.cz/c1-67877910-novym-sefem-armady-by-se-mel-stat-miroslav-hlavac-schvalila-vlada-zuna-jako-jediny-ministr-hlasoval-proti",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-05-19T08:06:29.473Z"
+      },
+      {
+        "title": "„Otevřel třináctou komnatu.“ Babišův tah generálem oživil starou Zůnovu ránu",
+        "url": "https://zpravy.aktualne.cz/domaci/babis-znovu-obesel-hrad-necekany-tah-generalem-ale-rozladil-i-jeho-ministra/r~aaa293b558caa612326d49c3f572f205/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-05-20T07:31:29.347Z"
+      },
+      {
+        "title": "Spor o nového šéfa armády. Babiš přetlačil Zůnu, ten mluvil o rezignaci",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-spor-o-noveho-sefa-armady-babis-pretlacil-zunu-ten-mluvil-o-rezignaci-306507",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-20T07:31:30.574Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 1 per rubric §1 — personální rozhodnutí v rámci standardní pravomoci vlády (subkomponenta G1), bez narušení ústavního procesu. Skutečnost, že jeden ministr hlasoval proti, je projevem normálního fungování kolegiálního orgánu, nikoli signálem dysfunkce. Žádný precedent ani institucionální dopad mimo běžnou správu. Direction 0 — ambivalentní, jde o rutinní jmenování bez jasně demokratického dopadu.",
+    "rationale": "Severity 1 per rubric §1 — personální rozhodnutí v rámci standardní pravomoci vlády (subkomponenta G1), bez narušení ústavního procesu. Skutečnost, že jeden ministr hlasoval proti, je projevem normálního fungování kolegiálního orgánu, nikoli signálem dysfunkce. Žádný precedent ani institucionální dopad mimo běžnou správu. Direction 0 — ambivalentní, jde o rutinní jmenování bez jasně demokratického dopadu.\n\n[merged with 2026-W21-034 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-05-19T08:06:25.753Z",
     "expires_at": "2026-08-10T00:00:00.000Z"
   },
@@ -484,6 +508,313 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-19T08:06:25.753Z",
+    "expires_at": "2026-08-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-023",
+    "date": "2026-05-19",
+    "headline": "Ministerstvo kultury zadržuje dotaci spolku Světova 1 s odvoláním na extremismus",
+    "summary": "Pražský spolek Světova 1 jako jediný z žadatelů dosud neobdržel přiznanou dotaci od Ministerstva kultury. Resort se odvolává na předběžnou opatrnost a možné vazby na extremismus, spolek naopak hovoří o politickém tlaku a cenzuře. Případ nastoluje otázku, zda stát nezneužívá dotační mechanismy k tlaku na občanskou společnost.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pražský prostor Světova 1 čeká na dotaci. Ministerstvo mluví o extremismu, spolek o cenzuře",
+        "url": "https://denikn.cz/2067829/prazsky-prostor-svetova-1-ceka-na-dotaci-ministerstvo-mluvi-o-extremismu-spolek-o-cenzure/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-20T07:31:26.249Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — selektivní zadržování dotace konkrétnímu spolku s vágním odůvodněním (\"možné vazby na extremismus\" bez upřesnění) vytváří precedent pro administrativní šikanu občanské společnosti (subkomponenta C3 — svoboda sdružování, ochrana NGO před administrativním nátlakem). Případ je single-source a zatím jde o jeden incident bez prokázaného vzorce, proto nepřekračuje severity 3. Pokud by se potvrdilo systematické cílení na podobné subjekty, eskalace na 4 per rubric eskalační pravidlo (≥3 podobné incidenty).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z",
+    "expires_at": "2026-08-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-024",
+    "date": "2026-05-19",
+    "headline": "Ministerstvo financí kritizuje Klempířův návrh na zrušení mediálních poplatků a žádá přepracování",
+    "summary": "Ministerstvo financí se jako poslední z vládních resortů vyjádřilo kriticky k návrhu poslance Klempíře na zrušení poplatků financujících ČT a Český rozhlas. Úřad konstatuje závažné nedostatky a riziko nových problémů. Ani odborná konzultantka, s níž pracoval premiér, nepovažuje návrh za dostatečně připravený.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Klempíř pod palbou: Jeho návrh k médiím kritizuje i Schillerové rezort, žádá přepracování",
+        "url": "https://denikn.cz/2035835/klempir-pod-palbou-navrh-na-zruseni-poplatku-za-ct-a-rozhlas-kritizuje-i-schillerove-rezort-zada-prepracovani/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-20T07:31:26.249Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh na zrušení mediálních poplatků je v rané legislativní fázi (předložen, dosud neschválen), ale ohrožuje finanční základ nezávislosti ČT a ČRo (subkomponenta M2 — nezávislost veřejnoprávních médií, financování). Dle rubric §3: \"Zákon o ČT/ČRo s návrhy, které mění politickou kontrolu nad volbou rad, ale je v rané fázi (předložen, neschválen)\" — přímá analogie. Kritika ze strany ministerstva financí a odborné expertky fakticky brzdí postup návrhu, avšak ten stále existuje jako hrozba. Duration je persistent, protože legislativní proces probíhá. Sekundárně relevantní pilíř governance (G2 — kvalita legislativy, připomínkové řízení).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z"
+  },
+  {
+    "id": "2026-W21-025",
+    "date": "2026-05-19",
+    "headline": "Asistent poslance Turka doprovázel Babiše na obchodní misi do Střední Asie jako podnikatel",
+    "summary": "Poslanecký asistent Filipa Turka Karel Luxík se účastnil premiérovy obchodní delegace do Ázerbájdžánu, Kazachstánu a Uzbekistánu v podnikatelské roli. Prolínání funkce placené z veřejných prostředků s komerčními aktivitami v rámci vládní mise vyvolává otázky ohledně střetu zájmů.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Babiše do Asie doprovázel Turkův asistent. V roli podnikatele",
+        "url": "https://denikn.cz/2067056/babise-do-asie-doprovazel-turkuv-asistent-v-roli-podnikatele/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-20T07:31:26.249Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní personální incident s potenciálním střetem zájmů (subkomponenta K1), ale s omezeným prokázaným institucionálním dopadem. Poslanecký asistent není ústavní činitel, dopad je lokální. Jeden zdroj, absence prokázaného přímého obohacení nebo politického rozhodnutí — source-count rule brání eskalaci na 3. Sekundárně se dotýká subkomponenty G4 (transparentnost vládnutí), neboť obchodní delegace je vládní aktivitou.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z",
+    "expires_at": "2026-08-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-026",
+    "date": "2026-05-19",
+    "headline": "Babišovy kliniky FutureLife čerpají rostoucí podíl veřejného zdravotního pojištění",
+    "summary": "Investigativní analýza Deníku N mapuje přesun byznysu klinik stále formálně vlastněných Andrejem Babišem směrem k výkonům hrazeným z veřejného zdravotního pojištění. Data naznačují systematický nárůst veřejných prostředků plynoucích do skupiny FutureLife v době, kdy Babiš vykonává funkci premiéra.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babišovy kliniky přitahuje zdravotní pojištění. Data ukazují, kam teče nejvíce peněz",
+        "url": "https://denikn.cz/2066826/babisovy-kliniky-pritahuje-zdravotni-pojisteni-data-ukazuji-kam-tece-nejvice-penez/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-20T07:31:26.249Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — jde o reportáž dokládající datovým rozborem strukturální tok veřejných peněz do firem politicky exponované osoby (subkomponenta K1 — střet zájmů ústavního činitele). Vytváří precedent pro veřejnou debatu o střetu zájmů premiéra. Klasifikováno jako persistent, protože se jedná o probíhající stav, nikoli jednorázový incident. Jeden hlavní zdroj (Deník N), proto se pohybuji na dolní hranici severity 3 — bez dalšího potvrzení brání eskalaci na 4. Sekundárně relevantní pro G4 (transparentnost vládnutí).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z"
+  },
+  {
+    "id": "2026-W21-027",
+    "date": "2026-05-20",
+    "headline": "Ústecký soud projednává rehabilitaci chartisty Petra Švestky odsouzeného v roce 1980",
+    "summary": "Okresní soud v Ústí nad Labem projednává návrh na soudní rehabilitaci Petra Švestky, chartisty odsouzeného v roce 1980 k 20 měsícům vězení formálně za distribuci konopí. Podle advokáta šlo ve skutečnosti o politickou perzekuci ze strany StB. Rehabilitační řízení testuje funkčnost mechanismů nápravy historických křivd komunistické justice.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Trest za distribuci konopí byl možná jen záminka StB. Ústecký soud rozhodne o rehabilitaci Petra Švestky",
+        "url": "https://www.irozhlas.cz/zpravy-domov/trest-za-distribuci-konopi-byl-mozna-jen-zaminka-stb-ustecky-soud-rozhodne-o_2605200855_zko",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-20T07:31:27.171Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní soudní řízení s omezeným, ale zaznamenatelným institucionálním dopadem (subkomponenta J4: rovnost před zákonem a náprava historických selhání justice). Kladný směr: rehabilitační řízení jako takové je projevem fungujícího právního státu a nápravy historických křivd. Nejde o strukturální otázku dnešní nezávislosti soudů, ale o historické reckoning, které stojí za zaznamenání.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z",
+    "expires_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-028",
+    "date": "2026-05-20",
+    "headline": "Ředitel DPP Urbánek opět svědčí v kauze Dozimetr u soudu",
+    "summary": "Obvodní soud pro Prahu 9 pokračoval v projednávání korupční kauzy Dozimetr výslechem ředitele pražského dopravního podniku Ladislava Urbánka. Předchozí jednání v březnu se neuskutečnilo z důvodu absence náhradní přísedící. Urbánek před soudem uvedl, že obžalovaní neměli v DPP rozhodující slovo.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "‚Obžalovaní neměli v dopravním podniku rozhodující slovo.‘ O kauze Dozimetr svědčí šéf DPP Urbánek",
+        "url": "https://www.irozhlas.cz/zpravy-domov/augustin-nebyl-jeho-salek-kavy-o-kauze-dozimetr-ma-svedcit-sef-dopravniho_2605200800_mst",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-20T07:31:27.171Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — probíhající soudní projednávání korupční kauzy Dozimetr je průběžný incident v rámci většího strukturálního případu (subkomponenta K1: politická korupce a zneužívání veřejných zdrojů). Jako samostatná procesní událost (výslech svědka, přesunutý termín) má omezenou okamžitou závažnost. Persistent, protože kauza stále probíhá. Kierunek -1 pro oslabení institucí skrze pokračující expozici korupce ve veřejné správě.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z"
+  },
+  {
+    "id": "2026-W21-029",
+    "date": "2026-05-19",
+    "headline": "Agrofertím firmám obnovena podpora z PGRLF po jmenování Babiše premiérem",
+    "summary": "Podpůrný a garanční rolnický a lesnický fond (PGRLF) obnovil administraci žádostí o finanční podporu firmám holdingu Agrofert poté, co byly od Babišova jmenování premiérem v prosinci 2025 pozastaveny. Babiš mezitím vložil akcie Agrofertu do svěřenského fondu jako opatření proti střetu zájmů. Obnovení administrace nastalo automaticky po formálním splnění podmínek.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Podpůrný fond obnovuje administraci žádostí o podporu firmám z Agrofertu",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/podpurny-fond-obnovuje-administraci-zadosti-o-podporu-firmam-z-agrofertu-373609",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-20T07:31:27.434Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní rozhodnutí instituce s přímou vazbou na subkomponentu K1 (střet zájmů ústavního činitele) a K2 (transparentnost veřejné podpory). Pozastavení žádostí bylo správnou protikorupční praxí; jejich obnovení po formálním vložení akcií do svěřenského fondu je procesně obhajitelné, ale samotný mechanismus svěřenského fondu jako ochrany před střetem zájmů Babiše byl opakovaně zpochybňován (viz dřívější kauzy z EU a EK). Situace nezakládá zjevné institucionální selhání, ale zaslouží zaznamenání jako precedent. Single source (ČT24), proto nesplněna podmínka pro vyšší severity. Sekundárně relevantní pro pilíř governance (G4 — transparentnost). Anti-bias check: stejný postup bych hodnotil identicky pro jakéhokoli jiného politika s holdingem v podobné situaci.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z",
+    "expires_at": "2026-08-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-030",
+    "date": "2026-05-18",
+    "headline": "Vláda Andreje Babiše přesunula lidskoprávní a protidrogovou agendu z Úřadu vlády pod ministerstva",
+    "summary": "Vládní kabinet Andreje Babiše schválil přesunutí lidskoprávní a protidrogové agendy ze svého úřadu pod různá ministerstva. Rozhodnutí přišlo nečekaně i pro vlastní koalici a den poté zástupci kabinetu přijetí kroku obhajovali na interní schůzce. Reorganizace oslabuje koordinační kapacitu Úřadu vlády v oblastech lidských práv a drogové politiky.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babišova pravá ruka úřaduje. Popisujeme, jak vypadala schůzka, kde obhajovala rušení klíčových agend",
+        "url": "https://archiv.hn.cz/c1-67878890-babisova-prava-ruka-uraduje-popisujeme-jak-vypadala-schuzka-kde-obhajovala-ruseni-klicovych-agend",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-20T07:31:28.580Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — přesun klíčových agend (lidskoprávní, protidrogová) z Úřadu vlády pod jednotlivá ministerstva je institucionální reorganizace s precedentním charakterem snižující meziresortní koordinaci; subkomponenta G1 (dělba moci a funkční koordinace exekutivy) a G4 (transparentnost vládnutí). Nečekanost kroku i pro koaliční partnery naznačuje deficit standardního připomínkového řízení (G2). Zdroj pouze HN — single source, ale popis konkrétního vládního usnesení snižuje nejistotu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z"
+  },
+  {
+    "id": "2026-W21-031",
+    "date": "2026-05-12",
+    "headline": "Poslanci vládní koalice vyzvali ke zrušení Sudetoněmeckých dnů v Brně",
+    "summary": "Poslanci vládních stran minulý týden vyzvali k zrušení Sudetoněmeckých dnů plánovaných na tento víkend v Brně, přičemž akci označili za \"provokaci\". Organizátoři přesto akci plánují uskutečnit. Výzva poslanců ke zrušení legálně povoleného shromáždění vzbuzuje otázky ohledně respektu ke svobodě shromažďování.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Šířit nenávist umí každý idiot, ale smíření je těžká práce na celé generace, říká Bernd Posselt",
+        "url": "https://archiv.hn.cz/c1-67878390-sirit-nenavist-umi-kazdy-idiot-ale-smireni-je-tezka-prace-na-cele-generace-rika-bernd-posselt",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-20T07:31:28.580Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o výzvu (nikoli právní krok) ze strany koaličních poslanců ke zrušení legálně povolené akce; subkomponenta C2 (svoboda shromažďování) a C3 (svoboda sdružování). Výzva bez exekutivního rozměru a bez doložených konkrétních právních důsledků nepřekračuje úroveň 2. Událost nemá institucionální dopad nad rámec verbálního politického tlaku. Anti-bias check: stejné hodnocení bych přiřadil opozičním poslancům, kteří by podobně vyzývali ke zrušení akce organizace blízké vládě.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z",
+    "expires_at": "2026-08-04T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-032",
+    "date": "2026-05-19",
+    "headline": "Pavel Bém odvolán z funkce národního protidrogového koordinátora",
+    "summary": "Pavel Bém, bývalý primátor Prahy a odborník na protidrogovou politiku, končí jako národní koordinátor pro protidrogovou politiku na Úřadu vlády. Mluvčí Úřadu vlády potvrdila, že se od 1. června jeho role mění. Jde o součást personálních změn na Úřadu vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Čistky na Úřadu vlády zasáhly i Pavla Béma. Končí jako protidrogový koordinátor",
+        "url": "https://domaci.hn.cz/c1-67878460-cistky-na-uradu-vlady-zasahly-i-pavla-bema-konci-kanci-jako-protidrogovy-koordinator",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-20T07:31:28.580Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni státní správy (subkomponenta G1) bez zřejmého kaskádového institucionálního efektu. Odvolání odborného koordinátora v rámci vládních čistek zasluhuje zaznamenání, ale samo o sobě neohrožuje chod instituce. Bez znalosti přesných důvodů odvolání nelze posoudit hloubku politické motivace; single-source pravidlo (tři interní zdroje, ale stále tentýž okruh) neumožňuje eskalaci na 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z",
+    "expires_at": "2026-08-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-036",
+    "date": "2026-05-20",
+    "headline": "Obvinění exministři Blažek a Stanjura neodevzdali služební elektroniku po odchodu z úřadu",
+    "summary": "Exministr Pavel Blažek a jeho náměstek Radomír Daňhel, obvinění v bitcoinové kauze, nevrátili veškerou služební elektroniku při odchodu z funkcí. Totéž se týká bývalého ministra financí Zbyňka Stanjury. Situace komplikuje vyšetřování korupční kauzy.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Obviněný exministr Blažek a jeho náměstek nevrátili služební elektroniku",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-obvineny-exministr-blazek-a-jeho-namestek-nevratili-sluzebni-elektroniku-306437",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-20T07:31:30.574Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — nevrácení služební elektroniky osobami obviněnými v korupční kauze (subkomponenta K1: politická korupce, odpovědnost ústavních činitelů) vytváří precedent pro maření nebo ztěžování vyšetřování. Týká se více aktérů zároveň, přičemž jedna z dotčených osob je exministr financí, tedy ústavní činitel. Sekundárně se dotýká J3 (nezávislost vyšetřování). Single-source reportáž, ale událost je fakticky konkrétní a datovaná. Anti-bias check: aplikoval bych stejné hodnocení bez ohledu na stranickou příslušnost obviněných.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z",
+    "expires_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-037",
+    "date": "2026-05-19",
+    "headline": "Ministerstvo zahraničí hájí zahraniční vysílání ČRo, přestože mu samo letos seškrtalo financování",
+    "summary": "Ministerstvo zahraničí v připomínkách k návrhu zákona o veřejnoprávních médiích deklaruje podporu zahraničnímu vysílání Českého rozhlasu, zatímco ministr Macinka v únoru 2026 avizoval odebrání příspěvku na tuto část vysílání. Jde o interní rozpornost vládní politiky vůči veřejnoprávním médiím.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Macinkův úřad hájí zahraniční vysílání ČRo. Sám mu letos seškrtal peníze",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-macinkuv-urad-haji-zahranicni-vysilani-cro-sam-mu-letos-seskrtal-penize-306532",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-20T07:31:30.574Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — rozporný postup jednoho ministerstva (subkomponenta M2: nezávislost ČRo, financování) je konkrétním dokladem nestabilní vládní politiky vůči veřejnoprávním médiím. Samo o sobě nepředstavuje přímé ohrožení redakční nezávislosti, ale dokumentuje politicky podmíněné finance, které mohou mít nepřímý tlakový efekt. Označeno jako persistent, protože financování zahraniční služby je trvající strukturální otázka, nikoli jednorázový incident. Anti-bias check: hodnotím institucionální dopad, ne politickou orientaci.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z"
+  },
+  {
+    "id": "2026-W21-038",
+    "date": "2026-05-19",
+    "headline": "Ústavní soud rozhodl o standardech předběžných opatření v případech domácího násilí",
+    "summary": "Ústavní soud vydal nález v případu stěžovatelky, která po fyzickém konfliktu s exmanželem žádala o předběžné opatření u Okresního soudu v Mělníku. Případ se týká ochrany před domácím násilím v kontextu střídavé péče o tři nezletilé děti. Nález upřesňuje standardy, podle nichž soudy rozhodují o předběžných opatřeních v těchto věcech.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Rozhodování o nařízení předběžného opatření ve věcech ochrany proti domácímu násilí",
+        "url": "https://www.usoud.cz/aktualne/rozhodovani-o-narizeni-predbezneho-opatreni-ve-vecech-ochrany-proti-domacimu-nasili",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-05-20T07:31:39.661Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní nálezovou činnost ÚS v individuální věci bez systémového dopadu na nezávislost justice či institucionální uspořádání (subkomponenta J1, J4). Nález upřesňuje aplikaci existujícího práva a posiluje ochranu osob ohrožených domácím násilím (směr +1: posiluje rovnost před zákonem dle J4). Nejedná se o strukturální ani precedentní změnu institucionálního prostředí; nejde o politicky motivované rozhodnutí ani zásah do nezávislosti soudů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-20T07:31:26.234Z",
     "expires_at": "2026-08-11T00:00:00.000Z"
   }
 ]
