@@ -311,12 +311,18 @@
         "url": "https://www.irozhlas.cz/zpravy-domov/starosta-prahy-9-portlik-a-muz-ktery-mel-hledat-stenice-o-dozimetru-maji-mluvit_2605190800_mst",
         "outlet": "iROZHLAS",
         "fetched_at": "2026-05-19T08:06:27.480Z"
+      },
+      {
+        "title": "Hlubučkův partner svědčí o kauze Dozimetr. Soudce se ho ptá na majetek i převod bytů",
+        "url": "https://www.irozhlas.cz/zpravy-domov/hlubuckuv-partner-ma-svedcit-o-kauze-dozimetr-lobbista-redl-paru-podle-obzaloby_2605210800_mst",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-21T07:35:30.405Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 2 per rubric §2 — svědecká výpověď v probíhajícím trestním řízení je konkrétní datovatelná procesní událost, avšak bez přímého dopadu na institucionální fungování. Primárně judicial (J4 — rovnost před zákonem, kauza politicky exponované osoby), sekundárně corruption (K1). Směr 0: jde o standardní průběh soudního řízení, jehož výsledek není znám — nelze hodnotit jako oslabení ani posílení.",
+    "rationale": "Severity 2 per rubric §2 — svědecká výpověď v probíhajícím trestním řízení je konkrétní datovatelná procesní událost, avšak bez přímého dopadu na institucionální fungování. Primárně judicial (J4 — rovnost před zákonem, kauza politicky exponované osoby), sekundárně corruption (K1). Směr 0: jde o standardní průběh soudního řízení, jehož výsledek není znám — nelze hodnotit jako oslabení ani posílení.\n\n[merged with 2026-W21-041 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-05-19T08:06:25.753Z",
     "expires_at": "2026-08-11T00:00:00.000Z"
   },
@@ -501,10 +507,16 @@
         "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-mrazova-neuvedla-penize-v-majetkovem-priznani-po-dotazech-zmenila-vysvetleni-306211",
         "outlet": "Seznam Zprávy",
         "fetched_at": "2026-05-19T08:06:32.346Z"
+      },
+      {
+        "title": "Další trable ministryně Mrázové. Nepřiznaná půjčka a fotografie z drahých dovolených, v ANO se čeká jen na jednu věc",
+        "url": "https://archiv.hn.cz/c1-67879370-dalsi-trable-ministryne-mrazove-nepriznana-pujcka-a-fotografie-z-drahych-dovolenych-v-ano-se-ceka-jen-na-jednu-vec",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-21T07:35:33.477Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — nepřiznání půlmilionové půjčky v majetkovém přiznání ministryně představuje konkrétní porušení zákonné povinnosti (subkomponenta K1 — střet zájmů a transparentnost ústavních činitelů). Rubric §4 uvádí jako příklad severity 4 situaci, kdy premiér nepřizná aktiva v hodnotě desítek milionů; zde jde o nižší částku a ministerský, nikoli premiérský post, proto severity 3. Změna vysvětlení po dotazech zvyšuje institucionální relevanci, ale bez doložení úmyslu nebo vyšší částky nelze eskalovat na 4. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — nepřiznání půlmilionové půjčky v majetkovém přiznání ministryně představuje konkrétní porušení zákonné povinnosti (subkomponenta K1 — střet zájmů a transparentnost ústavních činitelů). Rubric §4 uvádí jako příklad severity 4 situaci, kdy premiér nepřizná aktiva v hodnotě desítek milionů; zde jde o nižší částku a ministerský, nikoli premiérský post, proto severity 3. Změna vysvětlení po dotazech zvyšuje institucionální relevanci, ale bez doložení úmyslu nebo vyšší částky nelze eskalovat na 4. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W21-046 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-19T08:06:25.753Z",
@@ -690,10 +702,16 @@
         "url": "https://archiv.hn.cz/c1-67878890-babisova-prava-ruka-uraduje-popisujeme-jak-vypadala-schuzka-kde-obhajovala-ruseni-klicovych-agend",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-05-20T07:31:28.580Z"
+      },
+      {
+        "title": "‚Ptejte se paní Tünde.‘ Vládní špičky žehlí následky utajovaných přesunů z Úřadu vlády na ministerstva",
+        "url": "https://www.irozhlas.cz/zpravy-domov/ptejte-se-pani-tunde-vladni-spicky-zehli-nasledky-utajovanych-presunu-z-uradu_2605210640_jgr",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-21T07:35:30.405Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — přesun klíčových agend (lidskoprávní, protidrogová) z Úřadu vlády pod jednotlivá ministerstva je institucionální reorganizace s precedentním charakterem snižující meziresortní koordinaci; subkomponenta G1 (dělba moci a funkční koordinace exekutivy) a G4 (transparentnost vládnutí). Nečekanost kroku i pro koaliční partnery naznačuje deficit standardního připomínkového řízení (G2). Zdroj pouze HN — single source, ale popis konkrétního vládního usnesení snižuje nejistotu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — přesun klíčových agend (lidskoprávní, protidrogová) z Úřadu vlády pod jednotlivá ministerstva je institucionální reorganizace s precedentním charakterem snižující meziresortní koordinaci; subkomponenta G1 (dělba moci a funkční koordinace exekutivy) a G4 (transparentnost vládnutí). Nečekanost kroku i pro koaliční partnery naznačuje deficit standardního připomínkového řízení (G2). Zdroj pouze HN — single source, ale popis konkrétního vládního usnesení snižuje nejistotu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W21-043 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-20T07:31:26.234Z"
@@ -816,5 +834,211 @@
     "status": "active",
     "created_at": "2026-05-20T07:31:26.234Z",
     "expires_at": "2026-08-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-039",
+    "date": "2026-05-20",
+    "headline": "Bradáčová požaduje přísnější trest pro žalobkyni Lastoveckou za mediální vyjádření v bitcoinové kauze",
+    "summary": "Nejvyšší státní zástupkyně Lenka Bradáčová se postavila proti mírnému potrestání žalobkyně Petry Lastovecké, která po svém odvolání z bitcoinové kauzy poskytla médiím kritický rozhovor. Bradáčová považuje výtku za nedostatečný trest, přestože sama je v kauze zmiňována. Případ nastoluje otázku, zda kárný postih slouží k ochraně integrity řízení, nebo k umlčení interní kritiky.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Ohrozila účel trestního řízení.“ Bradáčová chce kvůli rozhovoru tvrdší trest pro žalobkyni z kauzy bitcoin",
+        "url": "https://denikn.cz/2069810/bradacova-chce-tvrdsi-trest-pro-zalobkyni-z-kauzy-bitcoin-vadi-ji-jak-mluvila-v-mediich/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-21T07:35:29.148Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — subkomponenta J3 (nezávislost státního zastupitelství): Situace, kdy NSZ usiluje o přísnější postih žalobkyně za veřejné vyjádření v kauze, kde sama NSZ figuruje jako aktérka, vytváří precedent pro omezování hlasů kritizujících vedení prokuratury. Případ má institucionální dopad na důvěru v nestrannost kárného řízení uvnitř SZ. Není schválena strukturální změna (to by bylo 4), jde o konkrétní procesní krok s precedentním rozměrem. Sekundárně se dotýká subkomponenty M3 (právní šikana novinářského zdroje jako důsledek rozhovoru).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-21T07:35:29.133Z",
+    "expires_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-040",
+    "date": "2026-05-20",
+    "headline": "Ministryně Mrázová vysvětluje luxusní zahraniční dovolené tvrzením, že je hradila sestra",
+    "summary": "Ministryně pro místní rozvoj Zuzana Mrázová čelí otázkám ohledně rozporu mezi deklarovanou finanční tísní a fotografiemi z cest do Japonska, USA a Brazílie. Jako vysvětlení uvedla, že nákladné dovolené platila sestra. Případ navazuje na dřívější spor o využívání zvýhodněného městského bytu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Drahé dovolené prý platila sestra. Ministryně Mrázová vysvětluje, jak hradila luxusní pobyty",
+        "url": "https://denikn.cz/2069590/drahe-dovolene-pry-platila-sestra-ministryne-mrazova-vysvetluje-jak-hradila-luxusni-pobyty/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-21T07:35:29.148Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — subkomponenta K1 (střet zájmů a transparentnost ústavních činitelů): Zjištěný rozpor mezi veřejnými výroky ministryně o finanční situaci a doloženými výdaji na zahraniční cesty je politicky relevantní incident. Ministryně podává vysvětlení, případ je zatím bez formálního kárného nebo trestního procesu. Nejde o prokázané nepřiznání majetku v majetkovém přiznání (to by bylo 4), ale o nedůvěryhodné tvrzení veřejného činitele dokumentované fotografiemi. Single source, záležitost je ve fázi novinářského dotazování bez institucionální reakce — proto severity 2, nikoli 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-21T07:35:29.133Z",
+    "expires_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-042",
+    "date": "2026-05-21",
+    "headline": "Francouzská prokuratura očekává rozhodnutí o stíhání Babiše do konce roku",
+    "summary": "Francouzská Národní finanční prokuratura (PNF) uvedla, že do konce roku 2026 rozhodne o možném stíhání premiéra Andreje Babiše za podezření z praní špinavých peněz a daňových úniků spojených s realitní transakcí v Francii. Vyšetřování trvalo čtyři roky. Babiš jakékoli provinění popírá.",
+    "pillar": "corruption",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Francouzská prokuratura do konce roku rozhodne o stíhání Babiše. Podezřívá ho z daňových úniků",
+        "url": "https://www.irozhlas.cz/zpravy-svet/francouzska-prokuratura-do-konce-roku-rozhodne-o-stihani-babise-podezriva-ho-z_2605210730_jva",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-05-21T07:35:30.405Z"
+      },
+      {
+        "title": "Francouzská prokuratura očekává rozhodnutí ohledně stíhání Babiše do konce roku",
+        "url": "https://www.seznamzpravy.cz/clanek/zahranicni-francouzska-prokuratura-ocekava-rozhodnuti-ohledne-stihani-babise-do-konce-roku-306666",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-21T07:35:36.494Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — jde o formální vyjádření cizí prokuratury o blížícím se rozhodnutí ohledně stíhání ústavního činitele (premiéra) pro podezření z praní peněz a daňových úniků, což se dotýká subkomponenty K1 (politická korupce, střet zájmů ústavních činitelů). Samo o sobě nejde o podání obžaloby ani o rozsudek, proto ne severity 4. Single source (ČTK přes iROZHLAS), ale informaci potvrzuje přímo mluvčí PNF — důvěryhodný primární zdroj. Sekundárně se dotýká pilíře governance (důvěryhodnost premiéra). Anti-bias: stejnou závažnost bych přiřadil jakémukoli jinému premiérovi v analogické situaci.\n\n[merged with 2026-W21-052 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-05-21T07:35:29.133Z"
+  },
+  {
+    "id": "2026-W21-044",
+    "date": "2026-05-20",
+    "headline": "Česko jako jediný stát EU se zdrželo hlasování o klimatické rezoluci OSN",
+    "summary": "Při středečním hlasování Valného shromáždění OSN o rezoluci týkající se právní odpovědnosti států za klimatické závazky se Česká republika jako jediný člen EU zdržela. Rezoluce navazovala na loňské stanovisko Mezinárodního soudního dvora. Stanovisko ICJ není právně závazné, ale je považováno za přelomové.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Česko v OSN jako jediné z EU nesouhlasilo s klimatickou rezolucí",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/cesko-se-zdrzelo-v-hlasovani-o-rezoluci-vs-osn-o-pravnim-zavazku-v-ochrane-klimatu-373681",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-21T07:35:30.750Z"
+      },
+      {
+        "title": "Česko nepodpořilo klimatickou rezoluci OSN. Jako jediná země EU",
+        "url": "https://zahranicni.hn.cz/c1-67879910-cesko-nepodporilo-klimatickou-rezoluci-osn-jako-jedina-zeme-eu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-21T07:35:33.477Z"
+      },
+      {
+        "title": "Česko se zdrželo v hlasování o rezoluci OSN o právním závazku v ochraně klimatu",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-cesko-se-zdrzelo-v-hlasovani-o-rezoluci-osn-o-pravnim-zavazku-v-ochrane-klimatu-306667",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-21T07:35:36.494Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — zdržení se v hlasování VS OSN je výkonem suverénní zahraniční politiky, nikoli porušením demokratické normy ani ústavního procesu. Dotýká se vzdáleně subkomponenty G1 (fungování exekutivy v mezinárodním kontextu), avšak bez přímého institucionálního dopadu na vnitřní demokratické mechanismy ČR. Ojedinělé stanovisko v rámci EU je politicky pozoruhodné, ale nesplňuje kritéria vyšší severity dle rubric §2+. Direction 0, protože mezinárodní hlasování o nezávazné rezoluci nemá jednoznačně demokraticky pozitivní ani negativní institucionální dopad pro ČR.\n\n[merged with 2026-W21-045 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W21-051 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-05-21T07:35:29.133Z",
+    "expires_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-047",
+    "date": "2026-05-20",
+    "headline": "IPI vyzývá Okamuru, aby usměrnil Rajchlovy útoky na novináře",
+    "summary": "Česká pobočka Mezinárodního tiskového institutu zaslala otevřený dopis předsedovi sněmovny Tomiu Okamurovi a požaduje, aby vyzval Jindřicha Rajchla k omluvě za opakované útoky na novináře. Institut označuje Rajchlovo chování za překračující přijatelnou mez.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Rajchlovy útoky na média jsou přes míru, píše novinářský institut. Okamuru žádá, aby šéfa PRO usměrnil",
+        "url": "https://domaci.hn.cz/c1-67879110-rajchlovy-utoky-na-media-jsou-pres-miru-pise-novinarsky-institut-okamuru-zada-aby-sefa-pro-usmernil",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-21T07:35:33.477Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — reakce mezinárodní novinářské organizace na útoky politika na novináře je zaznamenaníhodná (subkomponenta M3 — bezpečnost novinářů, právní a verbální šikana), ale samotný otevřený dopis IPI bez dalšího institucionálního dopadu nepřekračuje hranici severity 3. Rajchlovy výroky samy o sobě jsou opakované (eskalační faktor), avšak bez konkrétní SLAPP žaloby nebo hrozby. Pokud by útoky pokračovaly nebo eskalovaly do právní šikany, severity by se zvýšila na 3+. Anti-bias check: stejné hodnocení pro politika jakékoli strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-21T07:35:29.133Z",
+    "expires_at": "2026-08-12T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-048",
+    "date": "2026-05-20",
+    "headline": "Protidrogový tým přesounut z Úřadu vlády pod ministerstvo zdravotnictví; koordinátor varuje před fentanylovou krizí",
+    "summary": "Odborný tým národní protidrogové politiky byl převeden z Úřadu vlády pod ministerstvo zdravotnictví, čímž podle odcházejícího koordinátora Pavla Béma dochází k oslabení koordinační kapacity a hrozí zvýšené riziko fentanylové krize nebo epidemie nových syntetických drog. Bém situaci komentuje jako potenciálně mezinárodně kompromitující krok.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "V zahraničí budeme za osly. Hrozí fentanylová krize, varuje Bém po rozprášení protidrogového týmu z Úřadu vlády",
+        "url": "https://domaci.hn.cz/c1-67879080-v-zahranici-budeme-za-osly-hrozi-fentanylova-krize-varuje-bem-po-rozpraseni-protidrogoveho-tymu-z-uradu-vlady",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-21T07:35:33.477Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o reorganizaci státní správy s potenciálním negativním dopadem na institucionální kapacitu (subkomponenta G1, G4), ale bez přímého narušení demokratických institucí nebo ústavního procesu. Kritika pochází primárně od odcházejícího úředníka, nikoli z nezávislého zdroje. Pokud by se prokázal politicky motivovaný záměr oslabit konkrétní kontrolní mechanismus, severity by eskalovala na 3. Anti-bias check: stejné hodnocení pro reorganizaci za jakékoli vlády.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-21T07:35:29.133Z"
+  },
+  {
+    "id": "2026-W21-049",
+    "date": "2026-05-21",
+    "headline": "Spor Pavla a Babiše o vedení delegace na VS OSN: vláda mlčí na prezidentův záměr",
+    "summary": "Prezident Pavel trvá na tom, že by měl vést českou delegaci na Valné shromáždění OSN v New Yorku, zatímco Babišova vláda na dotazy k věci nereaguje. Vzniká tak napětí ohledně ústavní dělby zahraničně-politických pravomocí mezi hlavou státu a exekutivou. Spor naznačuje přetrvávající konflikt o kompetence v zahraniční politice.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Rýsuje se další výbušný spor s Babišem. Hrad trvá na klíčové cestě do USA, vláda mlčí",
+        "url": "https://zpravy.aktualne.cz/domaci/pavel-trva-na-klicove-ceste-do-usa-babisova-vlada-mlci-prezident-jednu-akci-vynecha/r~aaa29affec05c1d84e0d2c7bd8383ff5/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-05-21T07:35:34.681Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o politicky motivovaný spor o kompetence v zahraniční politice (subkomponenta G1: dělba moci, reálná kontrola a vymezení exekutivních rolí), ale zatím bez formálního rozhodnutí či eskalace do ústavní krize. Vláda zatím pouze mlčí, nepřijala žádné konkrétní opatření, a celá věc je reportována z jediného zdroje. Pokud by vláda aktivně zablokovala prezidentovu cestu, závažnost by eskalovala na 3–4 (subkomponenta G3 — stabilita ústavních norem, resp. precedent v dělbě zahraničněpolitických pravomocí). Sekundárně se dotýká pilíře electoral (otázka legitimity mandátu prezidenta vs. vládnoucí garnitury).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-21T07:35:29.133Z"
+  },
+  {
+    "id": "2026-W21-050",
+    "date": "2026-05-21",
+    "headline": "Psychiatrička napojená na Babiše obsazuje vysoké státní posty",
+    "summary": "Dita Protopopová, lékařka která v minulosti pomáhala Andreji Babišovi s jeho synem, postupně získává vlivné pozice ve státní správě. Článek naznačuje, že kariérní postup může souviset s osobní vděčností premiéra, nikoli s odbornou způsobilostí.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babiš je jí vděčný. Kdo je lékařka Protopopová, která sbírá posty",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-pomohla-mu-se-synem-babis-je-ji-vdecny-kdo-je-lekarka-ktera-sbira-posty-306578",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-21T07:35:36.494Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — personální obsazování státní správy na základě osobní loajality k premiérovi místo zásluh je subkomponenta K1 (politická korupce, střet zájmů ústavního činitele). Jde o vzorec průběžného klientelismu s precedentním dopadem. Severity nesnižuji, protože jde o opakovanou akumulaci postů, nikoli jednorázový akt; severity neeskaluji na 4, protože nejde o prokázané zneužití pravomoci ale o znepokojivý vzorec. Single-source → váhám mezi 2 a 3, ale personální klientelismus na více pozicích opravňuje 3. Sekundárně se dotýká G1 (dělba moci, výkonná moc bez dostatečné kontroly).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-21T07:35:29.133Z"
   }
 ]
