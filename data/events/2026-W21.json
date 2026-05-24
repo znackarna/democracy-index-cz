@@ -963,10 +963,16 @@
         "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-cesko-se-zdrzelo-v-hlasovani-o-rezoluci-osn-o-pravnim-zavazku-v-ochrane-klimatu-306667",
         "outlet": "Seznam Zprávy",
         "fetched_at": "2026-05-21T07:35:36.494Z"
+      },
+      {
+        "title": "Česko nepodpořilo klimatickou rezoluci OSN. Jako jediná země EU",
+        "url": "https://archiv.hn.cz/c1-67879910-cesko-nepodporilo-klimatickou-rezoluci-osn-jako-jedina-zeme-eu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-24T07:20:45.310Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 1 per rubric §1 — zdržení se v hlasování VS OSN je výkonem suverénní zahraniční politiky, nikoli porušením demokratické normy ani ústavního procesu. Dotýká se vzdáleně subkomponenty G1 (fungování exekutivy v mezinárodním kontextu), avšak bez přímého institucionálního dopadu na vnitřní demokratické mechanismy ČR. Ojedinělé stanovisko v rámci EU je politicky pozoruhodné, ale nesplňuje kritéria vyšší severity dle rubric §2+. Direction 0, protože mezinárodní hlasování o nezávazné rezoluci nemá jednoznačně demokraticky pozitivní ani negativní institucionální dopad pro ČR.\n\n[merged with 2026-W21-045 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W21-051 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 1 per rubric §1 — zdržení se v hlasování VS OSN je výkonem suverénní zahraniční politiky, nikoli porušením demokratické normy ani ústavního procesu. Dotýká se vzdáleně subkomponenty G1 (fungování exekutivy v mezinárodním kontextu), avšak bez přímého institucionálního dopadu na vnitřní demokratické mechanismy ČR. Ojedinělé stanovisko v rámci EU je politicky pozoruhodné, ale nesplňuje kritéria vyšší severity dle rubric §2+. Direction 0, protože mezinárodní hlasování o nezávazné rezoluci nemá jednoznačně demokraticky pozitivní ani negativní institucionální dopad pro ČR.\n\n[merged with 2026-W21-045 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W21-051 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W21-069 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-05-21T07:35:29.133Z",
@@ -1151,10 +1157,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/stat-zvazuje-prodej-vyrobce-vybusnin-explosia-rekl-babis-373740",
         "outlet": "ČT24",
         "fetched_at": "2026-05-23T07:10:03.498Z"
+      },
+      {
+        "title": "Vláda zvažuje prodej Explosie, výnos může být extrémní, řekl Babiš. Peníze chce použít na splnění závazku vůči NATO",
+        "url": "https://byznys.hn.cz/c1-67880950-stat-by-mohl-prodat-explosii-rekl-babis-ocekava-velmi-vysoky-vynos",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-24T07:20:45.310Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 1 per rubric §1 — jde o verbální oznámení záměru bez konkrétního rozhodnutí, legislativního aktu ani formálního procesu (subkomponenta G4 — transparentnost vládnutí). Prodej státního majetku je standardní vládní činností, žádná demokratická instituce není ohrožena. Direction 0: ambivalentní hospodářské rozhodnutí bez jasného institucionálního dopadu na demokracii.",
+    "rationale": "Severity 1 per rubric §1 — jde o verbální oznámení záměru bez konkrétního rozhodnutí, legislativního aktu ani formálního procesu (subkomponenta G4 — transparentnost vládnutí). Prodej státního majetku je standardní vládní činností, žádná demokratická instituce není ohrožena. Direction 0: ambivalentní hospodářské rozhodnutí bez jasného institucionálního dopadu na demokracii.\n\n[merged with 2026-W21-066 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-23T07:10:01.530Z",
@@ -1253,5 +1265,148 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-23T07:10:01.530Z"
+  },
+  {
+    "id": "2026-W21-063",
+    "date": "2026-05-23",
+    "headline": "Sněmovna projednává zákon proti SLAPP žalobám, Česko se zpožďuje za EU",
+    "summary": "V Poslanecké sněmovně leží návrh zákona, který by měl zvýšit ochranu novinářů a aktivistů před šikanózními žalobami (SLAPP). Česko implementuje příslušnou unijní směrnici s výrazným zpožděním, přičemž počet takovýchto žalob v Evropě i v ČR roste.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Cílem je zastrašit a umlčet kritiky.“ Šikanózních žalob přibývá, český zákon proti nim se zpožďuje",
+        "url": "https://denikn.cz/2062346/cilem-je-zastrasit-a-umlcet-kritiky-sikanoznich-zalob-v-evrope-pribyva-cesky-zakon-proti-nim-se-zpozduje/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-24T07:20:41.347Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — legislativní zpoždění při implementaci protiSLAPP ochrany je drobný systémový nedostatek s dopadem na subkomponentu M3 (bezpečnost novinářů, ochrana před právní šikanou). Samotný fakt, že návrh leží ve Sněmovně, není strukturálním selháním, ale zpoždění oproti unijním závazkům a přibývající případy SLAPP žalob v ČR tvoří znepokojivý trend. Sekundárně relevantní C1 (svoboda projevu). Direction -1, protože absence ochrany oslabuje mediální prostředí, i když zákon ještě nebyl zamítnut.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-24T07:20:41.330Z"
+  },
+  {
+    "id": "2026-W21-064",
+    "date": "2026-05-24",
+    "headline": "Vláda navrhuje odložit nový informační systém správy voleb a upravit zákon o hlasovacích lístcích",
+    "summary": "Vláda prosazuje odložení nového informačního systému správy voleb, který byl plánován na podzimní senátní a komunální volby. Odložení si vyžaduje rychlou změnu volebního zákona, která se dotýká i podoby hlasovacích lístků. Změna přichází těsně před plánovatelnými volbami.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vláda prosazuje odklad některých změn souvisejících s volbami",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-prosazuje-odklad-nekterych-zmen-souvisejicich-s-volbami-373781",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-24T07:20:42.878Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — odložení informačního systému správy voleb těsně před podzimními volbami je konkrétní procedurální selhání s omezeným, ale zaznamenaníhodným dopadem na volební infrastrukturu (subkomponenta E3). Nutná změna zákona v krátkém termínu naznačuje nepřipravenost, avšak bez jasné politické motivace k manipulaci výsledků. Nepřekračuje do severity 3, protože jde o logistické odložení bez precedentního charakteru pro integritu voleb.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-24T07:20:41.330Z",
+    "expires_at": "2026-08-16T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-065",
+    "date": "2026-05-23",
+    "headline": "Ministr školství jednal s rektory o kontroverzní reformě vysokoškolské samosprávy",
+    "summary": "Ministr školství Plaga se sešel s předsedou České konference rektorů, aby probral návrh nového zákona o vysokých školách. Rada vysokých škol odmítá navrhovaný model s novou univerzitní radou jako faktickou likvidaci akademické samosprávy a krok k politizaci. Ministr naproti tomu trvá na tom, že návrh obsahuje pojistky proti přímému politickému ovlivňování.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Plaga s Pospíšilem probrali chystané změny v zákoně o vysokých školách",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/plaga-s-pospisilem-probrali-chystane-zmeny-v-zakone-o-vysokych-skolach-373766",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-24T07:20:42.878Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — návrh je v rané fázi (projednání, nikoli schválení) a jde o spor o výklad pojistek. Dotýká se svobody sdružování a akademické samosprávy (subkomponenta C3 — ochrana před administrativní šikanou institucí), sekundárně governance (G1). Bez hlasování nebo formálního schválení nelze klasifikovat výše. Pokud zákon projde v navrhované podobě navzdory odporu Rady vysokých škol, severity eskaluje na 3–4.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-24T07:20:41.330Z",
+    "expires_at": "2026-08-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-067",
+    "date": "2026-05-22",
+    "headline": "Novela mění pravidla pro posuzování švarcsystému, firmy se obávají nejistoty",
+    "summary": "Stát připravuje novelu upravující podmínky práce na IČO, zejména pro pracovníky digitálních platforem. Firmy varují, že nová pravidla mohou dopadat i na běžné externisty a živnostníky a přinést právní nejistotu.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Stát mění pravidla pro posuzování švarcsystému. Slibuje pořádek, firmy se bojí chaosu a nejistoty",
+        "url": "https://archiv.hn.cz/c1-67878300-stat-meni-pravidla-pro-posuzovani-svarcsystemu-slibuje-poradek-firmy-se-boji-chaosu-a-nejistoty",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-24T07:20:45.310Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o legislativní záměr v rané fázi (novela vzniká, nebyla schválena), který se týká regulace trhu práce. Subkomponenta G2 (kvalita legislativy) je okrajově relevantní — obavy firem naznačují nejasnou formulaci připravované normy. Avšak chybí dostatečný institucionální dopad na demokratické procesy; jde o standardní regulatorní agendu. Direction 0: dopady jsou ekonomicko-regulatorní bez jednoznačného demokratického směru. Případná eskalace by nastala, kdyby novela byla schválena s nedostatečným připomínkovým řízením (pak G2, severity 2–3).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-24T07:20:41.330Z",
+    "expires_at": "2026-08-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-068",
+    "date": "2026-05-21",
+    "headline": "Výrobce zámků přišel o dotace po prokázaném podvodu v žádosti o inovace",
+    "summary": "Tradiční výrobce zámků byl donucen vrátit desítky milionů korun z veřejných dotací poté, co vyšlo najevo, že v žádosti nepravdivě tvrdil, že bude vyvíjet inovativní výrobky. Případ navazuje na obdobnou kauzu firmy Penam a ukazuje na opakující se problém zneužívání dotačních programů.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Inovace jen na papíře. Tradiční výrobce zámků přišel o desítky milionů, v dotační žádosti o &bdquo;fabkách&ldquo; lhal",
+        "url": "https://archiv.hn.cz/c1-67880050-inovace-jen-na-papire-tradicni-vyrobce-zamku-prisel-o-desitky-milionu-v-dotacni-zadosti-o-bdquo-fabkach-ldquo-lhal",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-24T07:20:45.310Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní prokázaný případ dotačního podvodu jedné soukromé firmy s omezeným institucionálním dopadem (subkomponenta K2: transparentnost veřejných zakázek a dotačních programů). Nejde o systémové selhání protikorupčních institucí ani o politicky exponovanou osobu, ale o podnikatelský subjekt. Zmínka o předchozím případu (Penam) naznačuje opakující se vzorec, avšak bez doložené systémové návaznosti nestačí na eskalaci na 3. Anti-bias check: stejné hodnocení by bylo aplikováno bez ohledu na identitu firmy.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-24T07:20:41.330Z",
+    "expires_at": "2026-08-13T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-070",
+    "date": "2026-05-23",
+    "headline": "Pochod smíření Čechů a Němců v Brně doprovázen protesty odpůrců",
+    "summary": "Při 21. ročníku Poutě smíření v Brně se shromáždilo přibližně 300 protestujících odpůrců pochodu, kteří slovně napadali účastníky pietní akce. Celkový počet účastníků akce dosáhl přibližně 4 500 osob. Průběh akce byl napjatý, ale neeskaloval do fyzického střetu.",
+    "pillar": "civil",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Nechceme vaše domy, chceme mluvit.“ Tichý pochod a hlasité protesty v Brně",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-nechceme-vase-domy-chceme-mluvit-tichy-pochod-a-hlasite-protesty-v-brne-306866",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-24T07:20:47.655Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — slovní útoky odpůrců na účastníky pietní akce jsou verbální incidenty bez institucionálního dopadu (subkomponenta C2). Svoboda shromažďování obou skupin nebyla státem omezena, policie nezasáhla nevhodným způsobem. Nejde o zásah státu do práv, ale o společenské napětí při pokojné demonstraci, což nepřesahuje úroveň 1. Anti-bias: stejný přístup by byl aplikován na protesty libovolného politického zabarvení.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-24T07:20:41.330Z",
+    "expires_at": "2026-08-15T00:00:00.000Z"
   }
 ]

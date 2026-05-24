@@ -94,5 +94,29 @@
     "status": "active",
     "created_at": "2026-05-23T07:10:01.530Z",
     "expires_at": "2026-06-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W14-005",
+    "date": "2026-04-01",
+    "headline": "ÚS prohlásil části konkordátu s Vatikánem za protiústavní, smlouva nemůže být ratifikována",
+    "summary": "Ústavní soud shledal vybrané články konkordátní smlouvy mezi Českou republikou a Svatým stolcem protiústavními, zejména v rozsahu privilegovaného zpovědního tajemství a přístupu ke kulturnímu dědictví. Smlouva v současné podobě nemůže projít ratifikací. ÚS zároveň konstatoval, že uzavření konkordátu jako takové nenarušuje ústavní neutralitu státu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Konkordát se Svatým stolcem neprošel přezkumem ústavnosti v rozsahu zpovědního tajemství a zpřístupnění kulturního dědictví",
+        "url": "https://www.usoud.cz/aktualne/konkordat-se-svatym-stolcem-neprosel-prezkumem-ustavnosti-v-rozsahu-zpovedniho-tajemstvi-a-zpristupneni-kulturniho-dedictvi",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-05-24T07:20:58.967Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — ÚS vykonává standardní ústavní přezkum smlouvy před ratifikací, čímž posiluje princip ústavnosti a oddělení církve od státu (subkomponenta J1). Nejde o konflikt s exekutivou ani o precedent ohrožující instituci, ale o funkční kontrolní mechanismus. Direction +1, protože ÚS korektně plní svou ústavní roli a zabraňuje ratifikaci smlouvy v rozporu s ústavními hodnotami. Sekundárně relevantní pro pilíř governance (G3 — respekt k ústavním normám), ale kořenovou příčinou je funkce ÚS jako garanta ústavnosti.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-24T07:20:41.330Z",
+    "expires_at": "2026-06-24T00:00:00.000Z"
   }
 ]
