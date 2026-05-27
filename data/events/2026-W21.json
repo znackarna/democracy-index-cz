@@ -1621,5 +1621,29 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-26T07:30:57.446Z"
+  },
+  {
+    "id": "2026-W21-080",
+    "date": "2026-05-23",
+    "headline": "Dva tisíce lidí se zúčastnily Pochodu smíření z Pohořelic do Brna při sudetoněmeckém sjezdu",
+    "summary": "Přibližně dva tisíce lidí se zúčastnily Pochodu smíření připomínajícího odsun brněnských Němců v květnu 1945. Akce se konala souběžně s prvním sjezdem Sudetoněmeckého landsmannschaftu pořádaným v ČR, což jí dodalo mimořádný symbolický rozměr. Šlo o pokojné shromáždění bez incidentů.",
+    "pillar": "civil",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Two Thousand People Join March of Reconciliation From Pohorelice to Brno",
+        "url": "https://brnodaily.com/2026/05/24/brno/two-thousand-people-join-march-of-reconciliation-from-pohorelice-to-brno/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-05-27T07:45:10.922Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — pokojné veřejné shromáždění bez institucionálního narušení, které naopak pozitivně ilustruje fungující svobodu shromažďování (subkomponenta C2) a otevřenost vůči menšinové historické symbolice (C4). Směr +1: akce proběhla bez omezení ze strany státu a demonstruje standardní výkon občanských svobod. Žádný precedent ani institucionální dopad; událost je spíše kulturně-historická než demokraticko-institucionální, avšak jako příklad fungujícího C2/C4 si zaznamenání zaslouží.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-27T07:44:43.522Z",
+    "expires_at": "2026-08-15T00:00:00.000Z"
   }
 ]
