@@ -1017,10 +1017,16 @@
         "url": "https://domaci.hn.cz/c1-67879080-v-zahranici-budeme-za-osly-hrozi-fentanylova-krize-varuje-bem-po-rozpraseni-protidrogoveho-tymu-z-uradu-vlady",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-05-21T07:35:33.477Z"
+      },
+      {
+        "title": "Drogy? No problem! Rozvrat na Úřadu vlády řízeném Babišovou ženou pro všechno Tünde Bartha je horší, než se zdá",
+        "url": "https://podcasty.hn.cz/c1-67880870-drogy-no-problem-rozvrat-na-uradu-vlady-rizenem-babisovou-zenou-pro-vsechno-tunde-bartha-je-horsi-nez-se-zda",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-28T07:40:22.785Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — jde o reorganizaci státní správy s potenciálním negativním dopadem na institucionální kapacitu (subkomponenta G1, G4), ale bez přímého narušení demokratických institucí nebo ústavního procesu. Kritika pochází primárně od odcházejícího úředníka, nikoli z nezávislého zdroje. Pokud by se prokázal politicky motivovaný záměr oslabit konkrétní kontrolní mechanismus, severity by eskalovala na 3. Anti-bias check: stejné hodnocení pro reorganizaci za jakékoli vlády.",
+    "rationale": "Severity 2 per rubric §2 — jde o reorganizaci státní správy s potenciálním negativním dopadem na institucionální kapacitu (subkomponenta G1, G4), ale bez přímého narušení demokratických institucí nebo ústavního procesu. Kritika pochází primárně od odcházejícího úředníka, nikoli z nezávislého zdroje. Pokud by se prokázal politicky motivovaný záměr oslabit konkrétní kontrolní mechanismus, severity by eskalovala na 3. Anti-bias check: stejné hodnocení pro reorganizaci za jakékoli vlády.\n\n[merged with 2026-W21-081 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-21T07:35:29.133Z"
@@ -1645,5 +1651,29 @@
     "status": "active",
     "created_at": "2026-05-27T07:44:43.522Z",
     "expires_at": "2026-08-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W21-082",
+    "date": "2026-05-22",
+    "headline": "Babiš před sudetoněmeckým sjezdem v Brně hraje na nacionalistickou kartu k záchraně koalice",
+    "summary": "Sudetoněmecký sjezd (SdL) se poprvé koná v ČR (Brno, 22.–25. května 2026). Premiér Babiš podle analýzy využívá situaci k nacionalisticky laděné rétorice s cílem upevnit koaliční podporu, přičemž tato strategie má volební i vládní implikace.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Babiš Plays the Nationalist Card to Save His Coalition",
+        "url": "https://visegradinsight.eu/sudeten-german-congress-brno-babis-nationalist/?utm_source=rss&utm_medium=rss&utm_campaign=sudeten-german-congress-brno-babis-nationalist",
+        "outlet": "Visegrad Insight",
+        "fetched_at": "2026-05-28T07:40:42.143Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní politická akce (premiérovo vystoupení/rétorika při sjezdu SdL) s omezeným ale zaznamenatelným dopadem na politický pluralismus a volební kalkulaci (subkomponenta E2). Nejde o institucionální porušení, ale o vědomé využití historicky citlivého tématu ke koaličním účelům, což je hraničně relevantní pro pilíř electoral. Zdroj je analytický text z Visegrad Insight — single source, proto nelze eskalovat výše. Sekundárně relevantní pro governance (G1 — koaliční stabilita).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-14T00:00:00.000Z"
   }
 ]

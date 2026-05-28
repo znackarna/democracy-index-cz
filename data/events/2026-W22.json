@@ -1125,5 +1125,536 @@
     "status": "active",
     "created_at": "2026-05-27T07:44:43.522Z",
     "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-056",
+    "date": "2026-05-27",
+    "headline": "Schůzka odborníků na lidská práva s Babišem bez jasného výsledku, dohoda ještě možná",
+    "summary": "Odborníci sdružení v Radě pro lidská práva se setkali s premiérem Babišem ohledně sporného přesunu agendy lidských práv z Úřadu vlády pod jednotlivá ministerstva. Schůzka nepřinesla jednoznačný závěr, avšak členka rady Monika Šimůnková naznačuje, že prostor pro dohodu stále existuje.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Ještě je prostor pro jednání. Šimůnková z Rady pro lidská práva vidí možnost dohody s Babišem",
+        "url": "https://denikn.cz/2077323/jeste-je-prostor-pro-jednani-simunkova-z-rady-pro-lidska-prava-vidi-moznost-dohody-s-babisem/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-28T07:40:18.605Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — přesun koordinace lidsko-právní agendy mezi institucemi je konkrétní administrativní změna s dopadem na subkomponentu C3 (svoboda sdružování a institucionální zázemí pro ochranu práv), která však zatím není uzavřena a existuje naděje na korekci. Jde o probíhající jednání, nikoli schválené rozhodnutí, takže eskalace na 3 není opodstatněná. Persistent, neboť strukturální otázka přesunu agendy přetrvává.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z"
+  },
+  {
+    "id": "2026-W22-057",
+    "date": "2026-05-27",
+    "headline": "Prezident Pavel rozhodl o odvolání rektorky JAMU po hlasování akademického senátu",
+    "summary": "Prezident Petr Pavel vydal rozhodnutí o odvolání rektorky brněnské Janáčkovy akademie múzických umění poté, co ji v dubnu akademický senát hlasováním odvolal. Ke sporným momentům patřilo mj. sundání ukrajinské vlajky. Na konečné zpečetění čeká ještě podpis premiéra.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Sundání ukrajinské vlajky i ztráta důvěry. Proč náhle končí rektorka JAMU?",
+        "url": "https://denikn.cz/2077064/sundani-ukrajinske-vlajky-i-ztrata-duvery-proc-nahle-konci-rektorka-jamu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-28T07:40:18.605Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — odvolání rektora veřejné vysoké školy je personální zásah s lokálním institucionálním dopadem (subkomponenta G1, dělba moci a autonomie institucí), avšak proběhlo standardním ústavním postupem (akademický senát → prezident → premiér). Nejde o politicky motivovaný zásah exekutivy zvenčí, ale o interní akademický proces s ústavně předvídaným zapojením prezidenta. Direction 0 — výsledek odráží standardní fungování institucionálních mechanismů, nikoli jejich oslabení či posílení.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-058",
+    "date": "2026-05-27",
+    "headline": "Česká republika se připojila k projektu mezinárodního tribunálu pro ruskou agresi",
+    "summary": "Česká republika je jednou z 36 zemí, které podpořily vznik mezinárodního soudního tribunálu pro ruskou agresi na Ukrajině. Projekt je popsán jako převážně evropská iniciativa; Slovensko pod vedením Fica svou účast odmítlo.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Nemůžeme zapomenout, že zemřeli lidé a byla spáchána zvěrstva.“ Vzniká tribunál pro Putina a odpovědné Rusy",
+        "url": "https://denikn.cz/2076538/nemuzeme-zapomenout-ze-zemreli-lide-a-byla-spachana-zverstva-vznika-tribunal-pro-putina-a-odpovedne-rusy/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-28T07:40:18.605Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — připojení k mezinárodní iniciativě je veřejná zahraničně-politická deklarace bez přímého dopadu na domácí demokratické instituce. Subkomponenta G3 (stabilita ústavních norem a mezinárodní závazky) je relevantní, avšak dopad na vnitřní fungování demokracie je minimální. Direction +1 jako signál podpory mezinárodního právního řádu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-059",
+    "date": "2026-05-27",
+    "headline": "Ředitelé ČT a ČRo vyzývají Babiše k zastavení koaličních návrhů o médiích a svolání pracovní skupiny",
+    "summary": "Generální ředitelé České televize a Českého rozhlasu zaslali otevřený dopis premiérovi Babišovi, v němž se vymezují proti koaličním návrhům na změny statusu a financování veřejnoprávních médií. Zároveň ho vyzvali ke splnění slibu a svolání odborné pracovní skupiny k danému tématu.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Zastavte koaliční návrhy o médiích a svolejte konečně odbornou skupinu, vyzývají Babiše ředitelé ČT a ČRo",
+        "url": "https://denikn.cz/2076750/zastavte-koalicni-navrhy-o-mediich-a-svolejte-konecne-odbornou-skupinu-vyzyvaji-babise-reditele-ct-a-cro/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-28T07:40:18.605Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — koaliční návrhy na změny statusu a financování veřejnoprávních médií představují soustavný institucionální tlak na ČT a ČRo (subkomponenta M2: nezávislost ČT a ČRo, procedury financování). Otevřený dopis ředitelů veřejnoprávních médií premiérovi signalizuje, že tlak již dosahuje úrovně, kdy instituce samy považují za nutné se veřejně bránit — jedná se o incident s precedentní hodnotou. Konkrétní podoba návrhů prozatím není schválena, takže eskalace na severity 4 není opodstatněná. Sekundárně se dotkne pilíře governance (G1: dělba moci a kontrola exekutivy). Duration persistent, protože návrhy jsou stále projednávány.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z"
+  },
+  {
+    "id": "2026-W22-060",
+    "date": "2026-05-27",
+    "headline": "Jednání odborníků s vládou o přesunu lidskoprávních agend nepřineslo výsledek",
+    "summary": "Odborníci na lidská práva se sešli se zástupci vlády včetně premiéra Babiše k tématu přesunu lidskoprávních agend, avšak schůzka nepřinesla žádný posun. Zástupci kabinetu nedokázali rozptýlit obavy expertů ani dostatečně vysvětlit motivaci ke změnám.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Bylo to frustrující a bolestivé.“ Experti líčí, co se dělo na jednání s Babišem o přesunu lidských práv",
+        "url": "https://denikn.cz/2076733/bylo-to-frustrujici-a-bolestive-experti-lici-co-se-delo-na-jednani-s-babisem-o-presunu-lidskych-prav/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-28T07:40:18.605Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednání skončilo bez výsledku a vláda nevysvětlila motivaci k institucionální změně, ale šlo o jedno konkrétní jednání bez přímého institucionálního dopadu (subkomponenta C3: svoboda sdružování a ochrana lidskoprávních struktur, sekundárně G1: transparentnost vládnutí). Samotný přesun agend by byl severity 3+, ale tento artikel popisuje pouze průběh schůzky, nikoli finální rozhodnutí. Nejde o nový zákon ani rozhodnutí, pouze o stav jednání — downgrade na 2 dle pravidla de-eskalace při absenci formálního aktu. Pokud by přesun byl formálně schválen, event by byl eskalován.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-061",
+    "date": "2026-05-27",
+    "headline": "Ministerstvo zemědělství trvá na vyplácení dotací firmám spojeným s Babišem navzdory dopisu EK",
+    "summary": "Ministr zemědělství prohlásil, že zemědělské dotace firmám spojeným s premiérem Babišem budou vypláceny dál, přičemž tvrdí, že dopis Evropské komise vyzývající k zastavení podpory těchto firem se zemědělských dotací netýká. Ministerstvo pro místní rozvoj však redakci sdělilo, že dopis EK se týká dotací obecně.",
+    "pillar": "corruption",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Dopis z Bruselu se týká všech dotací, říká ministerstvo. Šebestyán je ale vyplácí dál",
+        "url": "https://denikn.cz/2076545/zemedelske-dotace-agrofertu-vyplacime-dal-dopis-z-bruselu-se-jich-netyka-tvrdi-ministr-sebestyan/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-28T07:40:18.605Z"
+      },
+      {
+        "title": "Ministerstvo zemědělství nadále vyplácí dotace Agrofertu, zjistil Deník N",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ministerstvo-zemedelstvi-nadale-vyplaci-dotace-agrofertu-zjistil-denik-n-373928",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-28T07:40:20.091Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — rozpor mezi postoji dvou ministerstev ohledně dopisu EK k dotacím firmám spojeným s premiérem vytváří precedent ve věci střetu zájmů ústavního činitele (subkomponenta K1: politická korupce, střet zájmů) a transparentnosti veřejných dotací (K2: veřejné zakázky a finanční podpora). Zapojení EK může dle pravidel eskalace znamenat +1, ale protože jde zatím o dopis bez formálního řízení a závěrů, ponechávám severity 3. Duration persistent, protože dotace jsou stále vypláceny a spor o interpretaci pokynů EK pokračuje. Sekundárně relevantní pro pilíř governance (G4: transparentnost vládnutí).\n\n[merged with 2026-W22-069 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 4 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-05-28T07:40:18.588Z"
+  },
+  {
+    "id": "2026-W22-062",
+    "date": "2026-05-26",
+    "headline": "Propuštění odborníka na krizovou komunikaci MV ČR jako součást personálních čistek Babišovy vlády",
+    "summary": "Jan Paťawa, který čtyři roky vedl krizovou komunikaci ministerstva vnitra a stojí za celonárodní příručkou 72 hodin, se o svém odvolání dozvěděl z tiskové zprávy. Jde o jeden z případů hromadného propouštění úředníků po nástupu nové Babišovy vlády.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Učil Česko, jak zvládat krize, stál za příručkou 72 hodin. Příběh muže, který se o vyhazovu dozvěděl z tiskové zprávy",
+        "url": "https://denikn.cz/2069909/ucil-cesko-jak-zvladat-krize-stal-za-priruckou-72-hodin-pribeh-muze-ktery-se-o-vyhazovu-dozvedel-z-tiskove-zpravy/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-28T07:40:18.605Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni státní správy (odvolání vedoucího krizové komunikace MV) odpovídá příkladu 'odvolání ředitele odboru bez kaskádového efektu'. Subkomponenta G1 (dělba moci, kvalita vládnutí) a G4 (transparentnost — oznámení přes tiskovou zprávu bez přímé komunikace). Článek naznačuje systémový vzorec čistek (persistent), ale konkrétní případ Paťawy je jeden z řady, nikoli strukturální změna s nálezem ÚS nebo parlamentní reakcí. Single source, bez potvrzení mezinárodními institucemi — ponecháno na 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z"
+  },
+  {
+    "id": "2026-W22-063",
+    "date": "2026-05-26",
+    "headline": "Dominik Feri propuštěn z výkonu trestu po dvou letech — soud neshledal další nebezpečí pro společnost",
+    "summary": "Bývalý poslanec Dominik Feri byl propuštěn z vězení po odpykání části trestu za sexuální útoky. Soud konstatoval jeho vzorné chování a absenci společenského nebezpečí. Kauza je vnímána jako přelomová z hlediska ochrany obětí sexuálního násilí.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pointa N: Feri se vrátil na svobodu. Co si z jeho kauzy odnášíme?",
+        "url": "https://denikn.cz/2075831/pointa-n-feri-se-vratil-na-svobodu-co-si-z-jeho-kauzy-odnasime/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-28T07:40:18.605Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní soudní rozhodnutí o podmínečném propuštění bez dopadu na institucionální nezávislost justice ani na subkomponenty J1–J4. Kauza má společenský a symbolický significance (ochrana obětí, J4 rovnost před zákonem), ale samotné propuštění na základě zákonných kritérií nepředstavuje ani oslabení ani posilování demokratických institucí — direction 0. Nejedná se o politicky motivované rozhodnutí ani precedentní zásah do soudní nezávislosti.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-064",
+    "date": "2026-05-28",
+    "headline": "Analytik: Přesun agend z Úřadu vlády je pokusem o naprostou loajalitu státní správy vůči politické reprezentaci",
+    "summary": "Politický analytik Lukáš Jelínek v ČT komentoval záměr vlády premiéra Babiše přesunout agendy lidských práv, protidrogové politiky a rovnosti žen a mužů z Úřadu vlády na ministerstva. Podle Jelínka jde o systémový pokus podřídit státní správu a experty plné loajalitě vůči politické reprezentaci, přičemž ani odborníci na společném jednání s ministry nebyli o záměru přesvědčeni. Tento trend podle analytika odrazuje odborníky od práce ve veřejné sféře.",
+    "pillar": "governance",
+    "severity": null,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Snaha moci o naprostou loajalitu expertů, říká k přesunu agend Jelínek",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/snaha-moci-o-naprostou-loajalitu-expertu-rika-k-presunu-agend-jelinek-373953",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-28T07:40:20.091Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Událost se týká subkomponenty G1 (dělba moci, kontrola exekutivy) a G4 (transparentnost vládnutí a nezávislost státní správy). Reorganizace přesunující citlivé agendy pod přímou ministeriální kontrolu může oslabovat nezávislost odborných útvarů, což je varovný signál pro demokratický backsliding. Severity nelze jednoznačně určit: pokud jde o realizovaný přesun (severity 3–4 dle rubric §3–4), nebo zatím pouze o záměr a diskuzi (severity 2). Článek není zcela jasný v tom, zda k přesunu již formálně došlo nebo je stále ve fázi návrhu – zdroj je jeden (ČT/analytik), chybí potvrzení vládním usnesením. Nastavuji severity: null pro lidský review. Sekundárně se dotýká pilíře civil (C3 – ochrana nezávislých institucí a NGO prostoru v oblasti lidských práv).",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2026-05-28T07:40:18.588Z"
+  },
+  {
+    "id": "2026-W22-065",
+    "date": "2026-05-27",
+    "headline": "Státní zástupce obžaloval čínského občana ze špionáže – první použití nového paragrafu o činnosti pro cizí moc",
+    "summary": "Pražský státní zástupce podal obžalobu na čínského občana zadrženého v lednu 2026 za údajnou špionáž pro Čínu. Jde o první praktické využití nového paragrafu trestního zákoníku o neoprávněné činnosti pro cizí moc, přičemž obviněný je od zadržení ve vazbě.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Žalobce poslal před soud čínského občana, kterého viní ze špionáže",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zalobce-poslal-pred-soud-cinskeho-obcana-ktereho-vini-ze-spionaze-373941",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-28T07:40:20.091Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní procesní krok (podání obžaloby) s omezeným, ale zaznamenatelným institucionálním významem: jde o první reálné použití nové právní normy (subkomponenta J4 – rovnost před zákonem a funkčnost trestního procesu; sekundárně J3 – výkon státního zastupitelství). Směr +1, protože aktivní vymáhání práva v oblasti zahraniční špionáže posiluje právní stát. One-off, protože jde o jednorázový procesní akt v konkrétní kauze.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-066",
+    "date": "2026-05-27",
+    "headline": "Sněmovna nezvolila Urbanovou místopředsedkyní v prvním kole tajné volby",
+    "summary": "V prvním kole tajné volby poslanci nezvolili kandidátku hnutí STAN Barboru Urbanovou do funkce místopředsedkyně sněmovny. Jedno místo ve vedení dolní komory tak zůstává neobsazené; druhé kolo se má konat v nejbližších dnech.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Poslanci napoprvé nezvolili Urbanovou místopředsedkyní sněmovny",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-napoprve-nezvolili-urbanovou-mistopredsedkyni-snemovny-373938",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-28T07:40:20.091Z"
+      },
+      {
+        "title": "Urbanová neuspěla. Kandidátku STAN poslanci odmítli",
+        "url": "https://archiv.hn.cz/c1-67883000-urbanova-neuspela-kandidatku-stan-poslanci-odmitli",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-28T07:40:22.785Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní parlamentní procedurální výsledek (první kolo volby místopředsedy) bez náznaku úmyslného narušení institucionálního fungování. Subkomponenta G1 (dělba moci, chod sněmovny) je dotčena minimálně — volba nebyla zmařena, pouze odložena do druhého kola. Směr 0: výsledek je procesně neutrální, druhé kolo je standardní součástí pravidel. Pokud by místo zůstalo dlouhodobě neobsazené z politicky motivovaných důvodů, eskalace na severity 2–3 by byla opodstatněná.\n\n[merged with 2026-W22-070 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-067",
+    "date": "2026-05-27",
+    "headline": "Ředitelé ČT a ČRo otevřeným dopisem vyzvali Babiše k zastavení projednávání mediálních zákonů",
+    "summary": "Generální ředitelé České televize a Českého rozhlasu se v otevřeném dopise obrátili na premiéra Babiše s výzvou, aby zastavil projednávání navrhovaných zákonů o médiích veřejné služby. Požadují místo toho vznik pracovní skupiny a zdůrazňují, že rozhodnutí o budoucnosti ČT a ČRo by mělo být výsledkem širší společenské diskuze, nikoli jednostranného politického kroku.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Ředitelé ČT a ČRo vyzvali Babiše k zastavení jednání o mediálních zákonech",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/reditele-ct-a-cro-vyzvali-babise-k-zastaveni-jednani-o-medialnich-zakonech-373931",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-28T07:40:20.091Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — otevřený dopis ředitelů obou veřejnoprávních médií premier je signálem, že projednávané návrhy zákonů ohrožují nezávislost ČT a ČRo (subkomponenta M2). Formulace „jednostranný politický krok\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z"
+  },
+  {
+    "id": "2026-W22-071",
+    "date": "2026-05-27",
+    "headline": "Novela stavebního zákona by mohla znemožnit místní referendum po podpisu plánovací smlouvy s investorem",
+    "summary": "Navrhovaná změna stavebního zákona počítá s tím, že po podpisu plánovací smlouvy s investorem nebude možné vyhlásit místní referendum o daném projektu. Kritici vidí v tomto opatření výrazné omezení participačních práv občanů a obcí při rozhodování o kontroverzních stavebních záměrech.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Šance pro větrníky. Novela zákona má znemožnit místní referendum, pokud obec podepsala plánovací smlouvu s investorem",
+        "url": "https://archiv.hn.cz/c1-67882630-sance-pro-vetrniky-novela-zakona-ma-znemoznit-mistni-referendum-pokud-obec-podepsala-planovaci-smlouvu-s-investorem",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-28T07:40:22.785Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — subkomponenta C2 (svoboda shromažďování a účasti, zde konkrétně právo na místní přímou demokracii) a C3 (svoboda sdružování komunit). Navrhované omezení místního referenda po podpisu smlouvy s investorem vytváří precedent pro redukci participačních mechanismů na komunální úrovni a může strukturálně oslabit práva občanů vstupovat do rozhodování o zástavbě. Severity 3 (nikoliv 4) proto, že jde zatím o návrh/novelu v legislativním procesu, nikoliv o schválený a účinný zákon (de-eskalace per rubric — chybí formální finalizace). Sekundárně se dotýká pilíře governance (G2 — kvalita legislativního procesu).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-072",
+    "date": "2026-05-27",
+    "headline": "Evropská komise požaduje důkazy o vyřešení střetu zájmů Babiše, stát dotace Agrofertu zastavit nechystá",
+    "summary": "Evropská komise zaslala dopis požadující právní analýzy a důkazy, že Andrej Babiš skutečně vyřešil svůj střet zájmů, jak loni rozhodl SZIF. Česká strana přesto neplánuje zastavit klíčové dotace pro Agrofert a spor může skončit u soudu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Stát se ani po výzvě z Bruselu nechystá zastavit klíčové dotace pro Agrofert. Spor může skončit až u soudu",
+        "url": "https://archiv.hn.cz/c1-67882830-stat-se-ani-po-vyzve-z-bruselu-nechysta-zastavit-klicove-dotace-pro-agrofert-spor-muze-skoncit-az-u-soudu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-28T07:40:22.785Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — jde o opakující se spor s mezinárodním rozměrem (reakce EK potvrzuje relevanci případu), který se dotýká subkomponenty K1 (střet zájmů ústavního činitele) a K2 (veřejné dotace a jejich transparentnost). EK jako mezinárodní orgán znovu zpochybňuje řešení, přičemž stát odmítá reagovat — to by per rubric §3 eskalace naznačovalo tlak k severity 4, ale v tuto chvíli jde stále o dopisní výzvu bez formálního řízení, proto zůstávám u 3. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z"
+  },
+  {
+    "id": "2026-W22-073",
+    "date": "2026-05-27",
+    "headline": "Experti z lidskoprávních organizací předčasně opustili jednání s Babišem o přesunu agend a označili ho za nedůstojné",
+    "summary": "Zástupci lidskoprávních a protidrogových organizací a vládních poradních rad předčasně odešli z jednání s premiérem Babišem a vedoucí úřadu vlády Barthou o plánovaném přesunu agend. Průběh jednání označili za absurdní a nedůstojný standardům veřejné správy.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nedůstojné, absurdní divadlo. Část expertů předčasně opustila jednání s Babišem a Tünde Bartha o přesunu agend",
+        "url": "https://domaci.hn.cz/c1-67882770-nedustojne-absurdni-divadlo-cast-expertu-predcasne-opustila-jednani-s-babisem-a-tunde-bartha-o-presunu-agend",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-28T07:40:22.785Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní incident s dopadem na vztah vlády s občanskou společností (subkomponenta C3 — svoboda sdružování a administrativa NGO/poradních orgánů), avšak bez trvalého institucionálního dopadu. Odchod z jednání je signálem dysfunkčního dialogu, ale sám o sobě nevede ke strukturální změně. Pokud by přesun agend vedl k faktickému omezení vlivu lidskoprávních rad, event by eskaloval. Sekundárně se dotýká governance G2 (kvalita legislativního/konzultačního procesu).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-074",
+    "date": "2026-05-26",
+    "headline": "Počet přispěvatelů do české muniční iniciativy klesl na polovinu; FT uvádí chybějící podporu vlády jako příčinu",
+    "summary": "Podle Financial Times se počet zemí zapojených do české muniční iniciativy snížil z 18 na 9. Prezident Pavel potvrdil, že iniciativa pokračuje, avšak mezinárodní partneři ji považují za projekt bez vládní podpory, což odrazuje od dalšího přispívání.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Počet přispěvatelů do české muniční iniciativy se snížil na polovinu. Podle FT přijde státům divné přispívat do projektu, který nemá podporu vlády",
+        "url": "https://zahranicni.hn.cz/c1-67882240-pocet-prispevatelu-do-ceske-municni-iniciativy-se-snizil-na-polovinu-podle-ft-jim-prijde-divne-prispivat-do-projektu-ktery-nema-podporu-vlady",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-28T07:40:22.785Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — vytváří precedent rozkolu mezi exekutivou a prezidentem v klíčové zahraniční a bezpečnostní agendě, což se dotýká subkomponenty G1 (dělba moci a koherence výkonné moci). Pokles o polovinu přispěvatelů je měřitelný a ověřený externím zdrojem (FT, prezident Pavel), nikoli pouhé spekulace. Pokud by vláda explicitně odmítla iniciativu podpořit, eskalovalo by na severity 4. Sekundárně přesahuje do zahraniční politiky, ale institucionálně jde o napětí uvnitř exekutivy.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z"
+  },
+  {
+    "id": "2026-W22-075",
+    "date": "2026-05-28",
+    "headline": "Opozici zamítnut pokus zařadit privatizaci Explosie na program výboru",
+    "summary": "Opoziční poslanci se pokusili zařadit téma možné privatizace státní Explosie na program jednání výboru s ministrem obrany, ale neměli dostatek hlasů. Premiér Babiš přitom o záměru hovoří již týden bez poskytnutí konkrétních informací parlamentu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Neschváleno. Opozice se chtěla ptát na privatizaci Explosie, prostor nedostala",
+        "url": "https://zpravy.aktualne.cz/domaci/neschvaleno-opozice-se-chtela-ptat-na-privatizaci-explosie-prostor-nedostala/r~aaa293fd72e37be8015053ed327d5445/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-05-28T07:40:23.816Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — omezený dopad na fungování konkrétní instituce; vládnoucí koalice využila hlasovací většinu k zablokování projednání tématu (subkomponenta G1 — kontrola exekutivy parlamentem). Jde o jednorázový incident standardní parlamentní praxe, byť signalizuje omezenou transparentnost (G4) v otázce nakládání se státním majetkem. Nedosahuje na §3, protože nejde o systematické ignorování parlamentní kontroly ani o precedentní procedurální zásah.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-076",
+    "date": "2026-05-28",
+    "headline": "ČNB vydala ostré varování vládě Babiše kvůli rostoucímu dluhu a deficitu",
+    "summary": "Česká národní banka veřejně varovala ministerstvo financí a vládu před rychle rostoucím státním dluhem a rozpočtovým deficitem. ČNB vyjádřila nedůvěru ve fiskální politiku kabinetu s odkazem na rostoucí výpůjční potřeby.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Nevěříme vám.“ ČNB poslala ministryni financí ostrý vzkaz",
+        "url": "https://zpravy.aktualne.cz/domaci/cnb-poslala-babisove-vlade-dalsi-ostre-varovani-ekonom-vesti-masivni-zhorseni/r~aaa29f2270464bd3eb2e490017638c73/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-05-28T07:40:23.816Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — veřejné varování nezávislé instituce (ČNB) vůči vládě je konkrétní datovanou událostí s omezeným přímým institucionálním dopadem; dokumentuje napětí mezi exekutivou a kontrolním orgánem (subkomponenta G4 — transparentnost a výkaznost). Samotné varování ještě nepředstavuje strukturální narušení; pokud by vláda varování opakovaně ignorovala nebo podnikla kroky k omezení nezávislosti ČNB, eskalace na 4–5. Anti-bias check: stejné hodnocení by dostalo varování ČNB vůči vládě jakékoli barvy.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-077",
+    "date": "2026-05-27",
+    "headline": "Investigace odhalila spoluvlastnictví české firmy podezřelým z válečných zločinů a ruským politikem",
+    "summary": "Investigativní server Investigace.cz zjistil, že osoba podezřelá z vedení okupační policie na Ukrajině, obviněná z únosů a mučení, spoluvlastní firmu v Česku spolu s ruským politikem. Případ otevírá otázky o účinnosti kontroly vlastnických struktur a sankcí v ČR.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Válečný zločinec v Česku spoluvlastní firmu s ruským politikem",
+        "url": "https://www.investigace.cz/valecny-zlocinec-v-cesku-spoluvlastni-firmu-s-ruskym-politikem/",
+        "outlet": "Investigace.cz",
+        "fetched_at": "2026-05-28T07:40:24.185Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odhalení konkrétní kauzy s vazbou na státem sankcionované subjekty a podezření z válečných zločinů vytváří precedent ohledně selhání protikorupčních a bezpečnostních mechanismů (subkomponenta K4 — protikorupční instituce a jejich účinnost; sekundárně K2 — transparentnost vlastnických struktur). Jde o jednoho dodavatele/vlastníka, nikoli o strukturální schéma s doloženými vazbami na českou politiku, proto §3 nikoli §4. Jeden primární zdroj (investigace.cz) — per source-count rule zůstává na 3 (nikoli null), protože fakticita je doložena konkrétními jmény a dokumenty; downgrade by byl na místě při jediném anonymním tvrzení.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-078",
+    "date": "2026-05-28",
+    "headline": "Investigace odhalila rozsáhlý majetek lobbisty Janouška přes spolky s nejasným tokem peněz",
+    "summary": "Investigativní reportáž odhalila, že lobbista Roman Janoušek kontroluje majetek v hodnotě přes 1,4 miliardy korun prostřednictvím dosud neznámých vazeb a pražského spolku s nepřehledným financováním. Kauza poukazuje na potenciální zastírání skutečného vlastnictví a netransparentní toky peněz v síti kolem vlivného podnikatele s politickými vazbami.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Spojená síla.“ Okázalá jachta Zilvar poodkryla Janouškovo panství",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-spojena-sila-okazala-jachta-zilvar-poodkryla-janouskovo-panstvi-306999",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-28T07:40:25.556Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — investigace odhaluje nové, dosud nezdokumentované vazby na rozsáhlý majetek a netransparentní finanční struktury s politickými konotacemi (subkomponenta K1 — politická korupce, K2 — netransparentní finanční toky). Jednorázová investigativní zpráva bez dosud prokázaného přímého trestněprávního výsledku; single-source pravidlo by snižovalo na severity 2, ale rozsah odhalení (1,4 mld. Kč) a politická relevance Janouška opravňují k severity 3. Chybí dosud reakce orgánů činných v trestním řízení, což brání eskalaci na 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-079",
+    "date": "2026-05-27",
+    "headline": "Opozice hrozí blokováním Sněmovny po nezvolení Urbanové do vedení",
+    "summary": "Koalice opakovaně zablokovala obsazení sněmovní funkce kandidátkou STAN Barborou Urbanovou. Opoziční klub STAN reaguje hrozbami masivního obstrukčního blokování dolní komory, což by mohlo ohrozit standardní legislativní proces.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Bojí se nás.“ Opozice po nezvolení Urbanové do čela Sněmovny hrozí odvetou",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-jako-dobyvatele-zni-ze-stan-k-nezvoleni-urbanove-opozice-hrozi-odvetou-307188",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-28T07:40:25.556Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní incident parlamentního fungování (subkomponenta G1: reálná kontrola a vyvažování v rámci legislativy), který sám o sobě neohrožuje instituci, ale zaznamenání hrozby obstrukcí ze strany opozice je relevantní. Ohrožení standardního fungování Sněmovny je zatím pouze deklarované, ne realizované — absence eskalace na 3. Koaliční blokování opozičních kandidátů do vedení komory je standardní parlamentní praxe, avšak v kombinaci s hrozbou odvetných obstrukcí vytváří napětí v G1.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-080",
+    "date": "2026-05-27",
+    "headline": "ÚS: Obhájce dítěte má právo nahlížet do spisu i v objasňovací fázi řízení",
+    "summary": "Ústavní soud vydal nález, podle nějž má právní zástupce trestně neodpovědného dítěte právo nahlížet do spisu již v objasňovací fázi řízení. Orgány činné v trestním řízení musí případné odepření tohoto práva odůvodnit závažnými důvody, přičemž státní zástupce je povinen toto odůvodnění urychleně přezkoumat.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nahlížení do spisu v řízeních ve věcech dětí mladších patnácti let",
+        "url": "https://www.usoud.cz/aktualne/nahlizeni-do-spisu-v-rizenich-ve-vecech-deti-mladsich-patnacti-let",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-05-28T07:40:38.606Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — nález ÚS konkretizuje právo na právní pomoc (subkomponenta J4: rovnost před zákonem, fair proces) v specifické kategorii řízení s nezletilými. Jde o pozitivní posilující událost (+1 direction), která zpřesňuje ochranu procesních práv. Dopad je persistent, neboť nález vytváří závazný precedent pro budoucí řízení. Není to strukturální změna systému, proto severity 2 nikoliv 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-28T07:40:18.588Z"
   }
 ]
