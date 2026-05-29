@@ -268,10 +268,16 @@
         "url": "https://denikn.cz/2074409/zadne-skrty-ani-oslabeni-lidskopravni-agendy-tvrdi-babis-po-kritice-presto-z-casti-planu-couva/",
         "outlet": "Deník N",
         "fetched_at": "2026-05-26T07:30:57.466Z"
+      },
+      {
+        "title": "Otřesy na Úřadu vlády pokračují. Šedesát expertů navrhlo Babišovi kompromis, premiéra ale nechává chladným",
+        "url": "https://archiv.hn.cz/c1-67883340-otresy-na-uradu-vlady-pokracuji-sedesat-expertu-navrhlo-babisovi-kompromis-premiera-ale-nechava-chladnym",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-29T07:38:40.688Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — reorganizace agendy na úrovni Úřadu vlády je konkrétní personálně-institucionální změna s omezeným dopadem; couvnutí pod tlakem kritiky částečně zmírňuje závažnost. Subkomponenta G1 (dělba moci a transparentnost vládnutí) a G4 (transparentnost vládnutí). Událost nezakládá systémový precedent, jde o jednorázovou správní změnu. Anti-bias: stejně by bylo klasifikováno u jakéhokoli premiéra.",
+    "rationale": "Severity 2 per rubric §2 — reorganizace agendy na úrovni Úřadu vlády je konkrétní personálně-institucionální změna s omezeným dopadem; couvnutí pod tlakem kritiky částečně zmírňuje závažnost. Subkomponenta G1 (dělba moci a transparentnost vládnutí) a G4 (transparentnost vládnutí). Událost nezakládá systémový precedent, jde o jednorázovou správní změnu. Anti-bias: stejně by bylo klasifikováno u jakéhokoli premiéra.\n\n[merged with 2026-W22-085 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-26T07:30:57.446Z",
@@ -811,10 +817,16 @@
         "url": "https://domaci.hn.cz/c1-67882260-bdquo-stret-zajmu-jsem-vyresil-agrofert-nevlastnim-ldquo-babis-se-ohradil-proti-dopisu-od-evropske-komise-opozici-obvinil-z-udavani",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-05-27T07:44:47.704Z"
+      },
+      {
+        "title": "Dopis k Babišovu střetu zájmů se týká i zemědělských dotací, potvrdila Komise",
+        "url": "https://denikn.cz/2077808/dopis-k-babisovu-stretu-zajmu-se-tyka-i-zemedelskych-dotaci-potvrdila-komise/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-29T07:38:36.118Z"
       }
     ],
     "score_impact": -1.5,
-    "rationale": "Severity 4 per rubric §4 — aktivní tlak mezinárodního orgánu (EK) na ČR kvůli střetu zájmů ústavního činitele (subkomponenta K1) a zastavení dotací představuje přímý institucionální dopad. Rubric: +1 eskalace za reakci mezinárodního orgánu potvrzující porušení normy; výchozí závažnost by byla 3 (významný incident), po eskalaci dosahuje 4. Stát navíc podle článku zamlčoval informace, což zasahuje i G4 (transparentnost vládnutí). Persistent: situace trvá a EK případ neuzavřela.\n\n[merged with 2026-W22-045 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 4 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 4]",
+    "rationale": "Severity 4 per rubric §4 — aktivní tlak mezinárodního orgánu (EK) na ČR kvůli střetu zájmů ústavního činitele (subkomponenta K1) a zastavení dotací představuje přímý institucionální dopad. Rubric: +1 eskalace za reakci mezinárodního orgánu potvrzující porušení normy; výchozí závažnost by byla 3 (významný incident), po eskalaci dosahuje 4. Stát navíc podle článku zamlčoval informace, což zasahuje i G4 (transparentnost vládnutí). Persistent: situace trvá a EK případ neuzavřela.\n\n[merged with 2026-W22-045 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 4 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 4]\n\n[merged with 2026-W22-083 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-05-27T07:44:43.522Z"
@@ -1656,5 +1668,311 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-28T07:40:18.588Z"
+  },
+  {
+    "id": "2026-W22-081",
+    "date": "2026-05-28",
+    "headline": "Šéf SZIF žádá EK o výklad zákazu dotací Agrofertu, připouští soudní spor",
+    "summary": "Ředitel Státního zemědělského intervenčního fondu požádal Evropskou komisi o vyjasnění, zda se zákaz proplacení dotací firmám napojeným na Andreje Babiše vztahuje i na zemědělské podpory. Poukazuje na rozpor mezi stanovisky dvou generálních ředitelství EK, přičemž jedno platby Agrofertu dosud nezpochybňovalo. Připouští možný soudní spor.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Možná to bude dobře pro všechny.“ Šéf fondu připouští žalobu kvůli dotacím pro Agrofert",
+        "url": "https://denikn.cz/2078341/mozna-to-bude-dobre-pro-vsechny-sef-fondu-pripousti-zalobu-kvuli-dotacim-pro-agrofert/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-29T07:38:36.118Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní institucionální krok (formální dopis EK) v dlouhodobé kauze střetu zájmů premiéra Babiše a holdingu Agrofert (subkomponenta K1 — politická korupce, střet zájmů ústavního činitele). Událost sama o sobě nemá přímý dopad na fungování instituce, ale udržuje otevřený právní spor o compliance s pravidly EU. Persistent, protože kauza střetu zájmů trvá strukturálně. Sekundárně relevantní pro pilíř governance (G4 — transparentnost), uvedeno pro kontext.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z"
+  },
+  {
+    "id": "2026-W22-082",
+    "date": "2026-05-28",
+    "headline": "Ministr Havlíček chce přehodnotit Akční plán Dukovany schválený předchozí vládou",
+    "summary": "Ministr průmyslu Karel Havlíček avizoval záměr přehodnotit Akční plán Dukovany, který měl obcím v okolí jaderné elektrárny kompenzovat dopady plánované výstavby nových bloků. Starostové dotčených obcí reagují ostrou kritikou a varují, že zpochybnění plánu může ohrozit celý projekt výstavby.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Velká zrada a podpásovka.“ Havlíček chce zrušit plán na pomoc v okolí Dukovan, obce se bouří",
+        "url": "https://denikn.cz/2077993/velka-zrada-a-podpasovka-havlicek-chce-zrusit-plan-na-pomoc-v-okoli-dukovan-obce-se-bouri/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-05-29T07:38:36.118Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — ministr avizoval záměr přehodnotit dokument schválený předchozí vládou, což je kontroverzní rozhodnutí dotýkající se subkomponenty G1 (dělba moci, respekt k institucionální kontinuitě). Jde zatím jen o záměr, nikoli o formální akt zrušení (ten by odpovídal severity 3). Bez precedentního charakteru a bez ústavního přesahu — pouze politický konflikt o policy kontinuitu. Sekundárně relevantní pro lokální samosprávu, ale bez dopadu na demokratické instituce na národní úrovni.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z",
+    "expires_at": "2026-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-084",
+    "date": "2026-05-28",
+    "headline": "Státní zástupkyně zrušila stíhání hejtmana Půty za neoznámení nabídky úplatku",
+    "summary": "Okresní státní zástupkyně zrušila trestní stíhání libereckého hejtmana Martina Půty za neoznámení trestného činu a věc vrátila policii k došetření. Půta přitom figuruje i v širší korupční kauze spojené s firmou Geotermální energie pro občany. Procesní ukončení stíhání bez věcného rozhodnutí o vině lze číst jako pokračující nejistotu ohledně vymahatelnosti protikorupčních norem vůči regionálním politikům.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Žalobkyně zrušila stíhání Půty za neoznámení nabídky úplatku",
+        "url": "https://ct24.ceskatelevize.cz/clanek/regiony/zalobkyne-dle-puty-zrusila-jeho-stihani-za-neoznameni-nabidky-uplatku-373972",
+        "outlet": "ČT24",
+        "fetched_at": "2026-05-29T07:38:37.671Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — procesní zrušení stíhání regionálního politika s návratem věci policii je konkrétní incident s omezeným dopadem; nejedná se o systémové selhání protikorupčních institucí (K4), ale o dílčí procesní krok v probíhající kauze. Subkomponenta K1 (střet zájmů a zneužívání postavení politiků) je dotčena v tom smyslu, že vymahatelnost odpovědnosti hejtmana zůstává nejasná. Absence eskalace na 3: nejde o politicky motivované zastavení věci nadřízenou protikorupční institucí, ale o standardní procesní rozhodnutí s možností dalšího šetření. Anti-bias: stejnou severity bych přiřadil bez ohledu na stranickou příslušnost hejtmana.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z",
+    "expires_at": "2026-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-086",
+    "date": "2026-05-28",
+    "headline": "Kandidát Motoristů znovu v užším výběru na ředitele ČIŽP navzdory chybějící odbornosti",
+    "summary": "Podnikatel a volební kandidát vládní strany Motoristé Pavel Straka se opakovaně hlásí na post ředitele České inspekce životního prostředí, přestože nemá odborné zkušenosti v daném oboru. V prvním zrušeném konkurzu byl rovněž mezi uchazeči a je sponzorem strany, která je součástí vládní koalice.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Sponzor a kandidát Motoristů se opět uchází o post šéfa inspekce životního prostředí.  V oboru je přitom neznámý",
+        "url": "https://domaci.hn.cz/c1-67883300-sponzor-a-kandidat-motoristu-se-opet-uchazi-o-post-sefa-inspekce-zivotniho-prostredi-v-oboru-je-pritom-neznamy",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-29T07:38:40.688Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — opakovaná přítomnost stranicky propojeného kandidáta bez odborné způsobilosti v klíčovém výběrovém řízení vytváří precedent pro obsazování státních institucí loajálními osobami (subkomponenta K1 — střet zájmů, politická korupce). Sekundárně se dotýká G4 (transparentnost vládnutí). Zatím jde o ucházení se o post, nikoliv jmenování, proto ne severity 4; single source dle dostupných informací, eskalace není opodstatněná.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z",
+    "expires_at": "2026-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-087",
+    "date": "2026-05-28",
+    "headline": "Zemědělský fond žádá EK o povolení pokračovat v platbách Agrofertu přes aktivní evropské varování",
+    "summary": "Státní zemědělský intervenční fond požádal Evropskou komisi o výjimku, která by mu umožnila nadále vyplácet tzv. nárokové dotace firmám skupiny Agrofert, a to krátce poté, co EK vyzvala ČR k pozastavení vykazování výdajů spojených s Babišovými firmami. Různé úřady si evropský požadavek vykládají odlišně, což komplikuje koordinovanou odpověď státu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Zemědělský fond žádá Brusel o svolení dál posílat peníze Agrofertu. Tvrdí, že stopka se nárokových dotací netýká",
+        "url": "https://archiv.hn.cz/c1-67883230-zemedelsky-fond-zada-brusel-o-svoleni-dal-posilat-penize-agrofertu-tvrdi-ze-stopka-se-narokovych-dotaci-netyka",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-29T07:38:40.688Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — záležitost má přímou vazbu na subkomponentu K1 (střet zájmů ústavního činitele — Babiš/Agrofert) a K2 (transparentnost veřejných dotací). Dezinterpretace nebo selektivní výklad evropského požadavku ze strany státních orgánů je konkrétní institucionální incident s širším dopadem. Označuji jako persistent, protože jde o přetrvávající strukturální stav (Babiš v čele ANO v opozici, dotace stále tekoucí), nikoli izolovaný incident. Sekundárně se dotýká G1 (dělba moci a koordinace exekutivy). Dostupný je jeden hlavní zdroj; severity 4 by vyžadovala potvrzení záměrného obcházení z více zdrojů.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z"
+  },
+  {
+    "id": "2026-W22-088",
+    "date": "2026-05-25",
+    "headline": "Vládní plán nahradit služební zákon vyvolává obavy z oslabení nezávislosti státní správy",
+    "summary": "Vláda připravuje náhradu služebního zákona novou normou, která by podle kritiků umožnila snadnější politické ovládání a odvolávání státních zaměstnanců. Komentář upozorňuje, že takový signál může ohrozit schopnost státu přitahovat kvalitní pracovníky a posílí vliv exekutivy na nezávislost státní správy.",
+    "pillar": "governance",
+    "severity": null,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nejde jen o služební zákon. Jde o to, kdo tu ještě bude chtít pracovat pro stát",
+        "url": "https://archiv.hn.cz/c1-67879870-nejde-jen-o-sluzebni-zakon-jde-o-to-kdo-tu-jeste-bude-chtit-pracovat-pro-stat",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-05-29T07:38:40.688Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Potenciální oslabení ochrany státní správy před politickými zásahy se dotýká subkomponenty G1 (dělba moci, kontrola exekutivy) a G3 (stabilita ústavních norem). Záměr je popsán pouze na základě jednoho zdroje a v rovině návrhu/záměru bez schválené podoby — per rubric eskalace: návrh bez formálního schválení snižuje severity; nejistota mezi úrovní 3 a 4 vede k severity: null per pravidlo 'uncertainty wins over false confidence'. Je třeba ověřit, zda již existuje konkrétní legislativní návrh a reakce nezávislých odborných orgánů.",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2026-05-29T07:38:36.103Z"
+  },
+  {
+    "id": "2026-W22-089",
+    "date": "2026-05-29",
+    "headline": "V Praze se koná veletrh sledovacích technologií za účasti ruských a izraelských firem, produkty využívá i česká policie",
+    "summary": "V Praze proběhne veletrh ISS World zaměřený na sledovací technologie, jehož se účastní firmy napojené na konflikt v Gaze i ruská firma obcházející sankce EU. Česká policie podle článku produkty těchto firem využívá, což nastoluje otázky ohledně státních zakázek a dohledu nad používáním špionážních technologií.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Izraelské a ruské špehovací firmy obchodují v Praze. Jejich produkty používá i česká policie",
+        "url": "https://denikalarm.cz/2026/05/izraelske-a-ruske-spehovaci-firmy-obchoduji-v-praze-jejich-produkty-pouziva-i-ceska-policie/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-05-29T07:38:43.002Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — účast ruské firmy vyhýbající se sankcím EU na veletrhu v ČR a nákup jejích produktů českou policií je konkrétní incident s omezeným, ale zaznamenáníhodným dopadem na subkomponentu C5 (práva v digitálním prostoru, ochrana před masovým sledováním státem). Nejde o systémovou změnu zákona ani o rozsáhlý prokázaný program sledování, proto severity nepřesahuje 2. Sekundárně se dotýká K2 (veřejné zakázky) v pilíři corruption. Jeden zdroj, žádná reakce regulátora.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z",
+    "expires_at": "2026-08-21T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-090",
+    "date": "2026-05-28",
+    "headline": "ESLP rozhodl ve prospěch novinářky Sáši Uhlové: Česká policie porušila její práva při zadržení v roce 2020",
+    "summary": "Evropský soud pro lidská práva vydal rozsudek, podle nějž česká policie pochybila, když v roce 2020 zadržela redaktorku A2larmu Sášu Uhlovou při reportáži z dolu Vršany. Rozsudek představuje závazné mezinárodní konstatování pochybení státního orgánu vůči novinářce při výkonu její práce.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Evropský soud pro lidská práva dal za pravdu Saše Uhlové v jejím sporu s Českou republikou",
+        "url": "https://denikalarm.cz/2026/05/evropsky-soud-pro-lidska-prava-dal-za-pravdu-sase-uhlove-v-jejim-sporu-s-ceskou-republikou/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-05-29T07:38:43.002Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rozsudek mezinárodního soudu (ESLP) potvrzující porušení práv novinářky při výkonu reportérské činnosti zakládá precedent a potvrzuje selhání v subkomponentě M3 (bezpečnost novinářů, ochrana před zásahy státu). Dle eskalačního pravidla rubric: +1 pokud reakce mezinárodního orgánu potvrzuje porušení normy — zde ESLP explicitně potvrdil pochybení, což samo o sobě posunuje událost na 3. Sekundárně se dotýká pilíře civil (C2 — svoboda shromažďování a pohybu při pokojném výkonu reportáže). Jde o one_off s datovatelnou příčinou v roce 2020, rozsudek je nová událost 2026.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z",
+    "expires_at": "2026-08-20T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-091",
+    "date": "2026-05-29",
+    "headline": "Tykačova Tymeprax převzala polovinu akcií Mafry",
+    "summary": "Společnost Tymeprax miliardáře Pavla Tykače převzala 50 % akcií mediálního domu Mafra, jednoho z největších vydavatelů v ČR. Do představenstva byl zvolen nový člen, do dozorčí rady vstoupila Tykačova dcera. Jde o zásadní změnu vlastnické struktury klíčového mediálního subjektu.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Tykačova společnost Tymeprax dnes převezme polovinu akcií Mafry",
+        "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-tykacova-spolecnost-tymeprax-dnes-prevezme-polovinu-akcii-mafry-307340",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-29T07:38:43.521Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — akvizice poloviny Mafry (MF DNES, iDnes, Metro; jedno z top 5 médií v ČR) investorem bez prokázané záruky redakčního odstupu. Subkomponenta M1 (mediální pluralita, vlastnická diverzita). Plná severity 4 per rubric §4 by platila při prokázané aktivní politické roli nového vlastníka; Tykač je v první řadě byznysový investor bez dosavadní přímé politické angažovanosti, nikoli politik — proto severity 3, nikoli 4. Pokud by se prokázalo politické propojení, eskalace na 4 je opodstatněná. Persistent, protože vlastnická změna je strukturální stav.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z"
+  },
+  {
+    "id": "2026-W22-092",
+    "date": "2026-05-29",
+    "headline": "Odbory ČT a ČRo vyzvaly Babiše k zastavení plánů na změny financování veřejných médií",
+    "summary": "Odborové organizace České televize a Českého rozhlasu veřejně vyzvaly premiéra Babiše, aby zastavil reformu financování navrhovanou ministrem Klempířem. Odbory odmítají jak převod médií pod státní rozpočet, tak koalicí zvažované úlevy na koncesionářských poplatcích, protože obě varianty ohrožují redakční nezávislost.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Odbory ČT a ČRo vyzvaly Babiše k zastavení plánů na změny financování obou médií",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-odbory-ct-a-cro-vyzvaly-babise-aby-zastavil-plany-na-zmeny-jejich-financovani-307341",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-29T07:38:43.521Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — plán na změnu financování ČT/ČRo (převod pod státní rozpočet) je v aktivní fázi přípravy, subkomponenta M2 (nezávislost ČT a ČRo, ochrana před politickým tlakem na financování). Událost sama o sobě je výzva odborů = verbální krok, ale reprezentuje pokračující strukturální hrozbu pro nezávislost veřejnoprávních médií, proto persistent. Zákon dosud nebyl schválen, takže severity 4 (rubric §4 vyžaduje přímý dopad na fungování klíčové instituce) zatím nedosažena. Eskalace na 4 nastane při formálním předložení návrhu zákona do sněmovny.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z"
+  },
+  {
+    "id": "2026-W22-093",
+    "date": "2026-05-29",
+    "headline": "Ředitel ČT Chudárek mění strategii a připravuje plán B pro případ zrušení poplatků",
+    "summary": "Ředitel České televize Hynek Chudárek přiznal, že situace kolem financování ČT je turbulentní, a oznámil změnu komunikační strategie. Chystá alternativní plán pro případ, že vládní koalice prosadí změny v systému poplatků financujících veřejnoprávní média.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Proměna ředitele ČT. Pochopil, že Klempíř není „boss“, a chystá plán B",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-promena-reditele-ct-pochopil-ze-klempir-neni-boss-a-chysta-plan-b-306434",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-29T07:38:43.521Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o signál probíhajícího institucionálního tlaku na ČT (subkomponenta M2), nikoli o konkrétní rozhodnutí nebo zákon. Chudárkovo veřejné přiznání „turbulentní situace\" a příprava plánu B naznačuje, že politický tlak vládní koalice na financování ČT je reálný a trvalý, ale zatím nedosáhl úrovně formálního rozhodnutí. Sekundárně relevantní pro G1 (kontrola exekutivy nad veřejnoprávními institucemi). Persistent, protože jde o trvající strukturální napětí, nikoli jednorázový incident.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z"
+  },
+  {
+    "id": "2026-W22-094",
+    "date": "2026-05-29",
+    "headline": "Náměstek ředitele pražské TSK obviněn ze zpronevěry devíti milionů při stavbě mostu",
+    "summary": "Policie obvinila Josefa Richtra, náměstka ředitele Technické správy komunikací hlavního města Prahy, ze zpronevěry devíti milionů korun. Měl se podílet na fakturování fiktivních prací stavební firmě, v níž dříve působil, při stavbě mostu na Pardubicku.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Obvinění manažera vlivné firmy Prahy. Kradl při stavbě mostu, říká policie",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-obvineni-manazera-vlivne-firmy-prahy-kradl-pri-stavbe-mostu-rika-policie-306948",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-29T07:38:43.521Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — obvinění úředníka střední úrovně městské správy za korupci ve veřejné zakázce (subkomponenta K2, fakturace fiktivních prací při veřejné stavbě). Jde o konkrétní policejní obvinění s datovatelnou událostí, ale bez dopadů na klíčové ústavní instituce nebo systémového charakteru. Oproti vyšším úrovním chybí politická návaznost na vrcholné politiky nebo strukturální schéma — jde o individuální případ korupce na střední správní úrovni.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z",
+    "expires_at": "2026-08-21T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-095",
+    "date": "2026-05-28",
+    "headline": "Exministr zahraničí Kulhánek bude novým českým velvyslancem v USA",
+    "summary": "Český velvyslanec ve Washingtonu Miloslav Stašek bude nahrazen Janem Kulhánkem, bývalým ministrem zahraničních věcí z vlády Andreje Babiše. Jde o standardní diplomatické jmenování vládou.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Českým velvyslancem v USA se stane exministr Kulhánek",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-ceskym-velvyslancem-v-usa-se-stane-exministr-kulhanek-307333",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-05-29T07:38:43.521Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — rutinní personální rozhodnutí exekutivy v diplomatické oblasti (subkomponenta G1, personální pravomoci vlády). Jmenování velvyslanců je standardní výkon vládní pravomoci bez náznaku ústavního nebo procedurálního problému. Direction 0, protože jmenování exministra velvyslancem je běžná praxe v řadě demokracií a článek neuvádí důvody pro hodnocení jako demokraticky pozitivní či negativní krok.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-29T07:38:36.103Z",
+    "expires_at": "2026-08-20T00:00:00.000Z"
   }
 ]
