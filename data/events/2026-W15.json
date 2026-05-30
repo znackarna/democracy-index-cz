@@ -17,10 +17,34 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS potvrzující procesní povinnosti orgánů v konkrétní kauze má omezený institucionální dopad, ale vytváří precedent pro podobné případy (subkomponenta J4 — rovnost před zákonem a ochrana zranitelných). Směr +1: soud korigoval selhání orgánů činných v trestním řízení a posílil ochranu práv. Křížově relevantní pro subkomponentu C4 (ochrana menšin, zranitelné skupiny). Single source, žádný prokazatelný vzorec systémového selhání — proto severity 2, nikoli 3.\n\n[merged with 2026-W15-002 — same incident, sources combined]",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS potvrzující procesní povinnosti orgánů v konkrétní kauze má omezený institucionální dopad, ale vytváří precedent pro podobné případy (subkomponenta J4 — rovnost před zákonem a ochrana zranitelných). Směr +1: soud korigoval selhání orgánů činných v trestním řízení a posílil ochranu práv. Křížově relevantní pro subkomponentu C4 (ochrana menšin, zranitelné skupiny). Single source, žádný prokazatelný vzorec systémového selhání — proto severity 2, nikoli 3.\n\n[merged with 2026-W15-002 — same incident, sources combined]\n\n[merged with 2026-W15-003 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-14T07:17:53.342Z",
     "expires_at": "2026-06-30T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W15-002",
+    "date": "2026-04-09",
+    "headline": "Ústavní soud: Snížení odškodnění oběti musí být pečlivě odůvodněno, zvláště u dítěte",
+    "summary": "Ústavní soud vydal nález, podle nějž musí trestní soudy důkladně odůvodňovat výrazné snížení odškodnění přiznaného prvostupňovým soudem. Zvýšenou ochranu vyžadují zejména nezletilé oběti sexuálních trestných činů, u nichž mohou být traumata celoživotní.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Výrazné snížení odškodnění oběti je třeba vždy pečlivě odůvodnit. To platí tím spíše, je-li zvláště zranitelnou obětí dítě",
+        "url": "https://www.usoud.cz/aktualne/vyrazne-snizeni-odskodneni-obeti-je-treba-vzdy-peclive-oduvodnit-to-plati-tim-spise-je-li-zvlaste-zranitelnou-obeti-dite",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-05-30T07:17:27.695Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — nález ÚS upřesňující standardy soudního odůvodnění v oblasti odškodnění obětí má omezenou, ale zaznamenáníhodnou normativní hodnotu pro praxi obecných soudů (subkomponenta J2 a J4). Nejde o ústavní krizi ani o politický tlak na justici, nýbrž o standardní rozhodovací aktivitu ÚS posilující ochranu obětí. Direction +1, protože nález zpřísňuje nároky na soudní odůvodnění ve prospěch zranitelných osob a rovného zacházení (J4).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-05-30T07:17:10.550Z",
+    "expires_at": "2026-07-02T00:00:00.000Z"
   }
 ]
