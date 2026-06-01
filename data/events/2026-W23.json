@@ -1,0 +1,229 @@
+[
+  {
+    "id": "2026-W23-001",
+    "date": "2026-06-01",
+    "headline": "Zaměstnanci Agentury pro sociální začleňování stávkují proti reorganizacím státní správy",
+    "summary": "Pracovníci Agentury pro sociální začleňování zahájili jednodenní stávku protestující proti náhlým reorganizacím ve státní správě. Do stávky vstoupilo 39 zaměstnanců, dalších 15 ji podpořilo. Akci solidarity vyjádřili i odboráři z Úřadu vlády, ministerstva životního prostředí a dalších institucí.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "‚Demokracii se láme páteř.‘ Agentura pro sociální začleňování stávkují proti změnám ve státní správě",
+        "url": "https://www.irozhlas.cz/zpravy-domov/stavka-za-verejnou-sluzbu-pracovnikum-agentury-pro-socialni-zaclenovani-se_2606010940_zko",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-01T08:11:40.364Z"
+      },
+      {
+        "title": "Odbory agentury pro začleňování vstoupily do stávky proti reorganizacím",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/odbory-agentury-pro-zaclenovani-vstoupily-do-stavky-proti-reorganizacim-374094",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-01T08:11:40.740Z"
+      },
+      {
+        "title": "Odbory agentury pro začleňování zahájily jednodenní stávku za veřejnou službu",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-odbory-agentury-pro-zaclenovani-zahajily-jednodenni-stavku-za-verejnou-sluzbu-307487",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-01T08:11:45.952Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — stávka malé skupiny zaměstnanců (39 osob z 116 míst) jedné státní agentury je konkrétní, datovaná událost s omezeným dopadem na fungování instituce. Subkomponenta G4 (transparentnost a stabilita vládnutí) — náhlé reorganizace bez řádného procesu narušují důvěru ve státní správu. Nejde o přímé porušení ústavní normy ani o precedent celostátního dosahu, proto severity 2 spíše než 3. Sekundárně se dotýká C3 (svoboda sdružování a odborová práva).\n\n[merged with 2026-W23-002 — same incident, sources combined]\n\n[merged with 2026-W23-009 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-01T08:11:39.112Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-003",
+    "date": "2026-06-01",
+    "headline": "Vystrčil přicestoval na Tchaj-wan na svou druhou návštěvu ostrova",
+    "summary": "Předseda Senátu Miloš Vystrčil dorazil na Tchaj-wan, kde jej přivítal tchajwanský náměstek ministra zahraničí. Jde o jeho druhou návštěvu ostrova, poprvé ho navštívil v srpnu 2020. Po příletu Vystrčil neposkytl žádné prohlášení.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vystrčil dorazil s delegací na Tchaj-wan, setká se s tamními představiteli",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vystrcil-dorazil-s-delegaci-na-tchaj-wan-setka-se-s-tamnimi-predstaviteli-374089",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-01T08:11:40.740Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — návštěva předsedy Senátu na Tchaj-wanu je standardní diplomatická aktivita ústavního činitele bez přímého dopadu na demokratické instituce v ČR. Subkomponenta G1 (dělba moci) ani G4 (transparentnost) nejsou zasaženy. Událost má geopolitický rozměr, avšak jako přímý dopad na fungování demokracie v ČR je minimální a spíše ambivalentní — proto direction 0. Anti-bias check: stejný rating by byl přidělen jakémukoliv předsedovi Senátu bez ohledu na politickou příslušnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-01T08:11:39.112Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-004",
+    "date": "2026-06-01",
+    "headline": "Vláda zvažuje přesun agend lidských práv a protidrogové politiky z úřadu vlády na ministerstva",
+    "summary": "Vláda se má na pondělním jednání vrátit k plánovanému přesunu agend lidských práv a protidrogové politiky z úřadu vlády na čtveřici ministerstev. Návrh kritizují odborníci, kteří plánují stávku. Premiér Babiš obdržel připomínky expertů minulý týden a měl je posoudit do pondělka.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vláda by se na jednání mohla vrátit k přesunu agend na ministerstva",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-by-se-na-jednani-mohla-vratit-k-presunu-agend-na-ministerstva-374086",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-01T08:11:40.740Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — reorganizace vládních agend lidských práv a protidrogové politiky je konkrétním institucionálním rozhodnutím, které může mít dopad na subkomponentu G2 (kvalita legislativy a správní procesů) i G4 (transparentnost vládnutí). Není zatím schváleno, jde o fázi projednávání. Kritika expertů a stávka naznačují spornost procesu, avšak zatím bez jasného protiústavního rozměru. Pokud bude přijato bez řádného připomínkového řízení, eskalace na severity 3 je možná. Duration persistent, protože reorganizace by měla trvalý institucionální charakter.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-01T08:11:39.112Z"
+  },
+  {
+    "id": "2026-W23-005",
+    "date": "2026-06-01",
+    "headline": "KSČM si na sjezdu zvolila nové vedení po rezignaci Konečné",
+    "summary": "Na sjezdu KSČM rezignovala předsedkyně Kateřina Konečná a strana zvolila nové vedení. Jde o klíčový moment pro českou levici a budoucnost strany, která dlouhodobě ztrácí volební podporu.",
+    "pillar": "electoral",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kateřina Konečná to zabalila. Můžou se čeští komunisté ještě vrátit z propadliště dějin?",
+        "url": "https://podcasty.hn.cz/c1-67884390-katerina-konecna-to-zabalila-muzou-se-cesti-komuniste-jeste-vratit-z-propadliste-dejin",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-01T08:11:42.235Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — vnitrostranická personální změna u marginální parlamentně nezastoupené strany má minimální dopad na demokratické instituce. Subkomponenta E2 (politický pluralismus) je velmi slabě dotčena, avšak kongres strany a volba vedení jsou standardní stranická procedura. Tento typ události sám o sobě neposiluje ani neoslabuje demokratické prostředí — direction 0. Článek je spíše analytický s komentářem ke sjezdu, ale obsahuje konkrétní datovanou událost (sjezd, rezignace Konečné).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-01T08:11:39.112Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-006",
+    "date": "2026-06-01",
+    "headline": "Babiš se obrátil zády k protidrogovému koordinátorovi Bémovi a přiklání se k represi",
+    "summary": "Premiér Babiš se odklonil od svého vlastního výběru protidrogového koordinátora Pavla Béma a přiklonil se k represivnímu přístupu v boji proti drogám. Změna přístupu je patrná z jeho výroků i z faktického odsunutí Béma na vedlejší kolej.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Léčba“ Bémem na Babiše nezafungovala. Rozhodl se v boji s drogami i kratomem přitvrdit",
+        "url": "https://zpravy.aktualne.cz/domaci/lecba-bemem-na-babise-nezafungovala-rozhodl-se-v-boji-s-drogami-i-kratomem-pritvrdit/r~aaa294f6774a37c648e1fba3dc3c2444/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-01T08:11:43.243Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaná změna přístupu exekutivy v oblasti protidrogové politiky a faktické odsunutí odborného koordinátora. Subkomponenta G2 (kvalita rozhodovacího procesu vlády) je dotčena tím, že premiér ignoruje vlastního experta. Absence formálního rozhodnutí a relativně omezený institucionální dopad oproti přímému porušení normy opodstatňují severity 2. Nejde o ústavní překročení hranic, ale o znepokojivý signál ohledně vztahu exekutivy k odbornosti ve správě.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-01T08:11:39.112Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-007",
+    "date": "2026-06-01",
+    "headline": "Zaměstnanci Agentury pro sociální začleňování zahájili jednodenní stávku proti reorganizaci",
+    "summary": "Odborová organizace Agentury pro sociální začleňování vyhlásila jednodenní stávku za veřejnou službu a proti náhlým reorganizacím ve státní správě. Stávky se zúčastnilo 39 zaměstnanců, dalších 15 ji podpořilo.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Odbory agentury pro začleňování zahájily jednodenní stávku za veřejnou službu",
+        "url": "https://zpravy.aktualne.cz/domaci/odbory-agentury-pro-zaclenovani-zahajily-jednodenni-stavku-za-verejnou-sluzbu/r~aaa292022ab5f1a30744a9b48e5c1980/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-01T08:11:43.243Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — jednodenní stávka státních zaměstnanců je konkrétním výkonem práva na stávku a svobody sdružování (subkomponenta C3). Direction +1, protože jde o legitimní výkon odborového práva, který signalizuje funkčnost občanské společnosti a pracovního práva. Samotná stávka instituci neposiluje dramaticky, ale je přímým výkonem základního práva, proto pozitivní směr. Dopad je lokální a jednorázový, bez precedentního charakteru.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-01T08:11:39.112Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-008",
+    "date": "2026-06-01",
+    "headline": "Čína protestuje proti Vystrčilově cestě na Tchaj-wan a žádá nápravu",
+    "summary": "Čínské velvyslanectví v Praze vydalo ostré prohlášení ke cestě předsedy Senátu Miloše Vystrčila na Tchaj-wan, v němž jej obviňuje z porušení základních norem mezinárodních vztahů a nerespektování postoje vlastní vlády. Vystrčil cestu obhajuje jako hodnotovou pragmatickou politiku. Incident otevírá otázku koordinace zahraniční politiky mezi exekutivou a Senátem.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Nerespektoval svou vládu.“ Čína zuří kvůli Vystrčilově cestě, žádá nápravu „chyby“",
+        "url": "https://zpravy.aktualne.cz/domaci/nerespektoval-svou-vladu-cina-zuri-kvuli-vystrcilove-ceste-zada-napravu-chyby/r~aaa29f27bdb3cb62b22a81495a01476a/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-01T08:11:43.243Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o diplomaticky citlivý incident s omezeným institucionálním dopadem: Senát má legitimní zahraniční roli, ale napětí mezi vládou a Senátem v otázce tchajwanské politiky je opakující se téma bez systémového posunu. Subkomponenta G1 (dělba moci, role Senátu) je dotčena pouze okrajově — nejde o ústavní krizi ani o faktické omezení pravomocí. Direction 0, protože Vystrčilova cesta může být čtena jako posilování parlamentní autonomie (+1) i jako narušení vládní koordinace (-1). Pokud by vláda aktivně usilovala o omezení senátních zahraničních aktivit, eskalace na 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-01T08:11:39.112Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-010",
+    "date": "2026-06-01",
+    "headline": "NKÚ zjistil, že přínosy dotací na srážkovou vodu za 1,6 miliardy nelze posoudit",
+    "summary": "Nejvyšší kontrolní úřad zveřejnil zjištění z kontroly dotačního programu ministerstva životního prostředí za roky 2022–2024, přičemž konstatoval, že efektivitu přidělených 1,6 miliardy korun do 182 obcí nelze objektivně zhodnotit. Zjištění upozorňují na nedostatky v systému sledování přínosů dotací.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "NKÚ: Přínosy dotací na lepší hospodaření se srážkovou vodou nelze posoudit",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-nku-prinosy-dotaci-na-lepsi-hospodareni-se-srazkovou-vodou-nelze-posoudit-307477",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-01T08:11:45.952Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — zpráva NKÚ o nepřezkoumatelnosti přínosů dotací je konkrétní kontrolní zjištění týkající se transparency veřejných zakázek a dotací (subkomponenta K2 — veřejné zakázky a transparentnost). Nejde o přímé zjištění korupce, ale o systémový nedostatek kontroly efektivity. Bez náznaku úmyslného protiprávního jednání downgrade k severity 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-01T08:11:39.112Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-011",
+    "date": "2026-06-01",
+    "headline": "Předseda Senátu Vystrčil zahájil druhou návštěvu Tchaj-wanu s 50člennou delegací",
+    "summary": "Předseda Senátu Miloš Vystrčil přicestoval na Tchaj-wan v čele delegace zahrnující podnikatele a zástupce univerzit. Plánuje se setkat s tchajwanskou viceprezidentkou Hsiao, jde o jeho druhý oficiální výjezd na ostrov.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vystrčil dorazil s delegací na Tchaj-wan, setká se s viceprezidentkou Hsiao",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-vystrcil-dorazil-s-delegaci-na-tchaj-wan-setka-se-s-viceprezidentkou-hsiao-307473",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-01T08:11:45.952Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — rutinní zahraniční cesta ústavního činitele v rámci standardní diplomatické a hospodářské činnosti Senátu (subkomponenta G1 — dělba moci, role Senátu). Návštěva posiluje mezinárodní institucionální vazby ČR, jde však o nezávažnou, opakovanou aktivitu bez přímého dopadu na demokratické instituce doma. Direction +1 jako mírně pozitivní z hlediska institucionálního výkonu Senátu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-01T08:11:39.112Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  }
+]

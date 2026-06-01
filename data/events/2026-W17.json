@@ -1002,7 +1002,7 @@
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — návrh novely, která rozšiřuje pravomoci kontrolního orgánu ve prospěch jeho stávajícího šéfa, ohrožuje nezávislost protikorupční instituce (subkomponenta K4 — protikorupční instituce) a transparentnost veřejných zakázek (K2). Jde o zákonodárný návrh (ne pouze záměr), což dle pravidel eskalace odpovídá formálnímu dokumentu, ale není dosud schválen, proto severity 3 a ne 4. Sekundárně se dotýká pilíře governance (G1 — dělba moci a kontrolní mechanismy). Jediný primární zdroj (TI ČR), proto se neaplikuje eskalace za potvrzení mezinárodním orgánem.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W17-045 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 — návrh novely, která rozšiřuje pravomoci kontrolního orgánu ve prospěch jeho stávajícího šéfa, ohrožuje nezávislost protikorupční instituce (subkomponenta K4 — protikorupční instituce) a transparentnost veřejných zakázek (K2). Jde o zákonodárný návrh (ne pouze záměr), což dle pravidel eskalace odpovídá formálnímu dokumentu, ale není dosud schválen, proto severity 3 a ne 4. Sekundárně se dotýká pilíře governance (G1 — dělba moci a kontrolní mechanismy). Jediný primární zdroj (TI ČR), proto se neaplikuje eskalace za potvrzení mezinárodním orgánem.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W17-045 — same incident, sources combined]\n\n[merged with 2026-W17-045 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-25T07:54:44.259Z",
