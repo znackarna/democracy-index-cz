@@ -225,5 +225,378 @@
     "status": "active",
     "created_at": "2026-06-01T08:11:39.112Z",
     "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-012",
+    "date": "2026-06-01",
+    "headline": "Babiš systematicky napadá novináře a redakce na vládních tiskových konferencích",
+    "summary": "Premiér Andrej Babiš opakovaně využívá vládní tiskové konference k veřejnému jmenování a napadání konkrétních novinářů a redakcí, které označuje za lháře a manipulátory. Jde o soustavný vzorec, nikoli jednorázový výrok.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Pointa N: K čemu jsou tiskové konference vlády",
+        "url": "https://denikn.cz/2080574/pointa-n-k-cemu-jsou-tiskove-konference-vlady/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-02T07:57:49.926Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — soustavná veřejná kritika konkrétních novinářů a médií ze strany premiéra (subkomponenta M3, právní/politická šikana a stigmatizace novinářů). Zatím jde o verbální útoky bez přímého institucionálního dopadu, ale opakovaný vzorec z prominentní platformy (vládní TK každý týden) zakládá eskalaci o +1 úroveň oproti jednorázovému výroku dle pravidla eskalace (≥3 podobné incidenty od stejného aktéra). Single-source, proto ponechávám na 2. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí a vztah s médii).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z"
+  },
+  {
+    "id": "2026-W23-013",
+    "date": "2026-06-01",
+    "headline": "Babišovo okolí připravuje plán na řešení sporu s Hradem o účast na summitu NATO",
+    "summary": "Okolí premiéra Babiše dokončuje plán, který by umožnil prezidentu Pavlovi účast na summitu NATO v Turecku a zároveň by vedl ke stažení Pavlovy kompetenční žaloby. Spor mezi Hradem a vládou o zahraniční zastupování ČR pokračuje, přičemž dohoda není jistá.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Do Turecka společně? Babišovo okolí chystá plán, který vyřeší spor s Hradem",
+        "url": "https://denikn.cz/2080748/do-turecka-spolecne-babisovo-okoli-chysta-plan-ktery-vyresi-spor-s-hradem/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-02T07:57:49.926Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — probíhající kompetenční spor mezi prezidentem a premiérem o zastupování státu na mezinárodní scéně (subkomponenta G1, dělba moci) vytváří precedent pro ústavní napětí. Fakt, že se řeší kompetenční žaloba, naznačuje závažný institucionální konflikt. Článek je ale převážně analytický s výhledem, nikoli popisem konkrétně uzavřené dohody — event nicméně existuje: připravení konkrétního plánu a přetrvávající kompetenční žaloba jsou datovatelné stavy. Eskalace na 4 by vyžadovala eskalaci konfliktu nebo podanou žalobu samotnou; ta pravděpodobně již existuje, ale tento článek popisuje pokusy o řešení. Sekundárně dotýká subkomponenty E4 (institucionální posloupnost a respekt ke kompetencím).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z"
+  },
+  {
+    "id": "2026-W23-014",
+    "date": "2026-06-01",
+    "headline": "Žalobkyně Lastovecká rezignovala na funkci, cituje ztrátu důvěry ve vedení státního zastupitelství",
+    "summary": "Petra Lastovecká, státní zástupkyně Vrchního státního zastupitelství v Olomouci, rezignovala po svém vyloučení z kauzy bitcoin pro údajnou podjatost. Svůj odchod zdůvodnila nedostatkem důvěry ve vedení a tím, co označila za přílišnou opatrnost a alibismus svých nadřízených.",
+    "pillar": "judicial",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Patologická opatrnost a alibismus.“ Jak žalobkyně vyloučená z kauzy bitcoin vysvětlila svůj odchod",
+        "url": "https://denikn.cz/2080745/patologicka-opatrnost-a-alibismus-jak-zalobkyne-vyloucena-z-kauzy-bitcoin-vysvetlila-svuj-odchod/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-02T07:57:49.926Z"
+      },
+      {
+        "title": "Vrchní žalobce Dragoun: Brněnské kauzy Lastovecké může převzít někdo jiný, konkrétní jméno zatím není",
+        "url": "https://www.irozhlas.cz/zpravy-domov/lastovecka-konci-u-statniho-zastupitelstvi-jeji-brnenske-kauzy-muze-prevzit-jiny_2606020800_ntu",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-02T07:57:50.733Z"
+      },
+      {
+        "title": "„Už nechci snášet výpady,“ řekla žalobkyně Lastovecká k rezignaci",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/statni-zastupkyne-lastovecka-rezignovala-na-funkci-374100",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-02T07:57:50.893Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — rezignace zkušené žalobkyně dozorující velké politické kauzy po institucionálně sporném vyloučení (subkomponenta J3, nezávislost státního zastupitelství) vytváří precedent a signalizuje dysfunkci uvnitř instituce. Veřejná kritika vedení ze strany žalobkyně je konkrétní a datovatelný incident. Druhý článek (index 4) potvrzuje tentýž incident z jiného zdroje — splňuje source-count rule pro severity 3. Není doložen přímý politický zásah shora, ale kontext vyloučení z politicky citlivé kauzy implikuje potenciální institucionální tlak. Downgrade na 2 by byl možný při absenci vzorce; vzorec (kauza bitcoin, vyloučení, rezignace) však naznačuje systémový problém J3.\n\n[merged with 2026-W23-015 — same incident, sources combined]\n\n[merged with 2026-W23-017 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-016",
+    "date": "2026-06-02",
+    "headline": "Reportáž ČT odhaluje, že místopředseda SPD Fiala je stále skutečným majitelem firem čerpajících státní příspěvky",
+    "summary": "Investigace reportérů ČT zjistila, že místopředseda SPD Radim Fiala, přestože v roce 2018 převedl své firmy do svěřenského fondu, zůstává jejich skutečným majitelem. Firmy přitom inkasují státní příspěvky za zaměstnávání osob se zdravotním postižením. Fiala potvrdil vlastnictví a oznámil plán převést firmy na rodinu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Reportéři ČT přibližují podnikání Fialy z SPD v zaměstnávání osob s postižením",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/reporteri-ct-priblizuji-podnikani-fialy-z-spd-v-zamestnavani-osob-s-postizenim-374112",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-02T07:57:50.893Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — subkomponenta K1 (politická korupce, střet zájmů ústavních/vysokých činitelů): místopředseda parlamentní strany fakticky vlastní firmy čerpající státní dotace, přičemž veřejně tvrdil opak. Nesoulad mezi formální strukturou (svěřenský fond) a skutečným vlastnictvím je typický indikátor obcházení pravidel střetu zájmů. Závažnost nepřesahuje 3, protože jde o jednu reportáž bez dosud prokázaného přímého zneužití politické pozice k získání dotací.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-018",
+    "date": "2026-06-01",
+    "headline": "Akcionáři ČEZ schválili cestu ke zestátnění výrobní části společnosti",
+    "summary": "Valná hromada ČEZ schválila 90 % hlasů vyčlenění výrobní části společnosti (uhelné a jaderné elektrárny) jako krok k jejímu ovládnutí státem. Rozhodnutí otevírá cestu k zásadní restrukturalizaci strategické energetické firmy s majoritním státním podílem. Byl rovněž schválen dividendový výnos 42 korun na akcii.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Valná hromada schválila cestu k rozdělení a zestátnění ČEZ. Jistá je dividenda 42 korun",
+        "url": "https://archiv.hn.cz/c1-67884810-valna-hromada-schvalila-cestu-k-rozdeleni-a-zestatneni-cez-jista-je-dividenda-42-korun",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-02T07:57:52.827Z"
+      },
+      {
+        "title": "ČEZ čeká rozdělení. Cesta k jeho zestátnění začíná",
+        "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-cez-ceka-rozdeleni-cesta-k-jeho-zestatneni-zacina-307564",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-02T07:57:54.596Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 – jde o konkrétní korporátní rozhodnutí u státního podniku se strategickým významem (subkomponenta G4, transparentnost vládnutí a nakládání se státními aktivy), avšak bez přímého ústavního nebo demokratického dopadu. Státní vlastnictví ČEZ je standardní a rozhodnutí proběhlo standardním korporátním způsobem (valná hromada). Direction 0: zestátnění výrobní části může mít různé dopady – posílení státní kontroly nad strategickou infrastrukturou na jedné straně, riziko zneužití státní moci na straně druhé – bez jednoznačného demokratického vektoru.\n\n[merged with 2026-W23-028 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-019",
+    "date": "2026-05-26",
+    "headline": "Novela trestního zákoníku zavádějící ekologické trestné činy doputovala do sněmovny",
+    "summary": "Do Poslanecké sněmovny byl předložen návrh novely trestního zákoníku, který rozšiřuje seznam trestných činů v oblasti poškozování životního prostředí a zpřísňuje tresty až na deset let. Jedná se o legislativní návrh v rané fázi parlamentního projednávání.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kafe z vykáceného pralesa nebo nelegální čerpání vody. Trestní zákoník přinese nové ekologické zločiny a s nimi vysoké sazby",
+        "url": "https://archiv.hn.cz/c1-67884720-kafe-z-vykaceneho-pralesa-nebo-nelegalni-cerpani-vody-trestni-zakonik-prinese-nove-ekologicke-zlociny-a-s-nimi-vysoke-sazby",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-02T07:57:52.827Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 – předložení legislativního návrhu do sněmovny je rutinní součástí zákonodárného procesu (subkomponenta G2, kvalita legislativy) bez jakéhokoli prozatímního institucionálního dopadu. Věcný obsah (ekologické trestné činy) nespadá primárně do žádného z pilířů demokratického indexu. Direction 0: návrh nelze hodnotit demokraticky pozitivně ani negativně v tomto stádiu. Datum události odhadováno jako přibližně týden před publikací (předloha „minulý týden doputovala do sněmovny",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-020",
+    "date": "2026-06-01",
+    "headline": "Vystrčil na Tchaj-wanu: Čína nemůže říkat Česku, s kým se přátelit",
+    "summary": "Předseda Senátu Miloš Vystrčil zahájil svou druhou návštěvu Tchaj-wanu setkáním s předsedou tamního parlamentu, při němž zdůraznil suverenitu ČR v zahraničněpolitických rozhodnutích. Výrok je součástí dlouhodobé linie prodemokratické zahraniční politiky horní komory parlamentu.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Čína nemůže Česku říkat, s kým se má přátelit, řekl Vystrčil na Tchaj-wanu",
+        "url": "https://zahranicni.hn.cz/c1-67884620-cina-nemuze-cesku-rikat-s-kym-se-ma-pratelit-rekl-vystrcil-na-tchaj-wanu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-02T07:57:52.827Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o verbální prohlášení bez přímého institucionálního dopadu na domácí demokratické instituce. Subkomponenta G1 (dělba moci a mezinárodní suverenita) je marginálně relevantní, ale výrok je standardní součástí zahraniční politiky bez nového precedentu. Pozitivní směr (+1) vzhledem k deklaraci suverenity a odmítnutí zahraničního vměšování. Nejedná se o konkrétní institucionální událost s dopadem na demokracii v ČR, ale o politicky zaznamenatelné vystoupení.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-021",
+    "date": "2026-06-01",
+    "headline": "Vláda definitivně přesunula agendu lidských práv a závislostí pod ministerstva",
+    "summary": "Premiér Babiš potvrdil, že reorganizace přesunující agendu lidských práv a závislostí z úřadu vlády pod čtyři ministerstva je definitivní a vláda se k ní již nebude vracet. Změna struktury vládní agendy lidských práv vyvolala kritiku neziskového sektoru a opozice.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "&bdquo;Změna je dořešená.&ldquo; K přesunu agend lidských práv a závislostí se vláda vracet nebude, rozhodnutí je podle Babiše definitivní",
+        "url": "https://domaci.hn.cz/c1-67884610-bdquo-zmena-je-doresena-ldquo-k-presun-agend-lidskych-prav-a-zavislosti-se-vlada-vracet-nebude-rozhodnuti-je-podle-babise-definitivni",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-02T07:57:52.827Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — přesun agendy lidských práv na úřad vlády na liniová ministerstva je konkrétní rozhodnutí s dopadem na institucionální zajištění této oblasti (subkomponenta C4 — ochrana menšin a slabých skupin, C3 — svoboda sdružování/NGO ekosystém). Nejde o přímé omezení práv, ale o institucionální oslabení koordinace a advocacy. Duration: persistent, neboť jde o trvalou organizační změnu. Sekundárně relevantní i pro G4 (transparentnost vládnutí). Bez reakce mezinárodního orgánu zatím.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z"
+  },
+  {
+    "id": "2026-W23-022",
+    "date": "2026-06-01",
+    "headline": "Vláda vypíše výběrové řízení na protidrogového koordinátora, Babiš odmítl přímé jmenování Bémem",
+    "summary": "Premiér Babiš oznámil, že nový protidrogový koordinátor bude vybrán ve výběrovém řízení po odvolání Protopopové, přičemž odmítl přímé jmenování navrhovaného kandidáta Béma. Součástí plánu je i příprava legislativy regulující kratom.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Protopopová Béma nenahradí. Stát vypíše výběrové řízení, oznámil Babiš. Chystá se i lex kratom",
+        "url": "https://domaci.hn.cz/c1-67884530-protopopova-bema-nenahradi-stat-vypise-vyberove-rizeni-oznamil-babis-chysta-se-i-lex-kratom",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-02T07:57:52.827Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — oznámení výběrového řízení na úřednickou pozici střední úrovně bez přímého dopadu na ústavní instituce. Subkomponenta G4 (transparentnost vládnutí) mírně relevantní — výběrové řízení namísto přímého jmenování je procedurálně správný postup. Směr 0: ambivalentní, neboť šlo o pozici, jejíž agenda byla mezitím přesunuta; institucionální dopad nejasný. Neexistuje dostatečná institucionální váha pro vyšší severity.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-023",
+    "date": "2026-06-02",
+    "headline": "Babiš odmítl vládní speciál i vlastnímu poslanci po sporu s Vystrčilem",
+    "summary": "Premiér Babiš nejprve odepřel vládní letoun předsedovi Senátu Vystrčilovi a poté stejným způsobem zablokoval cestu delegaci svého vlastního místopředsedy sněmovny Nachera mířící do Izraele. Incident poukazuje na exekutivní kontrolu nad sdílenými institucionálními zdroji.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Po Vystrčilovi narazil i Babišův poslanec. Šéf mu zatrhl vládní speciál",
+        "url": "https://zpravy.aktualne.cz/domaci/po-vystrcilovi-narazil-i-babisuv-poslanec-sef-mu-zatrhl-vladni-special/r~aaa2932c8cb51887086ce5b8a89251f9/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-02T07:57:53.571Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivované odmítnutí poskytnout institucionální zdroj (vládní letoun) představuje drobné porušení normy s omezeným dopadem; nijak nesouvisí s přímou ústavní kompetencí, ale naznačuje zneužívání diskrece exekutivy vůči jiným ústavním orgánům (subkomponenta G1 — reálná kontrola a respekt k roli institucí). Epizoda je pozoruhodná tím, že postihla i vlastního koaličního poslance, což snižuje argumentaci o čistě politické persekuci opozice, ale precedent blokování institucionálního přístupu zůstává. Single source — žádná eskalace severity.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-024",
+    "date": "2026-06-01",
+    "headline": "Poslanec SPD Radim Fiala zvolen do dozorčí rady ČEZ, politické obsazení státní firmy",
+    "summary": "Valná hromada ČEZ zvolila nové členy dozorčí rady, mezi nimiž je aktivní poslanec za SPD Radim Fiala a úředník ministerstva financí. Odvolán byl mimo jiné liberecký hejtman Půta. Jmenování aktivního politika do vedení klíčové státní energetické společnosti otevírá otázky střetu zájmů a politizace správy státního majetku.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Radim Fiala z SPD bude v dozorčí radě ČEZ, končí hejtman Půta",
+        "url": "https://zpravy.aktualne.cz/ekonomika/radim-fiala-z-spd-bude-v-dozorci-rade-cez-konci-hejtman-puta/r~aaa29f6c596bc5c8d48afe2ebe9d3601/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-02T07:57:53.571Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — obsazení dozorčí rady státního podniku aktivním poslancem vládní koaliční strany je politicky motivovaný personální zásah na úrovni státního podniku (subkomponenta K1 — střet zájmů ústavních a politických činitelů). Dopad je zatím omezený, protože jde o standardní mechanismus valné hromady, ale přítomnost aktivního zákonodárce v dozorčí radě klíčové státní firmy vytváří potenciální trvalý střet zájmů. Persistent, protože mandát v dozorčí radě trvá.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z"
+  },
+  {
+    "id": "2026-W23-025",
+    "date": "2026-06-01",
+    "headline": "Koalice se dohodla na opatřeních proti obstrukčnímu blokování Sněmovny opozicí",
+    "summary": "Zástupci vládní koalice ANO, SPD a Motoristů se shodli na využití stávajícího jednacího řádu k omezení obstrukce opozice; předseda Sněmovny Okamura oznámil, že novelu jednacích pravidel dále rozšiřovat nechce. Dohoda je reakcí na prolongované blokování parlamentních schůzí ze strany opozice.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Koalice se dohodla na postupu proti blokování Sněmovny, uvedl Okamura",
+        "url": "https://zpravy.aktualne.cz/domaci/k-platnosti-referenda-bude-nutny-souhlas-aspon-35-procent-vsech-volicu-rekl-okamura/r~aaa29c30d9437cb35d658a10c3e1796a/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-02T07:57:53.571Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — koaliční dohoda o postupu proti parlamentní obstrukci se pohybuje v hranicích stávajícího jednacího řádu, nikoli v rovině protiústavního zásahu, ale koordinovaná snaha majority omezit legální obstrukční nástroje opozice zasahuje do subkomponenty G1 (reálná kontrola exekutivy parlamentem, rovnováha sil). Pokud by vedla k přijetí formální novely jednacího řádu, eskalace na severity 3–4. Zatím zůstává u deklarace záměru bez schváleného pravidla. Anti-bias check: stejný postup by byl hodnocen stejně u opozice předchozí vlády.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-026",
+    "date": "2026-06-02",
+    "headline": "Kastrační praxe vůči trans osobám v Česku přetrvává navzdory legislativním změnám",
+    "summary": "Podle reportáže A2larm český stát fakticky pokračuje v eugenických chirurgických zákrocích vůči trans a queer lidem i poté, co zákonná povinnost kastrace byla formálně zrušena. Případ poukazuje na propast mezi legislativní změnou a její praktickou implementací v oblasti práv menšin.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Kastrace trans* lidí v Česku neskončily",
+        "url": "https://denikalarm.cz/2026/06/kastrace-trans-lidi-v-cesku-neskoncily/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-06-02T07:57:54.332Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — soustavné ignorování legislativní změny ze strany státních institucí, které de facto pokračují v praxi formálně zakázané, má znaky systematického porušování práv menšiny (subkomponenta C4 — ochrana menšin před diskriminací a státním nezájmem). Persistent, protože se jedná o trvající strukturální stav. Upozornění: zdrojem je jediné médium (A2larm) s jasnou advokační linií — při absenci dalšího potvrzení by bylo vhodné snížit na severity 2 nebo nastavit needs_review; ponechávám severity 3 s tím, že rationale odkazuje na single-source limitaci a doporučuje review.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z"
+  },
+  {
+    "id": "2026-W23-027",
+    "date": "2026-06-01",
+    "headline": "Koalice dokončila návrh ústavního zákona o referendu s prahem 35 % všech voličů",
+    "summary": "Vládní koalice finalizovala návrh ústavního zákona zavádějícího institut všeobecného referenda. Ke schválení bude potřebovat hlasy části opozice, přičemž navržený práh platného výsledku je souhlas 35 % všech zapsaných voličů.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Návrh o referendu má koalice hotový. Nutný bude souhlas 35 procent všech voličů",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-navrh-o-referendu-ma-koalice-hotovy-nutny-bude-souhlas-35-procent-vsech-volicu-307568",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-02T07:57:54.596Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — návrh teprve vstupuje do legislativního procesu a nemá ještě schválenou podobu, jde o výraznou, ale omezenou etapu. Subkomponenta E2 (politický pluralismus) a E4 (posílení participativní demokracie): zavedení referenda by obecně posilovalo demokratické nástroje, ale konkrétní nastavení prahu 35 % všech voličů může být diskutabilně restriktivní. Direction +1, protože samotný návrh institutu referenda je posílením demokratických nástrojů. Pokud zákon projde v účinné podobě, událost by eskalovala na severity 3–4 dle konečného znění. Sekundárně se dotýká pilíře governance (G1, ústavní normy).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-029",
+    "date": "2026-06-01",
+    "headline": "Ministerstvo zahraničí podalo dvě trestní oznámení kvůli financování Expa 2025",
+    "summary": "Ministr Macinka informoval, že jeho úřad podal dvě trestní oznámení v souvislosti s nedostatky ve financování českého pavilonu na Expo 2025. Případ ohrožuje fungování Českých center jako státní instituce.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nedostatky ve financování Expa 2025 ohrožují Česká centra, uvedl Macinka",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-nedostatky-ve-financovani-expa-2025-ohrozuji-ceska-centra-uvedl-macinka-307543",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-02T07:57:54.596Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — trestní oznámení podaná samotným ministerstvem naznačují vážné pochybení při nakládání s veřejnými prostředky (subkomponenta K2, transparentnost veřejných zakázek a financování státních projektů). Dopad sahá na ohrožení fungování Českých center jako státní instituce. Single source, ale ministr jako iniciátor oznámení je věrohodný přímý zdroj. Sekundárně se dotýká pilíře governance (G4, transparentnost vládnutí).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-24T00:00:00.000Z"
   }
 ]

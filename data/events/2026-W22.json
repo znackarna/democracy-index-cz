@@ -2710,5 +2710,29 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-01T08:11:39.112Z"
+  },
+  {
+    "id": "2026-W22-130",
+    "date": "2026-05-29",
+    "headline": "Praha schválila Metropolitní plán po letech příprav",
+    "summary": "Zastupitelstvo hlavního města Prahy schválilo Metropolitní plán, který po dlouhém procesu stanovuje základní pravidla rozvoje a výstavby v metropoli. Jde o klíčový dokument územního plánování s dopadem na celé město a jeho budoucí rozvoj.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Praha schválila Metropolitní plán, teď už &bdquo;jen&ldquo;, aby podle něj město umělo stavět",
+        "url": "https://nazory.hn.cz/c1-67883940-praha-schvalila-metropolitni-plan-ted-uz-bdquo-jen-ldquo-aby-podle-nej-mesto-umelo-stavet",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-02T07:57:52.827Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — schválení Metropolitního plánu je konkrétní institucionální rozhodnutí zastupitelstva s omezeným dopadem na demokratické procesy. Z hlediska pilíře governance (subkomponenta G4 — transparentnost a předvídatelnost vládnutí na komunální úrovni) jde o standardní výkon samosprávy po legitimním, byť zdlouhavém procesu. Směr +1, protože přijetí závazného plánovacího dokumentu po letech nejistoty posiluje předvídatelnost veřejné správy. Avšak pilíř governance měří především dělbu moci a ústavní procesy, nikoli komunální územní plánování — relevance je nízká. Anti-bias: stejné hodnocení by platilo pro jakékoli jiné zastupitelstvo.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-02T07:57:49.909Z",
+    "expires_at": "2026-08-21T00:00:00.000Z"
   }
 ]
