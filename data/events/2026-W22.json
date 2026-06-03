@@ -2232,12 +2232,18 @@
         "url": "https://byznys.hn.cz/c1-67879360-politicky-tlak-byl-zjevny-zakladatel-portosu-popsal-co-se-delo-kolem-agrofertu-pred-volbami",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-05-30T07:17:13.891Z"
+      },
+      {
+        "title": "Politický tlak byl zjevný. Zakladatel Portosu popsal, co se dělo kolem Agrofertu před volbami",
+        "url": "https://archiv.hn.cz/c1-67879360-politicky-tlak-byl-zjevny-zakladatel-portosu-popsal-co-se-delo-kolem-agrofertu-pred-volbami",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-03T08:01:39.418Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — veřejné tvrzení o politickém tlaku na státem objednané právní posudky v kauze střetu zájmů ústavního činitele (subkomponenta K1) zakládá precedent politického zasahování do odborných expertíz. Jde o single source (rozhovor v HN), proto zvažuji snížení na 2, ale vzhledem k tomu, že tvrzení pochází od přímého aktéra (zakladatel kanceláře) a je konkrétní a ověřitelné, ponechávám severity 3 s doporučením verifikace z druhého zdroje. Sekundárně se dotýká pilíře governance (G1 — politické zasahování do správních procesů).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — veřejné tvrzení o politickém tlaku na státem objednané právní posudky v kauze střetu zájmů ústavního činitele (subkomponenta K1) zakládá precedent politického zasahování do odborných expertíz. Jde o single source (rozhovor v HN), proto zvažuji snížení na 2, ale vzhledem k tomu, že tvrzení pochází od přímého aktéra (zakladatel kanceláře) a je konkrétní a ověřitelné, ponechávám severity 3 s doporučením verifikace z druhého zdroje. Sekundárně se dotýká pilíře governance (G1 — politické zasahování do správních procesů).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W22-131 — same incident, sources combined]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "needs_review",
     "created_at": "2026-05-30T07:17:10.550Z",
     "expires_at": "2026-08-21T00:00:00.000Z"
   },

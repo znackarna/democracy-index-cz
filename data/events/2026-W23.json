@@ -145,12 +145,18 @@
         "url": "https://zpravy.aktualne.cz/domaci/odbory-agentury-pro-zaclenovani-zahajily-jednodenni-stavku-za-verejnou-sluzbu/r~aaa292022ab5f1a30744a9b48e5c1980/",
         "outlet": "Aktuálně.cz",
         "fetched_at": "2026-06-01T08:11:43.243Z"
+      },
+      {
+        "title": "„Kde je Středula?“ zaznělo na stávce odborů zaniklé sociální agentury. Ve hře je další protest",
+        "url": "https://denikn.cz/2081171/kde-je-stredula-zaznelo-na-stavce-odboru-zanikle-socialni-agentury-ve-hre-je-dalsi-protest/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-03T08:01:37.343Z"
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — jednodenní stávka státních zaměstnanců je konkrétním výkonem práva na stávku a svobody sdružování (subkomponenta C3). Direction +1, protože jde o legitimní výkon odborového práva, který signalizuje funkčnost občanské společnosti a pracovního práva. Samotná stávka instituci neposiluje dramaticky, ale je přímým výkonem základního práva, proto pozitivní směr. Dopad je lokální a jednorázový, bez precedentního charakteru.",
+    "rationale": "Severity 2 per rubric §2 — jednodenní stávka státních zaměstnanců je konkrétním výkonem práva na stávku a svobody sdružování (subkomponenta C3). Direction +1, protože jde o legitimní výkon odborového práva, který signalizuje funkčnost občanské společnosti a pracovního práva. Samotná stávka instituci neposiluje dramaticky, ale je přímým výkonem základního práva, proto pozitivní směr. Dopad je lokální a jednorázový, bez precedentního charakteru.\n\n[merged with 2026-W23-035 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-01T08:11:39.112Z",
     "expires_at": "2026-08-24T00:00:00.000Z"
   },
@@ -590,13 +596,375 @@
         "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-nedostatky-ve-financovani-expa-2025-ohrozuji-ceska-centra-uvedl-macinka-307543",
         "outlet": "Seznam Zprávy",
         "fetched_at": "2026-06-02T07:57:54.596Z"
+      },
+      {
+        "title": "Přípravy na Expo bude řešit policie. Českým centrům hrozí kvůli dluhům zánik",
+        "url": "https://denikn.cz/2077788/pripravy-na-expo-bude-resit-policie-kvuli-dluhum-hrozi-zanik-ceskym-centrum/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-03T08:01:37.343Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — trestní oznámení podaná samotným ministerstvem naznačují vážné pochybení při nakládání s veřejnými prostředky (subkomponenta K2, transparentnost veřejných zakázek a financování státních projektů). Dopad sahá na ohrožení fungování Českých center jako státní instituce. Single source, ale ministr jako iniciátor oznámení je věrohodný přímý zdroj. Sekundárně se dotýká pilíře governance (G4, transparentnost vládnutí).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — trestní oznámení podaná samotným ministerstvem naznačují vážné pochybení při nakládání s veřejnými prostředky (subkomponenta K2, transparentnost veřejných zakázek a financování státních projektů). Dopad sahá na ohrožení fungování Českých center jako státní instituce. Single source, ale ministr jako iniciátor oznámení je věrohodný přímý zdroj. Sekundárně se dotýká pilíře governance (G4, transparentnost vládnutí).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W23-036 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-02T07:57:49.909Z",
     "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-030",
+    "date": "2026-06-03",
+    "headline": "Mladý pravicový influencer nastoupil na ministerstvo životního prostředí (Motoristé)",
+    "summary": "Osmnáctiletý konzervativní influencer Adam Šejna, známý kontroverzními výroky o migraci a LGBTQ osobách a podporou europoslance Filipa Turka, obdržel pracovní místo na ministerstvu životního prostředí, které řídí Motoristé sobě. Jmenování vyvolalo otázky ohledně kvalifikačních a transparentnostních standardů při obsazování státních pozic.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Říká si český Charlie Kirk a chce „bílou Evropu“. Teď maturant nastoupil na ministerstvo Motoristů",
+        "url": "https://denikn.cz/2082481/rika-si-cesky-charlie-kirk-a-chce-bilou-evropu-pred-maturitou-ted-nastoupil-na-ministerstvo-motoristu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-03T08:01:37.343Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah střední úrovně státní správy (subkomponenta G4 — transparentnost vládnutí a kvalita personálního obsazení). Šejna je veřejně identifikovatelný jako politický spojenec vedení ministerstva, avšak incident sám o sobě nemá kaskádový institucionální efekt. Anti-bias check: stejné hodnocení by platilo pro politicky vyhraněného influencera libovolné ideologické orientace nastupujícího na ministerský post. Sekundárně může být relevantní subkomponenta C4 (postoje k menšinám), ale primárním problémem je pochybné personální rozhodnutí výkonné moci.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-26T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-031",
+    "date": "2026-05-20",
+    "headline": "Babiš přesunul agendu lidských práv z Úřadu vlády na ministerstva navzdory analýze, která to nedoporučovala",
+    "summary": "Premiér Andrej Babiš rozhodl o přesunu agendy lidských práv a závislostí z Úřadu vlády na jednotlivá ministerstva, přestože klíčová analytická podkladová zpráva, na níž se rozhodnutí opíralo, takový krok nedoporučovala. Deník N analýzu získal a zjistil rozpor mezi jejím obsahem a výsledným politickým rozhodnutím, což vyvolává otázky ohledně transparentnosti a kvality legislativního a správního procesu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Proč Babiš vystrnadil lidská práva z Úřadu vlády? Klíčová analýza jejich přesun nenavrhuje",
+        "url": "https://denikn.cz/2082748/proc-babis-vystrnadil-agendy-z-uradu-vlady-klicova-analyza-jejich-presun-nenavrhuje/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-03T08:01:37.343Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — institucionální restrukturalizace (subkomponenta G1, G2 a G4) s precedentním charakterem: agenda lidských práv je přesunuta navzdory vlastní analýze vlády, což indikuje obcházení standardního připomínkového a analytického procesu. Jde o trvalou strukturální změnu (persistent), nikoli jednorázový incident. Sekundárně se dotýká subkomponenty C4 (ochrana menšin), jelikož institucionální zázemí pro lidsko-právní agendu je oslabeno fragmentací. Severity neklesá na 2, protože existuje prokazatelný dokumentární důkaz (interní analýza) o vědomém rozporu mezi odborným doporučením a politickým rozhodnutím — to vytváří precedent pro ignorování vlastních analytických nástrojů. Zdroj: jeden (Deník N), ale s přímým dokumentem — severity ponechána na 3 s doporučením ověření.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z"
+  },
+  {
+    "id": "2026-W23-032",
+    "date": "2026-06-02",
+    "headline": "Náměstek Smrž (ANO) odchází z ministerstva životního prostředí, ministr Červený mění kabinet",
+    "summary": "Náměstek Vladislav Smrž, nominovaný hnutím ANO, ukončuje působení na ministerstvu životního prostředí. Jako důvod jsou uváděny rodinné okolnosti, ale podle Deníku N stojí za odchodem také vnitrorezortní napětí. Ministr Igor Červený zároveň obměňuje vedení svého kabinetu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Na ministerstvu Motoristů končí Babišův muž. Červený mění i šéfa svého kabinetu",
+        "url": "https://denikn.cz/2082570/na-ministerstvu-motoristu-konci-babisuv-muz-cerveny-meni-i-sefa-sveho-kabinetu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-03T08:01:37.343Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaná personální změna na střední úrovni státní správy (náměstek ministerstva) bez zjevného kaskádového efektu na fungování instituce. Subkomponenta G1: vnitrokoaliční napětí projevující se odchodem koaličního nominanta. Událost je relevantní pro governance jako indikátor nestability uvnitř vlády, ale nedosahuje úrovně 3, protože nedochází k narušení institucionálních procesů ani precedentnímu porušení norem. Sekundárně lze zmínit možný korupční kontext (koaliční nominant vs. ministr jiné strany), avšak bez konkrétních důkazů zůstáváme u governance.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-033",
+    "date": "2026-06-02",
+    "headline": "Vláda na valné hromadě prosadila rozdělení ČEZ: výrobu ovládne stát, zbytek se vyčlení",
+    "summary": "Na valné hromadě ČEZ vláda Andreje Babiše prosadila historicky největší restrukturalizaci energetického gigantu. Výrobní část přejde plně pod státní kontrolu, zbývající aktiva budou vyčleněna do samostatné firmy s možností vstupu soukromých investorů včetně Daniela Křetínského nebo Pavla Tykače. Analytici označují záměr za ekonomicky pochybný.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Cíl transformace ČEZ je grandiózní nesmysl. Cesta k levné elektřině vede jinudy, říká analytik",
+        "url": "https://denikn.cz/2081977/cil-transformace-cez-je-grandiozni-nesmysl-cesta-k-levne-elektrine-vede-jinudy-rika-analytik/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-03T08:01:37.343Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — vládou prosazená zásadní strukturální změna v největší polostátní společnosti vytváří precedent pro způsob, jakým exekutiva používá svou akcionářskou sílu mimo standardní legislativní proces. Subkomponenta G1 (dělba moci a transparentnost vládních rozhodnutí) a G4 (transparentnost vládnutí při nakládání se státními aktvy). Rozhodnutí má trvalý dopad na strukturu státního vlastnictví, proto persistent. Otázky ohledně možného zvýhodnění konkrétních podnikatelů blízkých vládní garnituře lze sekundárně zmínit v kontextu K2 (veřejné zakázky a transparentnost), ale primárním problémem je způsob výkonu vlastnické funkce státu. Severity 4 by byla relevantní jen při průkazu politické korupce — bez důkazu zůstáváme na 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z"
+  },
+  {
+    "id": "2026-W23-034",
+    "date": "2026-05-31",
+    "headline": "Premiér Babiš odmítl mediální zákon ministra Klempíře; zákon staže pro neakceptovatelné připomínky",
+    "summary": "Premiér Andrej Babiš avizoval o víkendu, že nepočítá s návrhem mediálního zákona, který připravoval ministr Oto Klempíř a který čelil rozsáhlé kritice odborné veřejnosti i jiných úřadů. Politologové hodnotí situaci jako další z řady Klempířových politických selhání a poukazují na možný tlak na jeho odchod z vlády.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Tlak na Klempířův konec teď dává smysl, hodnotí politolog krach ministrovy mediální novely",
+        "url": "https://denikn.cz/2080935/nejmene-schopny-clen-vlady-politolog-hodnoti-klempirovo-selhani-kolem-medialniho-zakona/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-03T08:01:37.343Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — stažení mediálního zákona samo o sobě představuje spíše negativní vývoj ve smyslu nevyřešenosti mediální regulace, ale zároveň i korekci potenciálně problematického návrhu. Direction 0 (ambivalentní): zákon byl kritizován odbornou veřejností jako nevyhovující, jeho stažení tedy nemusí demokracii oslabovat. Subkomponenta M2 (nezávislost ČT a ČRo) je dotčena, protože potřeba nového mediálního zákona zůstává nevyřešena. Pokud by návrh obsahoval prvky politické kontroly a byl stažen pro tento důvod, byl by direction +1; bez jasné informace o obsahu zákona v článku zůstáváme u 0. Rationale: spíše procesní selhání ministra než institucionální útok na svobodu médií.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-23T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-037",
+    "date": "2026-06-03",
+    "headline": "Opozice svolala mimořádnou schůzi sněmovny kvůli střetu zájmů Babiše a dotacím Agrofertu",
+    "summary": "Opoziční strany sesbíraly dostatek podpisů pro svolání mimořádné schůze Poslanecké sněmovny, jež se má zabývat možným střetem zájmů premiéra Babiše v souvislosti s dotacemi pro holding Agrofert. Impulsem byl dopis Evropské komise, která po českých úřadech požaduje informace o vyřešení střetu zájmů a zpochybňuje proplácení dotací.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Češi se skládají na výdělky Agrofertu, říká Farský. Máme robustní opatření, míní Knotek",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/cesi-se-skladaji-na-vydelky-agrofertu-rika-farsky-mame-robustni-opatreni-mini-knotek-374163",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-03T08:01:38.278Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — Evropská komise formálně kontaktuje české úřady ohledně střetu zájmů ústavního činitele (subkomponenta K1), čímž se kauza dostává na mezinárodní úroveň a vytváří institucionální tlak. Mimořádná schůze sněmovny je konkrétní datovaná reakce parlamentu. Sekundárně se dotýká G1 (parlamentní kontrola exekutivy). Jeden zdroj, ale zapojení EK zvyšuje důvěryhodnost — severity ponechána na 3. Persistent, protože dotační vztah Babiš-Agrofert je strukturálně trvající problém, nikoli jednorázová událost.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z"
+  },
+  {
+    "id": "2026-W23-038",
+    "date": "2026-06-23",
+    "headline": "Premiéři V4 se setkají v Budapešti, Babiš potvrdil účast",
+    "summary": "Na 23. června je plánována schůzka premiérů zemí visegrádské čtyřky v Budapešti. Nový maďarský premiér Péter Magyar oznámil, že účast přislíbili polský, český i slovenský premiér. Setkání se dotkne i tématu Ukrajiny.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "V Budapešti se v červnu uskuteční schůzka premiérů V4, oznámil Magyar",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/v-budapesti-se-v-cervnu-uskutecni-schuzka-premieru-v4-oznamil-magyar-374142",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-03T08:01:38.278Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 — rutinní diplomatická aktivita bez institucionálního dopadu na demokratické procesy v ČR. Schůzka V4 je standardní mezivládní formát (subkomponenta G1 — dělba moci a vládnutí), ale samotné oznámení ani plánovaná účast nijak nenarušují ani neposilují demokratické instituce. Direction 0 — ambivalentní, jde o neutrální diplomatický akt. Zařazeno jako one_off; při výstupu z jednání s konkrétními závěry by bylo nutné překlasifikovat.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-039",
+    "date": "2026-06-02",
+    "headline": "ÚOHS navrhl zákon rozšiřující jeho přístup k důvěrným datům a pohybu mobilů",
+    "summary": "Úřad pro ochranu hospodářské soutěže připravil návrh zákona, který by mu umožnil přístup k důvěrným statistickým datům, prolomení mlčenlivosti finančních úřadů a sledování pohybu mobilních telefonů. Požadavek na mobilní data byl po kritice Úřadu vlády označen za neslučitelný s právem EU a ÚOHS od něj ustoupil. Úřad přitom čelí dlouhodobé kritice ohledně nízké kontroly nad jeho pravomocemi.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Antimonopolní úřad připravil návrh zákona, který mu má zpřístupnit důvěrná data, popsali Reportéři ČT",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/antimonopolni-urad-pripravil-navrh-zakona-ktery-mu-ma-zpristupnit-duverna-data-popsali-reporteri-374134",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-03T08:01:38.278Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh zákona, který by umožnil státnímu orgánu přístup k datům o pohybu mobilních telefonů, zasahuje přímo do subkomponenty C5 (práva v digitálním prostoru, ochrana před masovým sledováním státem). Sekundárně se dotýká G1 (nízká míra kontroly nad ÚOHS s rozšiřovanými pravomocemi). Skutečnost, že nejkontroverznější část (sledování mobilů) byla stažena po kritice Úřadu vlády, naznačuje funkci korekčního mechanismu — nicméně samotný fakt, že takový návrh byl předložen institucí s omezenou kontrolou, vytváří precedent hodný zaznamenání. Anti-bias: stejné hodnocení by platilo bez ohledu na stranickou příslušnost vedení ÚOHS. Jeden primární zdroj (ČT24/Reportéři), severity zůstává 3 jako návrh bez schválení.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-040",
+    "date": "2026-06-02",
+    "headline": "Ministerstvo spravedlnosti prověří podmínečné propuštění Janouška po zjištění o jeho sportovních aktivitách",
+    "summary": "Ministerstvo spravedlnosti oznámilo, že prověří podmínky a zdravotní posudky, na jejichž základě byl podnikatel Roman Janoušek podmínečně propuštěn z vězení. Podnět vzešel po zveřejnění informací, že Janoušek — propuštěný ze zdravotních důvodů — se po propuštění věnoval fyzicky náročným aktivitám. Ministerstvo se zaměří na postup soudů i na validitu zdravotních posudků.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nevyléčitelně nemocný Janoušek závodil po propuštění z vězení na kole i na lyžích. Ministerstvo prověří jeho zdravotní posudky",
+        "url": "https://domaci.hn.cz/c1-67885490-nevylecitelne-nemocny-janousek-zavodil-po-propusteni-z-vezeni-na-kole-i-na-lyzich-ministerstvo-proveri-jeho-zdravotni-posudky",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-03T08:01:39.418Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ nasvědčuje potenciálnímu selhání při aplikaci rovnosti před zákonem (subkomponenta J4 — stejné zacházení bez ohledu na politické nebo ekonomické postavení). Pokud jsou zdravotní posudky, na jejichž základě byl prominentní podnikatel propuštěn, věcně nesprávné nebo účelové, jde o precedentní případ narušení integrity soudního a znaleckého procesu. Skutečnost, že ministerstvo zahajuje prověřování, je pozitivní signál (korekční mechanismus), ale zároveň potvrzuje, že k selhání pravděpodobně došlo — direction tedy zůstává -1. Duration persistent, protože prověřování nadále probíhá a výsledek není znám. Sekundárně se dotýká K4 (protikorupční instituce a accountability). Single source (dle shrnutí odkaz na Seznam Zprávy), severity by jinak mohla být null, ale ministerstvem zahájené prověřování je fakticky verifikovatelné institucionální kroky — hodnocení 3 je opodstatněné.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z"
+  },
+  {
+    "id": "2026-W23-041",
+    "date": "2026-06-02",
+    "headline": "Obžaloba muže ze špionáže pro čínskou zpravodajskou službu",
+    "summary": "Státní zástupce podal obžalobu na muže obviněného ze špionáže pro čínskou zpravodajskou službu; věc bude projednávat pražský městský soud. Muži hrozí až pět let vězení. Jde o standardní výkon spravedlnosti v citlivé bezpečnostní kauze.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Státní zástupce obžaloval muže kvůli špionáži pro Čínu. Hrozí mu až pět let vězení, v Česku působil roky",
+        "url": "https://domaci.hn.cz/c1-67885340-statni-zastupce-obzaloval-muze-obvineneho-ze-spionaze-pro-cinu-hrozi-mu-az-pet-let-vezeni-v-cesku-pusobil-roky",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-03T08:01:39.418Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — podání obžaloby je konkrétní procesní krok s omezeným institucionálním dopadem; justice funguje standardně (subkomponenta J3 — nezávislost státního zastupitelství). Směr +1, neboť funkční trestní stíhání bezpečnostní hrozby systém posiluje. Žádný náznak politického tlaku nebo narušení nezávislosti; de-eskalace ze 3 na 2, protože událost je čistě procesní bez precedentního dopadu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-042",
+    "date": "2026-06-02",
+    "headline": "Odborové svazy zakládají platformu na obranu státní správy před politizací",
+    "summary": "Zástupci odborů působících ve veřejném sektoru oznámili vznik společné platformy reagující na to, co označují za rozpad státní správy a její politizaci. Platforma hodlá oslovit premiéra a koordinovat postup napříč institucemi veřejné služby.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Stojíme zde proto, že veřejná služba se rozpadá,“ říkají představitelé Platformy odborů ve veřejném sektoru",
+        "url": "https://denikalarm.cz/2026/06/stojime-zde-proto-ze-verejna-sluzba-se-rozpada-rikaji-predstavitele-platformy-odboru-ve-verejnem-sektoru/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-06-03T08:01:41.023Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — vznik odborové platformy reagující na politizaci státní správy je konkrétní datovanou událostí signalizující institucionální obavy (subkomponenta G1, dělba moci a nezávislost státní správy). Samo oznámení platformy nemá přímý institucionální dopad, jde o reakci na vnímaný trend, nikoli o prokázaný strukturální posun — proto ne severity 3. Single source snižuje důvěru; není doložen konkrétní zákon či rozhodnutí. Anti-bias: stejně bych hodnotil vznik obdobné platformy za jakékoli vlády.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-043",
+    "date": "2026-06-03",
+    "headline": "Zaměstnanci ČT a ČRo protestují v černém proti plánovaným změnám financování",
+    "summary": "Zaměstnanci České televize a Českého rozhlasu se oblékli do černé barvy na protest proti záměru vládní koalice změnit systém financování veřejnoprávních médií. Před budovou ČT byl svolán oficiální protest. Akce signalizuje napětí ohledně nezávislosti veřejnoprávních médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "ČT a ČRo se zahalila do černé na protest proti změnám jejich financování",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ct-a-cro-se-zahalila-do-cerne-na-protest-proti-zmenam-jejich-financovani-307701",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-03T08:01:41.341Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o jednorázový protest zaměstnanců bez přímé institucionální změny; záměr koalice změnit financování je zatím v rovině politického záměru, nikoli schváleného zákona. Subkomponenta M2 (nezávislost ČT a ČRo, financování). Pokud by byl návrh zákona předložen nebo schválen, eskalace na severity 4–5 per rubric §4–5. Sekundárně relevantní pro G2 (kvalita legislativního procesu).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-26T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-044",
+    "date": "2026-06-03",
+    "headline": "Soud projednává volební plakát SPD za podněcování k nenávisti",
+    "summary": "Soud začal projednávat případ volebního plakátu SPD z roku 2024, který zobrazoval muže tmavé pleti se zakrváceným nožem s nápisem naznačujícím, že zahraniční lékaři nemohou zachránit české zdravotnictví. Straně hrozí peněžitý trest za podněcování k nenávisti.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Soud projedná Okamurovy volební plakáty. SPD hrozí peněžitý trest",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-soud-projedna-okamurovy-volebni-plakaty-spd-hrozi-penezity-trest-307695",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-03T08:01:41.341Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — soudní projednávání volebního materiálu za rasistické podněcování nenávisti se dotýká subkomponenty C1 (svoboda projevu a její hranice) i C4 (ochrana menšin). Plakát mířil na etnické menšiny (muži tmavé pleti) v politickém kontextu. Věc vytváří precedent pro soudní posouzení hranic přijatelného politického projevu. Sekundárně pilíř electoral (E1 — regulérnost kampaně), zmíněno v rationale. Jedno hlavní médium, nicméně jde o veřejný soudní případ s dostupnými fakty.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-26T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-045",
+    "date": "2026-06-02",
+    "headline": "Ministr spravedlnosti Tejc nařídil prověrku soudních znalců v Janouškově kauze",
+    "summary": "Ministr spravedlnosti Jeroným Tejc nařídil prověření postupu soudních znalců v případu lobbisty Romana Janouška, který byl propuštěn z vězení na základě posudků o smrtelné nemoci, avšak následně se věnoval závodění. Krok ministra byl vyvolán investigativními reportážemi.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Prověříme znalce v Janouškově případu, oznámil ministr Tejc",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-proverime-znalce-v-janouskove-pripadu-oznamil-ministr-tejc-307686",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-03T08:01:41.341Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — ministerský pokyn k prověrce znalců je konkrétní institucionální reakce na zjištěný problém v soudním řízení, dotýká se subkomponenty J4 (rovnost před zákonem, věrohodnost soudního procesu s politicky exponovanou osobou). Direction +1, protože jde o korekční krok posilující kontrolu kvality justice. Nemá přímý dopad na fungování instituce jako celku, ale zaznamenání je relevantní jako indikátor funkčnosti kontrolních mechanismů. Sekundárně korupce (K4 — protikorupční instituce a jejich reakce). Jediný zdroj, proto severity 2 místo 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-25T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-046",
+    "date": "2026-06-03",
+    "headline": "Ústavní soud zrušil rozhodnutí o nedobrovolné hospitalizaci pro nesplnění podmínky bezprostřednosti ohrožení",
+    "summary": "I. senát Ústavního soudu nálezem zrušil rozhodnutí obecných soudů, která schválila nedobrovolnou hospitalizaci pacienta se schizofrenií v psychiatrické nemocnici z preventivních důvodů. Soudy podle ÚS nedostály vysokému standardu pro prokázání zákonné podmínky bezprostředního ohrožení, a tím porušily práva stěžovatele. Nález posiluje ochranu osobní svobody před neodůvodněnou detencí ve zdravotnickém zařízení.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Požadavky na rozhodování v případech nedobrovolné hospitalizace z preventivních důvodů",
+        "url": "https://www.usoud.cz/aktualne/pozadavky-na-rozhodovani-v-pripadech-nedobrovolne-hospitalizace-z-preventivnich-duvodu",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-03T08:01:50.139Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — nález ÚS, který ruší konkrétní rozhodnutí obecných soudů a upřesňuje standard pro nedobrovolnou hospitalizaci, má omezenou, avšak konkrétní precedentní hodnotu (subkomponenta J2 — nezávislost a kvalita obecných soudů). Direction +1, protože ÚS plní svou roli ochránce základních práv a koriguje nižší soudy. Jde o one_off nález bez náznaku systémového selhání.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-03T08:01:37.326Z",
+    "expires_at": "2026-08-26T00:00:00.000Z"
   }
 ]
