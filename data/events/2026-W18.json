@@ -1760,7 +1760,7 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS, který koriguje pochybení obecných soudů v konkrétní kauze a upřesňuje výklad práv oběti (subkomponenta J4 — rovnost před zákonem a ochrana práv v soudním řízení). Dopad je pozitivní (direction +1): ÚS plní svou korektivní roli vůči obecným soudům. Jedná se o jednotlivý případ bez systémového precedentu přesahujícího konkrétní kauzu, proto severity 2, nikoli 3.\n\n[merged with 2026-W18-078 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS, který koriguje pochybení obecných soudů v konkrétní kauze a upřesňuje výklad práv oběti (subkomponenta J4 — rovnost před zákonem a ochrana práv v soudním řízení). Dopad je pozitivní (direction +1): ÚS plní svou korektivní roli vůči obecným soudům. Jedná se o jednotlivý případ bez systémového precedentu přesahujícího konkrétní kauzu, proto severity 2, nikoli 3.\n\n[merged with 2026-W18-078 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-079 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-05-07T07:17:07.431Z",
@@ -1788,6 +1788,30 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-31T07:33:41.535Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-080",
+    "date": "2026-04-29",
+    "headline": "Ústavní soud: odvolací i Nejvyšší soud pochybily při hodnocení videodůkazu v trestním řízení",
+    "summary": "ÚS vyhověl stížnosti obviněného a shledal, že odvolací soud i Nejvyšší soud porušily procesní práva tím, že bez vlastního dokazování přehodnotily videozáznam jako klíčový důkaz. Nález zároveň poukázal na nejednotnou judikaturu NS ohledně protokolování videodůkazů.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Sporný prodej automobilu vyústil v potyčku, při jejímž posouzení trestní soudy porušily procesní práva obviněného stěžovatele",
+        "url": "https://www.usoud.cz/aktualne/sporny-prodej-automobilu-vyustil-v-potycku-pri-jejimz-posouzeni-trestni-soudy-porusily-procesni-prava-obvineneho-stezovatele",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-05T07:47:23.275Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — nález konstatuje porušení procesních práv v individuální kauze (subkomponenta J2 — standardy obecných soudů) a upozorňuje na nejednotnost judikatury NS, což má omezený precedentní dosah. Nejde o politicky motivované jednání ani o strukturální selhání; ÚS plní standardní korektivní roli. Direction -1 pro pochybení obecných soudů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z",
     "expires_at": "2026-07-22T00:00:00.000Z"
   }
 ]

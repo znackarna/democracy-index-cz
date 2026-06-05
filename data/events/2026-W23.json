@@ -632,10 +632,16 @@
         "url": "https://denikn.cz/2082481/rika-si-cesky-charlie-kirk-a-chce-bilou-evropu-pred-maturitou-ted-nastoupil-na-ministerstvo-motoristu/",
         "outlet": "Deník N",
         "fetched_at": "2026-06-03T08:01:37.343Z"
+      },
+      {
+        "title": "Šiřitel dezinformací i strachu z migrantů. Na ministerstvo Motoristů nastoupil jejich fanoušek Kubásek",
+        "url": "https://denikn.cz/2085341/na-ministerstvo-nastoupil-dalsi-fanousek-motoristu-ridic-a-influencer-dostal-misto-v-oddeleni-rozpoctu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-05T07:47:09.040Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah střední úrovně státní správy (subkomponenta G4 — transparentnost vládnutí a kvalita personálního obsazení). Šejna je veřejně identifikovatelný jako politický spojenec vedení ministerstva, avšak incident sám o sobě nemá kaskádový institucionální efekt. Anti-bias check: stejné hodnocení by platilo pro politicky vyhraněného influencera libovolné ideologické orientace nastupujícího na ministerský post. Sekundárně může být relevantní subkomponenta C4 (postoje k menšinám), ale primárním problémem je pochybné personální rozhodnutí výkonné moci.",
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah střední úrovně státní správy (subkomponenta G4 — transparentnost vládnutí a kvalita personálního obsazení). Šejna je veřejně identifikovatelný jako politický spojenec vedení ministerstva, avšak incident sám o sobě nemá kaskádový institucionální efekt. Anti-bias check: stejné hodnocení by platilo pro politicky vyhraněného influencera libovolné ideologické orientace nastupujícího na ministerský post. Sekundárně může být relevantní subkomponenta C4 (postoje k menšinám), ale primárním problémem je pochybné personální rozhodnutí výkonné moci.\n\n[merged with 2026-W23-070 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-03T08:01:37.326Z",
@@ -1401,5 +1407,324 @@
     "status": "active",
     "created_at": "2026-06-04T07:54:32.056Z",
     "expires_at": "2026-08-24T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-069",
+    "date": "2026-06-05",
+    "headline": "Zaměstnanci Úřadu vlády vyhlásili stávku proti přesunu úředníků na ministerstva",
+    "summary": "Pracovníci Úřadu vlády vyhlásili na pátek stávku jako protest proti reorganizaci, při níž premiér Babiš a šéfka kabinetu Bartha přesouvají desítky expertů na lidskoprávní témata z Úřadu vlády pod jednotlivá ministerstva. Jde o pokračující přesun, který zaměstnanci považují za politicky motivovaný.",
+    "pillar": "governance",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Bylo to politické rozhodnutí.“ Popisujeme zákulisí boje o lidskoprávní témata",
+        "url": "https://denikn.cz/2085240/bylo-to-politicke-rozhodnuti-popisujeme-zakulisi-boje-o-lidskopravni-temata/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-05T07:47:09.040Z"
+      },
+      {
+        "title": "Z poradních orgánů vlády už odešlo přes 50 lidí. Odboráři na Úřadu vlády budou stávkovat, na rizika upozornil i ombudsman",
+        "url": "https://domaci.hn.cz/c1-67886460-odborari-na-uradu-vlady-budou-stavkovat-prevod-pracovniku-jinam-podle-nich-znamena-ochromeni-lidskopravnich-a-dalsich-agend",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-05T07:47:11.403Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — systematická reorganizace Úřadu vlády přesunující experty na lidskoprávní agendu pod přímou kontrolu resortů oslabuje institucionální nezávislost poradních kapacit exekutivy (subkomponenta G1, dělba moci a transparentnost vládnutí G4). Stávka úředníků signalizuje, že jde o politicky motivovaný zásah překračující standardní administrativní restrukturalizaci. Událost je persistent, protože přesun probíhá průběžně. Anti-bias check: stejný postup jakékoliv vlády by byl hodnocen shodně.\n\n[merged with 2026-W23-076 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-05T07:47:09.023Z"
+  },
+  {
+    "id": "2026-W23-071",
+    "date": "2026-06-04",
+    "headline": "Evropská komise potvrdila českým úřadům, že mohou Agrofertu proplácet zemědělské dotace",
+    "summary": "Generální ředitelství Evropské komise pro zemědělství podle zjištění Deníku N písemně sdělilo českým úřadům, že nárokové zemědělské dotace holdingu Agrofert mohou být nadále propláceny, čímž potvrdilo svoji předchozí komunikaci z května. Komise zároveň připomíná, že Česko může platby z předběžné opatrnosti vlastní iniciativou pozastavit.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zemědělské dotace Agrofertu můžete dále proplácet, napsala českým úřadům Komise",
+        "url": "https://denikn.cz/2084745/zemedelske-dotace-agrofertu-muzete-dale-proplacet-napsala-ceskym-uradum-komise/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-05T07:47:09.040Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — Komise fakticky potvrdila dosavadní praxi proplácení dotací Agrofertu, což samo o sobě nepředstavuje nové porušení normy, ale je relevantní z pohledu K1 (střet zájmů ústavních činitelů) a K2 (transparentnost veřejných prostředků). Direction 0, protože rozhodnutí EK není jednoznačně negativní (dotace jsou označeny za nárokové a legální) ani pozitivní (otázka střetu zájmů premiéra Babiše jako ovládající osoby Agrofertu zůstává nevyřešena a Komise výslovně nevylučuje dobrovolné pozastavení). Anti-bias check: stejný přístup by byl aplikován u jakéhokoliv subjektu s vazbami na premiéra.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z",
+    "expires_at": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-072",
+    "date": "2026-06-03",
+    "headline": "Motoristé napojeni na státní dotace pro politického aktivistu s extrémistickými vazbami",
+    "summary": "Strana Motoristé sobě měla prostřednictvím státních prostředků financovat aktivity politického aktivistu propagujícího rasistické myšlenky. Případ poukazuje na zneužití veřejných peněz v rozporu s vládními sliby o ukončení politického aktivismu financovaného z erárních zdrojů.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pointa N: Jak Motoristé přisáli na erár politického aktivistu, který bojuje za „bílou Evropu“",
+        "url": "https://denikn.cz/2084105/pointa-n-jak-motoriste-prisali-na-erar-politickeho-aktivistu-ktery-bojuje-za-bilou-evropu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-05T07:47:09.040Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — subkomponenta K1 (politická korupce, střet zájmů a zneužívání veřejných prostředků pro stranické účely) a K3 (financování politiky). Případ vytváří precedent pro instrumentalizaci státních dotací ve prospěch politicky spřízněných aktivistů s extrémistickými vazbami. Pouze jeden zdroj (Deník N), proto dle source-count rule ponechávám severity 3, ale událost by při potvrzení dalšími zdroji mohla eskalovat. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí) vzhledem k rozporu s deklarovanou politikou vlády.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z",
+    "expires_at": "2026-08-26T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-073",
+    "date": "2026-06-05",
+    "headline": "Sněmovna volí radní ČT, místopředsedkyni a ombudsmanku",
+    "summary": "Poslanecká sněmovna projednává volbu šestice členů Rady České televize, místopředsedkyně sněmovny za STAN a nové ombudsmanky. Volba rady ČT je dlouhodobě odkládaná a její výsledek bude mít přímý dopad na dohled nad veřejnoprávními médii.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Poslanci budou volit místopředsedkyni sněmovny i radní ČT",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-budou-volit-mistopredsedkyni-snemovny-i-radni-ct-374250",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-05T07:47:10.303Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — volba Rady ČT je standardní institucionální proces (subkomponenta M2: nezávislost ČT a ČRo, procedura volby Rady). Samotné zahájení volby bez znalosti výsledku a složení zvolené rady neumožňuje hodnotit dopad na nezávislost ČT. Direction 0, protože výsledek není znám a samotný akt volby je neutrální procesní krok. Pokud by zvolená rada vykazovala znaky politické instrumentalizace, událost by vyžadovala novou klasifikaci. Volba ombudsmanky a místopředsedkyně sněmovny patří primárně do pilíře governance (G1), ale dominantním signálem je zde volba rady ČT, proto pilíř media. Sekundárně governance.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z",
+    "expires_at": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-074",
+    "date": "2026-06-05",
+    "headline": "Koalice se shodla na parametrech zákona o celostátním referendu s rolí ÚS",
+    "summary": "Koaliční partneři se dohodli na podobě zákona o celostátním referendu: k platnosti bude třeba souhlas 35 % oprávněných voličů a každou otázku bude předem posuzovat Ústavní soud. Zákon vyloučí možnost hlasovat o vystoupení z EU. Ke schválení bude vláda potřebovat i hlasy opozice.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zákon o referendu je koaliční kompromis, řekl Vondráček. Haas varoval před riziky",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zakon-o-referendu-je-koalicni-kompromis-rekl-vondracek-haas-varoval-pred-riziky-374248",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-05T07:47:10.303Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní legislativní dohodu na úrovni koalice ohledně nového volebního/participačního mechanismu (subkomponenta E1, E2), která zatím není schválena parlamentem. Zapojení ÚS jako filtru otázek posiluje institucionální záruky, ale zákon musí projít dalším procesem. Pozitivní směr (+1) pro zavedení zákonného rámce celostátního referenda s ústavními zárukami; de-eskalace na 2 místo 3, protože jde o koaliční dohodu, nikoli přijatý zákon.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z",
+    "expires_at": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-075",
+    "date": "2026-06-04",
+    "headline": "EU potvrdila SZIF správnost postupu při obnovení dotací Agrofert",
+    "summary": "Státní zemědělský intervenční fond obdržel od DG Agri potvrzení, že správně postupuje při obnovování nárokových dotací firmám z holdingu Agrofert. Fond odmítl informace o pozastavení plateb ze strany Evropské komise jako nepravdivé. Jde o součást dlouhodobé kauzy střetu zájmů spojeného s expremiérem Babišem.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "EU potvrdila fondu, že postupuje správně při obnovení nárokových dotací pro Agrofert",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/eu-rozhodla-o-dotacich-pro-agrofert-374228",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-05T07:47:10.303Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o dílčí procesní vývoj v dlouhodobé kauze střetu zájmů (subkomponenta K1, K2). Potvrzení ze strany EU samo o sobě nepředstavuje nový zásadní precedent, ale dokumentuje pokračující procedurální nejasnosti kolem dotací politicky exponované osoby. Sekundárně relevantní pro pilíř electoral (Babiš jako aktivní politický aktér). Neeskaluji na 3, protože jde o potvrzení stávajícího postupu, nikoli o nové porušení nebo rozhodnutí.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z"
+  },
+  {
+    "id": "2026-W23-077",
+    "date": "2026-06-04",
+    "headline": "ŘSD odmítá žádosti o informace v kauze výstavby D3 přes Posázaví",
+    "summary": "V průběhu stavby dálnice D3 dochází podle svědectví místních obyvatel k pohybu stavařů na hraně zákona a úředníci ŘSD systematicky odmítají žádosti o informace podané dle zákona 106/1999. Šéf silničářů dílčí pochybení připustil. Jde o kombinaci problematického přístupu k informacím veřejného zájmu a možného obcházení zákonných postupů.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vesnice odříznutá od světa i odmítání žádostí o informace. Silničáři se stavbou D3 přes Sázavu narazili na tuhý odpor a chybují",
+        "url": "https://archiv.hn.cz/c1-67885630-vesnice-odriznuta-od-sveta-i-odmitani-zadosti-o-informace-silnicari-se-stavbou-d3-pres-sazavu-narazili-na-tuhy-odpor-a-chybuji",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-05T07:47:11.403Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — odmítání žádostí o informace dle zákona 106/1999 ze strany státní organizace je konkrétní porušení normy (subkomponenta M4, přístup k informacím), ale dopad je lokálně omezený na konkrétní stavební projekt. Neeskaluji na 3, protože jde o dílčí selhání v konkrétní kauze bez jasného systémového vzorce nebo precedentu pro celou instituci. Sekundárně relevantní pro pilíř governance (G4).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z"
+  },
+  {
+    "id": "2026-W23-078",
+    "date": "2026-06-04",
+    "headline": "Dotační portál ministerstva financí zkolaboval, ministerstvo pozastavilo přijímání dalších výzev",
+    "summary": "Jednotný dotační portál provozovaný ministerstvem financí selhal pod náporem žadatelů. Ministerstvo jako důsledek pozastavilo přijímání nových výzev, čímž dočasně omezilo přístup veřejnosti k dotacím.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Žadatelé zahltili dotační portál, ten kvůli náporu zkolaboval. Další výzvy teď ministerstvo nepřijímá",
+        "url": "https://domaci.hn.cz/c1-67886410-zadatele-zahltili-dotacni-portal-ten-kvuli-naporu-zkolaboval-dalsi-vyzvy-ted-ministerstvo-neprijima",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-05T07:47:11.403Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — technický výpadek klíčového vládního systému s omezeným, dočasným dopadem na přístup k veřejným fondům (subkomponenta G4 — transparentnost a dostupnost vládních procesů). Nejde o záměrné omezení přístupu ani o systémový selhání správy, ale o kapacitní problém bez precedentního charakteru. Pokud by výpadek trval déle nebo se opakoval, eskalace na severity 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z",
+    "expires_at": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-079",
+    "date": "2026-06-04",
+    "headline": "Brusel potvrdil nárok na proplacení dotací pro Agrofert navzdory pokynům k pozastavení výdajů",
+    "summary": "Státní zemědělský intervenční fond (SZIF) obdržel od Evropské komise potvrzení, že takzvané nárokové dotace pro firmy spojené s premiérem Babišem se mají nadále vykazovat, a to jen několik dní po výzvě EK, aby Česko dočasně neposílalo výdaje spojené s Agrofertem. Jde o protichůdné signály z Bruselu v kauze střetu zájmů premiéra.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 0,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Brusel dal za pravdu zemědělskému fondu. Nárokové dotace pro Agrofert se mají dál proplácet",
+        "url": "https://archiv.hn.cz/c1-67886270-brusel-dal-za-pravdu-zemedelskemu-fondu-narokove-dotace-pro-agrofert-se-maji-dal-vykazovat",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-05T07:47:11.403Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 3 per rubric §3 — situace se týká subkomponenty K1 (střet zájmů ústavního činitele) a K2 (transparentnost veřejných dotací). Rozhodnutí EK ve prospěch SZIF je ambivalentní: na jedné straně potvrzuje zákonný nárok, na druhé straně nevyřešuje strukturální otázku střetu zájmů premiéra Babiše (Agrofert). Direction 0, protože rozhodnutí ani posiluje ani oslabuje demokratické záruky samo o sobě — jde o dílčí rozhodnutí v pokračující kauze. Případ je persistent, protože strukturální střet zájmů trvá. Sekundárně dotýká pilíře governance (G4).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z"
+  },
+  {
+    "id": "2026-W23-080",
+    "date": "2026-06-03",
+    "headline": "Obvodní soud odsoudil SPD za předvolební nenávistnou kampaň, uložil třímiilionový trest",
+    "summary": "Obvodní soud pro Prahu 1 uložil hnutí SPD peněžitý trest tři miliony korun za podněcování nenávisti prostřednictvím předvolebních plakátů. Rozsudek není pravomocný, SPD se může odvolat.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "SPD odsouzena za nenávistnou kampaň. Jedna věc je ale podstatně horší, než Okamura sám",
+        "url": "https://archiv.hn.cz/c1-67885830-mame-vladu-zbabelcu-spd-odsouzena-za-nenavist-okamura-se-po-vzoru-babise-krci-za-barikadou-imunity",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-05T07:47:11.403Z"
+      },
+      {
+        "title": "Soud potrestal SPD za nenávistné předvolební plakáty, hnutí má zaplatit tři miliony. Rozsudek byl předem připravený, míní Okamura",
+        "url": "https://archiv.hn.cz/c1-67885720-soud-potrestal-spd-za-predvolebni-plakaty-s-bdquo-chirurgy-z-dovozu-ldquo-hnuti-ma-zaplatit-trimilionovou-pokutu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-05T07:47:11.403Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — soud sankcionoval hnutí za podněcování nenávisti (subkomponenta C1 — svoboda projevu a její meze, ochrana menšin C4). Direction +1, protože soudní výrok posiluje ochranu před nenávistným projevem a odpovědnost politických aktérů. Rozsudek není pravomocný, takže de-eskalace na severity 2 by byla předčasná. Sekundárně se dotýká pilíře electoral (E1 — férovost volební kampaně).\n\n[merged with 2026-W23-081 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-05T07:47:09.023Z",
+    "expires_at": "2026-08-26T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-082",
+    "date": "2026-06-04",
+    "headline": "Sněmovna schválila novelu zákona o podpoře bydlení včetně přesunu agendy na Úřad práce",
+    "summary": "Poslanecká sněmovna přijala novelu zákona o podpoře v bydlení, jejíž součástí je přesun části agendy na Úřad práce. Podle kritiků z Platformy pro sociální bydlení může tato administrativní změna ohrozit dostupnost a kvalitu sociálních služeb pro zranitelné skupiny obyvatel.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Poslanci přijali novelu zákona o podpoře v bydlení. Problém představuje přesun agendy na Úřad práce",
+        "url": "https://denikalarm.cz/2026/06/poslanci-prijali-novelu-zakona-o-podpore-v-bydleni-problem-predstavuje-presun-agendy-na-urad-prace/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-06-05T07:47:13.338Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — schválení konkrétního zákona s kontroverzním administrativním přesunem agendy je zaznamenáníhodná legislativní změna, avšak bez jasného ústavního překročení hranic nebo precedentního institucionálního dopadu na demokratické procesy (subkomponenta G2 — kvalita legislativy). Dopad je omezen na správní reorganizaci sociálních služeb. Zdroj je single-source komentářový rozhovor, nikoli zpravodajský reportáž, proto nejsou k dispozici podrobnosti o legislativním procesu (délka čtení, připomínkové řízení), což brání vyšší klasifikaci.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z"
+  },
+  {
+    "id": "2026-W23-083",
+    "date": "2026-06-04",
+    "headline": "Knihovna Václava Havla se rozpadla a definitivně ukončuje činnost",
+    "summary": "Po hromadném odchodu správní a dozorčí rady, sponzorů a zaměstnanců oznámila zakladatelka Dagmar Havlová ukončení Knihovny Václava Havla. Zánik jedné z nejvýznamnějších institucí české občanské společnosti je fakticky dokončen.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Knihovna Václava Havla končí, opouští ji Dagmar Havlová",
+        "url": "https://www.seznamzpravy.cz/clanek/kultura-knihovna-vaclava-havla-konci-dagmar-havlova-307853",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-05T07:47:14.120Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — zánik symbolicky důležité, avšak soukromé neziskové organizace (subkomponenta C3 — svoboda sdružování a občanská společnost). Příčina je zřejmě vnitřní institucionální krize, nikoli státní represe ani administrativní šikana; politický ani ústavní dopad je omezený. Pokud by budoucí zdroje odhalily státní zásah jako příčinu, severity by se přehodnotila na 3–4.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z",
+    "expires_at": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-084",
+    "date": "2026-06-04",
+    "headline": "Ministerstvo životního prostředí přijalo dalšího influencera bez zjevné odborné kvalifikace",
+    "summary": "Po předchozím případu s osmnáctiletým maturantem byl na ministerstvo životního prostředí přijat další influencer provozující alternativní web, jehož hlavním živobytím bylo řidičství. Jmenování vyvolává otázky o transparentnosti personálních rozhodnutí v exekutivě.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Práci na ministerstvu dostal další influencer. Živil se jako řidič",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-praci-na-ministerstvu-dostal-dalsi-influencer-zivi-se-jako-ridic-307866",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-05T07:47:14.120Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — opakované (druhý případ) přijímání personálně nestandarních jmenování na střední úrovni státní správy (subkomponenta G4 — transparentnost vládnutí). Vzorec dvou případů na stejném ministerstvu mírně zvyšuje závažnost oproti jednorázovému incidentu, ale nedosahuje na systematic institutional impact úrovně 3. Anti-bias kontrola: stejnou závažnost bych přiřadil bez ohledu na politickou příslušnost ministra.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-05T07:47:09.023Z",
+    "expires_at": "2026-08-27T00:00:00.000Z"
   }
 ]
