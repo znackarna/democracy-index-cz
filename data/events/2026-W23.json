@@ -762,10 +762,16 @@
         "url": "https://denikn.cz/2082637/dalsi-otaznik-pro-agrofert-evropska-komise-chce-zcela-nove-informace-o-jeho-miliardovych-dotacich/",
         "outlet": "Deník N",
         "fetched_at": "2026-06-04T07:54:32.071Z"
+      },
+      {
+        "title": "Proč Komise pozastavila dotace Agrofertu? A co bude Česko dělat dál? Odpovídáme na základní otázky",
+        "url": "https://denikn.cz/2086461/proc-komise-pozastavila-dotace-agrofertu-a-co-bude-cesko-delat-dal-odpovidame-na-zakladni-otazky/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-06T07:20:07.309Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — Evropská komise formálně kontaktuje české úřady ohledně střetu zájmů ústavního činitele (subkomponenta K1), čímž se kauza dostává na mezinárodní úroveň a vytváří institucionální tlak. Mimořádná schůze sněmovny je konkrétní datovaná reakce parlamentu. Sekundárně se dotýká G1 (parlamentní kontrola exekutivy). Jeden zdroj, ale zapojení EK zvyšuje důvěryhodnost — severity ponechána na 3. Persistent, protože dotační vztah Babiš-Agrofert je strukturálně trvající problém, nikoli jednorázová událost.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W23-047 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 — Evropská komise formálně kontaktuje české úřady ohledně střetu zájmů ústavního činitele (subkomponenta K1), čímž se kauza dostává na mezinárodní úroveň a vytváří institucionální tlak. Mimořádná schůze sněmovny je konkrétní datovaná reakce parlamentu. Sekundárně se dotýká G1 (parlamentní kontrola exekutivy). Jeden zdroj, ale zapojení EK zvyšuje důvěryhodnost — severity ponechána na 3. Persistent, protože dotační vztah Babiš-Agrofert je strukturálně trvající problém, nikoli jednorázová událost.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W23-047 — same incident, sources combined]\n\n[merged with 2026-W23-086 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-03T08:01:37.326Z"
@@ -1726,5 +1732,200 @@
     "status": "active",
     "created_at": "2026-06-05T07:47:09.023Z",
     "expires_at": "2026-08-27T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-085",
+    "date": "2026-06-05",
+    "headline": "Sněmovna zvolila ombudsmankou Evu Kostolanskou, ačkoli nebyla nejlépe hodnocenou kandidátkou",
+    "summary": "Poslanecká sněmovna zvolila novou veřejnou ochránkyni práv Evu Kostolanskou 93 hlasy, přestože dle dostupných hodnocení nepatřila mezi přední odbornice v oblasti ochrany práv. Podle informací Deníku N jí k funkci pomohly vazby na ministryni financí Alenu Schillerovou. Jde o přímé obsazení nezávislé kontrolní instituce na základě politických konexí, nikoli odborné způsobilosti.",
+    "pillar": "governance",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vyhrála, i když byla nejhorší. Nově zvolené ombudsmance pomohly vztahy s ministryní Schillerovou",
+        "url": "https://denikn.cz/2086599/vyhrala-i-kdyz-byla-nejhorsi-nove-zvolene-ombudsmance-pomohly-vztahy-s-ministryni-schillerovou/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-06T07:20:07.309Z"
+      },
+      {
+        "title": "Expertní komise jí dala nejhorší hodnocení. Přesto se Kostolanská stane novou ombudsmankou",
+        "url": "https://domaci.hn.cz/c1-67886680-expertni-komise-ji-dala-nejhorsi-hodnoceni-presto-se-kostolanska-stane-novou-ombudsmankou",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-06T07:20:10.384Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — jmenování do čela nezávislé kontrolní instituce (ombudsman) na základě politických vazeb namísto odborných kritérií vytváří precedent a ohrožuje funkční nezávislost úřadu (subkomponenta G1: dělba moci a kontrolní mechanismy). Volba 93 poslanců proběhla navzdory slabšímu odbornému profilu kandidátky, přičemž rozhodující roli podle zdroje sehrál vliv ministryně Schillerové. Jeden zdroj — severity ponecháno na 3, nikoli eskalováno, ale rationale tuto skutečnost reflektuje. Sekundárně se dotýká pilíře corruption (K1 — politický střet zájmů při obsazování institucí).\n\n[merged with 2026-W23-092 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-06T07:20:07.296Z",
+    "expires_at": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-087",
+    "date": "2026-06-06",
+    "headline": "Zkušená státní zástupkyně Lastovecká rezignovala po odvolání z bitcoinové kauzy a výtce za rozhovor",
+    "summary": "Petra Lastovecká, zkušená státní zástupkyně, se rozhodla rezignovat poté, co byla odvolána z bitcoinové kauzy a dostala výtku za poskytnutí rozhovoru médiím. Ve svém prohlášení uvedla, že nechce být součástí systému opouštějícího hodnoty odbornosti a odpovědnosti. Odchod signalizuje možný problém s institucionální kulturou na státním zastupitelství.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Týdeník iROZHLASu: odměny náměstkům i odchod zkušené žalobkyně odvolané z bitcoinové kauzy",
+        "url": "https://www.irozhlas.cz/zpravy-domov/tydenik-irozhlasu-odmeny-namestkum-i-odchod-zkusene-zalobkyne-odvolane-z_2606060800_cen",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-06T07:20:08.511Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odvolání zkušené žalobkyně z konkrétní vysokoprofilové kauzy (bitcoinová kauza) v kombinaci s výtkou za mediální vystoupení vytváří precedent pro potlačování odborné nezávislosti státního zastupitelství (subkomponenta J3). Rezignace s explicitním odůvodněním naznačuje institucionální tlak, nikoli pouhý personální spor. Dostupný je zatím jeden primární zdroj (iROZHLAS), proto nelze potvrdit vzorec; při potvrzení dalšími zdroji nebo opakování by severity mohla eskalovat na 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-06T07:20:07.296Z",
+    "expires_at": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-088",
+    "date": "2026-06-05",
+    "headline": "Sněmovna zvolila Urbanovou novou místopředsedkyní",
+    "summary": "Poslanecká sněmovna ve druhém kole tajné volby zvolila Barboru Urbanovou (STAN) místopředsedkyní dolní komory 126 hlasy ze 172 přítomných poslanců. Vedení sněmovny je nyní pětičlenné a kompletní.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Sněmovna zvolila Urbanovou svou místopředsedkyní",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/snemovna-zvolila-urbanovou-svou-mistopredsedkyni-374267",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-06T07:20:08.914Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Rutinní institucionální úkon — volba místopředsedkyně sněmovny proběhla standardním postupem, výsledek odpovídá složení koalice a opozice. Žádný precedent ani narušení normy; subkomponenta G1 není dotčena negativně. Severity 1 per rubric §1 — rutinní procedurální úkon bez institucionálního dopadu na dělbu moci či demokratické normy. Direction 0 — neutrální institucionální akt, obsazení vedení parlamentu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-06T07:20:07.296Z",
+    "expires_at": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-089",
+    "date": "2026-06-05",
+    "headline": "Vláda posunula rozhodnutí o delegaci na summit NATO, přetrvává spor s prezidentem",
+    "summary": "Premiér Babiš odložil rozhodnutí vlády o složení delegace na summit NATO z 8. června na 22. června. Konflikt mezi vládou a prezidentem Pavlem ohledně jeho účasti na summitu trvá — vláda se staví proti přítomnosti prezidenta, přestože ten o ni stojí.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vláda odkládá termín rozhodnutí o složení delegace na summit NATO",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/babis-posunul-termin-kdy-rozhodne-o-slozeni-delegace-na-summit-nato-374262",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-06T07:20:08.914Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Spor mezi prezidentem a kabinetem o zastupování ČR na klíčovém zahraničněpolitickém summitu představuje napětí v rámci subkomponenty G1 (dělba moci a vztahy exekutivních orgánů). Odkládání rozhodnutí o složení delegace jako způsob tlaku na prezidenta je procedurálně nestandardní. Severity 2 per rubric §2 — konkrétní porušení standardního institucionálního fungování s omezeným dosahem; spor zatím nevyvrcholil ústavní krizí, ale trend je negativní. Persistent, protože napětí prezident–vláda trvá přinejmenším od předchozích týdnů a není vyřešeno.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-06T07:20:07.296Z"
+  },
+  {
+    "id": "2026-W23-090",
+    "date": "2026-06-05",
+    "headline": "Vznik ministerstva hospodářství prosazován přílepkem ke stavebnímu zákonu",
+    "summary": "Vláda plánuje zřídit ministerstvo hospodářství přejmenováním ministerstva průmyslu a obchodu k 1. lednu 2027, přičemž klíčová legislativní změna je součástí přílepku ke stavebnímu zákonu. Způsob provedení obchází standardní legislativní proces.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Superministerstvo hospodářství konečně vznikne. Co přesně ale nabídne?",
+        "url": "https://archiv.hn.cz/c1-67886750-superministerstvo-hospodarstvi-konecne-vznikne-co-presne-ale-nabidne",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-06T07:20:10.384Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Využití přílepku k nesouvisejícímu zákonu (stavební zákon) pro vytvoření nového ministerstva je přesně typ legislativní praxe, kterou rubric a subkomponenta G2 (kvalita legislativy) klasifikuje jako problematickou — obchází se standardní připomínkové řízení a věcná parlamentní debata o zásadní institucionální změně. Severity 3 per rubric §3 — schválení důležité legislativní změny ve zkráceném/nepřímém procesu bez řádného připomínkového řízení, vytváří precedent pro obcházení legislativního procesu při institucionálních změnách. Single-source pravidlo: zatím jeden zdroj, ale článek v HN popisuje faktický stav (přílepek), nikoli pouhý záměr, takže severity zůstává 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-06T07:20:07.296Z",
+    "expires_at": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-091",
+    "date": "2026-06-05",
+    "headline": "Poslanecká sněmovna zvolila kompletní vedení s Tomiem Okamurou v čele",
+    "summary": "Sněmovna dokončila volbu svého vedení; předsedou se stal Tomio Okamura (SPD) a čtvrtou místopředsedkyní byla zvolena Barbora Urbanová ze STAN. Pětičlenné vedení zahrnuje zástupce vládních i opozičních stran, což reflektuje standardní parlamentní praxi.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vedení sněmovny je kompletní, čtvrtou místopředsedkyní se stala Barbora Urbanová ze STAN",
+        "url": "https://domaci.hn.cz/c1-67886690-vedeni-snemovny-je-kompletni-ctvrtou-mistopredsedkyni-se-stala-barbora-urbanova-ze-stan",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-06T07:20:10.384Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní institucionální úkon (volba vedení komory) bez narušení ústavního procesu. Subkomponenta G1 (dělba moci, fungování parlamentu) není ohrožena; vedení zahrnuje opozici (STAN), což je standardní demokratická praxe. Direction 0, neboť výsledek je institucionálně neutrální — nejde o posílení ani oslabení demokratických norem, jen o standardní ustavení parlamentní struktury. Zvolen standardní procedurou.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-06T07:20:07.296Z",
+    "expires_at": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-093",
+    "date": "2026-06-05",
+    "headline": "Rusko zařadilo Memorial včetně české pobočky na seznam extremistických organizací",
+    "summary": "Ruské ministerstvo spravedlnosti označilo lidskoprávní organizaci Memorial za extremistickou, čímž do seznamu zařadilo i její českou pobočku. Rozhodnutí zasahuje do fungování organizace občanské společnosti působící v ČR a může omezit její aktivity a mezinárodní spolupráci.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Rusko zařadilo na seznam extremistů hnutí s Nobelovou cenou za mír. Má pobočku i v Česku",
+        "url": "https://zpravy.aktualne.cz/zahranici/rusko-zaradilo-na-seznam-extremistu-hnuti-s-nobelovou-cenou-za-mir-ma-pobocku-i-v-cesku/r~aaa294afb8ca4f5823a163081dccb60c/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-06T07:20:11.676Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — rozhodnutí cizího státního orgánu omezuje organizaci občanské společnosti (subkomponenta C3, svoboda sdružování) s přímou vazbou na českou pobočku. Dopad je lokálně omezený (jde o akt ruské, nikoli české státní moci), ale vytváří reálnou překážku pro činnost NGO v ČR. Persistent, protože zařazení na seznam má trvalý charakter. Anti-bias: stejně bych klasifikoval zařazení jakékoli jiné lidskoprávní organizace s českou pobočkou na cizí extremistický seznam.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-06T07:20:07.296Z"
+  },
+  {
+    "id": "2026-W23-094",
+    "date": "2026-06-04",
+    "headline": "Přes 50 odborníků opustilo poradní orgány Úřadu vlády při reorganizaci agendy lidských práv",
+    "summary": "V rámci kontroverzní reorganizace Úřadu vlády, při níž byly přesunuty odpovědnosti za agendu lidských práv na jednotlivá ministerstva, odešlo z poradních výborů více než 50 expertů. Bývalá vládní zmocněnkyně pro lidská práva Klára Šimáčková Laurenčíková to uvedla v debatě v Poslanecké sněmovně a upozornila, že další odchody jsou v úvahu. Reorganizace tak fakticky oslabuje kapacitu odborného poradenství vládě v oblasti lidských práv.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Fifty Experts Have Left Government Office Advisory Boards Amid Controversial Reorganisation",
+        "url": "https://brnodaily.com/2026/06/04/news/politics/fifty-experts-have-left-government-office-advisory-boards-amid-controversial-reorganisation/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-06-06T07:20:32.530Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní politicky motivovaný personální a institucionální zásah na střední úrovni státní správy (subkomponenta G1 a G4: transparentnost a výkaznost vládnutí, kvalita poradenských mechanismů exekutivy) bez bezprostředního kaskádového efektu na ústavní instituce. Hromadný odchod 50+ expertů z poradních orgánů je faktický, datovaný a doložený přímým svědectvím ve sněmovní debatě. Není dosud jasné, zda jde o trvalé strukturální oslabení nebo přechodný stav reorganizace — duration nastavena na persistent, dokud nedojde k naplnění kapacity nových struktur. Agenda lidských práv má přesah do pilíře civil (subkomponenta C4), zmíněno v rationale jako sekundární dimenze.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-06T07:20:07.296Z"
   }
 ]
