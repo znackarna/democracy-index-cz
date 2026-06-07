@@ -638,10 +638,16 @@
         "url": "https://denikn.cz/2085341/na-ministerstvo-nastoupil-dalsi-fanousek-motoristu-ridic-a-influencer-dostal-misto-v-oddeleni-rozpoctu/",
         "outlet": "Deník N",
         "fetched_at": "2026-06-05T07:47:09.040Z"
+      },
+      {
+        "title": "Pointa N: Země, kde může každý dostat šanci na ministerstvu – pokud fandí Motoristům",
+        "url": "https://denikn.cz/2086614/pointa-n-zeme-kde-muze-kazdy-dostat-sanci-na-ministerstvu-pokud-fandi-motoristum/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-07T07:39:15.487Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah střední úrovně státní správy (subkomponenta G4 — transparentnost vládnutí a kvalita personálního obsazení). Šejna je veřejně identifikovatelný jako politický spojenec vedení ministerstva, avšak incident sám o sobě nemá kaskádový institucionální efekt. Anti-bias check: stejné hodnocení by platilo pro politicky vyhraněného influencera libovolné ideologické orientace nastupujícího na ministerský post. Sekundárně může být relevantní subkomponenta C4 (postoje k menšinám), ale primárním problémem je pochybné personální rozhodnutí výkonné moci.\n\n[merged with 2026-W23-070 — same incident, sources combined]",
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah střední úrovně státní správy (subkomponenta G4 — transparentnost vládnutí a kvalita personálního obsazení). Šejna je veřejně identifikovatelný jako politický spojenec vedení ministerstva, avšak incident sám o sobě nemá kaskádový institucionální efekt. Anti-bias check: stejné hodnocení by platilo pro politicky vyhraněného influencera libovolné ideologické orientace nastupujícího na ministerský post. Sekundárně může být relevantní subkomponenta C4 (postoje k menšinám), ale primárním problémem je pochybné personální rozhodnutí výkonné moci.\n\n[merged with 2026-W23-070 — same incident, sources combined]\n\n[merged with 2026-W23-096 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-03T08:01:37.326Z",
@@ -1754,12 +1760,18 @@
         "url": "https://domaci.hn.cz/c1-67886680-expertni-komise-ji-dala-nejhorsi-hodnoceni-presto-se-kostolanska-stane-novou-ombudsmankou",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-06-06T07:20:10.384Z"
+      },
+      {
+        "title": "Chci být víc vidět a pomáhat řešit problémy, říká nová ombudsmanka",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/chci-byt-vic-videt-a-pomahat-resit-problemy-rika-nova-ombudsmanka-374295",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-07T07:39:17.020Z"
       }
     ],
     "score_impact": -1.5,
-    "rationale": "Severity 3 per rubric §3 — jmenování do čela nezávislé kontrolní instituce (ombudsman) na základě politických vazeb namísto odborných kritérií vytváří precedent a ohrožuje funkční nezávislost úřadu (subkomponenta G1: dělba moci a kontrolní mechanismy). Volba 93 poslanců proběhla navzdory slabšímu odbornému profilu kandidátky, přičemž rozhodující roli podle zdroje sehrál vliv ministryně Schillerové. Jeden zdroj — severity ponecháno na 3, nikoli eskalováno, ale rationale tuto skutečnost reflektuje. Sekundárně se dotýká pilíře corruption (K1 — politický střet zájmů při obsazování institucí).\n\n[merged with 2026-W23-092 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 — jmenování do čela nezávislé kontrolní instituce (ombudsman) na základě politických vazeb namísto odborných kritérií vytváří precedent a ohrožuje funkční nezávislost úřadu (subkomponenta G1: dělba moci a kontrolní mechanismy). Volba 93 poslanců proběhla navzdory slabšímu odbornému profilu kandidátky, přičemž rozhodující roli podle zdroje sehrál vliv ministryně Schillerové. Jeden zdroj — severity ponecháno na 3, nikoli eskalováno, ale rationale tuto skutečnost reflektuje. Sekundárně se dotýká pilíře corruption (K1 — politický střet zájmů při obsazování institucí).\n\n[merged with 2026-W23-092 — same incident, sources combined]\n\n[merged with 2026-W23-099 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-06T07:20:07.296Z",
     "expires_at": "2026-08-28T00:00:00.000Z"
   },
@@ -1927,5 +1939,100 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-06T07:20:07.296Z"
+  },
+  {
+    "id": "2026-W23-095",
+    "date": "2026-06-06",
+    "headline": "Babiš odmítá veřejnou debatu o mediální legislativě, v dopise odborům uvádí věcné nepřesnosti",
+    "summary": "Premiér Babiš v dopise odborům odmítl zájem o veřejnou diskuzi k mediálnímu zákonu. Dopis obsahuje fakticky nesprávné argumenty, čímž premiér signalizuje, že chce legislativu připravit bez širšího připomínkového řízení.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Babiš odmítá veřejnou diskuzi o médiích. V dopise odborům argumentuje i věcnými chybami",
+        "url": "https://denikn.cz/2086977/babis-odmita-verejnou-diskuzi-o-mediich-v-dopise-odborum-argumentuje-i-vecnymi-chybami/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-07T07:39:15.487Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — premiérovo odmítnutí veřejné debaty o mediální legislativě zasahuje subkomponentu M2 (nezávislost a regulace veřejnoprávních médií) i G2 (kvalita legislativního procesu, obcházení standardního připomínkového řízení). Věcné nepřesnosti v argumentaci zvyšují riziko, že legislativa bude prosazena bez věcné oponentury. Jeden zdroj (Deník N), událost je verbální/korespondencí — bez formálního legislativního kroku zatím; severita zůstává na 3 bez eskalace. Sekundárně se dotýká pilíře governance (G2).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-07T07:39:15.474Z",
+    "expires_at": "2026-08-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-097",
+    "date": "2026-06-05",
+    "headline": "Babiš opakovaně útočí na média na vládních tiskových konferencích",
+    "summary": "Premiér Babiš systematicky využívá vládní tiskové konference k útokům na žurnalisty a budování narativu, že „média lžou\". Odborníci hodnotí toto chování jako prohlubující se vzorec cílené delegitimizace mediálního prostředí ze strany exekutivy.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babiš stárne a potřebuje konflikty, hodnotí experti premiérovy útoky na média",
+        "url": "https://denikn.cz/2084839/opotrebeny-konfliktem-bez-nejz-chradne-vysvetluji-experti-babisovu-militarizaci-vladnich-tiskovek/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-07T07:39:15.487Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o soustavné verbální útoky na média bez přímého institucionálního dopadu, avšak s opakujícím se charakterem na oficiální platformě vlády (subkomponenta M1, M3). Článek popisuje pokračující vzorec, nikoli první výskyt — de-eskalace na 2 místo 3 vzhledem k absenci konkrétního právního nebo regulatorního aktu. Pokud by byl doložen přímý dopad na redakční svobodu, eskalace na 3 by byla opodstatněná. Sekundárně se dotýká pilíře governance (G4 — využívání oficlálních platforem k podkopávání svobody tisku).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-07T07:39:15.474Z"
+  },
+  {
+    "id": "2026-W23-098",
+    "date": "2026-06-07",
+    "headline": "Koaliční návrh celostátního referenda narážní na nedostatek hlasů pro ústavní změnu",
+    "summary": "Vláda nemá dostatek hlasů ke schválení celostátního referenda, které by vyžadovalo ústavní většinu. Piráti jako potenciální koaliční partner pro přijetí odmítají spolupracovat kvůli nedůvěře ve vládní přístup k dezinformacím, čímž se změna ústavy stává nejistou.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nejisté zavedení celostátního referenda. Vládě chybí hlasy opozice",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nejiste-zavedeni-celostatniho-referenda-vlade-chybi-hlasy-opozice-374296",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-07T07:39:17.020Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o politicky kontroverzní situaci v legislativním procesu (subkomponenta G1, G2), ale bez konkrétního porušení ústavní normy či precedentu. Návrh zatím nebyl ani předložen formálně k hlasování; jde o fázi politického vyjednávání. Direction 0 vzhledem k tomu, že zavedení referenda by mohlo demokracii posílit (+1), ale blokáda sama o sobě není anti-demokratickým aktem. Při eskalaci — např. pokud by vláda obcházela standardní legislativní proces — by severity stoupla na 3 a direction na -1.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-07T07:39:15.474Z",
+    "expires_at": "2026-08-30T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-100",
+    "date": "2026-06-05",
+    "headline": "Bartha dokončila převod agend z Úřadu vlády na ministerstva, odboráři nesouhlasí",
+    "summary": "Vedoucí Úřadu vlády Tünde Bartha formálně uzavřela přesun agend a expertů na oblast závislostí a duševního zdraví z Úřadu vlády na jednotlivá ministerstva. Odboráři vyjádřili nesouhlas s reorganizací a avizují zvážení dalšího postupu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Dokončeno. Tünde Bartha uzavřela převod agend z Úřadu vlády, odboráři zváží další postup",
+        "url": "https://domaci.hn.cz/c1-67886720-dokonceno-tunde-bartha-uzavrela-prevod-agend-z-uradu-vlady-odborari-zvazi-dalsi-postup",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-07T07:39:18.262Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o personální a organizační zásah na střední úrovni státní správy (subkomponenta G1: dělba moci a organizace exekutivy) s omezeným dopadem bez zřejmého kaskádového efektu. Převod agend může oslabit koordinační kapacitu Úřadu vlády, nicméně bez jasných indicií politické motivace nebo precedentního charakteru pro fungování demokratických institucí. Směr mírně negativní kvůli odborovým námitkám a nejasné odůvodněnosti přesunu expertů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-07T07:39:15.474Z",
+    "expires_at": "2026-08-28T00:00:00.000Z"
   }
 ]

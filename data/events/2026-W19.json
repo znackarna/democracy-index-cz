@@ -365,7 +365,7 @@
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — podnět nevládní organizace k ÚOHS je konkrétní institucionální krok dokumentující strukturální střet zájmů (subkomponenta K1 — politická korupce, K2 — veřejné zakázky). Rozsah zakázek v řádu milionů a systémový charakter propojení politiků s firmami čerpajícími z městského rozpočtu zakládají precedentní hodnotu pro hodnocení komunální korupce. Nejde dosud o pravomocné rozhodnutí ÚOHS, proto se neeskaluje na 4. Zdroj je jedním nezávislým médiem (TI), avšak jako přímý aktér kauzy je relevantním zdrojem.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Rationale popisuje severity 3 (strukturální střet zájmů, podnět k ÚOHS), ale stropováno na 2. TI jako přímý aktér je relevantní zdroj, ale pro severity 3 rubric vyžaduje 2 outletty. Strop technicky správný; reviewer ověří druhý zdroj.\n\n[merged with 2026-W19-098 — same incident, sources combined]\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-098 — same incident, sources combined]\n\n[merged with 2026-W19-097 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 — podnět nevládní organizace k ÚOHS je konkrétní institucionální krok dokumentující strukturální střet zájmů (subkomponenta K1 — politická korupce, K2 — veřejné zakázky). Rozsah zakázek v řádu milionů a systémový charakter propojení politiků s firmami čerpajícími z městského rozpočtu zakládají precedentní hodnotu pro hodnocení komunální korupce. Nejde dosud o pravomocné rozhodnutí ÚOHS, proto se neeskaluje na 4. Zdroj je jedním nezávislým médiem (TI), avšak jako přímý aktér kauzy je relevantním zdrojem.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[auditor: flag] Rationale popisuje severity 3 (strukturální střet zájmů, podnět k ÚOHS), ale stropováno na 2. TI jako přímý aktér je relevantní zdroj, ale pro severity 3 rubric vyžaduje 2 outletty. Strop technicky správný; reviewer ověří druhý zdroj.\n\n[merged with 2026-W19-098 — same incident, sources combined]\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-098 — same incident, sources combined]\n\n[merged with 2026-W19-097 — same incident, sources combined]\n\n[merged with 2026-W19-098 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-05T07:02:47.189Z",
@@ -831,7 +831,7 @@
       }
     ],
     "score_impact": 0.2,
-    "rationale": "Severity 1 per rubric §1 — nález ÚS potvrzující platnost stávající právní úpravy bez precedentního posunu. Subkomponenta G3 (stabilita ústavních norem): soud potvrdil soulad pravidla s ústavou, což mírně posiluje právní jistotu. Dopad je minimální, protože jde o rutinní přezkum odměňování bez implikací pro demokratické fungování institucí. Direction +1 jako mírné posílení ústavní jistoty, závažnost 1 odpovídá zanedbatelnému institucionálnímu dopadu.\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-095 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 1 per rubric §1 — nález ÚS potvrzující platnost stávající právní úpravy bez precedentního posunu. Subkomponenta G3 (stabilita ústavních norem): soud potvrdil soulad pravidla s ústavou, což mírně posiluje právní jistotu. Dopad je minimální, protože jde o rutinní přezkum odměňování bez implikací pro demokratické fungování institucí. Direction +1 jako mírné posílení ústavní jistoty, závažnost 1 odpovídá zanedbatelnému institucionálnímu dopadu.\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-096 — same incident, sources combined]\n\n[merged with 2026-W19-095 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W19-096 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-05-06T07:11:30.742Z",
@@ -1887,7 +1887,7 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS upřesňuje procesní pravidla v konkrétní kauze s dopadem na judikaturu, ale bez přímého systémového vlivu na nezávislost soudnictví. Subkomponenta J4 (rovnost před zákonem, předvídatelnost práva) — rozhodnutí posiluje procesní záruky. Směr +1, neboť nález chrání ústavní práva stěžovatelky v řízení. Nejde o strukturální posun (§4–5), pouze o upřesnění judikatury.\n\n[merged with 2026-W19-095 — same incident, sources combined]\n\n[merged with 2026-W19-095 — same incident, sources combined]",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS upřesňuje procesní pravidla v konkrétní kauze s dopadem na judikaturu, ale bez přímého systémového vlivu na nezávislost soudnictví. Subkomponenta J4 (rovnost před zákonem, předvídatelnost práva) — rozhodnutí posiluje procesní záruky. Směr +1, neboť nález chrání ústavní práva stěžovatelky v řízení. Nejde o strukturální posun (§4–5), pouze o upřesnění judikatury.\n\n[merged with 2026-W19-095 — same incident, sources combined]\n\n[merged with 2026-W19-095 — same incident, sources combined]\n\n[merged with 2026-W19-095 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-11T07:24:54.292Z",
@@ -1986,5 +1986,28 @@
     "status": "active",
     "created_at": "2026-05-17T07:13:48.863Z",
     "expires_at": "2026-07-29T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W19-097",
+    "date": "2026-05-06",
+    "headline": "EPPO vyšetřuje IT zakázky MPSV a MMR navyšované o stovky milionů korun, klíčovou osobou je vrchní ředitel Trpkoš",
+    "summary": "Evropská prokuratora (EPPO) zahájila vyšetřování IT zakázek Ministerstva práce a sociálních věcí a Ministerstva pro místní rozvoj zadávaných v letech 2023–2025, které byly podle TI ČR protiprávně navyšovány o stovky milionů korun. Za pochybná navýšení je podle TI odpovědný Karel Trpkoš, současný vrchní ředitel MPSV. Trestní oznámení podala TI v listopadu 2025, EPPO potvrdila, že policejní orgán případ vyšetřuje.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Na základě trestního oznámení Transparency vyšetřuje evropská prokuratura IT zakázky pod taktovkou vysokého úředníka Karla Trpkoše",
+        "url": "https://www.transparency.cz/na-zaklade-trestniho-oznameni-transparency-vysetruje-evropska-prokuratura-it-zakazky-pod-taktovkou-vysokeho-urednika-karla-trpkose/",
+        "outlet": "Transparency International ČR",
+        "fetched_at": "2026-06-07T07:39:33.865Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — jde o závažné podezření z porušení ZZVZ ve velkých zakázkách s přímou politickou/úřednickou návazností (subkomponenta K2, transparentnost veřejných zakázek), zahrnující stovky milionů korun a vysokého státního úředníka. Aktivní vyšetřování EPPO potvrzuje závažnost (eskalační pravidlo: mezinárodní orgán potvrzuje podezření z porušení normy). Směr -1. Persistent, protože vyšetřování probíhá. Sekundárně se dotýká G4 (transparentnost vládnutí).\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-07T07:39:15.474Z"
   }
 ]
