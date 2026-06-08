@@ -1,0 +1,219 @@
+[
+  {
+    "id": "2026-W24-001",
+    "date": "2026-06-08",
+    "headline": "Kauza Dozimetr: soud pokračuje výslechy klíčových svědků včetně Scheinherra a exředitele DPP",
+    "summary": "Obvodní soud pro Prahu 9 pokračuje v projednávání korupční kauzy Dozimetr, která se týká podezření z korupce kolem pražského dopravního podniku. V druhém červnovém týdnu jsou naplánované výpovědi exředitele DPP Martina Dvořáka a pražského zastupitele Adama Scheinherra, který sám upozornil policii na podezřelé dění.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nabitý soudní týden v kauze Dozimetr. Svědčit mají exředitel DPP, radní Scheinherr i muž přes ‚krypťáky‘",
+        "url": "https://www.irozhlas.cz/zpravy-domov/nabity-soudni-tyden-v-kauze-dozimetr-svedcit-maji-exreditel-dpp-radni-scheinherr_2606080804_mst",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-08T08:05:27.772Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 – probíhající soudní řízení v korupční kauze zahrnující představitele veřejného podniku (subkomponenta K1, K2). Samotný fakt pokračování výslechů v již dříve zahájeném procesu je rutinní procesní krok bez nové eskalace; nejde o nový průlomový rozsudek ani o systémovou změnu. Pilíř corruption jako primární (politická korupce, zneužití veřejného podniku); sekundárně se dotýká pilíře judicial (fungování soudního procesu). Direction -1 reflektuje, že kauza jako celek dokumentuje korupci ve veřejné správě, nicméně samotný průběh soudního řízení je standardní institucionální reakcí.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z"
+  },
+  {
+    "id": "2026-W24-002",
+    "date": "2026-06-08",
+    "headline": "Nejvyšší soud rozšířil podmínky pro odškodnění po postvakcinačním poškození zdraví",
+    "summary": "Nejvyšší soud vydal rozsudek, jímž rozšířil okruh případů, ve kterých mají poškozené osoby nárok na odškodnění po očkování proti covidu-19. Právo na náhradu již nebude omezeno jen na nejzávažnější situace bezprostředního ohrožení života, přičemž soud zdůraznil nutnost individuálního posouzení každé žádosti.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nejvyšší soud rozšířil prostor pro odškodné po očkování proti koronaviru",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/nejvyssi-soud-rozsiril-prostor-pro-odskodne-po-ockovani-proti-koronaviru-374334",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-08T08:05:28.126Z"
+      },
+      {
+        "title": "Nejvyšší soud rozšířil prostor pro odškodné po očkování proti koronaviru",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-nejvyssi-soud-rozsiril-prostor-pro-odskodne-po-ockovani-proti-koronaviru-308037",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-08T08:05:32.430Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 – rozsudek NS vytváří nový precedent v oblasti odškodňování (subkomponenta J4 – rovnost před zákonem a přístup k právní ochraně), ale jde o standardní soudcovské dotváření práva bez politického rozměru. Není zde zásah do nezávislosti soudnictví ani politický tlak; naopak soud aktivně rozšiřuje ochranu práv občanů. Direction +1 protože rozhodnutí posiluje přístup k soudní ochraně. Duration persistent, neboť precedent bude závazný pro budoucí případy.\n\n[merged with 2026-W24-007 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z"
+  },
+  {
+    "id": "2026-W24-003",
+    "date": "2026-06-08",
+    "headline": "Návrh reformy vysokých škol omezí pravomoci akademických senátů; akademici se obávají politizace",
+    "summary": "Ministr školství Robert Plaga (ANO) připravuje rozsáhlou reformu řízení vysokých škol, která zahrnuje vznik nových univerzitních rad a posílení pozice rektorů na úkor akademických senátů. Rada vysokých škol reforma sice uznává za potřebnou, ale varuje před možnou ztrátou akademické nezávislosti a politizací správy univerzit.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Reforma řízení vysokých škol budí obavy u části akademiků. Pojistky tam budou, tvrdí Plaga",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/reforma-rizeni-vysokych-skol-budi-obavy-u-casti-akademiku-pojistky-tam-budou-tvrdi-plaga-373901",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-08T08:05:28.126Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 – jde o návrh v přípravné fázi (dosud neschválený), který omezuje samosprávu akademické obce (subkomponenta C3 – svoboda sdružování a ochrana akademické autonomie jako formy kolektivní samosprávy). Obavy z politizace jsou relevantní z hlediska pilíře governance (G1 – dělba moci a autonomie institucí), ale primárním dopadem je omezení autonomie akademické komunity jako formy občanské samosprávy. Protože jde zatím jen o návrh bez schválení, nelze aplikovat eskalaci +1 za formální dokument (zákon není účinný). De-eskalace: absence schváleného textu. Direction -1 vzhledem k možnému omezení nezávislého samosprávného rozhodování akademiků.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-004",
+    "date": "2026-06-08",
+    "headline": "Vláda odložila rozhodnutí o složení delegace na summit NATO o dva týdny",
+    "summary": "Vláda Andreje Babiše odložila plánované rozhodnutí o složení delegace na červencový summit NATO o dva týdny. Prezident Pavel se přesto účastní jednání vlády, na němž měla být koordinace ústavních činitelů projednána. Kabinet tento bod fakticky vypustil z agendy dne 8. června.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pavel dorazí na jednání vlády, ta rozhodnutí o delegaci na summit NATO odložila",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pavel-dorazi-na-jednani-vlady-ta-rozhodnuti-o-delegaci-na-summit-nato-odlozila-374328",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-08T08:05:28.126Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o administrativní odložení rozhodnutí o delegaci bez precedentního charakteru; nenaplňuje znaky subkomponenty G1 (dělba moci, ústavní krize) ani G2 (legislativní kvalita). Dočasné odložení koordinační schůzky je zanedbatelný incident bez institucionálního dopadu. Případný spor mezi prezidentem a vládou o zahraniční zastoupení by mohl eskalovat na G1, ale na základě dostupných faktů k tomu nedošlo.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-005",
+    "date": "2026-06-08",
+    "headline": "NKÚ: Stát dlouhodobě selhává v řízení veřejných investic, projekty se prodražují",
+    "summary": "Nejvyšší kontrolní úřad zveřejnil souhrnnou zprávu o investiční politice státu za roky 2020–2025, v níž konstatuje, že rozhodování o veřejných investicích je roztříštěné, nekoordinované a odtržené od měřitelných přínosů. Kontrolní orgán identifikoval systémové plýtvání veřejnými prostředky v oblasti dopravní infrastruktury.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Stát špatně řídí investice, plýtvá penězi a projekty se prodražují, zhodnotil kontrolní úřad",
+        "url": "https://zpravy.aktualne.cz/ekonomika/stat-spatne-ridi-investice-plytva-penezi-a-projekty-se-prodrazuji-zhodnotil-kontrolni-urad/r~aaa2918c84d44e30bd7399f84146b0e7/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-08T08:05:30.722Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zpráva NKÚ dokumentuje soustavné systémové selhání v nakládání s veřejnými prostředky, což se týká subkomponenty K2 (transparentnost a hospodárnost veřejných zakázek a investic) a K4 (efektivnost kontrolních institucí). Zpráva pokrývá 5leté období a identifikuje strukturální, nikoli jednorázový problém — proto `persistent`. Sekundárně relevantní pro pilíř `governance` (G4 — transparentnost vládnutí). Severity 3 je odůvodněna tím, že NKÚ jako nezávislý kontrolní orgán vydal formální dokument potvrzující systémové pochybení, což dle rubric §3 vytváří precedent a má dopad na chod veřejných institucí; bez dokladů o politickém záměru nebo korupčním obohacení se nedostáváme na úroveň 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z"
+  },
+  {
+    "id": "2026-W24-006",
+    "date": "2026-06-08",
+    "headline": "ČR povolila vývoz sledovacích technologií do zemí s narušenými lidskými právy včetně Myanmaru a Vietnamu",
+    "summary": "Podle nového reportu neziskové organizace Česká republika udělila vývozní povolení pro sledovací a špionážní technologie do zemí dlouhodobě porušujících lidská práva, jako jsou Myanmar, Nigérie a Vietnam. Takové technologie mohou být využity k potlačení občanských svobod a sledování aktivistů či novinářů v zemích příjemců.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Česko povolilo vývoz špionážních technologií i do zemí, které dlouhodobě porušují lidská práva",
+        "url": "https://www.investigace.cz/cesko-povolilo-vyvoz-spionaznich-technologii-i-do-zemi-ktere-dlouhodobe-porusuji-lidska-prava/",
+        "outlet": "Investigace.cz",
+        "fetched_at": "2026-06-08T08:05:30.969Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní porušení normy s omezeným přímým dopadem na česká demokratická práva; primárně subkomponenta C5 (práva v digitálním prostoru, ochrana před masovým sledováním) a nepřímo C4 (ochrana menšin a ochrana lidských práv). Zpráva pochází od jedné organizace (single source), což dle pravidla source-count brání eskalaci na 3. Dopad na české instituce je nepřímý — jde o zahraniční politiku a export, nikoli o domácí uplatňování sledovacích technologií. Sekundárně relevantní pro pilíř `governance` (G4 — transparentnost rozhodování o vývozu zbraní a sledovacích technologií).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-008",
+    "date": "2026-06-08",
+    "headline": "Spor Pavla s Babišovou vládou o účast na summitu NATO eskaluje, hrozí žaloba",
+    "summary": "Prezident Petr Pavel se chce na jednání vlády domáhat svého práva účastnit se červencového summitu NATO. Kabinet Andreje Babiše ho do delegace nechce zařadit a definitivní rozhodnutí odložil na 22. června. Pavel podle zdrojů s možností žaloby počítá.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Hradní taktika. Pavel s žalobou počítá, na vládu si jde připravit půdu",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-hradni-taktika-pavel-s-zalobou-pocita-na-vladu-si-jde-pripravit-pudu-307911",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-08T08:05:32.430Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — spor mezi prezidentem a vládou o sestavení delegace na summitu NATO se dotýká subkomponenty G1 (dělba moci, ústavní role prezidenta v zahraniční politice dle čl. 63 Ústavy). Odmítnutí vlády respektovat zahraniční politickou roli hlavy státu vytváří precedent pro ústavní střet, který může eskalovat k ústavní žalobě. Sekundárně E4 (respekt k institucionální posloupnosti). Zatím je událost ve fázi přetrvávajícího konfliktu, nikoli vyřešeného sporu — duration persistent.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z"
+  },
+  {
+    "id": "2026-W24-009",
+    "date": "2026-06-08",
+    "headline": "Přesun agend z Úřadu vlády přes protesty úředníků pokračuje, desítky odborníků rezignovaly",
+    "summary": "Navzdory stávce úředníků a hromadným rezignacím odborníků premiér Babiš a jeho poradkyně Tünde Bartha trvají na přesunu agend z Úřadu vlády. Kritici varují před oslabením odborné kapacity státní správy a netransparentní komunikací s úředníky.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Komunikace Tünde Barthy k úředníkům jen přiživuje obavy, říká novinář",
+        "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-5-59-komunikace-tunde-barthy-k-urednikum-jen-prizivuje-obavy-rika-novinar-307889",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-08T08:05:32.430Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — systematické přesuny kompetencí Úřadu vlády doprovázené hromadnými rezignacemi odborníků a stávkou úředníků mají přímý dopad na fungování exekutivy a transparentnost vládnutí (subkomponenta G4). Kontroverzní personální a organizační změny bez standardního připomínkového procesu odpovídají rubric §3 — significant institutional impact, sets precedent. Jedná se o přetrvávající strukturální změnu, nikoli jednorázový incident. Zdroj je analytický podcast — single-source, nicméně odkazuje na ověřitelné fakty (stávka, rezignace); severity ponechávám 3 bez eskalace.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z"
+  },
+  {
+    "id": "2026-W24-010",
+    "date": "2026-06-08",
+    "headline": "Seznam Zprávy odhalily, jak spolek napojený na Janouška čerpá daňově odečitatelné dary firem",
+    "summary": "Investigace odhalila, že sportovní spolek propojený s Romanem Janouškem funguje jako uzavřený ekosystém, do nějž firmy napojené na Janouška přispívají daňově odečitatelnými dary. Peníze jsou následně utráceny za hotely, umělecké předměty i kliniku dlouhověkosti — nikoli na deklarované veřejně prospěšné účely.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Janouškův sportovní spolek? Utrácí za hotely, umění i dlouhověkost",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-do-spolku-janouska-tecou-miliony-plati-za-ne-hotely-i-kliniku-dlouhovekosti-307747",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-08T08:05:32.430Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odhalení strukturovaného schématu zneužívání daňových odpočtů prostřednictvím neziskového spolku napojí na kontroverzní podnikatelskou osobu (Janoušek) naplňuje subkomponentu K1/K2 (nepřímá politická korupce, obcházení transparentnosti). Nejde ještě o prokázané trestné schéma zahrnující ústavní činitele (to by bylo severity 4–5), ale investigace vytváří základ pro institucionální reakci. Single investigativní zdroj — severity neeskaluji, ponechávám 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  }
+]

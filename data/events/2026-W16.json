@@ -88,7 +88,7 @@
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — zakázka v hodnotě téměř 30 mld. Kč s procesními pochybnostmi označenými nezávislou protikorupční organizací (TI ČR) a potvrzeným druhoinstančním rozhodnutím ÚOHS tvoří precedentní případ pro subkomponentu K2 (transparentnost veřejných zakázek). Samotný podpis smlouvy přes procesní námitky je konkrétní datovaná událost. Závažnost nedosahuje 4, protože nebylo prokázáno přímé propojení s politickými aktéry — spíše jde o systémové selhání zadávacího procesu. Sekundárně relevantní pro G4 (transparentnost vládnutí na úrovni města). Zdroj je jeden (TI ČR), což indikuje potřebu ověření, ale vzhledem k tomu, že organizace přímo cituje rozhodnutí ÚOHS, je základ fakticky podložen.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W16-007 — same incident, sources combined]\n\n[merged with 2026-W16-007 — same incident, sources combined]\n\n[merged with 2026-W16-008 — same incident, sources combined]\n\n[merged with 2026-W16-012 — same incident, sources combined]\n\n[merged with 2026-W16-012 — same incident, sources combined]\n\n[merged with 2026-W16-010 — same incident, sources combined]\n\n[merged with 2026-W16-010 — same incident, sources combined]\n\n[merged with 2026-W16-010 — same incident, sources combined]\n\n[merged with 2026-W16-012 — same incident, sources combined]\n\n[merged with 2026-W16-010 — same incident, sources combined]\n\n[merged with 2026-W16-012 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 — zakázka v hodnotě téměř 30 mld. Kč s procesními pochybnostmi označenými nezávislou protikorupční organizací (TI ČR) a potvrzeným druhoinstančním rozhodnutím ÚOHS tvoří precedentní případ pro subkomponentu K2 (transparentnost veřejných zakázek). Samotný podpis smlouvy přes procesní námitky je konkrétní datovaná událost. Závažnost nedosahuje 4, protože nebylo prokázáno přímé propojení s politickými aktéry — spíše jde o systémové selhání zadávacího procesu. Sekundárně relevantní pro G4 (transparentnost vládnutí na úrovni města). Zdroj je jeden (TI ČR), což indikuje potřebu ověření, ale vzhledem k tomu, že organizace přímo cituje rozhodnutí ÚOHS, je základ fakticky podložen.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W16-007 — same incident, sources combined]\n\n[merged with 2026-W16-007 — same incident, sources combined]\n\n[merged with 2026-W16-008 — same incident, sources combined]\n\n[merged with 2026-W16-012 — same incident, sources combined]\n\n[merged with 2026-W16-012 — same incident, sources combined]\n\n[merged with 2026-W16-010 — same incident, sources combined]\n\n[merged with 2026-W16-010 — same incident, sources combined]\n\n[merged with 2026-W16-010 — same incident, sources combined]\n\n[merged with 2026-W16-012 — same incident, sources combined]\n\n[merged with 2026-W16-010 — same incident, sources combined]\n\n[merged with 2026-W16-012 — same incident, sources combined]\n\n[merged with 2026-W16-011 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-25T07:54:44.259Z",
@@ -140,5 +140,29 @@
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-05-30T07:17:10.550Z"
+  },
+  {
+    "id": "2026-W16-010",
+    "date": "2026-04-14",
+    "headline": "Ústavní soud: soudní rehabilitace přísluší i osobám po zastavení stíhání z nezákonné vazby",
+    "summary": "Ústavní soud nálezem konstatoval, že obecné soudy se dopustily nepřípustného formalismu, když odmítly přiznat soudní rehabilitaci osobě, jejíž trestní stíhání bylo zastaveno po propuštění z nezákonné vazby StB. ÚS rozšířil výklad § 33 odst. 2 zákona o soudní rehabilitaci ve prospěch ochrany práv jednotlivce.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Soudní rehabilitace je možná i v případě zastavení trestního stíhání po propuštění z nezákonné vazby",
+        "url": "https://www.usoud.cz/aktualne/soudni-rehabilitace-je-mozna-i-v-pripade-zastaveni-trestniho-stihani-po-propusteni-z-nezakonne-vazby",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-08T08:05:43.554Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o standardní nálezovou činnost ÚS v individuální kauze s omezeným precedentním dopadem (výklad zákona o soudní rehabilitaci z roku 1991 ve specifickém skutkovém kontextu). Posiluje subkomponentu J4 (rovnost před zákonem, ochrana před formalismem), ale netýká se nezávislosti justice ani systémových procesních změn. Direction +1: ÚS korigoval formalistický výklad obecných soudů ve prospěch ochrany základního práva na soudní ochranu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-08T08:05:26.115Z",
+    "expires_at": "2026-07-07T00:00:00.000Z"
   }
 ]
