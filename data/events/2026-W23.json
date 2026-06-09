@@ -2201,5 +2201,29 @@
     "status": "active",
     "created_at": "2026-06-08T08:05:26.115Z",
     "expires_at": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-108",
+    "date": "2026-06-07",
+    "headline": "Vláda od července zvyšuje kvóty pro vysoce kvalifikované zahraniční pracovníky",
+    "summary": "Česká vláda oznámila, že od července 2026 výrazně zvýší kvóty pro přijímání vysoce kvalifikovaných zahraničních pracovníků, mimo jiné zdravotních sester z Filipín a dalších specializovaných profesí. Jde o reakci na přetrvávající nedostatek pracovníků v českém zdravotnictví.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "V Česku přibude sestřiček z Filipín nebo masérek z Thajska. Vláda výrazně mění kvóty pro zahraniční pracovníky",
+        "url": "https://archiv.hn.cz/c1-67886550-v-cesku-pribude-sestricek-z-filipin-nebo-maserek-z-thajska-vlada-vyrazne-meni-kvoty-pro-zahranicni-pracovniky",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-09T07:32:31.612Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — standardní vládní politické rozhodnutí (změna kvót) bez dopadu na demokratické instituce, dělbu moci ani ústavní normy (subkomponenta G2). Událost je pozitivní v tom smyslu, že jde o věcný vládní akt reagující na tržní potřebu, nikoli o oslabení institucí. Anti-bias: totéž bych hodnotil u jakékoli jiné vlády. Dopad na demokracii jako takovou je minimální.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-08-30T00:00:00.000Z"
   }
 ]

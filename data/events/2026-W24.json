@@ -43,12 +43,18 @@
         "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-nejvyssi-soud-rozsiril-prostor-pro-odskodne-po-ockovani-proti-koronaviru-308037",
         "outlet": "Seznam Zprávy",
         "fetched_at": "2026-06-08T08:05:32.430Z"
+      },
+      {
+        "title": "„Zásadní zásah.“ Otevírá se cesta k odškodnému po očkování",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zasadni-zasah-otevira-se-cesta-k-odskodnemu-po-ockovani-308053",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-09T07:32:35.182Z"
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 – rozsudek NS vytváří nový precedent v oblasti odškodňování (subkomponenta J4 – rovnost před zákonem a přístup k právní ochraně), ale jde o standardní soudcovské dotváření práva bez politického rozměru. Není zde zásah do nezávislosti soudnictví ani politický tlak; naopak soud aktivně rozšiřuje ochranu práv občanů. Direction +1 protože rozhodnutí posiluje přístup k soudní ochraně. Duration persistent, neboť precedent bude závazný pro budoucí případy.\n\n[merged with 2026-W24-007 — same incident, sources combined]",
+    "rationale": "Severity 2 per rubric §2 – rozsudek NS vytváří nový precedent v oblasti odškodňování (subkomponenta J4 – rovnost před zákonem a přístup k právní ochraně), ale jde o standardní soudcovské dotváření práva bez politického rozměru. Není zde zásah do nezávislosti soudnictví ani politický tlak; naopak soud aktivně rozšiřuje ochranu práv občanů. Direction +1 protože rozhodnutí posiluje přístup k soudní ochraně. Duration persistent, neboť precedent bude závazný pro budoucí případy.\n\n[merged with 2026-W24-007 — same incident, sources combined]\n\n[merged with 2026-W24-025 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-08T08:05:26.115Z"
   },
   {
@@ -81,7 +87,7 @@
     "headline": "Vláda odložila rozhodnutí o složení delegace na summit NATO o dva týdny",
     "summary": "Vláda Andreje Babiše odložila plánované rozhodnutí o složení delegace na červencový summit NATO o dva týdny. Prezident Pavel se přesto účastní jednání vlády, na němž měla být koordinace ústavních činitelů projednána. Kabinet tento bod fakticky vypustil z agendy dne 8. června.",
     "pillar": "governance",
-    "severity": 1,
+    "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
@@ -90,12 +96,24 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pavel-dorazi-na-jednani-vlady-ta-rozhodnuti-o-delegaci-na-summit-nato-odlozila-374328",
         "outlet": "ČT24",
         "fetched_at": "2026-06-08T08:05:28.126Z"
+      },
+      {
+        "title": "Schizofrenní situace, říká k Pavlově cestě na summit Macinka. Vystrčil jeho účast hájí",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/schizofrenni-situace-rika-k-pavlove-ceste-na-summit-macinka-vystrcil-jeho-ucast-haji-374367",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-09T07:32:30.038Z"
+      },
+      {
+        "title": "Pavel se na vládě summitu NATO nedočkal. Rozhodla se ale jiná zásadní cesta",
+        "url": "https://zpravy.aktualne.cz/domaci/pavel-se-na-vlade-summitu-nato-nedocka-rozsekne-se-ale-jina-zasadni-cesta/r~aaa29cb0a02f9fef246d36c8296669fe/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-09T07:32:32.667Z"
       }
     ],
     "score_impact": -0.2,
-    "rationale": "Severity 1 per rubric §1 — jde o administrativní odložení rozhodnutí o delegaci bez precedentního charakteru; nenaplňuje znaky subkomponenty G1 (dělba moci, ústavní krize) ani G2 (legislativní kvalita). Dočasné odložení koordinační schůzky je zanedbatelný incident bez institucionálního dopadu. Případný spor mezi prezidentem a vládou o zahraniční zastoupení by mohl eskalovat na G1, ale na základě dostupných faktů k tomu nedošlo.",
+    "rationale": "Severity 1 per rubric §1 — jde o administrativní odložení rozhodnutí o delegaci bez precedentního charakteru; nenaplňuje znaky subkomponenty G1 (dělba moci, ústavní krize) ani G2 (legislativní kvalita). Dočasné odložení koordinační schůzky je zanedbatelný incident bez institucionálního dopadu. Případný spor mezi prezidentem a vládou o zahraniční zastoupení by mohl eskalovat na G1, ale na základě dostupných faktů k tomu nedošlo.\n\n[merged with 2026-W24-017 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-08T08:05:26.115Z",
     "expires_at": "2026-08-31T00:00:00.000Z"
   },
@@ -214,6 +232,321 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-08T08:05:26.115Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-011",
+    "date": "2026-06-08",
+    "headline": "Místostarosta ODS v Brně měl fyzicky napadnout pirátského politika na veřejné akci",
+    "summary": "Pirátský zastupitel z brněnského Králova Pole tvrdí, že jej místostarosta z ODS fyzicky napadl na veřejné akci; jeho výpověď potvrzuje svědkyně. Místostarosta vše popírá. Incident se týká bezpečnosti politického aktéra při výkonu veřejné funkce.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Chytil mě kolem krku.“ Brněnského piráta údajně napadl místostarosta z ODS, ten vše popírá",
+        "url": "https://denikn.cz/2088781/chytl-me-kolem-krku-brnenskeho-pirata-udajne-napadl-mistostarosta-z-ods-ten-vse-popira/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-09T07:32:28.433Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — fyzický útok lokálního politického představitele na opozičního politika je konkrétní incident s dopadem na osobní bezpečnost politických aktérů (subkomponenta C2 — svoboda shromažďování a bezpečnost při výkonu politické činnosti). Existuje jeden svědek potvrzující verzi oběti, nicméně druhá strana popírá; incident je lokální, bez kaskádového efektu. Jeden zdroj a spor o fakta snižují jistotu — zvažována severity null, ale lokální charakter a jasný incident odpovídají rubric §2. Eskalace na 3 by nastala při opakování nebo při nečinnosti orgánů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-012",
+    "date": "2026-06-08",
+    "headline": "Ministerstvo životního prostředí přijalo politické influencery blízké Motoristům bez zjevné odborné kvalifikace",
+    "summary": "Na ministerstvo životního prostředí nastoupili dva političtí influenceři s vazbami na hnutí Motoristé sobě, mimo jiné do rozpočtového oddělení. Vicepremiér Macinka jmenování hájil, aniž by vysvětlil konkrétní pracovní náplň a kvalifikaci jednoho z nich. Incident nastoluje otázky ohledně politizace státní správy.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Nemusí mít doktorát z fyziky.“ Macinka hájí ministerstvo, které nabírá spojence Motoristů",
+        "url": "https://denikn.cz/2088612/nemusi-mit-doktorat-z-fyziky-macinka-haji-ministerstvo-ktere-nabira-spojence-motoristu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-09T07:32:28.433Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni státní správy (subkomponenta G1 — dělba moci a transparentnost vládnutí) bez kaskádového efektu. Případ je konkrétní a datovaný, ale omezený na dvě pracovní pozice bez doloženého systémového vzorce; Macinkova obhajoba bez věcného vysvětlení snižuje transparentnost, ale nedosahuje závažnosti §3. Eskalace na 3 by nastala, pokud by šlo o prokazatelný vzorec (rubric — +1 úroveň pro ≥ 3 podobné incidenty od stejného aktéra v 12 týdnech). Sekundárně se dotýká pilíře corruption (K1 — střet zájmů), ale kořenová příčina je v politizaci státní správy (governance).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-013",
+    "date": "2026-06-08",
+    "headline": "Prezident Pavel navštívil jednání vlády, klíčový spor s kabinetem zůstal nevyřešen",
+    "summary": "Prezident Pavel se zúčastnil jednání vlády Andreje Babiše, avšak jeho návštěva trvala přibližně čtvrt hodiny. Kabinet ani za jeho přítomnosti nedokázal vyřešit klíčové sporné téma zatěžující vztah mezi hlavou státu a exekutivou. Napětí mezi prezidentem a vládou tak přetrvává.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Patnáct minut s prezidentem: Co se dělo na vládě a s čím přišel Babiš",
+        "url": "https://denikn.cz/2088175/patnact-minut-s-prezidentem-co-se-delo-na-vlade-a-s-cim-prisel-babis/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-09T07:32:28.433Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní incident reflektující napětí ve vztahu exekutivy a prezidenta (subkomponenta G1: dělba moci, spolupráce ústavních orgánů), avšak bez přímého dopadu na institucionální fungování. Absence dohody je znepokojivá, ale bez eskalace ani ústavní krize jde o drobný incident s lokálním dopadem. Anti-bias: stejné hodnocení bych aplikoval bez ohledu na politickou orientaci aktérů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-014",
+    "date": "2026-06-09",
+    "headline": "V kauze Dozimetr bude u soudu vypovídat klíčový svědek, bývalý radní Scheinherr",
+    "summary": "V soudním řízení kauzy Dozimetr, která se týká korupce a klientelismu v pražském dopravním podniku, má vypovídat Adam Scheinherr, bývalý radní pro dopravu a muž, který na trestnou činnost upozornil policii. Jde o jednu z očekávaných klíčových výpovědí v dosud největší pražské korupční kauze.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Měli mu vyhrožovat, on vše nahlásil policii. Před soudem bude vypovídat radní, který spustil Dozimetr",
+        "url": "https://www.irozhlas.cz/zpravy-domov/meli-mu-vyhrozovat-vse-nahlasil-policii-pred-soudem-bude-vypovidat-radni-ktery_2606090747_pik",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-09T07:32:29.635Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — probíhající soudní řízení v kauze Dozimetr je institucionálně signifikantní případ korupce (subkomponenta K1: politická korupce, K2: veřejné zakázky v oblasti dopravy). Výpověď klíčového svědka je konkrétní datovaná procesní událost. Směr +1, protože postupující soudní řízení posiluje funkci protikorupčního mechanismu. Závažnost 2 (nikoli 3) proto, že jde o procesní mezník v probíhajícím řízení, nikoli o nové odhalení nebo institucionální posun. Subkomponenta K5 (whistleblowing) je sekundárně relevantní — Scheinherrovo jednání ilustruje fungování oznamovacích mechanismů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-015",
+    "date": "2026-06-09",
+    "headline": "Podpůrný fond vyzval 28 dceřinek Agrofertu k vrácení dotací kvůli Babišovu střetu zájmů",
+    "summary": "Podpůrný a garanční rolnický a lesnický fond zahájil předsoudní fázi vymáhání a vyzval 28 společností ze skupiny Agrofert k dobrovolnému vrácení podpory čerpané v letech 2017–2021, kdy byl Andrej Babiš premiérem. Důvodem je porušení zákona o střetu zájmů. Společnosti z Agrofertu vrácení odmítají.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "‚Zahájili jsme předsoudní fázi.‘ Podpůrný fond vyzval Agrofert k vrácení podpory kvůli Babišovu střetu",
+        "url": "https://www.irozhlas.cz/zpravy-domov/stret-zajmu-andrej-babis-agrofert-pgrlf-podpurny-fond-vymahani-dotace-podpora_2606090620_tec",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-09T07:32:29.635Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zahájení předsoudní fáze vymáhání dotací je konkrétní institucionální krok s širším dopadem na veřejné finance i otázku odpovědnosti ústavního činitele (subkomponenta K1 — střet zájmů premiéra, K2 — veřejné prostředky). Jde o výsledek předchozích nálezů a řízení, nikoliv o nové zjištění porušení, proto severity 3 (ne 4). Odmítnutí vrácení prostředků ze strany Agrofertu posiluje persistent charakter. Sekundárně se dotýká pilíře governance (G1 — zneužití funkce premiéra).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z"
+  },
+  {
+    "id": "2026-W24-016",
+    "date": "2026-06-09",
+    "headline": "Novinářka popsala zákulisí neúspěšné volby Matochy a Bradáče do Rady ČT a dohodu koalice s opozicí",
+    "summary": "Investigativní novinářka přiblížila průběh volby členů Rady České televize, při níž kandidáti Matocha a Bradáč nebyli zvoleni. Popsala, jak probíhaly neformální tlaky na jejich odvolání a jak vznikla politická dohoda mezi koalicí a opozicí. Součástí pozadí je i podezřelá nahrávka spojená s procesem volby.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "S Matochou a Bradáčem to zkoušeli po dobrém, neustoupili. Pak přišla veřejná poprava, líčí novinářka",
+        "url": "https://www.irozhlas.cz/zpravy-domov/s-matochou-a-bradacem-zkouseli-po-dobrem-neustoupili-pak-prisla-verejna-poprava_2606090600_jkd",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-09T07:32:29.635Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zpráva dokumentuje politické zákulisí ovlivňující složení Rady ČT (subkomponenta M2 — nezávislost ČT, procedura volby Rady). Dohoda mezi koalicí a opozicí o personálním složení mediálního dohledového orgánu vytváří precedent pro politizaci rady veřejnoprávního média. Podezřelá nahrávka naznačuje neformální nátlak, ale bez verifikovaných faktů o konkrétním trestném činu nelze eskalovat. Single-source charakter (iROZHLAS) brání eskalaci na severity 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-018",
+    "date": "2026-06-09",
+    "headline": "Pracovní skupina jednala o přesunu financování ČT a ČRo ze státního rozpočtu místo poplatků",
+    "summary": "Pracovní skupina vedená premiérem Babišem se sešla k projednání návrhu převést financování České televize a Českého rozhlasu z koncesionářských poplatků na přímé dotace ze státního rozpočtu. Ředitelé obou institucí s navrhovanou změnou nesouhlasí. Jednání se soustředilo na otázku výše budoucích příjmů médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vyjádření po jednání o změně financování ČT a ČRo",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pracovni-skupina-bude-jednat-o-zmene-financovani-ct-a-cro-374365",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-09T07:32:30.038Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — přesun financování ČT a ČRo do státního rozpočtu je systémová změna, která oslabuje nezávislost veřejnoprávních médií (subkomponenta M2). Přímá závislost na každoročním státním rozpočtu by umožnila vládě nepřímo ovlivňovat výši prostředků a tím editoriální nezávislost. Zatím jde o pracovní skupinu a jednání (ne schválený zákon), proto severity 3, nikoliv 4 nebo 5 (eskalace by nastala při předložení konkrétního návrhu zákona nebo jeho schválení). Persistent, protože proces probíhá opakovaně.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z"
+  },
+  {
+    "id": "2026-W24-019",
+    "date": "2026-06-08",
+    "headline": "Policie navrhla obžalovat pekárnu z Agrofertu kvůli dotačnímu podvodu",
+    "summary": "Policie podala návrh na obžalobu společnosti Pekárna Zelená louka (součást Agrofertu) a dvou fyzických osob v kauze evropské dotace ve výši 100 milionů korun na výrobní linku na toastový chléb. Případ dozoruje Úřad evropského veřejného žalobce (EPPO). Agrofert odmítá pochybení.",
+    "pillar": "corruption",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Policie navrhla obžalovat pekárnu z Agrofertu kvůli dotacím na linku na toastový chléb",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/policie-navrhla-obzalovat-pekarnu-kvuli-dotacim-na-linku-na-toastovy-chleb-374357",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-09T07:32:30.038Z"
+      },
+      {
+        "title": "Pekárna z koncernu Agrofert čelí návrhu na obžalobu. Případ se týká dotace na inovační linku na toastový chléb",
+        "url": "https://byznys.hn.cz/c1-67887840-pekarna-z-koncernu-agrofert-celi-navrhu-na-obzalobu-pripad-se-tyka-dotace-na-inovacni-linku-na-toastovy-chleb",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-09T07:32:31.612Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — návrh obžaloby v kauze dotačního podvodu zahrnující subjekt propojený s dřívějším premiérem (Agrofert/Babiš) se dotýká subkomponenty K1 (politická korupce, střet zájmů ústavních činitelů) a K2 (transparentnost veřejných zakázek a čerpání dotací). Jde o konkrétní procesní krok (návrh obžaloby), nikoli jen vyšetřování — event má institucionální dopad. Pouze jeden zdroj, EPPO potvrzení naznačuje věrohodnost, ale finální obžaloba dosud nebyla formálně podána, proto se zdržuji eskalace na 4. Sekundárně se dotýká pilíře electoral (Agrofert a Babiš jako politický aktér).\n\n[merged with 2026-W24-020 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-021",
+    "date": "2026-06-09",
+    "headline": "Kramný žádá o obnovu procesu — soud bude případ vraždy řešit potřetí",
+    "summary": "Odsouzený Petr Kramný, který si odpykává 28letý trest za vraždu manželky a dcery, podal žádost o obnovu procesu. Případ se opírá o zpochybněné znalecké posudky a je sledován jako test integrity forenzních postupů české justice. Soud se jím bude zabývat již potřetí.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Jak to bylo tehdy s detektorem lži? Otázky kolem děsivého případu mrtvé matky a dcery",
+        "url": "https://zpravy.aktualne.cz/domaci/znalci-pry-chybovali-kramny-chce-novy-proces-nad-pripadem-dodnes-visi-otazniky/r~aaa2978962935245d8396ba88b015cb2/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-09T07:32:32.667Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — žádost o obnovu procesu je standardní procesní instrument, který sám o sobě neohrožuje instituci, ale zaslouží zaznamenání z hlediska subkomponenty J2 (nezávislost obecných soudů a integrita soudního řízení). Směr je 0: podání žádosti o obnovu je neutrální procesní akt — může jít o korekci justičního pochybení (+1), nebo o neúspěšný pokus (-1), výsledek není znám. Antibiasová kontrola: identická žádost jiného odsouzeného by byla hodnocena stejně.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-023",
+    "date": "2026-06-09",
+    "headline": "Městský soud nařídil státu omluvit se za výrok ministra Dvořáka o Palestincích",
+    "summary": "Městský soud v Praze rozhodl, že stát se musí omluvit třem členům palestinské komunity za výrok bývalého ministra Martina Dvořáka, jenž tvrdil, že nenávist ke všemu izraelskému je součástí genetické výbavy Palestinců. Soud přitom označil srovnání tohoto výroku s rétorikou Goebbelse za přiléhavé.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Soud označil srovnání výroků bývalého ministra Dvořáka a Goebbelse za přiléhavé",
+        "url": "https://denikalarm.cz/2026/06/soud-oznacil-srovnani-vyroku-byvaleho-ministra-dvoraka-a-goebbelse-za-prilehave/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-06-09T07:32:33.953Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — soud rozhodl v konkrétní kauze týkající se výroku ústavního činitele a ochrany menšiny (subkomponenta J4, rovnost před zákonem, a sekundárně C4, ochrana menšin). Rozhodnutí posiluje právní stát tím, že přiznává ochranu menšině před diskriminačními výroky státního představitele. Dopad je lokální, vztahuje se na jednu konkrétní kauzu bez precedentního strukturálního efektu. Direction +1, protože soud uplatnil ochranu před diskriminací.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-024",
+    "date": "2026-06-09",
+    "headline": "Ministr Klempíř připravuje nový plán na zrušení koncesionářských poplatků pro ČT a ČRo",
+    "summary": "Ministr kultury Oto Klempíř údajně připravil nový návrh na zrušení koncesionářských poplatků pro veřejnoprávní média poté, co předchozí komplexní novela zákona o ČT neprošla. Ředitelé veřejnoprávních médií se mají o plánu dozvědět na schůzce ve Strakově akademii, aniž by byli předem konzultováni.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Klempíř má nový plán na zrušení televizních poplatků",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-pokus-cislo-dva-klempir-ma-novy-plan-na-zruseni-televiznich-poplatku-308086",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-09T07:32:35.182Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zrušení koncesionářských poplatků by zásadně ohrozilo finanční nezávislost ČT a ČRo (subkomponenta M2), čímž by vytvořilo závislost na státním rozpočtu a politické vůli exekutivy. Jde o plán ve fázi přípravy (nikoli schválený zákon), proto nikoli severity 4–5, ale persistent, protože strukturální ohrožení trvá. Postup bez předchozí konzultace s vedením médií naznačuje záměrné obcházení standardního připomínkového řízení (sekundárně G2). Dle eskalačního pravidla rubric — zatím návrh, nikoli schválená norma — zůstává na 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z"
+  },
+  {
+    "id": "2026-W24-026",
+    "date": "2026-06-09",
+    "headline": "Spolek napojený na lobbistu Janouška vyplatil ODS političce přes 800 tisíc korun",
+    "summary": "Nová zjištění Seznam Zpráv odhalila, že spolek spojený s pražským lobbistou Romanem Janouškem zaplatil pražské zastupitelce Gabriele Pecičové z ODS minimálně 800 tisíc korun. Účel plateb odmítá politička vysvětlit, což vzbuzuje obavy o transparentnost financování politiky.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Další stopa peněz ze Zilvaru: statisíce dotekly k političce ODS",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-dalsi-stopa-penez-ze-zilvaru-statisice-dotekly-k-politicce-ods-307933",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-09T07:32:35.182Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zjištění o finančních tocích od lobbisty k aktivní političce bez vysvětlení účelu zakládá relevantní podezření z porušení subkomponenty K3 (financování politiky) a K1 (střet zájmů). Zatím jde o mediální zjištění bez formálního trestního řízení ani doloženého přímého protiprávního jednání, takže nedosahuje úrovně 4. Jeden zdroj (Seznam Zprávy) — dle source-count pravidla ponechávám na 3, ale událost vyžaduje sledování dalšího vývoje.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-027",
+    "date": "2026-06-08",
+    "headline": "Zaměstnanci ČT vyhlásili výstražnou stávku na 22. června proti změnám financování",
+    "summary": "Odbory a zaměstnanci České televize ohlásili výstražnou stávku plánovanou na 22. června jako protest proti navrhovaným změnám ve financování veřejnoprávních médií. Vedení ČT stávce nebrání.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zaměstnanci ČT chystají kvůli změnám financování na 22. června stávku",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zamestnanci-ct-chystaji-kvuli-zmenam-financovani-na-22-cervna-stavku-308096",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-09T07:32:35.182Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — oznámení stávky je konkrétní datovaná událost signalizující institucionální konflikt ohledně financování ČT (subkomponenta M2). Jde zatím o výstražný protest, nikoliv o schválenou legislativní změnu ani prokazatelný politický tlak na editoriální obsah, proto nedosahuje úrovně 3. Navrhované změny financování veřejnoprávních médií mohou ohrozit nezávislost ČT, ale konkrétní podoba ani schválení dosud nejsou popsány — eskalace možná po dalším vývoji.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-09T07:32:28.419Z",
     "expires_at": "2026-08-31T00:00:00.000Z"
   }
 ]
