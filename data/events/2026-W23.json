@@ -2074,10 +2074,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/cesko-dle-ministerstva-vyhralo-stamilionovou-arbitraz-s-jcdecaux-374313",
         "outlet": "ČT24",
         "fetched_at": "2026-06-08T08:05:28.126Z"
+      },
+      {
+        "title": "Česko vyhrálo arbitráž s&nbsp;JCDeacaux a&nbsp;nemusí platit škodu",
+        "url": "https://archiv.hn.cz/c1-67887390-cesko-vyhralo-arbitraz-s-jcdeacaux-a-nemusi-platit-skodu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-10T07:47:40.019Z"
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — výsledek arbitráže je konkrétní datovaná událost s finančním dopadem pro veřejné finance. Dopad na G4 (transparentnost vládnutí a ochrana veřejných zdrojů) je mírně pozitivní — stát obhájil svůj postup ve sporu o veřejnou zakázku. Nejde o systémový precedent, proto se nejedná o severity 3. Primárně governance kvůli ochraně veřejných prostředků; sekundárně korupce (K2 — veřejné zakázky) zmíněna v kontextu smlouvy DPP.\n\n[auditor: flag] Výhra arbitráže státem je zaznamenáníhodná, ale primárně je to korporátní/právní výsledek bez přímého dopadu na demokratické instituce. Severity 2 + direction +1 je nadhodnoceno; zvážit severity 1 nebo vyřazení.",
+    "rationale": "Severity 2 per rubric §2 — výsledek arbitráže je konkrétní datovaná událost s finančním dopadem pro veřejné finance. Dopad na G4 (transparentnost vládnutí a ochrana veřejných zdrojů) je mírně pozitivní — stát obhájil svůj postup ve sporu o veřejnou zakázku. Nejde o systémový precedent, proto se nejedná o severity 3. Primárně governance kvůli ochraně veřejných prostředků; sekundárně korupce (K2 — veřejné zakázky) zmíněna v kontextu smlouvy DPP.\n\n[auditor: flag] Výhra arbitráže státem je zaznamenáníhodná, ale primárně je to korporátní/právní výsledek bez přímého dopadu na demokratické instituce. Severity 2 + direction +1 je nadhodnoceno; zvážit severity 1 nebo vyřazení.\n\n[merged with 2026-W23-109 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-08T08:05:26.115Z",
@@ -2225,5 +2231,53 @@
     "status": "active",
     "created_at": "2026-06-09T07:32:28.419Z",
     "expires_at": "2026-08-30T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-110",
+    "date": "2026-06-05",
+    "headline": "ČNB zpřísňuje kapitálové požadavky na velké bankovní skupiny",
+    "summary": "Česká národní banka oznámila zvýšení kapitálových rezerv pro velké bankovní skupiny, včetně České spořitelny, ČSOB a Komerční banky. Opatření přichází krátce po ministerském návrhu reformy bankovního zákona a může se promítnout do podmínek pro klienty bank.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Česká národní banka utahuje šrouby finančním domům. Vyšší kapitálové rezervy mohou pocítit i jejich klienti",
+        "url": "https://archiv.hn.cz/c1-67886730-ceska-narodni-banka-utahuje-srouby-bankam-vyssi-kapitalove-rezervy-mohou-pocitit-i-klienti",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-10T07:47:40.019Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní regulatorní rozhodnutí ČNB v rámci jejích zákonných pravomocí (subkomponenta G1/dělba moci, ČNB jako nezávislá instituce). Neexistuje signál o politickém tlaku ani narušení institucionální nezávislosti; jde o běžné makroobezřetnostní opatření. Směr 0, protože dopad na demokratické instituce je neutrální — jde o finanční regulaci, nikoli o změnu politického uspořádání. Pokud by šlo o zásah do nezávislosti ČNB, klassifikace by se přesunula na severity 4–5 (rubric §5, pilíř governance), ale zde nic takového nenastalo.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-08-28T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W23-111",
+    "date": "2026-06-04",
+    "headline": "Sněmovna navrhla prezidentu Pavlovi udělit řád Miloši Zemanovi",
+    "summary": "Poslanecká sněmovna formálně navrhla prezidentu Petru Pavlovi, aby udělil nejvyšší státní vyznamenání svému předchůdci Miloši Zemanovi. Mezi dalšími nominanty figurují např. Milan Kundera nebo Martin Eben.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Řád pro Zemana? Sněmovna navrhla prezidentovi vyznamenat jeho předchůdce, mezi nominanty jsou i Kundera nebo Eben",
+        "url": "https://domaci.hn.cz/c1-67886290-rad-pro-zemana-snemovna-navrhla-prezidentovi-vyznamenat-jeho-predchudce-mezi-nominanty-jsou-i-kundera-nebo-eben",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-10T07:47:40.019Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní ceremoniální úkon v rámci standardní institucionální praxe (subkomponenta G1). Sněmovna má zákonné oprávnění navrhovat státní vyznamenání, prezident si zachovává diskreci při jejich udělení. Událost nemá žádný dopad na dělbu moci ani demokratické procesy; je zaznamenáníhodná jako institucionální akt, ale bez precedentního charakteru. Směr 0.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-08-27T00:00:00.000Z"
   }
 ]

@@ -14,10 +14,16 @@
         "url": "https://www.irozhlas.cz/zpravy-domov/nabity-soudni-tyden-v-kauze-dozimetr-svedcit-maji-exreditel-dpp-radni-scheinherr_2606080804_mst",
         "outlet": "iROZHLAS",
         "fetched_at": "2026-06-08T08:05:27.772Z"
+      },
+      {
+        "title": "Scheinherra u soudu k Dozimetru grilují advokáti. Klíčového svědka se vyptávají na schůzky s policií",
+        "url": "https://www.irozhlas.cz/zpravy-domov/scheinherra-budou-u-soudu-grilovat-advokati-politik-svym-trestnim-oznamenim_2606100800_mst",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-10T07:47:38.837Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 – probíhající soudní řízení v korupční kauze zahrnující představitele veřejného podniku (subkomponenta K1, K2). Samotný fakt pokračování výslechů v již dříve zahájeném procesu je rutinní procesní krok bez nové eskalace; nejde o nový průlomový rozsudek ani o systémovou změnu. Pilíř corruption jako primární (politická korupce, zneužití veřejného podniku); sekundárně se dotýká pilíře judicial (fungování soudního procesu). Direction -1 reflektuje, že kauza jako celek dokumentuje korupci ve veřejné správě, nicméně samotný průběh soudního řízení je standardní institucionální reakcí.",
+    "rationale": "Severity 2 per rubric §2 – probíhající soudní řízení v korupční kauze zahrnující představitele veřejného podniku (subkomponenta K1, K2). Samotný fakt pokračování výslechů v již dříve zahájeném procesu je rutinní procesní krok bez nové eskalace; nejde o nový průlomový rozsudek ani o systémovou změnu. Pilíř corruption jako primární (politická korupce, zneužití veřejného podniku); sekundárně se dotýká pilíře judicial (fungování soudního procesu). Direction -1 reflektuje, že kauza jako celek dokumentuje korupci ve veřejné správě, nicméně samotný průběh soudního řízení je standardní institucionální reakcí.\n\n[merged with 2026-W24-033 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-08T08:05:26.115Z"
@@ -548,5 +554,327 @@
     "status": "active",
     "created_at": "2026-06-09T07:32:28.419Z",
     "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-028",
+    "date": "2026-06-09",
+    "headline": "Ministerstvo zahraničí přijalo asistentky poslanců Motoristů bez diplomatické praxe",
+    "summary": "Deník N zjistil, že ministerstvo zahraničí vedené šéfem Motoristů Petrem Macinkou zaměstnalo dvě bývalé asistentky poslanců téže strany, přestože nemají zkušenosti v diplomacii. Jde o další případ politického patronátu ve vládních úřadech.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Učitelka tance a realitní makléřka. Na Macinkovo ministerstvo nastoupily ženy od Motoristů",
+        "url": "https://denikn.cz/2090087/ucitelka-tance-a-realitni-maklerka-na-macinkovo-ministerstvo-nastoupily-zeny-od-motoristu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-10T07:47:37.967Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivovaný personální zásah na střední úrovni státní správy bez prokázaného kaskádového efektu (subkomponenta K1 — střet zájmů a zneužití postavení pro stranické obsazování pozic). Sekundárně se dotýká G4 (transparentnost vládnutí). Jde o jednu zprávu bez dosavadního vzorce, který by odůvodňoval eskalaci na severity 3; pokud by se potvrdil systémový vzorec obsazování úřadů stranickými kádry, eskalace opodstatněná.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-029",
+    "date": "2026-06-09",
+    "headline": "Sněmovní podvýbor pro svobodu slova jednal vůbec poprvé — za zavřenými dveřmi",
+    "summary": "Podvýbor Poslanecké sněmovny pro svobodu slova se sešel poprvé v tomto volebním období a svá jednání vedl neveřejně, přičemž poslanci uzavřenost hájili s poukazem na větší svobodu vyjadřování. Postup vyvolává otázky ohledně transparentnosti orgánu, jehož agenda přímo svazuje demokratické hodnoty.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Zavřete dveře, ať se můžeme svobodně vyjadřovat.“ Poslanci jednají o svobodě slova mimo dosah veřejnosti",
+        "url": "https://denikn.cz/2089724/zavrete-dvere-at-se-muzeme-svobodne-vyjadrovat-poslanci-jednaji-o-svobode-slova-mimo-dosah-verejnosti/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-10T07:47:37.967Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní procedurální rozhodnutí parlamentního orgánu, které je kontroverzní a zasluhuje zaznamenání, ale samo o sobě neohrožuje instituci ani nezakládá trvalý precedent (subkomponenta G2 — kvalita legislativního procesu a transparentnost). Sekundárně relevantní pro C1 (svoboda projevu), avšak primárním kořenem je procedurální transparentnost parlamentní práce. Uzavřenost zasedání podvýboru je legitimně problematická, nikoliv však závažné porušení normy ve smyslu rubric §3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-030",
+    "date": "2026-06-09",
+    "headline": "Firma provádějící kampaň brněnské ODS dlouhodobě získává zakázky od městských společností ODS",
+    "summary": "Investigace Deníku N odhalila, že soukromá firma X Production opakovaně organizuje volební kampaně brněnské ODS a zároveň dostává veřejné zakázky od městských společností a radnic ovládaných touto stranou. Expertka situaci označila za podezření z klientelismu, ODS pochybnosti odmítá.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Firma bere veřejné zakázky v Brně, do toho dělá kampaň ODS. „Může jít o klientelismus,“ varuje expertka",
+        "url": "https://denikn.cz/2088274/firma-bere-verejne-zakazky-v-brne-do-toho-dela-kampan-ods-muze-jit-o-klientelismus-varuje-expertka/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-10T07:47:37.967Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — vzorec opakované spolupráce téže firmy na kampaních i veřejných zakázkách vytváří strukturální střet zájmů a precedent klientelistického propojení (subkomponenta K2 — transparentnost veřejných zakázek, K3 — financování politiky). Jde o déletrvající jev (persistent), nikoli jednorázový incident. De-eskalace nebyla provedena, protože dosud chybí formální šetření nebo institucionální korekce. Primárním pilířem je corruption; sekundárně electoral (propojení firemního financování kampaní). Pouze jeden investigativní zdroj, proto se pohybuji na dolní hranici severity 3 — single-source rule dle rubric nevede k automatické de-eskalaci, ale odůvodňuje opatrnost.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z"
+  },
+  {
+    "id": "2026-W24-031",
+    "date": "2026-06-09",
+    "headline": "Vládní poslanci navrhli oslabení zákona o střetu zájmů ve prospěch Agrofertu",
+    "summary": "Poslanci ze tří koaličních stran předložili novelu zákona o střetu zájmů, která by Agrofertu umožnila čerpat nárokové dotace, zkrátila dobu zpětného vymáhání a zúžila omezení střetu zájmů pouze na daný rezort. Návrh byl podán bez veřejné diskuse a může přímo prospět premiéru Babišovi.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vládní poslanci chtějí změnit zákon o střetu zájmů. Mohli by tak pomoci Babišovi",
+        "url": "https://denikn.cz/2089853/vladni-poslanci-chteji-zmenit-zakon-o-stretu-zajmu-mohli-by-tak-pomoci-babisovi/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-10T07:47:37.967Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — návrh novely, pokud bude přijat, by zásadně oslabil klíčový protikorupční mechanismus (zákon o střetu zájmů), přičemž sledovatelný prospěch pro konkrétního ústavního činitele (premiér Babiš / Agrofert) je explicitní (subkomponenta K1 — politická korupce, střet zájmů ústavních činitelů; K4 — oslabení protikorupčních mechanismů). Rubric §4: přímý dopad na fungování klíčové instituce, jasné překročení normy. V tuto chvíli jde o předložený návrh, nikoli schválený zákon — dle pravidel eskalace je návrh bez schválení typicky severity 4 (nikoliv 5). Sekundárně relevantní pro governance (G1 — obcházení standardního připomínkového řízení). Dvě nezávislé zprávy v ten samý den potvrzují fakta, což splňuje dvou-zdrojové kritérium pro severity 4.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-032",
+    "date": "2026-06-09",
+    "headline": "Babiš a Macinka oslabili prezidenta Pavla v otázce summitu NATO v Ankaře",
+    "summary": "Prezident Petr Pavel se zúčastnil jednání vlády, kde strávil pouhých patnáct minut s Babišovým týmem a neprosadil potvrzení své účasti na summitu NATO. Vládní politici záměrně využili situaci k oslabení prezidentovy pozice v budoucích střetech s exekutivou.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vrtěti psem: Babiš s Macinkou nastražili na prezidenta past",
+        "url": "https://denikn.cz/2089356/vrteti-psem-babis-s-macinkou-nastrazili-na-prezidenta-past/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-10T07:47:37.967Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — vědomá strategie vlády oslabit institucionální roli prezidenta v konkrétní zahraniční politice (subkomponenta G1: reálná dělba moci a vzájemné vztahy ústavních orgánů). Jednání přímo zasahuje do vztahu prezident–vláda v oblasti zahraniční politiky. Zdroj je jeden analytický/reportážní text, nikoliv suchý faktický záznam; single-source rule podporuje zachování severity 3, ale event by mohl být snížen na 2 bez dalšího potvrzení. Sekundárně se dotýká pilíře electoral v kontextu politického boje ANO vs. prezidentský post.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-034",
+    "date": "2026-06-10",
+    "headline": "Sněmovna projednává novelu zákona o střetu zájmů, kritici ji označují za šitou na míru Babišovi",
+    "summary": "Poslanci navrhují změnu zákona o střetu zájmů, přičemž opoziční poslanec Výborný (KDU-ČSL) novelu označil za účelově navrženou tak, aby zbavila premiéra Babiše střetu zájmů. Prezident Pavel o věci hovořil s ministrem zemědělství, místopředseda ústavně-právního výboru Vondráček připustil, že zákon se dotýká všech poslanců.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Šitý na míru, tepe návrh zákona o střetu zájmů Výborný. Vondráček: Jsme v něm všichni",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/sity-na-miru-tepe-navrh-zakona-o-stretu-zajmu-vyborny-vondracek-jsme-v-nem-vsichni-374409",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-10T07:47:38.991Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 – návrh zákona, který by dle kritiků cíleně upravoval pravidla střetu zájmů ve prospěch konkrétního ústavního činitele (premiéra Babiše), splňuje kritérium vytvoření precedentu a dopadu na protikorupční institucionální rámec (subkomponenta K1 – politická korupce, střet zájmů ústavních činitelů). Zákon je zatím ve fázi návrhu/projednávání, nikoli schválen, proto nepřekračuje do severity 4. Sekundárně relevantní pro pilíř governance (G1, G2 – kvalita legislativního procesu, dělba moci). Single-source consideration: zpráva ČT24 je seriózní zdroj, ale zatím pouze jeden, proto ponecháváme severity 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z"
+  },
+  {
+    "id": "2026-W24-035",
+    "date": "2026-06-09",
+    "headline": "Restituční kauza Bečvářův statek: stát přišel o stovky milionů, skuteční beneficienti bez trestu",
+    "summary": "Uzavřela se velká restituční kauza, v níž stát neprávem vydal cenné pražské pozemky podnikatelům spojeným s organizovaným klientelismem. Beneficienti si majetek ponechají bez odsouzení, zatímco úřednice, která kauzu procesně pochybila, dostala pět let vězení.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Reportéři ČT rozpletli příběh restituční kauzy Bečvářův statek",
+        "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/reporteri-ct-rozpletli-pribeh-restitucni-kauzy-becvaruv-statek-374397",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-10T07:47:38.991Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — případ dokumentuje selhání protikorupčních mechanismů i systému veřejné správy při ochraně státního majetku (subkomponenta K1 a K2): skuteční beneficienti korupčního schématu unikají trestu, stát přichází o majetek v řádu stovek milionů. Výsledek řízení navíc vytváří závažný precedent: odpovědnost nesou úředníci na nižší úrovni, nikoli ti, kdo z nezákonného obohacení profitovali. Sekundárně se dotýká pilíře judicial (J4 — rovnost před zákonem), zmíněno v rationale. Single-source z ČT24, ale kauza je uzavřena pravomocným rozsudkem, takže faktická základna je dostatečně pevná pro severity 4.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-036",
+    "date": "2026-06-10",
+    "headline": "Ministr Plaga oznamuje změny v RVP: druhý cizí jazyk ani angličtina od 1. třídy nebudou povinné",
+    "summary": "Ministr školství Robert Plaga informoval ředitele základních škol dopisem o chystaných změnách rámcového vzdělávacího programu, podle nějž se na školách vyučuje. Změny se týkají výuky cizích jazyků a dalších oblastí kurikula.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Plaga rozhodl: Na základní škole se žáci nebudou muset učit druhý cizí jazyk ani angličtinu od první třídy",
+        "url": "https://domaci.hn.cz/c1-67888740-plaga-rozhodl-na-zakladni-skole-se-zaci-nebudou-muset-ucit-druhy-cizi-jazyk-ani-anglictinu-od-prvni-tridy",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-10T07:47:40.019Z"
+      },
+      {
+        "title": "Plaga: Angličtina od 1. třídy se ruší. A také povinný druhý cizí jazyk",
+        "url": "https://www.seznamzpravy.cz/clanek/kampus-zakladni-vzdelavani-plaga-brzdi-anglictina-od-1-tridy-se-rusi-a-take-povinny-druhy-cizi-jazyk-308194",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-10T07:47:41.987Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — oznámení o revizi kurikulárního dokumentu je rutinní administrativní úkon ministra bez přímého dopadu na demokratické instituce, dělbu moci ani ústavní normy (subkomponenta G2). Jde o věcnou politiku vzdělávání mimo rámec demokratického backslidingu. Direction 0, protože není jasné, zda změna vzdělávací politiku posiluje nebo oslabuje. Událost je zaznamenána pro úplnost, ale na žádný z pilířů indexu nemá relevantní dopad.\n\n[merged with 2026-W24-041 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-02T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-037",
+    "date": "2026-06-09",
+    "headline": "Soud potrestal vyšetřovatelku za odmítnutí přijmout oznámení znásilnění — peněžitý trest 40 tisíc Kč",
+    "summary": "Pražská vyšetřovatelka obdržela peněžitý trest za to, že společně s kolegy odmítla přijmout trestní oznámení oběti znásilnění. Trest byl uložen s odstupem tří let od samotného incidentu a je relativně mírný.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vyprávíte pohádky, nic se vám nestalo, přesvědčovala znásilněnou dívku vyšetřovatelka. Dostala peněžitý trest 40 tisíc korun",
+        "url": "https://archiv.hn.cz/c1-67888560-vypravite-pohadky-nic-se-vam-nestalo-presvedcovala-znasilnenou-divku-vysetrovatelka-dostala-penezity-trest-40-tisic-korun",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-10T07:47:40.019Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — případ představuje konkrétní, uzavřené kárné/trestní řízení s omezeným systémovým dopadem (subkomponenta J2 a J4). Odsouzení policejní vyšetřovatelky za procesní pochybení je pozitivní signál (direction +1: instituce na selhání reagovala), avšak mírnost trestu (40 tisíc Kč za pochybení vůči oběti znásilnění) naznačuje slabou odpovědnost. Nesplňuje threshold pro severity 3, protože nejde o precedentní ani strukturální selhání, nýbrž o jeden uzavřený případ. Sekundárně se dotýká pilíře civil (C4 — ochrana zranitelných osob).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-038",
+    "date": "2026-06-09",
+    "headline": "Vládní poslanci navrhují novelu lex Babiš, která by umožnila firmám premiéra čerpat dotace",
+    "summary": "Poslanci ANO Vondráček a Turek spolu s dalšími vládními poslanci předložili novelu zákona o střetu zájmů, která by ze zákazu dotací vyřadila firmy premiéra ČR. Novela by zároveň zkrátila lhůtu pro vymáhání případně neoprávněně vyplacených dotací. Návrh přichází v době, kdy premiérem je Andrej Babiš, jehož holding Agrofert je přímo dotčen stávající legislativou.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "S Agrofertem to prý nemá nic společného... Vondráček a Turek chtějí přepsat lex Babiš. Firmy českého premiéra by ze zákazu dotací vypadly",
+        "url": "https://archiv.hn.cz/c1-67888500-s-agrofertem-to-nema-nic-spolecneho-vondracek-a-turek-chteji-prepsat-lex-babis-firmy-ceskeho-premiera-by-ze-zakazu-dotaci-vypadly",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-10T07:47:40.019Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — návrh zákona, který by přímým způsobem odstranil omezení střetu zájmů platná pro ústavního činitele (premiéra), naplňuje subkomponentu K1 (politická korupce, střet zájmů ústavních činitelů) i K2 (transparentnost veřejných zakázek a dotací). Jde o předložený formální legislativní dokument (ne pouhý záměr), což dle eskalačního pravidla 'formální dokument vs. záměr' zvyšuje závažnost. Jmenování navrhovatelů z vládní koalice a explicitní prospěch pro holding premiéra vytváří zjevný střet zájmů. Zatím jde o návrh, nikoli schválený zákon — proto 4, nikoli 5. Sekundárně se dotýká pilíře governance (G1, G2 — obcházení standardního legislativního procesu prostřednictvím poslanecké iniciativy bez věcného odůvodnění nesouvisejícího s osobním prospěchem navrhovatelů).\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-039",
+    "date": "2026-06-09",
+    "headline": "Vláda má v pondělí projednat zákon o zrušení televizních a rozhlasových poplatků",
+    "summary": "Ministr kultury Klempíř předloží vládě zákon rušící televizní a rozhlasové koncesionářské poplatky. Záměr potvrdil premiér Babiš po jednání pracovní skupiny k veřejnoprávním médiím. Výše náhradního financování ČT a ČRo ze státního rozpočtu zatím není stanovena.",
+    "pillar": "media",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vláda projedná zrušení televizních a rozhlasových poplatků, zákon dostane na stůl v pondělí",
+        "url": "https://domaci.hn.cz/c1-67888310-vlada-projedna-zruseni-televiznich-a-rozhlasovych-poplatku-zakon-dostane-na-stul-v-pondeli",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-10T07:47:40.019Z"
+      },
+      {
+        "title": "Government To Submit Bill On Monday To Abolish TV and Radio License Fees",
+        "url": "https://brnodaily.com/2026/06/09/news/politics/government-to-submit-bill-on-monday-to-abolish-tv-and-radio-license-fees/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-06-10T07:47:54.442Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 4 per rubric §4 — zrušení koncesionářských poplatků bez jasné náhrady přímo ohrožuje finanční nezávislost ČT a ČRo (subkomponenta M2: nezávislost ČT a ČRo, financování koncesionářskými poplatky). Přechod na přímé financování ze státního rozpočtu by veřejnoprávní média strukturálně závislá na politické vůli vládní majority, což je klasický mechanismus nepřímé politické kontroly. Předložení zákona vládě je formální institucionální krok (nikoliv jen záměr), eskalační pravidlo 'formální dokument' potvrzuje severity 4. Návrh zatím není schválený — proto 4, nikoli 5. Sekundárně se dotýká governance (G2 — kvalita legislativního procesu, absence zveřejněného alternativního financování při předložení zákona).\n\n[merged with 2026-W24-043 — same incident, sources combined]\n\n[severity capped from 4 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-040",
+    "date": "2026-06-08",
+    "headline": "Motoristé obsadili místa na MŽP dezinformačními influencery po rozsáhlých čistkách",
+    "summary": "Strana Motoristé provedla podle článku rozsáhlé personální čistky na Ministerstvu životního prostředí a na uvolněná místa dosadila osoby spojené s dezinformačním a ultrapravicovým prostředím. Jde o konkrétní personální změny ve státní správě s politickou motivací.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Šejna je Charlie Kirk z Wishe. Na trafiku od Motoristů ideální kvalifikace",
+        "url": "https://denikalarm.cz/2026/06/sejna-je-charlie-kirk-z-wishe-na-trafiku-od-motoristu-idealni-kvalifikace/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-06-10T07:47:41.640Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 – politicky motivované personální obsazování pozic ve státní správě dezinformačními aktéry odpovídá subkomponentě G1 (dělba moci, kontrola exekutivy) a G4 (transparentnost vládnutí). Jde o rozsáhlejší čistku a dosazování politicky loajálních osob s problematickým profilem, nikoli o izolovaný případ na střední úrovni (který by byl severity 2). Zdroj je jeden (A2larm), ideologicky vyhraněný, proto nelze eskalovat; při potvrzení dalšími zdroji by bylo na místě zvážit severity null/needs_review, nicméně popsaná fakta (personální změny, profily jmenovaných) jsou konkrétní a datovatelná. Anti-bias check: stejnou závažnost bych přiřadil politicky motivovaným čistkám a obsazování pozic influencery u jakékoli jiné strany.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-042",
+    "date": "2026-06-10",
+    "headline": "ČT a ČRo nedosáhnou na rozpočtovou pojistku nezávislosti, koalice návrh odmítla",
+    "summary": "Vedení České televize a Českého rozhlasu neuspělo s požadavkem na zavedení mechanismu, který by omezil politický vliv na jejich financování z veřejných prostředků. Vládní koalice návrh tzv. pojistky odmítla.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ředitelé ČT a rozhlasu s prázdnýma rukama. Nebudou poplatky ani záruky",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-nemaji-mit-vetsi-ochranu-nez-ostatni-klempir-odmita-pojistku-pro-ct-308176",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-10T07:47:41.987Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odmítnutí institucionálního ochranného mechanismu pro veřejnoprávní média ze strany vládní koalice je událost s precedentním charakterem, která oslabuje strukturální nezávislost ČT a ČRo (subkomponenta M2). Nejde zatím o přijetí zákona omezujícího nezávislost (to by bylo severity 4–5), ale o politické blokování posílení ochrany, což vytváří trvalejší zranitelnost. Rubric §3 přímo uvádí zákon o ČT/ČRo s návrhy měnícími politickou kontrolu v rané fázi jako příklad severity 3. Single-source — bez eskalace. Anti-bias: stejně bych hodnotil odmítnutí pojistky u jakékoli vládní sestavy.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-02T00:00:00.000Z"
   }
 ]
