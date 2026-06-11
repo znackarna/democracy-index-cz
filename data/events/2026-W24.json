@@ -55,10 +55,16 @@
         "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zasadni-zasah-otevira-se-cesta-k-odskodnemu-po-ockovani-308053",
         "outlet": "Seznam Zprávy",
         "fetched_at": "2026-06-09T07:32:35.182Z"
+      },
+      {
+        "title": "Czech Supreme Court Expands Compensation For Harm Caused By COVID Vaccination",
+        "url": "https://brnodaily.com/2026/06/08/news/czech-supreme-court-expands-compensation-for-harm-caused-by-covid-vaccination/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-06-11T08:00:39.006Z"
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 – rozsudek NS vytváří nový precedent v oblasti odškodňování (subkomponenta J4 – rovnost před zákonem a přístup k právní ochraně), ale jde o standardní soudcovské dotváření práva bez politického rozměru. Není zde zásah do nezávislosti soudnictví ani politický tlak; naopak soud aktivně rozšiřuje ochranu práv občanů. Direction +1 protože rozhodnutí posiluje přístup k soudní ochraně. Duration persistent, neboť precedent bude závazný pro budoucí případy.\n\n[merged with 2026-W24-007 — same incident, sources combined]\n\n[merged with 2026-W24-025 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 2 per rubric §2 – rozsudek NS vytváří nový precedent v oblasti odškodňování (subkomponenta J4 – rovnost před zákonem a přístup k právní ochraně), ale jde o standardní soudcovské dotváření práva bez politického rozměru. Není zde zásah do nezávislosti soudnictví ani politický tlak; naopak soud aktivně rozšiřuje ochranu práv občanů. Direction +1 protože rozhodnutí posiluje přístup k soudní ochraně. Duration persistent, neboť precedent bude závazný pro budoucí případy.\n\n[merged with 2026-W24-007 — same incident, sources combined]\n\n[merged with 2026-W24-025 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W24-057 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-06-08T08:05:26.115Z"
@@ -185,10 +191,16 @@
         "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-hradni-taktika-pavel-s-zalobou-pocita-na-vladu-si-jde-pripravit-pudu-307911",
         "outlet": "Seznam Zprávy",
         "fetched_at": "2026-06-08T08:05:32.430Z"
+      },
+      {
+        "title": "TMBK: Už se dohodli? Nekonečný příběh kolem Pavla a summitu",
+        "url": "https://www.seznamzpravy.cz/clanek/tmbk-tmbk-uz-se-dohodli-nekonecny-pribeh-kolem-pavla-a-summitu-308281",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-11T08:00:19.288Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — spor mezi prezidentem a vládou o sestavení delegace na summitu NATO se dotýká subkomponenty G1 (dělba moci, ústavní role prezidenta v zahraniční politice dle čl. 63 Ústavy). Odmítnutí vlády respektovat zahraniční politickou roli hlavy státu vytváří precedent pro ústavní střet, který může eskalovat k ústavní žalobě. Sekundárně E4 (respekt k institucionální posloupnosti). Zatím je událost ve fázi přetrvávajícího konfliktu, nikoli vyřešeného sporu — duration persistent.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — spor mezi prezidentem a vládou o sestavení delegace na summitu NATO se dotýká subkomponenty G1 (dělba moci, ústavní role prezidenta v zahraniční politice dle čl. 63 Ústavy). Odmítnutí vlády respektovat zahraniční politickou roli hlavy státu vytváří precedent pro ústavní střet, který může eskalovat k ústavní žalobě. Sekundárně E4 (respekt k institucionální posloupnosti). Zatím je událost ve fázi přetrvávajícího konfliktu, nikoli vyřešeného sporu — duration persistent.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W24-053 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-08T08:05:26.115Z"
@@ -632,7 +644,7 @@
     "headline": "Vládní poslanci navrhli oslabení zákona o střetu zájmů ve prospěch Agrofertu",
     "summary": "Poslanci ze tří koaličních stran předložili novelu zákona o střetu zájmů, která by Agrofertu umožnila čerpat nárokové dotace, zkrátila dobu zpětného vymáhání a zúžila omezení střetu zájmů pouze na daný rezort. Návrh byl podán bez veřejné diskuse a může přímo prospět premiéru Babišovi.",
     "pillar": "corruption",
-    "severity": 2,
+    "severity": 3,
     "direction": -1,
     "duration": "one_off",
     "sources": [
@@ -641,12 +653,24 @@
         "url": "https://denikn.cz/2089853/vladni-poslanci-chteji-zmenit-zakon-o-stretu-zajmu-mohli-by-tak-pomoci-babisovi/",
         "outlet": "Deník N",
         "fetched_at": "2026-06-10T07:47:37.967Z"
+      },
+      {
+        "title": "Babiš to má pošéfované z více stran, Agrofert by si mohl vzít zpět, říká expert k návrhu na omezení střetu zájmů",
+        "url": "https://denikn.cz/2090663/babis-to-ma-posefovane-z-vice-stran-agrofert-by-si-mohl-vzit-zpet-rika-expert-k-navrhu-na-omezeni-stretu-zajmu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-11T08:00:15.329Z"
+      },
+      {
+        "title": "Government MPs Seek To Water Down Laws Against Ministers Receiving Public Subsidies",
+        "url": "https://brnodaily.com/2026/06/10/news/politics/government-mps-seek-to-water-down-laws-against-ministers-receiving-public-subsidies/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-06-11T08:00:39.006Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 4 per rubric §4 — návrh novely, pokud bude přijat, by zásadně oslabil klíčový protikorupční mechanismus (zákon o střetu zájmů), přičemž sledovatelný prospěch pro konkrétního ústavního činitele (premiér Babiš / Agrofert) je explicitní (subkomponenta K1 — politická korupce, střet zájmů ústavních činitelů; K4 — oslabení protikorupčních mechanismů). Rubric §4: přímý dopad na fungování klíčové instituce, jasné překročení normy. V tuto chvíli jde o předložený návrh, nikoli schválený zákon — dle pravidel eskalace je návrh bez schválení typicky severity 4 (nikoliv 5). Sekundárně relevantní pro governance (G1 — obcházení standardního připomínkového řízení). Dvě nezávislé zprávy v ten samý den potvrzují fakta, což splňuje dvou-zdrojové kritérium pro severity 4.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "rationale": "Severity 4 per rubric §4 — návrh novely, pokud bude přijat, by zásadně oslabil klíčový protikorupční mechanismus (zákon o střetu zájmů), přičemž sledovatelný prospěch pro konkrétního ústavního činitele (premiér Babiš / Agrofert) je explicitní (subkomponenta K1 — politická korupce, střet zájmů ústavních činitelů; K4 — oslabení protikorupčních mechanismů). Rubric §4: přímý dopad na fungování klíčové instituce, jasné překročení normy. V tuto chvíli jde o předložený návrh, nikoli schválený zákon — dle pravidel eskalace je návrh bez schválení typicky severity 4 (nikoliv 5). Sekundárně relevantní pro governance (G1 — obcházení standardního připomínkového řízení). Dvě nezávislé zprávy v ten samý den potvrzují fakta, což splňuje dvou-zdrojové kritérium pro severity 4.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]\n\n[merged with 2026-W24-048 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-10T07:47:37.952Z",
     "expires_at": "2026-09-01T00:00:00.000Z"
   },
@@ -742,10 +766,16 @@
         "url": "https://www.seznamzpravy.cz/clanek/kampus-zakladni-vzdelavani-plaga-brzdi-anglictina-od-1-tridy-se-rusi-a-take-povinny-druhy-cizi-jazyk-308194",
         "outlet": "Seznam Zprávy",
         "fetched_at": "2026-06-10T07:47:41.987Z"
+      },
+      {
+        "title": "Education Minister Blocks Plans To Make English Compulsory In First Grade of Czech Schools",
+        "url": "https://brnodaily.com/2026/06/10/news/education-minister-blocks-plans-to-make-english-compulsory-in-first-grade-of-czech-schools/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-06-11T08:00:39.006Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 1 per rubric §1 — oznámení o revizi kurikulárního dokumentu je rutinní administrativní úkon ministra bez přímého dopadu na demokratické instituce, dělbu moci ani ústavní normy (subkomponenta G2). Jde o věcnou politiku vzdělávání mimo rámec demokratického backslidingu. Direction 0, protože není jasné, zda změna vzdělávací politiku posiluje nebo oslabuje. Událost je zaznamenána pro úplnost, ale na žádný z pilířů indexu nemá relevantní dopad.\n\n[merged with 2026-W24-041 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 1 per rubric §1 — oznámení o revizi kurikulárního dokumentu je rutinní administrativní úkon ministra bez přímého dopadu na demokratické instituce, dělbu moci ani ústavní normy (subkomponenta G2). Jde o věcnou politiku vzdělávání mimo rámec demokratického backslidingu. Direction 0, protože není jasné, zda změna vzdělávací politiku posiluje nebo oslabuje. Událost je zaznamenána pro úplnost, ale na žádný z pilířů indexu nemá relevantní dopad.\n\n[merged with 2026-W24-041 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W24-055 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-06-10T07:47:37.952Z",
@@ -875,6 +905,241 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-10T07:47:37.952Z",
+    "expires_at": "2026-09-02T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-043",
+    "date": "2026-06-11",
+    "headline": "Mostečtí žalobci tři roky sídlí v budově firmy podnikatele Tykače za státní peníze",
+    "summary": "Okresní státní zastupitelství v Mostu platí přes dva miliony korun ročně za pronájem prostor ve vlastnictví skupiny Pavla Tykače. Nájem trvá již třetí rok, přestože byl prezentován jako dočasné řešení. Situace vyvolává otázky o nestrannosti a institucionální nezávislosti státního zastupitelství.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Mostečtí žalobci sídlí v domě Tykačovy skupiny. Stát platí firmě přes dva miliony ročně",
+        "url": "https://denikn.cz/2090711/mostecti-zalobci-sidli-v-dome-tykacovy-skupiny-stat-plati-firme-pres-dva-miliony-rocne/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-11T08:00:15.329Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — dlouhodobé sídlení státního zastupitelství v objektu vlastněném soukromou podnikatelskou skupinou představuje strukturální střet zájmů ohrožující faktickou nezávislost státního zastupitelství (subkomponenta J3). Tříleté trvání tohoto stavu místo dočasného řešení posiluje závažnost. Sekundárně se dotýká K1 (střet zájmů ve státní správě). Single source (Deník N), proto severity neeskaluje; vzhledem k délce trvání klasifikuji jako persistent.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z"
+  },
+  {
+    "id": "2026-W24-044",
+    "date": "2026-06-10",
+    "headline": "Starosta Špindlerova Mlýna převedl dlužnou nemovitost na mediálního podnikatele, zbavil se tak závazku vůči Pentě",
+    "summary": "Starosta Martin Jandura se vzdal nemovitosti, která ho vázala jako dlužníka skupiny Penta, přičemž objekt má dle zjištění Deníku N přejít do vlastnictví prominentního mediálního podnikatele. Transakce zbavuje starostu finančního závazku vůči oligarchické skupině za dosud nezcela jasných okolností.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Starosta Špindlerova Mlýna se zbavil dluhu vůči Pentě. Pomohl mu miliardář",
+        "url": "https://denikn.cz/2090967/starosta-spindlerova-mlyna-se-zbavil-dluhu-vuci-pente-pomohl-mu-miliardar/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-11T08:00:15.329Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázová transakce na komunální úrovni (starosta střediskové obce), která naznačuje propojení politické funkce se soukromými finančními závazky vůči velké skupině (K1 střet zájmů) a neprůhledný charakter majetkového převodu. Dopad je lokální bez prokázaného systémového efektu. Single source, fakta nejsou dostatečně průkazná pro vyšší stupeň závažnosti.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z",
+    "expires_at": "2026-09-02T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-045",
+    "date": "2026-06-09",
+    "headline": "Zaměstnanci MŽP s vazbami na Motoristy pozvali do Prahy krajně pravicovou slovenskou influencerku s antisemitskými výroky",
+    "summary": "Noví pracovníci Ministerstva životního prostředí napojení na stranu Motoristé sobě uspořádali v Praze setkání s krajně pravicovou slovenskou influencerkou spojenou s hnutím Republika, jejíž představitelé v minulosti popírali holokaust. Influencerka na akci prosazovala antisemitské narativy. Událost dokládá pronikání extremistických vazeb do státní správy.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Noví pracovníci MŽP si pozvali slovenskou influencerku. „Problém je ideový sionismus,“ hlásala v Praze",
+        "url": "https://denikn.cz/2090868/novi-pracovnici-mzp-si-pozvali-slovenskou-influencerku-problem-je-ideovy-sionismus-hlasala-v-praze/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-11T08:00:15.329Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — akce pořádaná státními zaměstnanci (MŽP) s extremistickými zahraničními aktéry vytváří precedent pronikání krajně pravicových vazeb do státní správy (subkomponenta G1, G4 — transparentnost vládnutí a důvěryhodnost institucí). Sekundárně se dotýká C4 (ochrana menšin — antisemitismus). Událost má konkrétní institucionální rozměr díky přímému zapojení ministerských zaměstnanců, nikoli jen politiků mimo správu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-046",
+    "date": "2026-06-10",
+    "headline": "Eva Kostolanská se příští týden ujme funkce veřejné ochránkyně práv",
+    "summary": "Eva Kostolanská nastoupí jako nová veřejná ochránkyně práv (ombudsmanka), přičemž její profesní zázemí je primárně v daňové oblasti a na ombudsmanátu pracovala v posledních letech jen na omezeném úvazku. V rozhovoru deklaruje nezávislost na politické nominaci a záměr být v práci aktivnější než předchůdce Křeček.",
+    "pillar": "civil",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "V práci budu častěji než Křeček. Schillerové za funkci nevděčím, říká nová ombudsmanka",
+        "url": "https://denikn.cz/2090153/v-praci-budu-casteji-nez-krecek-schillerove-za-funkci-nevdecim-rika-nova-ombudsmanka/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-11T08:00:15.329Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní institucionální personální změnu bez průkazného negativního ani výrazně pozitivního dopadu na demokratické instituce. Kostolanská deklaruje nezávislost, ale faktický dopad jejího působení nelze hodnotit před nástupem do funkce. Subkomponenta C3/C4 (ochrana práv prostřednictvím ombudsmana) je dotčena, avšak samotný nástup nové ombudsmanky není institucionálním oslabením ani posílením — direction tedy 0. Směr nastaven na 0 jako ambivalentní personální změna bez jasného demokratického signálu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z",
+    "expires_at": "2026-09-02T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-047",
+    "date": "2026-06-10",
+    "headline": "Místostarosta Bohunic třikrát hlasoval pro dotaci vlastnímu spolku bez nahlášení podjatosti",
+    "summary": "Místostarosta brněnských Bohunic Milan Hrdlička opakovaně po tři roky hlasoval pro udělení dotace spolku, jehož je členem, aniž by deklaroval střet zájmů. Hájí se tvrzením, že si svou povinnost neuvědomil. Experty je zpochybňována i transparentnost samotného spolku.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Místostarosta opakovaně hlasoval pro dotaci vlastnímu spolku. „Neuvědomil jsem si to,“ kaje se",
+        "url": "https://denikn.cz/2090669/mistostarosta-opakovane-hlasoval-pro-dotaci-vlastnimu-spolku-neuvedomil-jsem-si-to-kaje-se/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-11T08:00:15.329Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní porušení normy (povinnost nahlásit podjatost) opakované třikrát, avšak na úrovni místní samosprávy bez kaskádového institucionálního efektu. Subkomponenta K1 (politická korupce, střet zájmů). Opakování tří hlasování je relevantní, ale aktér je na velmi nízké úrovni samosprávy, nikoli ústavní činitel, proto eskalace na 3 není opodstatněná. Anti-bias kontrola: stejně bych klasifikoval analogický případ u politika jiné strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z"
+  },
+  {
+    "id": "2026-W24-049",
+    "date": "2026-06-11",
+    "headline": "Koalice znovu projednává zákon o DSA, oponentem je i Společnost pro obranu svobody projevu",
+    "summary": "Koaliční poslanci ANO, SPD a Motoristů pracují na pozměňovacím návrhu k zákonu o digitální ekonomice (DSA), který by umožnil jeho přijetí. Zákon je kritizován jako potenciální nástroj internetové cenzury, zatímco zastánci zdůrazňují ochranu uživatelů a dětí. Dříve kvůli původnímu návrhu rezignovala poslankyně Šichtařová.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vrací se zákon, kvůli kterému odešla Šichtařová. Koalici s ním pomáhá Společnost pro obranu svobody projevu",
+        "url": "https://www.irozhlas.cz/zpravy-domov/vraci-se-zakon-kvuli-kteremu-odesla-sichtarova-koalici-s-nim-pomaha-spolecnost_2606110620_jgr",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-11T08:00:16.112Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o legislativní proces v rané fázi (pozměňovací návrh, nebylo schváleno), s potenciálním dopadem na subkomponentu C1 (svoboda projevu) a C5 (práva v digitálním prostoru). Zpráva popisuje stav projednávání, nikoli přijatý zákon, a odborná debata o dopadu zákona na svobodu projevu vs. ochranu uživatelů není uzavřena. Při schválení by mohla severity eskalovat. Anti-bias kontrola: hodnotím legislativní proces, nikoli politické pozice aktérů.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z",
+    "expires_at": "2026-09-03T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-050",
+    "date": "2026-06-11",
+    "headline": "Opozice svolává mimořádnou schůzi sněmovny ke střetu zájmů Babiše; koalice chystá rozvolnění zákona bez připomínkového řízení",
+    "summary": "Opoziční poslanci iniciovali mimořádnou schůzi sněmovny k tématu střetu zájmů premiéra Babiše a dotací skupině Agrofert. Koaliční poslanci zároveň předložili novelu rozvolňující zákon o střetu zájmů přímo jako poslanecký návrh, čímž obcházejí standardní připomínkové řízení. Opozice zvažuje napadení novely u Ústavního soudu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Sněmovna se mimořádně sejde kvůli otázce střetu zájmů Babiše",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/snemovna-se-mimoradne-sejde-kvuli-stretu-zajmu-babise-374440",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-11T08:00:16.543Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — jde o kombinaci dvou závažných jevů: (1) koalicí navrhovaná novela, která rozvolňuje zákon o střetu zájmů (subkomponenta K1), a (2) záměrné obcházení připomínkového řízení použitím poslanecké iniciativy (subkomponenta G2). Předložení poslaneckého návrhu specificky za účelem eliminace připomínkového řízení představuje formální dokument s přímým institucionálním dopadem, což dle rubric §4 eskaluje nad úroveň 3. Sekundárně zasahuje pilíř governance (G2 — obcházení standardního legislativního procesu). Anti-bias kontrola: stejný postup bych hodnotil identicky bez ohledu na politickou orientaci navrhovatelů.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z"
+  },
+  {
+    "id": "2026-W24-051",
+    "date": "2026-06-10",
+    "headline": "Vládní koalice plánuje zákon rušící televizní a rozhlasové poplatky; opozice varuje před politickou pákou na ČT a ČRo",
+    "summary": "Vládní koalice oznámila záměr předložit kabinetu zákon o zrušení televizních a rozhlasových poplatků. Předseda sněmovního mediálního výboru za opoziční KDU-ČSL vyjádřil obavy, že cílem je získat politický vliv nad veřejnoprávními médii prostřednictvím změny jejich financování. Koaliční představitelé záměr prezentují jako čistě ekonomické opatření.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Koalici jde jen o zrušení poplatků, říká Okamura. Podle Talíře chce vláda na ČT a ČRo páku",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/koalici-jde-jen-o-zruseni-poplatku-rika-okamura-podle-talire-chce-vlada-na-ct-a-cro-paku-374429",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-11T08:00:16.543Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zákon o zrušení koncesionářských poplatků je v rané fázi (předložen kabinetu, neschválen), nicméně zásah do financování ČT a ČRo se přímo dotýká subkomponenty M2 (nezávislost ČT a ČRo — financování koncesionářskými poplatky). Rubric §3 explicitně uvádí: 'Zákon o ČT/ČRo s návrhy, které mění politickou kontrolu nad volbou rad, ale je v rané fázi (předložen, neschválen).' Změna způsobu financování veřejnoprávních médií může vytvořit závislost na státním rozpočtu, což je klasický mechanismus politického tlaku (M2). Pouze jeden konkrétní zdroj, návrh zatím nebyl schválen — proto severity 3, nikoli 4. Duration persistent, protože jde o strukturální legislativní záměr.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z"
+  },
+  {
+    "id": "2026-W24-052",
+    "date": "2026-06-11",
+    "headline": "Hasiči nakupují tatry za miliardy – tendry ušité na míru Strnadově firmě, říká konkurence",
+    "summary": "Investigativní analýza ukazuje, že ve všech výběrových řízeních na nákladní vozy za poslední tři roky vyhrálo výhradně jen jedno vozidlo – Tatra patřící do skupiny nejbohatšího Čecha Michala Strnada. Konkurenční dodavatelé tvrdí, že podmínky tendrů jsou nastaveny tak, aby vyhověly pouze tatrovkám. Jde o potenciální zneužití veřejných zakázek v řádu miliard korun.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Hasiči kupují auta za miliardy. Ušité pro Strnadovy tatry, říká konkurence",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-hasici-kupuji-auta-za-miliardy-usite-pro-strnadovy-tatry-rika-konkurence-307830",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-11T08:00:19.288Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — opakované zakázky totožnému dodavateli spojenému s konkrétním oligarchou naznačují systémové nastavení podmínek ZZVZ (subkomponenta K2 — transparentnost veřejných zakázek). Vzorec tří po sobě jdoucích let splňuje eskalační kritérium patternu, avšak jde zatím pouze o investigativní zjištění bez formálního rozhodnutí (kontrolní orgán, soud, ÚOHS), takže severity zůstává na 3 nikoliv 4. Single investigative source; pokud ÚOHS nebo NKÚ zahájí šetření, eskalace na 4. Trvání je persistent, protože tendry nadále probíhají.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z"
+  },
+  {
+    "id": "2026-W24-054",
+    "date": "2026-06-10",
+    "headline": "ČT vymáhá sankce na Moravcovi za porušení konkurenční doložky, Moravec platnost doložky popírá",
+    "summary": "Vedení České televize oznámilo uplatnění sankcí vůči bývalému moderátorovi Václavu Moravcovi, který dle ČT porušil konkurenční doložku. Moravec naopak tvrdí, že doložka je neplatná a obviňuje ředitele Chudárka ze zavádění veřejnosti i Rady ČT. Spor naznačuje napětí uvnitř vedení veřejnoprávního média.",
+    "pillar": "media",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Chudárek: ČT uplatnila vůči Moravcovi sankce za porušení konkurenční doložky",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-chudarek-ct-uplatnila-vuci-moravcovi-sankce-za-poruseni-konkurencni-dolozky-308258",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-11T08:00:19.288Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o pracovněprávní spor mezi zaměstnavatelem a bývalým zaměstnancem, nikoli o politický tlak na editoriální obsah nebo nezávislost ČT (subkomponenta M2). Absence politického aktéra jako strany sporu a absence dopadu na programovou nebo personální politiku ČT z politických důvodů vylučuje vyšší severity. Direction 0 — institucionální dopad je ambivalentní (ČT uplatňuje smlouvu, Moravec ji zpochybňuje); výsledek závisí na soudu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-11T08:00:15.312Z",
     "expires_at": "2026-09-02T00:00:00.000Z"
   }
 ]
