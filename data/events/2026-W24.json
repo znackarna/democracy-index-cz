@@ -677,12 +677,24 @@
         "url": "https://www.transparency.cz/vladni-poslanci-chteji-pomoci-premieru-babisovi-novelou-zakona-o-stretu-zajmu-jedna-se-o-frontalni-utok-na-protikorupcni-legislativu/",
         "outlet": "Transparency International ČR",
         "fetched_at": "2026-06-12T07:56:13.871Z"
+      },
+      {
+        "title": "Upravujeme přímý střet zájmů. Nárokové dotace platila EU, ne poplatníci, tvrdí Pošarová z SPD",
+        "url": "https://www.irozhlas.cz/zpravy-domov/upravujeme-primy-stret-zajmu-narokove-dotace-platila-eu-ne-poplatnici-tvrdi_2606130010_epo",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-13T07:33:47.306Z"
+      },
+      {
+        "title": "&bdquo;Když není zákon, není problém!&ldquo; Poslanci koalice přičinlivě pečují o Babišův privátní byznys",
+        "url": "https://podcasty.hn.cz/c1-67890520-bdquo-kdyz-neni-zakon-neni-problem-ldquo-poslanci-koalice-pricinlive-pecuji-o-babisuv-privatni-byznys",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-13T07:33:48.988Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 4 per rubric §4 — návrh novely, pokud bude přijat, by zásadně oslabil klíčový protikorupční mechanismus (zákon o střetu zájmů), přičemž sledovatelný prospěch pro konkrétního ústavního činitele (premiér Babiš / Agrofert) je explicitní (subkomponenta K1 — politická korupce, střet zájmů ústavních činitelů; K4 — oslabení protikorupčních mechanismů). Rubric §4: přímý dopad na fungování klíčové instituce, jasné překročení normy. V tuto chvíli jde o předložený návrh, nikoli schválený zákon — dle pravidel eskalace je návrh bez schválení typicky severity 4 (nikoliv 5). Sekundárně relevantní pro governance (G1 — obcházení standardního připomínkového řízení). Dvě nezávislé zprávy v ten samý den potvrzují fakta, což splňuje dvou-zdrojové kritérium pro severity 4.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]\n\n[merged with 2026-W24-048 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W24-065 — same incident, sources combined]",
+    "rationale": "Severity 4 per rubric §4 — návrh novely, pokud bude přijat, by zásadně oslabil klíčový protikorupční mechanismus (zákon o střetu zájmů), přičemž sledovatelný prospěch pro konkrétního ústavního činitele (premiér Babiš / Agrofert) je explicitní (subkomponenta K1 — politická korupce, střet zájmů ústavních činitelů; K4 — oslabení protikorupčních mechanismů). Rubric §4: přímý dopad na fungování klíčové instituce, jasné překročení normy. V tuto chvíli jde o předložený návrh, nikoli schválený zákon — dle pravidel eskalace je návrh bez schválení typicky severity 4 (nikoliv 5). Sekundárně relevantní pro governance (G1 — obcházení standardního připomínkového řízení). Dvě nezávislé zprávy v ten samý den potvrzují fakta, což splňuje dvou-zdrojové kritérium pro severity 4.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]\n\n[merged with 2026-W24-048 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W24-065 — same incident, sources combined]\n\n[merged with 2026-W24-080 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W24-084 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "needs_review",
+    "status": "disputed",
     "created_at": "2026-06-10T07:47:37.952Z",
     "expires_at": "2026-09-01T00:00:00.000Z"
   },
@@ -1237,7 +1249,7 @@
     "headline": "Žena fyzicky napadla ministryni Mrázovou v Bílině, policie vyloučila politický motiv",
     "summary": "Čtyřiačtyřicetiletá žena slovně a fyzicky napadla ministryni pro místní rozvoj Zuzanu Mrázovou v Bílině. Policie případ prošetřuje a vyloučila politický motiv; ke zranění nedošlo.",
     "pillar": "civil",
-    "severity": 1,
+    "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
@@ -1246,12 +1258,18 @@
         "url": "https://www.irozhlas.cz/zpravy-domov/ministryni-mrazovou-v-biline-fyzicky-napadla-zena-uvadi-policie-ke-zraneni_2606120940_vdv",
         "outlet": "iROZHLAS",
         "fetched_at": "2026-06-12T07:56:00.349Z"
+      },
+      {
+        "title": "„Sprostě jí nadávala, strkala do ní.“ Policie řeší napadení ministryně Mrázové",
+        "url": "https://denikn.cz/2093397/sproste-ji-nadavala-a-strkala-do-ni-policie-resi-napadeni-ministryne-mrazove/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-13T07:33:46.003Z"
       }
     ],
     "score_impact": -0.2,
-    "rationale": "Severity 1 per rubric §1 — jde o ojedinělý fyzický incident bez politického motivu (potvrzeno policií) a bez institucionálního dopadu. Subkomponenta C2 (svoboda shromažďování a fyzická bezpečnost ve veřejném prostoru) je marginálně relevantní, ale policie vyloučila politický nebo systémový rozměr. Událost zaznamenána pro úplnost, ale nepředstavuje vzorec ani precedent ohrožující demokratické instituce.",
+    "rationale": "Severity 1 per rubric §1 — jde o ojedinělý fyzický incident bez politického motivu (potvrzeno policií) a bez institucionálního dopadu. Subkomponenta C2 (svoboda shromažďování a fyzická bezpečnost ve veřejném prostoru) je marginálně relevantní, ale policie vyloučila politický nebo systémový rozměr. Událost zaznamenána pro úplnost, ale nepředstavuje vzorec ani precedent ohrožující demokratické instituce.\n\n[merged with 2026-W24-077 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-12T07:55:59.542Z",
     "expires_at": "2026-08-30T00:00:00.000Z"
   },
@@ -1317,10 +1335,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/snemovna-jedna-o-novele-stavebniho-zakona-374459",
         "outlet": "ČT24",
         "fetched_at": "2026-06-12T07:56:00.518Z"
+      },
+      {
+        "title": "130 pozměňovacích návrhů. Novela stavebního zákona míří po čtvrtku ve Sněmovně ke schvalování",
+        "url": "https://domaci.hn.cz/c1-67890360-130-pozmenovacich-navrhu-novela-stavebniho-zakona-miri-po-ctvrtku-ve-snemovne-ke-schvalovani",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-13T07:33:48.988Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 1 per rubric §1 — jde o standardní fázi legislativního procesu (subkomponenta G2) bez zjevného obcházení procedur. Velký počet pozměňovacích návrhů (130) naznačuje aktivní parlamentní debatu, nikoli zkrácené řízení. Bez překročení ústavních či procedurálních hranic není důvod přiřadit vyšší závažnost. Direction 0, protože samotný postup do třetího čtení je neutrální procesní krok — vliv na demokracii závisí na obsahu novely, který článek podrobně nerozvádí.",
+    "rationale": "Severity 1 per rubric §1 — jde o standardní fázi legislativního procesu (subkomponenta G2) bez zjevného obcházení procedur. Velký počet pozměňovacích návrhů (130) naznačuje aktivní parlamentní debatu, nikoli zkrácené řízení. Bez překročení ústavních či procedurálních hranic není důvod přiřadit vyšší závažnost. Direction 0, protože samotný postup do třetího čtení je neutrální procesní krok — vliv na demokracii závisí na obsahu novely, který článek podrobně nerozvádí.\n\n[merged with 2026-W24-087 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-12T07:55:59.542Z",
@@ -1513,5 +1537,358 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-12T07:55:59.542Z"
+  },
+  {
+    "id": "2026-W24-073",
+    "date": "2026-06-12",
+    "headline": "Špičkový expert na klima odešel z MŽP v den nástupu Babišovy vlády",
+    "summary": "Vedoucí sekce ochrany klimatu na Ministerstvu životního prostředí Petr Holub podal výpověď v den, kdy nastoupila Babišova vláda, a to kvůli rušení agendy ze strany Motoristů. Odchod signalizuje odliv odborné kapacity státní správy v důsledku nové vládní politiky.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Špičkový expert dal výpověď hodinu před nástupem Babišovy vlády. Teď chce založit ministerstvo klimatu",
+        "url": "https://denikn.cz/2089400/spickovy-expert-dal-vypoved-hodinu-pred-nastupem-babisovy-vlady-ted-chce-zalozit-ministerstvo-klimatu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-13T07:33:46.003Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o personální zásah na střední úrovni státní správy (odchod ředitele sekce, nikoli ministra či náměstka) bez zřejmého kaskádového efektu na celou instituci. Subkomponenta G4 (transparentnost a kvalita vládnutí) je dotčena, neboť odchod odborníka v reakci na politicky motivované škrtání agend může oslabovat kapacitu ministerstva. Není doložen systematický vzorec dalších podobných odchodů v tomto týdnu, který by opravňoval eskalaci na 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z",
+    "expires_at": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-074",
+    "date": "2026-06-12",
+    "headline": "Zvolena nová ombudsmanka Eva Kostolanská — odborná veřejnost vyjadřuje skepsi",
+    "summary": "Eva Kostolanská, expertka z finanční správy, byla zvolena do funkce veřejné ochránkyně práv. Komentáře zpochybňují její nezávislost a odhodlání chránit zranitelné skupiny před vládními zásahy.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Máme novou ombudsmanku. Teď musí ukázat, kým vlastně je",
+        "url": "https://denikn.cz/2093474/mame-novou-ombudsmanku-ted-musi-dokazat-ze-neni-jen-figurkou/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-13T07:33:46.003Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — volba ombudsmana/ky je institucionální akt s trvalým dopadem (persistent), nicméně samotné pochybnosti o nezávislosti jsou zatím pouze preventivní. Subkomponenta C4 (ochrana menšin a zranitelných skupin) a G1 (dělba moci, nezávislé kontrolní instituce) jsou relevantní. Konkrétní pochybení dosud nenastalo — proto nelze jít výše než 2. Pokud první kroky ve funkci potvrdí politickou poplatnost, bude event revidován. Anti-bias check: stejnou severity bych přiřadil ombudsmanu jmenovanému opozičním blokem za podobných okolností.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z"
+  },
+  {
+    "id": "2026-W24-075",
+    "date": "2026-06-12",
+    "headline": "Lídryně Motoristů v Praze má vazbu na odvolání ředitele KRNAP ministrem své strany",
+    "summary": "Motoristé představili jako pražskou lídryni pro komunální volby Kláru Sovovou, majitelku Luční boudy, která vedla spory s vedením KRNAP. Ředitele parku mezitím odvolal ministr za Motoristy, což naznačuje propojení personálních rozhodnutí státní správy s politickými a soukromými zájmy.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Majitelka Luční boudy vede Motoristy do voleb v Praze. Měla spory s šéfem KRNAP, kterého odvolal Červený",
+        "url": "https://denikn.cz/2093404/majitelka-lucni-boudy-vede-motoristy-do-voleb-v-praze-mela-spory-s-sefem-krnap-ktereho-odvolal-cerveny/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-13T07:33:46.003Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — propojení personálního rozhodnutí ministra (odvolání ředitele KRNAP) s obchodními zájmy straníka, který je nyní kandidátem strany, je indicií střetu zájmů (subkomponenta K1). Událost však zatím nemá přímé důkazy o korupčním jednání — jde o kontext, nikoli prokázané zneužití pravomoci. Anti-bias check: stejnou závažnost bych přiřadil ministru z jiné strany spektra za srovnatelných okolností.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z",
+    "expires_at": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-076",
+    "date": "2026-06-12",
+    "headline": "Ve druhém výběrovém řízení na šéfa ČIŽP se opět objevil kandidát napojený na Motoristy",
+    "summary": "Ministerstvo životního prostředí zahájilo nové výběrové řízení na ředitele České inspekce životního prostředí poté, co první kolo zastavil Úřad vlády pro nezákonný průběh. Přesto se v novém finále opět ocitl kandidát spojovaný s Motoristy. Způsob, jakým se do finále dostal, není transparentně vysvětlen.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Mezi finalisty ve výběrovém řízení na šéfa inspekce životního prostředí je znovu muž Motoristů. Jak se tam dostal, není jasné",
+        "url": "https://denikn.cz/2093463/netransparentni-nepodlozeny-a-nezakonny-popisujeme-proc-urad-vlady-zastavil-vyber-sefa-inspekce-zivotniho-prostredi/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-13T07:33:46.003Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — opakování netransparentního personálního obsazování vedení regulatorní instituce (subkomponenta G4 — transparentnost vládnutí) po předchozím přerušení Úřadem vlády vytváří precedent pro politicky motivované obsazování klíčových správních pozic. První kolo bylo zastaveno jako nezákonné, přesto nové řízení opět míří ke stejnému výsledku — to naznačuje soustavné ignorování normy, nikoliv jednorázový incident. Sekundárně relevantní pro K1 (střet zájmů, politická korupce). Persistent, protože řízení stále probíhá a není uzavřeno.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z"
+  },
+  {
+    "id": "2026-W24-078",
+    "date": "2026-06-11",
+    "headline": "Šéf saské AfD Urban navštívil ruskou ambasádu v Praze po účasti na petrohradském fóru",
+    "summary": "Předseda saské AfD Jörg Urban se krátce po účasti na ekonomickém fóru v Petrohradu objevil na ruské ambasádě v Praze. Spojení návštěv na ruských akcích a diplomatické misi naznačuje možné kontakty mezi krajně pravicovým politikem a ruskými vládními strukturami v ČR.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Hvězda německé AfD se objevila na ruské ambasádě v Praze",
+        "url": "https://denikn.cz/2092589/hvezda-nemecke-afd-se-objevila-na-ruske-ambasade-v-praze/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-13T07:33:46.003Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — návštěva zahraničního politika napojených na Rusko na ruské ambasádě je zaznamenáníhodný incident v kontextu možného zahraničního vlivu (subkomponenta E3 — ochrana před zahraniční manipulací), ale neexistuje přímý důkaz o konkrétní operaci ovlivňování českého prostředí. Incident sám o sobě má omezený institucionální dopad na ČR. Severity by mohla eskalovat na 3 při dokladu konkrétní koordinace s českými aktéry, ale zatím na základě dostupného jediného zdroje zůstává na 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z",
+    "expires_at": "2026-09-03T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-079",
+    "date": "2026-06-13",
+    "headline": "Státní fond vymáhá dotace od 28 firem Agrofertu za roky 2017–2021",
+    "summary": "Osmadvacet dceřiných společností holdingu Agrofert, který dříve ovládal premiér Andrej Babiš, dostalo výzvu ke vrácení dotací čerpaných v období 2017–2021. Krok přichází v kontextu dlouhodobých sporů o střet zájmů Babiše a čerpání evropských fondů.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Týdeník iROZHLASu: fond vymáhá dotace po Agrofertu, skluz očkovací strategie a letouny NATO ve vzduchu",
+        "url": "https://www.irozhlas.cz/zpravy-domov/tydenik-irozhlasu-fond-vymaha-dotace-po-agrofertu-skluz-ockovaci-strategie-a_2606130800_hrk",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-13T07:33:47.306Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 3 per rubric §3 — vymáhání dotací od holdingu přímo spojeného s premiérem je signifikantní institucionální krok v oblasti K1 (politická korupce, střet zájmů ústavního činitele) a K2 (transparentnost veřejných zakázek a dotací). Směr +1, protože jde o aktivní vymáhání pravidel státní institucí, nikoliv o oslabení norem. Persistent, protože vymáhací řízení pokračuje. Sekundárně relevantní pro G1 (kontrola exekutivy).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z"
+  },
+  {
+    "id": "2026-W24-081",
+    "date": "2026-06-12",
+    "headline": "Inspekce MO zjistila pochybení na obou stranách sporu o nezveřejněný rozhovor armády s prezidentem",
+    "summary": "Interní inspekce ministerstva obrany prověřovala případ nezveřejněného rozhovoru s prezidentem Pavlem a shledala chyby u ředitele kabinetu ministra Zůny i u šéfa komunikace generálního štábu. Inspekce přitom nevyloučila ani nepotvrdila, zda šlo o záměrnou cenzuru ze strany ministerstva. Generální štáb se k výsledkům dosud nevyjádřil.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Inspekce našla chyby u obou stran sporu o rozhovor armády s prezidentem",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/inspekce-nasla-chyby-v-armadnim-sporu-o-rozhovor-s-prezidentem-374516",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-13T07:33:47.540Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázový incident s omezeným dopadem; inspekce sice potvrdila pochybení, ale nevyloučila ani nepotvrdila záměrnou politickou cenzuru (subkomponenta M3 — přístup novinářů/veřejnosti k informacím). Absence průkazného záměru brání eskalaci na 3. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí). Při prokázání záměrné politické cenzury by severity eskalovala na 3–4.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z",
+    "expires_at": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-082",
+    "date": "2026-06-12",
+    "headline": "Exnáměstek Unucka uzavřel dohodu o vině a trestu s EPPO v kauze manipulace zakázek",
+    "summary": "Bývalý náměstek hejtmana Moravskoslezského kraje Jakub Unucka a dalších devět obviněných uzavřeli s evropským veřejným žalobcem (EPPO) dohody o vině a trestu v kauze podezřelé manipulace veřejných zakázek na úklid silnic a marketingové služby. Jde o signifikantní posun v kauze s mezinárodním rozměrem.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Exnáměstek Unucka uzavřel dohodu se žalobcem v kauze manipulace zakázek",
+        "url": "https://ct24.ceskatelevize.cz/clanek/regiony/moravskoslezsky-kraj/exnamestek-moravskoslezskeho-hejtmana-uzavrel-dohodu-se-zalobcem-v-kauze-manipulace-zakazek-374514",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-13T07:33:47.540Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — uzavření dohody o vině a trestu v kauze manipulace veřejných zakázek (subkomponenta K2) představuje konkrétní institucionální výsledek v korupčním řízení s politickým přesahem (náměstek hejtmana). Směr -1, protože samotná kauza prokazuje systémové porušení pravidel zadávání zakázek, byť dohoda se žalobcem je procesním posunem vpřed. Není to severity 4, protože nejde o ústavního činitele ani o prokázané schéma na celostátní úrovni. Sekundárně subkomponenta K1 (politická korupce).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z",
+    "expires_at": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-083",
+    "date": "2026-06-12",
+    "headline": "Schillerová plánuje financovat Dukovany mimo státní rozpočet, experti varují před neprůhledností",
+    "summary": "Ministryně financí Alena Schillerová zamýšlí přesunout stovky miliard korun na dostavbu Dukovan mimo státní rozpočet využitím mechanismu analogického obecním financím. Odborníci upozorňují, že tento postup by snížil parlamentní kontrolu nad výdaji a omezil transparentnost veřejných financí.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Stovky miliard pro Dukovany mimo rozpočet. Schillerová využije obecní &bdquo;fígl&ldquo;, experti varují před neprůhledností",
+        "url": "https://domaci.hn.cz/c1-67890660-stovky-miliard-pro-dukovany-mimo-rozpocet-schillerova-vyuzije-obecni-bdquo-figl-ldquo-experti-varuji-pred-nepruhlednosti",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-13T07:33:48.988Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — záměr financovat stovky miliard mimo státní rozpočet (subkomponenta G4: transparentnost vládnutí) by strukturálně omezil parlamentní dohled nad zásadními veřejnými výdaji, čímž se vytváří precedent pro obcházení rozpočtového procesu. Zatím jde o záměr, nikoli schválené opatření, proto ne severity 4. Persistent, protože jde o strukturální nastavení, které by přetrvalo. Sekundárně subkomponenta K2 (transparentnost veřejných zakázek/výdajů). Anti-bias: stejnou závažnost bych přiřadil bez ohledu na to, která vládní koalice záměr připravuje.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z"
+  },
+  {
+    "id": "2026-W24-085",
+    "date": "2026-06-12",
+    "headline": "Babišova vláda plánuje zrušit nominační zákon omezující politické trafiky ve státních firmách",
+    "summary": "Vládní koalice vedená ANO připravuje zrušení tzv. nominačního zákona, který v roce 2019 prosadila sama strana ANO s cílem omezit politické obsazování míst ve státních podnicích. Zákon podle odborníků fungoval a přispíval k transparentnímu výběru. Zrušení by otevřelo cestu k návratu politických nominací do vedení státních firem.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Obrat politiků ANO. Už neplatí &bdquo;Zrušte trafiky, volte profíky&ldquo;?",
+        "url": "https://archiv.hn.cz/c1-67890290-obrat-politiku-ano-uz-neplati-bdquo-zruste-trafiky-volte-profiky-ldquo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-13T07:33:48.988Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — záměr zrušit funkční protikorupční normu má přímý dopad na transparentnost obsazování vedení státních podniků (subkomponenta K2: veřejné zakázky a transparentnost, K1: zneužívání pravomoci pro osobní/stranické účely). Rubric §4 uvádí jako příklad 'oslabení pravomocí NKÚ (severity 4–5)' — zrušení nominačního zákona je strukturálně analogické oslabení protikorupčního mechanismu. Eskalační pravidlo: jde o formálně deklarovaný záměr vlády, nikoli jen verbální výrok, proto severity 4 (nikoli 3). Sekundárně zasahuje governance (G2: kvalita legislativy, G3: stabilita norem). Persistent, neboť legislativní proces bude pokračovat.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z"
+  },
+  {
+    "id": "2026-W24-086",
+    "date": "2026-06-12",
+    "headline": "Guvernér ČNB naznačil možné zvýšení sazeb, přestože premiér Babiš na něj vyvíjel tlak",
+    "summary": "Guvernér ČNB Aleš Michl v rozhovoru pro Bloomberg naznačil, že centrální banka může v červnu zvýšit úrokové sazby kvůli inflačním tlakům. Informace přichází v kontextu, kdy premiér Babiš nedávno veřejně kritizoval Michla za měnovou politiku, což vyvolává otázky o nezávislosti ČNB na politickém tlaku exekutivy.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Bloomberg: ČNB by podle guvernéra mohla už tento měsíc zvýšit úroky",
+        "url": "https://byznys.hn.cz/c1-67890450-bloomberg-cnb-by-podle-guvernera-mohla-uz-tento-mesic-zvysit-uroky",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-13T07:33:48.988Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — premiérova veřejná kritika guvernéra ČNB je kontroverzní a stojí za zaznamenáním (subkomponenta G1: dělba moci, respekt k nezávislým institucím), ale samotný rozhovor guvernéra, v němž naznačuje standardní měnově-politické rozhodnutí, nepředstavuje institucionální porušení. Nezávislost ČNB zatím není prokazatelně narušena — Michl jedná dle svého mandátu. Direction 0: situace je ambivalentní; na jedné straně politický tlak premiéra (negativní), na druhé straně guvernér zjevně odolává a jedná nezávisle (pozitivní). Pokud by premiérův tlak eskaloval nebo ČNB změnila kurz pod politickým nátlakem, severity by stoupla na 4–5 dle rubric §5 (oslabení nezávislosti ČNB). Sekundárně relevantní pro pilíř governance G1.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z",
+    "expires_at": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-088",
+    "date": "2026-06-11",
+    "headline": "Česko začíná plnit migrační pakt EU navzdory předvolebnímu slibu ho odmítnout",
+    "summary": "Česká vláda premiéra Babiše přistupuje k plnění migrační paktu EU, přestože vládní koalice před volbami slibovala jeho odmítnutí. Podle HN byl Babiš výsledky společné unijní migrační politiky sám překvapen. Jde o příklad napětí mezi předvolební rétorikou a reálnou exekutivní praxí, nikoli však o porušení ústavního nebo právního rámce.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Největší přitvrzení v historii. Začíná platit migrační pakt a Česko ho nadšeně plní, byť ho vláda slíbila odmítnout",
+        "url": "https://archiv.hn.cz/c1-67890070-nejvetsi-pritvrzeni-v-historii-zacina-platit-migracni-pakt-a-cesko-ho-nadsene-plni-byt-ho-vlada-slibila-odmitnout",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-13T07:33:48.988Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — vláda přistupuje k implementaci politiky v přímém rozporu s explicitním předvolebním slibem, což je zaznamenáníhodná odchylka od deklarované politické linie (subkomponenta G4, transparentnost vládnutí a výkaznost). Nejde však o porušení ústavní normy ani o institucionální selhání — plnění unijního paktu je právní závazek. Direction -1, protože rozpor mezi sliby a praxí oslabuje důvěryhodnost demokratického mandátu; duration persistent, neboť implementace paktu bude pokračovat. Anti-bias check: stejnou severity bych přiřadil jakékoli vládě bez ohledu na politickou orientaci.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z"
+  },
+  {
+    "id": "2026-W24-089",
+    "date": "2026-06-13",
+    "headline": "Hejtman Kubis (ANO) zamlčel členství v KSČ a příslušnost k Pohotovostnímu pluku VB",
+    "summary": "Archivní dokumenty odhalily, že karlovarský hejtman Petr Kubis byl členem KSČ a příslušníkem Pohotovostního pluku VB, přičemž tuto kapitolu své minulosti dosud nezmiňoval. Kubis existenci těchto vazeb potvrdil, ale odmítl ji označit za záměrné zamlčení.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Takových jako já byly tisíce.“ Členství v KSČ zamlčel i karlovarský hejtman",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-takovych-jako-ja-byly-tisice-clenstvi-v-ksc-zamlcel-i-karlovarsky-hejtman-308103",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-13T07:33:51.129Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o otázku transparentnosti a odpovědnosti veřejného činitele (subkomponenta K1, střet hodnot a věrohodnosti) bez přímého dopadu na fungování instituce. Zamlčení politicky citlivé minulosti u regionálního politika je relevantní z hlediska veřejné odpovědnosti, ale nejde o závažné korupční schéma ani zneužití pravomoci, spíše o reputační incident lokálního dosahu. Anti-bias check: stejnou závažnost bych přiřadil i politikovi jiné strany v totožné situaci.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z",
+    "expires_at": "2026-09-05T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-090",
+    "date": "2026-06-12",
+    "headline": "Ústavní soud sjednotil judikaturu k napadání rozhodnutí dozorového státního zástupce",
+    "summary": "Ústavní soud plénem sjednotil dosud nejednotnou judikaturu ohledně podmínek přístupu obviněného k ústavní stížnosti při zahájení trestního stíhání. Nově platí, že obviněný může přímo napadnout rozhodnutí dozorového státního zástupce o stížnosti bez nutnosti podat podnět k výkonu dohledu, přičemž tato dvouměsíční lhůta plyne bez ohledu na takový podnět. Rozhodnutí přispívá k předvídatelnosti a konzistenci procesního práva.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Před Ústavním soudem je nutné napadat přímo rozhodnutí dozorového státního zástupce o stížnosti proti zahájení trestního stíhání, aniž by byl dán podnět k výkonu dohledu",
+        "url": "https://www.usoud.cz/aktualne/pred-ustavnim-soudem-je-nutne-napadat-primo-rozhodnuti-dozoroveho-statniho-zastupce-o-stiznosti-proti-zahajeni-trestniho-stihani-aniz-by-byl-dan-podnet-k-vykonu-dohledu",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-13T07:34:01.914Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — sjednocení judikatury je konkrétním, datovatelným rozhodnutím s dopadem na chod soudnictví (subkomponenta J4 — rovnost a předvídatelnost před zákonem), ale bez přímého systémového dopadu na institucionální nezávislost. Směr +1: zvýšení konzistence a předvídatelnosti procesního práva posiluje právní stát. Duration persistent: právní názor bude publikován a stane se závazným precedentem.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z"
+  },
+  {
+    "id": "2026-W24-091",
+    "date": "2026-06-12",
+    "headline": "Transparency International upozorňuje na nestandardní jmenování a zatajování dokumentů na zlínské KHS",
+    "summary": "Transparency International ČR zveřejnila zprávu o pochybném jmenování Michala Možíška do vedoucí funkce na Krajské hygienické stanici Zlínského kraje. Organizace zpochybňuje doloženou praxi kandidáta a poukazuje na to, že úřad se pokusil klíčové dokumenty k výběrovému řízení zatajit.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nestandardní personální kroky na zlínské hygieně. Pochybnosti budí postup úřadu i zatajování dokumentů",
+        "url": "https://www.transparency.cz/nestandardni-personalni-kroky-na-zlinske-hygiene-pochybnosti-budi-postup-uradu-i-zatajovani-dokumentu/",
+        "outlet": "Transparency International ČR",
+        "fetched_at": "2026-06-13T07:34:04.019Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní pochybný personální zásah na střední úrovni státní správy (subkomponenta K1 a K2) bez zřejmého kaskádového efektu na celou instituci. Zatajování dokumentů naznačuje záměrné zakrývání, což zvyšuje závažnost oproti rutinní chybě, ale dopad zůstává lokální (jeden úřad, jedna osoba). Jediný zdroj (TI ČR), event se tedy nepovyšuje na 3. Sekundárně se dotýká pilíře governance (G4 — transparentnost veřejné správy, přístup k informacím dle zákona 106/1999).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z",
+    "expires_at": "2026-09-04T00:00:00.000Z"
   }
 ]

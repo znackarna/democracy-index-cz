@@ -1068,7 +1068,7 @@
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 1 per rubric §1 — jde o standardní rozhodnutí ÚS v individuální kauze korporátního práva bez dopadu na fungování soudnictví jako instituce ani na demokratické pilíře. Subkomponenta J4 (rovnost před zákonem) je zachována — soud aplikoval zákon konzistentně. Žádný indikátor politického tlaku, precedentního zásahu do nezávislosti justice ani strukturálního posunu. Direction 0, protože se jedná o rutinní výkon soudní moci bez jednoznačně pozitivního nebo negativního institucionálního signálu.\n\n[merged with 2026-W18-080 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-080 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 1 per rubric §1 — jde o standardní rozhodnutí ÚS v individuální kauze korporátního práva bez dopadu na fungování soudnictví jako instituce ani na demokratické pilíře. Subkomponenta J4 (rovnost před zákonem) je zachována — soud aplikoval zákon konzistentně. Žádný indikátor politického tlaku, precedentního zásahu do nezávislosti justice ani strukturálního posunu. Direction 0, protože se jedná o rutinní výkon soudní moci bez jednoznačně pozitivního nebo negativního institucionálního signálu.\n\n[merged with 2026-W18-080 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-080 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-083 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-04-30T07:20:46.380Z",
@@ -1784,9 +1784,9 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález posiluje standardy ochrany práv oběti v trestním řízení (subkomponenta J4, rovnost a ochrana zranitelných osob před zákonem). Směr +1, protože ÚS korigoval pochybení nižších soudů a vytvořil precedent ve prospěch ochrany práv. Nedosahuje severity 3, protože jde o individuální případ bez širšího systémového dopadu na fungování institucí; nejde o politicky motivované selhání ani o ohrožení nezávislosti justice.",
+    "rationale": "Severity 2 per rubric §2 — nález posiluje standardy ochrany práv oběti v trestním řízení (subkomponenta J4, rovnost a ochrana zranitelných osob před zákonem). Směr +1, protože ÚS korigoval pochybení nižších soudů a vytvořil precedent ve prospěch ochrany práv. Nedosahuje severity 3, protože jde o individuální případ bez širšího systémového dopadu na fungování institucí; nejde o politicky motivované selhání ani o ohrožení nezávislosti justice.\n\n[merged with 2026-W18-081 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-05-31T07:33:41.535Z",
     "expires_at": "2026-07-22T00:00:00.000Z"
   },
@@ -1812,6 +1812,30 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-05T07:47:09.023Z",
+    "expires_at": "2026-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W18-082",
+    "date": "2026-04-29",
+    "headline": "ÚS zrušil rozhodnutí odvolacího soudu pro opomenutí klíčového důkazu v trestní věci",
+    "summary": "Ústavní soud konstatoval porušení procesních práv obviněného, jehož věc posuzovaly trestní soudy bez řádného provedení kamerového záznamu coby klíčového důkazu. ÚS zároveň poukázal na nejednotnost judikatury Nejvyššího soudu ohledně způsobu provádění a protokolování video důkazů.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Sporný prodej automobilu vyústil v potyčku, při jejímž posouzení trestní soudy porušily procesní práva obviněného stěžovatele",
+        "url": "https://www.usoud.cz/aktualne/sporny-prodej-automobilu-vyustil-v-potycku-pri-jejimz-posouzeni-trestni-soudy-porusily-procesni-prava-obvineneho-stezovatele",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-13T07:34:01.914Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — nález upozorňuje na konkrétní procesní pochybení odvolacího soudu i NS a na nejednotnou judikaturu (subkomponenta J2 — nezávislost a kvalita obecných soudů; J4 — rovnost a spravedlivý proces), avšak jde o opravu jednotlivého případu, nikoli o strukturální změnu nebo precedent ohrožující instituci. Nejednotnost judikatury NS je varujícím signálem, ale bez dalšího vzorce nepřekračuje úroveň 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-13T07:33:45.987Z",
     "expires_at": "2026-07-22T00:00:00.000Z"
   }
 ]
