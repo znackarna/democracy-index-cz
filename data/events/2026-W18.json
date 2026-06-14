@@ -1068,7 +1068,7 @@
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 1 per rubric §1 — jde o standardní rozhodnutí ÚS v individuální kauze korporátního práva bez dopadu na fungování soudnictví jako instituce ani na demokratické pilíře. Subkomponenta J4 (rovnost před zákonem) je zachována — soud aplikoval zákon konzistentně. Žádný indikátor politického tlaku, precedentního zásahu do nezávislosti justice ani strukturálního posunu. Direction 0, protože se jedná o rutinní výkon soudní moci bez jednoznačně pozitivního nebo negativního institucionálního signálu.\n\n[merged with 2026-W18-080 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-080 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-083 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 1 per rubric §1 — jde o standardní rozhodnutí ÚS v individuální kauze korporátního práva bez dopadu na fungování soudnictví jako instituce ani na demokratické pilíře. Subkomponenta J4 (rovnost před zákonem) je zachována — soud aplikoval zákon konzistentně. Žádný indikátor politického tlaku, precedentního zásahu do nezávislosti justice ani strukturálního posunu. Direction 0, protože se jedná o rutinní výkon soudní moci bez jednoznačně pozitivního nebo negativního institucionálního signálu.\n\n[merged with 2026-W18-080 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-080 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-083 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-085 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-04-30T07:20:46.380Z",
@@ -1616,7 +1616,7 @@
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS konstatuje pochybení obecných soudů v konkrétní trestní věci (subkomponenta J2: nezávislost a řádné fungování obecných soudů, procesní práva). Dopad je omezen na individuální kauzu bez systémového precedentu, avšak upozornění na nejednotnost judikatury NS přidává institucionální rozměr. Nesplňuje práh severity 3, protože nejde o politicky motivovaný tlak ani o strukturální ohrožení instituce — jde o standardní korekci pochybení v rámci ústavní stížnosti.\n\n[merged with 2026-W18-079 — same incident, sources combined]\n\n[merged with 2026-W18-079 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-082 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS konstatuje pochybení obecných soudů v konkrétní trestní věci (subkomponenta J2: nezávislost a řádné fungování obecných soudů, procesní práva). Dopad je omezen na individuální kauzu bez systémového precedentu, avšak upozornění na nejednotnost judikatury NS přidává institucionální rozměr. Nesplňuje práh severity 3, protože nejde o politicky motivovaný tlak ani o strukturální ohrožení instituce — jde o standardní korekci pochybení v rámci ústavní stížnosti.\n\n[merged with 2026-W18-079 — same incident, sources combined]\n\n[merged with 2026-W18-079 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-082 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-084 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-05-03T07:04:57.169Z",
@@ -1760,7 +1760,7 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS, který koriguje pochybení obecných soudů v konkrétní kauze a upřesňuje výklad práv oběti (subkomponenta J4 — rovnost před zákonem a ochrana práv v soudním řízení). Dopad je pozitivní (direction +1): ÚS plní svou korektivní roli vůči obecným soudům. Jedná se o jednotlivý případ bez systémového precedentu přesahujícího konkrétní kauzu, proto severity 2, nikoli 3.\n\n[merged with 2026-W18-078 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-079 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-081 — same incident, sources combined]",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS, který koriguje pochybení obecných soudů v konkrétní kauze a upřesňuje výklad práv oběti (subkomponenta J4 — rovnost před zákonem a ochrana práv v soudním řízení). Dopad je pozitivní (direction +1): ÚS plní svou korektivní roli vůči obecným soudům. Jedná se o jednotlivý případ bez systémového precedentu přesahujícího konkrétní kauzu, proto severity 2, nikoli 3.\n\n[merged with 2026-W18-078 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-079 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-081 — same incident, sources combined]\n\n[merged with 2026-W18-083 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-05-07T07:17:07.431Z",

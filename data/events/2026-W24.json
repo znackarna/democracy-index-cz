@@ -1094,10 +1094,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/hoste-udalosti-komentaru-probrali-novelu-o-stretu-zajmu-374492",
         "outlet": "ČT24",
         "fetched_at": "2026-06-12T07:56:00.518Z"
+      },
+      {
+        "title": "Pointa N: Dnešek stvrdil, že Motoristé jsou pro Babiše požehnáním",
+        "url": "https://denikn.cz/2092266/pointa-n-dnesek-stvrdil-ze-motoriste-jsou-pro-babise-pozehnanim/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-14T07:51:56.560Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 4 per rubric §4 — jde o kombinaci dvou závažných jevů: (1) koalicí navrhovaná novela, která rozvolňuje zákon o střetu zájmů (subkomponenta K1), a (2) záměrné obcházení připomínkového řízení použitím poslanecké iniciativy (subkomponenta G2). Předložení poslaneckého návrhu specificky za účelem eliminace připomínkového řízení představuje formální dokument s přímým institucionálním dopadem, což dle rubric §4 eskaluje nad úroveň 3. Sekundárně zasahuje pilíř governance (G2 — obcházení standardního legislativního procesu). Anti-bias kontrola: stejný postup bych hodnotil identicky bez ohledu na politickou orientaci navrhovatelů.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]\n\n[merged with 2026-W24-060 — same incident, sources combined]",
+    "rationale": "Severity 4 per rubric §4 — jde o kombinaci dvou závažných jevů: (1) koalicí navrhovaná novela, která rozvolňuje zákon o střetu zájmů (subkomponenta K1), a (2) záměrné obcházení připomínkového řízení použitím poslanecké iniciativy (subkomponenta G2). Předložení poslaneckého návrhu specificky za účelem eliminace připomínkového řízení představuje formální dokument s přímým institucionálním dopadem, což dle rubric §4 eskaluje nad úroveň 3. Sekundárně zasahuje pilíř governance (G2 — obcházení standardního legislativního procesu). Anti-bias kontrola: stejný postup bych hodnotil identicky bez ohledu na politickou orientaci navrhovatelů.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]\n\n[merged with 2026-W24-060 — same incident, sources combined]\n\n[merged with 2026-W24-093 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-11T08:00:15.312Z"
@@ -1890,5 +1896,100 @@
     "status": "active",
     "created_at": "2026-06-13T07:33:45.987Z",
     "expires_at": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-092",
+    "date": "2026-06-12",
+    "headline": "Vstoupil v platnost nový migrační pakt EU s dopady na azylová řízení",
+    "summary": "Od 12. června 2026 platí nové azylové předpisy EU připravované více než deset let. Kritici varují před možným porušováním práv žadatelů o mezinárodní ochranu, řada členských států včetně ČR přitom zaostává v implementaci.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Rychlejší i tvrdší. V EU ode dneška platí nový migrační pakt. Toto jsou jeho pravidla",
+        "url": "https://denikn.cz/2093382/rychlejsi-i-tvrdsi-v-eu-ode-dneska-plati-novy-migracni-pakt-toto-jsou-jeho-pravidla/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-14T07:51:56.560Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — vstup v platnost legislativního rámce EU s potenciálním dopadem na práva žadatelů o azyl (subkomponenta C4 — ochrana menšin a migrantů). Dopad na ČR je zatím nepřímý skrze zpoždění implementace, nikoli přímý institucionální zásah; proto ne severity 3. Persistent, protože se jedná o účinný právní rámec trvající do odvolání. Sekundárně se dotýká pilíře governance (G2 — implementace legislativy).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-14T07:51:56.546Z"
+  },
+  {
+    "id": "2026-W24-094",
+    "date": "2026-06-12",
+    "headline": "Motoristé představili lídry do komunálních voleb, kandidátka spojená s kauzou KRNAP",
+    "summary": "Strana Motoristé představila své lídry do komunálních voleb ve třech velkých městech včetně Prahy. Pražskou lídryní se stala majitelka Luční boudy, která měla podle informací médií vliv na odvolání ředitele Krkonošského národního parku.",
+    "pillar": "electoral",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "&bdquo;Silnější a drzejší&ldquo; Motoristé do boje o Prahu vysílají majitelku Luční boudy. Ta měla vliv na vyhazov šéfa KRNAP",
+        "url": "https://domaci.hn.cz/c1-67890560-bdquo-silnejsi-a-drzejsi-ldquo-motoriste-do-boje-o-prahu-vysilaji-majitelku-lucni-boudy-ta-mela-vliv-na-vyhazov-sefa-krnap",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-14T07:51:59.900Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní stranické představení kandidátů do komunálních voleb, nikoli o narušení volebního procesu ani pluralismu (subkomponenta E1/E2). Zmínka o možném vlivu kandidátky na personální rozhodnutí ve státní správě (KRNAP) je novinářský kontext, ale bez prokázaného institucionálního dopadu v rámci volebního procesu. Bez eskalace — jedná se o jednu zprávu, chybí potvrzení ze tří zdrojů pro vyšší severity. Směr 0 — běžná volební kandidatura sama o sobě není negativní ani pozitivní pro demokratický proces, přičemž korupční pozadí kandidátky je zatím neprokázané.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-14T07:51:56.546Z",
+    "expires_at": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-095",
+    "date": "2026-06-12",
+    "headline": "Systém jednotného hlášení chybně vyzval tisíce firem bez zaměstnanců k podání výkazů",
+    "summary": "Tisíce firem, které žádné zaměstnance nemají nebo je již odhlásily, obdržely výzvy k podání hlášení o svých pracovnících prostřednictvím datových schránek. Jde o další administrativní selhání nového systému jednotného hlášení.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Další lapsus kolem jednotného hlášení: firmy bez zaměstnanců dostaly výzvy, ať pošlou hlášení o svých pracovnících",
+        "url": "https://domaci.hn.cz/c1-67890280-dalsi-lapsus-kolem-jednotneho-hlaseni-firmy-bez-zamestnancu-dostaly-vyzvy-at-poslou-hlaseni-o-svych-pracovnicich",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-14T07:51:59.900Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — drobná administrativní chyba státního systému bez precedentního ani institucionálního dopadu na dělbu moci či kvalitu legislativy (subkomponenta G2/G4). Chyba je technické povahy a nevypovídá o záměrném zneužití pravomoci. Nepřesahuje úroveň rutinního pochybení v implementaci, které samo o sobě neohrožuje žádnou demokratickou instituci. Směr -1 jako mírné signální selhání transparentnosti a výkaznosti státní správy (G4).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-14T07:51:56.546Z",
+    "expires_at": "2026-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W24-096",
+    "date": "2026-06-11",
+    "headline": "Vláda navrhuje změnu systému přidělování asistentů pedagoga ve školách",
+    "summary": "Vládní novela zákona navrhuje oddělit asistenty pedagoga od konkrétních žáků a vázat je na školy jako celek, přičemž jejich rozmísťování by řídil algoritmický systém. Jde o výraznou změnu přístupu ke speciálnímu vzdělávání.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vláda chce přepsat pravidla pro asistenty učitelů: Už nebudou vázaní na žáky, ale na školy. Do nich je rozřadí &bdquo;automat&ldquo;",
+        "url": "https://archiv.hn.cz/c1-67890270-vlada-chce-prepsat-pravidla-pro-asistenty-ucitelu-uz-nebudou-vazani-na-zaky-ale-na-skoly-do-nich-je-rozradi-bdquo-automat-ldquo",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-14T07:51:59.900Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — legislativní návrh v běžné agendě veřejných služeb (vzdělávání), který prošel standardním procesem přípravy novely. Nejde o zkrácené čtení ani obcházení připomínkového řízení (subkomponenta G2). Věcný dopad na demokratické instituce je zanedbatelný — jde o sektorovou politiku, nikoli o ústavní normy nebo dělbu moci. Bez eskalace; směr 0 — reforma může mít pozitivní i negativní dopady na žáky, ale institucionální směr není jednoznačně demokraticky relevantní.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-14T07:51:56.546Z",
+    "expires_at": "2026-09-03T00:00:00.000Z"
   }
 ]
