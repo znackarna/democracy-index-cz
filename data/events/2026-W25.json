@@ -1,0 +1,126 @@
+[
+  {
+    "id": "2026-W25-001",
+    "date": "2026-06-15",
+    "headline": "Šéfka Úřadu vlády si udržuje levný městský byt přesto, že bydlí v Babišově objektu",
+    "summary": "Tünde Bartha, vedoucí Úřadu vlády a blízká spolupracovnice premiéra Babiše, dlouhodobě bydlí v Průhonicích v objektu patřícím Babišovi, přesto si ponechává levný obecní byt, za nějž platí méně než osoby v bytové nouzi. Jde o potenciální střet zájmů u vrcholné úřednice přímo napojené na premiéra.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Šéfka Úřadu vlády bydlí u Babiše, přesto si drží levný městský byt. Platí méně než lidé v nouzi",
+        "url": "https://denikn.cz/2091979/sefka-uradu-vlady-bydli-u-babise-presto-si-drzi-levny-mestsky-byt-plati-mene-nez-lide-v-nouzi/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-15T08:27:04.339Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — vedoucí Úřadu vlády jako vrcholná manažerka spadá pod subkomponentu K1 (politická korupce, střet zájmů ústavních/vládních činitelů). Udržování dotovaného obecního bydlení za situace, kdy fakticky bydlí v soukromém objektu premiéra, vytváří případ střetu zájmů a zneužití veřejných zdrojů. Situace trvá dlouhodobě (persistent). Jediný zdroj (Deník N), takže dle source-count pravidla zachovávám severity 3, nikoli eskalaci. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí, výkaznost vedení státní správy).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-15T08:27:04.325Z"
+  },
+  {
+    "id": "2026-W25-002",
+    "date": "2026-06-15",
+    "headline": "Vláda má projednat zrušení koncesionářských poplatků a posílit kontrolu ČT a ČRo ze strany NKÚ",
+    "summary": "Kabinet Andreje Babiše má projednat návrh na zrušení televizních a rozhlasových poplatků a nahrazení přímým financováním z státního rozpočtu, čímž by se veřejnoprávní média stala závislá na každoroční vůli vládní majority. Součástí balíčku je i zákon umožňující NKÚ prověřovat hospodaření ČT a ČRo, doprovázející senátní ústavní novelu.",
+    "pillar": "media",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vláda bude jednat o návrhu na zrušení televizních a rozhlasových poplatků",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-bude-jednat-o-zruseni-televiznich-a-rozhlasovych-poplatku-374579",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-15T08:27:05.902Z"
+      },
+      {
+        "title": "Vláda projedná zrušení televizních a rozhlasových poplatků. Ve hře je i kontrola NKÚ",
+        "url": "https://zpravy.aktualne.cz/domaci/vlada-projedna-zruseni-televiznich-a-rozhlasovych-poplatku-ve-hre-je-i-kontrola-nku/r~aaa291797538513da88a3b5b4cbce4a1/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-15T08:27:08.592Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 4 per rubric §4 — přechod financování ČT a ČRo ze zákonem garantovaných poplatků na přímou státní dotaci ze státního rozpočtu představuje přímý zásah do finanční nezávislosti veřejnoprávních médií (subkomponenta M2). Závislost na každoroční vládní vůli je systémovým nástrojem politického tlaku srovnatelným s příklady na úrovni 4 ('změna zákona o ČT/ČRo s návrhy, které mění politickou kontrolu'). Návrh je ve fázi projednávání vládou — zatím neschválen, dle eskalačního pravidla (formální dokument existuje, ale účinnost nenastala) ponechávám severity 4. Přidání kontroly NKÚ může být samo o sobě legitimní opatření transparentnosti, ale v kombinaci se změnou financování posiluje celkový dopad na nezávislost. Sekundárně se dotýká pilíře governance (G1 — dělba moci, kontrola veřejných institucí parlamentem).\n\n[merged with 2026-W25-004 — same incident, sources combined]\n\n[severity capped from 4 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-15T08:27:04.325Z"
+  },
+  {
+    "id": "2026-W25-003",
+    "date": "2026-06-15",
+    "headline": "Zákon o ekonomické ochraně státu hrozí oslabením advokátní mlčenlivosti",
+    "summary": "Připravovaný zákon o ekonomické ochraně státu by mohl omezit rozsah advokátní mlčenlivosti, která je základní zárukou práva na spravedlivý proces a ochrany klienta před státem. Komentář v HN upozorňuje, že navrhovaná úprava ohrožuje princip, podle nějž stát nesmí zasahovat do komunikace mezi klientem a jeho obhájcem.",
+    "pillar": "judicial",
+    "severity": null,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Stát nesmí sedět mezi klientem a jeho advokátem. Nový zákon o ekonomické ochraně státu může oslabit mlčenlivost advokátů",
+        "url": "https://archiv.hn.cz/c1-67889390-stat-nesmi-sedet-mezi-klientem-a-jeho-advokatem-novy-zakon-o-ekonomicke-ochrane-statu-muze-oslabit-mlcenlivost-advokatu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-15T08:27:07.452Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Potenciálně severity 3–4 (subkomponenta J2/J4 — rovnost před zákonem a ochrana práv v řízení; sekundárně C5 — práva v digitálním/právním prostoru), avšak článek je komentářem/analýzou, nikoli zprávou o schválené normě. Není jasné, v jaké fázi legislativního procesu se zákon nachází, ani jaký je přesný rozsah navrhovaného omezení mlčenlivosti. Dle pravidla 'pouze jeden zdroj a potenciálně závažnost 3+' nastavuji severity: null pro lidský review. Pokud zákon skutečně obsahuje přímé omezení advokátní mlčenlivosti a postoupí do dalšího čtení, závažnost by měla být 4.",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2026-06-15T08:27:04.325Z",
+    "expires_at": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-005",
+    "date": "2026-06-15",
+    "headline": "Skupina senátorů navrhuje novelu vyžadující soudní rozhodnutí pro změnu pohlaví",
+    "summary": "Senátoři z ODS, TOP 09 a KDU-ČSL předložili novelu zákona, která by podmínila změnu pohlaví soudním rozhodnutím. Projednávání je naplánováno na tuto středu; navrhovatelé odmítli konzultaci s odborníky z oblasti medicíny a práv menšin.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "O změně pohlaví by rozhodoval soud. Senátoři předkládají transfobní novelu, debatu s odborníky odmítli",
+        "url": "https://denikalarm.cz/2026/06/o-zmene-pohlavi-by-rozhodoval-soud-senatori-predkladaji-transfobni-novelu-debatu-s-odborniky-odmitli/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-06-15T08:27:09.850Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh vytváří nová procesní omezení pro trans osoby (subkomponenta C4 — ochrana menšin před diskriminací a státním nezájmem) a je předložen bez standardního odborného připomínkového řízení. Zatím jde o návrh ve fázi senátního projednávání, nikoli platný zákon, proto ne severity 4. Odmítnutí debaty s odborníky signalizuje ignorování věcných argumentů, avšak procesní selhání v rané fázi legislativy naznačuje severity 3 (precedent + dopad na menšinu). Sekundárně se dotýká pilíře governance (G2 — kvalita legislativy, absence připomínkového řízení).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-15T08:27:04.325Z",
+    "expires_at": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-006",
+    "date": "2026-06-15",
+    "headline": "Čínská rozvědka se pokusila infiltrovat českou neziskovku Evropské hodnoty přes falešnou novinářku",
+    "summary": "Čínští zpravodajci využili kradené identity novinářky AP k pokusu o vniknutí do systémů organizace Evropské hodnoty. NÚKIB incident využil k odhalení širší čínské operace zaměřené proti Tchaj-wanu a jeho spojencům, včetně českých subjektů.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Operace falešná novinářka: Čínská rozvědka připravila past na českou neziskovku",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-operace-falesna-novinarka-cinska-rozvedka-pripravila-past-na-ceskou-neziskovku-308428",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-15T08:27:10.250Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zahraniční zpravodajská operace cílená na českou občanskou společnost (subkomponenta C3: svoboda sdružování a ochrana NGO před šikanou) a digitální bezpečnost (C5: práva v digitálním prostoru). Operace vytváří precedent aktivního čínského zpravodajského působení proti českým neziskovkám. Fakt, že NÚKIB operaci rozkryl a zveřejnil, představuje institucionální reakci, která mírně snižuje trvalost dopadu; jednorázová odhalená operace, nikoli trvalá kompromitace. Single-source pravidlo ponecháno — závažnost 3 odpovídá rozsahu operace a institucionálnímu dopadu na prostředí pro občanskou společnost.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-15T08:27:04.325Z",
+    "expires_at": "2026-09-07T00:00:00.000Z"
+  }
+]

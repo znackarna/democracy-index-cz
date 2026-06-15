@@ -841,7 +841,7 @@
     "headline": "Ústavní soud rozhodl o standardech předběžných opatření v případech domácího násilí",
     "summary": "Ústavní soud vydal nález v případu stěžovatelky, která po fyzickém konfliktu s exmanželem žádala o předběžné opatření u Okresního soudu v Mělníku. Případ se týká ochrany před domácím násilím v kontextu střídavé péče o tři nezletilé děti. Nález upřesňuje standardy, podle nichž soudy rozhodují o předběžných opatřeních v těchto věcech.",
     "pillar": "judicial",
-    "severity": 1,
+    "severity": 2,
     "direction": 1,
     "duration": "one_off",
     "sources": [
@@ -853,9 +853,9 @@
       }
     ],
     "score_impact": 0.2,
-    "rationale": "Severity 1 per rubric §1 — jde o standardní nálezovou činnost ÚS v individuální věci bez systémového dopadu na nezávislost justice či institucionální uspořádání (subkomponenta J1, J4). Nález upřesňuje aplikaci existujícího práva a posiluje ochranu osob ohrožených domácím násilím (směr +1: posiluje rovnost před zákonem dle J4). Nejedná se o strukturální ani precedentní změnu institucionálního prostředí; nejde o politicky motivované rozhodnutí ani zásah do nezávislosti soudů.",
+    "rationale": "Severity 1 per rubric §1 — jde o standardní nálezovou činnost ÚS v individuální věci bez systémového dopadu na nezávislost justice či institucionální uspořádání (subkomponenta J1, J4). Nález upřesňuje aplikaci existujícího práva a posiluje ochranu osob ohrožených domácím násilím (směr +1: posiluje rovnost před zákonem dle J4). Nejedná se o strukturální ani precedentní změnu institucionálního prostředí; nejde o politicky motivované rozhodnutí ani zásah do nezávislosti soudů.\n\n[merged with 2026-W21-084 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-05-20T07:31:26.234Z",
     "expires_at": "2026-08-11T00:00:00.000Z"
   },
@@ -1244,7 +1244,7 @@
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — jde o reportáž dokumentující soustavné ignorování bezpečnostních doporučení ze strany státních institucí (subkomponenta G4 — transparentnost a odpovědné vládnutí). Záměrné nakupování rizikových zařízení navzdory odborným varováním u citlivých lokalit vytváří systémový bezpečnostní precedent. Událost je persistent, protože nákupy pokračují strukturálně, nikoli jednorázově. Sekundárně se dotýká pilíře civil (C5 — bezpečnost digitálního prostoru a ochrana před sledováním). Single source (investigace.cz), což by mohlo vést k downgradu na severity 2, ale rozsah (armádní sklady, kritická infrastruktura) udržuje hodnocení na 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — jde o reportáž dokumentující soustavné ignorování bezpečnostních doporučení ze strany státních institucí (subkomponenta G4 — transparentnost a odpovědné vládnutí). Záměrné nakupování rizikových zařízení navzdory odborným varováním u citlivých lokalit vytváří systémový bezpečnostní precedent. Událost je persistent, protože nákupy pokračují strukturálně, nikoli jednorázově. Sekundárně se dotýká pilíře civil (C5 — bezpečnost digitálního prostoru a ochrana před sledováním). Single source (investigace.cz), což by mohlo vést k downgradu na severity 2, ale rozsah (armádní sklady, kritická infrastruktura) udržuje hodnocení na 3.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W21-083 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-23T07:10:01.530Z"
