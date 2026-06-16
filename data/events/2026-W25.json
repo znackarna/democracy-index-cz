@@ -43,12 +43,18 @@
         "url": "https://zpravy.aktualne.cz/domaci/vlada-projedna-zruseni-televiznich-a-rozhlasovych-poplatku-ve-hre-je-i-kontrola-nku/r~aaa291797538513da88a3b5b4cbce4a1/",
         "outlet": "Aktuálně.cz",
         "fetched_at": "2026-06-15T08:27:08.592Z"
+      },
+      {
+        "title": "Pokles o více než miliardu. Vláda ruší poplatky, ČT a ČRo avizují propuštění stovek lidí i omezení výroby",
+        "url": "https://denikn.cz/2095679/omezeni-vyroby-i-propusteni-ct-a-cro-maji-prijit-o-15-procent-rozpoctu-reditele-popsali-dopady/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-16T08:18:22.833Z"
       }
     ],
     "score_impact": -1.5,
-    "rationale": "Severity 4 per rubric §4 — přechod financování ČT a ČRo ze zákonem garantovaných poplatků na přímou státní dotaci ze státního rozpočtu představuje přímý zásah do finanční nezávislosti veřejnoprávních médií (subkomponenta M2). Závislost na každoroční vládní vůli je systémovým nástrojem politického tlaku srovnatelným s příklady na úrovni 4 ('změna zákona o ČT/ČRo s návrhy, které mění politickou kontrolu'). Návrh je ve fázi projednávání vládou — zatím neschválen, dle eskalačního pravidla (formální dokument existuje, ale účinnost nenastala) ponechávám severity 4. Přidání kontroly NKÚ může být samo o sobě legitimní opatření transparentnosti, ale v kombinaci se změnou financování posiluje celkový dopad na nezávislost. Sekundárně se dotýká pilíře governance (G1 — dělba moci, kontrola veřejných institucí parlamentem).\n\n[merged with 2026-W25-004 — same incident, sources combined]\n\n[severity capped from 4 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 4]",
+    "rationale": "Severity 4 per rubric §4 — přechod financování ČT a ČRo ze zákonem garantovaných poplatků na přímou státní dotaci ze státního rozpočtu představuje přímý zásah do finanční nezávislosti veřejnoprávních médií (subkomponenta M2). Závislost na každoroční vládní vůli je systémovým nástrojem politického tlaku srovnatelným s příklady na úrovni 4 ('změna zákona o ČT/ČRo s návrhy, které mění politickou kontrolu'). Návrh je ve fázi projednávání vládou — zatím neschválen, dle eskalačního pravidla (formální dokument existuje, ale účinnost nenastala) ponechávám severity 4. Přidání kontroly NKÚ může být samo o sobě legitimní opatření transparentnosti, ale v kombinaci se změnou financování posiluje celkový dopad na nezávislost. Sekundárně se dotýká pilíře governance (G1 — dělba moci, kontrola veřejných institucí parlamentem).\n\n[merged with 2026-W25-004 — same incident, sources combined]\n\n[severity capped from 4 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 4]\n\n[merged with 2026-W25-007 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-15T08:27:04.325Z"
   },
   {
@@ -122,5 +128,237 @@
     "status": "active",
     "created_at": "2026-06-15T08:27:04.325Z",
     "expires_at": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-008",
+    "date": "2026-06-15",
+    "headline": "Praha 3 prověřuje možný neoprávněný podnájem městského bytu šéfky Úřadu vlády Barthou",
+    "summary": "Městská část Praha 3 prověřuje, zda šéfka Úřadu vlády Tünde Bartha neoprávněně podnajímá městský byt, v němž je její rodina evidována. V bytě však fakticky bydlí dvě slovenské studentky, což by mohlo být v rozporu s nájemní smlouvou.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Praha 3 prověřuje, zda Tünde Bartha nepodnajímá městský byt načerno",
+        "url": "https://denikn.cz/2095497/praha-3-proveruje-zda-tunde-bartha-nepodnajima-mestsky-byt-nacerno/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-16T08:18:22.833Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní podezření z porušení pravidel u vysoké úřednice (šéfka Úřadu vlády), které je teprve ve fázi prověřování bez prokázaného pochybení (subkomponenta K1). Událost zaslouží zaznamenání, ale dosavadní informace pochází z jednoho zdroje a případ není prokázán. Dle pravidla 'single source + potenciální severity 3+' by bylo možné null, avšak zde jde o lokálně omezený případ bez zjevného systémového rozměru, proto severity 2. Pokud bude porušení prokázáno, eskalace na 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-16T08:18:22.818Z",
+    "expires_at": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-009",
+    "date": "2026-06-16",
+    "headline": "Skupina vládních poslanců navrhuje změnit zákon o střetu zájmů ve prospěch Babiše",
+    "summary": "Skupina poslanců vládní koalice předložila návrh novely zákona o střetu zájmů, která by podle komentáře iROZHLAS zjevně vyhovovala podnikatelským zájmům Andreje Babiše. Komentář hodnotí krok jako příklad přizpůsobování pravidel ve prospěch držitelů moci.",
+    "pillar": "corruption",
+    "severity": null,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "‚Pohlídáme Babiše!‘ Vlastně ne, pohlídáme Babišovi byznys!",
+        "url": "https://www.irozhlas.cz/komentare/pohlidame-babise-vlastne-ne-pohlidame-babisovi-byznys_2606160629_kvr",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-16T08:18:23.616Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Potenciálně severity 4 (subkomponenta K1 — střet zájmů ústavních činitelů, přizpůsobení legislativy konkrétní osobě), ale zdrojem je komentář/opinion piece jediného média bez odkazu na konkrétní sněmovní tisk, datum podání ani jména navrhovatelů. Pravidlo single-source u potenciálně závažné události (3+) a nejistota o faktech (jde o komentář, nikoli zpravodajství) vyžadují severity: null + needs_review. Sekundárně dotýká pilíře governance (G1 — dělba moci, G2 — kvalita legislativy).",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2026-06-16T08:18:22.818Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-010",
+    "date": "2026-06-16",
+    "headline": "Státní zástupkyně se odvolala proti zproštění Feriho obžaloby z dalšího znásilnění",
+    "summary": "Státní zástupkyně podala odvolání proti rozhodnutí Obvodního soudu pro Prahu 3, který v květnu zprostil exposlance Dominika Feriho obžaloby z dalšího sexuálního útoku. Odvolací senát případ nově přezkoumá.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Poslední případ z Feriho kauzy ještě jednou přezkoumá soud. Státní zástupkyně se odvolala",
+        "url": "https://www.irozhlas.cz/zpravy-domov/posledni-pripad-z-feriho-kauzy-jeste-jednou-prezkouma-soud-statni-zastupkyne-se_2606160620_pik",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-16T08:18:23.616Z"
+      },
+      {
+        "title": "Zprošťující rozsudek z Feriho kauzy přezkoumá odvolací soud, píše iRozhlas",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/zprostujici-rozsudek-z-feriho-kauzy-prezkouma-odvolaci-soud-pise-irozhlas-374618",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-16T08:18:23.741Z"
+      },
+      {
+        "title": "Zprošťující rozsudek z Feriho kauzy přezkoumá odvolací soud",
+        "url": "https://domaci.hn.cz/c1-67891990-zprostujici-rozsudek-z-feriho-kauzy-prezkouma-odvolaci-soud",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-16T08:18:24.545Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní procesní úkon (odvolání státní zástupkyně) v souladu s trestním řádem, bez jakéhokoli náznaku politického tlaku nebo ohrožení institucionální nezávislosti. Subkomponenta J3 (nezávislost státního zastupitelství) není zasažena negativně — státní zástupkyně využívá řádný opravný prostředek. Direction 0, protože jde o neutrální procesní postup bez jednoznačného dopadu na demokratický stav; samotná existence funkčního odvolacího mechanismu je pozitivní, ale tento konkrétní úkon ji nijak zásadně neposiluje ani neoslabuje.\n\n[merged with 2026-W25-011 — same incident, sources combined]\n\n[merged with 2026-W25-014 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-16T08:18:22.818Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-012",
+    "date": "2026-06-15",
+    "headline": "Vláda představila návrh změny financování ČT a ČRo; ředitelé médií ho odmítají",
+    "summary": "Vláda 15. června 2026 zveřejnila návrh na změnu financování veřejnoprávních médií, který by nahradil stávající koncesionářské poplatky. Ředitelé České televize a Českého rozhlasu návrh označili za nepřijatelný a avizovali odpor; šéfka poslaneckého klubu ANO naopak ujišťuje, že financování bude zajištěno ze státního rozpočtu. Změna financování z poplatků na státní rozpočet představuje potenciální hrozbu pro redakční nezávislost veřejnoprávních médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Musíme bojovat proti tomuto návrhu.“ Ředitelé ČT a ČRo chtějí zachovat poplatky",
+        "url": "https://ct24.ceskatelevize.cz/clanek/media/musime-bojovat-proti-tomuto-navrhu-reditele-ct-a-cro-chteji-zachovat-poplatky-374602",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-16T08:18:23.741Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — návrh vlády na přechod od nezávislých koncesionářských poplatků k financování ze státního rozpočtu má přímý dopad na institucionální nezávislost ČT a ČRo (subkomponenta M2). Závislost na každoročním rozhodnutí vlády o výši příspěvku ve státním rozpočtu vytváří strukturální páku politické kontroly nad veřejnoprávními médii, srovnatelnou s příkladem uvedeným v rubric §4: „Akvizice významného média osobou s aktivní politickou rolí.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-16T08:18:22.818Z"
+  },
+  {
+    "id": "2026-W25-013",
+    "date": "2026-06-15",
+    "headline": "Kauza manipulace s přidělováním bytů v Brně-střed míří k soudu, obžalován i bývalý politik ODS",
+    "summary": "Státní zástupkyně podala obžalobu na čtyři osoby včetně bývalého předsedy bytové komise Brno-střed Otakara Bradáče (ODS) v kauze údajného zmanipulování přidělování městských bytů. U dalších čtyř osob podala návrh na dohodu o vině a trestu. Případ míří ke Krajskému soudu v Brně.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kauza údajné manipulace při přidělování bytů v části Brno-střed míří k soudu",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/kauza-udajne-manipulace-pri-pridelovani-bytu-v-casti-brno-stred-miri-k-soudu-374591",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-16T08:18:23.741Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní porušení normy s omezeným dopadem; jde o lokální korupci na úrovni obecní politiky (subkomponenta K1 — zneužití veřejné funkce pro osobní prospěch). Skutek se týká komunální politiky bez ústavního přesahu, bez systémového dopadu na protikorupční instituce. Posun do soudní fáze je relevantní jako záznam, ale nestanovuje precedent na úrovni severity 3. Sekundárně se dotýká pilíře judicial (J4 — rovnost před zákonem), zmíněno pro kontext.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-16T08:18:22.818Z",
+    "expires_at": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-015",
+    "date": "2026-06-15",
+    "headline": "Vláda schválila nahrazení poplatků ČT a ČRo příspěvkem ze státního rozpočtu s nižším financováním",
+    "summary": "Vláda schválila návrh zákona, který nahrazuje koncesionářské poplatky přímým příspěvkem ze státního rozpočtu. Česká televize by měla dostat o miliardu korun méně než dosud, Český rozhlas o 400 milionů méně. Šéfové obou institucí avizují propouštění až 700 zaměstnanců.",
+    "pillar": "media",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vláda schválila zrušení poplatků pro ČT a ČRo. Propustíme až 700 lidí, říkají šéfové obou institucí",
+        "url": "https://archiv.hn.cz/c1-67891610-vlada-schvalila-zruseni-poplatku-pro-ceskou-televizi-a-cesky-rozhlas-z-rozpoctu-jim-da-o-1-4-miliardy-mene",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-16T08:18:24.545Z"
+      },
+      {
+        "title": "Senioři ušetří, zaplatí to hlavně pracující, říká o konci poplatků Stuchlíková",
+        "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-5-59-babis-pritvrzuje-scenar-zestatneni-verejnopravnich-poplatku-se-naplnuje-308566",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-16T08:18:26.465Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 5 per rubric §5 — schválení zákona, který zásadně mění financování veřejnoprávních médií ze zákonem garantovaných poplatků na přímou závislost na státním rozpočtu, odpovídá příkladu „schválená novela zákona o ČT/ČRo\n\n[merged with 2026-W25-019 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 5 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 5]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-16T08:18:22.818Z"
+  },
+  {
+    "id": "2026-W25-016",
+    "date": "2026-06-09",
+    "headline": "Policie obvinila přes třicet osob z dotačního podvodu, zajistila majetek",
+    "summary": "Policie obvinila více než třicet manažerů firem ze spáchání podvodu s evropskými dotacemi na školení zaměstnanců, která se v řadě případů vůbec neuskutečnila. V rámci akce byl zajištěn movitý majetek obviněných včetně zlatých předmětů.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Policie obvinila přes třicet lidí z podvodu s dotacemi. Zajistila jim zlato",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-policie-obvinila-pres-tricet-lidi-z-podvodu-s-dotacemi-zajistila-jim-zlato-308628",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-16T08:18:26.465Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — rozsáhlá kauza dotačního podvodu s více než třiceti obviněnými představuje závažné zneužití veřejných prostředků (subkomponenta K2 — transparentnost a integrita čerpání veřejných, resp. evropských fondů). Není prokázána přímá politická návaznost, jde o komerční aktéry; pokud by se prokázala vazba na politické struktury, eskalace na severity 4. Jediný zdroj — dle source-count pravidla ponechána severity 3, event je fakticky doložený policejním úkonem.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-16T08:18:22.818Z",
+    "expires_at": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-017",
+    "date": "2026-06-16",
+    "headline": "Odvolací soud přezkoumá zprošťující rozsudek v kauze Dominika Feriho",
+    "summary": "Státní zástupkyně podala odvolání proti zprošťujícímu rozsudku soudu první instance v kauze exposlance Dominika Feriho, který byl obžalován ze sexuálního deliktu. Odvolací soud se případem bude nově zabývat.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zprošťující rozsudek z Feriho kauzy přezkoumá odvolací soud",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-zprostujici-rozsudek-z-feriho-kauzy-prezkouma-odvolaci-soud-308621",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-16T08:18:26.465Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní procesní krok v trestním řízení (odvolání státní zástupkyně); soudy fungují dle očekávání, nikoli mimo normální provoz. Událost nemá dopad na institucionální nezávislost soudnictví ani na subkomponenty J1–J4. Direction 0 — odvolání je standardní zákonný prostředek, dopad na demokratické instituce je neutrální. Zmínka o veřejně známé osobě zvyšuje mediální pozornost, nikoli institucionální závažnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-16T08:18:22.818Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-018",
+    "date": "2026-06-16",
+    "headline": "Podílový fond propojený s Pitrem a Janouška půjčil 62 milionů svému vlastnímu správci",
+    "summary": "Podílový fond s vazbami na Tomáše Pitra a Romana Janouška poskytl půjčku bezmála 62 milionů korun investiční společnosti Avant, která zároveň fondu sloužila jako správce a sama posuzovala, zda daná transakce představuje střet zájmů. Kauza naznačuje závažné selhání mechanismů ochrany před střetem zájmů v regulovaném finančním sektoru.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Fond z okruhu Pitra a Janouška půjčil správci, který ho měl hlídat",
+        "url": "https://www.seznamzpravy.cz/clanek/ekonomika-finance-akcie-fondy-fond-z-okruhu-pitra-a-janouska-pujcil-spravci-ktery-ho-mel-hlidat-308584",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-16T08:18:26.465Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní případ střetu zájmů v regulovaném finančním prostředí (subkomponenta K1 — střet zájmů). Jde o soukromé aktéry bez přímé aktuální vazby na ústavní činitele; Janoušek je znám z minulých kauz, ale přímá vazba na výkon veřejné moci v tomto případě není článkem doložena. Dopad je omezený na konkrétní fond a jeho investory, nikoli na veřejné instituce. Jediný zdroj.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-16T08:18:22.818Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
   }
 ]

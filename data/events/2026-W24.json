@@ -1968,7 +1968,7 @@
     "headline": "Systém jednotného hlášení chybně vyzval tisíce firem bez zaměstnanců k podání výkazů",
     "summary": "Tisíce firem, které žádné zaměstnance nemají nebo je již odhlásily, obdržely výzvy k podání hlášení o svých pracovnících prostřednictvím datových schránek. Jde o další administrativní selhání nového systému jednotného hlášení.",
     "pillar": "governance",
-    "severity": 1,
+    "severity": 2,
     "direction": -1,
     "duration": "one_off",
     "sources": [
@@ -1977,12 +1977,18 @@
         "url": "https://domaci.hn.cz/c1-67890280-dalsi-lapsus-kolem-jednotneho-hlaseni-firmy-bez-zamestnancu-dostaly-vyzvy-at-poslou-hlaseni-o-svych-pracovnicich",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-06-14T07:51:59.900Z"
+      },
+      {
+        "title": "Další lapsus kolem jednotného hlášení: firmy bez zaměstnanců dostaly výzvy, ať pošlou hlášení o svých pracovnících",
+        "url": "https://archiv.hn.cz/c1-67890280-dalsi-lapsus-kolem-jednotneho-hlaseni-firmy-bez-zamestnancu-dostaly-vyzvy-at-poslou-hlaseni-o-svych-pracovnicich",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-16T08:18:24.545Z"
       }
     ],
     "score_impact": -0.2,
-    "rationale": "Severity 1 per rubric §1 — drobná administrativní chyba státního systému bez precedentního ani institucionálního dopadu na dělbu moci či kvalitu legislativy (subkomponenta G2/G4). Chyba je technické povahy a nevypovídá o záměrném zneužití pravomoci. Nepřesahuje úroveň rutinního pochybení v implementaci, které samo o sobě neohrožuje žádnou demokratickou instituci. Směr -1 jako mírné signální selhání transparentnosti a výkaznosti státní správy (G4).",
+    "rationale": "Severity 1 per rubric §1 — drobná administrativní chyba státního systému bez precedentního ani institucionálního dopadu na dělbu moci či kvalitu legislativy (subkomponenta G2/G4). Chyba je technické povahy a nevypovídá o záměrném zneužití pravomoci. Nepřesahuje úroveň rutinního pochybení v implementaci, které samo o sobě neohrožuje žádnou demokratickou instituci. Směr -1 jako mírné signální selhání transparentnosti a výkaznosti státní správy (G4).\n\n[merged with 2026-W24-101 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-14T07:51:56.546Z",
     "expires_at": "2026-09-04T00:00:00.000Z"
   },
