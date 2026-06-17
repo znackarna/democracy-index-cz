@@ -360,5 +360,433 @@
     "status": "active",
     "created_at": "2026-06-16T08:18:22.818Z",
     "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-019",
+    "date": "2026-06-16",
+    "headline": "Senát projednává opoziční návrh zpřísňující podmínky pro změnu pohlaví, trans komunita protestuje",
+    "summary": "Senát projednával opoziční novelu, která by podmínila tranzici soudním rozhodnutím a omezila přístup trans lidí na veřejné toalety. Návrh čelí ostré kritice odborníků i aktivistů, kteří upozorňují na vážné dopady na práva trans osob. V Brně proběhla demonstrace, další se chystala v Praze.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Jsme pobouření.“ Opoziční návrh na zpřísnění změny pohlaví čelí kritice, sexuolog mluví o mučení",
+        "url": "https://denikn.cz/2097390/jsme-poboureni-opozicni-navrh-na-zprisneni-zmeny-pohlavi-celi-kritice-sexuolog-mluvi-o-muceni/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-17T08:12:12.617Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh zákona, který by zavedl soudní kontrolu tranzice a omezil přístup trans lidí do veřejných prostor, vytváří precedent pro institucionální diskriminaci (subkomponenta C4 — ochrana menšin). Jde o formální legislativní iniciativu projednávanou v komoře parlamentu, nikoli pouhý verbální útok. Soudní povinnost jako podmínka tranzice je charakterizována odborníky jako závažný zásah do tělesné autonomie a rovnosti před zákonem. Sekundárně C1 (svoboda projevu/identity). Bez schválení zatím one_off; eskalace na 4 při přijetí.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-020",
+    "date": "2026-06-16",
+    "headline": "Poslanec SPD Nerušil veřejně vyzval k politické kontrole obsahu ČT a ČRo",
+    "summary": "Vládní poslanec Josef Nerušil (SPD) prohlásil, že by politici měli mít kontrolu nad obsahem veřejnoprávních médií. Jeho výrok kritizovala jak opozice, tak zástupci koalice včetně ministra kultury. Vláda se přitom dlouhodobě brání nařčení ze zasahování do ČT a ČRo.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„On se vždycky někdo prokecne.“ Poslanec SPD mluví o kontrole obsahu ČT a ČRo, kritizují ho opozice i vláda",
+        "url": "https://denikn.cz/2097147/on-se-vzdycky-nekdo-prokecne-poslanec-spd-mluvi-o-kontrole-obsahu-ct-a-cro-kritiku-schytava-i-od-vlady/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-17T08:12:12.617Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o verbální projev bez přímého institucionálního dopadu; poslanec sice volá po politické kontrole obsahu (subkomponenta M2 — nezávislost ČT a ČRo), avšak výrok byl obratem kritizován i ze strany vlády a nepředstavuje formální legislativní krok ani rozhodnutí. Dle pravidla de-eskalace (−1 úroveň pro čistě verbální incident bez praktického dopadu po > 30 dnech): pokud by výrok zůstal osamoceným excesem, směřuje spíše k severity 1, ale v kontextu probíhající debaty o financování ČT/ČRo (viz index 3 a 4) jde o součást širšího vzorce, což udržuje severity 2. Anti-bias check: stejné hodnocení by platilo pro poslance jakékoli strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-021",
+    "date": "2026-06-16",
+    "headline": "Vládní záměr přesunout financování ČT a ČRo ze státního rozpočtu kritizují experti jako riziko pro nezávislost",
+    "summary": "Analytici a akademici varují, že vládní plán nahradit koncesionářské poplatky přímým financováním z rozpočtu by mohl ohrozit redakční nezávislost veřejnoprávních médií a připomíná slovenský model. Vláda se při obhajobě záměru odvolává na zahraniční vzory, odborníci ale upozorňují na selektivní výběr příkladů.",
+    "pillar": "media",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Babiš se zaštiťuje Západem, návrh na zrušení poplatků ale připomíná Slovensko, míní experti",
+        "url": "https://denikn.cz/2096717/babis-se-zastituje-zapadem-navrh-na-zruseni-poplatku-ale-pripomina-slovensko-mini-experti/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-17T08:12:12.617Z"
+      },
+      {
+        "title": "Co se rozčilujete, vždyť jen rušíme poplatky! Skutečné záměry vlády s ČT a ČRo odhaluje šest brutálních manipulací",
+        "url": "https://archiv.hn.cz/c1-67891740-co-se-rozcilujete-vzdyt-jen-rusime-poplatky-skutecne-zamery-vlady-s-ct-a-cro-odhaluje-sest-brutalnich-manipulaci",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-17T08:12:14.820Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — záměr změnit strukturu financování ČT a ČRo ze systému nezávislého na státním rozpočtu na přímé rozpočtové financování je konkrétní vládní iniciativa s potenciálně závažným dopadem na subkomponentu M2 (nezávislost ČT a ČRo). Financování z rozpočtu představuje systematický nástroj politického vlivu, protože každoroční závislost na schválení v zákoně o rozpočtu vystavuje média politickému tlaku. Experti citovaní v článku explicitně srovnávají s erosí mediální nezávislosti na Slovensku. Jde zatím o záměr, nikoli schválený zákon (−1 de-eskalace není plně aplikovatelná, protože záměr je veřejně potvrzen), tedy severity 3 jako precedent-setting návrh. Duration persistent, protože záměr přetrvává. Sekundárně governance (G4 transparentnost vládnutí).\n\n[merged with 2026-W25-032 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 5 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 5]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-17T08:12:12.600Z"
+  },
+  {
+    "id": "2026-W25-022",
+    "date": "2026-06-16",
+    "headline": "Zmocněnkyně pro romské záležitosti rezignovala kvůli přesunu agendy na ministerstvo práce",
+    "summary": "Lucie Fuková oznámila odchod z funkce vládní zmocněnkyně pro romské záležitosti. Důvodem je přesun romské agendy z Úřadu vlády na ministerstvo práce a sociálních věcí, který podle ní posiluje stereotypy a ztěžuje meziresortní spolupráci.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Přesun romské agendy na ministerstvo práce podporuje stereotypy, vysvětluje zmocněnkyně svůj odchod",
+        "url": "https://denikn.cz/2096862/presun-romske-agendy-na-ministerstvo-prace-podporuje-stereotypy-vysvetluje-zmocnenkyne-svuj-odchod/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-17T08:12:12.617Z"
+      },
+      {
+        "title": "Zmocněnkyně pro romské záležitosti rezignovala kvůli přesunu agendy",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vladni-zmocnenkyne-pro-romske-zalezitosti-lucie-fukova-rezignovala-374629",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-17T08:12:13.941Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o personální změnu na střední úrovni státní správy s dopadem na ochranu menšin (subkomponenta C4). Přesun agendy může signalizovat snížení institucionálního důrazu na romskou problematiku, avšak samo o sobě nejde o strukturální posun — chybí formální dopad na práva menšin. Sekundárně se dotýká G1 (reorganizace vládní struktury), ale kořenová příčina je ochrana menšin. Jeden primární zdroj, proto se nepřistupuje k eskalaci.\n\n[merged with 2026-W25-029 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-023",
+    "date": "2026-06-16",
+    "headline": "Praha 3 chce vypovědět nájem šéfce Úřadu vlády Tünde Barthové kvůli hrubému porušení smlouvy",
+    "summary": "Radní Prahy 3 pro bytovou politiku hodlá navrhnout výpověď z nájmu Tünde Barthové, šéfce Úřadu vlády, a její rodině. Důvodem je hrubé porušení nájemní smlouvy. Starosta Prahy 3 ji vyzval, aby smlouvu vypověděla sama.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Hrubé porušení smlouvy.“ Radní i starosta chtějí, ať Tünde Bartha vrátí městský byt",
+        "url": "https://denikn.cz/2096898/hrube-poruseni-smlouvy-radni-i-starosta-chteji-at-tunde-bartha-vrati-mestsky-byt/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-17T08:12:12.617Z"
+      },
+      {
+        "title": "Právníci: Pokud Tünde Bartha přenechala městský byt studentkám, porušuje smlouvu",
+        "url": "https://denikn.cz/2096471/pravnici-pokud-tunde-bartha-prenechala-mestsky-byt-studentkam-porusuje-smlouvu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-17T08:12:12.617Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní porušení nájemní smlouvy ústavní úřednicí (šéfka Úřadu vlády) s veřejným majetkem (obecní byt) naplňuje subkomponentu K1 (střet zájmů, zneužití postavení). Případ je dosud ve fázi návrhu výpovědi, nikoli pravomocného rozhodnutí, a dopad je primárně právní/nájemní, nikoli systémový. Sekundárně se dotýká G4 (transparentnost vládnutí). Perzistentní, protože situace trvá a není uzavřena.\n\n[merged with 2026-W25-025 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z"
+  },
+  {
+    "id": "2026-W25-024",
+    "date": "2026-06-16",
+    "headline": "Babišova soukromá klinika dostávala bezplatné konzultace od státní nemocnice; dohodnut symbolický příspěvek",
+    "summary": "Soukromá klinika Iscare z holdingu premiéra Babiše využívala bezplatné konzultace lékařů Fakultní nemocnice Královské Vinohrady. Po zveřejnění médii bylo dohodnuto symbolické roční plnění ve výši 330 tisíc korun formou příspěvku na stravování studentů medicíny.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nemocnice bude dál pomáhat Babišově klinice bez hodinové sazby. Dostane peníze na stravování studentů",
+        "url": "https://denikn.cz/2095358/nemocnice-bude-dal-pomahat-babisove-klinice-bez-hodinove-sazby-dostane-penize-na-stravovani-studentu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-17T08:12:12.617Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — subkomponenta K1 (střet zájmů ústavního činitele): premiér Babiš je zároveň vlastníkem holdingu těžícího z bezplatných plnění státní nemocnice, což naplňuje klasické schéma konfliktu zájmů. Případ vytváří precedent v tom smyslu, že korekce (příspěvek 330 tis. Kč) je zjevně neadekvátní hodnotě přijatých konzultací, a bezplatná spolupráce přitom pokračuje. Sekundárně K2 (netransparentní nakládání s veřejnými zdroji). Anti-bias: stejný případ by byl hodnocen stejně u jakéhokoli jiného podnikatele ve funkci premiéra. Persistent, protože spolupráce trvá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z"
+  },
+  {
+    "id": "2026-W25-026",
+    "date": "2026-06-17",
+    "headline": "Soud zamítl nárok MZV na vrácení 4 milionů korun od diplomata po misi v EU",
+    "summary": "Ministerstvo zahraničí vymáhalo po diplomatovi přes čtyři miliony korun za údajně neoprávněně vyplacené diety z mise v EU. Soud rozhodl ve prospěch diplomata a ministerstvo v tomto sporu neuspělo. Případ odhaluje nestandardní postup státního tajemníka MZV vůči vlastnímu pracovníkovi.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Černínský palác jde proti vlastnímu člověku. Vymáhá po něm miliony korun, které inkasoval na misi",
+        "url": "https://www.irozhlas.cz/zpravy-domov/cerninsky-palac-jde-proti-vlastnimu-cloveku-vymaha-po-nem-miliony-korun-ktere_2606170620_hrk",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-17T08:12:13.681Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jedná se o konkrétní spor uvnitř státní správy (MZV vs. diplomat) s omezeným institucionálním dopadem, bez systémového precedentu. Subkomponenta G4 (transparentnost vládnutí, výkaznost ministerstev) — případ odhaluje pochybné řídící rozhodnutí státního tajemníka. Soud institucionální pochybení korigoval, což mírně snižuje závažnost (de-eskalace per rubric). Nejedná se o strukturální selhání ani o vzorec, jde o izolovaný spor.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-027",
+    "date": "2026-06-17",
+    "headline": "Senát projednává novelu o veřejných rozpočtech umožňující vládě navyšovat výdaje nad rámce",
+    "summary": "Senát zařadil na program spornou novelu zákona o veřejných rozpočtech, která by vládě umožnila navyšovat výdaje na obranu a strategické stavby nad schválené výdajové rámce až do roku 2036. Senátní výbory doporučily zpřísnit podmínky navyšování a posílit parlamentní kontrolu. Jedná se o sledovaný legislativní krok s dopadem na rovnováhu exekutivní a legislativní moci.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Senát má na programu novelu o veřejných rozpočtech",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/senat-ma-na-programu-novelu-o-verejnych-rozpoctech-374652",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-17T08:12:13.941Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — novela by strukturálně oslabovala parlamentní kontrolu výdajů exekutivy (subkomponenta G1: dělba moci, reálná kontrola exekutivy parlamentem) na dlouhé období (do 2036). Fakt, že senátní výbory navrhují zpřísnění podmínek a posílení kontroly, naznačuje institucionální odpor, ale výsledek projednání není znám. Zákon zatím není schválen, takže jde o one_off (projednání v Senátu), nikoli persistent. Pokud by byl schválen v původní podobě bez posílení kontroly, eskalace na severity 4 per rubric §4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-028",
+    "date": "2026-06-16",
+    "headline": "Okamura: garance nezávislosti ČT a ČRo není třeba uzákonit",
+    "summary": "Předseda sněmovny Tomio Okamura (SPD) prohlásil, že zákonné garance nezávislosti České televize a Českého rozhlasu nejsou potřeba, zatímco poslanec téže strany hovořil o posílení kontroly obsahu vysílání. Prezident Pavel naopak varoval, že žádná změna financování nesmí ohrozit nezávislost veřejnoprávních médií. Výroky zaznívají v kontextu probíhající debaty o změně systému financování ČT a ČRo.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pavel neslyšel důvod pro změnu financování ČT a ČRo. Podle Okamury není třeba garance nezávislosti",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/pavel-neslysel-duvod-proc-financovani-ct-a-cro-menit-garance-nezavislosti-podle-okamury-neni-treba-374635",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-17T08:12:13.941Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — výrok předsedy sněmovny zpochybňující nutnost zákonných garancí nezávislosti veřejnoprávních médií (subkomponenta M2) je konkrétní politické vyjádření s potenciálním precedentním dopadem na legislativní debatu, ale zatím bez formálního institucionálního kroku. Samostatně jde o verbální incident; pokud by byl součástí vzorce dalších kroků ke kontrole ČT/ČRo, eskaloval by na severity 3+. Zmínka o posílení kontroly obsahu je sekundárně relevantní pro M2. Prezidentovo stanovisko mírně protiváží, ale neurčuje výsledek legislativního procesu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-030",
+    "date": "2026-06-16",
+    "headline": "Policie prověřuje manipulaci s defibrilátory a lékařskými záznamy ve FN Olomouc",
+    "summary": "Kriminalisté vyšetřují závažné podezření z manipulace s implantabilními defibrilátory a s lékařskými záznamy v rámci mezinárodní studie financované z evropských fondů na půdě Fakultní nemocnice Olomouc. Kauza je označována za jednu z nejzávažnějších v historii českého zdravotnictví a zahrnuje podezření na způsobení miliardových škod.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Reportéři ČT se zabývali olomouckou kauzou s defibrilátory",
+        "url": "https://ct24.ceskatelevize.cz/clanek/regiony/reporteri-ct-se-zabyvali-olomouckou-kauzou-s-defibrilatory-374605",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-17T08:12:13.941Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — vyšetřování zahrnuje podezření na manipulaci s veřejnými prostředky (evropské fondy) a zásah do zdravotnické dokumentace ve státní nemocnici (subkomponenta K2 — nakládání s veřejnými zakázkami/prostředky, sekundárně K1). Škody jsou potenciálně stamilionové, případ má precedentní charakter v oblasti zdravotnictví. Věc je ve fázi policejního prověřování bez prokázaných viníků, single-source (ČT Reportéři), proto nevyšší severita nepřipadá v úvahu. Duration: persistent, protože vyšetřování probíhá a institucionální dopad trvá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z"
+  },
+  {
+    "id": "2026-W25-031",
+    "date": "2026-06-16",
+    "headline": "Daňová kobra odhalila stamilionový daňový podvod s digitálními taxislužbami",
+    "summary": "Finanční správa prostřednictvím speciální jednotky Daňová kobra zdokumentovala rozsáhlý podvod v oblasti daňových úniků spojený s provozovateli digitálních taxi platforem jako Uber a Bolt. Organizovaná skupina dlouhodobě skrývala zdanitelné tržby v řádu stovek milionů korun.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "&bdquo;Na hulváta, nadrzo.&ldquo; Daňová kobra zdokumentovala stamilionový podvod spojený s digitálními taxi platformami",
+        "url": "https://domaci.hn.cz/c1-67892530-bernak-po-letech-nasel-recept-na-danovou-diru-u-digitalnich-taxiplatforem",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-17T08:12:14.820Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zdokumentované strukturální schéma daňových úniků v řádu stovek milionů Kč s organizovanou zločineckou dimenzí (subkomponenta K2, veřejné příjmy). Událost je konkrétní a datovaná — publikace výsledků Daňové kobry. Nejde o severity 4-5, protože schéma nezahrnuje ústavní činitele a jde o výsledek úspěšného vyšetřování, nikoli o selhání protikorupčních institucí.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-033",
+    "date": "2026-06-17",
+    "headline": "Generál Hyťha přišel o bezpečnostní prověrku a končí v armádě navzdory výhře u soudu",
+    "summary": "Generál Roman Hyťha, blízký spolupracovník náčelníka generálního štábu Řehky, přichází o vojenskou kariéru po odebrání bezpečnostní prověrky. Důvody odebrání prověrky nejsou zveřejněny. Případ je součástí širšího vzorce, kdy odebírání prověrek zabrzdilo kariéru více příslušníků ozbrojených sil a státních úředníků.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ač od soudu odešel vítězně, v armádě končí. Odkrýváme detaily incidentu s generálem",
+        "url": "https://zpravy.aktualne.cz/domaci/ac-od-soudu-odesel-vitezne-v-armade-konci-odkryvame-detaily-incidentu-s-generalem/r~aaa29f12e5cd9909a5757cccfc07bcc0/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-17T08:12:15.731Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — odebrání bezpečnostní prověrky bez veřejně sdělených důvodů je konkrétní administrativní rozhodnutí s dopadem na kariéru úředníka/vojáka (subkomponenta J4, rovnost před zákonem a transparentnost rozhodování). Nejde o systematický útok na instituci, ale o kontroverzní individuální případ hodný záznamu. Skutečnost, že k důvodům mlčí jak armáda, tak příslušné orgány, mírně zvyšuje závažnost oproti čistě rutinní personální věci. Absence jasných důvodů u více případů naznačuje potenciální vzorec, ale jeden zdroj a nedostatek faktů brání eskalaci výše. Sekundárně se dotýká pilíře governance (G4 — transparentnost vládnutí a státní správy).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-034",
+    "date": "2026-06-16",
+    "headline": "Agrofert nakupoval ukrajinské obilí, zatímco Babiš je veřejně označoval za kontaminované",
+    "summary": "Investigativní novináři z rumunského RISE Project zjistili, že skupina Agrofert ovládaná Andrejem Babišem ve stejné době nakupovala ukrajinské obilí, kdy Babiš v předvolební kampani zpochybňoval jeho kvalitu a bezpečnost. Případ naznačuje možný střet zájmů či záměrné šíření dezinformací pro konkurenční výhodu propojenou s politickými zájmy.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Agrofert kupoval ukrajinské obiloviny, zatímco Babiš tvrdil, že jsou kontaminované",
+        "url": "https://www.investigace.cz/agrofert-kupoval-ukrajinske-obiloviny-zatimco-babis-tvrdil-ze-jsou-kontaminovane/",
+        "outlet": "Investigace.cz",
+        "fetched_at": "2026-06-17T08:12:16.017Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ vytváří precedent a má politický i institucionální přesah: jde o potenciální zneužití politické pozice k ovlivnění veřejného diskurzu ve prospěch vlastní firmy (subkomponenta K1 — politická korupce, střet zájmů ústavního činitele). Skutečnost, že Babiš vystupoval jako lídr v předvolební kampani, přidává volební rozměr (sekundárně pilíř electoral, E1 — transparentnost kampaně). Jeden hlavní zdroj (RISE Project přes investigace.cz), proto dle pravidla single-source není eskalace na 4. Rationale odkazuje na rubric §3: „événement qui crée un précédent ou a un impact sur le fonctionnement d'une institution.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-035",
+    "date": "2026-06-17",
+    "headline": "Skandály s obecními byty odhalily přednostní přístup úředníků k sociálním bytům",
+    "summary": "Kauzy ředitelky Úřadu vlády Tünde Barthy a ministryně Zuzany Mrázové ukázaly, že státní funkcionáři si přisvojili výhodné obecní byty určené sociálně potřebným. Případ ilustruje zneužívání privilegií a aroganci moci u vrcholných představitelů státní správy.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Městské sociální byty v Česku jsou. Jenže pro bohaté, chudí se musí uskromnit",
+        "url": "https://denikalarm.cz/2026/06/mestske-socialni-byty-v-cesku-jsou-jenze-pro-bohate-chudi-se-musi-uskromnit/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-06-17T08:12:16.877Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — případ se dotýká subkomponenty K1 (politická korupce, střet zájmů a zneužití postavení ústavními/vrcholnými úředníky). Zapojení ředitelky Úřadu vlády a aktivní ministryně z něj dělá záležitost přesahující individuální provinění — jde o vzorec privilegovaného přístupu u více osob v klíčových funkcích. Sekundárně pilíř governance (G4 — transparentnost vládnutí). Závažnost nepřesahuje 3, protože článek je z velké části analytický/komentářový a nedokládá nový konkrétní fakt přidaný v referenčním týdnu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-036",
+    "date": "2026-06-17",
+    "headline": "Kandidát ANO na pražského primátora Prokop zamlčoval vlastnictví tří bytů v majetkovém přehledu",
+    "summary": "Ondřej Prokop, lídr ANO pro pražské komunální volby, nepřiznal tři byty v povinném přehledu majetku. Jejich existenci připustil až poté, co byl konfrontován s důkazy ze strany redakce Seznam Zprávy. Babiš Prokopa veřejně vyzval k vysvětlení.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Babiš vyzval lídra ANO v Praze, ať vysvětlí, jak nakupoval své byty",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-babis-vyzval-lidra-ano-v-praze-at-vysvetli-jak-nakupoval-sve-byty-308714",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-17T08:12:17.149Z"
+      },
+      {
+        "title": "„Mě to trklo až teď.“ Kandidát ANO na primátora Prahy se rozpomněl na tři byty",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-lidr-hnuti-ano-se-rozpomnel-ze-ma-tri-byty-v-praze-predtim-je-zamlcel-308646",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-17T08:12:17.149Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zamlčení majetku v povinném přiznání je konkrétní porušení transparenční normy (subkomponenta K1 — střet zájmů a majetková přiznání politiků, K3 — financování a transparentnost politiky). Kandidát na primátora hlavního města je dostatečně exponovaná pozice, aby případ překročil hranici lokálního incidentu (úroveň 2). Absence dobrovolného přiznání a potřeba konfrontace s důkazy zvyšuje závažnost. Sekundárně pilíř electoral (E1 — transparentnost ve volební soutěži). Eskalace na 4 by vyžadovala prokázání úmyslu nebo vyšší hodnotu zatajených aktiv s politickou návazností.\n\n[merged with 2026-W25-037 — same incident, sources combined]\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-038",
+    "date": "2026-06-16",
+    "headline": "Soud vrátil k došetření případ špionáže pro Čínu — první takový případ v ČR",
+    "summary": "Pražský městský soud vrátil k došetření případ muže obviněného ze špionáže ve prospěch čínské rozvědky. Jde o historicky první trestní stíhání za neoprávněnou činnost pro cizí moc v České republice. Rozhodnutí soudu prodlužuje řízení v precedentní kauze.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Případ muže viněného ze špionáže pro Čínu vrátil soud k došetření",
+        "url": "https://www.seznamzpravy.cz/clanek/not-recommend-hp-pripad-muze-vineneho-ze-spionaze-pro-cinu-vratil-soud-k-dosetreni-308700",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-17T08:12:17.149Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — soud vrátil věc k došetření, což je standardní procesní postup bez přímého dopadu na institucionální nezávislost justice (subkomponenta J2). Precedentní hodnota spočívá v tom, že jde o první případ svého druhu v ČR, nicméně samotné vrácení k došetření nelze kvalifikovat jako oslabení ani posílení demokratických institucí — jde o neutrální procesní událost. Direction 0, neboť dopad na demokratické instituce není jednoznačný. Single source, žádný vzorec politického tlaku na justice.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-039",
+    "date": "2026-06-16",
+    "headline": "Zahraniční experti vyzývají vládu k zachování českého modelu drogové politiky",
+    "summary": "Odborníci z evropských, amerických a australských univerzit zaslali otevřený dopis premiéru Babišovi, v němž vyjadřují znepokojení nad plánovanými změnami drogové politiky v ČR. Kritizují zejména záměr přenést agendu pod jediné ministerstvo, přičemž stávající model označují za jeden z nejúspěšnějších v Evropě.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Foreign Experts Call For Preservation of Czech Drug Policy Approach",
+        "url": "https://brnodaily.com/2026/06/16/science/foreign-experts-call-for-preservation-of-czech-drug-policy-approach/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-06-17T08:12:31.005Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — otevřený dopis zahraničních expertů je verbální výzva bez přímého institucionálního dopadu; žádné rozhodnutí ještě nebylo přijato. Subkomponenta G2 (kvalita legislativy a příprava politik) je marginálně relevantní, avšak jde pouze o signál vnějšího znepokojení, nikoli o konkrétní institucionální krok. Direction -1 proto, že navrhovaná změna (centralizace pod jedno ministerstvo) by podle expertů oslabila stávající osvědčený model, ale severity zůstává na 1, protože jde pouze o záměr/návrh bez formálního legislativního procesu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-17T08:12:12.600Z",
+    "expires_at": "2026-09-08T00:00:00.000Z"
   }
 ]

@@ -155,10 +155,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/reporteri-ct-ukazuji-co-vedlo-k-obvineni-blazka-v-bitcoinove-kauze-373303",
         "outlet": "ČT24",
         "fetched_at": "2026-05-12T07:15:40.686Z"
+      },
+      {
+        "title": "Vyšetřování kauzy Bitcoin pokračuje: Exministr Blažek čelí policejnímu stíhání",
+        "url": "https://www.transparency.cz/vysetrovani-kauzy-bitcoin-pokracuje-exministr-blazek-celi-policejnimu-stihani/",
+        "outlet": "Transparency International ČR",
+        "fetched_at": "2026-06-17T08:12:28.687Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — obvinění bývalého ministra spravedlnosti (ústavní činitel) v korupční kauze má přímý dopad na vnímání integrity exekutivy a justice (subkomponenta K1 — politická korupce). Samotné obvinění je konkrétní procesní událost. Nejedná se o prokázanou vinu, proto nelze eskalovat na 4; single source (ČT), žádná mezinárodní reakce zatím zaznamenána. Sekundárně se dotýká pilíře judicial (J3 — nezávislost státního zastupitelství v kauze zahrnující bývalého ministra spravedlnosti), zmíněno v rationale.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — obvinění bývalého ministra spravedlnosti (ústavní činitel) v korupční kauze má přímý dopad na vnímání integrity exekutivy a justice (subkomponenta K1 — politická korupce). Samotné obvinění je konkrétní procesní událost. Nejedná se o prokázanou vinu, proto nelze eskalovat na 4; single source (ČT), žádná mezinárodní reakce zatím zaznamenána. Sekundárně se dotýká pilíře judicial (J3 — nezávislost státního zastupitelství v kauze zahrnující bývalého ministra spravedlnosti), zmíněno v rationale.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W20-079 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-12T07:15:39.525Z",
