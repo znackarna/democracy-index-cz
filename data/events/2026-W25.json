@@ -1279,10 +1279,22 @@
         "url": "https://denikn.cz/2099516/cnb-jde-proti-babisovi-a-po-letech-zvysuje-sazby-co-to-udela-s-ekonomikou/",
         "outlet": "Deník N",
         "fetched_at": "2026-06-19T08:13:01.244Z"
+      },
+      {
+        "title": "ČNB poprvé pod Michlovým vedením zvýšila úrokové sazby. Chceme brzdit úvěrový boom a podporovat spoření, uvedl guvernér",
+        "url": "https://archiv.hn.cz/c1-67893930-babisovi-navzdory-cnb-zvysila-zakladni-urokovou-sazbu-podle-premiera-tim-poskodi-ekonomiku",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      },
+      {
+        "title": "ČNB ukázala Babišovi sílu. Za „dražší peníze“ si může sám, tvrdí oceňovaný ekonom",
+        "url": "https://zpravy.aktualne.cz/ekonomika/levnejsi-hypoteky-se-odkladaji-rust-sazeb-zajistil-babis-mini-univerzitni-profesor/r~aaa29b380f807641959b4d2643842dda/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-20T07:35:57.063Z"
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — jedná se o jednorázový akt, který sám o sobě neohrožuje instituci, ale je relevantní pro subkomponentu G1 (dělba moci, nezávislost institucí vůči exekutivě). ČNB přijala rozhodnutí v souladu s vlastní mandátem navzdory premiérově veřejné kritice. Směr +1, neboť jde o případ, kdy instituce udržela svou nezávislost. Bez náznaku legislativního útoku na ČNB (ten by byl severity 5 per pillars.md) jde o pozitivní jednorázový signál. Sekundárně se dotýká pilíře governance – subkomponenta G3 (stabilita ústavních norem a respekt k rolím institucí).",
+    "rationale": "Severity 2 per rubric §2 — jedná se o jednorázový akt, který sám o sobě neohrožuje instituci, ale je relevantní pro subkomponentu G1 (dělba moci, nezávislost institucí vůči exekutivě). ČNB přijala rozhodnutí v souladu s vlastní mandátem navzdory premiérově veřejné kritice. Směr +1, neboť jde o případ, kdy instituce udržela svou nezávislost. Bez náznaku legislativního útoku na ČNB (ten by byl severity 5 per pillars.md) jde o pozitivní jednorázový signál. Sekundárně se dotýká pilíře governance – subkomponenta G3 (stabilita ústavních norem a respekt k rolím institucí).\n\n[merged with 2026-W25-099 — same incident, sources combined]\n\n[merged with 2026-W25-102 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-19T08:13:01.229Z",
@@ -1715,5 +1727,371 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-19T08:13:01.229Z"
+  },
+  {
+    "id": "2026-W25-086",
+    "date": "2026-06-19",
+    "headline": "Škola nahlásila studenta policii poté, co podal podnět na inspekci; policie trestný čin neshledala",
+    "summary": "Středoškolský student Filip Holl podal podnět školní inspekci na svou školu, načež vedení školy na něj podalo trestní oznámení pro nebezpečné vyhrožování. Policie po prošetření trestný čin nezjistila. Inspekce přitom ve škole skutečně potvrdila problémy, včetně nedůvěry k vedení.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Student se postavil ředitelce, škola ho nahlásila na policii. Vyšetřovatelé trestný čin nezjistili",
+        "url": "https://denikn.cz/2096826/student-se-postavil-reditelce-skola-ho-nahlasila-na-policii-vysetrovatele-trestny-cin-nezjistili/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-20T07:35:53.407Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní případ institucionálního tlaku na jednotlivce, který využil legální mechanismus (podání podnětu na inspekci), škola reagovala trestním oznámením jakožto nástrojem zastrašování. Subkomponenta C3 (svoboda sdružování a ochrana před administrativní šikanou) a okrajově C1 (svoboda projevu/kritiky). Trestní oznámení bylo odloženo, událost se nejeví jako součást širšího systémového vzorce — proto ne vyšší. Případ nicméně ilustruje využití trestněprávního systému k zastrašení kritika instituce, což odpovídá rubric §2 pro 'politicky motivovaný personální/procesní zásah s omezeným dopadem'.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z",
+    "expires_at": "2026-09-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-087",
+    "date": "2026-06-18",
+    "headline": "Stranické obsazování pozic ve státní správě stranou Motoristé tolerováno premiérem Babišem",
+    "summary": "Koaliční strana Motoristé sobě obsazuje místa ve státní správě svými stranickými lidmi, přičemž premiér Babiš se veřejně nevymezuje vůči tomuto jednání, které je v rozporu s deklarovanými pravidly vlády o zásluhových jmenováních. Jde o další případ testování hranic politického patronátu v čele státní správy.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Pointa N: Motoristé odměňují své lidi, Babiš mlčí. Kam až sahá jeho tolerance?",
+        "url": "https://denikn.cz/2099221/pointa-n-motoriste-odmenuji-sve-lidi-babis-mlci-kam-az-saha-jeho-tolerance/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-20T07:35:53.407Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivované obsazování pozic ve státní správě (patronát) je popsáno jako pokračující praxe, nikoli jako jednorázové rozhodnutí s formálním dokladem. Subkomponenta K1 (politická korupce, střet zájmů, zneužívání pravomoci pro stranický prospěch). Článek je analytický komentář bez uvedení konkrétního jmenovacího aktu s datem a jménem; proto nelze přiřadit severity 3. Duration: persistent, protože jde o popsaný vzorec chování, nikoli izolovaný incident. Sekundárně relevantní G1 (dělba moci, kontrola exekutivy).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z"
+  },
+  {
+    "id": "2026-W25-088",
+    "date": "2026-06-20",
+    "headline": "Průzkum odhalil fyzické i slovní útoky na poslankyně přímo v budově Sněmovny",
+    "summary": "Průzkum ukázal, že poslankyně zažívají nejen online, ale i přímo v sněmovní budově slovní a fyzické útoky, zesměšňování a odsuzování. Předseda SPD Okamura uvedl, že o útocích neví, a vyzval ke zklidnění atmosféry; opoziční politici jeho reakci odmítli jako nedostatečnou. Situace odráží dlouhodobě vyhrocenou atmosféru v Poslanecké sněmovně.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Okamura o útocích na poslankyně neví a chce náladu ve Sněmovně zklidnit. ‚Kozel zahradníkem,‘ reaguje Bartoš",
+        "url": "https://www.irozhlas.cz/zpravy-domov/okamura-o-utocich-na-poslankyne-nevi-a-chce-naladu-ve-snemovne-zklidnit-kozel_2606200700_jgr",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-20T07:35:54.868Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — fyzické i slovní útoky na zákonodárkyně v parlamentní budově jsou konkrétním, zdokumentovaným průzkumem potvrzeným incidentem s dopadem na subkomponentu C2 (svoboda shromažďování a výkonu mandátu) a C4 (ochrana osob před diskriminací a násilím). Jedná se o persistent stav, nikoli izolovaný incident, protože průzkum dokládá opakující se vzorec. Vedení sněmovny (Okamura) reaguje bagatelizací, nikoli korekčním opatřením, což vylučuje de-eskalaci. Sekundárně se dotýká pilíře governance (G1 — prostředí pro výkon parlamentní funkce). Anti-bias check: stejnou závažnost by obdržely útoky na poslankyně jakékoli strany.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z"
+  },
+  {
+    "id": "2026-W25-089",
+    "date": "2026-06-20",
+    "headline": "Vláda navrhuje financovat veřejnoprávní média z výnosů EET 2.0 místo koncesionářských poplatků",
+    "summary": "Premiér Babiš představil záměr, podle nějž by od příštího roku veřejnoprávní média dostávala zhruba 8 miliard korun ze státního rozpočtu namísto dosavadního systému koncesionářských poplatků, přičemž zdrojem má být znovuzavedená elektronická evidence tržeb. Analytici a komentátoři upozorňují, že výnosy EET 2.0 pravděpodobně na pokrytí celé sumy nestačí. Změna způsobu financování může ohrozit finanční nezávislost ČT a ČRo na státním rozpočtu.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Fronta na peníze z EET. Ani na zaplacení televize a rozhlasu to nebude stačit",
+        "url": "https://www.irozhlas.cz/komentare/fronta-na-penize-z-eet-ani-na-zaplaceni-televize-a-rozhlasu-nebude-stacit_2606200630_elev",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-20T07:35:54.868Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 4 per rubric §4 — návrh přechodu od koncesionářského financování ke státnímu rozpočtovému financování přímo zasahuje subkomponentu M2 (nezávislost ČT a ČRo, ochrana před politickým tlakem na editoriální obsah). Závislost na státním rozpočtu vytváří strukturální páku, kterou může exekutiva uplatňovat vůči veřejnoprávním médiím, a jde tak o zásah srovnatelný s rubric příkladem 'akvizice nebo změna financování s dopadem na nezávislost'. V tuto chvíli se jedná o vládní návrh/záměr (ne schválenou novelu), proto se neaplikuje upgrade na severity 5, ale persistent duration reflektuje strukturální povahu změny. Sekundárně se dotýká pilíře governance (G2 — kvalita legislativního procesu a transparentnost záměru). Anti-bias check: stejné hodnocení by obdržel obdobný návrh libovolné vlády.\n\n[severity capped from 4 to 2 due to source-count rule: 1 unique outlet, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z"
+  },
+  {
+    "id": "2026-W25-090",
+    "date": "2026-06-19",
+    "headline": "ČT varuje před propadem rozpočtu až 1,75 miliardy kvůli vládnímu návrhu změny financování",
+    "summary": "Česká televize zveřejnila vlastní analýzu, podle níž by vládní návrh na změnu financování mohl způsobit propad jejího rozpočtu o 1,75 miliardy korun v roce 2027 a až 2,4 miliardy v roce 2028. Změna by nahradila příjmy z televizních poplatků příjmy ze státního rozpočtu, přičemž navržená výše dotace by zdaleka nepokryla dosavadní příjmy ani čerpání z rezerv. Situace ohrožuje finanční stabilitu a tím i provozní nezávislost veřejnoprávního média.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Propad rozpočtu kvůli změně financování může být 1,75 miliardy korun, uvedla ČT",
+        "url": "https://ct24.ceskatelevize.cz/clanek/media/propad-rozpoctu-kvuli-zmene-financovani-muze-byt-175-miliardy-korun-uvedla-ct-374749",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-20T07:35:55.120Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh změny financování ČT, který by snížil příjmy o více než miliardu ročně, představuje konkrétní hrozbu pro finanční (a tím i editoriální) nezávislost veřejnoprávního média (subkomponenta M2). Nejde dosud o schválený zákon, ale o vládní návrh s konkrétními čísly — proto ještě ne severity 4. Persistent, protože pokud bude zákon přijat, strukturálně změní financování ČT. Křížový dopad i na pilíř governance (G4 — transparentnost vládnutí a vztah vlády k veřejnoprávním institucím).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z"
+  },
+  {
+    "id": "2026-W25-091",
+    "date": "2026-06-19",
+    "headline": "Policie vyhlásila pátrání po obviněném primátorovi Karviné Wolfovi v korupční fotbalové kauze",
+    "summary": "Policie zahájila pátrání po primátorovi Karviné Janu Wolfovi, jenž je obviněn v korupční aféře spojené s fotbalovým prostředím. Wolfův právník tvrdí, že je klient na dovolené v Chorvatsku a o tom informoval vyšetřovatele. Wolf byl za korupci a ovlivňování zápasů již potrestán Etickou komisí FAČR.",
+    "pillar": "corruption",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Policie pátrá po primátorovi Karviné Wolfovi. Ten reaguje, že je na dovolené",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/policie-patra-po-primatorovi-karvine-wolfovi-z-korupcni-fotbalove-kauzy-374747",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-20T07:35:55.120Z"
+      },
+      {
+        "title": "Po obviněném primátorovi Karviné pátrá policie. Je na dovolené, tvrdí jeho náměstek",
+        "url": "https://domaci.hn.cz/c1-67894360-po-obvinenem-primatorovi-karvine-patra-policie-je-na-dovolene-tvrdi-jeho-namestek",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní datovaný incident (policie vyhlásila pátrání) v rámci probíhající korupční kauzy veřejného funkcionáře (subkomponenta K1 — politická korupce, střet zájmů a zneužívání postavení lokálního politika). Dopad je lokální (primátor krajského města), nikoli celostátní ústavní funkcionář, a kauza se týká sportovního prostředí, nikoli přímo výkonu veřejné správy. Policie aktivně pracuje, institucionální protikorupční mechanismy fungují — to mírní závažnost. One_off, neboť jde o dílčí procesní krok v trvající kauze.\n\n[merged with 2026-W25-094 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-20T07:35:53.393Z",
+    "expires_at": "2026-09-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-092",
+    "date": "2026-06-19",
+    "headline": "Odborník vyhozený z ministerstva životního prostředí za Turka přechází do soukromého sektoru",
+    "summary": "Ministerstvo životního prostředí za ministra Turka (Motoristé sobě) propustilo řadu odborných úředníků a nahradilo je lidmi blízkými straně. Jeden z propuštěných odborníků nyní přechází do čela klimatického fondu developera Sekyry. Kauza ilustruje politicky motivované personální čistky na ministerstvu.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Developer Sekyra zakládá klimatický fond. Povede ho úředník, kterého vyhodil Turek",
+        "url": "https://byznys.hn.cz/c1-67893350-developer-sekyra-zaklada-klimaticky-fond-povede-ho-urednik-ktereho-vyhodil-turek",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — systematické odvolávání odborných úředníků a jejich nahrazování politicky blízkými osobami na ministerstvu ŽP naplňuje subkomponentu G4 (transparentnost vládnutí) a sekundárně G1 (dělba moci). Personální čistky s politickým pozadím na celém ministerstvu mají precedentní charakter a dopad na chod instituce. Persistent, protože jde o strukturální stav po personální reorganizaci, nikoli jednorázový incident. Sekundárně dotýká pilíře corruption (K1 — střet zájmů, politický klientelismus ve státní správě).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z"
+  },
+  {
+    "id": "2026-W25-093",
+    "date": "2026-06-19",
+    "headline": "Jmenování realitního podnikatele šéfem České inspekce životního prostředí vyvolává obavy z regulatorního capture",
+    "summary": "Pavel Straka, podnikatel v oblasti realit, byl jmenován do čela České inspekce životního prostředí (ČIŽP) stranickým vedením Motoristů sobě. Kritici poukazují na jeho vazby na byznys a riziko snížení sankcí za porušení ochrany přírody. Jmenování navazuje na širší personální čistky na ministerstvu ŽP.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Ochrana přírody pod tlakem Motoristů. Kritici zmiňují riziko nižších sankcí i vazby na byznys. Co reálně hrozí?",
+        "url": "https://domaci.hn.cz/c1-67894370-ochrana-prirody-pod-tlakem-motoristu-kritici-zminuji-riziko-nizsich-sankci-i-vazby-na-byznys-co-realne-hrozi",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — jmenování osoby s přímými vazbami na regulovaný sektor (reality vs. ochrana přírody) do čela kontrolního orgánu (ČIŽP) vytváří riziko regulatorního capture a ohrožuje institucionální nezávislost inspekce. Subkomponenta G1 (dělba moci, nezávislost kontrolních institucí) a G4 (transparentnost). Persistent, protože jmenování trvá. Sekundárně K1 (střet zájmů ústavních/vládních činitelů). Single source, proto se zdržuji eskalace na severity 4 i přes potenciálně závažný dopad.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z"
+  },
+  {
+    "id": "2026-W25-095",
+    "date": "2026-06-15",
+    "headline": "Vláda zrušila souhlas s ratifikací Istanbulské úmluvy",
+    "summary": "Česká vláda na svém pondělním zasedání odvolala souhlas předchozího kabinetu s ratifikací Istanbulské úmluvy o prevenci a potírání násilí na ženách. Česko tak nebude pokračovat v procesu ratifikace mezinárodní smlouvy, která zajišťuje ochranu před domácím násilím.",
+    "pillar": "civil",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Istanbulská úmluva v Česku platit nebude. Vláda zrušila souhlas s její ratifikací",
+        "url": "https://domaci.hn.cz/c1-67894300-istanbulska-umluva-v-cesku-platit-nebude-vlada-zrusila-souhlas-s-jeji-ratifikaci",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      },
+      {
+        "title": "Czech Republic Will Not Adopt Istanbul Convention After Government Withdraws Approval",
+        "url": "https://brnodaily.com/2026/06/19/news/politics/czech-republic-will-not-adopt-istanbul-convention-after-government-withdraws-approval/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-06-20T07:36:13.082Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — vládní rozhodnutí odvolat souhlas s ratifikací mezinárodní smlouvy o ochraně před násilím se dotýká subkomponenty C4 (ochrana menšin a zranitelných skupin). Úmluva představuje rámec ochrany práv, jejíž odmítnutí lze chápat jako krok zpět v systematické ochraně ohrožených skupin. Jde o jednorázové vládní rozhodnutí s trvalými důsledky (persistent by bylo pouze pokud by zákon v účinnosti; zde jde o zrušení procesu, tedy one_off). Sekundárně se dotýká pilíře governance (G3 – respekt k mezinárodním závazkům). Anti-bias check: stejně by bylo hodnoceno odvolání ratifikačního souhlasu u jakékoli jiné smlouvy o lidských právech.\n\n[merged with 2026-W25-103 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z",
+    "expires_at": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-096",
+    "date": "2026-06-19",
+    "headline": "Pražský lídr ANO Prokop připustil pochybení v majetkovém přiznání, tři byty nepřiznal",
+    "summary": "Ondřej Prokop, pražský lídr ANO a kandidát na primátora, na tiskové konferenci připustil, že v majetkovém přiznání neuvedl tři družstevní byty, a označil to za pochybení. Zároveň hájil samotný nákup bytů jako legální a deklaroval ochotu zaplatit pokutu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Prokopova obhajoba: nákup bytů byl legální, neznalost zákona ale neomlouvá, uvedl pražský lídr ANO. Je ochotný zaplatit i pokutu",
+        "url": "https://domaci.hn.cz/c1-67894220-prokopova-obhajoba-nakup-bytu-byl-legalni-neznalost-zakona-ale-neomlouva-uvedl-prazsky-lidr-ano-je-ochotny-zaplatit-i-pokutu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — nepřiznání majetku v majetkovém přiznání je konkrétním porušením normy (subkomponenta K1 – střet zájmů a majetková přiznání politiků), avšak Prokop sám pochybení přiznal a deklaroval ochotu zaplatit pokutu, což snižuje závažnost. Netýká se ústavního činitele (jde o zastupitele), rozsah se týká tří bytů na komunální úrovni. Rubric §4 (severity 4) by platil pro premiéra s aktivy v desítkách milionů; zde je dopad lokálnější. Sekundárně se dotýká pilíře electoral (E1 – transparentnost kandidátů). Anti-bias check: stejně by bylo hodnoceno u kandidáta jiné strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z",
+    "expires_at": "2026-09-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-097",
+    "date": "2026-06-18",
+    "headline": "Pražští zastupitelé odvolali Prokopa z čela kontrolního výboru kvůli nepřiznaným bytům",
+    "summary": "Zastupitelstvo hlavního města Prahy odvolalo Ondřeje Prokopa (ANO) z funkce předsedy kontrolního výboru poté, co vyšlo najevo, že nepřiznal tři družstevní byty. Na jeho místo byl zvolen jiný zastupitel ANO.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zastupitelé odvolali Prokopa z&nbsp;funkce předsedy výboru",
+        "url": "https://archiv.hn.cz/c1-67894050-zastupitele-odvolali-prokopa-z-funkce-predsedy-vyboru",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní personální rozhodnutí zastupitelského orgánu reagující na etické pochybení. Odvolání předsedy výboru zastupitelstvem je standardní institucionální korekční mechanismus (subkomponenta G1 – parlamentní kontrola, analogicky na komunální úrovni). Směr je +1, protože zastupitelé využili svou kontrolní funkci k vynucení odpovědnosti, což posílení institucionální integrity. Dopad je lokální a komunální, bez precedentu pro celostátní úroveň. Anti-bias check: stejně by bylo hodnoceno u zastupitele jiné strany.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z",
+    "expires_at": "2026-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-098",
+    "date": "2026-06-18",
+    "headline": "Ředitel SÚJCHBO odvolán po zjištěních o školení čínských vojenských expertů",
+    "summary": "Generální ředitel HZS ČR odvolal ředitele Státního ústavu jaderné, chemické a biologické ochrany poté, co bylo zjištěno, že ústav po léta školil experty čínské armády. Do ústavu míří kontrola.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Státní ústav jaderné ochrany roky školil experty čínské armády. Ředitel byl odvolán a do ústavu míří kontrola",
+        "url": "https://domaci.hn.cz/c1-67894030-statni-ustav-jaderne-ochrany-roky-skolil-experty-cinske-armady-reditel-byl-odvolan-a-do-ustavu-miri-kontrola",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odvolání ředitele státní instituce bezpečnostního charakteru v důsledku závažného selhání (školení zahraničních vojenských expertů bez zjevného bezpečnostního prověření) vytváří precedent a zasahuje do fungování instituce s citlivou agendou. Subkomponenta G4 (transparentnost vládnutí a výkaznost státních orgánů) a G1 (fungování státní správy pod exekutivní kontrolou). Sekundárně relevantní pro pilíř corruption (K4 — selhání dohledu nad institucí), ale primárním kořenem je selhání institucionálního dohledu v rámci governance. Single source — source-count rule neumožňuje eskalaci; severity 3 bez upgradu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z",
+    "expires_at": "2026-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-100",
+    "date": "2026-06-17",
+    "headline": "Insolvenční správce Liberty Ostrava žaluje bývalé vedení, požaduje 19 miliard korun",
+    "summary": "Insolvenční správce zkrachovalé hutní společnosti Liberty Ostrava podal ke Krajskému soudu v Ostravě žalobu na doplnění pasiv proti čtyřem bývalým členům představenstva. Celková požadovaná částka se blíží 19 miliardám korun. Jde o standardní korporátní soudní spor v rámci insolvenčního řízení bez přímé vazby na demokratické instituce.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Správce zkrachovalé Liberty Ostrava žaluje bývalé vedení huti. Chce po něm téměř 19 miliard korun",
+        "url": "https://byznys.hn.cz/c1-67893430-spravce-zkrachovale-liberty-ostrava-zaluje-byvale-vedeni-huti-chce-po-nem-temer-19-miliard-korun",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Ačkoliv se jedná o soudní řízení (subkomponenta J4 — rovnost před zákonem), jde o soukromoprávní insolvenční spor bez jakéhokoliv dopadu na nezávislost justice či demokratické instituce. Severity 1 per rubric §1 — zanedbatelný institucionální dopad. Direction 0, protože soudní systém funguje standardně. Událost je zaznamenána kvůli předfiltru, ale nemá relevanci pro demokratický demokratický index ČR.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z",
+    "expires_at": "2026-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-101",
+    "date": "2026-06-17",
+    "headline": "Rutte potvrdil, že ČR v roce 2025 nesplnila závazek výdajů na obranu ve výši 2 % HDP",
+    "summary": "Generální tajemník NATO Mark Rutte veřejně potvrdil, že Česká republika spolu se Slovinskem a Albánií v loňském roce nedosáhla sjednaného závazku výdajů na obranu ve výši 2 % HDP. Rutte přesto vyjádřil důvěru, že česká vláda pracuje na nápravě. Jde o potvrzení nesplnění mezinárodního závazku, nikoli o novou politickou krizi.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Rutte potvrdil, že Česko loni nesplnilo závazek dávat na obranu dvě procenta HDP",
+        "url": "https://zahranicni.hn.cz/c1-67893330-rutte-potvrdil-ze-cesko-loni-nesplnilo-zavazek-davat-na-obranu-dve-procenta-hdp",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-20T07:35:56.044Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní porušení normy (nesplnění mezinárodního závazku NATO) s omezeným dopadem; potvrzeno autoritativním zdrojem (generální tajemník NATO), ale bez bezprostředního institucionálního dopadu na domácí demokratické instituce. Subkomponenta G1 (výkaznost vlády vůči mezinárodním závazkům). Událost nepředstavuje eskalaci, protože vláda závazek proaktivně přiznává a přislibuje nápravu; de-eskalační pravidlo rubric nestačí na downgrade, ale závažnost se pohybuje na spodní hranici úrovně 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z",
+    "expires_at": "2026-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-104",
+    "date": "2026-06-18",
+    "headline": "Eva Kostolánská složila slib a nastoupila do funkce veřejné ochránkyně práv",
+    "summary": "Eva Kostolánská, dosavadní právnička Kanceláře veřejného ochránce práv, nastoupila do funkce ombudsmanky poté, co složila slib před předsedou sněmovny Tomiem Okamurou. Byla zvolena Sněmovnou ve druhém kole tajného hlasování na návrh Senátu a České konference rektorů, čímž obsadila post uvolněný po skončení šestiletého mandátu Stanislava Křečka.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Eva Kostolanska Takes Office As New Czech Ombudswoman",
+        "url": "https://brnodaily.com/2026/06/19/news/politics/eva-kostolanska-takes-office-as-new-czech-ombudswoman/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-06-20T07:36:13.082Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — institucionální nástupnictví proběhlo standardní procedurou (návrh Senátu a rektorské konference, volba Sněmovnou v tajném hlasování), bez signálů politické manipulace nebo porušení normy. Jde o pozitivní událost z hlediska kontinuity demokratické instituce (subkomponenta G1 — dělba moci, nezávislost kontrolních orgánů). Direction +1 — funkce ombudsmana je obsazena, instituce pokračuje v práci. Severity 1 nikoli 2, protože jde o rutinní institucionální nástupnictví bez precedentní hodnoty ani náznaku tlaku. Zdroj neuvádí konkrétní datum složení slibu — podle kontextu „yesterday",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-20T07:35:53.393Z",
+    "expires_at": "2026-09-10T00:00:00.000Z"
   }
 ]
