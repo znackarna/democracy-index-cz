@@ -756,10 +756,16 @@
         "url": "https://zpravy.aktualne.cz/domaci/prokop-haji-nakupy-bytu-jako-legalni-za-chybu-je-pripraven-zaplatit-pokutu/r~aaa29fa6ebd0c271ae0a941d5dbb37a8/",
         "outlet": "Aktuálně.cz",
         "fetched_at": "2026-06-19T08:13:04.389Z"
+      },
+      {
+        "title": "Chybovat je lidské, hájí se Prokop. Podle Zábranského je nedůvěryhodný",
+        "url": "https://ct24.ceskatelevize.cz/clanek/regiony/hlavni-mesto-praha/chybovat-je-lidske-haji-se-prokop-podle-zabranskeho-je-neduveryhodny-374770",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-21T07:54:54.837Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — zamlčení majetku v povinném přiznání je konkrétní porušení transparenční normy (subkomponenta K1 — střet zájmů a majetková přiznání politiků, K3 — financování a transparentnost politiky). Kandidát na primátora hlavního města je dostatečně exponovaná pozice, aby případ překročil hranici lokálního incidentu (úroveň 2). Absence dobrovolného přiznání a potřeba konfrontace s důkazy zvyšuje závažnost. Sekundárně pilíř electoral (E1 — transparentnost ve volební soutěži). Eskalace na 4 by vyžadovala prokázání úmyslu nebo vyšší hodnotu zatajených aktiv s politickou návazností.\n\n[merged with 2026-W25-037 — same incident, sources combined]\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W25-053 — same incident, sources combined]\n\n[merged with 2026-W25-069 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 — zamlčení majetku v povinném přiznání je konkrétní porušení transparenční normy (subkomponenta K1 — střet zájmů a majetková přiznání politiků, K3 — financování a transparentnost politiky). Kandidát na primátora hlavního města je dostatečně exponovaná pozice, aby případ překročil hranici lokálního incidentu (úroveň 2). Absence dobrovolného přiznání a potřeba konfrontace s důkazy zvyšuje závažnost. Sekundárně pilíř electoral (E1 — transparentnost ve volební soutěži). Eskalace na 4 by vyžadovala prokázání úmyslu nebo vyšší hodnotu zatajených aktiv s politickou návazností.\n\n[merged with 2026-W25-037 — same incident, sources combined]\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W25-053 — same incident, sources combined]\n\n[merged with 2026-W25-069 — same incident, sources combined]\n\n[merged with 2026-W25-107 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-17T08:12:12.600Z",
@@ -2093,5 +2099,101 @@
     "status": "active",
     "created_at": "2026-06-20T07:35:53.393Z",
     "expires_at": "2026-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-105",
+    "date": "2026-06-21",
+    "headline": "Ministerstvo spravedlnosti přidělilo dva miliony na probační služby pro mládež, programy pro dospělé bez dotací",
+    "summary": "Ministerstvo spravedlnosti po jednání s neziskovými organizacemi uvolnilo dva miliony korun na probační programy pro děti a mladistvé. Programy pro dospělé vězně a jejich rodiny dotace nezískaly vůbec, stejně jako programy prevence korupce. Zástupci neziskovek označují alokaci za nedostatečnou.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Probační služby pro mladistvé a děti. Tejcův resort našel pro neziskovky dva miliony, peníze ale nestačí",
+        "url": "https://www.irozhlas.cz/zpravy-domov/dotace-pro-neziskove-organizace-probacni-sluzby-ministerstvo-spravedlnosti_2606210600_tec",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-21T07:54:54.713Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní rozhodnutí o přidělení dotací s omezeným, ale reálným dopadem na občanskou infrastrukturu (subkomponenta C3 — svoboda sdružování a podpora NGO). Chybějící financování probačních programů pro dospělé a protikorupční prevence je znepokojivé, ale jedná se o jednorázové rozpočtové rozhodnutí bez precedentního charakteru pro samotnou nezávislost organizací. Sekundárně relevantní pro pilíř corruption (absence financování protikorupční prevence — K4), zmíněno v rationale.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-21T07:54:53.784Z",
+    "expires_at": "2026-09-13T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-106",
+    "date": "2026-06-21",
+    "headline": "CENZA: stát loni prodal zajištěný majetek za 59 milionů korun",
+    "summary": "Centrum zajištěných aktiv ministerstva vnitra (CENZA) prodalo v roce 2025 majetek zajištěný v trestních řízeních za více než 59 milionů korun, přičemž výtěžek slouží mimo jiné k odškodnění poškozených. Jde o výrazný nárůst oproti roku 2017, kdy centrum začínalo s výnosy necelých 12 milionů Kč.",
+    "pillar": "corruption",
+    "severity": 1,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Stát loni prodal kabelky, luxusní auta a další zajištěné věci za 59 milionů",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/stat-loni-prodal-kabelky-luxusni-auta-a-dalsi-zajistene-veci-za-59-milionu-374709",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-21T07:54:54.837Z"
+      }
+    ],
+    "score_impact": 0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o rutinní statistický výkaz o fungování protikorupční instituce (subkomponenta K4), nikoli o konkrétní incident s institucionálním dopadem. Zpráva naopak dokládá postupné posilování kapacity CENZA, směr proto +1. Neexistuje žádný nový incident ani precedent; jedná se o výroční informaci o standardní agendě.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-21T07:54:53.784Z",
+    "expires_at": "2026-09-13T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-108",
+    "date": "2026-06-19",
+    "headline": "Babiš přiznal, že Česko letos nesplní závazek NATO na výdaje 2 % HDP",
+    "summary": "Premiér Babiš oznámil na Facebooku, že Česká republika v roce 2026 nedosáhne závazku vydávat na obranu 2 % HDP. Splnění přislíbil až od roku 2027. Jde o veřejné přiznání nesplnění mezinárodního závazku přijatého vládou.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Letos Česko závazek vůči NATO nesplní, uvedl Babiš. Má se tak stát až v dalších letech",
+        "url": "https://domaci.hn.cz/c1-67894190-letos-cesko-zavazek-vuci-nato-nesplni-uvedl-babis-ma-se-tak-stat-az-v-dalsich-letech",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-21T07:54:55.576Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — premiér veřejně oznámil nesplnění konkrétního mezinárodního závazku (NATO 2 % HDP) pro rok 2026, což je kontroverzní rozhodnutí s omezeným okamžitým institucionálním dopadem. Dotýká se subkomponenty G1 (odpovědnost exekutivy vůči závazkům) a G4 (transparentnost vládnutí — oznámení na Facebooku místo formální vládní komunikace). Nejde o strukturální porušení ústavního pořádku, ale o selhání v plnění přijatého závazku, které samo o sobě nepředstavuje demokratický backsliding, pouze manažerské a politické pochybení. Anti-bias check: stejné hodnocení by platilo pro jakoukoli jinou vládní stranu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-21T07:54:53.784Z",
+    "expires_at": "2026-09-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-109",
+    "date": "2026-06-17",
+    "headline": "Ústavní soud rozhodl o nároku poškozeného na náhradu škody v řízení o schválení dohody o vině a trestu",
+    "summary": "Ústavní soud ČR vydal nález týkající se práv poškozeného uplatnit nárok na náhradu škody v přípravném řízení, kde byla uzavřena dohoda o vině a trestu. Případ se týkal odcizení vozidla a věcí v hodnotě přes 660 tisíc Kč. Soud se vyjádřil k procesnímu postavení poškozeného v tomto typu řízení.",
+    "pillar": "judicial",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Rozhodování soudu o nároku na náhradu škody v řízení o schválení dohody o vině a trestu",
+        "url": "https://www.usoud.cz/aktualne/rozhodovani-soudu-o-naroku-na-nahradu-skody-v-rizeni-o-schvaleni-dohody-o-vine-a-trestu",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-21T07:55:05.890Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jedná se o standardní judikaturu Ústavního soudu v individuální trestněprávní věci bez systémového dopadu na demokratické instituce. Subkomponenta J4 (rovnost před zákonem) je marginálně dotčena upřesněním procesních práv poškozeného, ale událost nepředstavuje žádný demokratický backsliding ani posun. Direction 0, neboť se jedná o běžné výkladové rozhodnutí bez jednoznačně pozitivního nebo negativního institucionálního dopadu na demokratický systém. Událost je na hranici relevance pro index; zařazena pro úplnost.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-21T07:54:53.784Z",
+    "expires_at": "2026-09-09T00:00:00.000Z"
   }
 ]
