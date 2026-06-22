@@ -1,0 +1,268 @@
+[
+  {
+    "id": "2026-W26-001",
+    "date": "2026-06-22",
+    "headline": "Audit IT zakázek laboratoří jaderné ochrany: dodavatel bez referencí sídlí u KSČM",
+    "summary": "Ministerstvo vnitra plánuje audit zakázek státního ústavu pro jadernou ochranu. Vedle otázky přístupu čínských vojenských výzkumníků do laboratoří se audit zaměří na IT dodávky firmy bez referencí se sídlem v prostorách komunistické strany. Zakázky na citlivé státní IT tak mohly obdržet subjekt s nejasnou vazbou na politickou stranu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Státním laboratořím na jadernou ochranu dělá IT neznámá firma sídlící u komunistů",
+        "url": "https://denikn.cz/2100929/statnim-laboratorim-na-jadernou-ochranu-dela-it-neznama-firma-sidlici-u-komunistu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-22T08:26:53.050Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zakázka na IT pro citlivou státní infrastrukturu zadaná firmě bez referencí se sídlem u politické strany naplňuje subkomponentu K2 (transparentnost veřejných zakázek) a K1 (potenciální zneužití postavení). Audit je teprve v přípravě, tedy není prokázané pochybení, ale závažnost je 3, nikoli 4, protože jde zatím o podezření bez potvrzeného výsledku. Single source, takže dle pravidla zdrojů nelze eskalovat. Sekundárně se dotýká bezpečnostní dimenze (NÚKIB relevance, K4).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-002",
+    "date": "2026-06-22",
+    "headline": "Tisíce lidí demonstrovaly za ČT a ČRo, zaměstnanci vstoupili do stávky",
+    "summary": "Tisíce demonstrantů vyšly do ulic na podporu veřejnoprávních médií. Zaměstnanci České televize a Českého rozhlasu zároveň vstoupili do jednodenní stávky. Obě akce reflektují obavy ze zákonodárných změn ohrožujících nezávislost ČT a ČRo.",
+    "pillar": "media",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Ranních 5 minut: Tisíce lidí demonstrovaly za televizi a rozhlas | Ve Švýcarsku skončilo první kolo jednání mezi USA a Íránem | Zaměstnanci ČT a ČRo vstoupili do stávky",
+        "url": "https://denikn.cz/newsletter/2102187/na-demonstraci-na-podporu-verejnopravnich-medii-prisly-tisice-lidi-ve-svycarsku-skoncilo-prvni-kolo-jednani-mezi-usa-a-iranem-zamestnanci-ct-a-cro-vstoupili-do-jednodenni-stavky/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-22T08:26:53.050Z"
+      },
+      {
+        "title": "V České televizi a Českém rozhlase začala jednodenní stávka kvůli financování",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-v-ceske-televizi-a-ceskem-rozhlase-zacala-jednodenni-stavka-kvuli-financovani-309031",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-22T08:26:58.360Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — masová demonstrace a stávka zaměstnanců ČT/ČRo jsou přímou reakcí na legislativní tlak na veřejnoprávní média (subkomponenta M2). Samotné protesty jsou důkazem, že ohrožení nezávislosti je vnímáno jako reálné a dosáhlo prahu společenské mobilizace. Jde o součást probíhajícího strukturálního tlaku na ČT/ČRo, proto duration: persistent. Primárním pilátem je media; sekundárně civil (C2 — svoboda shromažďování uplatněná jako reakce na ohrožení instituce). Stávka je one-off událost, ale kontext přetrvávajícího konfliktu o zákon o ČT/ČRo opravňuje persistent označení.\n\n[merged with 2026-W26-010 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z"
+  },
+  {
+    "id": "2026-W26-003",
+    "date": "2026-06-22",
+    "headline": "Potrestaná soudkyně Petrusová dál rozhoduje v opatrovnických věcech navzdory kárné sankci",
+    "summary": "Soudkyně Obvodního soudu pro Prahu 6 Kamila Petrusová pokračuje v rozhodování opatrovnických kauz přesto, že ji Nejvyšší správní soud postihl za nevhodné chování. Rodiče z jejích řízení popisují nátlak a zpochybňování násilí, kritiku vznesl i veřejný ochránce práv. Případ ukazuje mezery v mechanismu kárné odpovědnosti soudců.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Soudkyni potrestali za nevhodné chování, o dětech rozhoduje dál. Rodiče opět popisují nátlak a křik",
+        "url": "https://denikn.cz/2079342/soudkyni-potrestali-za-nevhodne-chovani-o-detech-rozhoduje-dal-rodice-opet-popisuji-natlak-a-krik/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-22T08:26:53.050Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní selhání kárného systému na úrovni jednoho soudu, které samo o sobě neohrožuje instituci jako celek, ale je zaznamenáníhodné jako symptom subkomponenty J2 (ochrana účastníků před nevhodným chováním soudce, kárná odpovědnost). Kárná sankce byla udělena, přesto soudkyně dál vykonává funkci v citlivé agendě — to signalizuje nedostatečnou účinnost nápravného mechanismu. Neeskaluje na 3, protože se jedná o izolovaný případ bez prokázaného systémového vzorce; zpravodajský zdroj je single. Duration: persistent, protože soudkyně nadále zasedá.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z"
+  },
+  {
+    "id": "2026-W26-004",
+    "date": "2026-06-22",
+    "headline": "Evropský žalobce obžaloval Pekárnu Zelená louka a dvě osoby v kauze 100milionové dotace",
+    "summary": "Pověřený evropský žalobce Adam Bašný podal obžalobu na společnost Pekárna Zelená louka (součást Agrofertu) a dvě fyzické osoby v kauze podezřelého čerpání dotace na výrobní linku toastového chleba. Kauza míří před soud, přičemž vedení Agrofertu trvá na oprávněnosti dotace.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Finále kauzy 100milionové dotace na lepší toast: státní zástupce posílá před soud pekárnu a dvě osoby",
+        "url": "https://www.irozhlas.cz/zpravy-domov/dotace-lepsi-toastovy-chleb-zalobce-obzaloval-pekarnu-soud_2606220950_tec",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-22T08:26:54.320Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — podání obžaloby v kauze dotačního podvodu přesahující 100 milionů Kč spojené s politicky exponovanou skupinou (Agrofert) má precedentní institucionální dopad. Subkomponenta K1 (politická korupce, střet zájmů) a K2 (veřejné zakázky/dotace). Jde o konkrétní procesní krok (obžaloba), nikoli pouhé vyšetřování. Jeden primární zdroj, proto se neaplikuje eskalace pro potvrzený vzorec, ale závažnost zůstává na 3 pro rozsah kauzy.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-005",
+    "date": "2026-06-22",
+    "headline": "NKÚ: Česko neplní cíle rozvoje elektromobility, část dálnic bez nabíječek",
+    "summary": "Nejvyšší kontrolní úřad zjistil, že Česko zaostává za evropským průměrem v počtu elektromobilů a nesplnilo stanovené cíle pokrytí dálniční sítě nabíjecími stanicemi, a to navzdory podpoře ze strany dvou ministerstev.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Česko zaostává za evropským průměrem v počtu elektromobilů. Chybí i nabíječky, zjistili kontroloři",
+        "url": "https://www.irozhlas.cz/zpravy-domov/cesko-zaostava-za-evropskym-prumerem-v-poctu-elektromobilu-chybi-i-nabijecky_2606220941_mst",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-22T08:26:54.320Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — kontrolní zjištění NKÚ o nesplnění konkrétních cílů dvěma ministerstvy je drobný institucionální incident s omezeným dopadem, nikoli systémové selhání. Subkomponenta G4 (transparentnost vládnutí, výkaznost ministerstev). Nejde o záměrné skrývání ani politicky motivované selhání, ale o nedostatečnou implementaci politiky. Pilíř governance je primární (selhání exekutivy v naplňování vlastních cílů); pilíř corruption není naplněn, chybí jakýkoli náznak podvodu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-006",
+    "date": "2026-06-22",
+    "headline": "Vláda má rozhodnout o složení delegace na summit NATO, spor s prezidentem Pavlem přetrvává",
+    "summary": "Kabinet Andreje Babiše má v pondělí rozhodnout o složení delegace na červencový summit NATO v Ankaře a vyřešit tak několikaměsíční spor s prezidentem Petrem Pavlem, kterému část vládní koalice (Motoristé) odmítá účast na summitu přiznat. Premiér přislíbil řešení po setkání ministrů obrany NATO.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vláda má rozhodnout o složení delegace na červencový summit NATO v Ankaře",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-ma-rozhodnout-o-slozeni-delegace-na-cervencovy-summit-nato-v-ankare-374816",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-22T08:26:54.569Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — několikaměsíční spor mezi vládou a prezidentem o zastupování státu na summitu NATO se dotýká subkomponenty G1 (dělba moci, respekt k roli prezidenta) a G3 (stabilita ústavních norem). Dle Ústavy ČR je zahraniční politika sdílenou kompetencí prezidenta a vlády; odmítání prezidentovy účasti koaliční stranou překračuje standardní politické neshody a tvoří precedent ústavního napětí. Označeno jako persistent, protože spor trvá několik měsíců; samotné pondělní jednání vlády je one_off krokem uvnitř přetrvávajícího konfliktu. Single source; při potvrzení dalšími zdroji možná eskalace na severity 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z"
+  },
+  {
+    "id": "2026-W26-007",
+    "date": "2026-06-22",
+    "headline": "Ministr Macinka omezil sdílení diplomatických materiálů s prezidentskou kanceláří",
+    "summary": "Ministr zahraničí Petr Macinka (Motoristé) měl podle více zdrojů z diplomatického prostředí omezit přístup prezidentské kanceláře k části důležitých dokumentů týkajících se zahraniční politiky. Hrad upozorňuje, že nedostatečná koordinace může oslabit českou pozici při mezinárodních jednáních. Situace naznačuje zhoršení komunikace mezi Černínem a Hradem.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Macinkovo „pálení mostů“ s Pavlem. Diplomaté popisují ticho mezi Hradem a Černínem",
+        "url": "https://zpravy.aktualne.cz/domaci/macinkovo-paleni-mostu-s-pavlem-diplomate-popisuji-ticho-mezi-hradem-a-cerninem/r~aaa296052c46d9062961ed43c98520f0/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-22T08:26:56.524Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 – omezení sdílení klíčových materiálů s prezidentskou kanceláří narušuje standardní koordinaci mezi exekutivními složkami a zasahuje do subkomponenty G1 (dělba moci, respekt k roli prezidenta). Víc zdrojů z diplomacie potvrzuje konkrétní praxi, nikoli ojedinělý incident. Nejde o zákonné opatření, ale o trvalý pracovní postup, proto `persistent`. Sekundárně se dotýká i zahraniční pozice ČR, ale primárním pilířem je meziinstitucionální koordinace.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z"
+  },
+  {
+    "id": "2026-W26-008",
+    "date": "2026-06-22",
+    "headline": "Zaměstnanci ČT a ČRo zahájili jednodenní výstražnou stávku proti změně financování",
+    "summary": "Zaměstnanci České televize a Českého rozhlasu vstoupili do čtyřiadvacetihodinové výstražné stávky po půlnoci v pondělí. Protestují proti vládnímu záměru zrušit koncesionářské poplatky a přejít na financování z státního rozpočtu, což považují za ohrožení redakční nezávislosti veřejnoprávních médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "V České televizi a Českém rozhlase začala jednodenní stávka kvůli financování",
+        "url": "https://zpravy.aktualne.cz/domaci/v-ceske-televizi-a-ceskem-rozhlase-zacala-jednodenni-stavka-kvuli-financovani/r~aaa2924d00dcd4859dff71862b13d65e/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-22T08:26:56.524Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 – stávka samotná je reakcí na vládní plán, který přímo ohrožuje subkomponentu M2 (nezávislost ČT a ČRo, financování koncesionářskými poplatky). Přechod na státní rozpočet by zásadně zvýšil závislost veřejnoprávních médií na aktuální vládě; plán je zatím ve fázi záměru, nikoli schváleného zákona, proto severity 3 a nikoli 4–5. Stávka je `one_off` diskrétní událost; samotný vládní plán sledujeme jako separátní persistent událost. Sekundárně se dotýká G4 (transparentnost a vztah vlády k nezávislým institucím).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-009",
+    "date": "2026-06-22",
+    "headline": "Politicky motivovaná jmenování na čele Inspekce životního prostředí a KRNAP",
+    "summary": "Ministerstvo životního prostředí jmenovalo do vedení klíčových institucí osoby napojené na vládní strany bez relevantní odborné kvalifikace. Čelem České inspekce životního prostředí má být realitní makléř a Krkonošského národního parku člověk s dřevařským zázemím. Článek hovoří o obsazování funkcí vládními fanoušky, sponzory a osobami s extremistickými vazbami.",
+    "pillar": "governance",
+    "severity": null,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Inspekci životního prostředí povede realiťák. Krkonošský národní park dřevorubec",
+        "url": "https://denikalarm.cz/2026/06/inspekci-zivotniho-prostredi-povede-realitak-krkonossky-narodni-park-drevorubec/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-06-22T08:26:57.483Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Potenciálně severity 3–4 per rubric §3–4 (politicky motivované personální obsazení klíčových institucí, subkomponenta G4 transparentnost vládnutí a G1 dělba moci). Nicméně článek pochází z jednoho zdroje s výrazně komentátorovým tónem a hodnocení „neonacisté",
+    "reviewer": "auto",
+    "status": "needs_review",
+    "created_at": "2026-06-22T08:26:53.035Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-011",
+    "date": "2026-06-15",
+    "headline": "Starosta pardubického obvodu obviněn z manipulace s veřejnými zakázkami",
+    "summary": "Policie obvinila starostu pardubického obvodu VI Petra Králíčka z manipulace s veřejnými zakázkami. Starosta obvinění potvrdil, odmítá ale vinu a nemíní rezignovat. K události došlo minulý týden.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Starosta pardubického obvodu Králíček potvrdil, že je obviněný, vinu odmítá",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-starosta-pardubickeho-obvodu-kralicek-potvrdil-ze-je-obvineny-vinu-odmita-309040",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-22T08:26:58.360Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní obvinění lokálního představitele (starosta městského obvodu), nikoli ústavního činitele či centrálního funkcionáře. Subkomponenta K2 (veřejné zakázky). Dopad je lokální, bez systémového přesahu. Severity 3 by vyžadovala širší institucionální dopad nebo precedentní charakter; zde jde o izolovanou lokální kauzu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z",
+    "expires_at": "2026-09-07T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-012",
+    "date": "2026-06-22",
+    "headline": "Bez atestace vystupující pseudopsycholožka získala záštitu prezidenta i premiéra",
+    "summary": "Vera Nemesh vystupuje jako klinická psycholožka bez zákonné atestace, čímž způsobila problémy svým klientům. Pro akci své asociace přesto získala záštitu prezidenta Pavla i premiéra Babiše. Nejde o cílenou dezinformaci, hájí se Nemesh.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vydává se za klinickou psycholožku. Její akci zaštítil Babiš i Pavel",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-vydava-se-za-klinickou-psycholozku-jeji-akci-zastitil-babis-i-pavel-308854",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-22T08:26:58.360Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — prezident a premiér propůjčili institucionální záštitu osobě bez ověřených odborných qualifikací, což podkopává věrohodnost a důvěryhodnost státních reprezentantů (subkomponenta G4, transparentnost a výkaznost). Nejde o ústavní krizi ani systematické selhání, ale o konkrétní incident poškozující integritu nejvyšších funkcí. Single source; dopad zůstává omezený na reputační rovinu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-22T08:26:53.035Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  }
+]
