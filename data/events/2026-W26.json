@@ -44,10 +44,22 @@
         "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-v-ceske-televizi-a-ceskem-rozhlase-zacala-jednodenni-stavka-kvuli-financovani-309031",
         "outlet": "Seznam Zprávy",
         "fetched_at": "2026-06-22T08:26:58.360Z"
+      },
+      {
+        "title": "Stach ke stávce ČT a ČRo: Nechceme, aby dětem vybíral pořady algoritmus. Moje slova o odchodu platí",
+        "url": "https://denikn.cz/2102930/stach-ke-stavce-ct-a-cro-nechceme-aby-detem-vybiral-porady-algoritmus-moje-slova-o-odchodu-plati/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-23T07:31:38.837Z"
+      },
+      {
+        "title": "Černé oblečení či zprávy se zpožděním. Zaměstnanci České televize a Českého rozhlasu stávkují, nevylučují ani další protesty",
+        "url": "https://domaci.hn.cz/c1-67895240-cerne-obleceni-ci-zpravy-se-zpozdenim-zamestnanci-ceske-televize-a-rozhlasu-stavkuji-nevylucuji-ani-dalsi-protesty",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-23T07:31:41.897Z"
       }
     ],
     "score_impact": -1.5,
-    "rationale": "Severity 3 per rubric §3 — masová demonstrace a stávka zaměstnanců ČT/ČRo jsou přímou reakcí na legislativní tlak na veřejnoprávní média (subkomponenta M2). Samotné protesty jsou důkazem, že ohrožení nezávislosti je vnímáno jako reálné a dosáhlo prahu společenské mobilizace. Jde o součást probíhajícího strukturálního tlaku na ČT/ČRo, proto duration: persistent. Primárním pilátem je media; sekundárně civil (C2 — svoboda shromažďování uplatněná jako reakce na ohrožení instituce). Stávka je one-off událost, ale kontext přetrvávajícího konfliktu o zákon o ČT/ČRo opravňuje persistent označení.\n\n[merged with 2026-W26-010 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 — masová demonstrace a stávka zaměstnanců ČT/ČRo jsou přímou reakcí na legislativní tlak na veřejnoprávní média (subkomponenta M2). Samotné protesty jsou důkazem, že ohrožení nezávislosti je vnímáno jako reálné a dosáhlo prahu společenské mobilizace. Jde o součást probíhajícího strukturálního tlaku na ČT/ČRo, proto duration: persistent. Primárním pilátem je media; sekundárně civil (C2 — svoboda shromažďování uplatněná jako reakce na ohrožení instituce). Stávka je one-off událost, ale kontext přetrvávajícího konfliktu o zákon o ČT/ČRo opravňuje persistent označení.\n\n[merged with 2026-W26-010 — same incident, sources combined]\n\n[merged with 2026-W26-015 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-22T08:26:53.035Z"
@@ -138,10 +150,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-ma-rozhodnout-o-slozeni-delegace-na-cervencovy-summit-nato-v-ankare-374816",
         "outlet": "ČT24",
         "fetched_at": "2026-06-22T08:26:54.569Z"
+      },
+      {
+        "title": "Silové řešení, hodnotí neúčast Pavla na summitu NATO Lipavský. Rozumné, namítá Vondráček",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/silove-reseni-hodnoti-neucast-pavla-na-summitu-nato-lipavsky-rozumne-namita-vondracek-374856",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-23T07:31:39.781Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — několikaměsíční spor mezi vládou a prezidentem o zastupování státu na summitu NATO se dotýká subkomponenty G1 (dělba moci, respekt k roli prezidenta) a G3 (stabilita ústavních norem). Dle Ústavy ČR je zahraniční politika sdílenou kompetencí prezidenta a vlády; odmítání prezidentovy účasti koaliční stranou překračuje standardní politické neshody a tvoří precedent ústavního napětí. Označeno jako persistent, protože spor trvá několik měsíců; samotné pondělní jednání vlády je one_off krokem uvnitř přetrvávajícího konfliktu. Single source; při potvrzení dalšími zdroji možná eskalace na severity 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — několikaměsíční spor mezi vládou a prezidentem o zastupování státu na summitu NATO se dotýká subkomponenty G1 (dělba moci, respekt k roli prezidenta) a G3 (stabilita ústavních norem). Dle Ústavy ČR je zahraniční politika sdílenou kompetencí prezidenta a vlády; odmítání prezidentovy účasti koaliční stranou překračuje standardní politické neshody a tvoří precedent ústavního napětí. Označeno jako persistent, protože spor trvá několik měsíců; samotné pondělní jednání vlády je one_off krokem uvnitř přetrvávajícího konfliktu. Single source; při potvrzení dalšími zdroji možná eskalace na severity 4.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W26-018 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-22T08:26:53.035Z"
@@ -263,6 +281,345 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-22T08:26:53.035Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-013",
+    "date": "2026-06-23",
+    "headline": "Podcast: Odchod Václava Moravce z ČT spojen s tlakem radního Matochy, přítele Pavla Tykače",
+    "summary": "Nový díl podcastové série popisuje odchod dlouholetého moderátora Václava Moravce z České televize v březnu 2026. O jeho odchod se dle reportáže dlouhodobě zasazoval radní Pavel Matocha, jenž je přítelem podnikatele Pavla Tykače z šachového klubu, což vyvolává otázky ohledně politického a zájmového tlaku na programové rozhodování ČT.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Tykačův svět: 4. díl – Tykadla na Kavkách",
+        "url": "https://denikn.cz/2102531/tykacuv-svet-4-dil-tykadla-na-kavkach/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-23T07:31:38.837Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — odchod prominentního pořadu (OVM, přes 20 let na ČT) v kontextu prokazatelné osobní vazby radního na podnikatele Tykače je incident, který vytváří precedent pro de facto politický/zájmový vlak na editoriální obsah veřejnoprávního média (subkomponenta M2). Rubric §3 uvádí přímo 'veřejnoprávní médium zruší pořad nebo odvolá moderátora po prokazatelném politickém tlaku' jako typický příklad severity 4; nicméně v tomto případě je tlak doložen nepřímo (přátelství, nikoli přímý příkaz), proto zůstáváme na 3. Single-source, eskalace na 4 by vyžadovala druhý nezávislý zdroj potvrzující přímý politický/zájmový nátlak. Sekundárně se dotýká pilíře corruption (K1 — střet zájmů v proceduře rady ČT).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-014",
+    "date": "2026-06-22",
+    "headline": "Babiš rozhodl, že prezident Pavel se nezúčastní summitu NATO v Ankaře",
+    "summary": "Premiér Andrej Babiš definitivně odmítl účast prezidenta Petra Pavla na summitu NATO v Ankaře s odůvodněním, že rozhodnutí, která se tam budou přijímat, jsou příliš závažná. Toto rozhodnutí znovu otevírá ústavní otázku kompetencí v oblasti zahraniční politiky mezi exekutivou a hlavou státu.",
+    "pillar": "governance",
+    "severity": 4,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Pointa N: Tohle se Babišovi povedlo. A rozhodl také o Ankaře",
+        "url": "https://denikn.cz/2103332/pointa-n-tohle-se-babisovi-povedlo-a-rozhodl-take-o-ankare/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-23T07:31:38.837Z"
+      },
+      {
+        "title": "„Není to z trucu.“ Vláda potvrdila, že nechce prezidenta na summitu NATO v Ankaře",
+        "url": "https://denikn.cz/2103064/neni-to-z-trucu-vlada-potvrdila-ze-nechce-prezidenta-na-summitu-nato-v-ankare/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-23T07:31:38.837Z"
+      },
+      {
+        "title": "Vláda rozhodla: Pavel na summit NATO nepojede. &bdquo;Prezident obratem posílá žalobu k Ústavnímu soudu,&ldquo; říká jeho poradce",
+        "url": "https://domaci.hn.cz/c1-67895170-vlada-rozhodla-pavel-na-summit-nato-nepojede-bdquo-prezident-obratem-posila-do-brna-ustavni-zalobu-ldquo-rika-jeho-poradce",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-23T07:31:41.897Z"
+      },
+      {
+        "title": "Vláda nechce prezidenta na summitu v Ankaře. „Je to chyba,“ říká politolog",
+        "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-5-59-vlada-nechce-prezidenta-na-summitu-v-ankare-je-to-chyba-rika-politolog-309056",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-23T07:31:43.732Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 3 per rubric §3 — Premiérovo odmítnutí účasti prezidenta na klíčovém summitu NATO je konkrétním projevem sporu o dělbu kompetencí v zahraniční politice (subkomponenta G1: dělba moci, respekt k roli prezidenta). Ústavní pořádek ČR svěřuje prezidentovi roli v zastupování státu navenek; premiérovo jednostranné blokování tuto rovnováhu narušuje a vytváří precedent. Jde o opakující se typ konfliktu Babiš–Pavel, což by dle eskalačního pravidla (≥3 podobné incidenty v 12 týdnech) mohlo odůvodnit severity 4, nicméně bez přímé evidence systematického vzorce v tomto konkrétním kontextu zůstáváme na 3. Sekundárně se dotýká pilíře electoral (E4 — respekt k institucionální roli volené hlavy státu).\n\n[merged with 2026-W26-016 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W26-025 — same incident, sources combined]\n\n[merged with 2026-W26-030 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-017",
+    "date": "2026-06-23",
+    "headline": "EBU a 17 veřejnoprávních médií varují: vládní návrh financování ČT a ČRo postrádá záruky nezávislosti",
+    "summary": "Evropská vysílací unie spolu se 17 veřejnoprávními médii ze střední a východní Evropy a osmi novinářskými organizacemi vydala společné prohlášení, v němž kritizuje vládní návrh zákona o financování ČT a ČRo ze státního rozpočtu. Návrh podle nich neobsahuje legislativní záruky proti politickému ovlivňování rozhodnutí o financování. EBU vyzývá českou vládu, aby od plánovaných změn upustila.",
+    "pillar": "media",
+    "severity": 4,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Návrh zákona o financování veřejnoprávních médií neobsahuje záruky, varuje EBU",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/navrh-zakona-o-financovani-verejnopravnich-medii-neobsahuje-zaruky-varuje-ebu-374862",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-23T07:31:39.781Z"
+      },
+      {
+        "title": "Odboráři ČT a ČRo po jednání s koalicí: Návrh změny financování je nepřijatelný",
+        "url": "https://zpravy.aktualne.cz/domaci/odborari-ct-a-cro-po-jednani-s-koalici-navrh-zmeny-financovani-je-neprijatelny/r~aaa293760810acb86ee7b250417860a6/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-23T07:31:42.692Z"
+      },
+      {
+        "title": "Evropská vysílací unie: Změna financování ČT a rozhlasu neobsahuje záruky",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-evropska-vysilaci-unie-zmena-financovani-ct-a-rozhlasu-neobsahuje-zaruky-309111",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-23T07:31:43.732Z"
+      }
+    ],
+    "score_impact": -3,
+    "rationale": "Severity 4 per rubric §4 — návrh zákona, který přesouvá financování ČT a ČRo do státního rozpočtu bez legislativních záruk, přímo ohrožuje redakční a provozní nezávislost veřejnoprávních médií (subkomponenta M2). Jde o formální legislativní dokument (vládní návrh zákona), nikoli pouhý záměr, což dle eskalačního pravidla (+1 za existenci formálního dokumentu) posouvá závažnost výše. Reakce mezinárodního orgánu (EBU) potvrzující ohrožení normy je dalším eskalačním faktorem. Událost je klasifikována jako persistent, protože návrh zákona je v legislativním procesu a jeho dopady budou trvající. Sekundárně se dotýká pilíře governance (G4 — transparentnost a institucionální nezávislost).\n\n[merged with 2026-W26-027 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W26-033 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-23T07:31:38.823Z"
+  },
+  {
+    "id": "2026-W26-019",
+    "date": "2026-06-22",
+    "headline": "Šéf EBU varoval Babiše: přechod na státní financování ČT a ČRo musí mít pojistky nezávislosti",
+    "summary": "Generální ředitel Evropské vysílací unie Noel Curran se setkal s premiérem Babišem a upozornil, že plánované zrušení koncesionářských poplatků a přechod na přímé státní financování ČT a ČRo vyžaduje záruky udržitelnosti a nezávislosti. EBU spolu s dalšími mezinárodními organizacemi vydala společné prohlášení vyjadřující vážné znepokojení nad tímto záměrem.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "ČT a ČRo hrají jedinečnou roli, říká šéf Evropské vysílací unie",
+        "url": "https://ct24.ceskatelevize.cz/clanek/media/rozhovor-se-sefem-evropske-vysilaci-unie-o-verejnopravnich-mediich-374854",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-23T07:31:39.781Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — záměr přejít na státní financování ČT a ČRo je v pokročilé fázi přípravy (vláda plánuje od 1. 1.), přičemž mezinárodní orgán (EBU) veřejně vyjádřil vážné znepokojení; toto odpovídá eskalační podmínce rubric §3 'zákon o ČT/ČRo s návrhy, které mění politickou kontrolu… ale je v rané fázi'. Subkomponenta M2 (nezávislost ČT a ČRo, financování). Reakce EBU splňuje indikátor mezinárodní reakce, ale formální schválení dosud nenastalo, proto severity 3 nikoli 4. Direction -1, protože přímé státní financování bez pojistek oslabuje redakční nezávislost. Persistent, protože záměr trvá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z"
+  },
+  {
+    "id": "2026-W26-020",
+    "date": "2026-06-22",
+    "headline": "Vláda podpořila poslaneckou novelu rozšiřující okruh osvobozených od poplatků ČT a ČRo",
+    "summary": "Kabinet vydal kladné stanovisko k poslaneckému návrhu, který rozšiřuje okruh osob a firem osvobozených od platby koncesionářských poplatků, přestože vláda zároveň plánuje poplatky od nového roku zcela zrušit a nahradit je státním financováním. Tento krok dále oslabuje stávající model financování veřejnoprávních médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vláda se staví kladně k poslanecké novele omezující okruh plátců ČT a ČRo",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-se-stavi-kladne-k-poslanecke-novele-omezujici-okruh-platcu-ct-a-cro-374841",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-23T07:31:39.781Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní procedurální krok (kladné stanovisko vlády) s omezeným přímým dopadem, protože samotný záměr rušit poplatky je sledován jako záměr od 1. 1. a tento návrh je jeho mezikrokem. Subkomponenta M2 (financování ČT a ČRo). Jako samostatná událost nemá precedentní charakter — je součástí širšího záměru, jehož hlavní dopad bude vyhodnocen při schválení zákona. One_off, protože jde o jednorázové stanovisko vlády. Pokud by byl zákon schválen, severity by eskalovala na 4–5.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-021",
+    "date": "2026-06-22",
+    "headline": "Obžaloba pekárny Agrofert a dvou osob kvůli dotačnímu podvodu na 100 milionů korun",
+    "summary": "Státní zástupce podal obžalobu na společnost spadající pod holding Agrofert a dva jednotlivce v souvislosti s čerpáním evropské dotace 100 milionů korun na inovační linku na toastový chléb. Případ bude projednávat Krajský soud v Praze. Agrofert odmítá protiprávnost, premiér Babiš obžalobu označil za účelovou.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Padla obžaloba za dotace Agrofertu na linku na toastový chléb",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/statni-zastupce-obzaloval-pekarnu-pod-agrofertem-a-dva-lidi-kvuli-dotacim-na-inovacni-linku-374836",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-23T07:31:39.781Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — podání obžaloby v dotační kauze propojené s holdingem bývalého premiéra představuje konkrétní institucionální krok protikorupčních orgánů (subkomponenta K1 — politická korupce, K2 — zneužití veřejných prostředků). Nejde o odsuzující rozsudek, ale o zahájení soudního řízení, což je věcně méně závažné než pravomocné odsouzení, avšak politická citlivost (Babiš označuje případ za účelový) zvyšuje institucionální relevanci. Pilíř corruption je primární; sekundárně se dotýká pilíře electoral vzhledem k osobě Babiše jako aktivního premiéra. Jeden zdroj — dle source-count pravidla zůstává severity 3 jako přiměřená pro obžalobu krajským soudem s jasným faktickým základem.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-022",
+    "date": "2026-06-22",
+    "headline": "Nepravomocný rozsudek: advokátka Suková a její dcera odsouzeny za zpronevěru 161 milionů korun",
+    "summary": "Soud uložil advokátce a její dceři tresty odnětí svobody v délce 7 a 5,5 roku za zpronevěru více než 161 milionů korun z advokátních úschov. Oběma byl zároveň zakázán výkon advokacie na deset let. Rozsudek není pravomocný, peníze se nepodařilo dohledat.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Soud poslal do vězení advokátku Sukovou a její dceru za zpronevěru desítek milionů korun",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/soud-poslal-do-vezeni-advokatku-sukovou-a-jeji-dceru-za-zproneveru-desitek-milionu-korun-374832",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-23T07:31:39.781Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — nepravomocný odsuzující rozsudek za zpronevěru v advokacii má charakter konkrétního porušení normy s omezeným dopadem na demokratické instituce jako takové. Případ se primárně dotýká subkomponenty K1 (korupce a zneužití svěřených prostředků) a okrajově J2 (integrity advokátního prostředí jako součásti právního systému). Trestní soudnictví funguje standardně — to je ve směru 0, ale skutková podstata samotného deliktu je negativní jev. Samotné pravomocné uložení trestu je pozitivní (justice funguje), avšak primárním zachycením je fakt korupčního deliktu, nikoli institucionální selhání. Nepravomocný rozsudek bez politické dimenze nevytváří precedent pro demokratický backsliding — proto severity 2, nikoli 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-023",
+    "date": "2026-06-22",
+    "headline": "Vláda schválila novelu zpřístupňující registr skutečných majitelů firem veřejnosti",
+    "summary": "Vláda schválila návrh novely zákona o evidenci skutečných majitelů, která od příštího roku znovu umožní veřejný přístup k informacím o vlastnících firem. Novela reaguje na dřívější omezení přístupu k registru a zavádí mechanismus, který vlastníkům umožní zjistit, kdo si o ně informace vyžádal.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Stát opět pootevře dvířka do evidence skutečných majitelů firem. Ti uvidí, kdo se na ně informoval",
+        "url": "https://archiv.hn.cz/c1-67895250-stat-opet-pootevre-dvirka-do-evidence-skutecnych-majitelu-firem-ti-uvidi-kdo-se-na-ne-informoval",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-23T07:31:41.897Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — schválení vládního návrhu novely (dosud pouze vládní schválení, nikoli zákon v účinnosti) je konkrétní pozitivní krok v oblasti transparentnosti vlastnické struktury firem, relevantní pro subkomponentu K2 (transparentnost veřejných zakázek a vlastnických vztahů) a K1. Dosud jde o schválení vládou, nikoli o účinný zákon — dle pravidla de-eskalace (rubric: eskalace +1 za formální dokument zákon vs. záměr) zůstává na úrovni 2. Směr +1, protože novela institucionální transparentnost posiluje. Pokud novelu schválí parlament a nabude účinnosti, bude vhodné přehodnotit na severity 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-026",
+    "date": "2026-06-23",
+    "headline": "Babiš nevzal prezidenta Pavla na summit NATO — koaliční tlak koalice upřednostněn před protokolem",
+    "summary": "Premiér Andrej Babiš se rozhodl nevzít prezidenta Petra Pavla na summit NATO, přičemž dle analýzy upřednostnil koaliční partnery Okamuru a Macinka, kteří vedou systematickou politiku vůči Pavlovi. Rozhodnutí je interpretováno jako výsledek koalicní politiky, nikoli protokolárních důvodů.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Co mám dělat s Macinkou a Okamurou?“ Jak se Babiš rozhodl nevzít prezidenta na summit",
+        "url": "https://zpravy.aktualne.cz/domaci/to-jsou-chvile-ktere-babis-nema-rad-co-predchazelo-rozhodnuti-vynechat-prezidenta/r~aaa29d48022018ec66770671dd7bc2e8/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-23T07:31:42.692Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — vyloučení prezidenta z summitu NATO premiérem na základě koaličního tlaku se dotýká subkomponenty G1 (dělba moci, respekt k roli prezidenta). Jde o precedent v ústavní zvyklosti spolupráce prezident–premiér v zahraniční politice. Článek je analytický, ale popisuje konkrétní datovanou událost (rozhodnutí učiněné bezprostředně před summitem) s institucionálním dopadem. Sekundárně se dotýká vztahu koaliční politiky a institucionálního protokolu.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-028",
+    "date": "2026-06-23",
+    "headline": "Promotér Novotný na veřejné ceremoniálii obvinil ministra kultury Klempíře ze snahy zničit veřejnoprávní média",
+    "summary": "Mediální podnikatel Ondřej Novotný při přebírání ocenění Podcast roku veřejně a ostře kritizoval ministra kultury, jehož obvinil ze záměrného ničení veřejnoprávních médií. Výrok zazněl na slavnostní akci a byl formulován jako přímé politické obvinění.",
+    "pillar": "media",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Člověk bez páteře, estébácká špína.“ Promotér Novotný kritizoval Klempíře",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-clovek-bez-patere-estebacka-spina-promoter-novotny-kritizoval-klempire-309122",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-23T07:31:43.732Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o verbální výrok soukromé osoby (byť veřejně známé) bez přímého institucionálního dopadu. Subkomponenta M2 je relevantní pouze nepřímo — výrok reflektuje veřejnou debatu o stavu ČT/ČRo, ale sám o sobě nic nemění. Direction 0, protože výrok je projevem svobody slova (pozitivní pro C1), ale obsah kritizuje institucionální ohrožení (negativní konotace pro M2) — bez jasného institucionálního směru. Anti-bias check: stejně bych hodnotil kritiku opozičního politika ze strany mediálního podnikatele.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-029",
+    "date": "2026-06-23",
+    "headline": "Čtyři členové komise cen za kinematografii rezignovali na protest proti Klempířovým plánům",
+    "summary": "Většina členů komise Cen ministerstva kultury za kinematografii podala demisi jako protest proti záměru ministra kultury Oty Klempíře změnit způsob financování ČT a ČRo. Rezignace signalizují rostoucí odpor odborné veřejnosti vůči vládním plánům ohledně veřejnoprávních médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Čtyři členové komise ceny za kinematografii rezignovali, nesouhlasí s Klempířem",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-ctyri-clenove-komise-ceny-za-kinematografii-rezignovali-nesouhlasi-s-klempirem-309130",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-23T07:31:43.732Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní personální protest s omezeným přímým institucionálním dopadem (komise poradní, nikoli rozhodovací), ale zaznamenaný jako součást širšího vzorce odporu vůči Klempířovým reformám (subkomponenta M2). Samotná rezignace členů poradní komise nenaplňuje práh §3, protože nezasahuje přímo do editoriální nezávislosti ČT/ČRo. Sekundárně relevantní: pokud jsou Klempířovy kroky součástí opakujícího se vzorce (viz indexy [3] a [4] téhož týdne), může eskalovat na 3, ale pro tuto konkrétní událost zůstáváme na 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-031",
+    "date": "2026-06-23",
+    "headline": "Stavební úřad v Bílině čtyři roky neřešil černé stavby ministryně Mrázové; vedoucí úřadu je její přítel",
+    "summary": "Investigativní zjištění ukazují, že úředníci bílinského stavebního úřadu věděli nejméně čtyři roky o nepovolených stavbách ministryně Zuzany Mrázové, přesto nepodnikli žádné kroky. Vedoucí stavebního úřadu je s Mrázovou v přátelském vztahu a jako důvod nečinnosti uvádí absenci formálního podnětu.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Bílina roky neřešila černé stavby Mrázové. Stavební úřad vede její kamarád",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-bilina-roky-neresila-cerne-stavby-mrazove-stavebni-urad-vede-jeji-kamarad-308592",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-23T07:31:43.732Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — čtyřletá nečinnost úřadu ve věci černých staveb osoby v politické funkci je konkrétní, datovatelný vzorec selhání institucionálního dohledu. Naplňuje subkomponentu K1 (střet zájmů a zneužívání pravomoci) a subkomponentu K4 (nefunkčnost kontrolních institucí na lokální úrovni). Osobní vazba vedoucího úřadu na ministryni zvyšuje indicii systémového selhání, nikoliv jen náhody, ale zatím jsou dostupné pouze z jednoho zdroje (single source rule — bez eskalace na 4). Duration: persistent, protože nečinnost trvá min. 4 roky a stav dosud nebyl napraven. Sekundárně: governance (odpovědnost ústavního činitele).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z"
+  },
+  {
+    "id": "2026-W26-032",
+    "date": "2026-06-22",
+    "headline": "Zaměstnanci ČT uspořádali výstražnou stávku před budovou zpravodajství",
+    "summary": "Zaměstnanci České televize se sešli před budovou zpravodajství na výstražné stávce a vyzvali k veřejné debatě politiků s vedením ČT. Představitelé protestu avizovali, že výstražná stávka je teprve začátkem a zvažují i odchod ze zaměstnání. Akce proběhla v kontextu vládních plánů na změnu financování veřejnoprávních médií.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Je potřeba extrémní přístup.“ Hvězdy ČT zvažují, co dál, mluví i o odchodu",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-je-potreba-extremni-pristup-hvezda-ct-vyzvala-k-preruseni-vysilani-309074",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-23T07:31:43.732Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — výstražná stávka zaměstnanců ČT jako reakce na vládní záměry je konkrétní datovaná událost s institucionálním dopadem: signalizuje závažné ohrožení editoriální nezávislosti veřejnoprávního média (subkomponenta M2). Jde o první formální kolektivní akci (stávka), nikoliv jen verbální kritiku, což překračuje práh §2. Současně probíhající mezinárodní reakce (EBU, viz index [4]) potvrzuje závažnost vzorce, ale samotná stávka je one_off událost. Sekundárně relevantní: civil (svoboda sdružování a právo na stávku, C2/C3).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
     "expires_at": "2026-09-14T00:00:00.000Z"
   }
 ]

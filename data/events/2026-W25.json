@@ -2295,5 +2295,28 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-22T08:26:53.035Z"
+  },
+  {
+    "id": "2026-W25-115",
+    "date": "2026-06-21",
+    "headline": "Tisíce lidí protestovaly na Kavčích horách proti změnám financování ČT a ČRo",
+    "summary": "Ve Strahovském areálu na Kavčích horách se v neděli sešly tisíce lidí na demonstraci na podporu veřejnoprávních médií. Akci inicioval spolek Milion chvilek jako reakci na vládou Andreje Babiše schválené změny ve financování České televize a Českého rozhlasu, konkrétně zrušení koncesionářských poplatků.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Obrazem: Na akci na podporu veřejnoprávních médií dorazil i Adam Šejna z ministerstva životního prostředí. Lidé ho vypískali",
+        "url": "https://denikn.cz/2102164/obrazem-ceskou-televizi-ani-rozhlas-nedame-tisice-lidi-na-kavcich-horach-protestovaly-proti-zruseni-koncesionarskych-poplatku/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-23T07:31:38.837Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — protest samotný je občanskou reakcí na probíhající legislativní změny (subkomponenta M2), nikoli novou institucionální akcí. Základní negativní událost (schválení změn financování ČT/ČRo) již proběhla dříve a byla by klasifikována výše; zde jde o reakci na ni. Skutečnost, že vláda schválila změny financování veřejnoprávních médií, je persistent negativní signal pro pilíř media — narušení principu nezávislého financování koncesionářskými poplatky. Bez znalosti přesného data schválení vládní změny direction zůstává -1. Sekundárně zasahuje pilíř civil (subkomponenta C2 — právo shromažďování proběhlo bez problémů).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z"
   }
 ]

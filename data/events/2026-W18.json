@@ -1616,7 +1616,7 @@
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS konstatuje pochybení obecných soudů v konkrétní trestní věci (subkomponenta J2: nezávislost a řádné fungování obecných soudů, procesní práva). Dopad je omezen na individuální kauzu bez systémového precedentu, avšak upozornění na nejednotnost judikatury NS přidává institucionální rozměr. Nesplňuje práh severity 3, protože nejde o politicky motivovaný tlak ani o strukturální ohrožení instituce — jde o standardní korekci pochybení v rámci ústavní stížnosti.\n\n[merged with 2026-W18-079 — same incident, sources combined]\n\n[merged with 2026-W18-079 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-082 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-084 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-084 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS konstatuje pochybení obecných soudů v konkrétní trestní věci (subkomponenta J2: nezávislost a řádné fungování obecných soudů, procesní práva). Dopad je omezen na individuální kauzu bez systémového precedentu, avšak upozornění na nejednotnost judikatury NS přidává institucionální rozměr. Nesplňuje práh severity 3, protože nejde o politicky motivovaný tlak ani o strukturální ohrožení instituce — jde o standardní korekci pochybení v rámci ústavní stížnosti.\n\n[merged with 2026-W18-079 — same incident, sources combined]\n\n[merged with 2026-W18-079 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-082 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-084 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-084 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-084 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-05-03T07:04:57.169Z",
@@ -1784,7 +1784,7 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález posiluje standardy ochrany práv oběti v trestním řízení (subkomponenta J4, rovnost a ochrana zranitelných osob před zákonem). Směr +1, protože ÚS korigoval pochybení nižších soudů a vytvořil precedent ve prospěch ochrany práv. Nedosahuje severity 3, protože jde o individuální případ bez širšího systémového dopadu na fungování institucí; nejde o politicky motivované selhání ani o ohrožení nezávislosti justice.\n\n[merged with 2026-W18-081 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 2 per rubric §2 — nález posiluje standardy ochrany práv oběti v trestním řízení (subkomponenta J4, rovnost a ochrana zranitelných osob před zákonem). Směr +1, protože ÚS korigoval pochybení nižších soudů a vytvořil precedent ve prospěch ochrany práv. Nedosahuje severity 3, protože jde o individuální případ bez širšího systémového dopadu na fungování institucí; nejde o politicky motivované selhání ani o ohrožení nezávislosti justice.\n\n[merged with 2026-W18-081 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W18-083 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-05-31T07:33:41.535Z",

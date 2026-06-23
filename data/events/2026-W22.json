@@ -1604,7 +1604,7 @@
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — odhalení konkrétní kauzy s vazbou na státem sankcionované subjekty a podezření z válečných zločinů vytváří precedent ohledně selhání protikorupčních a bezpečnostních mechanismů (subkomponenta K4 — protikorupční instituce a jejich účinnost; sekundárně K2 — transparentnost vlastnických struktur). Jde o jednoho dodavatele/vlastníka, nikoli o strukturální schéma s doloženými vazbami na českou politiku, proto §3 nikoli §4. Jeden primární zdroj (investigace.cz) — per source-count rule zůstává na 3 (nikoli null), protože fakticita je doložena konkrétními jmény a dokumenty; downgrade by byl na místě při jediném anonymním tvrzení.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — odhalení konkrétní kauzy s vazbou na státem sankcionované subjekty a podezření z válečných zločinů vytváří precedent ohledně selhání protikorupčních a bezpečnostních mechanismů (subkomponenta K4 — protikorupční instituce a jejich účinnost; sekundárně K2 — transparentnost vlastnických struktur). Jde o jednoho dodavatele/vlastníka, nikoli o strukturální schéma s doloženými vazbami na českou politiku, proto §3 nikoli §4. Jeden primární zdroj (investigace.cz) — per source-count rule zůstává na 3 (nikoli null), protože fakticita je doložena konkrétními jmény a dokumenty; downgrade by byl na místě při jediném anonymním tvrzení.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W22-131 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-28T07:40:18.588Z",
@@ -1676,7 +1676,7 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS konkretizuje právo na právní pomoc (subkomponenta J4: rovnost před zákonem, fair proces) v specifické kategorii řízení s nezletilými. Jde o pozitivní posilující událost (+1 direction), která zpřesňuje ochranu procesních práv. Dopad je persistent, neboť nález vytváří závazný precedent pro budoucí řízení. Není to strukturální změna systému, proto severity 2 nikoliv 3.",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS konkretizuje právo na právní pomoc (subkomponenta J4: rovnost před zákonem, fair proces) v specifické kategorii řízení s nezletilými. Jde o pozitivní posilující událost (+1 direction), která zpřesňuje ochranu procesních práv. Dopad je persistent, neboť nález vytváří závazný precedent pro budoucí řízení. Není to strukturální změna systému, proto severity 2 nikoliv 3.\n\n[merged with 2026-W22-132 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-28T07:40:18.588Z"
@@ -2740,5 +2740,29 @@
     "status": "active",
     "created_at": "2026-06-02T07:57:49.909Z",
     "expires_at": "2026-08-21T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-133",
+    "date": "2026-05-27",
+    "headline": "ÚS potvrdil bezvýjimečnou platnost presumpce neviny i u sexuálních trestných činů",
+    "summary": "Ústavní soud vyhlásil dva nálezy týkající se zločinu znásilnění: v prvním zrušil odsouzení, protože soudy nedostatečně zvažovaly obhajobu obviněného a bez dalšího přijaly verzi poškozené; ve druhém se zabýval trestním stíháním ženy, která dříve nahlásila znásilnění. Oba nálezy zdůrazňují, že presumpce neviny platí bez výjimky pro všechny trestné činy včetně sexuálních.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Presumpce neviny obviněných ze sexuálních trestných činů i oznamovatelů následně stíhaných pro křivé obvinění",
+        "url": "https://www.usoud.cz/aktualne/presumpce-neviny-obvinenych-ze-sexualnich-trestnych-cinu-i-oznamovatelu-nasledne-stihanych-pro-krive-obvineni",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-23T07:32:01.951Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — ÚS reaguje na konkrétní pochybení obecných soudů v oblasti procesních práv (subkomponenta J2 — nezávislost a správnost obecných soudů, J4 — rovnost před zákonem). Pozitivní směr (+1): nález koriguje soudní praxi a potvrzuje klíčovou procesní zásadu. Dopad je judikatorně důležitý, ale jde o standardní kontrolní funkci ÚS bez širšího systémového přesahu do demokratického backslidingu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
   }
 ]
