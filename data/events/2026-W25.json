@@ -2318,5 +2318,28 @@
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-23T07:31:38.823Z"
+  },
+  {
+    "id": "2026-W25-116",
+    "date": "2026-06-20",
+    "headline": "Hnutí PRO systematicky ovládá veřejné debaty o větrné energii dezinformační kampaní",
+    "summary": "Dva lidé napojení na hnutí PRO Jindřicha Rajchla se podle zjištění A2larmu koordinovaně účastní většiny veřejných besed o větrných elektrárnách a šíří dezinformace. Jde o organizovanou snahu zkreslovat veřejnou debatu o energetice s politickým pozadím.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Besedy o větrných elektrárnách ovládlo PRO Jindřicha Rajchla",
+        "url": "https://denikalarm.cz/2026/06/besedy-o-vetrnych-elektrarnach-ovladlo-pro-jindricha-rajchla/",
+        "outlet": "A2larm",
+        "fetched_at": "2026-06-24T07:28:11.124Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — koordinovaná dezinformační kampaň politicky profilovaného hnutí na veřejných debatách má lokální dopad na kvalitu veřejné diskuse (subkomponenta M1, mediální pluralita a dezinformační prostředí). Nejde o přímý útok na instituci, ale o opakovanou manipulaci informačního prostředí. Článek pochází z jednoho zdroje, proto se neuplatní eskalace. Sekundárně se dotýká pilíře `civil` (C1, svoboda projevu a informační prostředí). Anti-bias check: stejný přístup bychom aplikovali na koordinovanou kampaň jakéhokoli jiného politického hnutí.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z"
   }
 ]

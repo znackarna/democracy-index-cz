@@ -56,12 +56,18 @@
         "url": "https://domaci.hn.cz/c1-67895240-cerne-obleceni-ci-zpravy-se-zpozdenim-zamestnanci-ceske-televize-a-rozhlasu-stavkuji-nevylucuji-ani-dalsi-protesty",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-06-23T07:31:41.897Z"
+      },
+      {
+        "title": "Ranních 5 minut: Vláda nepočítá s účastí prezidenta na summitu NATO v Ankaře | Zaměstnanci ČT a ČRo stávkovali | Britský premiér Starmer rezignoval",
+        "url": "https://denikn.cz/newsletter/2103696/vlada-nepocita-s-ucasti-prezidenta-na-summitu-nato-v-ankare-zamestnanci-ct-a-cro-stavkovali-britsky-premier-starmer-rezignoval/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-24T07:28:06.545Z"
       }
     ],
     "score_impact": -1.5,
-    "rationale": "Severity 3 per rubric §3 — masová demonstrace a stávka zaměstnanců ČT/ČRo jsou přímou reakcí na legislativní tlak na veřejnoprávní média (subkomponenta M2). Samotné protesty jsou důkazem, že ohrožení nezávislosti je vnímáno jako reálné a dosáhlo prahu společenské mobilizace. Jde o součást probíhajícího strukturálního tlaku na ČT/ČRo, proto duration: persistent. Primárním pilátem je media; sekundárně civil (C2 — svoboda shromažďování uplatněná jako reakce na ohrožení instituce). Stávka je one-off událost, ale kontext přetrvávajícího konfliktu o zákon o ČT/ČRo opravňuje persistent označení.\n\n[merged with 2026-W26-010 — same incident, sources combined]\n\n[merged with 2026-W26-015 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 — masová demonstrace a stávka zaměstnanců ČT/ČRo jsou přímou reakcí na legislativní tlak na veřejnoprávní média (subkomponenta M2). Samotné protesty jsou důkazem, že ohrožení nezávislosti je vnímáno jako reálné a dosáhlo prahu společenské mobilizace. Jde o součást probíhajícího strukturálního tlaku na ČT/ČRo, proto duration: persistent. Primárním pilátem je media; sekundárně civil (C2 — svoboda shromažďování uplatněná jako reakce na ohrožení instituce). Stávka je one-off událost, ale kontext přetrvávajícího konfliktu o zákon o ČT/ČRo opravňuje persistent označení.\n\n[merged with 2026-W26-010 — same incident, sources combined]\n\n[merged with 2026-W26-015 — same incident, sources combined]\n\n[merged with 2026-W26-035 — same incident, sources combined]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "needs_review",
     "created_at": "2026-06-22T08:26:53.035Z"
   },
   {
@@ -621,5 +627,385 @@
     "status": "active",
     "created_at": "2026-06-23T07:31:38.823Z",
     "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-033",
+    "date": "2026-06-24",
+    "headline": "Pavel podal kompetenční žalobu kvůli sporu s vládou o účast na summitu NATO v Ankaře",
+    "summary": "Prezident Petr Pavel podal kompetenční žalobu k Ústavnímu soudu poté, co vláda odmítla jeho účast na summitu NATO v Ankaře. Jde o mimořádný krok, který otevírá ústavní spor o rozsah prezidentských pravomocí v zahraniční politice.",
+    "pillar": "governance",
+    "severity": 4,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Ranních 5 minut: Pavel kvůli summitu v Ankaře podal kompetenční žalobu | Premiéři zemí V4 se shodli na obnovení spolupráce | Knihovna Václava Havla přijde o práva na název",
+        "url": "https://denikn.cz/newsletter/2105059/pavel-kvuli-summitu-v-ankare-podal-kompetencni-zalobu-premieri-zemi-v4-se-shodli-na-obnoveni-spoluprace-knihovna-vaclava-havla-prijde-o-prava-na-nazev/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-24T07:28:06.545Z"
+      },
+      {
+        "title": "„Bezprecedentní a nešťastný krok,“ zkritizoval Pavel vládu kvůli Ankaře. Spor dává k soudu",
+        "url": "https://denikn.cz/2104024/bezprecedentni-a-nestastny-krok-zkritizoval-pavel-vladu-kvuli-ankare-spor-dava-k-soudu/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-24T07:28:06.545Z"
+      },
+      {
+        "title": "Hosté Událostí, komentářů probrali spor prezidenta s vládou ohledně summitu NATO",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/hoste-udalosti-komentaru-probrali-spor-prezidenta-s-vladou-ohledne-summitu-nato-374896",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-24T07:28:07.782Z"
+      },
+      {
+        "title": "Pavel se kvůli účasti na summitu NATO obrátil na Ústavní soud. Rozhodnutí vlády označil za mimořádně nešťastný krok",
+        "url": "https://domaci.hn.cz/c1-67895610-prezident-pavel-se-kvuli-ucasti-na-summitu-nato-obratil-na-ustavni-soud",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-24T07:28:08.806Z"
+      },
+      {
+        "title": "Vláda odstavila prezidenta ze summitu NATO. Macinka slaví, ale je tu důvod, proč se to jemu i Babišovi vymstí",
+        "url": "https://archiv.hn.cz/c1-67895260-vlada-odstavila-prezidenta-ze-summitu-nato-macinka-slavi-ale-je-tu-duvod-proc-se-to-jemu-i-babisovi-vymsti",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-24T07:28:08.806Z"
+      },
+      {
+        "title": "Pavel proti Babišovi a Macinkovi. Jak může dopadnout prezidentův spor s vládou",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-politika-pavel-proti-babisovi-a-macinkovi-jak-muze-dopadnout-prezidentuv-spor-s-vladou-309153",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-24T07:28:11.657Z"
+      },
+      {
+        "title": "Ústavní soud obdržel návrh prezidenta republiky o kompetenčním sporu",
+        "url": "https://www.usoud.cz/aktualne/ustavni-soud-obdrzel-navrh-prezidenta-republiky-o-kompetencnim-sporu",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-24T07:28:21.831Z"
+      },
+      {
+        "title": "President Pavel Files Lawsuit Against Government Over Exclusion From NATO Summit",
+        "url": "https://brnodaily.com/2026/06/23/news/politics/president-pavel-files-lawsuit-against-government-over-exclusion-from-nato-summit/",
+        "outlet": "Brno Daily",
+        "fetched_at": "2026-06-24T07:28:27.748Z"
+      }
+    ],
+    "score_impact": -3,
+    "rationale": "Severity 4 per rubric §4 — podání kompetenční žaloby prezidenta proti vládě představuje přímý institucionální konflikt o dělbu moci (subkomponenta G1) a přesahuje hranici běžného politického sporu. Věc se dostala před ÚS, což signalizuje vážné narušení ústavního konsenzu o pravomocích v zahraniční politice. Nelze přiřadit k eskalaci na 5, protože zatím nejde o schválenou změnu právního rámce, ale o živý spor s nejistým výsledkem. Sekundárně se dotýká J1 (nezávislost ÚS jakožto arbitra sporu). Newsletter je shrnutí, primární zpravodajství zachyceno v indexu 4.\n\n[merged with 2026-W26-034 — same incident, sources combined]\n\n[merged with 2026-W26-038 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W26-044 — same incident, sources combined]\n\n[merged with 2026-W26-045 — same incident, sources combined]\n\n[merged with 2026-W26-051 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W26-053 — same incident, sources combined]\n\n[merged with 2026-W26-055 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-036",
+    "date": "2026-06-22",
+    "headline": "Narozeninová oslava Nejedlého odhaluje přetrvávající sítě vlivů z éry Zemana",
+    "summary": "Na soukromé oslavě Martina Nejedlého, bývalého vlivného poradce prezidenta Zemana, se sešli podnikatelé z energetiky, osoby spojené se zdravotnickými kauzami i bývalí spolupracovníci z okolí Hradu. Akce dokumentuje, že neformální vazby z prezidentského prostředí přetrvávají i po skončení Zemanova mandátu.",
+    "pillar": "corruption",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nejedlý slavil šedesátiny: Dorazili Tykačův partner, Kočka, Polčák nebo Ludvík",
+        "url": "https://denikn.cz/2103370/nejedly-slavil-sedesatiny-dorazili-tykacuv-partner-kocka-polcak-nebo-ludvik/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-24T07:28:06.545Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — jde o sociální událost bez přímého institucionálního dopadu; žádné konkrétní protiprávní jednání ani střet zájmů není v článku prokázán. Subkomponenta K1 (politická korupce, neformální sítě vlivu) je relevantní jako kontext, avšak bez doložené škody nebo konkrétního rozhodnutí nelze přiřadit vyšší závažnost. Anti-bias check: stejnou závažnost bych přiřadil oslavě narozenin jakéhokoli jiného bývalého politického poradce bez prokázaného protiprávního jednání.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-037",
+    "date": "2026-06-24",
+    "headline": "Ústavní soud: politická kritika včetně nadsázky a dezinformací požívá ochrany svobody slova",
+    "summary": "Ústavní soud potvrdil, že politická kritika je chráněna svobodou projevu i tehdy, jde-li o přehánění nebo nepravdivá tvrzení. Nižší soudy podle ÚS v konkrétních případech chybovaly, když tuto ochranu neposkytly. Nenávist a výzvy k násilí naopak trestněprávní ochraně nepodléhají.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nenávist není názor, u politické kritiky se ale Ústavní soud zastal i dezinformací",
+        "url": "https://www.irozhlas.cz/zpravy-domov/svoboda-slova-projevu-cenzura-okamura-vrabel-zitko-bednarova-tusl-netik_2606240620_cib",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-24T07:28:07.613Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — nález ÚS potvrzující rozsah ochrany svobody projevu (subkomponenta C1) je pozitivní událostí s precedentním dopadem pro praxi nižších soudů, avšak nejde o strukturální změnu institucionálního prostředí. Direction +1, protože rozhodnutí posiluje ochranu občanských svobod. Sekundárně relevantní pilíř: judicial (J4 — rovnost před zákonem, korekce pochybení nižší justice). Single source — dle source-count pravidla ponecháváme severity 2, nikoli eskalujeme.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-039",
+    "date": "2026-06-24",
+    "headline": "Sněmovna projednává zákon usnadňující výměnu státních úředníků, opozice varuje před politizací",
+    "summary": "Poslanecká sněmovna projednává návrh zákona o státních zaměstnancích, jehož součástí je usnadnění výměny úředníků. Koalice zákon prosazuje jako modernizační krok, opozice upozorňuje na riziko politizace státní správy. Hlasování se může protáhnout do pátku.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Poslanci by měli schvalovat zákon, jenž má usnadnit výměnu státních úředníků",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-by-meli-schvalovat-zakon-jenz-ma-usnadnit-vymenu-statnich-uredniku-374900",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-24T07:28:07.782Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — návrh zákona usnadňující výměnu státních úředníků představuje potenciální precedent pro politizaci státní správy (subkomponenta G1: dělba moci a ochrana před politickým ovlivněním exekutivy). Obavy opozice naznačují, že zákon může narušit nestrannost veřejné správy. Zákon zatím nebyl schválen, jedná se o první čtení/hlasování, proto one_off. Pokud by byl přijat a vstoupil v platnost, eskalace na severity 4 a persistent by byla na místě. Anti-bias: stejné hodnocení by platilo bez ohledu na to, která koalice zákon předkládá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-040",
+    "date": "2026-06-23",
+    "headline": "Soudy rehabilitovaly Jirouse, Bendu a Kukala – zrušily komunistické odsudky za projev a disidentství",
+    "summary": "Soudy zrušily odsuzující rozsudky z roku 1978 proti představiteli undergroundu Ivanu Martinu Jirousovi, který byl odsouzen za projev na vernisáži, a rehabilitovaly disidenty Václava Bendu a Jaroslava Kukala. Jde o součást průběžného procesu soudní rehabilitace obětí komunistického režimu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Soud zrušil verdikt, kterým poslal Jirouse do vězení za proslov",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/soud-zrusil-verdikt-kterym-poslal-jirouse-do-vezeni-za-proslov-374883",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-24T07:28:07.782Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — rehabilitace komunistických rozsudků je pozitivní událost posilující právní stát (subkomponenta J4: rovnost před zákonem, náprava historických křivd). Dopad je omezený svým retrospektivním charakterem a netýká se aktuálního fungování demokratických institucí. Direction +1: soudy plní svou roli ochrany práv a nápravy minulých křivd. One_off: jde o konkrétní soudní rozhodnutí, nikoli o strukturální změnu.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-041",
+    "date": "2026-06-23",
+    "headline": "Senátoři upozorňují na problémy s výrazně osekaným zákonem o financování veřejnoprávních médií",
+    "summary": "Vládou schválený návrh zákona o financování veřejnoprávních médií byl oproti původnímu znění zkrácen z 27 na 3 stránky. Ze zákona zmizela ambice sjednotit a modernizovat legislativu ČT a ČRo; senátoři nyní upozorňují na nevyřešené problémy v účetní oblasti.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Vykuchaný zákon o financování veřejnoprávních médií dál naráží na změny v účetnictví, upozorňují senátoři",
+        "url": "https://domaci.hn.cz/c1-67895730-vykuchany-zakon-o-financovani-verejnopravnich-medii-dal-narazi-na-zmeny-v-ucetnictvi-upozornuji-senatori",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-24T07:28:08.806Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — podstatné zúžení legislativního návrhu, který měl modernizovat financování veřejnoprávních médií (subkomponenta M2), představuje drobné normativní selhání bez bezprostředního institucionálního dopadu. Zákon zatím nebyl schválen Senátem ani podepsán, jde o legislativní proces v průběhu. Senátorské výhrady signalizují, že klíčové otázky financování ČT/ČRo zůstávají neřešeny, ale zatím nevzniká strukturální ohrožení nezávislosti. Eskalace na 3 by přišla v úvahu, pokud by výsledný zákon aktivně zhoršil podmínky veřejnoprávních médií; zde jde spíše o legislativní nezdar než útok. Křížově: subkomponenta G2 (kvalita legislativního procesu — smrštění návrhu bez transparentního odůvodnění).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z"
+  },
+  {
+    "id": "2026-W26-042",
+    "date": "2026-06-23",
+    "headline": "Ústavní soud začal projednávat kompetenční spor prezidenta Pavla a vlády Babiše o účast na summitu NATO",
+    "summary": "Ústavní soud zahájil projednávání první kompetenční žaloby, v níž prezident Pavel napadá rozhodnutí vlády Andreje Babiše odepřít mu účast na summitu NATO v Ankaře. Vláda opakovaně odložila a nakonec vyloučila účast hlavy státu, přičemž jde o dosud bezprecedentní ústavní spor o vymezení zahraničněpolitických kompetencí.",
+    "pillar": "governance",
+    "severity": 3,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "První kompetenční žaloba. Může Ústavní soud ještě &bdquo;zařídit&ldquo; Pavlovi cestu do Ankary?",
+        "url": "https://domaci.hn.cz/c1-67895890-prvni-kompetencni-zaloba-muze-ustavni-soud-jeste-bdquo-zaridit-ldquo-pavlovi-cestu-do-ankary",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-24T07:28:08.806Z"
+      },
+      {
+        "title": "Zapomeňte na summit NATO. Ve sporu Babiše s Hradem jde o víc. Přijde tah ženou?",
+        "url": "https://zpravy.aktualne.cz/domaci/zapomente-na-summit-nato-ve-sporu-babise-s-hradem-jde-o-vic-prijde-tah-zenou/r~aaa292d5ac0364d239fe9818fe4d7cb9/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-24T07:28:09.798Z"
+      }
+    ],
+    "score_impact": -1.5,
+    "rationale": "Severity 4 per rubric §4 — jde o bezprecedentní kompetenční spor mezi prezidentem a vládou, který přímo narušuje fungování ústavního systému dělby moci (subkomponenta G1 a G3). Vláda svým opakovaným odkládáním a faktickým vyloučením prezidenta z reprezentace státu na klíčovém mezinárodním summitu překračuje dosavadní ústavní praxi; skutečnost, že ÚS případ vůbec přijal jako kompetenční spor, potvrzuje závažnost institucionálního střetu. Rubric §4 uvádí jako příklad „prezident odmítne jmenovat členy vlády bez ústavně přijatelného důvodu\n\n[merged with 2026-W26-047 — direction/severity conflict, set status=disputed for reviewer]\n\n[severity capped from 4 to 3 due to source-count rule: 2 unique outlets, 3 required for severity 4]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-24T07:28:06.530Z"
+  },
+  {
+    "id": "2026-W26-043",
+    "date": "2026-06-23",
+    "headline": "Evropská komise potvrdila sledování plateb z EU fondů do dalších Babišových firem",
+    "summary": "Evropská komise v reakci na dotaz europoslance Zdechovského potvrdila, že monitoruje možný střet zájmů premiéra Babiše v souvislosti se společnostmi SynBiol a Hartenberg Holding, nejen Agrofertem. Jde o signál, že unijní dohled nad čerpáním fondů se rozšiřuje na širší okruh firem spojených s premiérem.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Nejde jen o Agrofert. Evropská komise potvrdila, že sleduje platby z fondů i do dalších Babišových firem",
+        "url": "https://zahranicni.hn.cz/c1-67895820-nejde-jen-o-agrofert-evropska-komise-potvrdila-ze-sleduje-platby-z-fondu-i-do-dalsich-babisovych-firem",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-24T07:28:08.806Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — potvrzení sledování ze strany EK představuje konkrétní institucionální krok s precedentním dopadem pro subkomponentu K1 (politická korupce, střet zájmů ústavního činitele). Dle eskalačního pravidla rubric: reakce mezinárodního orgánu (EK) potvrzující relevanci problému by mohla znamenat +1, avšak EK pouze sleduje situaci, nesdělila závěry ani nezahájila formální řízení — proto zůstává severity 3. Sekundárně se dotýká governance (G1) — pokud je premiér ve střetu zájmů, je omezena reálná kontrola exekutivy.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z"
+  },
+  {
+    "id": "2026-W26-046",
+    "date": "2026-06-22",
+    "headline": "Vláda předkládá rozsáhlou novelu antimonopolního zákona s novými pravomocemi ÚOHS",
+    "summary": "Vládní návrh novely zákona o ochraně hospodářské soutěže, který má být brzy předložen Poslanecké sněmovně, by zásadně rozšířil pravomoci Úřadu pro ochranu hospodářské soutěže. Novela by umožnila ÚOHS aktivně zasahovat do struktury trhů i bez prokázaného porušení soutěžních pravidel. Komentátoři upozorňují na rizika pro vztah státu a podnikatelů.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vláda chce silnější antimonopolní úřad, který bude aktivně &bdquo;opravovat&ldquo; trhy. Nese to velká rizika",
+        "url": "https://archiv.hn.cz/c1-67894840-vlada-chce-silnejsi-antimonopolni-urad-ktery-bude-aktivne-bdquo-opravovat-ldquo-trhy-ovsem-za-jakou-cenu",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-24T07:28:08.806Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o vládní návrh v rané fázi (předložen, neschválen), který rozšiřuje diskreční pravomoci státního orgánu bez jasného přesahu do základních demokratických institucí. Subkomponenta G2 (kvalita legislativy) a G1 (dělba moci, rozsah exekutivní moci) jsou mírně dotčeny, ale bez precedentního dopadu na fungování demokratického systému. Pokud bude schválen bez standardního připomínkového řízení, eskalace na 3 by byla opodstatněná.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-048",
+    "date": "2026-06-23",
+    "headline": "Hnutí Allatra s pseudovědeckými teoriemi proniká do Evropského parlamentu a českých institucí",
+    "summary": "Investigativní zpráva dokumentuje, že zástupci náboženského hnutí Allatra — šiřitele pseudovědných teorií a předpovědí zkázy — během posledních dvou let opakovaně vystupovali v Evropském parlamentu a navázali kontakty s českými politickými institucemi. Jde o organizaci bez transparentního zázemí využívající přístup k demokratickým institucím k legitimizaci svého vlivu.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Náboženské hnutí Allatra proniká do politických institucí",
+        "url": "https://www.investigace.cz/nabozenske-hnuti-allatra-pronika-do-politickych-instituci/",
+        "outlet": "Investigace.cz",
+        "fetched_at": "2026-06-24T07:28:10.084Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — dokumentovaný, opakovaný přístup neprůhledného hnutí k politickým institucím EP a v ČR vytváří lokální dopad na subkomponentu C3 (svoboda sdružování a ochrana institucí před infiltrací) bez jednoznačného strukturálního průlomu. Událost splňuje pravidlo pro eskalaci (+1) z důvodu prokazatelného vzorce (≥ 2 roky opakované přítomnosti), ale zůstávám na 2, protože dopady na konkrétní rozhodování institucí nejsou z dostupného zdroje prokázány. Single-source; eskalace na 3 by vyžadovala druhý zdroj nebo reakci příslušné instituce.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z"
+  },
+  {
+    "id": "2026-W26-049",
+    "date": "2026-06-24",
+    "headline": "Ministerstvo životního prostředí pod Motoristy vyměnilo vedení ČIŽP a Krkonošského národního parku",
+    "summary": "Ministerstvo životního prostředí vedené stranou Motoristé provedlo personální změny v čele České inspekce životního prostředí a Krkonošského národního parku. Opozice výběr nových šéfů označila za hazard s institucemi a výsměch odborné veřejnosti, přičemž kritici upozorňují na politickou motivaci jmenování bez zřetele k odborným dopadům.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Červený hloupě škrtá to nejhorší a nedivá se na dopady, kritizuje exministr",
+        "url": "https://www.seznamzpravy.cz/clanek/audio-podcast-ptam-se-ja-fanousci-na-ministerstvo-nici-motoriste-ochranu-zivotniho-prostredi-309212",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-24T07:28:11.657Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — politicky motivované personální zásahy na střední úrovni státní správy (ředitelé ČIŽP a NP) bez prokázaného kaskádového efektu na fungování institucí. Subkomponenta G1 (dělba moci a kontrola exekutivy). Pokud by se jednalo o součást prokazatelného vzorce systematického obsazování státních institucí stranou Motoristé, eskalace na 3 by byla odůvodněná — v tuto chvíli je dostupný jeden zdroj bez potvrzení vzorce.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-050",
+    "date": "2026-06-24",
+    "headline": "Lídr ANO pro Prahu Prokop má rozporná přiznání o příjmech v řádu milionů",
+    "summary": "Kandidát ANO na primátora Prahy Ondřej Prokop uvedl ve třech majetkových přiznáních za poslední tři roky vzájemně si odporující údaje o příjmech, přičemž rozdíly dosahují milionů korun. Prokop čtyři dny na dotazy nereagoval a vysvětlení poskytl až po zveřejnění článku.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Po bytech další problém. Přiznání lídra ANO v Praze si odporují v milionech",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-nejen-byty-prokopovi-nesedi-ani-vydelane-miliony-308946",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-24T07:28:11.657Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — nesrovnalosti v majetkových přiznáních kandidáta na nejvyšší městský úřad v ČR jsou konkrétním a zdokumentovaným porušením transparentní výkaznosti (subkomponenta K1, střet zájmů a majetková přiznání ústavních a vysokých politických činitelů). Prokop je lídr kandidátky pro komunální volby, nikoli ústavní činitel, proto se nedosahuje severity 4 (ta je spojena s premiérem dle rubric §4). Single source downgrade není aplikován, jelikož jde o primární zdroj se strukturovanými dokumenty, ale bez potvrzení dalšího nezávislého média zůstává na 3. Sekundárně se dotýká pilíře electoral (věrohodnost kandidáta).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-052",
+    "date": "2026-06-23",
+    "headline": "Ústavní soud odmítl argument Nejvyššího soudu v kauze náhrad za covidová opatření",
+    "summary": "Ústavní soud rozhodl ve věci odškodnění podnikatelky za škody způsobené nezákonnými mimořádnými opatřeními z doby pandemie. Odmítl právní názor Nejvyššího soudu, podle nějž mohla být náhrada odmítnuta z důvodu nepodání návrhu na zrušení opatření. Jde o další případ probíhajícího dialogu obou vrcholných soudů o ústavních požadavcích na odškodnění.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nejvyšší soud vstoupil do dialogu s Ústavním soudem, ten však jeho názoru nepřisvědčil",
+        "url": "https://www.usoud.cz/aktualne/nejvyssi-soud-vstoupil-do-dialogu-s-ustavnim-soudem-ten-vsak-jeho-nazoru-neprisvedcil",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-24T07:28:21.831Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — rozhodnutí je součástí opakujícího se dialogu mezi ÚS a NS (subkomponenta J1), přičemž ÚS obhájil svůj výklad ústavních práv na náhradu škody proti opačnému postoji Nejvyššího soudu. Jde o standardní institucionální fungování soudnictví bez znaku backslidingu; naopak posiluje ochranu individuálních práv (direction +1). Nejde o strukturální posun ani precedent systémového charakteru (záporného dopadu na nezávislost), proto severity 2 a nikoli 3.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-054",
+    "date": "2026-06-23",
+    "headline": "Transparency International podala podnět k ÚOHS kvůli zakázce spojené s firmou místopředsedy SPD Fialy a Prostějovem",
+    "summary": "Transparency International ČR podala podnět k ÚOHS na prošetření zakázky na úklid městských budov v Prostějově, kterou získala firma IF FACILITY vlastněná místopředsedou SPD Radimem Fialou. Původní roční cena 1,37 milionu korun byla řadou dodatků navýšena na 3,88 milionu, celková vyplacená částka dosáhla téměř 30 milionů korun. TI vychází ze zjištění Seznam Zprávy.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Transparency podala podnět k ÚOHS kvůli zakázce spojené s firmou Radima Fialy a městem Prostějov",
+        "url": "https://www.transparency.cz/transparency-podala-podnet-k-uohs-kvuli-zakazce-spojene-s-firmou-radima-fialy-a-mestem-prostejov/",
+        "outlet": "Transparency International ČR",
+        "fetched_at": "2026-06-24T07:28:23.899Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — zakázka zadaná firmě politicky exponované osoby (místopředseda parlamentní strany) a následně sérii 8 dodatků navýšena na téměř trojnásobek bez nového zadávacího řízení odpovídá subkomponentě K2 (transparentnost veřejných zakázek, ZZVZ). Podání podnětu k ÚOHS je konkrétní institucionální krok. Závažnost 3, nikoli 4, protože jde o komunální zakázku bez přímé vazby na ústavního činitele a věc je zatím ve fázi prošetřování bez prokázaného porušení. Jeden zdroj (Seznam Zprávy + TI podnět); při potvrzení ÚOHS možná eskalace.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-24T07:28:06.530Z",
+    "expires_at": "2026-09-15T00:00:00.000Z"
   }
 ]
