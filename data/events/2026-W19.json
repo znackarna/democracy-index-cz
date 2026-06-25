@@ -515,10 +515,16 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/ustavni-soud-zamitl-zmeny-v-odmenach-politiku-pusobicich-paralelne-v-samospravach-373152",
         "outlet": "ČT24",
         "fetched_at": "2026-05-06T07:11:31.712Z"
+      },
+      {
+        "title": "Odměňování členů zastupitelstev územních samospráv obstálo před Ústavním soudem",
+        "url": "https://www.usoud.cz/aktualne/odmenovani-clenu-zastupitelstev-uzemnich-samosprav-obstalo-pred-ustavnim-soudem",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-25T07:28:58.831Z"
       }
     ],
     "score_impact": 0.2,
-    "rationale": "Severity 1 per rubric §1 — standardní výkon ÚS v přezkumu legislativy bez prvků politického tlaku nebo precedentního posunu v demokratické architektuře. Subkomponenta J1 (nezávislost ÚS) funguje normálně: soud zamítl návrh skupiny senátorů, čímž potvrdil legislativní záměr. Direction +1, protože potvrzení protikorupčního omezení kumulace odměn mírně posiluje transparentnost veřejných financí (subkomponenta K1 sekundárně). Anti-bias check: stejné hodnocení by bylo přiřazeno návrhu jakékoli skupiny senátorů bez ohledu na stranické složení.",
+    "rationale": "Severity 1 per rubric §1 — standardní výkon ÚS v přezkumu legislativy bez prvků politického tlaku nebo precedentního posunu v demokratické architektuře. Subkomponenta J1 (nezávislost ÚS) funguje normálně: soud zamítl návrh skupiny senátorů, čímž potvrdil legislativní záměr. Direction +1, protože potvrzení protikorupčního omezení kumulace odměn mírně posiluje transparentnost veřejných financí (subkomponenta K1 sekundárně). Anti-bias check: stejné hodnocení by bylo přiřazeno návrhu jakékoli skupiny senátorů bez ohledu na stranické složení.\n\n[merged with 2026-W19-099 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-06T07:11:30.742Z",
