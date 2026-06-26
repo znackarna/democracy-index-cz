@@ -1712,7 +1712,7 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS potvrzující protiústavnost konkrétního procesního ustanovení je pozitivní událost posilující J4 (rovnost před zákonem a procesní záruky) a J2 (nezávislost obecných soudů skrze standardy odůvodnění). Dopad je reálný, ale omezený na specifickou oblast trestního práva bez širšího systémového charakteru; proto nelze přiřadit severity 3. Direction +1, neboť nález posiluje právní záruky občanů vůči státu. Sekundárně se dotýká C1 (ochrana práv v právním procesu). Zdroj je přímo ÚS, spolehlivý, ale dostupné je pouze právní věta bez plného textu — severity proto nekalibruji výše.",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS potvrzující protiústavnost konkrétního procesního ustanovení je pozitivní událost posilující J4 (rovnost před zákonem a procesní záruky) a J2 (nezávislost obecných soudů skrze standardy odůvodnění). Dopad je reálný, ale omezený na specifickou oblast trestního práva bez širšího systémového charakteru; proto nelze přiřadit severity 3. Direction +1, neboť nález posiluje právní záruky občanů vůči státu. Sekundárně se dotýká C1 (ochrana práv v právním procesu). Zdroj je přímo ÚS, spolehlivý, ale dostupné je pouze právní věta bez plného textu — severity proto nekalibruji výše.\n\n[merged with 2026-W18-083 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-05T07:02:47.189Z",

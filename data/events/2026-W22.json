@@ -1138,7 +1138,7 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS posiluje subkomponentu J4 (rovnost před zákonem a procesní záruky), ale jde o aplikaci existující doktríny na konkrétní kauzy, nikoli o systémový posun. Direction +1: soud koriguje pochybení obecných soudů a posiluje záruky spravedlivého procesu. Single source (ÚS tisková zpráva), bez mezinárodní odezvy — eskalace per rubric neaplikována.",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS posiluje subkomponentu J4 (rovnost před zákonem a procesní záruky), ale jde o aplikaci existující doktríny na konkrétní kauzy, nikoli o systémový posun. Direction +1: soud koriguje pochybení obecných soudů a posiluje záruky spravedlivého procesu. Single source (ÚS tisková zpráva), bez mezinárodní odezvy — eskalace per rubric neaplikována.\n\n[merged with 2026-W22-135 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-27T07:44:43.522Z",
@@ -1676,7 +1676,7 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — nález ÚS konkretizuje právo na právní pomoc (subkomponenta J4: rovnost před zákonem, fair proces) v specifické kategorii řízení s nezletilými. Jde o pozitivní posilující událost (+1 direction), která zpřesňuje ochranu procesních práv. Dopad je persistent, neboť nález vytváří závazný precedent pro budoucí řízení. Není to strukturální změna systému, proto severity 2 nikoliv 3.\n\n[merged with 2026-W22-132 — same incident, sources combined]",
+    "rationale": "Severity 2 per rubric §2 — nález ÚS konkretizuje právo na právní pomoc (subkomponenta J4: rovnost před zákonem, fair proces) v specifické kategorii řízení s nezletilými. Jde o pozitivní posilující událost (+1 direction), která zpřesňuje ochranu procesních práv. Dopad je persistent, neboť nález vytváří závazný precedent pro budoucí řízení. Není to strukturální změna systému, proto severity 2 nikoliv 3.\n\n[merged with 2026-W22-132 — same incident, sources combined]\n\n[merged with 2026-W22-134 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-05-28T07:40:18.588Z"
