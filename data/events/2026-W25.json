@@ -2365,5 +2365,29 @@
     "status": "active",
     "created_at": "2026-06-25T07:28:46.454Z",
     "expires_at": "2026-09-11T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W25-118",
+    "date": "2026-06-17",
+    "headline": "Izraelská firma vedla dezinformační operaci Rokh Solis cílící na francouzské volby",
+    "summary": "Investigativní zpráva odhalila, že izraelská firma koordinovala rozsáhlou dezinformační kampaň ve Francii zahrnující falešné profily, smyšlené novinářky a reklamní bannery šířené v čase volebního moratoria. Operace využívala stovky fiktivních facebookových stránek a falešný blog. Ačkoliv se přímo dotýká Francie, představuje relevantní precedent pro ochranu volební integrity v ČR před zahraniční manipulací.",
+    "pillar": "electoral",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Operace Rokh Solis aneb jak izraelská firma zasahovala do francouzských voleb",
+        "url": "https://www.investigace.cz/operace-rokh-solis-aneb-jak-izraelska-firma-zasahovala-do-francouzskych-voleb/",
+        "outlet": "Investigace.cz",
+        "fetched_at": "2026-06-27T07:20:55.571Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní odhalení zahraniční vlivové operace cílící na volby v jiném státě EU, nikoli přímo v ČR. Subkomponenta E3 (ochrana před zahraniční manipulací volební infrastruktury) je relevantní jako precedentní případ. Dopad na ČR je nepřímý — snižuje severity oproti přímé domácí události. Bez prokázané vazby na české volby nelze přiřadit vyšší severity. Sekundárně se dotýká i M1/M4 (dezinformační ekosystém a mediální pluralita).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z",
+    "expires_at": "2026-09-09T00:00:00.000Z"
   }
 ]

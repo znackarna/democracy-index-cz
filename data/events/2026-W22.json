@@ -2759,10 +2759,34 @@
       }
     ],
     "score_impact": 0.5,
-    "rationale": "Severity 2 per rubric §2 — ÚS reaguje na konkrétní pochybení obecných soudů v oblasti procesních práv (subkomponenta J2 — nezávislost a správnost obecných soudů, J4 — rovnost před zákonem). Pozitivní směr (+1): nález koriguje soudní praxi a potvrzuje klíčovou procesní zásadu. Dopad je judikatorně důležitý, ale jde o standardní kontrolní funkci ÚS bez širšího systémového přesahu do demokratického backslidingu.",
+    "rationale": "Severity 2 per rubric §2 — ÚS reaguje na konkrétní pochybení obecných soudů v oblasti procesních práv (subkomponenta J2 — nezávislost a správnost obecných soudů, J4 — rovnost před zákonem). Pozitivní směr (+1): nález koriguje soudní praxi a potvrzuje klíčovou procesní zásadu. Dopad je judikatorně důležitý, ale jde o standardní kontrolní funkci ÚS bez širšího systémového přesahu do demokratického backslidingu.\n\n[merged with 2026-W22-135 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-23T07:31:38.823Z",
+    "expires_at": "2026-08-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W22-134",
+    "date": "2026-05-27",
+    "headline": "Ústavní soud: právní zástupce trestně neodpovědného dítěte má právo nahlížet do spisu",
+    "summary": "Ústavní soud vydal nález, podle nějž musí mít právní zástupce trestně neodpovědného dítěte v objasňovací fázi řízení právo nahlížet do spisu, činit si výpisky a pořizovat kopie. Orgány mohou toto právo odepřít pouze ze závažných důvodů, jejichž přezkum musí na žádost zajistit státní zástupce neprodleně. Nález posiluje právo na právní pomoc jako součást spravedlivého procesu.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Nahlížení do spisu v řízeních ve věcech dětí mladších patnácti let",
+        "url": "https://www.usoud.cz/aktualne/nahlizeni-do-spisu-v-rizenich-ve-vecech-deti-mladsich-patnacti-let",
+        "outlet": "Ústavní soud ČR",
+        "fetched_at": "2026-06-27T07:21:07.868Z"
+      }
+    ],
+    "score_impact": 0.5,
+    "rationale": "Severity 2 per rubric §2 — nález Ústavního soudu upřesňuje procesní práva v úzce vymezené kategorii řízení (děti mladší 15 let), jde o konkrétní precedent bez širšího institucionálního dopadu. Subkomponenta J4 (rovnost před zákonem, procesní práva). Směr +1, neboť nález posiluje ochranu práv účastníků řízení vůči orgánům činnám v trestním řízení.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z",
     "expires_at": "2026-08-19T00:00:00.000Z"
   }
 ]

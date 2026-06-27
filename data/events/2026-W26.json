@@ -766,7 +766,7 @@
     "headline": "Sněmovna projednává zákon usnadňující výměnu státních úředníků, opozice varuje před politizací",
     "summary": "Poslanecká sněmovna projednává návrh zákona o státních zaměstnancích, jehož součástí je usnadnění výměny úředníků. Koalice zákon prosazuje jako modernizační krok, opozice upozorňuje na riziko politizace státní správy. Hlasování se může protáhnout do pátku.",
     "pillar": "governance",
-    "severity": 2,
+    "severity": 3,
     "direction": -1,
     "duration": "one_off",
     "sources": [
@@ -781,12 +781,24 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/poslanci-se-vrati-ke-schvalovani-zakona-jenz-ma-usnadnit-vymenu-uredniku-374972",
         "outlet": "ČT24",
         "fetched_at": "2026-06-26T07:35:11.853Z"
+      },
+      {
+        "title": "Ranních 5 minut: Motoristé dále obsazují pozice na MŽP svými lidmi | Vlna veder v Evropě láme rekordy a míří do střední Evropy",
+        "url": "https://denikn.cz/newsletter/2109457/motoriste-dale-obsazuji-pozice-na-mzp-svymi-lidmi-snemovna-prijala-koalicni-novelu-ktera-usnadni-vymenu-uredniku-vlna-veder-v-evrope-lame-rekordy-a-miri-do-stredni-evropy/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-27T07:20:52.913Z"
+      },
+      {
+        "title": "Změna pravidel pro zaměstnávání úředníků prošla sněmovnou. Podle opozice povede k politizaci státní správy",
+        "url": "https://domaci.hn.cz/c1-67897260-zmena-pravidel-pro-zamestnavani-uredniku-prosla-snemovnou-podle-opozice-povede-k-politizaci-statni-spravy",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-27T07:20:54.730Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — návrh zákona usnadňující výměnu státních úředníků představuje potenciální precedent pro politizaci státní správy (subkomponenta G1: dělba moci a ochrana před politickým ovlivněním exekutivy). Obavy opozice naznačují, že zákon může narušit nestrannost veřejné správy. Zákon zatím nebyl schválen, jedná se o první čtení/hlasování, proto one_off. Pokud by byl přijat a vstoupil v platnost, eskalace na severity 4 a persistent by byla na místě. Anti-bias: stejné hodnocení by platilo bez ohledu na to, která koalice zákon předkládá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W26-087 — same incident, sources combined]",
+    "rationale": "Severity 3 per rubric §3 — návrh zákona usnadňující výměnu státních úředníků představuje potenciální precedent pro politizaci státní správy (subkomponenta G1: dělba moci a ochrana před politickým ovlivněním exekutivy). Obavy opozice naznačují, že zákon může narušit nestrannost veřejné správy. Zákon zatím nebyl schválen, jedná se o první čtení/hlasování, proto one_off. Pokud by byl přijat a vstoupil v platnost, eskalace na severity 4 a persistent by byla na místě. Anti-bias: stejné hodnocení by platilo bez ohledu na to, která koalice zákon předkládá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W26-087 — same incident, sources combined]\n\n[merged with 2026-W26-103 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-24T07:28:06.530Z",
     "expires_at": "2026-09-16T00:00:00.000Z"
   },
@@ -1573,10 +1585,16 @@
         "url": "https://domaci.hn.cz/c1-67896840-obvineneho-primatora-karvine-zadrzela-policie-boji-se-ze-by-mohl-marit-vysetrovani-fotbalove-kauzy",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-06-26T07:35:12.652Z"
+      },
+      {
+        "title": "Týdeník iROZHLASu: volební boj o Prahu, neúspěch českých fotbalistů a primátor Karviné v nesnázích",
+        "url": "https://www.irozhlas.cz/zpravy-domov/tydenik-irozhlasu-volebni-boj-o-prahu-neuspech-ceskych-fotbalistu-a-primator_2606270800_tkp",
+        "outlet": "iROZHLAS",
+        "fetched_at": "2026-06-27T07:20:53.809Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Zadržení starosty/primátora je potenciálně relevantní pro subkomponentu K1 (politická korupce, zneužití pravomoci). Závažnost nelze určit z dostupného souhrnu — není jasné, jaká obvinění jsou vznesena, zda jde o majetkový delikt, korupci ve veřejných zakázkách (K2) nebo zcela jinou trestnou činnost. Pouze jeden zdroj (newsletter bez detailů), event má potenciálně severity 3+, proto dle pravidla 'single source + potential severity 3+' nastavuji severity: null / needs_review. Anti-bias check: stejný postup by byl aplikován u primátora jakékoliv strany.\n\n[merged with 2026-W26-089 — same incident, sources combined]\n\n[merged with 2026-W26-093 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Zadržení starosty/primátora je potenciálně relevantní pro subkomponentu K1 (politická korupce, zneužití pravomoci). Závažnost nelze určit z dostupného souhrnu — není jasné, jaká obvinění jsou vznesena, zda jde o majetkový delikt, korupci ve veřejných zakázkách (K2) nebo zcela jinou trestnou činnost. Pouze jeden zdroj (newsletter bez detailů), event má potenciálně severity 3+, proto dle pravidla 'single source + potential severity 3+' nastavuji severity: null / needs_review. Anti-bias check: stejný postup by byl aplikován u primátora jakékoliv strany.\n\n[merged with 2026-W26-089 — same incident, sources combined]\n\n[merged with 2026-W26-093 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W26-107 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-06-26T07:35:10.567Z",
@@ -1840,10 +1858,16 @@
         "url": "https://www.usoud.cz/aktualne/informace-o-procesnim-postupu-v-rizeni-o-navrhu-prezidenta-na-zahajeni-kompetencniho-sporu",
         "outlet": "Ústavní soud ČR",
         "fetched_at": "2026-06-26T07:35:26.951Z"
+      },
+      {
+        "title": "My to chceme takhle a hotovo! Prezident může se žalobou na vládu uspět, ale Ústavní soud nás před zvůlí neochrání",
+        "url": "https://archiv.hn.cz/c1-67895880-my-to-chceme-takhle-a-hotovo-prezident-muze-se-zalobou-na-vladu-uspet-ale-ustavni-soud-nas-pred-zvuli-neochrani",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-27T07:20:54.730Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — kompetenční spor zahájený prezidentem u ÚS představuje významný ústavní incident, který zasahuje do subkomponenty G1 (dělba moci, reálná kontrola exekutivy) a G3 (stabilita ústavních norem). Samotné zahájení řízení je one_off, ale jeho dopad je persistent, dokud ÚS nerozhodne. Bez dalšího kontextu nelze určit, zda jde o eskalaci vzorce — single source, proto severity spíše konzervativně 3 a ne 4. Sekundárně zasahuje do pilíře judicial (J1: nezávislost ÚS a způsob využívání jeho kompetencí). Direction -1, neboť samotná existence sporu signalizuje oslabení funkční dělby moci a neshodu na vymezení pravomocí.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "rationale": "Severity 3 per rubric §3 — kompetenční spor zahájený prezidentem u ÚS představuje významný ústavní incident, který zasahuje do subkomponenty G1 (dělba moci, reálná kontrola exekutivy) a G3 (stabilita ústavních norem). Samotné zahájení řízení je one_off, ale jeho dopad je persistent, dokud ÚS nerozhodne. Bez dalšího kontextu nelze určit, zda jde o eskalaci vzorce — single source, proto severity spíše konzervativně 3 a ne 4. Sekundárně zasahuje do pilíře judicial (J1: nezávislost ÚS a způsob využívání jeho kompetencí). Direction -1, neboť samotná existence sporu signalizuje oslabení funkční dělby moci a neshodu na vymezení pravomocí.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W26-115 — same incident, sources combined]",
     "reviewer": "auto",
     "status": "active",
     "created_at": "2026-06-26T07:35:10.567Z"
@@ -1871,5 +1895,294 @@
     "status": "active",
     "created_at": "2026-06-26T07:35:10.567Z",
     "expires_at": "2026-09-17T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-104",
+    "date": "2026-06-26",
+    "headline": "Deník N odhalil identitu pseudonymu Thomas Paukner spojeného s koaličními politiky",
+    "summary": "Investigace Deníku N zjistila podrobnosti o skutečných majitelích účtu vystupujícího pod pseudonymem Thomas Paukner, jehož texty sdílejí především koaliční politici. Účet prezentuje sám sebe jako alternativu k investigativním médiím, přičemž skutečná identita autorů byla záměrně skrývána.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kdo je tajemný Paukner, jehož texty vyzdvihují vládní politici? Stopy vedou k agentuře a dvěma mužům",
+        "url": "https://denikn.cz/2109243/kdo-je-tajemny-paukner-jehoz-texty-vyzdvihuji-vladni-politici-stopy-vedou-k-agenture-a-dvema-muzum/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-27T07:20:52.913Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — odhalení pseudonymního pro-vládního mediálního účtu s vazbami na koaliční politiky je konkrétní, datovaná událost s dopadem na mediální ekosystém (subkomponenta M1 — vlastnická a identitní diverzita, dezinformační potenciál). Nepředstavuje přímý útok na instituce ani legislativní změnu, jde spíše o informaci o problematické praxi. Bez důkazu o přímém financování z veřejných zdrojů nebo přímém politickém zadání nejde výše než 2. Sekundárně relevantní pro pilíř electoral (dezinformace v předvolební kampani).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z",
+    "expires_at": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-105",
+    "date": "2026-06-26",
+    "headline": "Motoristé obsazují další pozici na MŽP: neúspěšný kandidát nastoupil do oddělení klimatické politiky",
+    "summary": "Do oddělení klimatické politiky a Green Dealu na Ministerstvu životního prostředí nastoupil podnikatel spjatý s Motoristy, který za stranu neúspěšně kandidoval. Jde o součást opakovaného vzorce obsazování úřednických pozic na MŽP stranickými lidmi, přičemž dotyčný již na začátku roku získal placenou funkci v jiné státní organizaci.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Další motorista na MŽP. Do „Turkova“ oddělení nastoupil neúspěšný kandidát a solární podnikatel",
+        "url": "https://denikn.cz/2108883/dalsi-motorista-na-mzp-do-turkova-oddeleni-nastoupil-neuspesny-kandidat-a-solarni-podnikatel/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-27T07:20:52.913Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — opakovaný vzorec (pattern) stranického obsazování úřednických pozic na MŽP subkomponentou G1 (kontrola exekutivy) a G4 (transparentnost vládnutí). Jde prokazatelně o více incidentů od stejného aktéra (Motoristé na MŽP), což dle pravidel eskalace mohlo znamenat upgrade, nicméně bez přímého dokladu o počtu ≥3 epizod v posledních 12 týdnech ponechávám severity 3. Sekundárně se dotýká pilíře corruption (K1 — střet zájmů, personální politika ve prospěch stranických spřízněnců). Persistent, protože zaměstnání trvá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z"
+  },
+  {
+    "id": "2026-W26-106",
+    "date": "2026-06-26",
+    "headline": "Nový ředitel ČIŽP bez zkušeností v oblasti životního prostředí: stranická vazba na Motoristy a průtahy při zveřejnění CV",
+    "summary": "Pavel Straka, nový ředitel České inspekce životního prostředí, je kandidátem a sponzorem Motoristů a podle dostupných informací nemá odborné zkušenosti v oblasti životního prostředí. Úřad zveřejnil pouze nekonkrétní medailonek místo plného životopisu a ředitel odmítá dojíždět do sídla inspekce v Praze.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Záhadný sponzor Motoristů v čele inspekce: Chce nové auto a pracovat z Brna",
+        "url": "https://denikn.cz/2108649/zahadny-sponzor-motoristu-v-cele-inspekce-chce-nove-auto-a-pracovat-z-brna/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-27T07:20:52.913Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — jmenování stranicky spjatého a odborně nekvalifikovaného ředitele klíčového inspekčního orgánu (ČIŽP) narušuje G1 (dělba moci, kvalita řízení exekutivy) a G4 (transparentnost — zdržení při zveřejnění CV). Sekundárně K1 (politická korupce — dosazení stranického sponzora). Součást identifikovatelného vzorce obsazování MŽP Motoristy (viz index 0), ale bez dokladu o ≥3 epizodách v posledních 12 týdnech nestoupám na 4. Persistent, protože funkce trvá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z"
+  },
+  {
+    "id": "2026-W26-108",
+    "date": "2026-06-26",
+    "headline": "Předseda Sněmovny Okamura a ex-prezident Klaus vystoupili na konferenci AfD označené jako extremistická",
+    "summary": "Předseda Poslanecké sněmovny Tomio Okamura a bývalý prezident Václav Klaus vystoupili na akci pořádané německou stranou AfD, kterou německá tajná služba loni označila za prokazatelně pravicově extremistickou. Okamura stranu podpořil a vyjádřil přání, aby vyhrála volby a vstoupila do vlády.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "AfD je démonizována a čelí diskriminaci, prohlásili Klaus a Okamura na konferenci",
+        "url": "https://ct24.ceskatelevize.cz/clanek/svet/afd-je-demonizovana-a-celi-diskriminaci-prohlasili-klaus-a-okamura-na-konferenci-375006",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-27T07:20:53.942Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — veřejné vystoupení předsedy Sněmovny na akci označené tajnou službou za extremistickou je kontroverzní politický krok s omezeným přímým institucionálním dopadem (Okamura jedná jako soukromá osoba a straník, nikoli v roli mluvčího institucí). Subkomponenta C4 (ochrana menšin) — podpora strany, která je spojena s pravicovým extremismem, vysílá symbolický signál normalizace extremistické politiky. Anti-bias check: totožný postup by byl uplatněn vůči jakémukoliv předsedovi Sněmovny bez ohledu na politické barvy. Událost sama o sobě nezasahuje přímo do fungování ústavních institucí, proto zůstává na úrovni 2.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z",
+    "expires_at": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-109",
+    "date": "2026-06-26",
+    "headline": "Soud: Ministerstvo vnitra porušilo práva SPD zařazením do zprávy o extremismu",
+    "summary": "Obvodní soud pro Prahu 7 rozhodl, že Ministerstvo vnitra porušilo práva hnutí SPD tím, že ho zařadilo do zprávy o extremismu za rok 2022. Omluvu soud nepřiznal a rozsudek není pravomocný. Ministerstvo vyčká na písemné vyhotovení rozsudku.",
+    "pillar": "judicial",
+    "severity": 3,
+    "direction": 1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Vnitro porušilo práva SPD zařazením do zprávy o extremismu za rok 2022, rozhodl soud",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vnitro-porusilo-prava-spd-zarazenim-do-zpravy-o-extremismu-za-rok-2022-rozhodl-soud-374995",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-27T07:20:53.942Z"
+      },
+      {
+        "title": "Zařazením do zprávy o extremismu porušilo vnitro práva SPD, rozhodl soud. Omluvu nicméně hnutí nepřiznal",
+        "url": "https://domaci.hn.cz/c1-67897300-zarazenim-do-zpravy-o-extremismu-porusilo-vnitro-prava-spd-rozhodl-soud-omluvu-nicmene-hnuti-nepriznal",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-27T07:20:54.730Z"
+      }
+    ],
+    "score_impact": 1.5,
+    "rationale": "Severity 3 per rubric §3 — rozsudek soudu shledávající pochybení ministerstva při klasifikaci politické strany jako extremistické má precedentní hodnotu pro vztah státu k politickým subjektům a ochranu jejich práv (subkomponenta J4 — rovnost před zákonem, stejné zacházení bez ohledu na politické postavení). Ačkoli rozsudek není pravomocný, jde o konkrétní soudní rozhodnutí s institucionálním dopadem. Direction +1, protože soud fungoval jako korektiv exekutivního excese. Sekundárně relevantní pro pilíř `civil` (C3 — svoboda sdružování a ochrana před administrativní šikanou politických stran).\n\n[merged with 2026-W26-112 — same incident, sources combined]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z",
+    "expires_at": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-110",
+    "date": "2026-06-26",
+    "headline": "Soud pravomocně zamítl vazbu pro primátora Karviné Wolfa obviněného z korupce",
+    "summary": "Soudkyně Okresního soudu v Ostravě po čtyřhodinovém jednání zamítla návrh státního zástupce na vzetí primátora Karviné Jana Wolfa do vazby v korupční fotbalové aféře. Rozhodnutí je pravomocné a nelze se proti němu odvolat, Wolf bude stíhán na svobodě.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Primátor Karviné Wolf nepůjde do vazby, rozhodl pravomocně soud",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/primator-karvine-wolf-nepujde-do-vazby-soud-navrh-zamitl-374992",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-27T07:20:53.942Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní procesní rozhodnutí v probíhající korupční kauze lokálního politika (subkomponenta K1 — politická korupce), které samo o sobě nemá dopad na fungování instituce ani nevytváří systémový precedent. Zamítnutí vazby je standardní soudní úkon; neindikuje selhání ani posílení protikorupčního systému jako celku. Direction 0 — výsledek je procesně neutrální (soud rozhodl podle standardních kritérií pro vazbu, nikoli politicky). Kauza samotná je relevantní pro pilíř `corruption`, ale tato konkrétní událost nemá jasný demokratický dopad v jednom směru.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z",
+    "expires_at": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-111",
+    "date": "2026-06-26",
+    "headline": "Předseda Sněmovny Okamura a exprezident Klaus vystoupili na konferenci AfD v německém Bundestagu",
+    "summary": "Předseda Poslanecké sněmovny Tomio Okamura a bývalý prezident Václav Klaus vystoupili na konferenci strany AfD v německém Bundestagu, kde kritizovali liberální demokracii a veřejnoprávní média. Klaus odsoudil démonizaci AfD, Okamura si stěžoval na veřejnoprávní média.",
+    "pillar": "media",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Kritika liberální demokracie i stížnost na veřejnoprávní média. Klaus a Okamura vystoupili na konferenci AfD",
+        "url": "https://zahranicni.hn.cz/c1-67897350-kritika-liberalni-demokracie-i-stiznost-na-verejnopravni-media-klaus-a-okamura-vystoupili-na-konferenci-afd",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-27T07:20:54.730Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — veřejné vystoupení předsedy Sněmovny (nejvyšší představitel zákonodárné moci) na akci zahraniční krajně pravicové strany, kde kritizoval veřejnoprávní média, představuje konkrétní verbální útok na nezávislost médií ze strany ústavního činitele (subkomponenta M2 — nezávislost ČT a ČRo). Nemá přímý institucionální dopad, ale je zaznamenatelným incidentem s ohledem na postavení aktéra. Sekundárně relevantní pro pilíř `civil` (C1 — svoboda projevu, vztah politické moci k liberální demokracii) a `governance` (G1 — reprezentativní funkce předsedy Sněmovny). Rubric §2: „kontroverzní rozhodnutí, které samo o sobě neohrožuje instituci, ale zaslouží si zaznamenání.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z",
+    "expires_at": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-114",
+    "date": "2026-06-23",
+    "headline": "Soudy řeší stamilionové odškodné za nezákonné konkurzy z éry Berkovy mafie",
+    "summary": "U soudů znovu ožívají kauzy zmanipulovaných konkurzů z konce 90. let, které organizoval ústecký soudce Jiří Berka. Poškozené firmy nyní žalují stát o stamilionové odškodné za pochybení justice. Jde o systémové selhání soudní kontroly, jehož důsledky stát řeší dodnes.",
+    "pillar": "judicial",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Čtvrtstoletí starý nájezd Berkovy mafie ožil u soudu. Poškozená firma chce za nezákonný konkurz stamilionové odškodné",
+        "url": "https://domaci.hn.cz/c1-67895690-u-soudu-ozil-duch-soudce-berky-firma-poskozena-nezakonnym-konkurzem-bojuje-o-stamilionove-odskodne",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-27T07:20:54.730Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jde o historický případ (čtvrtstoletí starý), jehož aktéři již odpykali tresty; současné soudní řízení o odškodné je legitimním institucionálním procesem, nikoliv novou krizí nezávislosti justice. Relevantní subkomponenta J4 (rovnost před zákonem, státní odpovědnost za pochybení justice) a J2 (pochybení obecných soudů). Persistent, protože řízení stále probíhají. Downgrade z potenciální 3 z důvodu historické povahy — primární selhání nastalo před 25 lety a bylo institucionálně řešeno; současné řízení je korekční mechanismus, nikoli nové selhání.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z"
+  },
+  {
+    "id": "2026-W26-116",
+    "date": "2026-06-27",
+    "headline": "Ministerstvo obrany obsazuje klíčové posty osobami s vazbami na komunistický režim",
+    "summary": "Server Aktuálně.cz upozorňuje, že po nástupu ministra Zůny na ministerstvo obrany jsou do vedoucích funkcí dosazovány osoby s členstvím v KSČ, včetně náměstka Vícha a ředitele vyzbrojovací sekce Gurníka, u nějž navíc záznamy z Archivu bezpečnostních složek naznačují, že byl v 80. letech prověřován vojenskou kontrarozvědkou. Besazování klíčových obranných pozic osobami spojenými s totalitním aparátem vyvolává otázky ohledně institucionální integrity a bezpečnostního prověřování.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "„Chci se vzdělávat v SSSR.“ Zůnův zbrojíř mlží, proč jej prověřovali vojenští agenti",
+        "url": "https://zpravy.aktualne.cz/domaci/chci-se-vzdelavat-v-sssr-zunuv-zbrojir-mlzi-proc-jej-proverovali-vojensti-agenti/r~aaa29209d00e6639da24444440ee1ffe/",
+        "outlet": "Aktuálně.cz",
+        "fetched_at": "2026-06-27T07:20:55.456Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 3 per rubric §3 — systematické obsazování klíčových pozic na ministerstvu obrany osobami s prokázanými vazbami na komunistický aparát (subkomponenta G1: dělba moci a institucionální integrita exekutivy) vytváří precedent a naznačuje vzorec, nikoli ojedinělý personální výběr. Článek pracuje s archivními dokumenty (ABS), což zvyšuje důvěryhodnost zdroje. Single source; v případě potvrzení dalšími zdroji eskalace na 4. Sekundárně se dotýká pilíře civil (C5 — bezpečnostní prověřování a státní důvěra v institucích).\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z"
+  },
+  {
+    "id": "2026-W26-117",
+    "date": "2026-06-27",
+    "headline": "Vládní poslanec bagatelizuje rasistické heslo, extremisté pronikají do okolí koalice",
+    "summary": "Investigativní pořad Seznam Zpráv zdokumentoval, že osoby z neonacistických a krajně pravicových kruhů se dostávají do blízkosti vládních poslanců. Jeden z poslanců koalice bagatelizoval rasistické heslo na kšiltovce. Téma naznačuje systematičtější přítomnost extremistů na okraji mainstreamu.",
+    "pillar": "civil",
+    "severity": 2,
+    "direction": -1,
+    "duration": "persistent",
+    "sources": [
+      {
+        "title": "Video: „Hezká kšiltovka,“ říká vládní poslanec. Rasistické heslo mu nevadí",
+        "url": "https://www.seznamzpravy.cz/clanek/porady-teren-video-hezka-ksiltovka-rika-vladni-poslanec-rasisticke-heslo-mu-nevadi-309334",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-27T07:20:56.497Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — konkrétní zdokumentovaný incident s vládním poslancem tolerujícím rasistické symboly je drobné porušení demokratické normy s lokálním dopadem (subkomponenta C4 — ochrana menšin, tolerance vůči nenávistným symbolům). Nejde o legislativní ani institucionální krok, ale o verifikovatelné chování pojmenovaného politika. Pokud by šlo o prokazatelný vzorec napříč koalicí, eskalace na 3 by byla odůvodněná; zatím jeden doložený případ. Sekundárně se dotýká E2 (politický pluralismus a normy politické kultury).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z"
+  },
+  {
+    "id": "2026-W26-118",
+    "date": "2026-06-27",
+    "headline": "Armáda zrušila Radu velitelů aktivní zálohy bez náhrady",
+    "summary": "Ministerstvo obrany či armádní vedení rozhodlo o zrušení poradního orgánu, který zprostředkovával zpětnou vazbu dobrovolných záložníků vůči generálům. Armáda odůvodnila krok tím, že rada stála mimo velitelský řetězec a není v současné situaci potřebná.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "„Sekne se to.“ Konec rady velitelů aktivní zálohy budí obavy",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-zivot-v-cesku-sekne-se-to-konec-rady-velitelu-aktivni-zalohy-budi-obavy-308911",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-27T07:20:56.497Z"
+      }
+    ],
+    "score_impact": -0.2,
+    "rationale": "Severity 1 per rubric §1 — jedná se o interní organizační rozhodnutí v rámci armády bez přímého dopadu na demokratické instituce, dělbu moci nebo ústavní normy (subkomponenta G1 nebo G4 se nedotýká přímo). Zrušení poradního tělesa záložníků je procedurální změna, která může být legitimní; dosavadní zdroj (jedno médium) nenaznačuje politicky motivovaný útok na nezávislost instituce. Dopad na demokratické skóre je zanedbatelný; při doložení politické motivace by byl vhodný upgrade.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z",
+    "expires_at": "2026-09-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-119",
+    "date": "2026-06-26",
+    "headline": "Okamura jako předseda Sněmovny a exprezident Klaus vystoupili na konferenci AfD a podpořili ji ve volbách",
+    "summary": "Předseda Poslanecké sněmovny Okamura a exprezident Klaus pronesli projevy na konferenci německé strany AfD a veřejně jí přáli vítězství v německých volbách. Okamurova účast je zvláště citlivá z hlediska role ústavního činitele.",
+    "pillar": "governance",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Klaus a Okamura promluvili na konferenci AfD, popřáli jí vítězství ve volbách",
+        "url": "https://www.seznamzpravy.cz/clanek/zahranicni-klaus-a-okamura-promluvili-na-konferenci-afd-poprali-ji-vitezstvi-ve-volbach-309476",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-27T07:20:56.497Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — předseda Sněmovny je druhý nejvyšší ústavní činitel ČR; jeho veřejná podpora konkrétní zahraniční strany (AfD, klasifikované v Německu jako extremistická) v kontextu voleb vytváří reputační a normativní problém pro instituci (subkomponenta G1 — dělba moci a respekt k roli ústavních institucí). Jde o drobné, ale konkrétní porušení nepsané normy ústavní nestrannosti vůči zahraničním volbám. Exprezident Klaus je soukromá osoba bez ústavní funkce, jeho účast institucionální dopad nemá. Anti-bias check: stejnou severity bych přiřadil předsedovi Sněmovny z jakékoliv strany za obdobný krok. Sekundárně se dotýká E2 (signalizace příklonu k neliberálním zahraničním vzorům).",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-27T07:20:52.898Z",
+    "expires_at": "2026-09-18T00:00:00.000Z"
   }
 ]
