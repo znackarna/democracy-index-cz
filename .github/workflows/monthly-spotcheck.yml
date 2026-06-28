@@ -4,8 +4,10 @@ name: monthly spotcheck
 # events z předchozího měsíce. Per methodology/governance.md vrstva 5 —
 # nezávisí na pipeline, je to čistě calibration loop pro reviewera.
 on:
-  schedule:
-    - cron: '0 8 1 * *'
+  # SLEEP MODE (od 2026-06-28): cron pozastaven, viz SLEEPING.md.
+  # Manuální trigger zůstává.
+  # schedule:
+  #   - cron: '0 8 1 * *'
   workflow_dispatch:
     inputs:
       month:
