@@ -793,10 +793,16 @@
         "url": "https://domaci.hn.cz/c1-67897260-zmena-pravidel-pro-zamestnavani-uredniku-prosla-snemovnou-podle-opozice-povede-k-politizaci-statni-spravy",
         "outlet": "Hospodářské noviny",
         "fetched_at": "2026-06-27T07:20:54.730Z"
+      },
+      {
+        "title": "Vláda změnami neřeší problémy státní správy, říká Dvořák. Ožanová: Zjednodušení bylo třeba",
+        "url": "https://ct24.ceskatelevize.cz/clanek/domaci/vlada-zmenami-neresi-problemy-statni-spravy-rika-dvorak-ozanova-zjednoduseni-bylo-treba-375010",
+        "outlet": "ČT24",
+        "fetched_at": "2026-06-28T07:36:42.044Z"
       }
     ],
     "score_impact": -0.5,
-    "rationale": "Severity 3 per rubric §3 — návrh zákona usnadňující výměnu státních úředníků představuje potenciální precedent pro politizaci státní správy (subkomponenta G1: dělba moci a ochrana před politickým ovlivněním exekutivy). Obavy opozice naznačují, že zákon může narušit nestrannost veřejné správy. Zákon zatím nebyl schválen, jedná se o první čtení/hlasování, proto one_off. Pokud by byl přijat a vstoupil v platnost, eskalace na severity 4 a persistent by byla na místě. Anti-bias: stejné hodnocení by platilo bez ohledu na to, která koalice zákon předkládá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W26-087 — same incident, sources combined]\n\n[merged with 2026-W26-103 — direction/severity conflict, set status=disputed for reviewer]",
+    "rationale": "Severity 3 per rubric §3 — návrh zákona usnadňující výměnu státních úředníků představuje potenciální precedent pro politizaci státní správy (subkomponenta G1: dělba moci a ochrana před politickým ovlivněním exekutivy). Obavy opozice naznačují, že zákon může narušit nestrannost veřejné správy. Zákon zatím nebyl schválen, jedná se o první čtení/hlasování, proto one_off. Pokud by byl přijat a vstoupil v platnost, eskalace na severity 4 a persistent by byla na místě. Anti-bias: stejné hodnocení by platilo bez ohledu na to, která koalice zákon předkládá.\n\n[severity capped from 3 to 2 due to source-count rule: 1 unique outlet, 2 required for severity 3]\n\n[merged with 2026-W26-087 — same incident, sources combined]\n\n[merged with 2026-W26-103 — direction/severity conflict, set status=disputed for reviewer]\n\n[merged with 2026-W26-122 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
     "status": "disputed",
     "created_at": "2026-06-24T07:28:06.530Z",
@@ -2035,12 +2041,18 @@
         "url": "https://ct24.ceskatelevize.cz/clanek/domaci/primator-karvine-wolf-nepujde-do-vazby-soud-navrh-zamitl-374992",
         "outlet": "ČT24",
         "fetched_at": "2026-06-27T07:20:53.942Z"
+      },
+      {
+        "title": "Obviněný primátor Wolf bude stíhán na svobodě. Soud návrhu na vazbu nevyhověl",
+        "url": "https://domaci.hn.cz/c1-67897330-obvineny-primator-wolf-bude-stihan-na-svobode-soud-navrhu-na-vazbu-nevyhovel",
+        "outlet": "Hospodářské noviny",
+        "fetched_at": "2026-06-28T07:36:43.283Z"
       }
     ],
     "score_impact": 0,
-    "rationale": "Severity 2 per rubric §2 — jde o konkrétní procesní rozhodnutí v probíhající korupční kauze lokálního politika (subkomponenta K1 — politická korupce), které samo o sobě nemá dopad na fungování instituce ani nevytváří systémový precedent. Zamítnutí vazby je standardní soudní úkon; neindikuje selhání ani posílení protikorupčního systému jako celku. Direction 0 — výsledek je procesně neutrální (soud rozhodl podle standardních kritérií pro vazbu, nikoli politicky). Kauza samotná je relevantní pro pilíř `corruption`, ale tato konkrétní událost nemá jasný demokratický dopad v jednom směru.",
+    "rationale": "Severity 2 per rubric §2 — jde o konkrétní procesní rozhodnutí v probíhající korupční kauze lokálního politika (subkomponenta K1 — politická korupce), které samo o sobě nemá dopad na fungování instituce ani nevytváří systémový precedent. Zamítnutí vazby je standardní soudní úkon; neindikuje selhání ani posílení protikorupčního systému jako celku. Direction 0 — výsledek je procesně neutrální (soud rozhodl podle standardních kritérií pro vazbu, nikoli politicky). Kauza samotná je relevantní pro pilíř `corruption`, ale tato konkrétní událost nemá jasný demokratický dopad v jednom směru.\n\n[merged with 2026-W26-123 — direction/severity conflict, set status=disputed for reviewer]",
     "reviewer": "auto",
-    "status": "active",
+    "status": "disputed",
     "created_at": "2026-06-27T07:20:52.898Z",
     "expires_at": "2026-09-18T00:00:00.000Z"
   },
@@ -2184,5 +2196,83 @@
     "status": "active",
     "created_at": "2026-06-27T07:20:52.898Z",
     "expires_at": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-120",
+    "date": "2026-06-27",
+    "headline": "Ministr Šťastný navrhuje odebrat dotace festivalu Strážnice po vypískání kolegy Klempíře",
+    "summary": "Ministr pro sport Boris Šťastný (Motoristé sobě) navrhl odebrat dotace folklornímu festivalu ve Strážnici poté, co byl jeho stranický kolega, ministr kultury Oto Klempíř, veřejností vypískán. Festival přitom žádné státní dotace nedostává. Na akci byl posléze vypískán i předseda Motoristů Petr Macinka.",
+    "pillar": "governance",
+    "severity": 3,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Zrušit dotace pro Strážnici, navrhuje Šťastný po vypískání Klempíře. „Vypadni,“ křičeli lidé na Macinku",
+        "url": "https://denikn.cz/2109851/zrusit-dotace-pro-straznici-navrhuje-stastny-po-vypiskani-klempire-vypadni-kriceli-lide-na-macinku/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-28T07:36:40.563Z"
+      },
+      {
+        "title": "Jste v zajetí buranství, vzkázal Klempíř na festival. Pak tam vypískali i Macinku",
+        "url": "https://www.seznamzpravy.cz/clanek/domaci-kauzy-vypiskany-klempir-byl-alkohol-buranstvi-a-sprostota-309496",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-28T07:36:45.497Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — jednorázové politicky motivované vyjádření ministra s omezeným institucionálním dopadem (subkomponenta G4: transparentnost a výkaznost vládnutí, zneužití výhrůžky odebráním dotací jako politického nástroje), přičemž navrhovaný krok je fakticky nereálný (festival dotace nedostává). Nejde o formální rozhodnutí ani o strukturální trend, ale kontroverzní výrok veřejného činitele zaslouží zaznamenání. Sekundárně se dotýká svobody kulturního vyjádření (C1), avšak primárním pilířem zůstává governance jako zneužití vládní pozice k politickému nátlaku.\n\n[merged with 2026-W26-125 — direction/severity conflict, set status=disputed for reviewer]",
+    "reviewer": "auto",
+    "status": "disputed",
+    "created_at": "2026-06-28T07:36:40.548Z",
+    "expires_at": "2026-09-19T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-121",
+    "date": "2026-06-26",
+    "headline": "ANO hledá nového kandidáta na pražského primátora po rezignaci Prokopa v kauze majetkového přiznání",
+    "summary": "Hnutí ANO musí těsně před podzimními komunálními volbami najít nového kandidáta na primátora Prahy poté, co Ondřej Prokop rezignoval v důsledku kauzy kolem svých bytů a majetkového přiznání. Hnutí zvažuje několik jmen včetně jednoho favorita.",
+    "pillar": "corruption",
+    "severity": 2,
+    "direction": -1,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "ANO hledá kandidáta na primátora Prahy. Místo Prokopa jsou zatím ve hře čtyři jména",
+        "url": "https://denikn.cz/2108889/ano-hleda-kandidata-na-primatora-prahy-misto-prokopa-jsou-zatim-ve-hre-ctyri-jmena/",
+        "outlet": "Deník N",
+        "fetched_at": "2026-06-28T07:36:40.563Z"
+      }
+    ],
+    "score_impact": -0.5,
+    "rationale": "Severity 2 per rubric §2 — rezignace krajského politického lídra ANO v důsledku kauzy majetkového přiznání (subkomponenta K1: střet zájmů a nepřiznání aktiv, K3: transparentnost financování politiky) je konkrétní událost s omezeným dopadem na celostátní instituce, ale s relevancí pro komunální politiku. Samotné hledání náhradníka je vnitrostranická záležitost bez přímého institucionálního dopadu na pilíř electoral; kořenová příčina (kauza majetkového přiznání) míří do corruption. Eskalace na 3 by vyžadovala prokázanější závažnost nepřiznaných aktiv nebo celostátní dopad.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-28T07:36:40.548Z",
+    "expires_at": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "2026-W26-124",
+    "date": "2026-06-28",
+    "headline": "Pražské zastupitelstvo schválilo návrat sochy maršála Radeckého",
+    "summary": "Pražské zastupitelstvo rozhodlo o schválení návratu bronzové sochy maršála Radeckého na veřejné prostranství. Rozhodnutí je komentováno jako kontroverzní s ohledem na historický kontext osobnosti.",
+    "pillar": "governance",
+    "severity": 1,
+    "direction": 0,
+    "duration": "one_off",
+    "sources": [
+      {
+        "title": "Šuplík: Deset tun bronzu před Caffé Radetzky. To dává smysl",
+        "url": "https://www.seznamzpravy.cz/clanek/nazory-komentare-suplik-deset-tun-bronzu-pred-caffe-radetzky-to-dava-smysl-309456",
+        "outlet": "Seznam Zprávy",
+        "fetched_at": "2026-06-28T07:36:45.497Z"
+      }
+    ],
+    "score_impact": 0,
+    "rationale": "Severity 1 per rubric §1 — jde o standardní rozhodnutí samosprávy o veřejném prostoru (subkomponenta G1/G2 na lokální úrovni) bez precedentního dopadu na demokratické instituce. Kontroverzní pouze v historicko-kulturním smyslu, nikoli z hlediska demokratického backslidingu. Direction 0, protože rozhodnutí zastupitelstva je standardním výkonem samosprávy bez jednoznačného dopadu na demokratické standardy v žádném směru. Zvažována klasifikace is_event: false, ale formální hlasování zastupitelstva je konkrétní datovaná událost s institucionálním rozhodnutím.",
+    "reviewer": "auto",
+    "status": "active",
+    "created_at": "2026-06-28T07:36:40.548Z",
+    "expires_at": "2026-09-20T00:00:00.000Z"
   }
 ]
